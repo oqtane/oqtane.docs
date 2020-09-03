@@ -2,7 +2,7 @@
   "api/index.html": {
     "href": "api/index.html",
     "title": "Oqtane API Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework",
-    "keywords": "Oqtane API Documentation Note The API documentation is still work-in-progress. Colors and Icons APIs can be daunting. Because of this, we've color-coded the menu to the left and added icons to make it easier for you to get around. Note This is what the colors and icons in the TOC mean: Anything that's light gray / subdued is probably not of interest to you marks things usually used in Razor/WebApi development marks things related to data processing, usually data sources marks ADAM things (automatic Digital Asset Management) marks things related to metadata These areas are probably what you would like to research TODO"
+    "keywords": "Oqtane API Documentation Note The API documentation is still work-in-progress. Colors and Icons APIs can be daunting. Because of this, we've color-coded the menu to the left and added icons to make it easier for you to get around. Note This is what the colors and icons in the TOC mean: Anything that's light gray / subdued is probably not of interest to you marks WebApi related things marks things related to data like models and repositories marks Module related things marks things related to themes These areas are probably what you would like to research TODO"
   },
   "api/Oqtane.Client.html": {
     "href": "api/Oqtane.Client.html",
