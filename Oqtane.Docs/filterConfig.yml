@@ -1,0 +1,18 @@
+
+
+
+
+
+apiRules:
+# Exclude System.Object or System.Reflection to avoid having .Equals and stuff in the docs
+- exclude:
+    uidRegex: ^System\.
+
+# hides things like Microsoft.Extensions.DependencyInjection etc.
+- exclude:
+    uidRegex: ^Microsoft\.
+
+
+# Exclude any tests
+- exclude:
+    uidRegex: ^Oqtane.Test\.
