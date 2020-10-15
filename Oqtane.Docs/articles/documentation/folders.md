@@ -17,5 +17,6 @@ The merging happens because the unique ID of the `md` files matches the full nam
 	IDs of Contents in this folder should start with `Specs`
 
 
-### Assets Folders
+## Assets Folders
 
+We recommend placing all assets - mostly images - in `assets` subfolders everywhere. This ensures that the image really belongs to that folder and can be deleted again, if not in use. 

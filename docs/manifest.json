@@ -25,12 +25,79 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/assets/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/documentation/api-menu.md",
       "output": {
         ".html": {
           "relative_path": "articles/documentation/api-menu.html",
-          "hash": "cZMTE/fR/73aiGdhDKn7GQ=="
+          "hash": "c5mrcwZNssjwR4cQtr2Sdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documentation/assets/folder-structure-for-building.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documentation/assets/folder-structure-for-building.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documentation/assets/vs-code-build-succeeded.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documentation/assets/vs-code-build-succeeded.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documentation/assets/vs-code-build.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documentation/assets/vs-code-build.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documentation/assets/vs-code-run-task.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documentation/assets/vs-code-run-task.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documentation/build.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documentation/build.html",
+          "hash": "ATUE6HXswUfbpjUPKQFMwQ=="
         }
       },
       "is_incremental": false,
@@ -42,7 +109,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documentation/code.html",
-          "hash": "VfohhDEHFCvNzWJtnx8/6A=="
+          "hash": "U895JoNOCO5LTXttukBY2Q=="
         }
       },
       "is_incremental": false,
@@ -54,7 +121,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documentation/folders.html",
-          "hash": "abTBozgi3s949qGRFNeKxA=="
+          "hash": "kDoRvAGCXZmfMTHSwOQukA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +133,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documentation/how-it-works.html",
-          "hash": "QMzF6QvO+Ubqy3DgIRpHKw=="
+          "hash": "tMk25NIZVblRi0Qu/MU/Tg=="
         }
       },
       "is_incremental": false,
@@ -78,7 +145,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/documentation/index.html",
-          "hash": "5jHLw0AWKJEcsoHeVWzxMw=="
+          "hash": "Ch0pR7hxZLbg4VOLvwjUsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documentation/markdown.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documentation/markdown.html",
+          "hash": "/TSIpnTGCu6d+OKtHeJlew=="
         }
       },
       "is_incremental": false,
@@ -90,7 +169,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documentation/run-in-iis.html",
-          "hash": "yRGbwjWwTAjX+j9DrULWWA=="
+          "hash": "n862uAXa5sfNgUZ0urVCcw=="
         }
       },
       "is_incremental": false,
@@ -98,22 +177,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
+      "source_relative_path": "articles/index.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "66aCNSV2qbnosgpeomCOvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/logo.png"
+          "relative_path": "articles/index.html",
+          "hash": "samBvG/UOV5rSJ+tWcHDyQ=="
         }
       },
       "is_incremental": false,
@@ -125,7 +193,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "7o6W7zi2ljjpO+rRszJIDQ=="
+          "hash": "rJSTYldARbesfqYZX5JVcg=="
         }
       },
       "is_incremental": false,
@@ -137,7 +205,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "7oS9IccrsYGCl+U8uO768Q=="
+          "hash": "NRbleOlA42+/n4c71HyhMQ=="
         }
       },
       "is_incremental": false,
@@ -3631,7 +3699,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "b5pOwTY8nv0y3tDaqsp09A=="
+          "hash": "KcCpTawO/6mNfZkvgWPd9w=="
         }
       },
       "is_incremental": false,
@@ -3643,7 +3711,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "nbyvjdVQSgIKJ80uBJ3ulA=="
+          "hash": "lXbbambo5EYavZBrY/Qf/g=="
         }
       },
       "is_incremental": false,
@@ -3653,25 +3721,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 0
+          "total_file_count": 12,
+          "skipped_file_count": 10
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 293,
-          "skipped_file_count": 0
+          "skipped_file_count": 293
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -1,11 +1,16 @@
 
 - name: How DocFx Works
   href: how-it-works.md
-- name: Folders and Files
-  href: folders.md
+  items:
+    - name: Folders and Files
+      href: folders.md
+    - name: About the API TOC
+      href: api-menu.md
+- name: Markdown Tips
+  href: markdown.md
 - name: Documenting Code
   href: code.md
-- name: About the API TOC
-  href: api-menu.md
+- name: Build and Deploy Docs
+  href: build.md
 - name: Run Docs on Local IIS
   href: run-in-iis.md

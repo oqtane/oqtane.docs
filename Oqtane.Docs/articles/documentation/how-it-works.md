@@ -5,9 +5,6 @@ The initial configuration starts with the `docfx.json` file.
 Basically this says what code it should pick up, where the `.md` files are and where to put the output. 
 We've tried to make it very clear where we made relevant changes and smuggled comment-nodes into the file for clarity. 
 
-
-An important thing to note is that ... api ... etc.
-
 ## Layout
 
 The layout is configured in the `docfx.json` where it will 
@@ -31,9 +28,6 @@ The site navigation is cascaded through the `toc.yml` files in each folder.
     1. Ignore all `Microsoft.*`, `System.*` and `Oqtane.Test.*` namespaces
 
 
-## How to
-
-
 ## Troubleshooting
 
 ### Problems with MSBuild or .net SDK
@@ -45,3 +39,7 @@ If you need to troubleshoot this, best contact iJungleboy on Github.
 
 MSBuild will compile everyting into the `obj` folder of this docs-project. 
 This is used as a cache for the next builds. If you run into unexpected results, always clean out the `obj` folder first. 
+
+### Problems with Github links
+
+Docfx automatically links all the auto-generated docs with the git-repo. So make sure that the `oqtane.framework` is pulled from the official location `https://github.com/oqtane/oqtane.framework` - otherwise the links will point to another repo. 

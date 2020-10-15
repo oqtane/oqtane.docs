@@ -1,8 +1,5 @@
 
 
-
-
-
 apiRules:
 # Exclude System.Object or System.Reflection to avoid having .Equals and stuff in the docs
 - exclude:
@@ -16,3 +13,10 @@ apiRules:
 # Exclude any tests
 - exclude:
     uidRegex: ^Oqtane.Test\.
+
+# Exclude anything marked as PrivateApi
+# In future, we may change this to only show things which are PublicApi (recommendation of iJungleboy)
+- exclude:
+  hasAttribute: 
+      uid: ToSic.Eav.Documentation.PrivateApi
+  

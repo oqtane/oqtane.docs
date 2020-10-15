@@ -56,7 +56,7 @@
                 
                 <ul class="nav level1 navbar-nav">
                       <li>
-                          <a href="../../articles/intro.html" title="Articles">Articles</a>
+                          <a href="../../articles/index.html" title="Articles">Articles</a>
                       </li>
                       <li>
                           <a href="../../api/index.html" title="API Documentation">API Documentation</a>
@@ -99,7 +99,6 @@
 <p>The initial configuration starts with the <code>docfx.json</code> file. 
 Basically this says what code it should pick up, where the <code>.md</code> files are and where to put the output. 
 We&#39;ve tried to make it very clear where we made relevant changes and smuggled comment-nodes into the file for clarity. </p>
-<p>An important thing to note is that ... api ... etc.</p>
 <h2 id="layout">Layout</h2>
 <p>The layout is configured in the <code>docfx.json</code> where it will 
 start with the <code>default</code> template, extend it with <code>statictoc</code> (generate real html menu-structures, not just JS) 
@@ -119,7 +118,6 @@ So we recommend you stick to the yaml format everywhere. </p>
 </ol>
 </li>
 </ol>
-<h2 id="how-to">How to</h2>
 <h2 id="troubleshooting">Troubleshooting</h2>
 <h3 id="problems-with-msbuild-or-net-sdk">Problems with MSBuild or .net SDK</h3>
 <p>Docfx runs MSBuild to compile the projects it finds. 
@@ -128,6 +126,8 @@ If you need to troubleshoot this, best contact iJungleboy on Github. </p>
 <h3 id="problems-with-old--unexpected-results">Problems with Old / Unexpected Results</h3>
 <p>MSBuild will compile everyting into the <code>obj</code> folder of this docs-project. 
 This is used as a cache for the next builds. If you run into unexpected results, always clean out the <code>obj</code> folder first. </p>
+<h3 id="problems-with-github-links">Problems with Github links</h3>
+<p>Docfx automatically links all the auto-generated docs with the git-repo. So make sure that the <code>oqtane.framework</code> is pulled from the official location <code>https://github.com/oqtane/oqtane.framework</code> - otherwise the links will point to another repo. </p>
 </article>
           </div>
           

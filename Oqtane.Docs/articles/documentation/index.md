@@ -1,7 +1,4 @@
-﻿
-
-
-# Oqtane Documentation
+﻿# Oqtane Documentation
 
 Here we'll explain how the documentation works, with all the magic in it. 
 
@@ -9,16 +6,10 @@ Here we'll explain how the documentation works, with all the magic in it.
 
 The `Oqtane.Docs` project generates the documentation for Oqtane using [docfx](https://dotnet.github.io/docfx/).
 
-The generator will compile all of Oqtane and create an output into `../../oqtane.docs`. 
-Note that this target is outside of the normal Oqtane repo structure, 
+The generator will compile all of Oqtane and create an output into `../docs`. 
+Note that this docs project is outside of the normal `oqtane.framework` repo structure, 
 because it's meant to be deployed to a separate repo https://github.com/oqtane/oqtane.docs 
 and then hosted on https://docs.oqtane.org
-
-
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-
-
-
 
 ## Important Considerations
 

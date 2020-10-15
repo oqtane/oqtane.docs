@@ -11,8 +11,6 @@
             "**/obj/**",
             "**/bin/**",
             "_site/**",
-            "Comment: The next line excludes this project, which doesn't contain code",
-            "Oqtane.Docs/**",
             "Comment: This next one excludes template projects which cause errors ",
             "**/Templates/External/**"
           ]
