@@ -18,5 +18,5 @@ apiRules:
 # In future, we may change this to only show things which are PublicApi (recommendation of iJungleboy)
 - exclude:
   hasAttribute: 
-      uid: ToSic.Eav.Documentation.PrivateApi
+      uid: Oqtane.Documentation.PrivateApi
   
