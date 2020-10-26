@@ -37,6 +37,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/concepts/dll-handling.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/concepts/dll-handling.html",
+          "hash": "HhWAAvvbyWJRbRJZhiizKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/concepts/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/concepts/index.html",
+          "hash": "JWtsqjL09PSBhaAQOSt4iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/documentation/api-menu.md",
       "output": {
         ".html": {
@@ -193,7 +217,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "rJSTYldARbesfqYZX5JVcg=="
+          "hash": "5EzeX8woc46o3FgXIYO8Vg=="
         }
       },
       "is_incremental": false,
@@ -3718,14 +3742,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 12,
-          "skipped_file_count": 12
+          "total_file_count": 14,
+          "skipped_file_count": 13
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 292,
-          "skipped_file_count": 40
+          "skipped_file_count": 292
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -60,17 +60,20 @@
     <None Include="apidoc\Modules\index.md" />
     <None Include="apidoc\Octane\index.md" />
     <None Include="api\index.md" />
+    <None Include="articles\concepts\dll-handling.md" />
+    <None Include="articles\concepts\index.md" />
+    <None Include="articles\concepts\toc.yml" />
+    <None Include="articles\documentation\build.md" />
     <None Include="articles\documentation\folders.md" />
     <None Include="articles\documentation\api-menu.md" />
     <None Include="articles\documentation\how-it-works.md" />
     <None Include="articles\documentation\code.md" />
     <None Include="articles\documentation\index.md" />
-    <None Include="articles\documentation\local-run.md" />
-    <None Include="articles\intro.md" />
-    <None Include="articles\toc.md" />
+    <None Include="articles\documentation\markdown.md" />
+    <None Include="articles\documentation\run-in-iis.md" />
+    <None Include="articles\index.md" />
     <None Include="index.md" />
     <None Include="readme.md" />
-    <None Include="articles\documentation\toc.yml" />
     <None Include="articles\documentation\toc.yml" />
     <None Include="articles\toc.yml" />
     <None Include="filterConfig.yml" />
@@ -357,7 +360,6 @@
     <None Include="obj\api\toc.yml" />
     <None Include="toc.yml" />
     <None Include="**\*.jpg" />
-    <None Include="articles\logo.png" />
     <None Include="layout\images\favicon.png" />
     <None Include="layout\images\logo-white-50.png" />
     <None Include="layout\images\logo-white.png" />
@@ -371,7 +373,6 @@
     <None Include="layout\oqtane\partials\toc.tmpl.partial" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="articles\logo.png" />
     <Content Include="layout\images\favicon.png" />
     <Content Include="layout\images\logo-white-50.png" />
     <Content Include="layout\images\logo-white.png" />
