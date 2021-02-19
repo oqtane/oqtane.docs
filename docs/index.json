@@ -1,4 +1,9 @@
 {
+  "admin/index.html": {
+    "href": "admin/index.html",
+    "title": "Oqtane Administration Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework",
+    "keywords": "Oqtane Administration Guide In this area we'll add a bunch of manuals inherited from DNN"
+  },
   "api/index.html": {
     "href": "api/index.html",
     "title": "Oqtane API Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework",
@@ -1607,7 +1612,7 @@
   "index.html": {
     "href": "index.html",
     "title": "Oqtane Documentation 2.0 | Oqtane Docs - APIs and more for the Modular Blazor Application Framework",
-    "keywords": "Oqtane Documentation 2.0 Oqtane is the Modular Application Framework for Blazor Modern, Flexible, and Open Source - running on .net 5.0 Documentation Contents In Articles you'll find background infos etc. In the API Documentation you'll find all the APIs To work on the docs, better read up on how the docs work"
+    "keywords": "Oqtane Documentation 2.0 Oqtane is the Modular Application Framework for Blazor Modern, Flexible, and Open Source - running on .net 5.0 Documentation Contents In Articles you'll find background infos etc. The Administration Manuals is WIP In the API Documentation you'll find all the APIs To work on the docs, better read up on how the docs work"
   },
   "readme.html": {
     "href": "readme.html",
