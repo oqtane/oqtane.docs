@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MasterDBContext
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,11 +78,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -105,30 +105,31 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MasterDBContext</span></div>
+    <div class="level1"><span class="xref">Microsoft.EntityFrameworkCore.DbContext</span></div>
+    <div class="level2"><span class="xref">MasterDBContext</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Repository.html">Oqtane.Repository</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
   <h5 id="Oqtane_Repository_MasterDBContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MasterDBContext : DbContext</code></pre>
+    <pre><code class="lang-csharp hljs">public class MasterDBContext : DbContext, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IDisposable, IAsyncDisposable, IResettableService</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext__ctor_DbContextOptions_Oqtane_Repository_MasterDBContext__Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.%23ctor(DbContextOptions%7BOqtane.Repository.MasterDBContext%7D%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_Oqtane_Repository_MasterDBContext__Microsoft_AspNetCore_Http_IHttpContextAccessor_Microsoft_Extensions_Configuration_IConfiguration_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.%23ctor(Microsoft.EntityFrameworkCore.DbContextOptions%7BOqtane.Repository.MasterDBContext%7D%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor%2CMicrosoft.Extensions.Configuration.IConfiguration)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L13">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L15">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext__ctor_" data-uid="Oqtane.Repository.MasterDBContext.#ctor*"></a>
-  <h4 id="Oqtane_Repository_MasterDBContext__ctor_DbContextOptions_Oqtane_Repository_MasterDBContext__Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Repository.MasterDBContext.#ctor(DbContextOptions{Oqtane.Repository.MasterDBContext},Microsoft.AspNetCore.Http.IHttpContextAccessor)">MasterDBContext(DbContextOptions&lt;MasterDBContext&gt;, IHttpContextAccessor)</h4>
+  <h4 id="Oqtane_Repository_MasterDBContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_Oqtane_Repository_MasterDBContext__Microsoft_AspNetCore_Http_IHttpContextAccessor_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="Oqtane.Repository.MasterDBContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Oqtane.Repository.MasterDBContext},Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Configuration.IConfiguration)">MasterDBContext(DbContextOptions&lt;MasterDBContext&gt;, IHttpContextAccessor, IConfiguration)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MasterDBContext(DbContextOptions&lt;MasterDBContext&gt; options, IHttpContextAccessor accessor)</code></pre>
+    <pre><code class="lang-csharp hljs">public MasterDBContext(DbContextOptions&lt;MasterDBContext&gt; options, IHttpContextAccessor accessor, IConfiguration configuration)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,7 +142,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbContextOptions</span>&lt;<a class="xref" href="Oqtane.Repository.MasterDBContext.html">MasterDBContext</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbContextOptions</span>&lt;<a class="xref" href="Oqtane.Repository.MasterDBContext.html">MasterDBContext</a>&gt;</td>
         <td><span class="parametername">options</span></td>
         <td></td>
       </tr>
@@ -150,16 +151,21 @@
         <td><span class="parametername">accessor</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_Alias.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.Alias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_Alias.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.Alias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L18">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L32">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext_Alias_" data-uid="Oqtane.Repository.MasterDBContext.Alias*"></a>
   <h4 id="Oqtane_Repository_MasterDBContext_Alias" data-uid="Oqtane.Repository.MasterDBContext.Alias">Alias</h4>
@@ -179,17 +185,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Oqtane.Models.Alias.html">Alias</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Models.Alias.html">Alias</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_Job.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.Job%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_Job.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.Job%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L21">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L35">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext_Job_" data-uid="Oqtane.Repository.MasterDBContext.Job*"></a>
   <h4 id="Oqtane_Repository_MasterDBContext_Job" data-uid="Oqtane.Repository.MasterDBContext.Job">Job</h4>
@@ -209,17 +215,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Oqtane.Models.Job.html">Job</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Models.Job.html">Job</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_JobLog.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.JobLog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_JobLog.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.JobLog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L22">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L36">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext_JobLog_" data-uid="Oqtane.Repository.MasterDBContext.JobLog*"></a>
   <h4 id="Oqtane_Repository_MasterDBContext_JobLog" data-uid="Oqtane.Repository.MasterDBContext.JobLog">JobLog</h4>
@@ -239,17 +245,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_ModuleDefinition.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.ModuleDefinition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_ModuleDefinition.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.ModuleDefinition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L20">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L34">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext_ModuleDefinition_" data-uid="Oqtane.Repository.MasterDBContext.ModuleDefinition*"></a>
   <h4 id="Oqtane_Repository_MasterDBContext_ModuleDefinition" data-uid="Oqtane.Repository.MasterDBContext.ModuleDefinition">ModuleDefinition</h4>
@@ -269,17 +275,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Oqtane.Models.ModuleDefinition.html">ModuleDefinition</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Models.ModuleDefinition.html">ModuleDefinition</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_Tenant.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.Tenant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_Tenant.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.Tenant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L19">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L33">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext_Tenant_" data-uid="Oqtane.Repository.MasterDBContext.Tenant*"></a>
   <h4 id="Oqtane_Repository_MasterDBContext_Tenant" data-uid="Oqtane.Repository.MasterDBContext.Tenant">Tenant</h4>
@@ -299,7 +305,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbSet</span>&lt;<a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -308,10 +314,44 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_SaveChanges.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.SaveChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L24">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L21">View Source</a>
+  </span>
+  <a id="Oqtane_Repository_MasterDBContext_OnConfiguring_" data-uid="Oqtane.Repository.MasterDBContext.OnConfiguring*"></a>
+  <h4 id="Oqtane_Repository_MasterDBContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_" data-uid="Oqtane.Repository.MasterDBContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">OnConfiguring(DbContextOptionsBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbContextOptionsBuilder</span></td>
+        <td><span class="parametername">optionsBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext_SaveChanges.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext.SaveChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L38">View Source</a>
   </span>
   <a id="Oqtane_Repository_MasterDBContext_SaveChanges_" data-uid="Oqtane.Repository.MasterDBContext.SaveChanges*"></a>
   <h4 id="Oqtane_Repository_MasterDBContext_SaveChanges" data-uid="Oqtane.Repository.MasterDBContext.SaveChanges">SaveChanges()</h4>
@@ -336,6 +376,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.DbContext.SaveChanges()</span></div>
 </article>
           </div>
           
@@ -344,15 +386,16 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_MasterDBContext.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_MasterDBContext.md&amp;value=---%0Auid%3A%20Oqtane.Repository.MasterDBContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/MasterDBContext.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

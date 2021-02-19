@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ModuleControlBase
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,11 +78,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -105,8 +105,10 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Oqtane.Modules.ModuleBase.html">ModuleBase</a></div>
-    <div class="level2"><span class="xref">ModuleControlBase</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Components.ComponentBase</span></div>
+    <div class="level2"><a class="xref" href="Oqtane.Modules.ModuleBase.html">ModuleBase</a></div>
+    <div class="level3"><span class="xref">ModuleControlBase</span></div>
+      <div class="level4"><a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html">LocalizableComponent</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -181,10 +183,16 @@
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_">ModuleBase.ContentUrl(Int32)</a>
     </div>
     <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_">ModuleBase.ContentUrl(Int32, Boolean)</a>
+    </div>
+    <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_GetUrlParameters_System_String_">ModuleBase.GetUrlParameters(String)</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_">ModuleBase.AddModuleMessage(String, MessageType)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ClearModuleMessage">ModuleBase.ClearModuleMessage()</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ShowProgressIndicator">ModuleBase.ShowProgressIndicator()</a>
@@ -200,7 +208,7 @@
   <h6><strong>Assembly</strong>: Oqtane.Client.dll</h6>
   <h5 id="Oqtane_Modules_ModuleControlBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ModuleControlBase : ModuleBase, IModuleControl</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ModuleControlBase : ModuleBase, IComponent, IHandleEvent, IHandleAfterRender, IModuleControl</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
   <div>
@@ -214,15 +222,16 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Modules_ModuleControlBase.md&amp;value=---%0Auid%3A%20Oqtane.Modules.ModuleControlBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_ModuleControlBase.md&amp;value=---%0Auid%3A%20Oqtane.Modules.ModuleControlBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Client/Modules/ModuleControlBase.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleControlBase.cs/#L5" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class LayoutBase
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,11 +78,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -105,8 +105,9 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Oqtane.Themes.ThemeBase.html">ThemeBase</a></div>
-    <div class="level2"><span class="xref">LayoutBase</span></div>
+    <div class="level1"><span class="xref">Microsoft.AspNetCore.Components.ComponentBase</span></div>
+    <div class="level2"><a class="xref" href="Oqtane.Themes.ThemeBase.html">ThemeBase</a></div>
+    <div class="level3"><span class="xref">LayoutBase</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -160,12 +161,15 @@
     <div>
       <a class="xref" href="Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_ContentUrl_System_Int32_">ThemeBase.ContentUrl(Int32)</a>
     </div>
+    <div>
+      <a class="xref" href="Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_ContentUrl_System_Int32_System_Boolean_">ThemeBase.ContentUrl(Int32, Boolean)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Themes.html">Oqtane.Themes</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Client.dll</h6>
   <h5 id="Oqtane_Themes_LayoutBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class LayoutBase : ThemeBase, IThemeControl, ILayoutControl</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class LayoutBase : ThemeBase, IComponent, IHandleEvent, IHandleAfterRender, IThemeControl, ILayoutControl</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
   <div>
@@ -182,15 +186,16 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Themes_LayoutBase.md&amp;value=---%0Auid%3A%20Oqtane.Themes.LayoutBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Themes_LayoutBase.md&amp;value=---%0Auid%3A%20Oqtane.Themes.LayoutBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Client/Themes/LayoutBase.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Themes/LayoutBase.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
