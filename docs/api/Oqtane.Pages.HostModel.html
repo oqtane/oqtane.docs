@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HostModel
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -61,6 +61,9 @@
                           <a href="../articles/index.html" title="Articles">Articles</a>
                       </li>
                       <li>
+                          <a href="../admin/index.html" title="Administration">Administration</a>
+                      </li>
+                      <li>
                           <a href="../api/index.html" title="API Documentation">API Documentation</a>
                       </li>
                 </ul>    </div>
@@ -78,11 +81,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -114,21 +117,104 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class HostModel : PageModel, IAsyncPageFilter, IPageFilter, IFilterMetadata</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Pages_HostModel_Resources.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel.Resources%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Pages_HostModel__ctor_Microsoft_Extensions_Configuration_IConfiguration_Oqtane_Shared_SiteState_Oqtane_Repository_IAliasRepository_Oqtane_Infrastructure_ILocalizationManager_Oqtane_Repository_ILanguageRepository_.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel.%23ctor(Microsoft.Extensions.Configuration.IConfiguration%2COqtane.Shared.SiteState%2COqtane.Repository.IAliasRepository%2COqtane.Infrastructure.ILocalizationManager%2COqtane.Repository.ILanguageRepository)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Pages/_Host.cshtml.cs/#L12">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Pages/_Host.cshtml.cs/#L26">View Source</a>
   </span>
-  <h4 id="Oqtane_Pages_HostModel_Resources" data-uid="Oqtane.Pages.HostModel.Resources">Resources</h4>
+  <a id="Oqtane_Pages_HostModel__ctor_" data-uid="Oqtane.Pages.HostModel.#ctor*"></a>
+  <h4 id="Oqtane_Pages_HostModel__ctor_Microsoft_Extensions_Configuration_IConfiguration_Oqtane_Shared_SiteState_Oqtane_Repository_IAliasRepository_Oqtane_Infrastructure_ILocalizationManager_Oqtane_Repository_ILanguageRepository_" data-uid="Oqtane.Pages.HostModel.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Oqtane.Shared.SiteState,Oqtane.Repository.IAliasRepository,Oqtane.Infrastructure.ILocalizationManager,Oqtane.Repository.ILanguageRepository)">HostModel(IConfiguration, SiteState, IAliasRepository, ILocalizationManager, ILanguageRepository)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Resources</code></pre>
+    <pre><code class="lang-csharp hljs">public HostModel(IConfiguration configuration, SiteState state, IAliasRepository aliases, ILocalizationManager localizationManager, ILanguageRepository languages)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Shared.SiteState.html">SiteState</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.IAliasRepository.html">IAliasRepository</a></td>
+        <td><span class="parametername">aliases</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Infrastructure.ILocalizationManager.html">ILocalizationManager</a></td>
+        <td><span class="parametername">localizationManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.ILanguageRepository.html">ILanguageRepository</a></td>
+        <td><span class="parametername">languages</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Pages_HostModel_BodyResources.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel.BodyResources%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Pages/_Host.cshtml.cs/#L41">View Source</a>
+  </span>
+  <h4 id="Oqtane_Pages_HostModel_BodyResources" data-uid="Oqtane.Pages.HostModel.BodyResources">BodyResources</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BodyResources</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Pages_HostModel_HeadResources.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel.HeadResources%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Pages/_Host.cshtml.cs/#L40">View Source</a>
+  </span>
+  <h4 id="Oqtane_Pages_HostModel_HeadResources" data-uid="Oqtane.Pages.HostModel.HeadResources">HeadResources</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HeadResources</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,10 +235,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Pages_HostModel_OnGet.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel.OnGet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Pages_HostModel_OnGet.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel.OnGet%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Pages/_Host.cshtml.cs/#L14">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Pages/_Host.cshtml.cs/#L43">View Source</a>
   </span>
   <a id="Oqtane_Pages_HostModel_OnGet_" data-uid="Oqtane.Pages.HostModel.OnGet*"></a>
   <h4 id="Oqtane_Pages_HostModel_OnGet" data-uid="Oqtane.Pages.HostModel.OnGet">OnGet()</h4>
@@ -170,15 +256,16 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Pages_HostModel.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Pages_HostModel.md&amp;value=---%0Auid%3A%20Oqtane.Pages.HostModel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Pages/_Host.cshtml.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Pages/_Host.cshtml.cs/#L18" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

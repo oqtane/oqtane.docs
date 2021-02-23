@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Data
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -61,6 +61,9 @@
                           <a href="../articles/index.html" title="Articles">Articles</a>
                       </li>
                       <li>
+                          <a href="../admin/index.html" title="Administration">Administration</a>
+                      </li>
+                      <li>
                           <a href="../api/index.html" title="API Documentation">API Documentation</a>
                       </li>
                 </ul>    </div>
@@ -78,11 +81,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -117,10 +120,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Authors.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Authors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Authors.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Authors%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L152">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L150">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Authors_" data-uid="Oqtane.Controllers.Data.Authors*"></a>
   <h4 id="Oqtane_Controllers_Data_Authors" data-uid="Oqtane.Controllers.Data.Authors">Authors</h4>
@@ -128,7 +131,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Authors { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;authors&quot;)]
+public string[] Authors { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,10 +151,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Description.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Description.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Description%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L131">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L129">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Description_" data-uid="Oqtane.Controllers.Data.Description*"></a>
   <h4 id="Oqtane_Controllers_Data_Description" data-uid="Oqtane.Controllers.Data.Description">Description</h4>
@@ -158,7 +162,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;description&quot;)]
+public string Description { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,10 +182,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_IconUrl.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.IconUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_IconUrl.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.IconUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L140">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L138">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_IconUrl_" data-uid="Oqtane.Controllers.Data.IconUrl*"></a>
   <h4 id="Oqtane_Controllers_Data_IconUrl" data-uid="Oqtane.Controllers.Data.IconUrl">IconUrl</h4>
@@ -188,7 +193,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri IconUrl { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;iconUrl&quot;)]
+public Uri IconUrl { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,10 +213,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Id.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Id.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L125">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L123">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Id_" data-uid="Oqtane.Controllers.Data.Id*"></a>
   <h4 id="Oqtane_Controllers_Data_Id" data-uid="Oqtane.Controllers.Data.Id">Id</h4>
@@ -218,7 +224,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;id&quot;)]
+public string Id { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -237,10 +244,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_LicenseUrl.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.LicenseUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_LicenseUrl.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.LicenseUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L143">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L141">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_LicenseUrl_" data-uid="Oqtane.Controllers.Data.LicenseUrl*"></a>
   <h4 id="Oqtane_Controllers_Data_LicenseUrl" data-uid="Oqtane.Controllers.Data.LicenseUrl">LicenseUrl</h4>
@@ -248,7 +255,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri LicenseUrl { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;licenseUrl&quot;)]
+public Uri LicenseUrl { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,10 +275,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_ProjectUrl.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.ProjectUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_ProjectUrl.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.ProjectUrl%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L146">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L144">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_ProjectUrl_" data-uid="Oqtane.Controllers.Data.ProjectUrl*"></a>
   <h4 id="Oqtane_Controllers_Data_ProjectUrl" data-uid="Oqtane.Controllers.Data.ProjectUrl">ProjectUrl</h4>
@@ -278,7 +286,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri ProjectUrl { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;projectUrl&quot;)]
+public Uri ProjectUrl { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,10 +306,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Registration.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Registration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Registration.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Registration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L122">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L120">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Registration_" data-uid="Oqtane.Controllers.Data.Registration*"></a>
   <h4 id="Oqtane_Controllers_Data_Registration" data-uid="Oqtane.Controllers.Data.Registration">Registration</h4>
@@ -308,7 +317,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri Registration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;registration&quot;)]
+public Uri Registration { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -327,10 +337,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Summary.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Summary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Summary.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Summary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L134">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L132">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Summary_" data-uid="Oqtane.Controllers.Data.Summary*"></a>
   <h4 id="Oqtane_Controllers_Data_Summary" data-uid="Oqtane.Controllers.Data.Summary">Summary</h4>
@@ -338,7 +348,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Summary { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;summary&quot;)]
+public string Summary { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -357,10 +368,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Tags.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Tags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Tags.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Tags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L149">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L147">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Tags_" data-uid="Oqtane.Controllers.Data.Tags*"></a>
   <h4 id="Oqtane_Controllers_Data_Tags" data-uid="Oqtane.Controllers.Data.Tags">Tags</h4>
@@ -368,7 +379,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Tags { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tags&quot;)]
+public string[] Tags { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -387,10 +399,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Title.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Title%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Title.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Title%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L137">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L135">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Title_" data-uid="Oqtane.Controllers.Data.Title*"></a>
   <h4 id="Oqtane_Controllers_Data_Title" data-uid="Oqtane.Controllers.Data.Title">Title</h4>
@@ -398,7 +410,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;title&quot;)]
+public string Title { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -417,10 +430,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_TotalDownloads.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.TotalDownloads%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_TotalDownloads.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.TotalDownloads%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L155">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L153">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_TotalDownloads_" data-uid="Oqtane.Controllers.Data.TotalDownloads*"></a>
   <h4 id="Oqtane_Controllers_Data_TotalDownloads" data-uid="Oqtane.Controllers.Data.TotalDownloads">TotalDownloads</h4>
@@ -428,7 +441,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long TotalDownloads { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;totalDownloads&quot;)]
+public long TotalDownloads { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -447,10 +461,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Type.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Type.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L119">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L117">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Type_" data-uid="Oqtane.Controllers.Data.Type*"></a>
   <h4 id="Oqtane_Controllers_Data_Type" data-uid="Oqtane.Controllers.Data.Type">Type</h4>
@@ -458,7 +472,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Type { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;@type&quot;)]
+public string Type { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -477,10 +492,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Url.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Url%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Url.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Url%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L116">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L114">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Url_" data-uid="Oqtane.Controllers.Data.Url*"></a>
   <h4 id="Oqtane_Controllers_Data_Url" data-uid="Oqtane.Controllers.Data.Url">Url</h4>
@@ -488,7 +503,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Uri Url { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;@id&quot;)]
+public Uri Url { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,10 +523,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Verified.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Verified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Verified.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Verified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L158">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L156">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Verified_" data-uid="Oqtane.Controllers.Data.Verified*"></a>
   <h4 id="Oqtane_Controllers_Data_Verified" data-uid="Oqtane.Controllers.Data.Verified">Verified</h4>
@@ -518,7 +534,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Verified { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;verified&quot;)]
+public bool Verified { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -537,10 +554,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Version.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Version.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L128">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L126">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Version_" data-uid="Oqtane.Controllers.Data.Version*"></a>
   <h4 id="Oqtane_Controllers_Data_Version" data-uid="Oqtane.Controllers.Data.Version">Version</h4>
@@ -548,7 +565,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Version { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;version&quot;)]
+public string Version { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -567,10 +585,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data_Versions.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Versions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data_Versions.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data.Versions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L161">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L159">View Source</a>
   </span>
   <a id="Oqtane_Controllers_Data_Versions_" data-uid="Oqtane.Controllers.Data.Versions*"></a>
   <h4 id="Oqtane_Controllers_Data_Versions" data-uid="Oqtane.Controllers.Data.Versions">Versions</h4>
@@ -578,7 +596,8 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Version[] Versions { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;versions&quot;)]
+public Version[] Versions { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -603,15 +622,16 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_Data.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_Data.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.Data%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L114" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/PackageController.cs/#L112" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

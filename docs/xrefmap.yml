@@ -402,19 +402,32 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.FileController.Delete
   nameWithType: FileController.Delete
-- uid: Oqtane.Controllers.FileController.Download(System.Int32)
-  name: Download(Int32)
-  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_Download_System_Int32_
-  commentId: M:Oqtane.Controllers.FileController.Download(System.Int32)
-  fullName: Oqtane.Controllers.FileController.Download(System.Int32)
-  nameWithType: FileController.Download(Int32)
-- uid: Oqtane.Controllers.FileController.Download*
-  name: Download
-  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_Download_
-  commentId: Overload:Oqtane.Controllers.FileController.Download
+- uid: Oqtane.Controllers.FileController.DownloadAttachment(System.Int32)
+  name: DownloadAttachment(Int32)
+  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_DownloadAttachment_System_Int32_
+  commentId: M:Oqtane.Controllers.FileController.DownloadAttachment(System.Int32)
+  fullName: Oqtane.Controllers.FileController.DownloadAttachment(System.Int32)
+  nameWithType: FileController.DownloadAttachment(Int32)
+- uid: Oqtane.Controllers.FileController.DownloadAttachment*
+  name: DownloadAttachment
+  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_DownloadAttachment_
+  commentId: Overload:Oqtane.Controllers.FileController.DownloadAttachment
   isSpec: "True"
-  fullName: Oqtane.Controllers.FileController.Download
-  nameWithType: FileController.Download
+  fullName: Oqtane.Controllers.FileController.DownloadAttachment
+  nameWithType: FileController.DownloadAttachment
+- uid: Oqtane.Controllers.FileController.DownloadInline(System.Int32)
+  name: DownloadInline(Int32)
+  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_DownloadInline_System_Int32_
+  commentId: M:Oqtane.Controllers.FileController.DownloadInline(System.Int32)
+  fullName: Oqtane.Controllers.FileController.DownloadInline(System.Int32)
+  nameWithType: FileController.DownloadInline(Int32)
+- uid: Oqtane.Controllers.FileController.DownloadInline*
+  name: DownloadInline
+  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_DownloadInline_
+  commentId: Overload:Oqtane.Controllers.FileController.DownloadInline
+  isSpec: "True"
+  fullName: Oqtane.Controllers.FileController.DownloadInline
+  nameWithType: FileController.DownloadInline
 - uid: Oqtane.Controllers.FileController.Get(System.Int32)
   name: Get(Int32)
   href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_Get_System_Int32_
@@ -577,12 +590,12 @@ references:
   commentId: T:Oqtane.Controllers.InstallationController
   fullName: Oqtane.Controllers.InstallationController
   nameWithType: InstallationController
-- uid: Oqtane.Controllers.InstallationController.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager)
-  name: InstallationController(IConfigurationRoot, IInstallationManager, IDatabaseManager, ILocalizationManager)
-  href: api/Oqtane.Controllers.InstallationController.html#Oqtane_Controllers_InstallationController__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_
-  commentId: M:Oqtane.Controllers.InstallationController.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager)
-  fullName: Oqtane.Controllers.InstallationController.InstallationController(Microsoft.Extensions.Configuration.IConfigurationRoot, Oqtane.Infrastructure.IInstallationManager, Oqtane.Infrastructure.IDatabaseManager, Oqtane.Infrastructure.ILocalizationManager)
-  nameWithType: InstallationController.InstallationController(IConfigurationRoot, IInstallationManager, IDatabaseManager, ILocalizationManager)
+- uid: Oqtane.Controllers.InstallationController.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager,Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  name: InstallationController(IConfigurationRoot, IInstallationManager, IDatabaseManager, ILocalizationManager, IMemoryCache)
+  href: api/Oqtane.Controllers.InstallationController.html#Oqtane_Controllers_InstallationController__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_
+  commentId: M:Oqtane.Controllers.InstallationController.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager,Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  fullName: Oqtane.Controllers.InstallationController.InstallationController(Microsoft.Extensions.Configuration.IConfigurationRoot, Oqtane.Infrastructure.IInstallationManager, Oqtane.Infrastructure.IDatabaseManager, Oqtane.Infrastructure.ILocalizationManager, Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  nameWithType: InstallationController.InstallationController(IConfigurationRoot, IInstallationManager, IDatabaseManager, ILocalizationManager, IMemoryCache)
 - uid: Oqtane.Controllers.InstallationController.#ctor*
   name: InstallationController
   href: api/Oqtane.Controllers.InstallationController.html#Oqtane_Controllers_InstallationController__ctor_
@@ -629,6 +642,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.InstallationController.Post
   nameWithType: InstallationController.Post
+- uid: Oqtane.Controllers.InstallationController.Restart
+  name: Restart()
+  href: api/Oqtane.Controllers.InstallationController.html#Oqtane_Controllers_InstallationController_Restart
+  commentId: M:Oqtane.Controllers.InstallationController.Restart
+  fullName: Oqtane.Controllers.InstallationController.Restart()
+  nameWithType: InstallationController.Restart()
+- uid: Oqtane.Controllers.InstallationController.Restart*
+  name: Restart
+  href: api/Oqtane.Controllers.InstallationController.html#Oqtane_Controllers_InstallationController_Restart_
+  commentId: Overload:Oqtane.Controllers.InstallationController.Restart
+  isSpec: "True"
+  fullName: Oqtane.Controllers.InstallationController.Restart
+  nameWithType: InstallationController.Restart
 - uid: Oqtane.Controllers.InstallationController.Upgrade
   name: Upgrade()
   href: api/Oqtane.Controllers.InstallationController.html#Oqtane_Controllers_InstallationController_Upgrade
@@ -822,6 +848,102 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.JobLogController.Put
   nameWithType: JobLogController.Put
+- uid: Oqtane.Controllers.LanguageController
+  name: LanguageController
+  href: api/Oqtane.Controllers.LanguageController.html
+  commentId: T:Oqtane.Controllers.LanguageController
+  fullName: Oqtane.Controllers.LanguageController
+  nameWithType: LanguageController
+- uid: Oqtane.Controllers.LanguageController.#ctor(Oqtane.Repository.ILanguageRepository,Oqtane.Infrastructure.ILogManager)
+  name: LanguageController(ILanguageRepository, ILogManager)
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController__ctor_Oqtane_Repository_ILanguageRepository_Oqtane_Infrastructure_ILogManager_
+  commentId: M:Oqtane.Controllers.LanguageController.#ctor(Oqtane.Repository.ILanguageRepository,Oqtane.Infrastructure.ILogManager)
+  fullName: Oqtane.Controllers.LanguageController.LanguageController(Oqtane.Repository.ILanguageRepository, Oqtane.Infrastructure.ILogManager)
+  nameWithType: LanguageController.LanguageController(ILanguageRepository, ILogManager)
+- uid: Oqtane.Controllers.LanguageController.#ctor*
+  name: LanguageController
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController__ctor_
+  commentId: Overload:Oqtane.Controllers.LanguageController.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Controllers.LanguageController.LanguageController
+  nameWithType: LanguageController.LanguageController
+- uid: Oqtane.Controllers.LanguageController.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Delete_System_Int32_
+  commentId: M:Oqtane.Controllers.LanguageController.Delete(System.Int32)
+  fullName: Oqtane.Controllers.LanguageController.Delete(System.Int32)
+  nameWithType: LanguageController.Delete(Int32)
+- uid: Oqtane.Controllers.LanguageController.Delete*
+  name: Delete
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Delete_
+  commentId: Overload:Oqtane.Controllers.LanguageController.Delete
+  isSpec: "True"
+  fullName: Oqtane.Controllers.LanguageController.Delete
+  nameWithType: LanguageController.Delete
+- uid: Oqtane.Controllers.LanguageController.Get(System.Int32)
+  name: Get(Int32)
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Get_System_Int32_
+  commentId: M:Oqtane.Controllers.LanguageController.Get(System.Int32)
+  fullName: Oqtane.Controllers.LanguageController.Get(System.Int32)
+  nameWithType: LanguageController.Get(Int32)
+- uid: Oqtane.Controllers.LanguageController.Get(System.String)
+  name: Get(String)
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Get_System_String_
+  commentId: M:Oqtane.Controllers.LanguageController.Get(System.String)
+  fullName: Oqtane.Controllers.LanguageController.Get(System.String)
+  nameWithType: LanguageController.Get(String)
+- uid: Oqtane.Controllers.LanguageController.Get*
+  name: Get
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Get_
+  commentId: Overload:Oqtane.Controllers.LanguageController.Get
+  isSpec: "True"
+  fullName: Oqtane.Controllers.LanguageController.Get
+  nameWithType: LanguageController.Get
+- uid: Oqtane.Controllers.LanguageController.Post(Oqtane.Models.Language)
+  name: Post(Language)
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Post_Oqtane_Models_Language_
+  commentId: M:Oqtane.Controllers.LanguageController.Post(Oqtane.Models.Language)
+  fullName: Oqtane.Controllers.LanguageController.Post(Oqtane.Models.Language)
+  nameWithType: LanguageController.Post(Language)
+- uid: Oqtane.Controllers.LanguageController.Post*
+  name: Post
+  href: api/Oqtane.Controllers.LanguageController.html#Oqtane_Controllers_LanguageController_Post_
+  commentId: Overload:Oqtane.Controllers.LanguageController.Post
+  isSpec: "True"
+  fullName: Oqtane.Controllers.LanguageController.Post
+  nameWithType: LanguageController.Post
+- uid: Oqtane.Controllers.LocalizationController
+  name: LocalizationController
+  href: api/Oqtane.Controllers.LocalizationController.html
+  commentId: T:Oqtane.Controllers.LocalizationController
+  fullName: Oqtane.Controllers.LocalizationController
+  nameWithType: LocalizationController
+- uid: Oqtane.Controllers.LocalizationController.#ctor(Oqtane.Infrastructure.ILocalizationManager)
+  name: LocalizationController(ILocalizationManager)
+  href: api/Oqtane.Controllers.LocalizationController.html#Oqtane_Controllers_LocalizationController__ctor_Oqtane_Infrastructure_ILocalizationManager_
+  commentId: M:Oqtane.Controllers.LocalizationController.#ctor(Oqtane.Infrastructure.ILocalizationManager)
+  fullName: Oqtane.Controllers.LocalizationController.LocalizationController(Oqtane.Infrastructure.ILocalizationManager)
+  nameWithType: LocalizationController.LocalizationController(ILocalizationManager)
+- uid: Oqtane.Controllers.LocalizationController.#ctor*
+  name: LocalizationController
+  href: api/Oqtane.Controllers.LocalizationController.html#Oqtane_Controllers_LocalizationController__ctor_
+  commentId: Overload:Oqtane.Controllers.LocalizationController.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Controllers.LocalizationController.LocalizationController
+  nameWithType: LocalizationController.LocalizationController
+- uid: Oqtane.Controllers.LocalizationController.Get
+  name: Get()
+  href: api/Oqtane.Controllers.LocalizationController.html#Oqtane_Controllers_LocalizationController_Get
+  commentId: M:Oqtane.Controllers.LocalizationController.Get
+  fullName: Oqtane.Controllers.LocalizationController.Get()
+  nameWithType: LocalizationController.Get()
+- uid: Oqtane.Controllers.LocalizationController.Get*
+  name: Get
+  href: api/Oqtane.Controllers.LocalizationController.html#Oqtane_Controllers_LocalizationController_Get_
+  commentId: Overload:Oqtane.Controllers.LocalizationController.Get
+  isSpec: "True"
+  fullName: Oqtane.Controllers.LocalizationController.Get
+  nameWithType: LocalizationController.Get
 - uid: Oqtane.Controllers.LogController
   name: LogController
   href: api/Oqtane.Controllers.LogController.html
@@ -879,12 +1001,12 @@ references:
   commentId: T:Oqtane.Controllers.ModuleController
   fullName: Oqtane.Controllers.ModuleController
   nameWithType: ModuleController
-- uid: Oqtane.Controllers.ModuleController.#ctor(Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ILogManager)
-  name: ModuleController(IModuleRepository, IPageModuleRepository, IPageRepository, IModuleDefinitionRepository, IUserPermissions, ILogManager)
-  href: api/Oqtane.Controllers.ModuleController.html#Oqtane_Controllers_ModuleController__ctor_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleDefinitionRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ILogManager_
-  commentId: M:Oqtane.Controllers.ModuleController.#ctor(Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ILogManager)
-  fullName: Oqtane.Controllers.ModuleController.ModuleController(Oqtane.Repository.IModuleRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Repository.IPageRepository, Oqtane.Repository.IModuleDefinitionRepository, Oqtane.Security.IUserPermissions, Oqtane.Infrastructure.ILogManager)
-  nameWithType: ModuleController.ModuleController(IModuleRepository, IPageModuleRepository, IPageRepository, IModuleDefinitionRepository, IUserPermissions, ILogManager)
+- uid: Oqtane.Controllers.ModuleController.#ctor(Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  name: ModuleController(IModuleRepository, IPageModuleRepository, IPageRepository, IModuleDefinitionRepository, ISettingRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
+  href: api/Oqtane.Controllers.ModuleController.html#Oqtane_Controllers_ModuleController__ctor_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleDefinitionRepository_Oqtane_Repository_ISettingRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ITenantResolver_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_
+  commentId: M:Oqtane.Controllers.ModuleController.#ctor(Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  fullName: Oqtane.Controllers.ModuleController.ModuleController(Oqtane.Repository.IModuleRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Repository.IPageRepository, Oqtane.Repository.IModuleDefinitionRepository, Oqtane.Repository.ISettingRepository, Oqtane.Security.IUserPermissions, Oqtane.Repository.ITenantResolver, Oqtane.Infrastructure.ISyncManager, Oqtane.Infrastructure.ILogManager)
+  nameWithType: ModuleController.ModuleController(IModuleRepository, IPageModuleRepository, IPageRepository, IModuleDefinitionRepository, ISettingRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
 - uid: Oqtane.Controllers.ModuleController.#ctor*
   name: ModuleController
   href: api/Oqtane.Controllers.ModuleController.html#Oqtane_Controllers_ModuleController__ctor_
@@ -1013,12 +1135,12 @@ references:
   commentId: T:Oqtane.Controllers.ModuleDefinitionController
   fullName: Oqtane.Controllers.ModuleDefinitionController
   nameWithType: ModuleDefinitionController
-- uid: Oqtane.Controllers.ModuleDefinitionController.#ctor(Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.ITenantRepository,Oqtane.Repository.ISqlRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Configuration.IConfigurationRoot,System.IServiceProvider,Oqtane.Infrastructure.ILogManager)
-  name: ModuleDefinitionController(IModuleDefinitionRepository, IModuleRepository, ITenantRepository, ISqlRepository, IUserPermissions, IInstallationManager, IWebHostEnvironment, IConfigurationRoot, IServiceProvider, ILogManager)
-  href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController__ctor_Oqtane_Repository_IModuleDefinitionRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_ITenantRepository_Oqtane_Repository_ISqlRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_IInstallationManager_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Configuration_IConfigurationRoot_System_IServiceProvider_Oqtane_Infrastructure_ILogManager_
-  commentId: M:Oqtane.Controllers.ModuleDefinitionController.#ctor(Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.ITenantRepository,Oqtane.Repository.ISqlRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Configuration.IConfigurationRoot,System.IServiceProvider,Oqtane.Infrastructure.ILogManager)
-  fullName: Oqtane.Controllers.ModuleDefinitionController.ModuleDefinitionController(Oqtane.Repository.IModuleDefinitionRepository, Oqtane.Repository.IModuleRepository, Oqtane.Repository.ITenantRepository, Oqtane.Repository.ISqlRepository, Oqtane.Security.IUserPermissions, Oqtane.Infrastructure.IInstallationManager, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.Extensions.Configuration.IConfigurationRoot, System.IServiceProvider, Oqtane.Infrastructure.ILogManager)
-  nameWithType: ModuleDefinitionController.ModuleDefinitionController(IModuleDefinitionRepository, IModuleRepository, ITenantRepository, ISqlRepository, IUserPermissions, IInstallationManager, IWebHostEnvironment, IConfigurationRoot, IServiceProvider, ILogManager)
+- uid: Oqtane.Controllers.ModuleDefinitionController.#ctor(Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.ITenantRepository,Oqtane.Repository.ISqlRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.IServiceProvider,Oqtane.Infrastructure.ILogManager)
+  name: ModuleDefinitionController(IModuleDefinitionRepository, ITenantRepository, ISqlRepository, IUserPermissions, IInstallationManager, IWebHostEnvironment, IServiceProvider, ILogManager)
+  href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController__ctor_Oqtane_Repository_IModuleDefinitionRepository_Oqtane_Repository_ITenantRepository_Oqtane_Repository_ISqlRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_IInstallationManager_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_System_IServiceProvider_Oqtane_Infrastructure_ILogManager_
+  commentId: M:Oqtane.Controllers.ModuleDefinitionController.#ctor(Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.ITenantRepository,Oqtane.Repository.ISqlRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.IServiceProvider,Oqtane.Infrastructure.ILogManager)
+  fullName: Oqtane.Controllers.ModuleDefinitionController.ModuleDefinitionController(Oqtane.Repository.IModuleDefinitionRepository, Oqtane.Repository.ITenantRepository, Oqtane.Repository.ISqlRepository, Oqtane.Security.IUserPermissions, Oqtane.Infrastructure.IInstallationManager, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, System.IServiceProvider, Oqtane.Infrastructure.ILogManager)
+  nameWithType: ModuleDefinitionController.ModuleDefinitionController(IModuleDefinitionRepository, ITenantRepository, ISqlRepository, IUserPermissions, IInstallationManager, IWebHostEnvironment, IServiceProvider, ILogManager)
 - uid: Oqtane.Controllers.ModuleDefinitionController.#ctor*
   name: ModuleDefinitionController
   href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController__ctor_
@@ -1071,12 +1193,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.ModuleDefinitionController.InstallModules
   nameWithType: ModuleDefinitionController.InstallModules
-- uid: Oqtane.Controllers.ModuleDefinitionController.Post(Oqtane.Models.ModuleDefinition,System.String)
-  name: Post(ModuleDefinition, String)
-  href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController_Post_Oqtane_Models_ModuleDefinition_System_String_
-  commentId: M:Oqtane.Controllers.ModuleDefinitionController.Post(Oqtane.Models.ModuleDefinition,System.String)
-  fullName: Oqtane.Controllers.ModuleDefinitionController.Post(Oqtane.Models.ModuleDefinition, System.String)
-  nameWithType: ModuleDefinitionController.Post(ModuleDefinition, String)
+- uid: Oqtane.Controllers.ModuleDefinitionController.Post(Oqtane.Models.ModuleDefinition)
+  name: Post(ModuleDefinition)
+  href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController_Post_Oqtane_Models_ModuleDefinition_
+  commentId: M:Oqtane.Controllers.ModuleDefinitionController.Post(Oqtane.Models.ModuleDefinition)
+  fullName: Oqtane.Controllers.ModuleDefinitionController.Post(Oqtane.Models.ModuleDefinition)
+  nameWithType: ModuleDefinitionController.Post(ModuleDefinition)
 - uid: Oqtane.Controllers.ModuleDefinitionController.Post*
   name: Post
   href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController_Post_
@@ -1605,12 +1727,12 @@ references:
   commentId: T:Oqtane.Controllers.SettingController
   fullName: Oqtane.Controllers.SettingController
   nameWithType: SettingController
-- uid: Oqtane.Controllers.SettingController.#ctor(Oqtane.Repository.ISettingRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ILogManager)
-  name: SettingController(ISettingRepository, IPageModuleRepository, IUserPermissions, ILogManager)
-  href: api/Oqtane.Controllers.SettingController.html#Oqtane_Controllers_SettingController__ctor_Oqtane_Repository_ISettingRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ILogManager_
-  commentId: M:Oqtane.Controllers.SettingController.#ctor(Oqtane.Repository.ISettingRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ILogManager)
-  fullName: Oqtane.Controllers.SettingController.SettingController(Oqtane.Repository.ISettingRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Security.IUserPermissions, Oqtane.Infrastructure.ILogManager)
-  nameWithType: SettingController.SettingController(ISettingRepository, IPageModuleRepository, IUserPermissions, ILogManager)
+- uid: Oqtane.Controllers.SettingController.#ctor(Oqtane.Repository.ISettingRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  name: SettingController(ISettingRepository, IPageModuleRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
+  href: api/Oqtane.Controllers.SettingController.html#Oqtane_Controllers_SettingController__ctor_Oqtane_Repository_ISettingRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ITenantResolver_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_
+  commentId: M:Oqtane.Controllers.SettingController.#ctor(Oqtane.Repository.ISettingRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  fullName: Oqtane.Controllers.SettingController.SettingController(Oqtane.Repository.ISettingRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Security.IUserPermissions, Oqtane.Repository.ITenantResolver, Oqtane.Infrastructure.ISyncManager, Oqtane.Infrastructure.ILogManager)
+  nameWithType: SettingController.SettingController(ISettingRepository, IPageModuleRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
 - uid: Oqtane.Controllers.SettingController.#ctor*
   name: SettingController
   href: api/Oqtane.Controllers.SettingController.html#Oqtane_Controllers_SettingController__ctor_
@@ -2264,6 +2386,106 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.Version.Url
   nameWithType: Version.Url
+- uid: Oqtane.Documentation
+  name: Oqtane.Documentation
+  href: api/Oqtane.Documentation.html
+  commentId: N:Oqtane.Documentation
+  fullName: Oqtane.Documentation
+  nameWithType: Oqtane.Documentation
+- uid: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice
+  name: InternalApi_DoNotUse_MayChangeWithoutNotice
+  href: api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.html
+  commentId: T:Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice
+  fullName: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice
+  nameWithType: InternalApi_DoNotUse_MayChangeWithoutNotice
+- uid: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.#ctor
+  name: InternalApi_DoNotUse_MayChangeWithoutNotice()
+  href: api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.html#Oqtane_Documentation_InternalApi_DoNotUse_MayChangeWithoutNotice__ctor
+  commentId: M:Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.#ctor
+  fullName: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.InternalApi_DoNotUse_MayChangeWithoutNotice()
+  nameWithType: InternalApi_DoNotUse_MayChangeWithoutNotice.InternalApi_DoNotUse_MayChangeWithoutNotice()
+- uid: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.#ctor(System.String)
+  name: InternalApi_DoNotUse_MayChangeWithoutNotice(String)
+  href: api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.html#Oqtane_Documentation_InternalApi_DoNotUse_MayChangeWithoutNotice__ctor_System_String_
+  commentId: M:Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.#ctor(System.String)
+  fullName: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.InternalApi_DoNotUse_MayChangeWithoutNotice(System.String)
+  nameWithType: InternalApi_DoNotUse_MayChangeWithoutNotice.InternalApi_DoNotUse_MayChangeWithoutNotice(String)
+- uid: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.#ctor*
+  name: InternalApi_DoNotUse_MayChangeWithoutNotice
+  href: api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.html#Oqtane_Documentation_InternalApi_DoNotUse_MayChangeWithoutNotice__ctor_
+  commentId: Overload:Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.InternalApi_DoNotUse_MayChangeWithoutNotice
+  nameWithType: InternalApi_DoNotUse_MayChangeWithoutNotice.InternalApi_DoNotUse_MayChangeWithoutNotice
+- uid: Oqtane.Documentation.PrivateApi
+  name: PrivateApi
+  href: api/Oqtane.Documentation.PrivateApi.html
+  commentId: T:Oqtane.Documentation.PrivateApi
+  fullName: Oqtane.Documentation.PrivateApi
+  nameWithType: PrivateApi
+- uid: Oqtane.Documentation.PrivateApi.#ctor
+  name: PrivateApi()
+  href: api/Oqtane.Documentation.PrivateApi.html#Oqtane_Documentation_PrivateApi__ctor
+  commentId: M:Oqtane.Documentation.PrivateApi.#ctor
+  fullName: Oqtane.Documentation.PrivateApi.PrivateApi()
+  nameWithType: PrivateApi.PrivateApi()
+- uid: Oqtane.Documentation.PrivateApi.#ctor(System.String)
+  name: PrivateApi(String)
+  href: api/Oqtane.Documentation.PrivateApi.html#Oqtane_Documentation_PrivateApi__ctor_System_String_
+  commentId: M:Oqtane.Documentation.PrivateApi.#ctor(System.String)
+  fullName: Oqtane.Documentation.PrivateApi.PrivateApi(System.String)
+  nameWithType: PrivateApi.PrivateApi(String)
+- uid: Oqtane.Documentation.PrivateApi.#ctor*
+  name: PrivateApi
+  href: api/Oqtane.Documentation.PrivateApi.html#Oqtane_Documentation_PrivateApi__ctor_
+  commentId: Overload:Oqtane.Documentation.PrivateApi.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Documentation.PrivateApi.PrivateApi
+  nameWithType: PrivateApi.PrivateApi
+- uid: Oqtane.Documentation.PublicApi
+  name: PublicApi
+  href: api/Oqtane.Documentation.PublicApi.html
+  commentId: T:Oqtane.Documentation.PublicApi
+  fullName: Oqtane.Documentation.PublicApi
+  nameWithType: PublicApi
+- uid: Oqtane.Documentation.PublicApi.#ctor
+  name: PublicApi()
+  href: api/Oqtane.Documentation.PublicApi.html#Oqtane_Documentation_PublicApi__ctor
+  commentId: M:Oqtane.Documentation.PublicApi.#ctor
+  fullName: Oqtane.Documentation.PublicApi.PublicApi()
+  nameWithType: PublicApi.PublicApi()
+- uid: Oqtane.Documentation.PublicApi.#ctor(System.String)
+  name: PublicApi(String)
+  href: api/Oqtane.Documentation.PublicApi.html#Oqtane_Documentation_PublicApi__ctor_System_String_
+  commentId: M:Oqtane.Documentation.PublicApi.#ctor(System.String)
+  fullName: Oqtane.Documentation.PublicApi.PublicApi(System.String)
+  nameWithType: PublicApi.PublicApi(String)
+- uid: Oqtane.Documentation.PublicApi.#ctor*
+  name: PublicApi
+  href: api/Oqtane.Documentation.PublicApi.html#Oqtane_Documentation_PublicApi__ctor_
+  commentId: Overload:Oqtane.Documentation.PublicApi.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Documentation.PublicApi.PublicApi
+  nameWithType: PublicApi.PublicApi
+- uid: Oqtane.Documentation.WorkInProgressApi
+  name: WorkInProgressApi
+  href: api/Oqtane.Documentation.WorkInProgressApi.html
+  commentId: T:Oqtane.Documentation.WorkInProgressApi
+  fullName: Oqtane.Documentation.WorkInProgressApi
+  nameWithType: WorkInProgressApi
+- uid: Oqtane.Documentation.WorkInProgressApi.#ctor(System.String)
+  name: WorkInProgressApi(String)
+  href: api/Oqtane.Documentation.WorkInProgressApi.html#Oqtane_Documentation_WorkInProgressApi__ctor_System_String_
+  commentId: M:Oqtane.Documentation.WorkInProgressApi.#ctor(System.String)
+  fullName: Oqtane.Documentation.WorkInProgressApi.WorkInProgressApi(System.String)
+  nameWithType: WorkInProgressApi.WorkInProgressApi(String)
+- uid: Oqtane.Documentation.WorkInProgressApi.#ctor*
+  name: WorkInProgressApi
+  href: api/Oqtane.Documentation.WorkInProgressApi.html#Oqtane_Documentation_WorkInProgressApi__ctor_
+  commentId: Overload:Oqtane.Documentation.WorkInProgressApi.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Documentation.WorkInProgressApi.WorkInProgressApi
+  nameWithType: WorkInProgressApi.WorkInProgressApi
 - uid: Oqtane.Enums
   name: Oqtane.Enums
   href: api/Oqtane.Enums.html
@@ -2350,6 +2572,31 @@ references:
   isSpec: "True"
   fullName: Oqtane.Extensions.ApplicationBuilderExtensions.UseOqtaneLocalization
   nameWithType: ApplicationBuilderExtensions.UseOqtaneLocalization
+- uid: Oqtane.Extensions.MimeUtilities
+  name: MimeUtilities
+  href: api/Oqtane.Extensions.MimeUtilities.html
+  commentId: T:Oqtane.Extensions.MimeUtilities
+  fullName: Oqtane.Extensions.MimeUtilities
+  nameWithType: MimeUtilities
+- uid: Oqtane.Extensions.MimeUtilities.GetMimeType(Oqtane.Models.File)
+  name: GetMimeType(File)
+  href: api/Oqtane.Extensions.MimeUtilities.html#Oqtane_Extensions_MimeUtilities_GetMimeType_Oqtane_Models_File_
+  commentId: M:Oqtane.Extensions.MimeUtilities.GetMimeType(Oqtane.Models.File)
+  fullName: Oqtane.Extensions.MimeUtilities.GetMimeType(Oqtane.Models.File)
+  nameWithType: MimeUtilities.GetMimeType(File)
+- uid: Oqtane.Extensions.MimeUtilities.GetMimeType(System.String)
+  name: GetMimeType(String)
+  href: api/Oqtane.Extensions.MimeUtilities.html#Oqtane_Extensions_MimeUtilities_GetMimeType_System_String_
+  commentId: M:Oqtane.Extensions.MimeUtilities.GetMimeType(System.String)
+  fullName: Oqtane.Extensions.MimeUtilities.GetMimeType(System.String)
+  nameWithType: MimeUtilities.GetMimeType(String)
+- uid: Oqtane.Extensions.MimeUtilities.GetMimeType*
+  name: GetMimeType
+  href: api/Oqtane.Extensions.MimeUtilities.html#Oqtane_Extensions_MimeUtilities_GetMimeType_
+  commentId: Overload:Oqtane.Extensions.MimeUtilities.GetMimeType
+  isSpec: "True"
+  fullName: Oqtane.Extensions.MimeUtilities.GetMimeType
+  nameWithType: MimeUtilities.GetMimeType
 - uid: Oqtane.Extensions.PermissionExtension
   name: PermissionExtension
   href: api/Oqtane.Extensions.PermissionExtension.html
@@ -2512,6 +2759,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.HostedServiceBase.Dispose
   nameWithType: HostedServiceBase.Dispose
+- uid: Oqtane.Infrastructure.HostedServiceBase.EndDate
+  name: EndDate
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_EndDate
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.EndDate
+  fullName: Oqtane.Infrastructure.HostedServiceBase.EndDate
+  nameWithType: HostedServiceBase.EndDate
+- uid: Oqtane.Infrastructure.HostedServiceBase.EndDate*
+  name: EndDate
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_EndDate_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.EndDate
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.EndDate
+  nameWithType: HostedServiceBase.EndDate
 - uid: Oqtane.Infrastructure.HostedServiceBase.ExecuteAsync(System.Threading.CancellationToken)
   name: ExecuteAsync(CancellationToken)
   href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_ExecuteAsync_System_Threading_CancellationToken_
@@ -2538,6 +2798,71 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.HostedServiceBase.ExecuteJob
   nameWithType: HostedServiceBase.ExecuteJob
+- uid: Oqtane.Infrastructure.HostedServiceBase.Frequency
+  name: Frequency
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_Frequency
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.Frequency
+  fullName: Oqtane.Infrastructure.HostedServiceBase.Frequency
+  nameWithType: HostedServiceBase.Frequency
+- uid: Oqtane.Infrastructure.HostedServiceBase.Frequency*
+  name: Frequency
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_Frequency_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.Frequency
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.Frequency
+  nameWithType: HostedServiceBase.Frequency
+- uid: Oqtane.Infrastructure.HostedServiceBase.Interval
+  name: Interval
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_Interval
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.Interval
+  fullName: Oqtane.Infrastructure.HostedServiceBase.Interval
+  nameWithType: HostedServiceBase.Interval
+- uid: Oqtane.Infrastructure.HostedServiceBase.Interval*
+  name: Interval
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_Interval_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.Interval
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.Interval
+  nameWithType: HostedServiceBase.Interval
+- uid: Oqtane.Infrastructure.HostedServiceBase.IsEnabled
+  name: IsEnabled
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_IsEnabled
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.IsEnabled
+  fullName: Oqtane.Infrastructure.HostedServiceBase.IsEnabled
+  nameWithType: HostedServiceBase.IsEnabled
+- uid: Oqtane.Infrastructure.HostedServiceBase.IsEnabled*
+  name: IsEnabled
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_IsEnabled_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.IsEnabled
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.IsEnabled
+  nameWithType: HostedServiceBase.IsEnabled
+- uid: Oqtane.Infrastructure.HostedServiceBase.Name
+  name: Name
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_Name
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.Name
+  fullName: Oqtane.Infrastructure.HostedServiceBase.Name
+  nameWithType: HostedServiceBase.Name
+- uid: Oqtane.Infrastructure.HostedServiceBase.Name*
+  name: Name
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_Name_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.Name
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.Name
+  nameWithType: HostedServiceBase.Name
+- uid: Oqtane.Infrastructure.HostedServiceBase.RetentionHistory
+  name: RetentionHistory
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_RetentionHistory
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.RetentionHistory
+  fullName: Oqtane.Infrastructure.HostedServiceBase.RetentionHistory
+  nameWithType: HostedServiceBase.RetentionHistory
+- uid: Oqtane.Infrastructure.HostedServiceBase.RetentionHistory*
+  name: RetentionHistory
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_RetentionHistory_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.RetentionHistory
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.RetentionHistory
+  nameWithType: HostedServiceBase.RetentionHistory
 - uid: Oqtane.Infrastructure.HostedServiceBase.StartAsync(System.Threading.CancellationToken)
   name: StartAsync(CancellationToken)
   href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_StartAsync_System_Threading_CancellationToken_
@@ -2551,6 +2876,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.HostedServiceBase.StartAsync
   nameWithType: HostedServiceBase.StartAsync
+- uid: Oqtane.Infrastructure.HostedServiceBase.StartDate
+  name: StartDate
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_StartDate
+  commentId: P:Oqtane.Infrastructure.HostedServiceBase.StartDate
+  fullName: Oqtane.Infrastructure.HostedServiceBase.StartDate
+  nameWithType: HostedServiceBase.StartDate
+- uid: Oqtane.Infrastructure.HostedServiceBase.StartDate*
+  name: StartDate
+  href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_StartDate_
+  commentId: Overload:Oqtane.Infrastructure.HostedServiceBase.StartDate
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.HostedServiceBase.StartDate
+  nameWithType: HostedServiceBase.StartDate
 - uid: Oqtane.Infrastructure.HostedServiceBase.StopAsync(System.Threading.CancellationToken)
   name: StopAsync(CancellationToken)
   href: api/Oqtane.Infrastructure.HostedServiceBase.html#Oqtane_Infrastructure_HostedServiceBase_StopAsync_System_Threading_CancellationToken_
@@ -2659,12 +2997,12 @@ references:
   commentId: T:Oqtane.Infrastructure.IInstallationManager
   fullName: Oqtane.Infrastructure.IInstallationManager
   nameWithType: IInstallationManager
-- uid: Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String,System.Boolean)
-  name: InstallPackages(String, Boolean)
-  href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_InstallPackages_System_String_System_Boolean_
-  commentId: M:Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String,System.Boolean)
-  fullName: Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String, System.Boolean)
-  nameWithType: IInstallationManager.InstallPackages(String, Boolean)
+- uid: Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)
+  name: InstallPackages(String)
+  href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_InstallPackages_System_String_
+  commentId: M:Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)
+  fullName: Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)
+  nameWithType: IInstallationManager.InstallPackages(String)
 - uid: Oqtane.Infrastructure.IInstallationManager.InstallPackages*
   name: InstallPackages
   href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_InstallPackages_
@@ -2804,18 +3142,18 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.InstallationManager.InstallationManager
   nameWithType: InstallationManager.InstallationManager
-- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.Boolean)
-  name: InstallPackages(String, Boolean)
-  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_System_Boolean_
-  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.Boolean)
-  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String, System.Boolean)
-  nameWithType: InstallationManager.InstallPackages(String, Boolean)
-- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String)
-  name: InstallPackages(String, String)
-  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_System_String_
-  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String)
-  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String, System.String)
-  nameWithType: InstallationManager.InstallPackages(String, String)
+- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String)
+  name: InstallPackages(String)
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_
+  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String)
+  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String)
+  nameWithType: InstallationManager.InstallPackages(String)
+- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String,System.String)
+  name: InstallPackages(String, String, String)
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_System_String_System_String_
+  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String,System.String)
+  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String, System.String, System.String)
+  nameWithType: InstallationManager.InstallPackages(String, String, String)
 - uid: Oqtane.Infrastructure.InstallationManager.InstallPackages*
   name: InstallPackages
   href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_
@@ -3234,6 +3572,31 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.UpgradeManager.Upgrade
   nameWithType: UpgradeManager.Upgrade
+- uid: Oqtane.Interfaces
+  name: Oqtane.Interfaces
+  href: api/Oqtane.Interfaces.html
+  commentId: N:Oqtane.Interfaces
+  fullName: Oqtane.Interfaces
+  nameWithType: Oqtane.Interfaces
+- uid: Oqtane.Interfaces.ISettingsControl
+  name: ISettingsControl
+  href: api/Oqtane.Interfaces.ISettingsControl.html
+  commentId: T:Oqtane.Interfaces.ISettingsControl
+  fullName: Oqtane.Interfaces.ISettingsControl
+  nameWithType: ISettingsControl
+- uid: Oqtane.Interfaces.ISettingsControl.UpdateSettings
+  name: UpdateSettings()
+  href: api/Oqtane.Interfaces.ISettingsControl.html#Oqtane_Interfaces_ISettingsControl_UpdateSettings
+  commentId: M:Oqtane.Interfaces.ISettingsControl.UpdateSettings
+  fullName: Oqtane.Interfaces.ISettingsControl.UpdateSettings()
+  nameWithType: ISettingsControl.UpdateSettings()
+- uid: Oqtane.Interfaces.ISettingsControl.UpdateSettings*
+  name: UpdateSettings
+  href: api/Oqtane.Interfaces.ISettingsControl.html#Oqtane_Interfaces_ISettingsControl_UpdateSettings_
+  commentId: Overload:Oqtane.Interfaces.ISettingsControl.UpdateSettings
+  isSpec: "True"
+  fullName: Oqtane.Interfaces.ISettingsControl.UpdateSettings
+  nameWithType: ISettingsControl.UpdateSettings
 - uid: Oqtane.Models
   name: Oqtane.Models
   href: api/Oqtane.Models.html
@@ -3389,6 +3752,51 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Alias.TenantId
   nameWithType: Alias.TenantId
+- uid: Oqtane.Models.Culture
+  name: Culture
+  href: api/Oqtane.Models.Culture.html
+  commentId: T:Oqtane.Models.Culture
+  fullName: Oqtane.Models.Culture
+  nameWithType: Culture
+- uid: Oqtane.Models.Culture.DisplayName
+  name: DisplayName
+  href: api/Oqtane.Models.Culture.html#Oqtane_Models_Culture_DisplayName
+  commentId: P:Oqtane.Models.Culture.DisplayName
+  fullName: Oqtane.Models.Culture.DisplayName
+  nameWithType: Culture.DisplayName
+- uid: Oqtane.Models.Culture.DisplayName*
+  name: DisplayName
+  href: api/Oqtane.Models.Culture.html#Oqtane_Models_Culture_DisplayName_
+  commentId: Overload:Oqtane.Models.Culture.DisplayName
+  isSpec: "True"
+  fullName: Oqtane.Models.Culture.DisplayName
+  nameWithType: Culture.DisplayName
+- uid: Oqtane.Models.Culture.IsDefault
+  name: IsDefault
+  href: api/Oqtane.Models.Culture.html#Oqtane_Models_Culture_IsDefault
+  commentId: P:Oqtane.Models.Culture.IsDefault
+  fullName: Oqtane.Models.Culture.IsDefault
+  nameWithType: Culture.IsDefault
+- uid: Oqtane.Models.Culture.IsDefault*
+  name: IsDefault
+  href: api/Oqtane.Models.Culture.html#Oqtane_Models_Culture_IsDefault_
+  commentId: Overload:Oqtane.Models.Culture.IsDefault
+  isSpec: "True"
+  fullName: Oqtane.Models.Culture.IsDefault
+  nameWithType: Culture.IsDefault
+- uid: Oqtane.Models.Culture.Name
+  name: Name
+  href: api/Oqtane.Models.Culture.html#Oqtane_Models_Culture_Name
+  commentId: P:Oqtane.Models.Culture.Name
+  fullName: Oqtane.Models.Culture.Name
+  nameWithType: Culture.Name
+- uid: Oqtane.Models.Culture.Name*
+  name: Name
+  href: api/Oqtane.Models.Culture.html#Oqtane_Models_Culture_Name_
+  commentId: Overload:Oqtane.Models.Culture.Name
+  isSpec: "True"
+  fullName: Oqtane.Models.Culture.Name
+  nameWithType: Culture.Name
 - uid: Oqtane.Models.File
   name: File
   href: api/Oqtane.Models.File.html
@@ -4263,6 +4671,129 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.JobLog.Succeeded
   nameWithType: JobLog.Succeeded
+- uid: Oqtane.Models.Language
+  name: Language
+  href: api/Oqtane.Models.Language.html
+  commentId: T:Oqtane.Models.Language
+  fullName: Oqtane.Models.Language
+  nameWithType: Language
+- uid: Oqtane.Models.Language.Code
+  name: Code
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_Code
+  commentId: P:Oqtane.Models.Language.Code
+  fullName: Oqtane.Models.Language.Code
+  nameWithType: Language.Code
+- uid: Oqtane.Models.Language.Code*
+  name: Code
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_Code_
+  commentId: Overload:Oqtane.Models.Language.Code
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.Code
+  nameWithType: Language.Code
+- uid: Oqtane.Models.Language.CreatedBy
+  name: CreatedBy
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_CreatedBy
+  commentId: P:Oqtane.Models.Language.CreatedBy
+  fullName: Oqtane.Models.Language.CreatedBy
+  nameWithType: Language.CreatedBy
+- uid: Oqtane.Models.Language.CreatedBy*
+  name: CreatedBy
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_CreatedBy_
+  commentId: Overload:Oqtane.Models.Language.CreatedBy
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.CreatedBy
+  nameWithType: Language.CreatedBy
+- uid: Oqtane.Models.Language.CreatedOn
+  name: CreatedOn
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_CreatedOn
+  commentId: P:Oqtane.Models.Language.CreatedOn
+  fullName: Oqtane.Models.Language.CreatedOn
+  nameWithType: Language.CreatedOn
+- uid: Oqtane.Models.Language.CreatedOn*
+  name: CreatedOn
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_CreatedOn_
+  commentId: Overload:Oqtane.Models.Language.CreatedOn
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.CreatedOn
+  nameWithType: Language.CreatedOn
+- uid: Oqtane.Models.Language.IsDefault
+  name: IsDefault
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_IsDefault
+  commentId: P:Oqtane.Models.Language.IsDefault
+  fullName: Oqtane.Models.Language.IsDefault
+  nameWithType: Language.IsDefault
+- uid: Oqtane.Models.Language.IsDefault*
+  name: IsDefault
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_IsDefault_
+  commentId: Overload:Oqtane.Models.Language.IsDefault
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.IsDefault
+  nameWithType: Language.IsDefault
+- uid: Oqtane.Models.Language.LanguageId
+  name: LanguageId
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_LanguageId
+  commentId: P:Oqtane.Models.Language.LanguageId
+  fullName: Oqtane.Models.Language.LanguageId
+  nameWithType: Language.LanguageId
+- uid: Oqtane.Models.Language.LanguageId*
+  name: LanguageId
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_LanguageId_
+  commentId: Overload:Oqtane.Models.Language.LanguageId
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.LanguageId
+  nameWithType: Language.LanguageId
+- uid: Oqtane.Models.Language.ModifiedBy
+  name: ModifiedBy
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_ModifiedBy
+  commentId: P:Oqtane.Models.Language.ModifiedBy
+  fullName: Oqtane.Models.Language.ModifiedBy
+  nameWithType: Language.ModifiedBy
+- uid: Oqtane.Models.Language.ModifiedBy*
+  name: ModifiedBy
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_ModifiedBy_
+  commentId: Overload:Oqtane.Models.Language.ModifiedBy
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.ModifiedBy
+  nameWithType: Language.ModifiedBy
+- uid: Oqtane.Models.Language.ModifiedOn
+  name: ModifiedOn
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_ModifiedOn
+  commentId: P:Oqtane.Models.Language.ModifiedOn
+  fullName: Oqtane.Models.Language.ModifiedOn
+  nameWithType: Language.ModifiedOn
+- uid: Oqtane.Models.Language.ModifiedOn*
+  name: ModifiedOn
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_ModifiedOn_
+  commentId: Overload:Oqtane.Models.Language.ModifiedOn
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.ModifiedOn
+  nameWithType: Language.ModifiedOn
+- uid: Oqtane.Models.Language.Name
+  name: Name
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_Name
+  commentId: P:Oqtane.Models.Language.Name
+  fullName: Oqtane.Models.Language.Name
+  nameWithType: Language.Name
+- uid: Oqtane.Models.Language.Name*
+  name: Name
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_Name_
+  commentId: Overload:Oqtane.Models.Language.Name
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.Name
+  nameWithType: Language.Name
+- uid: Oqtane.Models.Language.SiteId
+  name: SiteId
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_SiteId
+  commentId: P:Oqtane.Models.Language.SiteId
+  fullName: Oqtane.Models.Language.SiteId
+  nameWithType: Language.SiteId
+- uid: Oqtane.Models.Language.SiteId*
+  name: SiteId
+  href: api/Oqtane.Models.Language.html#Oqtane_Models_Language_SiteId_
+  commentId: Overload:Oqtane.Models.Language.SiteId
+  isSpec: "True"
+  fullName: Oqtane.Models.Language.SiteId
+  nameWithType: Language.SiteId
 - uid: Oqtane.Models.Log
   name: Log
   href: api/Oqtane.Models.Log.html
@@ -4782,6 +5313,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Module.SecurityAccessLevel
   nameWithType: Module.SecurityAccessLevel
+- uid: Oqtane.Models.Module.Settings
+  name: Settings
+  href: api/Oqtane.Models.Module.html#Oqtane_Models_Module_Settings
+  commentId: P:Oqtane.Models.Module.Settings
+  fullName: Oqtane.Models.Module.Settings
+  nameWithType: Module.Settings
+- uid: Oqtane.Models.Module.Settings*
+  name: Settings
+  href: api/Oqtane.Models.Module.html#Oqtane_Models_Module_Settings_
+  commentId: Overload:Oqtane.Models.Module.Settings
+  isSpec: "True"
+  fullName: Oqtane.Models.Module.Settings
+  nameWithType: Module.Settings
 - uid: Oqtane.Models.Module.SiteId
   name: SiteId
   href: api/Oqtane.Models.Module.html#Oqtane_Models_Module_SiteId
@@ -5229,6 +5773,34 @@ references:
   commentId: T:Oqtane.Models.Notification
   fullName: Oqtane.Models.Notification
   nameWithType: Notification
+- uid: Oqtane.Models.Notification.#ctor
+  name: Notification()
+  href: api/Oqtane.Models.Notification.html#Oqtane_Models_Notification__ctor
+  commentId: M:Oqtane.Models.Notification.#ctor
+  fullName: Oqtane.Models.Notification.Notification()
+  nameWithType: Notification.Notification()
+- uid: Oqtane.Models.Notification.#ctor(System.Int32,Oqtane.Models.User,Oqtane.Models.User,System.String,System.String,System.Nullable{System.Int32})
+  name: Notification(Int32, User, User, String, String, Nullable<Int32>)
+  href: api/Oqtane.Models.Notification.html#Oqtane_Models_Notification__ctor_System_Int32_Oqtane_Models_User_Oqtane_Models_User_System_String_System_String_System_Nullable_System_Int32__
+  commentId: M:Oqtane.Models.Notification.#ctor(System.Int32,Oqtane.Models.User,Oqtane.Models.User,System.String,System.String,System.Nullable{System.Int32})
+  name.vb: Notification(Int32, User, User, String, String, Nullable(Of Int32))
+  fullName: Oqtane.Models.Notification.Notification(System.Int32, Oqtane.Models.User, Oqtane.Models.User, System.String, System.String, System.Nullable<System.Int32>)
+  fullName.vb: Oqtane.Models.Notification.Notification(System.Int32, Oqtane.Models.User, Oqtane.Models.User, System.String, System.String, System.Nullable(Of System.Int32))
+  nameWithType: Notification.Notification(Int32, User, User, String, String, Nullable<Int32>)
+  nameWithType.vb: Notification.Notification(Int32, User, User, String, String, Nullable(Of Int32))
+- uid: Oqtane.Models.Notification.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: Notification(Int32, String, String, String, String, String, String)
+  href: api/Oqtane.Models.Notification.html#Oqtane_Models_Notification__ctor_System_Int32_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:Oqtane.Models.Notification.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)
+  fullName: Oqtane.Models.Notification.Notification(System.Int32, System.String, System.String, System.String, System.String, System.String, System.String)
+  nameWithType: Notification.Notification(Int32, String, String, String, String, String, String)
+- uid: Oqtane.Models.Notification.#ctor*
+  name: Notification
+  href: api/Oqtane.Models.Notification.html#Oqtane_Models_Notification__ctor_
+  commentId: Overload:Oqtane.Models.Notification.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Models.Notification.Notification
+  nameWithType: Notification.Notification
 - uid: Oqtane.Models.Notification.Body
   name: Body
   href: api/Oqtane.Models.Notification.html#Oqtane_Models_Notification_Body
@@ -6693,6 +7265,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Profile.Name
   nameWithType: Profile.Name
+- uid: Oqtane.Models.Profile.Options
+  name: Options
+  href: api/Oqtane.Models.Profile.html#Oqtane_Models_Profile_Options
+  commentId: P:Oqtane.Models.Profile.Options
+  fullName: Oqtane.Models.Profile.Options
+  nameWithType: Profile.Options
+- uid: Oqtane.Models.Profile.Options*
+  name: Options
+  href: api/Oqtane.Models.Profile.html#Oqtane_Models_Profile_Options_
+  commentId: Overload:Oqtane.Models.Profile.Options
+  isSpec: "True"
+  fullName: Oqtane.Models.Profile.Options
+  nameWithType: Profile.Options
 - uid: Oqtane.Models.Profile.ProfileId
   name: ProfileId
   href: api/Oqtane.Models.Profile.html#Oqtane_Models_Profile_ProfileId
@@ -6777,6 +7362,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Resource.CrossOrigin
   nameWithType: Resource.CrossOrigin
+- uid: Oqtane.Models.Resource.Declaration
+  name: Declaration
+  href: api/Oqtane.Models.Resource.html#Oqtane_Models_Resource_Declaration
+  commentId: P:Oqtane.Models.Resource.Declaration
+  fullName: Oqtane.Models.Resource.Declaration
+  nameWithType: Resource.Declaration
+- uid: Oqtane.Models.Resource.Declaration*
+  name: Declaration
+  href: api/Oqtane.Models.Resource.html#Oqtane_Models_Resource_Declaration_
+  commentId: Overload:Oqtane.Models.Resource.Declaration
+  isSpec: "True"
+  fullName: Oqtane.Models.Resource.Declaration
+  nameWithType: Resource.Declaration
 - uid: Oqtane.Models.Resource.Integrity
   name: Integrity
   href: api/Oqtane.Models.Resource.html#Oqtane_Models_Resource_Integrity
@@ -6790,6 +7388,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Resource.Integrity
   nameWithType: Resource.Integrity
+- uid: Oqtane.Models.Resource.Location
+  name: Location
+  href: api/Oqtane.Models.Resource.html#Oqtane_Models_Resource_Location
+  commentId: P:Oqtane.Models.Resource.Location
+  fullName: Oqtane.Models.Resource.Location
+  nameWithType: Resource.Location
+- uid: Oqtane.Models.Resource.Location*
+  name: Location
+  href: api/Oqtane.Models.Resource.html#Oqtane_Models_Resource_Location_
+  commentId: Overload:Oqtane.Models.Resource.Location
+  isSpec: "True"
+  fullName: Oqtane.Models.Resource.Location
+  nameWithType: Resource.Location
 - uid: Oqtane.Models.Resource.ResourceType
   name: ResourceType
   href: api/Oqtane.Models.Resource.html#Oqtane_Models_Resource_ResourceType
@@ -7081,6 +7692,19 @@ references:
   commentId: T:Oqtane.Models.Site
   fullName: Oqtane.Models.Site
   nameWithType: Site
+- uid: Oqtane.Models.Site.AdminContainerType
+  name: AdminContainerType
+  href: api/Oqtane.Models.Site.html#Oqtane_Models_Site_AdminContainerType
+  commentId: P:Oqtane.Models.Site.AdminContainerType
+  fullName: Oqtane.Models.Site.AdminContainerType
+  nameWithType: Site.AdminContainerType
+- uid: Oqtane.Models.Site.AdminContainerType*
+  name: AdminContainerType
+  href: api/Oqtane.Models.Site.html#Oqtane_Models_Site_AdminContainerType_
+  commentId: Overload:Oqtane.Models.Site.AdminContainerType
+  isSpec: "True"
+  fullName: Oqtane.Models.Site.AdminContainerType
+  nameWithType: Site.AdminContainerType
 - uid: Oqtane.Models.Site.AllowRegistration
   name: AllowRegistration
   href: api/Oqtane.Models.Site.html#Oqtane_Models_Site_AllowRegistration
@@ -8284,17 +8908,81 @@ references:
   commentId: N:Oqtane.Modules.Controls
   fullName: Oqtane.Modules.Controls
   nameWithType: Oqtane.Modules.Controls
+- uid: Oqtane.Modules.Controls.LocalizableComponent
+  name: LocalizableComponent
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html
+  commentId: T:Oqtane.Modules.Controls.LocalizableComponent
+  fullName: Oqtane.Modules.Controls.LocalizableComponent
+  nameWithType: LocalizableComponent
+- uid: Oqtane.Modules.Controls.LocalizableComponent.IsLocalizable
+  name: IsLocalizable
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_IsLocalizable
+  commentId: P:Oqtane.Modules.Controls.LocalizableComponent.IsLocalizable
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.IsLocalizable
+  nameWithType: LocalizableComponent.IsLocalizable
+- uid: Oqtane.Modules.Controls.LocalizableComponent.IsLocalizable*
+  name: IsLocalizable
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_IsLocalizable_
+  commentId: Overload:Oqtane.Modules.Controls.LocalizableComponent.IsLocalizable
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.IsLocalizable
+  nameWithType: LocalizableComponent.IsLocalizable
+- uid: Oqtane.Modules.Controls.LocalizableComponent.Localize(System.String)
+  name: Localize(String)
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_Localize_System_String_
+  commentId: M:Oqtane.Modules.Controls.LocalizableComponent.Localize(System.String)
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.Localize(System.String)
+  nameWithType: LocalizableComponent.Localize(String)
+- uid: Oqtane.Modules.Controls.LocalizableComponent.Localize(System.String,System.String)
+  name: Localize(String, String)
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_Localize_System_String_System_String_
+  commentId: M:Oqtane.Modules.Controls.LocalizableComponent.Localize(System.String,System.String)
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.Localize(System.String, System.String)
+  nameWithType: LocalizableComponent.Localize(String, String)
+- uid: Oqtane.Modules.Controls.LocalizableComponent.Localize*
+  name: Localize
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_Localize_
+  commentId: Overload:Oqtane.Modules.Controls.LocalizableComponent.Localize
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.Localize
+  nameWithType: LocalizableComponent.Localize
+- uid: Oqtane.Modules.Controls.LocalizableComponent.OnParametersSet
+  name: OnParametersSet()
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_OnParametersSet
+  commentId: M:Oqtane.Modules.Controls.LocalizableComponent.OnParametersSet
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.OnParametersSet()
+  nameWithType: LocalizableComponent.OnParametersSet()
+- uid: Oqtane.Modules.Controls.LocalizableComponent.OnParametersSet*
+  name: OnParametersSet
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_OnParametersSet_
+  commentId: Overload:Oqtane.Modules.Controls.LocalizableComponent.OnParametersSet
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.OnParametersSet
+  nameWithType: LocalizableComponent.OnParametersSet
+- uid: Oqtane.Modules.Controls.LocalizableComponent.ResourceKey
+  name: ResourceKey
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_ResourceKey
+  commentId: P:Oqtane.Modules.Controls.LocalizableComponent.ResourceKey
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.ResourceKey
+  nameWithType: LocalizableComponent.ResourceKey
+- uid: Oqtane.Modules.Controls.LocalizableComponent.ResourceKey*
+  name: ResourceKey
+  href: api/Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_ResourceKey_
+  commentId: Overload:Oqtane.Modules.Controls.LocalizableComponent.ResourceKey
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.LocalizableComponent.ResourceKey
+  nameWithType: LocalizableComponent.ResourceKey
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop
   name: RichTextEditorInterop
   href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html
   commentId: T:Oqtane.Modules.Controls.RichTextEditorInterop
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop
   nameWithType: RichTextEditorInterop
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.#ctor(IJSRuntime)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.#ctor(Microsoft.JSInterop.IJSRuntime)
   name: RichTextEditorInterop(IJSRuntime)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop__ctor_IJSRuntime_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.#ctor(IJSRuntime)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.RichTextEditorInterop(IJSRuntime)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop__ctor_Microsoft_JSInterop_IJSRuntime_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.#ctor(Microsoft.JSInterop.IJSRuntime)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.RichTextEditorInterop(Microsoft.JSInterop.IJSRuntime)
   nameWithType: RichTextEditorInterop.RichTextEditorInterop(IJSRuntime)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.#ctor*
   name: RichTextEditorInterop
@@ -8303,11 +8991,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.RichTextEditorInterop
   nameWithType: RichTextEditorInterop.RichTextEditorInterop
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor(ElementReference,ElementReference,System.Boolean,System.String,System.String,System.String)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor(Microsoft.AspNetCore.Components.ElementReference,Microsoft.AspNetCore.Components.ElementReference,System.Boolean,System.String,System.String,System.String)
   name: CreateEditor(ElementReference, ElementReference, Boolean, String, String, String)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_CreateEditor_ElementReference_ElementReference_System_Boolean_System_String_System_String_System_String_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor(ElementReference,ElementReference,System.Boolean,System.String,System.String,System.String)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor(ElementReference, ElementReference, System.Boolean, System.String, System.String, System.String)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_CreateEditor_Microsoft_AspNetCore_Components_ElementReference_Microsoft_AspNetCore_Components_ElementReference_System_Boolean_System_String_System_String_System_String_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor(Microsoft.AspNetCore.Components.ElementReference,Microsoft.AspNetCore.Components.ElementReference,System.Boolean,System.String,System.String,System.String)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor(Microsoft.AspNetCore.Components.ElementReference, Microsoft.AspNetCore.Components.ElementReference, System.Boolean, System.String, System.String, System.String)
   nameWithType: RichTextEditorInterop.CreateEditor(ElementReference, ElementReference, Boolean, String, String, String)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor*
   name: CreateEditor
@@ -8316,11 +9004,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.CreateEditor
   nameWithType: RichTextEditorInterop.CreateEditor
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor(ElementReference,System.Boolean)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor(Microsoft.AspNetCore.Components.ElementReference,System.Boolean)
   name: EnableEditor(ElementReference, Boolean)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_EnableEditor_ElementReference_System_Boolean_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor(ElementReference,System.Boolean)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor(ElementReference, System.Boolean)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_EnableEditor_Microsoft_AspNetCore_Components_ElementReference_System_Boolean_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor(Microsoft.AspNetCore.Components.ElementReference,System.Boolean)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor(Microsoft.AspNetCore.Components.ElementReference, System.Boolean)
   nameWithType: RichTextEditorInterop.EnableEditor(ElementReference, Boolean)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor*
   name: EnableEditor
@@ -8329,11 +9017,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.EnableEditor
   nameWithType: RichTextEditorInterop.EnableEditor
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetContent(ElementReference)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetContent(Microsoft.AspNetCore.Components.ElementReference)
   name: GetContent(ElementReference)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_GetContent_ElementReference_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.GetContent(ElementReference)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetContent(ElementReference)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_GetContent_Microsoft_AspNetCore_Components_ElementReference_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.GetContent(Microsoft.AspNetCore.Components.ElementReference)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetContent(Microsoft.AspNetCore.Components.ElementReference)
   nameWithType: RichTextEditorInterop.GetContent(ElementReference)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetContent*
   name: GetContent
@@ -8342,11 +9030,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetContent
   nameWithType: RichTextEditorInterop.GetContent
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(ElementReference)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(Microsoft.AspNetCore.Components.ElementReference)
   name: GetHtml(ElementReference)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_GetHtml_ElementReference_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(ElementReference)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(ElementReference)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_GetHtml_Microsoft_AspNetCore_Components_ElementReference_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(Microsoft.AspNetCore.Components.ElementReference)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(Microsoft.AspNetCore.Components.ElementReference)
   nameWithType: RichTextEditorInterop.GetHtml(ElementReference)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml*
   name: GetHtml
@@ -8355,11 +9043,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml
   nameWithType: RichTextEditorInterop.GetHtml
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetText(ElementReference)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetText(Microsoft.AspNetCore.Components.ElementReference)
   name: GetText(ElementReference)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_GetText_ElementReference_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.GetText(ElementReference)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetText(ElementReference)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_GetText_Microsoft_AspNetCore_Components_ElementReference_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.GetText(Microsoft.AspNetCore.Components.ElementReference)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetText(Microsoft.AspNetCore.Components.ElementReference)
   nameWithType: RichTextEditorInterop.GetText(ElementReference)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.GetText*
   name: GetText
@@ -8368,11 +9056,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.GetText
   nameWithType: RichTextEditorInterop.GetText
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(ElementReference,System.String)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(Microsoft.AspNetCore.Components.ElementReference,System.String)
   name: InsertImage(ElementReference, String)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_InsertImage_ElementReference_System_String_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(ElementReference,System.String)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(ElementReference, System.String)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_InsertImage_Microsoft_AspNetCore_Components_ElementReference_System_String_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(Microsoft.AspNetCore.Components.ElementReference,System.String)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(Microsoft.AspNetCore.Components.ElementReference, System.String)
   nameWithType: RichTextEditorInterop.InsertImage(ElementReference, String)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage*
   name: InsertImage
@@ -8381,11 +9069,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage
   nameWithType: RichTextEditorInterop.InsertImage
-- uid: Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent(ElementReference,System.String)
+- uid: Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent(Microsoft.AspNetCore.Components.ElementReference,System.String)
   name: LoadEditorContent(ElementReference, String)
-  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_LoadEditorContent_ElementReference_System_String_
-  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent(ElementReference,System.String)
-  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent(ElementReference, System.String)
+  href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html#Oqtane_Modules_Controls_RichTextEditorInterop_LoadEditorContent_Microsoft_AspNetCore_Components_ElementReference_System_String_
+  commentId: M:Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent(Microsoft.AspNetCore.Components.ElementReference,System.String)
+  fullName: Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent(Microsoft.AspNetCore.Components.ElementReference, System.String)
   nameWithType: RichTextEditorInterop.LoadEditorContent(ElementReference, String)
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop.LoadEditorContent*
   name: LoadEditorContent
@@ -9174,12 +9862,31 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.ModuleBase.AddModuleMessage
   nameWithType: ModuleBase.AddModuleMessage
+- uid: Oqtane.Modules.ModuleBase.ClearModuleMessage
+  name: ClearModuleMessage()
+  href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ClearModuleMessage
+  commentId: M:Oqtane.Modules.ModuleBase.ClearModuleMessage
+  fullName: Oqtane.Modules.ModuleBase.ClearModuleMessage()
+  nameWithType: ModuleBase.ClearModuleMessage()
+- uid: Oqtane.Modules.ModuleBase.ClearModuleMessage*
+  name: ClearModuleMessage
+  href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ClearModuleMessage_
+  commentId: Overload:Oqtane.Modules.ModuleBase.ClearModuleMessage
+  isSpec: "True"
+  fullName: Oqtane.Modules.ModuleBase.ClearModuleMessage
+  nameWithType: ModuleBase.ClearModuleMessage
 - uid: Oqtane.Modules.ModuleBase.ContentUrl(System.Int32)
   name: ContentUrl(Int32)
   href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_
   commentId: M:Oqtane.Modules.ModuleBase.ContentUrl(System.Int32)
   fullName: Oqtane.Modules.ModuleBase.ContentUrl(System.Int32)
   nameWithType: ModuleBase.ContentUrl(Int32)
+- uid: Oqtane.Modules.ModuleBase.ContentUrl(System.Int32,System.Boolean)
+  name: ContentUrl(Int32, Boolean)
+  href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_
+  commentId: M:Oqtane.Modules.ModuleBase.ContentUrl(System.Int32,System.Boolean)
+  fullName: Oqtane.Modules.ModuleBase.ContentUrl(System.Int32, System.Boolean)
+  nameWithType: ModuleBase.ContentUrl(Int32, Boolean)
 - uid: Oqtane.Modules.ModuleBase.ContentUrl*
   name: ContentUrl
   href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_
@@ -9647,6 +10354,31 @@ references:
   commentId: T:Oqtane.Pages.HostModel
   fullName: Oqtane.Pages.HostModel
   nameWithType: HostModel
+- uid: Oqtane.Pages.HostModel.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Oqtane.Shared.SiteState,Oqtane.Repository.IAliasRepository,Oqtane.Infrastructure.ILocalizationManager,Oqtane.Repository.ILanguageRepository)
+  name: HostModel(IConfiguration, SiteState, IAliasRepository, ILocalizationManager, ILanguageRepository)
+  href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel__ctor_Microsoft_Extensions_Configuration_IConfiguration_Oqtane_Shared_SiteState_Oqtane_Repository_IAliasRepository_Oqtane_Infrastructure_ILocalizationManager_Oqtane_Repository_ILanguageRepository_
+  commentId: M:Oqtane.Pages.HostModel.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Oqtane.Shared.SiteState,Oqtane.Repository.IAliasRepository,Oqtane.Infrastructure.ILocalizationManager,Oqtane.Repository.ILanguageRepository)
+  fullName: Oqtane.Pages.HostModel.HostModel(Microsoft.Extensions.Configuration.IConfiguration, Oqtane.Shared.SiteState, Oqtane.Repository.IAliasRepository, Oqtane.Infrastructure.ILocalizationManager, Oqtane.Repository.ILanguageRepository)
+  nameWithType: HostModel.HostModel(IConfiguration, SiteState, IAliasRepository, ILocalizationManager, ILanguageRepository)
+- uid: Oqtane.Pages.HostModel.#ctor*
+  name: HostModel
+  href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel__ctor_
+  commentId: Overload:Oqtane.Pages.HostModel.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Pages.HostModel.HostModel
+  nameWithType: HostModel.HostModel
+- uid: Oqtane.Pages.HostModel.BodyResources
+  name: BodyResources
+  href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel_BodyResources
+  commentId: F:Oqtane.Pages.HostModel.BodyResources
+  fullName: Oqtane.Pages.HostModel.BodyResources
+  nameWithType: HostModel.BodyResources
+- uid: Oqtane.Pages.HostModel.HeadResources
+  name: HeadResources
+  href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel_HeadResources
+  commentId: F:Oqtane.Pages.HostModel.HeadResources
+  fullName: Oqtane.Pages.HostModel.HeadResources
+  nameWithType: HostModel.HeadResources
 - uid: Oqtane.Pages.HostModel.OnGet
   name: OnGet()
   href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel_OnGet
@@ -9660,12 +10392,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Pages.HostModel.OnGet
   nameWithType: HostModel.OnGet
-- uid: Oqtane.Pages.HostModel.Resources
-  name: Resources
-  href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel_Resources
-  commentId: F:Oqtane.Pages.HostModel.Resources
-  fullName: Oqtane.Pages.HostModel.Resources
-  nameWithType: HostModel.Resources
 - uid: Oqtane.Pages.LoginModel
   name: LoginModel
   href: api/Oqtane.Pages.LoginModel.html
@@ -9732,11 +10458,11 @@ references:
   commentId: T:Oqtane.Providers.IdentityAuthenticationStateProvider
   fullName: Oqtane.Providers.IdentityAuthenticationStateProvider
   nameWithType: IdentityAuthenticationStateProvider
-- uid: Oqtane.Providers.IdentityAuthenticationStateProvider.#ctor(NavigationManager,Oqtane.Shared.SiteState,System.IServiceProvider)
+- uid: Oqtane.Providers.IdentityAuthenticationStateProvider.#ctor(Microsoft.AspNetCore.Components.NavigationManager,Oqtane.Shared.SiteState,System.IServiceProvider)
   name: IdentityAuthenticationStateProvider(NavigationManager, SiteState, IServiceProvider)
-  href: api/Oqtane.Providers.IdentityAuthenticationStateProvider.html#Oqtane_Providers_IdentityAuthenticationStateProvider__ctor_NavigationManager_Oqtane_Shared_SiteState_System_IServiceProvider_
-  commentId: M:Oqtane.Providers.IdentityAuthenticationStateProvider.#ctor(NavigationManager,Oqtane.Shared.SiteState,System.IServiceProvider)
-  fullName: Oqtane.Providers.IdentityAuthenticationStateProvider.IdentityAuthenticationStateProvider(NavigationManager, Oqtane.Shared.SiteState, System.IServiceProvider)
+  href: api/Oqtane.Providers.IdentityAuthenticationStateProvider.html#Oqtane_Providers_IdentityAuthenticationStateProvider__ctor_Microsoft_AspNetCore_Components_NavigationManager_Oqtane_Shared_SiteState_System_IServiceProvider_
+  commentId: M:Oqtane.Providers.IdentityAuthenticationStateProvider.#ctor(Microsoft.AspNetCore.Components.NavigationManager,Oqtane.Shared.SiteState,System.IServiceProvider)
+  fullName: Oqtane.Providers.IdentityAuthenticationStateProvider.IdentityAuthenticationStateProvider(Microsoft.AspNetCore.Components.NavigationManager, Oqtane.Shared.SiteState, System.IServiceProvider)
   nameWithType: IdentityAuthenticationStateProvider.IdentityAuthenticationStateProvider(NavigationManager, SiteState, IServiceProvider)
 - uid: Oqtane.Providers.IdentityAuthenticationStateProvider.#ctor*
   name: IdentityAuthenticationStateProvider
@@ -9828,6 +10554,12 @@ references:
   commentId: M:Oqtane.Repository.AliasRepository.GetAlias(System.Int32)
   fullName: Oqtane.Repository.AliasRepository.GetAlias(System.Int32)
   nameWithType: AliasRepository.GetAlias(Int32)
+- uid: Oqtane.Repository.AliasRepository.GetAlias(System.String)
+  name: GetAlias(String)
+  href: api/Oqtane.Repository.AliasRepository.html#Oqtane_Repository_AliasRepository_GetAlias_System_String_
+  commentId: M:Oqtane.Repository.AliasRepository.GetAlias(System.String)
+  fullName: Oqtane.Repository.AliasRepository.GetAlias(System.String)
+  nameWithType: AliasRepository.GetAlias(String)
 - uid: Oqtane.Repository.AliasRepository.GetAlias*
   name: GetAlias
   href: api/Oqtane.Repository.AliasRepository.html#Oqtane_Repository_AliasRepository_GetAlias_
@@ -9880,11 +10612,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.DBContextBase.DBContextBase
   nameWithType: DBContextBase.DBContextBase
-- uid: Oqtane.Repository.DBContextBase.OnConfiguring(DbContextOptionsBuilder)
+- uid: Oqtane.Repository.DBContextBase.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   name: OnConfiguring(DbContextOptionsBuilder)
-  href: api/Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnConfiguring_DbContextOptionsBuilder_
-  commentId: M:Oqtane.Repository.DBContextBase.OnConfiguring(DbContextOptionsBuilder)
-  fullName: Oqtane.Repository.DBContextBase.OnConfiguring(DbContextOptionsBuilder)
+  href: api/Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:Oqtane.Repository.DBContextBase.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: Oqtane.Repository.DBContextBase.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   nameWithType: DBContextBase.OnConfiguring(DbContextOptionsBuilder)
 - uid: Oqtane.Repository.DBContextBase.OnConfiguring*
   name: OnConfiguring
@@ -9912,12 +10644,12 @@ references:
   commentId: T:Oqtane.Repository.FileRepository
   fullName: Oqtane.Repository.FileRepository
   nameWithType: FileRepository
-- uid: Oqtane.Repository.FileRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository)
-  name: FileRepository(TenantDBContext, IPermissionRepository)
-  href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IPermissionRepository_
-  commentId: M:Oqtane.Repository.FileRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository)
-  fullName: Oqtane.Repository.FileRepository.FileRepository(Oqtane.Repository.TenantDBContext, Oqtane.Repository.IPermissionRepository)
-  nameWithType: FileRepository.FileRepository(TenantDBContext, IPermissionRepository)
+- uid: Oqtane.Repository.FileRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository,Oqtane.Repository.IFolderRepository)
+  name: FileRepository(TenantDBContext, IPermissionRepository, IFolderRepository)
+  href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IPermissionRepository_Oqtane_Repository_IFolderRepository_
+  commentId: M:Oqtane.Repository.FileRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository,Oqtane.Repository.IFolderRepository)
+  fullName: Oqtane.Repository.FileRepository.FileRepository(Oqtane.Repository.TenantDBContext, Oqtane.Repository.IPermissionRepository, Oqtane.Repository.IFolderRepository)
+  nameWithType: FileRepository.FileRepository(TenantDBContext, IPermissionRepository, IFolderRepository)
 - uid: Oqtane.Repository.FileRepository.#ctor*
   name: FileRepository
   href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository__ctor_
@@ -9970,6 +10702,25 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.FileRepository.GetFile
   nameWithType: FileRepository.GetFile
+- uid: Oqtane.Repository.FileRepository.GetFilePath(Oqtane.Models.File)
+  name: GetFilePath(File)
+  href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository_GetFilePath_Oqtane_Models_File_
+  commentId: M:Oqtane.Repository.FileRepository.GetFilePath(Oqtane.Models.File)
+  fullName: Oqtane.Repository.FileRepository.GetFilePath(Oqtane.Models.File)
+  nameWithType: FileRepository.GetFilePath(File)
+- uid: Oqtane.Repository.FileRepository.GetFilePath(System.Int32)
+  name: GetFilePath(Int32)
+  href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository_GetFilePath_System_Int32_
+  commentId: M:Oqtane.Repository.FileRepository.GetFilePath(System.Int32)
+  fullName: Oqtane.Repository.FileRepository.GetFilePath(System.Int32)
+  nameWithType: FileRepository.GetFilePath(Int32)
+- uid: Oqtane.Repository.FileRepository.GetFilePath*
+  name: GetFilePath
+  href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository_GetFilePath_
+  commentId: Overload:Oqtane.Repository.FileRepository.GetFilePath
+  isSpec: "True"
+  fullName: Oqtane.Repository.FileRepository.GetFilePath
+  nameWithType: FileRepository.GetFilePath
 - uid: Oqtane.Repository.FileRepository.GetFiles(System.Int32)
   name: GetFiles(Int32)
   href: api/Oqtane.Repository.FileRepository.html#Oqtane_Repository_FileRepository_GetFiles_System_Int32_
@@ -10002,12 +10753,12 @@ references:
   commentId: T:Oqtane.Repository.FolderRepository
   fullName: Oqtane.Repository.FolderRepository
   nameWithType: FolderRepository
-- uid: Oqtane.Repository.FolderRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository)
-  name: FolderRepository(TenantDBContext, IPermissionRepository)
-  href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IPermissionRepository_
-  commentId: M:Oqtane.Repository.FolderRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository)
-  fullName: Oqtane.Repository.FolderRepository.FolderRepository(Oqtane.Repository.TenantDBContext, Oqtane.Repository.IPermissionRepository)
-  nameWithType: FolderRepository.FolderRepository(TenantDBContext, IPermissionRepository)
+- uid: Oqtane.Repository.FolderRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Repository.ITenantResolver)
+  name: FolderRepository(TenantDBContext, IPermissionRepository, IWebHostEnvironment, ITenantResolver)
+  href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IPermissionRepository_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Repository_ITenantResolver_
+  commentId: M:Oqtane.Repository.FolderRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Repository.ITenantResolver)
+  fullName: Oqtane.Repository.FolderRepository.FolderRepository(Oqtane.Repository.TenantDBContext, Oqtane.Repository.IPermissionRepository, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Oqtane.Repository.ITenantResolver)
+  nameWithType: FolderRepository.FolderRepository(TenantDBContext, IPermissionRepository, IWebHostEnvironment, ITenantResolver)
 - uid: Oqtane.Repository.FolderRepository.#ctor*
   name: FolderRepository
   href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository__ctor_
@@ -10066,6 +10817,25 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.FolderRepository.GetFolder
   nameWithType: FolderRepository.GetFolder
+- uid: Oqtane.Repository.FolderRepository.GetFolderPath(Oqtane.Models.Folder)
+  name: GetFolderPath(Folder)
+  href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository_GetFolderPath_Oqtane_Models_Folder_
+  commentId: M:Oqtane.Repository.FolderRepository.GetFolderPath(Oqtane.Models.Folder)
+  fullName: Oqtane.Repository.FolderRepository.GetFolderPath(Oqtane.Models.Folder)
+  nameWithType: FolderRepository.GetFolderPath(Folder)
+- uid: Oqtane.Repository.FolderRepository.GetFolderPath(System.Int32)
+  name: GetFolderPath(Int32)
+  href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository_GetFolderPath_System_Int32_
+  commentId: M:Oqtane.Repository.FolderRepository.GetFolderPath(System.Int32)
+  fullName: Oqtane.Repository.FolderRepository.GetFolderPath(System.Int32)
+  nameWithType: FolderRepository.GetFolderPath(Int32)
+- uid: Oqtane.Repository.FolderRepository.GetFolderPath*
+  name: GetFolderPath
+  href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository_GetFolderPath_
+  commentId: Overload:Oqtane.Repository.FolderRepository.GetFolderPath
+  isSpec: "True"
+  fullName: Oqtane.Repository.FolderRepository.GetFolderPath
+  nameWithType: FolderRepository.GetFolderPath
 - uid: Oqtane.Repository.FolderRepository.GetFolders(System.Int32)
   name: GetFolders(Int32)
   href: api/Oqtane.Repository.FolderRepository.html#Oqtane_Repository_FolderRepository_GetFolders_System_Int32_
@@ -10130,6 +10900,12 @@ references:
   commentId: M:Oqtane.Repository.IAliasRepository.GetAlias(System.Int32)
   fullName: Oqtane.Repository.IAliasRepository.GetAlias(System.Int32)
   nameWithType: IAliasRepository.GetAlias(Int32)
+- uid: Oqtane.Repository.IAliasRepository.GetAlias(System.String)
+  name: GetAlias(String)
+  href: api/Oqtane.Repository.IAliasRepository.html#Oqtane_Repository_IAliasRepository_GetAlias_System_String_
+  commentId: M:Oqtane.Repository.IAliasRepository.GetAlias(System.String)
+  fullName: Oqtane.Repository.IAliasRepository.GetAlias(System.String)
+  nameWithType: IAliasRepository.GetAlias(String)
 - uid: Oqtane.Repository.IAliasRepository.GetAlias*
   name: GetAlias
   href: api/Oqtane.Repository.IAliasRepository.html#Oqtane_Repository_IAliasRepository_GetAlias_
@@ -10214,6 +10990,25 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.IFileRepository.GetFile
   nameWithType: IFileRepository.GetFile
+- uid: Oqtane.Repository.IFileRepository.GetFilePath(Oqtane.Models.File)
+  name: GetFilePath(File)
+  href: api/Oqtane.Repository.IFileRepository.html#Oqtane_Repository_IFileRepository_GetFilePath_Oqtane_Models_File_
+  commentId: M:Oqtane.Repository.IFileRepository.GetFilePath(Oqtane.Models.File)
+  fullName: Oqtane.Repository.IFileRepository.GetFilePath(Oqtane.Models.File)
+  nameWithType: IFileRepository.GetFilePath(File)
+- uid: Oqtane.Repository.IFileRepository.GetFilePath(System.Int32)
+  name: GetFilePath(Int32)
+  href: api/Oqtane.Repository.IFileRepository.html#Oqtane_Repository_IFileRepository_GetFilePath_System_Int32_
+  commentId: M:Oqtane.Repository.IFileRepository.GetFilePath(System.Int32)
+  fullName: Oqtane.Repository.IFileRepository.GetFilePath(System.Int32)
+  nameWithType: IFileRepository.GetFilePath(Int32)
+- uid: Oqtane.Repository.IFileRepository.GetFilePath*
+  name: GetFilePath
+  href: api/Oqtane.Repository.IFileRepository.html#Oqtane_Repository_IFileRepository_GetFilePath_
+  commentId: Overload:Oqtane.Repository.IFileRepository.GetFilePath
+  isSpec: "True"
+  fullName: Oqtane.Repository.IFileRepository.GetFilePath
+  nameWithType: IFileRepository.GetFilePath
 - uid: Oqtane.Repository.IFileRepository.GetFiles(System.Int32)
   name: GetFiles(Int32)
   href: api/Oqtane.Repository.IFileRepository.html#Oqtane_Repository_IFileRepository_GetFiles_System_Int32_
@@ -10297,6 +11092,25 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.IFolderRepository.GetFolder
   nameWithType: IFolderRepository.GetFolder
+- uid: Oqtane.Repository.IFolderRepository.GetFolderPath(Oqtane.Models.Folder)
+  name: GetFolderPath(Folder)
+  href: api/Oqtane.Repository.IFolderRepository.html#Oqtane_Repository_IFolderRepository_GetFolderPath_Oqtane_Models_Folder_
+  commentId: M:Oqtane.Repository.IFolderRepository.GetFolderPath(Oqtane.Models.Folder)
+  fullName: Oqtane.Repository.IFolderRepository.GetFolderPath(Oqtane.Models.Folder)
+  nameWithType: IFolderRepository.GetFolderPath(Folder)
+- uid: Oqtane.Repository.IFolderRepository.GetFolderPath(System.Int32)
+  name: GetFolderPath(Int32)
+  href: api/Oqtane.Repository.IFolderRepository.html#Oqtane_Repository_IFolderRepository_GetFolderPath_System_Int32_
+  commentId: M:Oqtane.Repository.IFolderRepository.GetFolderPath(System.Int32)
+  fullName: Oqtane.Repository.IFolderRepository.GetFolderPath(System.Int32)
+  nameWithType: IFolderRepository.GetFolderPath(Int32)
+- uid: Oqtane.Repository.IFolderRepository.GetFolderPath*
+  name: GetFolderPath
+  href: api/Oqtane.Repository.IFolderRepository.html#Oqtane_Repository_IFolderRepository_GetFolderPath_
+  commentId: Overload:Oqtane.Repository.IFolderRepository.GetFolderPath
+  isSpec: "True"
+  fullName: Oqtane.Repository.IFolderRepository.GetFolderPath
+  nameWithType: IFolderRepository.GetFolderPath
 - uid: Oqtane.Repository.IFolderRepository.GetFolders(System.Int32)
   name: GetFolders(Int32)
   href: api/Oqtane.Repository.IFolderRepository.html#Oqtane_Repository_IFolderRepository_GetFolders_System_Int32_
@@ -10465,6 +11279,64 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.IJobRepository.UpdateJob
   nameWithType: IJobRepository.UpdateJob
+- uid: Oqtane.Repository.ILanguageRepository
+  name: ILanguageRepository
+  href: api/Oqtane.Repository.ILanguageRepository.html
+  commentId: T:Oqtane.Repository.ILanguageRepository
+  fullName: Oqtane.Repository.ILanguageRepository
+  nameWithType: ILanguageRepository
+- uid: Oqtane.Repository.ILanguageRepository.AddLanguage(Oqtane.Models.Language)
+  name: AddLanguage(Language)
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_AddLanguage_Oqtane_Models_Language_
+  commentId: M:Oqtane.Repository.ILanguageRepository.AddLanguage(Oqtane.Models.Language)
+  fullName: Oqtane.Repository.ILanguageRepository.AddLanguage(Oqtane.Models.Language)
+  nameWithType: ILanguageRepository.AddLanguage(Language)
+- uid: Oqtane.Repository.ILanguageRepository.AddLanguage*
+  name: AddLanguage
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_AddLanguage_
+  commentId: Overload:Oqtane.Repository.ILanguageRepository.AddLanguage
+  isSpec: "True"
+  fullName: Oqtane.Repository.ILanguageRepository.AddLanguage
+  nameWithType: ILanguageRepository.AddLanguage
+- uid: Oqtane.Repository.ILanguageRepository.DeleteLanguage(System.Int32)
+  name: DeleteLanguage(Int32)
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_DeleteLanguage_System_Int32_
+  commentId: M:Oqtane.Repository.ILanguageRepository.DeleteLanguage(System.Int32)
+  fullName: Oqtane.Repository.ILanguageRepository.DeleteLanguage(System.Int32)
+  nameWithType: ILanguageRepository.DeleteLanguage(Int32)
+- uid: Oqtane.Repository.ILanguageRepository.DeleteLanguage*
+  name: DeleteLanguage
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_DeleteLanguage_
+  commentId: Overload:Oqtane.Repository.ILanguageRepository.DeleteLanguage
+  isSpec: "True"
+  fullName: Oqtane.Repository.ILanguageRepository.DeleteLanguage
+  nameWithType: ILanguageRepository.DeleteLanguage
+- uid: Oqtane.Repository.ILanguageRepository.GetLanguage(System.Int32)
+  name: GetLanguage(Int32)
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_GetLanguage_System_Int32_
+  commentId: M:Oqtane.Repository.ILanguageRepository.GetLanguage(System.Int32)
+  fullName: Oqtane.Repository.ILanguageRepository.GetLanguage(System.Int32)
+  nameWithType: ILanguageRepository.GetLanguage(Int32)
+- uid: Oqtane.Repository.ILanguageRepository.GetLanguage*
+  name: GetLanguage
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_GetLanguage_
+  commentId: Overload:Oqtane.Repository.ILanguageRepository.GetLanguage
+  isSpec: "True"
+  fullName: Oqtane.Repository.ILanguageRepository.GetLanguage
+  nameWithType: ILanguageRepository.GetLanguage
+- uid: Oqtane.Repository.ILanguageRepository.GetLanguages(System.Int32)
+  name: GetLanguages(Int32)
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_GetLanguages_System_Int32_
+  commentId: M:Oqtane.Repository.ILanguageRepository.GetLanguages(System.Int32)
+  fullName: Oqtane.Repository.ILanguageRepository.GetLanguages(System.Int32)
+  nameWithType: ILanguageRepository.GetLanguages(Int32)
+- uid: Oqtane.Repository.ILanguageRepository.GetLanguages*
+  name: GetLanguages
+  href: api/Oqtane.Repository.ILanguageRepository.html#Oqtane_Repository_ILanguageRepository_GetLanguages_
+  commentId: Overload:Oqtane.Repository.ILanguageRepository.GetLanguages
+  isSpec: "True"
+  fullName: Oqtane.Repository.ILanguageRepository.GetLanguages
+  nameWithType: ILanguageRepository.GetLanguages
 - uid: Oqtane.Repository.ILogRepository
   name: ILogRepository
   href: api/Oqtane.Repository.ILogRepository.html
@@ -10516,12 +11388,12 @@ references:
   commentId: T:Oqtane.Repository.IModuleDefinitionRepository
   fullName: Oqtane.Repository.IModuleDefinitionRepository
   nameWithType: IModuleDefinitionRepository
-- uid: Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32,System.Int32)
-  name: DeleteModuleDefinition(Int32, Int32)
-  href: api/Oqtane.Repository.IModuleDefinitionRepository.html#Oqtane_Repository_IModuleDefinitionRepository_DeleteModuleDefinition_System_Int32_System_Int32_
-  commentId: M:Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32,System.Int32)
-  fullName: Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32, System.Int32)
-  nameWithType: IModuleDefinitionRepository.DeleteModuleDefinition(Int32, Int32)
+- uid: Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)
+  name: DeleteModuleDefinition(Int32)
+  href: api/Oqtane.Repository.IModuleDefinitionRepository.html#Oqtane_Repository_IModuleDefinitionRepository_DeleteModuleDefinition_System_Int32_
+  commentId: M:Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)
+  fullName: Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)
+  nameWithType: IModuleDefinitionRepository.DeleteModuleDefinition(Int32)
 - uid: Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition*
   name: DeleteModuleDefinition
   href: api/Oqtane.Repository.IModuleDefinitionRepository.html#Oqtane_Repository_IModuleDefinitionRepository_DeleteModuleDefinition_
@@ -10800,11 +11672,11 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.InstallationContext.ModuleDefinition
   nameWithType: InstallationContext.ModuleDefinition
-- uid: Oqtane.Repository.InstallationContext.OnConfiguring(DbContextOptionsBuilder)
+- uid: Oqtane.Repository.InstallationContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   name: OnConfiguring(DbContextOptionsBuilder)
-  href: api/Oqtane.Repository.InstallationContext.html#Oqtane_Repository_InstallationContext_OnConfiguring_DbContextOptionsBuilder_
-  commentId: M:Oqtane.Repository.InstallationContext.OnConfiguring(DbContextOptionsBuilder)
-  fullName: Oqtane.Repository.InstallationContext.OnConfiguring(DbContextOptionsBuilder)
+  href: api/Oqtane.Repository.InstallationContext.html#Oqtane_Repository_InstallationContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:Oqtane.Repository.InstallationContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: Oqtane.Repository.InstallationContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   nameWithType: InstallationContext.OnConfiguring(DbContextOptionsBuilder)
 - uid: Oqtane.Repository.InstallationContext.OnConfiguring*
   name: OnConfiguring
@@ -11332,6 +12204,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.ISettingRepository.GetSetting
   nameWithType: ISettingRepository.GetSetting
+- uid: Oqtane.Repository.ISettingRepository.GetSettings(System.String)
+  name: GetSettings(String)
+  href: api/Oqtane.Repository.ISettingRepository.html#Oqtane_Repository_ISettingRepository_GetSettings_System_String_
+  commentId: M:Oqtane.Repository.ISettingRepository.GetSettings(System.String)
+  fullName: Oqtane.Repository.ISettingRepository.GetSettings(System.String)
+  nameWithType: ISettingRepository.GetSettings(String)
 - uid: Oqtane.Repository.ISettingRepository.GetSettings(System.String,System.Int32)
   name: GetSettings(String, Int32)
   href: api/Oqtane.Repository.ISettingRepository.html#Oqtane_Repository_ISettingRepository_GetSettings_System_String_System_Int32_
@@ -11624,6 +12502,19 @@ references:
   commentId: T:Oqtane.Repository.IThemeRepository
   fullName: Oqtane.Repository.IThemeRepository
   nameWithType: IThemeRepository
+- uid: Oqtane.Repository.IThemeRepository.DeleteTheme(System.String)
+  name: DeleteTheme(String)
+  href: api/Oqtane.Repository.IThemeRepository.html#Oqtane_Repository_IThemeRepository_DeleteTheme_System_String_
+  commentId: M:Oqtane.Repository.IThemeRepository.DeleteTheme(System.String)
+  fullName: Oqtane.Repository.IThemeRepository.DeleteTheme(System.String)
+  nameWithType: IThemeRepository.DeleteTheme(String)
+- uid: Oqtane.Repository.IThemeRepository.DeleteTheme*
+  name: DeleteTheme
+  href: api/Oqtane.Repository.IThemeRepository.html#Oqtane_Repository_IThemeRepository_DeleteTheme_
+  commentId: Overload:Oqtane.Repository.IThemeRepository.DeleteTheme
+  isSpec: "True"
+  fullName: Oqtane.Repository.IThemeRepository.DeleteTheme
+  nameWithType: IThemeRepository.DeleteTheme
 - uid: Oqtane.Repository.IThemeRepository.GetThemes
   name: GetThemes()
   href: api/Oqtane.Repository.IThemeRepository.html#Oqtane_Repository_IThemeRepository_GetThemes
@@ -11959,6 +12850,77 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.JobRepository.UpdateJob
   nameWithType: JobRepository.UpdateJob
+- uid: Oqtane.Repository.LanguageRepository
+  name: LanguageRepository
+  href: api/Oqtane.Repository.LanguageRepository.html
+  commentId: T:Oqtane.Repository.LanguageRepository
+  fullName: Oqtane.Repository.LanguageRepository
+  nameWithType: LanguageRepository
+- uid: Oqtane.Repository.LanguageRepository.#ctor(Oqtane.Repository.TenantDBContext)
+  name: LanguageRepository(TenantDBContext)
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository__ctor_Oqtane_Repository_TenantDBContext_
+  commentId: M:Oqtane.Repository.LanguageRepository.#ctor(Oqtane.Repository.TenantDBContext)
+  fullName: Oqtane.Repository.LanguageRepository.LanguageRepository(Oqtane.Repository.TenantDBContext)
+  nameWithType: LanguageRepository.LanguageRepository(TenantDBContext)
+- uid: Oqtane.Repository.LanguageRepository.#ctor*
+  name: LanguageRepository
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository__ctor_
+  commentId: Overload:Oqtane.Repository.LanguageRepository.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Repository.LanguageRepository.LanguageRepository
+  nameWithType: LanguageRepository.LanguageRepository
+- uid: Oqtane.Repository.LanguageRepository.AddLanguage(Oqtane.Models.Language)
+  name: AddLanguage(Language)
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_AddLanguage_Oqtane_Models_Language_
+  commentId: M:Oqtane.Repository.LanguageRepository.AddLanguage(Oqtane.Models.Language)
+  fullName: Oqtane.Repository.LanguageRepository.AddLanguage(Oqtane.Models.Language)
+  nameWithType: LanguageRepository.AddLanguage(Language)
+- uid: Oqtane.Repository.LanguageRepository.AddLanguage*
+  name: AddLanguage
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_AddLanguage_
+  commentId: Overload:Oqtane.Repository.LanguageRepository.AddLanguage
+  isSpec: "True"
+  fullName: Oqtane.Repository.LanguageRepository.AddLanguage
+  nameWithType: LanguageRepository.AddLanguage
+- uid: Oqtane.Repository.LanguageRepository.DeleteLanguage(System.Int32)
+  name: DeleteLanguage(Int32)
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_DeleteLanguage_System_Int32_
+  commentId: M:Oqtane.Repository.LanguageRepository.DeleteLanguage(System.Int32)
+  fullName: Oqtane.Repository.LanguageRepository.DeleteLanguage(System.Int32)
+  nameWithType: LanguageRepository.DeleteLanguage(Int32)
+- uid: Oqtane.Repository.LanguageRepository.DeleteLanguage*
+  name: DeleteLanguage
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_DeleteLanguage_
+  commentId: Overload:Oqtane.Repository.LanguageRepository.DeleteLanguage
+  isSpec: "True"
+  fullName: Oqtane.Repository.LanguageRepository.DeleteLanguage
+  nameWithType: LanguageRepository.DeleteLanguage
+- uid: Oqtane.Repository.LanguageRepository.GetLanguage(System.Int32)
+  name: GetLanguage(Int32)
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_GetLanguage_System_Int32_
+  commentId: M:Oqtane.Repository.LanguageRepository.GetLanguage(System.Int32)
+  fullName: Oqtane.Repository.LanguageRepository.GetLanguage(System.Int32)
+  nameWithType: LanguageRepository.GetLanguage(Int32)
+- uid: Oqtane.Repository.LanguageRepository.GetLanguage*
+  name: GetLanguage
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_GetLanguage_
+  commentId: Overload:Oqtane.Repository.LanguageRepository.GetLanguage
+  isSpec: "True"
+  fullName: Oqtane.Repository.LanguageRepository.GetLanguage
+  nameWithType: LanguageRepository.GetLanguage
+- uid: Oqtane.Repository.LanguageRepository.GetLanguages(System.Int32)
+  name: GetLanguages(Int32)
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_GetLanguages_System_Int32_
+  commentId: M:Oqtane.Repository.LanguageRepository.GetLanguages(System.Int32)
+  fullName: Oqtane.Repository.LanguageRepository.GetLanguages(System.Int32)
+  nameWithType: LanguageRepository.GetLanguages(Int32)
+- uid: Oqtane.Repository.LanguageRepository.GetLanguages*
+  name: GetLanguages
+  href: api/Oqtane.Repository.LanguageRepository.html#Oqtane_Repository_LanguageRepository_GetLanguages_
+  commentId: Overload:Oqtane.Repository.LanguageRepository.GetLanguages
+  isSpec: "True"
+  fullName: Oqtane.Repository.LanguageRepository.GetLanguages
+  nameWithType: LanguageRepository.GetLanguages
 - uid: Oqtane.Repository.LogRepository
   name: LogRepository
   href: api/Oqtane.Repository.LogRepository.html
@@ -12023,15 +12985,15 @@ references:
   commentId: T:Oqtane.Repository.MasterDBContext
   fullName: Oqtane.Repository.MasterDBContext
   nameWithType: MasterDBContext
-- uid: Oqtane.Repository.MasterDBContext.#ctor(DbContextOptions{Oqtane.Repository.MasterDBContext},Microsoft.AspNetCore.Http.IHttpContextAccessor)
-  name: MasterDBContext(DbContextOptions<MasterDBContext>, IHttpContextAccessor)
-  href: api/Oqtane.Repository.MasterDBContext.html#Oqtane_Repository_MasterDBContext__ctor_DbContextOptions_Oqtane_Repository_MasterDBContext__Microsoft_AspNetCore_Http_IHttpContextAccessor_
-  commentId: M:Oqtane.Repository.MasterDBContext.#ctor(DbContextOptions{Oqtane.Repository.MasterDBContext},Microsoft.AspNetCore.Http.IHttpContextAccessor)
-  name.vb: MasterDBContext(DbContextOptions(Of MasterDBContext), IHttpContextAccessor)
-  fullName: Oqtane.Repository.MasterDBContext.MasterDBContext(DbContextOptions<Oqtane.Repository.MasterDBContext>, Microsoft.AspNetCore.Http.IHttpContextAccessor)
-  fullName.vb: Oqtane.Repository.MasterDBContext.MasterDBContext(DbContextOptions(Of Oqtane.Repository.MasterDBContext), Microsoft.AspNetCore.Http.IHttpContextAccessor)
-  nameWithType: MasterDBContext.MasterDBContext(DbContextOptions<MasterDBContext>, IHttpContextAccessor)
-  nameWithType.vb: MasterDBContext.MasterDBContext(DbContextOptions(Of MasterDBContext), IHttpContextAccessor)
+- uid: Oqtane.Repository.MasterDBContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Oqtane.Repository.MasterDBContext},Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Configuration.IConfiguration)
+  name: MasterDBContext(DbContextOptions<MasterDBContext>, IHttpContextAccessor, IConfiguration)
+  href: api/Oqtane.Repository.MasterDBContext.html#Oqtane_Repository_MasterDBContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_Oqtane_Repository_MasterDBContext__Microsoft_AspNetCore_Http_IHttpContextAccessor_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Oqtane.Repository.MasterDBContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Oqtane.Repository.MasterDBContext},Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: MasterDBContext(DbContextOptions(Of MasterDBContext), IHttpContextAccessor, IConfiguration)
+  fullName: Oqtane.Repository.MasterDBContext.MasterDBContext(Microsoft.EntityFrameworkCore.DbContextOptions<Oqtane.Repository.MasterDBContext>, Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Oqtane.Repository.MasterDBContext.MasterDBContext(Microsoft.EntityFrameworkCore.DbContextOptions(Of Oqtane.Repository.MasterDBContext), Microsoft.AspNetCore.Http.IHttpContextAccessor, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: MasterDBContext.MasterDBContext(DbContextOptions<MasterDBContext>, IHttpContextAccessor, IConfiguration)
+  nameWithType.vb: MasterDBContext.MasterDBContext(DbContextOptions(Of MasterDBContext), IHttpContextAccessor, IConfiguration)
 - uid: Oqtane.Repository.MasterDBContext.#ctor*
   name: MasterDBContext
   href: api/Oqtane.Repository.MasterDBContext.html#Oqtane_Repository_MasterDBContext__ctor_
@@ -12091,6 +13053,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.MasterDBContext.ModuleDefinition
   nameWithType: MasterDBContext.ModuleDefinition
+- uid: Oqtane.Repository.MasterDBContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  name: OnConfiguring(DbContextOptionsBuilder)
+  href: api/Oqtane.Repository.MasterDBContext.html#Oqtane_Repository_MasterDBContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:Oqtane.Repository.MasterDBContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: Oqtane.Repository.MasterDBContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  nameWithType: MasterDBContext.OnConfiguring(DbContextOptionsBuilder)
+- uid: Oqtane.Repository.MasterDBContext.OnConfiguring*
+  name: OnConfiguring
+  href: api/Oqtane.Repository.MasterDBContext.html#Oqtane_Repository_MasterDBContext_OnConfiguring_
+  commentId: Overload:Oqtane.Repository.MasterDBContext.OnConfiguring
+  isSpec: "True"
+  fullName: Oqtane.Repository.MasterDBContext.OnConfiguring
+  nameWithType: MasterDBContext.OnConfiguring
 - uid: Oqtane.Repository.MasterDBContext.SaveChanges
   name: SaveChanges()
   href: api/Oqtane.Repository.MasterDBContext.html#Oqtane_Repository_MasterDBContext_SaveChanges
@@ -12136,12 +13111,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.ModuleDefinitionRepository.ModuleDefinitionRepository
   nameWithType: ModuleDefinitionRepository.ModuleDefinitionRepository
-- uid: Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition(System.Int32,System.Int32)
-  name: DeleteModuleDefinition(Int32, Int32)
-  href: api/Oqtane.Repository.ModuleDefinitionRepository.html#Oqtane_Repository_ModuleDefinitionRepository_DeleteModuleDefinition_System_Int32_System_Int32_
-  commentId: M:Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition(System.Int32,System.Int32)
-  fullName: Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition(System.Int32, System.Int32)
-  nameWithType: ModuleDefinitionRepository.DeleteModuleDefinition(Int32, Int32)
+- uid: Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)
+  name: DeleteModuleDefinition(Int32)
+  href: api/Oqtane.Repository.ModuleDefinitionRepository.html#Oqtane_Repository_ModuleDefinitionRepository_DeleteModuleDefinition_System_Int32_
+  commentId: M:Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)
+  fullName: Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)
+  nameWithType: ModuleDefinitionRepository.DeleteModuleDefinition(Int32)
 - uid: Oqtane.Repository.ModuleDefinitionRepository.DeleteModuleDefinition*
   name: DeleteModuleDefinition
   href: api/Oqtane.Repository.ModuleDefinitionRepository.html#Oqtane_Repository_ModuleDefinitionRepository_DeleteModuleDefinition_
@@ -13001,6 +13976,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.SettingRepository.GetSetting
   nameWithType: SettingRepository.GetSetting
+- uid: Oqtane.Repository.SettingRepository.GetSettings(System.String)
+  name: GetSettings(String)
+  href: api/Oqtane.Repository.SettingRepository.html#Oqtane_Repository_SettingRepository_GetSettings_System_String_
+  commentId: M:Oqtane.Repository.SettingRepository.GetSettings(System.String)
+  fullName: Oqtane.Repository.SettingRepository.GetSettings(System.String)
+  nameWithType: SettingRepository.GetSettings(String)
 - uid: Oqtane.Repository.SettingRepository.GetSettings(System.String,System.Int32)
   name: GetSettings(String, Int32)
   href: api/Oqtane.Repository.SettingRepository.html#Oqtane_Repository_SettingRepository_GetSettings_System_String_System_Int32_
@@ -13255,6 +14236,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.TenantDBContext.Folder
   nameWithType: TenantDBContext.Folder
+- uid: Oqtane.Repository.TenantDBContext.Language
+  name: Language
+  href: api/Oqtane.Repository.TenantDBContext.html#Oqtane_Repository_TenantDBContext_Language
+  commentId: P:Oqtane.Repository.TenantDBContext.Language
+  fullName: Oqtane.Repository.TenantDBContext.Language
+  nameWithType: TenantDBContext.Language
+- uid: Oqtane.Repository.TenantDBContext.Language*
+  name: Language
+  href: api/Oqtane.Repository.TenantDBContext.html#Oqtane_Repository_TenantDBContext_Language_
+  commentId: Overload:Oqtane.Repository.TenantDBContext.Language
+  isSpec: "True"
+  fullName: Oqtane.Repository.TenantDBContext.Language
+  nameWithType: TenantDBContext.Language
 - uid: Oqtane.Repository.TenantDBContext.Log
   name: Log
   href: api/Oqtane.Repository.TenantDBContext.html#Oqtane_Repository_TenantDBContext_Log
@@ -13546,6 +14540,32 @@ references:
   commentId: T:Oqtane.Repository.ThemeRepository
   fullName: Oqtane.Repository.ThemeRepository
   nameWithType: ThemeRepository
+- uid: Oqtane.Repository.ThemeRepository.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  name: ThemeRepository(IMemoryCache)
+  href: api/Oqtane.Repository.ThemeRepository.html#Oqtane_Repository_ThemeRepository__ctor_Microsoft_Extensions_Caching_Memory_IMemoryCache_
+  commentId: M:Oqtane.Repository.ThemeRepository.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  fullName: Oqtane.Repository.ThemeRepository.ThemeRepository(Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  nameWithType: ThemeRepository.ThemeRepository(IMemoryCache)
+- uid: Oqtane.Repository.ThemeRepository.#ctor*
+  name: ThemeRepository
+  href: api/Oqtane.Repository.ThemeRepository.html#Oqtane_Repository_ThemeRepository__ctor_
+  commentId: Overload:Oqtane.Repository.ThemeRepository.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Repository.ThemeRepository.ThemeRepository
+  nameWithType: ThemeRepository.ThemeRepository
+- uid: Oqtane.Repository.ThemeRepository.DeleteTheme(System.String)
+  name: DeleteTheme(String)
+  href: api/Oqtane.Repository.ThemeRepository.html#Oqtane_Repository_ThemeRepository_DeleteTheme_System_String_
+  commentId: M:Oqtane.Repository.ThemeRepository.DeleteTheme(System.String)
+  fullName: Oqtane.Repository.ThemeRepository.DeleteTheme(System.String)
+  nameWithType: ThemeRepository.DeleteTheme(String)
+- uid: Oqtane.Repository.ThemeRepository.DeleteTheme*
+  name: DeleteTheme
+  href: api/Oqtane.Repository.ThemeRepository.html#Oqtane_Repository_ThemeRepository_DeleteTheme_
+  commentId: Overload:Oqtane.Repository.ThemeRepository.DeleteTheme
+  isSpec: "True"
+  fullName: Oqtane.Repository.ThemeRepository.DeleteTheme
+  nameWithType: ThemeRepository.DeleteTheme
 - uid: Oqtane.Repository.ThemeRepository.GetThemes
   name: GetThemes()
   href: api/Oqtane.Repository.ThemeRepository.html#Oqtane_Repository_ThemeRepository_GetThemes
@@ -14180,11 +15200,11 @@ references:
   commentId: T:Oqtane.Services.FileService
   fullName: Oqtane.Services.FileService
   nameWithType: FileService
-- uid: Oqtane.Services.FileService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,IJSRuntime)
+- uid: Oqtane.Services.FileService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,Microsoft.JSInterop.IJSRuntime)
   name: FileService(HttpClient, SiteState, IJSRuntime)
-  href: api/Oqtane.Services.FileService.html#Oqtane_Services_FileService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_IJSRuntime_
-  commentId: M:Oqtane.Services.FileService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,IJSRuntime)
-  fullName: Oqtane.Services.FileService.FileService(System.Net.Http.HttpClient, Oqtane.Shared.SiteState, IJSRuntime)
+  href: api/Oqtane.Services.FileService.html#Oqtane_Services_FileService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_Microsoft_JSInterop_IJSRuntime_
+  commentId: M:Oqtane.Services.FileService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,Microsoft.JSInterop.IJSRuntime)
+  fullName: Oqtane.Services.FileService.FileService(System.Net.Http.HttpClient, Oqtane.Shared.SiteState, Microsoft.JSInterop.IJSRuntime)
   nameWithType: FileService.FileService(HttpClient, SiteState, IJSRuntime)
 - uid: Oqtane.Services.FileService.#ctor*
   name: FileService
@@ -14510,11 +15530,11 @@ references:
   commentId: T:Oqtane.Services.IClientStartup
   fullName: Oqtane.Services.IClientStartup
   nameWithType: IClientStartup
-- uid: Oqtane.Services.IClientStartup.ConfigureServices(IServiceCollection)
+- uid: Oqtane.Services.IClientStartup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name: ConfigureServices(IServiceCollection)
-  href: api/Oqtane.Services.IClientStartup.html#Oqtane_Services_IClientStartup_ConfigureServices_IServiceCollection_
-  commentId: M:Oqtane.Services.IClientStartup.ConfigureServices(IServiceCollection)
-  fullName: Oqtane.Services.IClientStartup.ConfigureServices(IServiceCollection)
+  href: api/Oqtane.Services.IClientStartup.html#Oqtane_Services_IClientStartup_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Oqtane.Services.IClientStartup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Oqtane.Services.IClientStartup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   nameWithType: IClientStartup.ConfigureServices(IServiceCollection)
 - uid: Oqtane.Services.IClientStartup.ConfigureServices*
   name: ConfigureServices
@@ -14782,6 +15802,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.IInstallationService.IsInstalled
   nameWithType: IInstallationService.IsInstalled
+- uid: Oqtane.Services.IInstallationService.RestartAsync
+  name: RestartAsync()
+  href: api/Oqtane.Services.IInstallationService.html#Oqtane_Services_IInstallationService_RestartAsync
+  commentId: M:Oqtane.Services.IInstallationService.RestartAsync
+  fullName: Oqtane.Services.IInstallationService.RestartAsync()
+  nameWithType: IInstallationService.RestartAsync()
+- uid: Oqtane.Services.IInstallationService.RestartAsync*
+  name: RestartAsync
+  href: api/Oqtane.Services.IInstallationService.html#Oqtane_Services_IInstallationService_RestartAsync_
+  commentId: Overload:Oqtane.Services.IInstallationService.RestartAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.IInstallationService.RestartAsync
+  nameWithType: IInstallationService.RestartAsync
 - uid: Oqtane.Services.IInstallationService.Upgrade
   name: Upgrade()
   href: api/Oqtane.Services.IInstallationService.html#Oqtane_Services_IInstallationService_Upgrade
@@ -14963,6 +15996,83 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.IJobService.UpdateJobAsync
   nameWithType: IJobService.UpdateJobAsync
+- uid: Oqtane.Services.ILanguageService
+  name: ILanguageService
+  href: api/Oqtane.Services.ILanguageService.html
+  commentId: T:Oqtane.Services.ILanguageService
+  fullName: Oqtane.Services.ILanguageService
+  nameWithType: ILanguageService
+- uid: Oqtane.Services.ILanguageService.AddLanguageAsync(Oqtane.Models.Language)
+  name: AddLanguageAsync(Language)
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_AddLanguageAsync_Oqtane_Models_Language_
+  commentId: M:Oqtane.Services.ILanguageService.AddLanguageAsync(Oqtane.Models.Language)
+  fullName: Oqtane.Services.ILanguageService.AddLanguageAsync(Oqtane.Models.Language)
+  nameWithType: ILanguageService.AddLanguageAsync(Language)
+- uid: Oqtane.Services.ILanguageService.AddLanguageAsync*
+  name: AddLanguageAsync
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_AddLanguageAsync_
+  commentId: Overload:Oqtane.Services.ILanguageService.AddLanguageAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ILanguageService.AddLanguageAsync
+  nameWithType: ILanguageService.AddLanguageAsync
+- uid: Oqtane.Services.ILanguageService.DeleteLanguageAsync(System.Int32)
+  name: DeleteLanguageAsync(Int32)
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_DeleteLanguageAsync_System_Int32_
+  commentId: M:Oqtane.Services.ILanguageService.DeleteLanguageAsync(System.Int32)
+  fullName: Oqtane.Services.ILanguageService.DeleteLanguageAsync(System.Int32)
+  nameWithType: ILanguageService.DeleteLanguageAsync(Int32)
+- uid: Oqtane.Services.ILanguageService.DeleteLanguageAsync*
+  name: DeleteLanguageAsync
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_DeleteLanguageAsync_
+  commentId: Overload:Oqtane.Services.ILanguageService.DeleteLanguageAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ILanguageService.DeleteLanguageAsync
+  nameWithType: ILanguageService.DeleteLanguageAsync
+- uid: Oqtane.Services.ILanguageService.GetLanguageAsync(System.Int32)
+  name: GetLanguageAsync(Int32)
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_GetLanguageAsync_System_Int32_
+  commentId: M:Oqtane.Services.ILanguageService.GetLanguageAsync(System.Int32)
+  fullName: Oqtane.Services.ILanguageService.GetLanguageAsync(System.Int32)
+  nameWithType: ILanguageService.GetLanguageAsync(Int32)
+- uid: Oqtane.Services.ILanguageService.GetLanguageAsync*
+  name: GetLanguageAsync
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_GetLanguageAsync_
+  commentId: Overload:Oqtane.Services.ILanguageService.GetLanguageAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ILanguageService.GetLanguageAsync
+  nameWithType: ILanguageService.GetLanguageAsync
+- uid: Oqtane.Services.ILanguageService.GetLanguagesAsync(System.Int32)
+  name: GetLanguagesAsync(Int32)
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_GetLanguagesAsync_System_Int32_
+  commentId: M:Oqtane.Services.ILanguageService.GetLanguagesAsync(System.Int32)
+  fullName: Oqtane.Services.ILanguageService.GetLanguagesAsync(System.Int32)
+  nameWithType: ILanguageService.GetLanguagesAsync(Int32)
+- uid: Oqtane.Services.ILanguageService.GetLanguagesAsync*
+  name: GetLanguagesAsync
+  href: api/Oqtane.Services.ILanguageService.html#Oqtane_Services_ILanguageService_GetLanguagesAsync_
+  commentId: Overload:Oqtane.Services.ILanguageService.GetLanguagesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ILanguageService.GetLanguagesAsync
+  nameWithType: ILanguageService.GetLanguagesAsync
+- uid: Oqtane.Services.ILocalizationService
+  name: ILocalizationService
+  href: api/Oqtane.Services.ILocalizationService.html
+  commentId: T:Oqtane.Services.ILocalizationService
+  fullName: Oqtane.Services.ILocalizationService
+  nameWithType: ILocalizationService
+- uid: Oqtane.Services.ILocalizationService.GetCulturesAsync
+  name: GetCulturesAsync()
+  href: api/Oqtane.Services.ILocalizationService.html#Oqtane_Services_ILocalizationService_GetCulturesAsync
+  commentId: M:Oqtane.Services.ILocalizationService.GetCulturesAsync
+  fullName: Oqtane.Services.ILocalizationService.GetCulturesAsync()
+  nameWithType: ILocalizationService.GetCulturesAsync()
+- uid: Oqtane.Services.ILocalizationService.GetCulturesAsync*
+  name: GetCulturesAsync
+  href: api/Oqtane.Services.ILocalizationService.html#Oqtane_Services_ILocalizationService_GetCulturesAsync_
+  commentId: Overload:Oqtane.Services.ILocalizationService.GetCulturesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ILocalizationService.GetCulturesAsync
+  nameWithType: ILocalizationService.GetCulturesAsync
 - uid: Oqtane.Services.ILogService
   name: ILogService
   href: api/Oqtane.Services.ILogService.html
@@ -15026,12 +16136,12 @@ references:
   commentId: T:Oqtane.Services.IModuleDefinitionService
   fullName: Oqtane.Services.IModuleDefinitionService
   nameWithType: IModuleDefinitionService
-- uid: Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition,System.Int32)
-  name: CreateModuleDefinitionAsync(ModuleDefinition, Int32)
-  href: api/Oqtane.Services.IModuleDefinitionService.html#Oqtane_Services_IModuleDefinitionService_CreateModuleDefinitionAsync_Oqtane_Models_ModuleDefinition_System_Int32_
-  commentId: M:Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition,System.Int32)
-  fullName: Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition, System.Int32)
-  nameWithType: IModuleDefinitionService.CreateModuleDefinitionAsync(ModuleDefinition, Int32)
+- uid: Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition)
+  name: CreateModuleDefinitionAsync(ModuleDefinition)
+  href: api/Oqtane.Services.IModuleDefinitionService.html#Oqtane_Services_IModuleDefinitionService_CreateModuleDefinitionAsync_Oqtane_Models_ModuleDefinition_
+  commentId: M:Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition)
+  fullName: Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition)
+  nameWithType: IModuleDefinitionService.CreateModuleDefinitionAsync(ModuleDefinition)
 - uid: Oqtane.Services.IModuleDefinitionService.CreateModuleDefinitionAsync*
   name: CreateModuleDefinitionAsync
   href: api/Oqtane.Services.IModuleDefinitionService.html#Oqtane_Services_IModuleDefinitionService_CreateModuleDefinitionAsync_
@@ -15317,6 +16427,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.InstallationService.IsInstalled
   nameWithType: InstallationService.IsInstalled
+- uid: Oqtane.Services.InstallationService.RestartAsync
+  name: RestartAsync()
+  href: api/Oqtane.Services.InstallationService.html#Oqtane_Services_InstallationService_RestartAsync
+  commentId: M:Oqtane.Services.InstallationService.RestartAsync
+  fullName: Oqtane.Services.InstallationService.RestartAsync()
+  nameWithType: InstallationService.RestartAsync()
+- uid: Oqtane.Services.InstallationService.RestartAsync*
+  name: RestartAsync
+  href: api/Oqtane.Services.InstallationService.html#Oqtane_Services_InstallationService_RestartAsync_
+  commentId: Overload:Oqtane.Services.InstallationService.RestartAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.InstallationService.RestartAsync
+  nameWithType: InstallationService.RestartAsync
 - uid: Oqtane.Services.InstallationService.Upgrade
   name: Upgrade()
   href: api/Oqtane.Services.InstallationService.html#Oqtane_Services_InstallationService_Upgrade
@@ -16707,17 +17830,120 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.JobService.UpdateJobAsync
   nameWithType: JobService.UpdateJobAsync
+- uid: Oqtane.Services.LanguageService
+  name: LanguageService
+  href: api/Oqtane.Services.LanguageService.html
+  commentId: T:Oqtane.Services.LanguageService
+  fullName: Oqtane.Services.LanguageService
+  nameWithType: LanguageService
+- uid: Oqtane.Services.LanguageService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState)
+  name: LanguageService(HttpClient, SiteState)
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_
+  commentId: M:Oqtane.Services.LanguageService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState)
+  fullName: Oqtane.Services.LanguageService.LanguageService(System.Net.Http.HttpClient, Oqtane.Shared.SiteState)
+  nameWithType: LanguageService.LanguageService(HttpClient, SiteState)
+- uid: Oqtane.Services.LanguageService.#ctor*
+  name: LanguageService
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService__ctor_
+  commentId: Overload:Oqtane.Services.LanguageService.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Services.LanguageService.LanguageService
+  nameWithType: LanguageService.LanguageService
+- uid: Oqtane.Services.LanguageService.AddLanguageAsync(Oqtane.Models.Language)
+  name: AddLanguageAsync(Language)
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_AddLanguageAsync_Oqtane_Models_Language_
+  commentId: M:Oqtane.Services.LanguageService.AddLanguageAsync(Oqtane.Models.Language)
+  fullName: Oqtane.Services.LanguageService.AddLanguageAsync(Oqtane.Models.Language)
+  nameWithType: LanguageService.AddLanguageAsync(Language)
+- uid: Oqtane.Services.LanguageService.AddLanguageAsync*
+  name: AddLanguageAsync
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_AddLanguageAsync_
+  commentId: Overload:Oqtane.Services.LanguageService.AddLanguageAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.LanguageService.AddLanguageAsync
+  nameWithType: LanguageService.AddLanguageAsync
+- uid: Oqtane.Services.LanguageService.DeleteLanguageAsync(System.Int32)
+  name: DeleteLanguageAsync(Int32)
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_DeleteLanguageAsync_System_Int32_
+  commentId: M:Oqtane.Services.LanguageService.DeleteLanguageAsync(System.Int32)
+  fullName: Oqtane.Services.LanguageService.DeleteLanguageAsync(System.Int32)
+  nameWithType: LanguageService.DeleteLanguageAsync(Int32)
+- uid: Oqtane.Services.LanguageService.DeleteLanguageAsync*
+  name: DeleteLanguageAsync
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_DeleteLanguageAsync_
+  commentId: Overload:Oqtane.Services.LanguageService.DeleteLanguageAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.LanguageService.DeleteLanguageAsync
+  nameWithType: LanguageService.DeleteLanguageAsync
+- uid: Oqtane.Services.LanguageService.GetLanguageAsync(System.Int32)
+  name: GetLanguageAsync(Int32)
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_GetLanguageAsync_System_Int32_
+  commentId: M:Oqtane.Services.LanguageService.GetLanguageAsync(System.Int32)
+  fullName: Oqtane.Services.LanguageService.GetLanguageAsync(System.Int32)
+  nameWithType: LanguageService.GetLanguageAsync(Int32)
+- uid: Oqtane.Services.LanguageService.GetLanguageAsync*
+  name: GetLanguageAsync
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_GetLanguageAsync_
+  commentId: Overload:Oqtane.Services.LanguageService.GetLanguageAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.LanguageService.GetLanguageAsync
+  nameWithType: LanguageService.GetLanguageAsync
+- uid: Oqtane.Services.LanguageService.GetLanguagesAsync(System.Int32)
+  name: GetLanguagesAsync(Int32)
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_GetLanguagesAsync_System_Int32_
+  commentId: M:Oqtane.Services.LanguageService.GetLanguagesAsync(System.Int32)
+  fullName: Oqtane.Services.LanguageService.GetLanguagesAsync(System.Int32)
+  nameWithType: LanguageService.GetLanguagesAsync(Int32)
+- uid: Oqtane.Services.LanguageService.GetLanguagesAsync*
+  name: GetLanguagesAsync
+  href: api/Oqtane.Services.LanguageService.html#Oqtane_Services_LanguageService_GetLanguagesAsync_
+  commentId: Overload:Oqtane.Services.LanguageService.GetLanguagesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.LanguageService.GetLanguagesAsync
+  nameWithType: LanguageService.GetLanguagesAsync
+- uid: Oqtane.Services.LocalizationService
+  name: LocalizationService
+  href: api/Oqtane.Services.LocalizationService.html
+  commentId: T:Oqtane.Services.LocalizationService
+  fullName: Oqtane.Services.LocalizationService
+  nameWithType: LocalizationService
+- uid: Oqtane.Services.LocalizationService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState)
+  name: LocalizationService(HttpClient, SiteState)
+  href: api/Oqtane.Services.LocalizationService.html#Oqtane_Services_LocalizationService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_
+  commentId: M:Oqtane.Services.LocalizationService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState)
+  fullName: Oqtane.Services.LocalizationService.LocalizationService(System.Net.Http.HttpClient, Oqtane.Shared.SiteState)
+  nameWithType: LocalizationService.LocalizationService(HttpClient, SiteState)
+- uid: Oqtane.Services.LocalizationService.#ctor*
+  name: LocalizationService
+  href: api/Oqtane.Services.LocalizationService.html#Oqtane_Services_LocalizationService__ctor_
+  commentId: Overload:Oqtane.Services.LocalizationService.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Services.LocalizationService.LocalizationService
+  nameWithType: LocalizationService.LocalizationService
+- uid: Oqtane.Services.LocalizationService.GetCulturesAsync
+  name: GetCulturesAsync()
+  href: api/Oqtane.Services.LocalizationService.html#Oqtane_Services_LocalizationService_GetCulturesAsync
+  commentId: M:Oqtane.Services.LocalizationService.GetCulturesAsync
+  fullName: Oqtane.Services.LocalizationService.GetCulturesAsync()
+  nameWithType: LocalizationService.GetCulturesAsync()
+- uid: Oqtane.Services.LocalizationService.GetCulturesAsync*
+  name: GetCulturesAsync
+  href: api/Oqtane.Services.LocalizationService.html#Oqtane_Services_LocalizationService_GetCulturesAsync_
+  commentId: Overload:Oqtane.Services.LocalizationService.GetCulturesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.LocalizationService.GetCulturesAsync
+  nameWithType: LocalizationService.GetCulturesAsync
 - uid: Oqtane.Services.LogService
   name: LogService
   href: api/Oqtane.Services.LogService.html
   commentId: T:Oqtane.Services.LogService
   fullName: Oqtane.Services.LogService
   nameWithType: LogService
-- uid: Oqtane.Services.LogService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,NavigationManager)
+- uid: Oqtane.Services.LogService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,Microsoft.AspNetCore.Components.NavigationManager)
   name: LogService(HttpClient, SiteState, NavigationManager)
-  href: api/Oqtane.Services.LogService.html#Oqtane_Services_LogService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_NavigationManager_
-  commentId: M:Oqtane.Services.LogService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,NavigationManager)
-  fullName: Oqtane.Services.LogService.LogService(System.Net.Http.HttpClient, Oqtane.Shared.SiteState, NavigationManager)
+  href: api/Oqtane.Services.LogService.html#Oqtane_Services_LogService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_Microsoft_AspNetCore_Components_NavigationManager_
+  commentId: M:Oqtane.Services.LogService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState,Microsoft.AspNetCore.Components.NavigationManager)
+  fullName: Oqtane.Services.LogService.LogService(System.Net.Http.HttpClient, Oqtane.Shared.SiteState, Microsoft.AspNetCore.Components.NavigationManager)
   nameWithType: LogService.LogService(HttpClient, SiteState, NavigationManager)
 - uid: Oqtane.Services.LogService.#ctor*
   name: LogService
@@ -16796,12 +18022,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.ModuleDefinitionService.ModuleDefinitionService
   nameWithType: ModuleDefinitionService.ModuleDefinitionService
-- uid: Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition,System.Int32)
-  name: CreateModuleDefinitionAsync(ModuleDefinition, Int32)
-  href: api/Oqtane.Services.ModuleDefinitionService.html#Oqtane_Services_ModuleDefinitionService_CreateModuleDefinitionAsync_Oqtane_Models_ModuleDefinition_System_Int32_
-  commentId: M:Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition,System.Int32)
-  fullName: Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition, System.Int32)
-  nameWithType: ModuleDefinitionService.CreateModuleDefinitionAsync(ModuleDefinition, Int32)
+- uid: Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition)
+  name: CreateModuleDefinitionAsync(ModuleDefinition)
+  href: api/Oqtane.Services.ModuleDefinitionService.html#Oqtane_Services_ModuleDefinitionService_CreateModuleDefinitionAsync_Oqtane_Models_ModuleDefinition_
+  commentId: M:Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition)
+  fullName: Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync(Oqtane.Models.ModuleDefinition)
+  nameWithType: ModuleDefinitionService.CreateModuleDefinitionAsync(ModuleDefinition)
 - uid: Oqtane.Services.ModuleDefinitionService.CreateModuleDefinitionAsync*
   name: CreateModuleDefinitionAsync
   href: api/Oqtane.Services.ModuleDefinitionService.html#Oqtane_Services_ModuleDefinitionService_CreateModuleDefinitionAsync_
@@ -18851,12 +20077,12 @@ references:
   commentId: F:Oqtane.Shared.Constants.ReservedDevices
   fullName: Oqtane.Shared.Constants.ReservedDevices
   nameWithType: Constants.ReservedDevices
-- uid: Oqtane.Shared.Constants.StalliteAssemblyExtension
-  name: StalliteAssemblyExtension
-  href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_StalliteAssemblyExtension
-  commentId: F:Oqtane.Shared.Constants.StalliteAssemblyExtension
-  fullName: Oqtane.Shared.Constants.StalliteAssemblyExtension
-  nameWithType: Constants.StalliteAssemblyExtension
+- uid: Oqtane.Shared.Constants.SatelliteAssemblyExtension
+  name: SatelliteAssemblyExtension
+  href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_SatelliteAssemblyExtension
+  commentId: F:Oqtane.Shared.Constants.SatelliteAssemblyExtension
+  fullName: Oqtane.Shared.Constants.SatelliteAssemblyExtension
+  nameWithType: Constants.SatelliteAssemblyExtension
 - uid: Oqtane.Shared.Constants.UploadableFiles
   name: UploadableFiles
   href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_UploadableFiles
@@ -18875,6 +20101,18 @@ references:
   commentId: F:Oqtane.Shared.Constants.Version
   fullName: Oqtane.Shared.Constants.Version
   nameWithType: Constants.Version
+- uid: Oqtane.Shared.ControllerRoutes
+  name: ControllerRoutes
+  href: api/Oqtane.Shared.ControllerRoutes.html
+  commentId: T:Oqtane.Shared.ControllerRoutes
+  fullName: Oqtane.Shared.ControllerRoutes
+  nameWithType: ControllerRoutes
+- uid: Oqtane.Shared.ControllerRoutes.Default
+  name: Default
+  href: api/Oqtane.Shared.ControllerRoutes.html#Oqtane_Shared_ControllerRoutes_Default
+  commentId: F:Oqtane.Shared.ControllerRoutes.Default
+  fullName: Oqtane.Shared.ControllerRoutes.Default
+  nameWithType: ControllerRoutes.Default
 - uid: Oqtane.Shared.EntityNames
   name: EntityNames
   href: api/Oqtane.Shared.EntityNames.html
@@ -20305,6 +21543,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Shared.InstallConfig.ConnectionString
   nameWithType: InstallConfig.ConnectionString
+- uid: Oqtane.Shared.InstallConfig.DefaultAdminContainer
+  name: DefaultAdminContainer
+  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DefaultAdminContainer
+  commentId: P:Oqtane.Shared.InstallConfig.DefaultAdminContainer
+  fullName: Oqtane.Shared.InstallConfig.DefaultAdminContainer
+  nameWithType: InstallConfig.DefaultAdminContainer
+- uid: Oqtane.Shared.InstallConfig.DefaultAdminContainer*
+  name: DefaultAdminContainer
+  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DefaultAdminContainer_
+  commentId: Overload:Oqtane.Shared.InstallConfig.DefaultAdminContainer
+  isSpec: "True"
+  fullName: Oqtane.Shared.InstallConfig.DefaultAdminContainer
+  nameWithType: InstallConfig.DefaultAdminContainer
 - uid: Oqtane.Shared.InstallConfig.DefaultContainer
   name: DefaultContainer
   href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DefaultContainer
@@ -20483,6 +21734,18 @@ references:
   commentId: T:Oqtane.Shared.OqtaneIgnoreAttribute
   fullName: Oqtane.Shared.OqtaneIgnoreAttribute
   nameWithType: OqtaneIgnoreAttribute
+- uid: Oqtane.Shared.PaneNames
+  name: PaneNames
+  href: api/Oqtane.Shared.PaneNames.html
+  commentId: T:Oqtane.Shared.PaneNames
+  fullName: Oqtane.Shared.PaneNames
+  nameWithType: PaneNames
+- uid: Oqtane.Shared.PaneNames.Admin
+  name: Admin
+  href: api/Oqtane.Shared.PaneNames.html#Oqtane_Shared_PaneNames_Admin
+  commentId: F:Oqtane.Shared.PaneNames.Admin
+  fullName: Oqtane.Shared.PaneNames.Admin
+  nameWithType: PaneNames.Admin
 - uid: Oqtane.Shared.PermissionNames
   name: PermissionNames
   href: api/Oqtane.Shared.PermissionNames.html
@@ -20513,6 +21776,90 @@ references:
   commentId: F:Oqtane.Shared.PermissionNames.View
   fullName: Oqtane.Shared.PermissionNames.View
   nameWithType: PermissionNames.View
+- uid: Oqtane.Shared.PolicyNames
+  name: PolicyNames
+  href: api/Oqtane.Shared.PolicyNames.html
+  commentId: T:Oqtane.Shared.PolicyNames
+  fullName: Oqtane.Shared.PolicyNames
+  nameWithType: PolicyNames
+- uid: Oqtane.Shared.PolicyNames.EditFolder
+  name: EditFolder
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_EditFolder
+  commentId: F:Oqtane.Shared.PolicyNames.EditFolder
+  fullName: Oqtane.Shared.PolicyNames.EditFolder
+  nameWithType: PolicyNames.EditFolder
+- uid: Oqtane.Shared.PolicyNames.EditModule
+  name: EditModule
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_EditModule
+  commentId: F:Oqtane.Shared.PolicyNames.EditModule
+  fullName: Oqtane.Shared.PolicyNames.EditModule
+  nameWithType: PolicyNames.EditModule
+- uid: Oqtane.Shared.PolicyNames.EditPage
+  name: EditPage
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_EditPage
+  commentId: F:Oqtane.Shared.PolicyNames.EditPage
+  fullName: Oqtane.Shared.PolicyNames.EditPage
+  nameWithType: PolicyNames.EditPage
+- uid: Oqtane.Shared.PolicyNames.ListFolder
+  name: ListFolder
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_ListFolder
+  commentId: F:Oqtane.Shared.PolicyNames.ListFolder
+  fullName: Oqtane.Shared.PolicyNames.ListFolder
+  nameWithType: PolicyNames.ListFolder
+- uid: Oqtane.Shared.PolicyNames.ViewFolder
+  name: ViewFolder
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_ViewFolder
+  commentId: F:Oqtane.Shared.PolicyNames.ViewFolder
+  fullName: Oqtane.Shared.PolicyNames.ViewFolder
+  nameWithType: PolicyNames.ViewFolder
+- uid: Oqtane.Shared.PolicyNames.ViewModule
+  name: ViewModule
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_ViewModule
+  commentId: F:Oqtane.Shared.PolicyNames.ViewModule
+  fullName: Oqtane.Shared.PolicyNames.ViewModule
+  nameWithType: PolicyNames.ViewModule
+- uid: Oqtane.Shared.PolicyNames.ViewPage
+  name: ViewPage
+  href: api/Oqtane.Shared.PolicyNames.html#Oqtane_Shared_PolicyNames_ViewPage
+  commentId: F:Oqtane.Shared.PolicyNames.ViewPage
+  fullName: Oqtane.Shared.PolicyNames.ViewPage
+  nameWithType: PolicyNames.ViewPage
+- uid: Oqtane.Shared.ResourceDeclaration
+  name: ResourceDeclaration
+  href: api/Oqtane.Shared.ResourceDeclaration.html
+  commentId: T:Oqtane.Shared.ResourceDeclaration
+  fullName: Oqtane.Shared.ResourceDeclaration
+  nameWithType: ResourceDeclaration
+- uid: Oqtane.Shared.ResourceDeclaration.Global
+  name: Global
+  href: api/Oqtane.Shared.ResourceDeclaration.html#Oqtane_Shared_ResourceDeclaration_Global
+  commentId: F:Oqtane.Shared.ResourceDeclaration.Global
+  fullName: Oqtane.Shared.ResourceDeclaration.Global
+  nameWithType: ResourceDeclaration.Global
+- uid: Oqtane.Shared.ResourceDeclaration.Local
+  name: Local
+  href: api/Oqtane.Shared.ResourceDeclaration.html#Oqtane_Shared_ResourceDeclaration_Local
+  commentId: F:Oqtane.Shared.ResourceDeclaration.Local
+  fullName: Oqtane.Shared.ResourceDeclaration.Local
+  nameWithType: ResourceDeclaration.Local
+- uid: Oqtane.Shared.ResourceLocation
+  name: ResourceLocation
+  href: api/Oqtane.Shared.ResourceLocation.html
+  commentId: T:Oqtane.Shared.ResourceLocation
+  fullName: Oqtane.Shared.ResourceLocation
+  nameWithType: ResourceLocation
+- uid: Oqtane.Shared.ResourceLocation.Body
+  name: Body
+  href: api/Oqtane.Shared.ResourceLocation.html#Oqtane_Shared_ResourceLocation_Body
+  commentId: F:Oqtane.Shared.ResourceLocation.Body
+  fullName: Oqtane.Shared.ResourceLocation.Body
+  nameWithType: ResourceLocation.Body
+- uid: Oqtane.Shared.ResourceLocation.Head
+  name: Head
+  href: api/Oqtane.Shared.ResourceLocation.html#Oqtane_Shared_ResourceLocation_Head
+  commentId: F:Oqtane.Shared.ResourceLocation.Head
+  fullName: Oqtane.Shared.ResourceLocation.Head
+  nameWithType: ResourceLocation.Head
 - uid: Oqtane.Shared.ResourceType
   name: ResourceType
   href: api/Oqtane.Shared.ResourceType.html
@@ -20531,6 +21878,54 @@ references:
   commentId: F:Oqtane.Shared.ResourceType.Stylesheet
   fullName: Oqtane.Shared.ResourceType.Stylesheet
   nameWithType: ResourceType.Stylesheet
+- uid: Oqtane.Shared.RoleNames
+  name: RoleNames
+  href: api/Oqtane.Shared.RoleNames.html
+  commentId: T:Oqtane.Shared.RoleNames
+  fullName: Oqtane.Shared.RoleNames
+  nameWithType: RoleNames
+- uid: Oqtane.Shared.RoleNames.Admin
+  name: Admin
+  href: api/Oqtane.Shared.RoleNames.html#Oqtane_Shared_RoleNames_Admin
+  commentId: F:Oqtane.Shared.RoleNames.Admin
+  fullName: Oqtane.Shared.RoleNames.Admin
+  nameWithType: RoleNames.Admin
+- uid: Oqtane.Shared.RoleNames.Everyone
+  name: Everyone
+  href: api/Oqtane.Shared.RoleNames.html#Oqtane_Shared_RoleNames_Everyone
+  commentId: F:Oqtane.Shared.RoleNames.Everyone
+  fullName: Oqtane.Shared.RoleNames.Everyone
+  nameWithType: RoleNames.Everyone
+- uid: Oqtane.Shared.RoleNames.Host
+  name: Host
+  href: api/Oqtane.Shared.RoleNames.html#Oqtane_Shared_RoleNames_Host
+  commentId: F:Oqtane.Shared.RoleNames.Host
+  fullName: Oqtane.Shared.RoleNames.Host
+  nameWithType: RoleNames.Host
+- uid: Oqtane.Shared.RoleNames.Registered
+  name: Registered
+  href: api/Oqtane.Shared.RoleNames.html#Oqtane_Shared_RoleNames_Registered
+  commentId: F:Oqtane.Shared.RoleNames.Registered
+  fullName: Oqtane.Shared.RoleNames.Registered
+  nameWithType: RoleNames.Registered
+- uid: Oqtane.Shared.Runtime
+  name: Runtime
+  href: api/Oqtane.Shared.Runtime.html
+  commentId: T:Oqtane.Shared.Runtime
+  fullName: Oqtane.Shared.Runtime
+  nameWithType: Runtime
+- uid: Oqtane.Shared.Runtime.Server
+  name: Server
+  href: api/Oqtane.Shared.Runtime.html#Oqtane_Shared_Runtime_Server
+  commentId: F:Oqtane.Shared.Runtime.Server
+  fullName: Oqtane.Shared.Runtime.Server
+  nameWithType: Runtime.Server
+- uid: Oqtane.Shared.Runtime.WebAssembly
+  name: WebAssembly
+  href: api/Oqtane.Shared.Runtime.html#Oqtane_Shared_Runtime_WebAssembly
+  commentId: F:Oqtane.Shared.Runtime.WebAssembly
+  fullName: Oqtane.Shared.Runtime.WebAssembly
+  nameWithType: Runtime.WebAssembly
 - uid: Oqtane.Shared.SecurityAccessLevel
   name: SecurityAccessLevel
   href: api/Oqtane.Shared.SecurityAccessLevel.html
@@ -20678,6 +22073,30 @@ references:
   isSpec: "True"
   fullName: Oqtane.Shared.SiteState.Alias
   nameWithType: SiteState.Alias
+- uid: Oqtane.Shared.TenantNames
+  name: TenantNames
+  href: api/Oqtane.Shared.TenantNames.html
+  commentId: T:Oqtane.Shared.TenantNames
+  fullName: Oqtane.Shared.TenantNames
+  nameWithType: TenantNames
+- uid: Oqtane.Shared.TenantNames.Master
+  name: Master
+  href: api/Oqtane.Shared.TenantNames.html#Oqtane_Shared_TenantNames_Master
+  commentId: F:Oqtane.Shared.TenantNames.Master
+  fullName: Oqtane.Shared.TenantNames.Master
+  nameWithType: TenantNames.Master
+- uid: Oqtane.Shared.UserNames
+  name: UserNames
+  href: api/Oqtane.Shared.UserNames.html
+  commentId: T:Oqtane.Shared.UserNames
+  fullName: Oqtane.Shared.UserNames
+  nameWithType: UserNames
+- uid: Oqtane.Shared.UserNames.Host
+  name: Host
+  href: api/Oqtane.Shared.UserNames.html#Oqtane_Shared_UserNames_Host
+  commentId: F:Oqtane.Shared.UserNames.Host
+  fullName: Oqtane.Shared.UserNames.Host
+  nameWithType: UserNames.Host
 - uid: Oqtane.Shared.Utilities
   name: Utilities
   href: api/Oqtane.Shared.Utilities.html
@@ -20690,6 +22109,12 @@ references:
   commentId: M:Oqtane.Shared.Utilities.ContentUrl(Oqtane.Models.Alias,System.Int32)
   fullName: Oqtane.Shared.Utilities.ContentUrl(Oqtane.Models.Alias, System.Int32)
   nameWithType: Utilities.ContentUrl(Alias, Int32)
+- uid: Oqtane.Shared.Utilities.ContentUrl(Oqtane.Models.Alias,System.Int32,System.Boolean)
+  name: ContentUrl(Alias, Int32, Boolean)
+  href: api/Oqtane.Shared.Utilities.html#Oqtane_Shared_Utilities_ContentUrl_Oqtane_Models_Alias_System_Int32_System_Boolean_
+  commentId: M:Oqtane.Shared.Utilities.ContentUrl(Oqtane.Models.Alias,System.Int32,System.Boolean)
+  fullName: Oqtane.Shared.Utilities.ContentUrl(Oqtane.Models.Alias, System.Int32, System.Boolean)
+  nameWithType: Utilities.ContentUrl(Alias, Int32, Boolean)
 - uid: Oqtane.Shared.Utilities.ContentUrl*
   name: ContentUrl
   href: api/Oqtane.Shared.Utilities.html#Oqtane_Shared_Utilities_ContentUrl_
@@ -21266,6 +22691,51 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.MenuBase.MenuPages
   nameWithType: MenuBase.MenuPages
+- uid: Oqtane.Themes.Controls.MenuItemsBase
+  name: MenuItemsBase
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html
+  commentId: T:Oqtane.Themes.Controls.MenuItemsBase
+  fullName: Oqtane.Themes.Controls.MenuItemsBase
+  nameWithType: MenuItemsBase
+- uid: Oqtane.Themes.Controls.MenuItemsBase.GetChildPages
+  name: GetChildPages()
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html#Oqtane_Themes_Controls_MenuItemsBase_GetChildPages
+  commentId: M:Oqtane.Themes.Controls.MenuItemsBase.GetChildPages
+  fullName: Oqtane.Themes.Controls.MenuItemsBase.GetChildPages()
+  nameWithType: MenuItemsBase.GetChildPages()
+- uid: Oqtane.Themes.Controls.MenuItemsBase.GetChildPages*
+  name: GetChildPages
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html#Oqtane_Themes_Controls_MenuItemsBase_GetChildPages_
+  commentId: Overload:Oqtane.Themes.Controls.MenuItemsBase.GetChildPages
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.MenuItemsBase.GetChildPages
+  nameWithType: MenuItemsBase.GetChildPages
+- uid: Oqtane.Themes.Controls.MenuItemsBase.Pages
+  name: Pages
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html#Oqtane_Themes_Controls_MenuItemsBase_Pages
+  commentId: P:Oqtane.Themes.Controls.MenuItemsBase.Pages
+  fullName: Oqtane.Themes.Controls.MenuItemsBase.Pages
+  nameWithType: MenuItemsBase.Pages
+- uid: Oqtane.Themes.Controls.MenuItemsBase.Pages*
+  name: Pages
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html#Oqtane_Themes_Controls_MenuItemsBase_Pages_
+  commentId: Overload:Oqtane.Themes.Controls.MenuItemsBase.Pages
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.MenuItemsBase.Pages
+  nameWithType: MenuItemsBase.Pages
+- uid: Oqtane.Themes.Controls.MenuItemsBase.ParentPage
+  name: ParentPage
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html#Oqtane_Themes_Controls_MenuItemsBase_ParentPage
+  commentId: P:Oqtane.Themes.Controls.MenuItemsBase.ParentPage
+  fullName: Oqtane.Themes.Controls.MenuItemsBase.ParentPage
+  nameWithType: MenuItemsBase.ParentPage
+- uid: Oqtane.Themes.Controls.MenuItemsBase.ParentPage*
+  name: ParentPage
+  href: api/Oqtane.Themes.Controls.MenuItemsBase.html#Oqtane_Themes_Controls_MenuItemsBase_ParentPage_
+  commentId: Overload:Oqtane.Themes.Controls.MenuItemsBase.ParentPage
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.MenuItemsBase.ParentPage
+  nameWithType: MenuItemsBase.ParentPage
 - uid: Oqtane.Themes.Controls.ModuleActionsBase
   name: ModuleActionsBase
   href: api/Oqtane.Themes.Controls.ModuleActionsBase.html
@@ -21533,6 +23003,12 @@ references:
   commentId: M:Oqtane.Themes.ThemeBase.ContentUrl(System.Int32)
   fullName: Oqtane.Themes.ThemeBase.ContentUrl(System.Int32)
   nameWithType: ThemeBase.ContentUrl(Int32)
+- uid: Oqtane.Themes.ThemeBase.ContentUrl(System.Int32,System.Boolean)
+  name: ContentUrl(Int32, Boolean)
+  href: api/Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_ContentUrl_System_Int32_System_Boolean_
+  commentId: M:Oqtane.Themes.ThemeBase.ContentUrl(System.Int32,System.Boolean)
+  fullName: Oqtane.Themes.ThemeBase.ContentUrl(System.Int32, System.Boolean)
+  nameWithType: ThemeBase.ContentUrl(Int32, Boolean)
 - uid: Oqtane.Themes.ThemeBase.ContentUrl*
   name: ContentUrl
   href: api/Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_ContentUrl_
@@ -21712,11 +23188,11 @@ references:
   commentId: T:Oqtane.UI.Interop
   fullName: Oqtane.UI.Interop
   nameWithType: Interop
-- uid: Oqtane.UI.Interop.#ctor(IJSRuntime)
+- uid: Oqtane.UI.Interop.#ctor(Microsoft.JSInterop.IJSRuntime)
   name: Interop(IJSRuntime)
-  href: api/Oqtane.UI.Interop.html#Oqtane_UI_Interop__ctor_IJSRuntime_
-  commentId: M:Oqtane.UI.Interop.#ctor(IJSRuntime)
-  fullName: Oqtane.UI.Interop.Interop(IJSRuntime)
+  href: api/Oqtane.UI.Interop.html#Oqtane_UI_Interop__ctor_Microsoft_JSInterop_IJSRuntime_
+  commentId: M:Oqtane.UI.Interop.#ctor(Microsoft.JSInterop.IJSRuntime)
+  fullName: Oqtane.UI.Interop.Interop(Microsoft.JSInterop.IJSRuntime)
   nameWithType: Interop.Interop(IJSRuntime)
 - uid: Oqtane.UI.Interop.#ctor*
   name: Interop

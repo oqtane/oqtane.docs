@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DBContextBase
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -61,6 +61,9 @@
                           <a href="../articles/index.html" title="Articles">Articles</a>
                       </li>
                       <li>
+                          <a href="../admin/index.html" title="Administration">Administration</a>
+                      </li>
+                      <li>
                           <a href="../api/index.html" title="API Documentation">API Documentation</a>
                       </li>
                 </ul>    </div>
@@ -78,11 +81,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -105,24 +108,28 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DBContextBase</span></div>
-      <div class="level2"><a class="xref" href="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.html">HtmlTextContext</a></div>
-      <div class="level2"><a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a></div>
+    <div class="level1"><span class="xref">Microsoft.EntityFrameworkCore.DbContext</span></div>
+    <div class="level2"><span class="xref">Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityUser</span>, <span class="xref">System.String</span>, <span class="xref">Microsoft.AspNetCore.Identity.IdentityUserClaim</span>&lt;<span class="xref">System.String</span>&gt;, <span class="xref">Microsoft.AspNetCore.Identity.IdentityUserLogin</span>&lt;<span class="xref">System.String</span>&gt;, <span class="xref">Microsoft.AspNetCore.Identity.IdentityUserToken</span>&lt;<span class="xref">System.String</span>&gt;&gt;</div>
+    <div class="level3"><span class="xref">Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityUser</span>, <span class="xref">System.String</span>&gt;</div>
+    <div class="level4"><span class="xref">Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityUser</span>&gt;</div>
+    <div class="level5"><span class="xref">DBContextBase</span></div>
+      <div class="level6"><a class="xref" href="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.html">HtmlTextContext</a></div>
+      <div class="level6"><a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Repository.html">Oqtane.Repository</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
   <h5 id="Oqtane_Repository_DBContextBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DBContextBase : IdentityUserContext&lt;IdentityUser&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class DBContextBase : IdentityUserContext&lt;IdentityUser&gt;, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IDisposable, IAsyncDisposable, IResettableService</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_DBContextBase__ctor_Oqtane_Repository_ITenantResolver_Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase.%23ctor(Oqtane.Repository.ITenantResolver%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_DBContextBase__ctor_Oqtane_Repository_ITenantResolver_Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase.%23ctor(Oqtane.Repository.ITenantResolver%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L16">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/DBContextBase.cs/#L16">View Source</a>
   </span>
   <a id="Oqtane_Repository_DBContextBase__ctor_" data-uid="Oqtane.Repository.DBContextBase.#ctor*"></a>
   <h4 id="Oqtane_Repository_DBContextBase__ctor_Oqtane_Repository_ITenantResolver_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Repository.DBContextBase.#ctor(Oqtane.Repository.ITenantResolver,Microsoft.AspNetCore.Http.IHttpContextAccessor)">DBContextBase(ITenantResolver, IHttpContextAccessor)</h4>
@@ -158,13 +165,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_DBContextBase_OnConfiguring_DbContextOptionsBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase.OnConfiguring(DbContextOptionsBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L22">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/DBContextBase.cs/#L22">View Source</a>
   </span>
   <a id="Oqtane_Repository_DBContextBase_OnConfiguring_" data-uid="Oqtane.Repository.DBContextBase.OnConfiguring*"></a>
-  <h4 id="Oqtane_Repository_DBContextBase_OnConfiguring_DbContextOptionsBuilder_" data-uid="Oqtane.Repository.DBContextBase.OnConfiguring(DbContextOptionsBuilder)">OnConfiguring(DbContextOptionsBuilder)</h4>
+  <h4 id="Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_" data-uid="Oqtane.Repository.DBContextBase.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">OnConfiguring(DbContextOptionsBuilder)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -182,18 +189,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DbContextOptionsBuilder</span></td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbContextOptionsBuilder</span></td>
         <td><span class="parametername">optionsBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_DBContextBase_SaveChanges.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase.SaveChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_DBContextBase_SaveChanges.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase.SaveChanges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L30">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/DBContextBase.cs/#L34">View Source</a>
   </span>
   <a id="Oqtane_Repository_DBContextBase_SaveChanges_" data-uid="Oqtane.Repository.DBContextBase.SaveChanges*"></a>
   <h4 id="Oqtane_Repository_DBContextBase_SaveChanges" data-uid="Oqtane.Repository.DBContextBase.SaveChanges">SaveChanges()</h4>
@@ -218,6 +227,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.DbContext.SaveChanges()</span></div>
 </article>
           </div>
           
@@ -226,15 +237,16 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Repository_DBContextBase.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_DBContextBase.md&amp;value=---%0Auid%3A%20Oqtane.Repository.DBContextBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Repository/Context/DBContextBase.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
