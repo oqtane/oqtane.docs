@@ -165,7 +165,7 @@ public class RoleController : Controller, IActionFilter, IAsyncActionFilter, IFi
     <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_RoleController_Delete_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.RoleController.Delete(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L67">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L71">View Source</a>
   </span>
   <a id="Oqtane_Controllers_RoleController_Delete_" data-uid="Oqtane.Controllers.RoleController.Delete*"></a>
   <h4 id="Oqtane_Controllers_RoleController_Delete_System_Int32_" data-uid="Oqtane.Controllers.RoleController.Delete(System.Int32)">Delete(Int32)</h4>
@@ -199,7 +199,7 @@ public void Delete(int id)</code></pre>
     <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_RoleController_Get_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.RoleController.Get(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L33">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L37">View Source</a>
   </span>
   <a id="Oqtane_Controllers_RoleController_Get_" data-uid="Oqtane.Controllers.RoleController.Get*"></a>
   <h4 id="Oqtane_Controllers_RoleController_Get_System_Int32_" data-uid="Oqtane.Controllers.RoleController.Get(System.Int32)">Get(Int32)</h4>
@@ -245,20 +245,20 @@ public Role Get(int id)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_RoleController_Get_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.RoleController.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_RoleController_Get_System_String_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.RoleController.Get(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L25">View Source</a>
   </span>
   <a id="Oqtane_Controllers_RoleController_Get_" data-uid="Oqtane.Controllers.RoleController.Get*"></a>
-  <h4 id="Oqtane_Controllers_RoleController_Get_System_String_" data-uid="Oqtane.Controllers.RoleController.Get(System.String)">Get(String)</h4>
+  <h4 id="Oqtane_Controllers_RoleController_Get_System_String_System_String_" data-uid="Oqtane.Controllers.RoleController.Get(System.String,System.String)">Get(String, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet]
 [Authorize(Roles = &quot;Registered Users&quot;)]
-public IEnumerable&lt;Role&gt; Get(string siteid)</code></pre>
+public IEnumerable&lt;Role&gt; Get(string siteid, string global)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -273,6 +273,11 @@ public IEnumerable&lt;Role&gt; Get(string siteid)</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">siteid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">global</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -297,7 +302,7 @@ public IEnumerable&lt;Role&gt; Get(string siteid)</code></pre>
     <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_RoleController_Post_Oqtane_Models_Role_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.RoleController.Post(Oqtane.Models.Role)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L41">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L45">View Source</a>
   </span>
   <a id="Oqtane_Controllers_RoleController_Post_" data-uid="Oqtane.Controllers.RoleController.Post*"></a>
   <h4 id="Oqtane_Controllers_RoleController_Post_Oqtane_Models_Role_" data-uid="Oqtane.Controllers.RoleController.Post(Oqtane.Models.Role)">Post(Role)</h4>
@@ -346,7 +351,7 @@ public Role Post([FromBody] Role role)</code></pre>
     <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_RoleController_Put_System_Int32_Oqtane_Models_Role_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.RoleController.Put(System.Int32%2COqtane.Models.Role)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L54">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/RoleController.cs/#L58">View Source</a>
   </span>
   <a id="Oqtane_Controllers_RoleController_Put_" data-uid="Oqtane.Controllers.RoleController.Put*"></a>
   <h4 id="Oqtane_Controllers_RoleController_Put_System_Int32_Oqtane_Models_Role_" data-uid="Oqtane.Controllers.RoleController.Put(System.Int32,Oqtane.Models.Role)">Put(Int32, Role)</h4>

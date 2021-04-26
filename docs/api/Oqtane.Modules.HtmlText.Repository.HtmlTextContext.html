@@ -118,11 +118,18 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Oqtane.Modules.IService.html">IService</a></div>
+    <div><a class="xref" href="Oqtane.Repository.Databases.Interfaces.IMultiDatabase.html">IMultiDatabase</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_Databases">DBContextBase.Databases</a>
+    </div>
+    <div>
       <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_">DBContextBase.OnConfiguring(DbContextOptionsBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_">DBContextBase.OnModelCreating(ModelBuilder)</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_SaveChanges">DBContextBase.SaveChanges()</a>
@@ -132,24 +139,24 @@
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
   <h5 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HtmlTextContext : DBContextBase, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IDisposable, IAsyncDisposable, IResettableService, IService</code></pre>
+    <pre><code class="lang-csharp hljs">public class HtmlTextContext : DBContextBase, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IDisposable, IAsyncDisposable, IResettableService, IService, IMultiDatabase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_Oqtane_Repository_ITenantResolver_Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext.%23ctor(Oqtane.Repository.ITenantResolver%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_Oqtane_Repository_IDbConfig_Oqtane_Repository_ITenantResolver_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext.%23ctor(Oqtane.Repository.IDbConfig%2COqtane.Repository.ITenantResolver)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L12">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L15">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.#ctor*"></a>
-  <h4 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_Oqtane_Repository_ITenantResolver_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.#ctor(Oqtane.Repository.ITenantResolver,Microsoft.AspNetCore.Http.IHttpContextAccessor)">HtmlTextContext(ITenantResolver, IHttpContextAccessor)</h4>
+  <h4 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_Oqtane_Repository_IDbConfig_Oqtane_Repository_ITenantResolver_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.#ctor(Oqtane.Repository.IDbConfig,Oqtane.Repository.ITenantResolver)">HtmlTextContext(IDbConfig, ITenantResolver)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HtmlTextContext(ITenantResolver tenantResolver, IHttpContextAccessor accessor)</code></pre>
+    <pre><code class="lang-csharp hljs">public HtmlTextContext(IDbConfig dbConfig, ITenantResolver tenantResolver)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,13 +169,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oqtane.Repository.ITenantResolver.html">ITenantResolver</a></td>
-        <td><span class="parametername">tenantResolver</span></td>
+        <td><a class="xref" href="Oqtane.Repository.IDbConfig.html">IDbConfig</a></td>
+        <td><span class="parametername">dbConfig</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Http.IHttpContextAccessor</span></td>
-        <td><span class="parametername">accessor</span></td>
+        <td><a class="xref" href="Oqtane.Repository.ITenantResolver.html">ITenantResolver</a></td>
+        <td><span class="parametername">tenantResolver</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -180,7 +187,7 @@
     <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext_HtmlText.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext.HtmlText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L10">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L19">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext_HtmlText_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.HtmlText*"></a>
   <h4 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext_HtmlText" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.HtmlText">HtmlText</h4>
@@ -188,7 +195,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;HtmlTextInfo&gt; HtmlText { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;HtmlText&gt; HtmlText { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -200,7 +207,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Modules.HtmlText.Models.HtmlTextInfo.html">HtmlTextInfo</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Modules.HtmlText.Models.HtmlText.html">HtmlText</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -208,6 +215,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Oqtane.Modules.IService.html">IService</a>
+  </div>
+  <div>
+      <a class="xref" href="Oqtane.Repository.Databases.Interfaces.IMultiDatabase.html">IMultiDatabase</a>
   </div>
 </article>
           </div>
@@ -220,7 +230,7 @@
                     <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -1,0 +1,706 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <!-- Google Tag Manager - disabled temporarily, until we have the GTM code -->
+    <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TODO-TODO-TODO');</script>-->
+    <!-- End Google Tag Manager -->
+    <!-- azing recipe embed resizer -->
+    <script src="https://cdn.azing.org/e/1/embed.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SiteEntityBuilder
+   | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SiteEntityBuilder
+   | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../layout/images/favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/index.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../admin/index.html" title="Administration">Administration</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder">
+  
+  
+  <h1 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder" class="text-break">Class SiteEntityBuilder
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html">BaseEntityBuilder</a>&lt;<a class="xref" href="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html">SiteEntityBuilder</a>&gt;</div>
+    <div class="level2"><a class="xref" href="Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html">AuditableBaseEntityBuilder</a>&lt;<a class="xref" href="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html">SiteEntityBuilder</a>&gt;</div>
+    <div class="level3"><a class="xref" href="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html">DeletableAuditableBaseEntityBuilder</a>&lt;<a class="xref" href="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html">SiteEntityBuilder</a>&gt;</div>
+    <div class="level4"><span class="xref">SiteEntityBuilder</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_AddDeletableColumns_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_">DeletableAuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddDeletableColumns(ColumnsBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedBy">DeletableAuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.DeletedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedOn">DeletableAuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.DeletedOn</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_IsDeleted">DeletableAuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.IsDeleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1_AddAuditableColumns_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_">AuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddAuditableColumns(ColumnsBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1_CreatedBy">AuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.CreatedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1_CreatedOn">AuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.CreatedOn</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1_ModifiedBy">AuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.ModifiedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1_ModifiedOn">AuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;.ModifiedOn</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ActiveDatabase">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.ActiveDatabase</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_EntityTableName">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.EntityTableName</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_PrimaryKey">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.PrimaryKey</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ForeignKeys">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.ForeignKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddAutoIncrementColumn(ColumnsBuilder, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddBooleanColumn(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddBooleanColumn(ColumnsBuilder, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddDateTimeColumn(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddDateTimeColumn(ColumnsBuilder, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddDateTimeOffsetColumn(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddDateTimeOffsetColumn(ColumnsBuilder, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddIntegerColumn(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddIntegerColumn(ColumnsBuilder, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddMaxStringColumn(String, Int32, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddMaxStringColumn(ColumnsBuilder, String, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddStringColumn(String, Int32, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Int32_System_Boolean_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddStringColumn(ColumnsBuilder, String, Int32, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AlterStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AlterStringColumn(String, Int32, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropColumn_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.DropColumn(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_System_String_System_String_System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddIndex(String, String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_System_String_System_String___System_Boolean_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddIndex(String, String[], Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropIndex_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.DropIndex(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddPrimaryKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_PrimaryKey__0__">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddPrimaryKey(CreateTableBuilder&lt;SiteEntityBuilder&gt;, PrimaryKey&lt;SiteEntityBuilder&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_ForeignKey__0__">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.AddForeignKey(CreateTableBuilder&lt;SiteEntityBuilder&gt;, ForeignKey&lt;SiteEntityBuilder&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_Oqtane_Migrations_ForeignKey__0__">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.DropForeignKey(ForeignKey&lt;SiteEntityBuilder&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.DropForeignKey(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Create">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.Create()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Drop">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.Drop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DeleteFromTable_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.DeleteFromTable(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_UpdateColumn_System_String_System_String_System_String_">BaseEntityBuilder&lt;SiteEntityBuilder&gt;.UpdateColumn(String, String, String)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Migrations.EntityBuilders.html">Oqtane.Migrations.EntityBuilders</a></h6>
+  <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
+  <h5 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SiteEntityBuilder : DeletableAuditableBaseEntityBuilder&lt;SiteEntityBuilder&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.%23ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder%2COqtane.Interfaces.IOqtaneDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L16">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder__ctor_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)">SiteEntityBuilder(MigrationBuilder, IOqtaneDatabase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SiteEntityBuilder(MigrationBuilder migrationBuilder, IOqtaneDatabase database)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder</span></td>
+        <td><span class="parametername">migrationBuilder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Interfaces.IOqtaneDatabase.html">IOqtaneDatabase</a></td>
+        <td><span class="parametername">database</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_AllowRegistration.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.AllowRegistration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L62">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_AllowRegistration_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.AllowRegistration*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_AllowRegistration" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.AllowRegistration">AllowRegistration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; AllowRegistration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_DefaultContainerType.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.DefaultContainerType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L54">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_DefaultContainerType_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.DefaultContainerType*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_DefaultContainerType" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.DefaultContainerType">DefaultContainerType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; DefaultContainerType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_DefaultThemeType.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.DefaultThemeType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L52">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_DefaultThemeType_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.DefaultThemeType*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_DefaultThemeType" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.DefaultThemeType">DefaultThemeType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; DefaultThemeType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_FaviconFileId.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.FaviconFileId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L50">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_FaviconFileId_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.FaviconFileId*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_FaviconFileId" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.FaviconFileId">FaviconFileId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; FaviconFileId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_LogoFileId.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.LogoFileId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L48">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_LogoFileId_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.LogoFileId*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_LogoFileId" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.LogoFileId">LogoFileId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; LogoFileId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_Name.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L46">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_Name_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.Name*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_Name" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaAppIconFileId.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaAppIconFileId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L58">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaAppIconFileId_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaAppIconFileId*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaAppIconFileId" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaAppIconFileId">PwaAppIconFileId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; PwaAppIconFileId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaIsEnabled.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaIsEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L56">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaIsEnabled_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaIsEnabled*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaIsEnabled" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaIsEnabled">PwaIsEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; PwaIsEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaSplashIconFileId.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaSplashIconFileId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L60">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaSplashIconFileId_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaSplashIconFileId*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_PwaSplashIconFileId" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.PwaSplashIconFileId">PwaSplashIconFileId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; PwaSplashIconFileId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_SiteId.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.SiteId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L42">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_SiteId_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.SiteId*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_SiteId" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.SiteId">SiteId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; SiteId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_TenantId.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.TenantId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L44">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_TenantId_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.TenantId*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_TenantId" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.TenantId">TenantId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperationBuilder&lt;AddColumnOperation&gt; TenantId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder</span>&lt;<span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.AddColumnOperation</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_BuildTable_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.BuildTable(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L22">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_BuildTable_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.BuildTable*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_SiteEntityBuilder_BuildTable_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_" data-uid="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.BuildTable(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)">BuildTable(ColumnsBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override SiteEntityBuilder BuildTable(ColumnsBuilder table)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder</span></td>
+        <td><span class="parametername">table</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html">SiteEntityBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Oqtane.Migrations.EntityBuilders.BaseEntityBuilder&lt;Oqtane.Migrations.EntityBuilders.SiteEntityBuilder&gt;.BuildTable(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)</span></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_SiteEntityBuilder.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.SiteEntityBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/SiteEntityBuilder.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
