@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/grayson.walker/source/repos/gjwalk/oqtane.docs/Oqtane.Docs",
+  "source_base_path": "C:/Users/grayson.walker/Source/Repos/gjwalk/oqtane.docs/Oqtane.Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -17,11 +17,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/fileManagement.md",
+      "source_relative_path": "admin/AdminDashboard/file-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/fileManagement.html",
-          "hash": "dEcAoq+GJHH9cNmKRnHEUQ=="
+          "relative_path": "admin/AdminDashboard/file-management.html",
+          "hash": "OgEIJ0ZQkMHkrmdQXUji5A=="
         }
       },
       "is_incremental": false,
@@ -36,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/AdminDashboard/index.html",
-          "hash": "qqhXxdVoM3+k14rwshv2CQ=="
+          "hash": "gctM9K0JtXSFrNscIdQiMA=="
         }
       },
       "is_incremental": false,
@@ -47,11 +47,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/pageManagement.md",
+      "source_relative_path": "admin/AdminDashboard/page-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/pageManagement.html",
-          "hash": "uRhQXnuFTElwm1VvV8o3ow=="
+          "relative_path": "admin/AdminDashboard/page-management.html",
+          "hash": "Ta+0sCQwWMYYQJOd6K9Wqg=="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/profileManagement.md",
+      "source_relative_path": "admin/AdminDashboard/profile-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/profileManagement.html",
-          "hash": "BQV8wafzz6FVENqZLt3k+w=="
+          "relative_path": "admin/AdminDashboard/profile-management.html",
+          "hash": "2/Zk6H9q1mrQF5nLcdMGsw=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/recycleBin.md",
+      "source_relative_path": "admin/AdminDashboard/recycle-bin.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/recycleBin.html",
-          "hash": "+XC/9b18wTaQTsv8eSYDhg=="
+          "relative_path": "admin/AdminDashboard/recycle-bin.html",
+          "hash": "AFqC0WpsXodIdz9CjqCvAg=="
         }
       },
       "is_incremental": false,
@@ -92,11 +92,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/roleManagement.md",
+      "source_relative_path": "admin/AdminDashboard/role-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/roleManagement.html",
-          "hash": "LnuxRi9e+OCvgr1CbUKOAw=="
+          "relative_path": "admin/AdminDashboard/role-management.html",
+          "hash": "VV7bQsTZJmLm3LU7OfWcKw=="
         }
       },
       "is_incremental": false,
@@ -107,11 +107,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/siteSettings.md",
+      "source_relative_path": "admin/AdminDashboard/site-settings.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/siteSettings.html",
-          "hash": "Z/Ga4Ydawj81/U2FrBLWbg=="
+          "relative_path": "admin/AdminDashboard/site-settings.html",
+          "hash": "mgRfgKwlvzZAcTwKs9zdAg=="
         }
       },
       "is_incremental": false,
@@ -122,11 +122,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/userManagement.md",
+      "source_relative_path": "admin/AdminDashboard/user-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/AdminDashboard/userManagement.html",
-          "hash": "/adqfKwuZWqDGX6DSGNpdA=="
+          "relative_path": "admin/AdminDashboard/user-management.html",
+          "hash": "ivgaKux7/btQ8RZAZekjHg=="
         }
       },
       "is_incremental": false,
@@ -137,11 +137,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/ControlPanel/controlPage.md",
+      "source_relative_path": "admin/ControlPanel/control-page.md",
       "output": {
         ".html": {
-          "relative_path": "admin/ControlPanel/controlPage.html",
-          "hash": "QHxellxdq6D7XItWNMO8bA=="
+          "relative_path": "admin/ControlPanel/control-page.html",
+          "hash": "1qLGobsmGCCnPv0h05646A=="
         }
       },
       "is_incremental": false,
@@ -156,7 +156,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/ControlPanel/index.html",
-          "hash": "5il2+PGRU2s1rxTIJmb94g=="
+          "hash": "eI3DkXeABbKrSPH0kfuXGg=="
         }
       },
       "is_incremental": false,
@@ -171,7 +171,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/ControlPanel/modules.html",
-          "hash": "yxSYPimWIy7OkvOfAFYlcg=="
+          "hash": "9bO+pthR7vsylKzK0VxXdg=="
         }
       },
       "is_incremental": false,
@@ -182,11 +182,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/eventLog.md",
+      "source_relative_path": "admin/HostAdministration/event-log.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/eventLog.html",
-          "hash": "Mr9synVfB+Gmpe2l5o6pVA=="
+          "relative_path": "admin/HostAdministration/event-log.html",
+          "hash": "d9bvFDmqy27RxgiMtS8rMg=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/HostAdministration/index.html",
-          "hash": "FsQdVGYs++Bj5K1tTUPzXw=="
+          "hash": "Kq43S1dvaeac/12C5ml6kQ=="
         }
       },
       "is_incremental": false,
@@ -209,11 +209,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/moduleManagement.md",
+      "source_relative_path": "admin/HostAdministration/module-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/moduleManagement.html",
-          "hash": "syxYA1Nw0aCiFWAc/+WuzA=="
+          "relative_path": "admin/HostAdministration/module-management.html",
+          "hash": "rrTMO/1ZZ56w8IKgjuOguA=="
         }
       },
       "is_incremental": false,
@@ -224,11 +224,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/scheduledJobs.md",
+      "source_relative_path": "admin/HostAdministration/scheduled-jobs.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/scheduledJobs.html",
-          "hash": "xU+5EmF+47u+ao0wODLWog=="
+          "relative_path": "admin/HostAdministration/scheduled-jobs.html",
+          "hash": "RiKNUG22dljk2tXbtUyUyw=="
         }
       },
       "is_incremental": false,
@@ -239,11 +239,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/siteManagement.md",
+      "source_relative_path": "admin/HostAdministration/site-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/siteManagement.html",
-          "hash": "DsDzy6Tk8tcUodMfvWNXkQ=="
+          "relative_path": "admin/HostAdministration/site-management.html",
+          "hash": "sqQCcxnkgCiII6Udja3mKQ=="
         }
       },
       "is_incremental": false,
@@ -254,11 +254,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/sqlManagement.md",
+      "source_relative_path": "admin/HostAdministration/sql-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/sqlManagement.html",
-          "hash": "zf6dgdg1UqCA3lQ1HSBWag=="
+          "relative_path": "admin/HostAdministration/sql-management.html",
+          "hash": "oXqfC0SOeiaBbJi8QQ6gYg=="
         }
       },
       "is_incremental": false,
@@ -266,11 +266,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/systemInfo.md",
+      "source_relative_path": "admin/HostAdministration/system-info.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/systemInfo.html",
-          "hash": "bq/I7rXJSxL8aYMMB+Vm8A=="
+          "relative_path": "admin/HostAdministration/system-info.html",
+          "hash": "L4xwPqNSbr3lVQao9Jilkw=="
         }
       },
       "is_incremental": false,
@@ -278,11 +278,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/systemUpdate.md",
+      "source_relative_path": "admin/HostAdministration/system-update.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/systemUpdate.html",
-          "hash": "aLp1uEYMq/N6ptEjvQGNMA=="
+          "relative_path": "admin/HostAdministration/system-update.html",
+          "hash": "MC2NN/y3iWqt/f7VfAbycA=="
         }
       },
       "is_incremental": false,
@@ -293,11 +293,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/themeManagement.md",
+      "source_relative_path": "admin/HostAdministration/theme-management.md",
       "output": {
         ".html": {
-          "relative_path": "admin/HostAdministration/themeManagement.html",
-          "hash": "m06FTDl7xAQGJnRHJv9KYQ=="
+          "relative_path": "admin/HostAdministration/theme-management.html",
+          "hash": "1ppbr9IQReU4NeXSaS0KXA=="
         }
       },
       "is_incremental": false,
@@ -320,11 +320,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/Modules/addingModules.md",
+      "source_relative_path": "admin/Modules/adding-modules.md",
       "output": {
         ".html": {
-          "relative_path": "admin/Modules/addingModules.html",
-          "hash": "OBZNQtEWC3W+AtSsHhB5Vw=="
+          "relative_path": "admin/Modules/adding-modules.html",
+          "hash": "8dDCl5nFniVqkZl24xVkFw=="
         }
       },
       "is_incremental": false,
@@ -339,7 +339,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/Modules/index.html",
-          "hash": "4AH4OPWhsYq2j8x20iB1xg=="
+          "hash": "pO8Tn+sGPGy9SLhQAFtOBg=="
         }
       },
       "is_incremental": false,
@@ -350,11 +350,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/Modules/workingWithModules.md",
+      "source_relative_path": "admin/Modules/working-with-modules.md",
       "output": {
         ".html": {
-          "relative_path": "admin/Modules/workingWithModules.html",
-          "hash": "5y/U9yNZ1F93LoE8tXrmxA=="
+          "relative_path": "admin/Modules/working-with-modules.html",
+          "hash": "D+2uGNCud1Yp+hzGHY8Bsw=="
         }
       },
       "is_incremental": false,
@@ -365,11 +365,11 @@
         "InvalidFileLink"
       ],
       "type": "Conceptual",
-      "source_relative_path": "admin/SiteAdministration/contentEditor.md",
+      "source_relative_path": "admin/SiteAdministration/content-editor.md",
       "output": {
         ".html": {
-          "relative_path": "admin/SiteAdministration/contentEditor.html",
-          "hash": "ztlaxu96KnDmGbpFB0ZGTA=="
+          "relative_path": "admin/SiteAdministration/content-editor.html",
+          "hash": "rTRz4GbszLielh6+bWKIjA=="
         }
       },
       "is_incremental": false,
@@ -384,7 +384,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/SiteAdministration/index.html",
-          "hash": "A37cr9XTOTRVspysdA595g=="
+          "hash": "OOpXrMYKUuIaWN744XOJxg=="
         }
       },
       "is_incremental": false,
@@ -408,7 +408,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/toc.html",
-          "hash": "l/9EldNwFcZSg7msh0Ogzg=="
+          "hash": "fpbDErFR3MD12+a5pHZ//w=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Client.html",
-          "hash": "6uTWyc+uBFR0YsN+G4IwtA=="
+          "hash": "rMiBcdGcQ1dG5rHPY80+UQ=="
         }
       },
       "is_incremental": false,
@@ -837,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.FolderController.html",
-          "hash": "CKSZKOfrjWZSaNOFpULh+A=="
+          "hash": "OitHjldFrL+QSVHaCYBaJA=="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.InstallationController.html",
-          "hash": "mPPFzS+f36/gcad9KR6zog=="
+          "hash": "X+otyOVqVvYbl7S3PWqoIw=="
         }
       },
       "is_incremental": false,
@@ -945,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.ModuleDefinitionController.html",
-          "hash": "JKldBDqQw+wMii9dUp/w5g=="
+          "hash": "89zwcshO2Q0Ljo9XaIvhNg=="
         }
       },
       "is_incremental": false,
@@ -981,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.PageController.html",
-          "hash": "K1nZDpzlRpeEyU1S450WYA=="
+          "hash": "DtkaaN1AolRpli1Y31bkBA=="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.ThemeController.html",
-          "hash": "LPWjETlFzbYdt6LjXT52hg=="
+          "hash": "FRjjE3UuaESwLoVpIPPadA=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.UserController.html",
-          "hash": "UTkXkvo38WKD2RX+nFtYYA=="
+          "hash": "prnj+9nVdw2sLrh0rbWDEA=="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Enums.html",
-          "hash": "SqJiGbV+W+bj+bhxo5Ma7Q=="
+          "hash": "yBouqeEVXZKKzs29JtEF1A=="
         }
       },
       "is_incremental": false,
@@ -1258,6 +1258,18 @@
         ".html": {
           "relative_path": "api/Oqtane.Extensions.ApplicationBuilderExtensions.html",
           "hash": "LtpZxc/Jv/b1FghlHWoLCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html",
+          "hash": "7mDEuuTpiFK6nnjc5PfD0g=="
         }
       },
       "is_incremental": false,
@@ -1305,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Extensions.html",
-          "hash": "lbLMZyDoI4pAxqAN84PUYA=="
+          "hash": "HH3JhEXdTfnLN39ftp1z8g=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.DatabaseManager.html",
-          "hash": "puVe1DJQ6BEOSSHscYkyeg=="
+          "hash": "RAZMwaEY4YnvVvu2ocj/Jg=="
         }
       },
       "is_incremental": false,
@@ -1341,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.IDatabaseManager.html",
-          "hash": "UUOJgl+XuiEWbDTcxBWgUg=="
+          "hash": "5p1tuynoTODeiMuWXB6x3A=="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.InstallationManager.html",
-          "hash": "y1n3aZ54Jmn/Iejyl8pO4g=="
+          "hash": "SzuU3ZvYf/WJ6wWKHZOtEQ=="
         }
       },
       "is_incremental": false,
@@ -1473,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.LocalizationManager.html",
-          "hash": "FlZJTcOzIiDSf2Rr5iW+lQ=="
+          "hash": "jYi91qMPjmIxv0GExq6I+A=="
         }
       },
       "is_incremental": false,
@@ -1485,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.LocalizationOptions.html",
-          "hash": "uIOBkOhQcR4439woQfQVTw=="
+          "hash": "aQQAJShoyjpAeE1K/z96vA=="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.UpgradeManager.html",
-          "hash": "peyvGAra9Iouf04gSLbehQ=="
+          "hash": "GvheZgkz3qBxK13aFiLurg=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.File.html",
-          "hash": "vXhQh404MFn6zNdnvCXekw=="
+          "hash": "Fh/5X9BsDYa0Q6CQyllssw=="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.ModuleDefinition.html",
-          "hash": "fbNGsp68t7nIkZnkpZuVxw=="
+          "hash": "sdEIWAvif0EBQkixvSN0Fw=="
         }
       },
       "is_incremental": false,
@@ -1773,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Page.html",
-          "hash": "XGJ99OJ9rLMQGFUNCzGckA=="
+          "hash": "OsA6cH0FDfrudJGae5+VAw=="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Site.html",
-          "hash": "hGdtS7/j4KQ+sbU7h+ZRVw=="
+          "hash": "1niEoizWMVz2uWU/jz923Q=="
         }
       },
       "is_incremental": false,
@@ -1953,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Theme.html",
-          "hash": "D0hhB+S1+Wd9sKEtIVNdjQ=="
+          "hash": "zD0RiXhPKWGTs5sIS7w8aA=="
         }
       },
       "is_incremental": false,
@@ -2361,7 +2373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Pages.HostModel.html",
-          "hash": "1fHCDXLwicyfzP2g/HCzvA=="
+          "hash": "1MzNNzoo/wFoF7On+5LNpA=="
         }
       },
       "is_incremental": false,
@@ -2445,7 +2457,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.DBContextBase.html",
-          "hash": "LksowJqvIujHBBImFphumw=="
+          "hash": "Ek+BirrKPC937rw1eJROKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Repository.DbContextUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Repository.DbContextUtils.html",
+          "hash": "4x6U8mFCqye2Sd+oE/qpDA=="
         }
       },
       "is_incremental": false,
@@ -2769,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.InstallationContext.html",
-          "hash": "vmopOJJXkgE9MJ8sf3HHSg=="
+          "hash": "xAASjxby055fvz4/Vd0WfA=="
         }
       },
       "is_incremental": false,
@@ -2829,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.MasterDBContext.html",
-          "hash": "Er6mloJGUzjK0uhtghMejA=="
+          "hash": "fN2Jmvktg0QxaIk4dWJC6Q=="
         }
       },
       "is_incremental": false,
@@ -3021,7 +3045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.ThemeRepository.html",
-          "hash": "QBGFKYOaFPRaLGIykkN4Ow=="
+          "hash": "UlZetJ3yPC6/nw01bECI4Q=="
         }
       },
       "is_incremental": false,
@@ -3057,7 +3081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.html",
-          "hash": "ituXwAkIv2WC0kcj+FKnhg=="
+          "hash": "e7cosLWNEBZYNZgc06Taaw=="
         }
       },
       "is_incremental": false,
@@ -3201,7 +3225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.FolderService.html",
-          "hash": "nbKpfCB/jX0XWGTFnD2rYw=="
+          "hash": "gH2pkX1rYtekT9NUdT24IA=="
         }
       },
       "is_incremental": false,
@@ -3333,7 +3357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.IModuleDefinitionService.html",
-          "hash": "iQ6+2hLI7+M9EnIJVN+UlQ=="
+          "hash": "1c0TTsNYSmoZkZ0x4KfWBw=="
         }
       },
       "is_incremental": false,
@@ -3501,7 +3525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.IThemeService.html",
-          "hash": "Obw4Uy6KX+bnjTVHl957Ag=="
+          "hash": "g9FYRUi7GJGD+gaSehNl/w=="
         }
       },
       "is_incremental": false,
@@ -3525,7 +3549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.IUserService.html",
-          "hash": "t3xEPQW1ksWYvV3UydZ0KQ=="
+          "hash": "9R1P3KlgLX1a41OUFo5mag=="
         }
       },
       "is_incremental": false,
@@ -3609,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.ModuleDefinitionService.html",
-          "hash": "JpgIsbPwTqmJyPz5MXu2bg=="
+          "hash": "Ucjot8kKeogGlcm3X+wXHw=="
         }
       },
       "is_incremental": false,
@@ -3789,7 +3813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.ThemeService.html",
-          "hash": "QME1Fj1djHPBRUT6AcS5Ag=="
+          "hash": "arufBggOyPCo43jtzkgX4Q=="
         }
       },
       "is_incremental": false,
@@ -3813,7 +3837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.UserService.html",
-          "hash": "9s2U42nVgev8mFhrsPYluQ=="
+          "hash": "wwDNxfxtiwnDtmt41eviSA=="
         }
       },
       "is_incremental": false,
@@ -3837,7 +3861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.Constants.html",
-          "hash": "1aTLnfMHYk5hpvEvxqoebA=="
+          "hash": "u2k4A1My0GaaCoG0vI9AHw=="
         }
       },
       "is_incremental": false,
@@ -3885,7 +3909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.InstallConfig.html",
-          "hash": "ii0qHOKVQmiT+xy6PfhcZA=="
+          "hash": "nBUXqRuRIruYnQXW3zC1bg=="
         }
       },
       "is_incremental": false,
@@ -3921,7 +3945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.PaneNames.html",
-          "hash": "oGXuWVAIvZ6tR4v8v5Vi6w=="
+          "hash": "JECF5D8G/l+InRutbCwSVQ=="
         }
       },
       "is_incremental": false,
@@ -4149,7 +4173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Startup.html",
-          "hash": "rfw6eOs2Ehi2mBaFcEQnsg=="
+          "hash": "aJnFbhtPxgvO5t1UHH23ZQ=="
         }
       },
       "is_incremental": false,
@@ -4197,7 +4221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.LoginBase.html",
-          "hash": "kefp9Olx3RlSMII6Y22HuQ=="
+          "hash": "z4/btYXxAjbomDoxt63pcw=="
         }
       },
       "is_incremental": false,
@@ -4209,7 +4233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.MenuBase.html",
-          "hash": "bLYDy3cqyC7ZzTtu7rpvhA=="
+          "hash": "MpjNDP1gGgnx1ornv2qlZQ=="
         }
       },
       "is_incremental": false,
@@ -4221,7 +4245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.MenuItemsBase.html",
-          "hash": "FmV6Qgs1CW8Tl30c9kOwMA=="
+          "hash": "QL64iVzuS5k+/mggzyokew=="
         }
       },
       "is_incremental": false,
@@ -4233,7 +4257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsBase.ActionViewModel.html",
-          "hash": "qYaj6vQ4aPrLN2bCESUMag=="
+          "hash": "t9ufWXZ7BTl/iY78Caqfcw=="
         }
       },
       "is_incremental": false,
@@ -4245,7 +4269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsBase.html",
-          "hash": "mWEZ3N04+MM5gfhQcJQY7g=="
+          "hash": "Cb4b2mdo3+dlCo7GTbsEVg=="
         }
       },
       "is_incremental": false,
@@ -4317,7 +4341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.LayoutBase.html",
-          "hash": "seAGq7mVaO9GVeJy8IMXOg=="
+          "hash": "6/kc8nqAer7vFBTwClZ9vw=="
         }
       },
       "is_incremental": false,
@@ -4389,7 +4413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.UI.Interop.html",
-          "hash": "btUvNt508M8xRzgTjO1Y2A=="
+          "hash": "oMIXZEADgiXXryKOYJHYpg=="
         }
       },
       "is_incremental": false,
@@ -4461,7 +4485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "n5iAsh1wobUe9nHZ0/p+Gw=="
+          "hash": "ULBKj816FdsP81qUnQ5rdQ=="
         }
       },
       "is_incremental": false,
@@ -4505,13 +4529,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 42,
-          "skipped_file_count": 41
+          "skipped_file_count": 18
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 321,
-          "skipped_file_count": 321
+          "total_file_count": 323,
+          "skipped_file_count": 163
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

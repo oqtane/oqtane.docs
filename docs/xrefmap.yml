@@ -1180,6 +1180,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.ModuleDefinitionController.Get
   nameWithType: ModuleDefinitionController.Get
+- uid: Oqtane.Controllers.ModuleDefinitionController.GetTemplates
+  name: GetTemplates()
+  href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController_GetTemplates
+  commentId: M:Oqtane.Controllers.ModuleDefinitionController.GetTemplates
+  fullName: Oqtane.Controllers.ModuleDefinitionController.GetTemplates()
+  nameWithType: ModuleDefinitionController.GetTemplates()
+- uid: Oqtane.Controllers.ModuleDefinitionController.GetTemplates*
+  name: GetTemplates
+  href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController_GetTemplates_
+  commentId: Overload:Oqtane.Controllers.ModuleDefinitionController.GetTemplates
+  isSpec: "True"
+  fullName: Oqtane.Controllers.ModuleDefinitionController.GetTemplates
+  nameWithType: ModuleDefinitionController.GetTemplates
 - uid: Oqtane.Controllers.ModuleDefinitionController.InstallModules
   name: InstallModules()
   href: api/Oqtane.Controllers.ModuleDefinitionController.html#Oqtane_Controllers_ModuleDefinitionController_InstallModules
@@ -1347,12 +1360,12 @@ references:
   commentId: T:Oqtane.Controllers.PageController
   fullName: Oqtane.Controllers.PageController
   nameWithType: PageController
-- uid: Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
-  name: PageController(IPageRepository, IModuleRepository, IPageModuleRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
-  href: api/Oqtane.Controllers.PageController.html#Oqtane_Controllers_PageController__ctor_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ITenantResolver_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_
-  commentId: M:Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
-  fullName: Oqtane.Controllers.PageController.PageController(Oqtane.Repository.IPageRepository, Oqtane.Repository.IModuleRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Security.IUserPermissions, Oqtane.Repository.ITenantResolver, Oqtane.Infrastructure.ISyncManager, Oqtane.Infrastructure.ILogManager)
-  nameWithType: PageController.PageController(IPageRepository, IModuleRepository, IPageModuleRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
+- uid: Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  name: PageController(IPageRepository, IModuleRepository, IPageModuleRepository, ISettingRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
+  href: api/Oqtane.Controllers.PageController.html#Oqtane_Controllers_PageController__ctor_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_ISettingRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ITenantResolver_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_
+  commentId: M:Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  fullName: Oqtane.Controllers.PageController.PageController(Oqtane.Repository.IPageRepository, Oqtane.Repository.IModuleRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Repository.ISettingRepository, Oqtane.Security.IUserPermissions, Oqtane.Repository.ITenantResolver, Oqtane.Infrastructure.ISyncManager, Oqtane.Infrastructure.ILogManager)
+  nameWithType: PageController.PageController(IPageRepository, IModuleRepository, IPageModuleRepository, ISettingRepository, IUserPermissions, ITenantResolver, ISyncManager, ILogManager)
 - uid: Oqtane.Controllers.PageController.#ctor*
   name: PageController
   href: api/Oqtane.Controllers.PageController.html#Oqtane_Controllers_PageController__ctor_
@@ -2093,6 +2106,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.ThemeController.Get
   nameWithType: ThemeController.Get
+- uid: Oqtane.Controllers.ThemeController.GetTemplates
+  name: GetTemplates()
+  href: api/Oqtane.Controllers.ThemeController.html#Oqtane_Controllers_ThemeController_GetTemplates
+  commentId: M:Oqtane.Controllers.ThemeController.GetTemplates
+  fullName: Oqtane.Controllers.ThemeController.GetTemplates()
+  nameWithType: ThemeController.GetTemplates()
+- uid: Oqtane.Controllers.ThemeController.GetTemplates*
+  name: GetTemplates
+  href: api/Oqtane.Controllers.ThemeController.html#Oqtane_Controllers_ThemeController_GetTemplates_
+  commentId: Overload:Oqtane.Controllers.ThemeController.GetTemplates
+  isSpec: "True"
+  fullName: Oqtane.Controllers.ThemeController.GetTemplates
+  nameWithType: ThemeController.GetTemplates
 - uid: Oqtane.Controllers.ThemeController.InstallThemes
   name: InstallThemes()
   href: api/Oqtane.Controllers.ThemeController.html#Oqtane_Controllers_ThemeController_InstallThemes
@@ -2106,6 +2132,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.ThemeController.InstallThemes
   nameWithType: ThemeController.InstallThemes
+- uid: Oqtane.Controllers.ThemeController.Post(Oqtane.Models.Theme)
+  name: Post(Theme)
+  href: api/Oqtane.Controllers.ThemeController.html#Oqtane_Controllers_ThemeController_Post_Oqtane_Models_Theme_
+  commentId: M:Oqtane.Controllers.ThemeController.Post(Oqtane.Models.Theme)
+  fullName: Oqtane.Controllers.ThemeController.Post(Oqtane.Models.Theme)
+  nameWithType: ThemeController.Post(Theme)
+- uid: Oqtane.Controllers.ThemeController.Post*
+  name: Post
+  href: api/Oqtane.Controllers.ThemeController.html#Oqtane_Controllers_ThemeController_Post_
+  commentId: Overload:Oqtane.Controllers.ThemeController.Post
+  isSpec: "True"
+  fullName: Oqtane.Controllers.ThemeController.Post
+  nameWithType: ThemeController.Post
 - uid: Oqtane.Controllers.UserController
   name: UserController
   href: api/Oqtane.Controllers.UserController.html
@@ -2141,12 +2180,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.UserController.Authenticate
   nameWithType: UserController.Authenticate
-- uid: Oqtane.Controllers.UserController.Delete(System.Int32)
-  name: Delete(Int32)
-  href: api/Oqtane.Controllers.UserController.html#Oqtane_Controllers_UserController_Delete_System_Int32_
-  commentId: M:Oqtane.Controllers.UserController.Delete(System.Int32)
-  fullName: Oqtane.Controllers.UserController.Delete(System.Int32)
-  nameWithType: UserController.Delete(Int32)
+- uid: Oqtane.Controllers.UserController.Delete(System.Int32,System.String)
+  name: Delete(Int32, String)
+  href: api/Oqtane.Controllers.UserController.html#Oqtane_Controllers_UserController_Delete_System_Int32_System_String_
+  commentId: M:Oqtane.Controllers.UserController.Delete(System.Int32,System.String)
+  fullName: Oqtane.Controllers.UserController.Delete(System.Int32, System.String)
+  nameWithType: UserController.Delete(Int32, String)
 - uid: Oqtane.Controllers.UserController.Delete*
   name: Delete
   href: api/Oqtane.Controllers.UserController.html#Oqtane_Controllers_UserController_Delete_
@@ -2572,6 +2611,25 @@ references:
   isSpec: "True"
   fullName: Oqtane.Extensions.ApplicationBuilderExtensions.UseOqtaneLocalization
   nameWithType: ApplicationBuilderExtensions.UseOqtaneLocalization
+- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions
+  name: DbContextOptionsBuilderExtensions
+  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html
+  commentId: T:Oqtane.Extensions.DbContextOptionsBuilderExtensions
+  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions
+  nameWithType: DbContextOptionsBuilderExtensions
+- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseOqtaneDatabase(DbContextOptionsBuilder, String)
+  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
+  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase*
+  name: UseOqtaneDatabase
+  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_
+  commentId: Overload:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase
+  isSpec: "True"
+  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase
+  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase
 - uid: Oqtane.Extensions.MimeUtilities
   name: MimeUtilities
   href: api/Oqtane.Extensions.MimeUtilities.html
@@ -3382,19 +3440,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.LocalizationOptions.DefaultCulture
   nameWithType: LocalizationOptions.DefaultCulture
-- uid: Oqtane.Infrastructure.LocalizationOptions.SupportedCultures
-  name: SupportedCultures
-  href: api/Oqtane.Infrastructure.LocalizationOptions.html#Oqtane_Infrastructure_LocalizationOptions_SupportedCultures
-  commentId: P:Oqtane.Infrastructure.LocalizationOptions.SupportedCultures
-  fullName: Oqtane.Infrastructure.LocalizationOptions.SupportedCultures
-  nameWithType: LocalizationOptions.SupportedCultures
-- uid: Oqtane.Infrastructure.LocalizationOptions.SupportedCultures*
-  name: SupportedCultures
-  href: api/Oqtane.Infrastructure.LocalizationOptions.html#Oqtane_Infrastructure_LocalizationOptions_SupportedCultures_
-  commentId: Overload:Oqtane.Infrastructure.LocalizationOptions.SupportedCultures
-  isSpec: "True"
-  fullName: Oqtane.Infrastructure.LocalizationOptions.SupportedCultures
-  nameWithType: LocalizationOptions.SupportedCultures
 - uid: Oqtane.Infrastructure.LogManager
   name: LogManager
   href: api/Oqtane.Infrastructure.LogManager.html
@@ -3546,12 +3591,12 @@ references:
   commentId: T:Oqtane.Infrastructure.UpgradeManager
   fullName: Oqtane.Infrastructure.UpgradeManager
   nameWithType: UpgradeManager
-- uid: Oqtane.Infrastructure.UpgradeManager.#ctor(Oqtane.Repository.IAliasRepository,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
-  name: UpgradeManager(IAliasRepository, IServiceScopeFactory)
-  href: api/Oqtane.Infrastructure.UpgradeManager.html#Oqtane_Infrastructure_UpgradeManager__ctor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_
-  commentId: M:Oqtane.Infrastructure.UpgradeManager.#ctor(Oqtane.Repository.IAliasRepository,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
-  fullName: Oqtane.Infrastructure.UpgradeManager.UpgradeManager(Oqtane.Repository.IAliasRepository, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
-  nameWithType: UpgradeManager.UpgradeManager(IAliasRepository, IServiceScopeFactory)
+- uid: Oqtane.Infrastructure.UpgradeManager.#ctor(Oqtane.Repository.IAliasRepository,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: UpgradeManager(IAliasRepository, IServiceScopeFactory, IWebHostEnvironment)
+  href: api/Oqtane.Infrastructure.UpgradeManager.html#Oqtane_Infrastructure_UpgradeManager__ctor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:Oqtane.Infrastructure.UpgradeManager.#ctor(Oqtane.Repository.IAliasRepository,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: Oqtane.Infrastructure.UpgradeManager.UpgradeManager(Oqtane.Repository.IAliasRepository, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: UpgradeManager.UpgradeManager(IAliasRepository, IServiceScopeFactory, IWebHostEnvironment)
 - uid: Oqtane.Infrastructure.UpgradeManager.#ctor*
   name: UpgradeManager
   href: api/Oqtane.Infrastructure.UpgradeManager.html#Oqtane_Infrastructure_UpgradeManager__ctor_
@@ -5715,6 +5760,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.ModuleDefinition.ServerManagerType
   nameWithType: ModuleDefinition.ServerManagerType
+- uid: Oqtane.Models.ModuleDefinition.SettingsType
+  name: SettingsType
+  href: api/Oqtane.Models.ModuleDefinition.html#Oqtane_Models_ModuleDefinition_SettingsType
+  commentId: P:Oqtane.Models.ModuleDefinition.SettingsType
+  fullName: Oqtane.Models.ModuleDefinition.SettingsType
+  nameWithType: ModuleDefinition.SettingsType
+- uid: Oqtane.Models.ModuleDefinition.SettingsType*
+  name: SettingsType
+  href: api/Oqtane.Models.ModuleDefinition.html#Oqtane_Models_ModuleDefinition_SettingsType_
+  commentId: Overload:Oqtane.Models.ModuleDefinition.SettingsType
+  isSpec: "True"
+  fullName: Oqtane.Models.ModuleDefinition.SettingsType
+  nameWithType: ModuleDefinition.SettingsType
 - uid: Oqtane.Models.ModuleDefinition.SiteId
   name: SiteId
   href: api/Oqtane.Models.ModuleDefinition.html#Oqtane_Models_ModuleDefinition_SiteId
@@ -6424,6 +6482,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Page.Resources
   nameWithType: Page.Resources
+- uid: Oqtane.Models.Page.Settings
+  name: Settings
+  href: api/Oqtane.Models.Page.html#Oqtane_Models_Page_Settings
+  commentId: P:Oqtane.Models.Page.Settings
+  fullName: Oqtane.Models.Page.Settings
+  nameWithType: Page.Settings
+- uid: Oqtane.Models.Page.Settings*
+  name: Settings
+  href: api/Oqtane.Models.Page.html#Oqtane_Models_Page_Settings_
+  commentId: Overload:Oqtane.Models.Page.Settings
+  isSpec: "True"
+  fullName: Oqtane.Models.Page.Settings
+  nameWithType: Page.Settings
 - uid: Oqtane.Models.Page.SiteId
   name: SiteId
   href: api/Oqtane.Models.Page.html#Oqtane_Models_Page_SiteId
@@ -7926,6 +7997,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Site.PwaSplashIconFileId
   nameWithType: Site.PwaSplashIconFileId
+- uid: Oqtane.Models.Site.SiteGuid
+  name: SiteGuid
+  href: api/Oqtane.Models.Site.html#Oqtane_Models_Site_SiteGuid
+  commentId: P:Oqtane.Models.Site.SiteGuid
+  fullName: Oqtane.Models.Site.SiteGuid
+  nameWithType: Site.SiteGuid
+- uid: Oqtane.Models.Site.SiteGuid*
+  name: SiteGuid
+  href: api/Oqtane.Models.Site.html#Oqtane_Models_Site_SiteGuid_
+  commentId: Overload:Oqtane.Models.Site.SiteGuid
+  isSpec: "True"
+  fullName: Oqtane.Models.Site.SiteGuid
+  nameWithType: Site.SiteGuid
 - uid: Oqtane.Models.Site.SiteId
   name: SiteId
   href: api/Oqtane.Models.Site.html#Oqtane_Models_Site_SiteId
@@ -8281,6 +8365,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Theme.Containers
   nameWithType: Theme.Containers
+- uid: Oqtane.Models.Theme.ContainerSettingsType
+  name: ContainerSettingsType
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_ContainerSettingsType
+  commentId: P:Oqtane.Models.Theme.ContainerSettingsType
+  fullName: Oqtane.Models.Theme.ContainerSettingsType
+  nameWithType: Theme.ContainerSettingsType
+- uid: Oqtane.Models.Theme.ContainerSettingsType*
+  name: ContainerSettingsType
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_ContainerSettingsType_
+  commentId: Overload:Oqtane.Models.Theme.ContainerSettingsType
+  isSpec: "True"
+  fullName: Oqtane.Models.Theme.ContainerSettingsType
+  nameWithType: Theme.ContainerSettingsType
 - uid: Oqtane.Models.Theme.Dependencies
   name: Dependencies
   href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_Dependencies
@@ -8359,6 +8456,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Theme.PaneLayouts
   nameWithType: Theme.PaneLayouts
+- uid: Oqtane.Models.Theme.Template
+  name: Template
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_Template
+  commentId: P:Oqtane.Models.Theme.Template
+  fullName: Oqtane.Models.Theme.Template
+  nameWithType: Theme.Template
+- uid: Oqtane.Models.Theme.Template*
+  name: Template
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_Template_
+  commentId: Overload:Oqtane.Models.Theme.Template
+  isSpec: "True"
+  fullName: Oqtane.Models.Theme.Template
+  nameWithType: Theme.Template
 - uid: Oqtane.Models.Theme.ThemeControls
   name: ThemeControls
   href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_ThemeControls
@@ -8398,6 +8508,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Theme.Themes
   nameWithType: Theme.Themes
+- uid: Oqtane.Models.Theme.ThemeSettingsType
+  name: ThemeSettingsType
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_ThemeSettingsType
+  commentId: P:Oqtane.Models.Theme.ThemeSettingsType
+  fullName: Oqtane.Models.Theme.ThemeSettingsType
+  nameWithType: Theme.ThemeSettingsType
+- uid: Oqtane.Models.Theme.ThemeSettingsType*
+  name: ThemeSettingsType
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_ThemeSettingsType_
+  commentId: Overload:Oqtane.Models.Theme.ThemeSettingsType
+  isSpec: "True"
+  fullName: Oqtane.Models.Theme.ThemeSettingsType
+  nameWithType: Theme.ThemeSettingsType
 - uid: Oqtane.Models.Theme.Url
   name: Url
   href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_Url
@@ -10379,6 +10502,12 @@ references:
   commentId: F:Oqtane.Pages.HostModel.HeadResources
   fullName: Oqtane.Pages.HostModel.HeadResources
   nameWithType: HostModel.HeadResources
+- uid: Oqtane.Pages.HostModel.Message
+  name: Message
+  href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel_Message
+  commentId: F:Oqtane.Pages.HostModel.Message
+  fullName: Oqtane.Pages.HostModel.Message
+  nameWithType: HostModel.Message
 - uid: Oqtane.Pages.HostModel.OnGet
   name: OnGet()
   href: api/Oqtane.Pages.HostModel.html#Oqtane_Pages_HostModel_OnGet
@@ -10638,6 +10767,25 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.DBContextBase.SaveChanges
   nameWithType: DBContextBase.SaveChanges
+- uid: Oqtane.Repository.DbContextUtils
+  name: DbContextUtils
+  href: api/Oqtane.Repository.DbContextUtils.html
+  commentId: T:Oqtane.Repository.DbContextUtils
+  fullName: Oqtane.Repository.DbContextUtils
+  nameWithType: DbContextUtils
+- uid: Oqtane.Repository.DbContextUtils.SaveChanges(Microsoft.EntityFrameworkCore.DbContext,Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  name: SaveChanges(DbContext, IHttpContextAccessor)
+  href: api/Oqtane.Repository.DbContextUtils.html#Oqtane_Repository_DbContextUtils_SaveChanges_Microsoft_EntityFrameworkCore_DbContext_Microsoft_AspNetCore_Http_IHttpContextAccessor_
+  commentId: M:Oqtane.Repository.DbContextUtils.SaveChanges(Microsoft.EntityFrameworkCore.DbContext,Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  fullName: Oqtane.Repository.DbContextUtils.SaveChanges(Microsoft.EntityFrameworkCore.DbContext, Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  nameWithType: DbContextUtils.SaveChanges(DbContext, IHttpContextAccessor)
+- uid: Oqtane.Repository.DbContextUtils.SaveChanges*
+  name: SaveChanges
+  href: api/Oqtane.Repository.DbContextUtils.html#Oqtane_Repository_DbContextUtils_SaveChanges_
+  commentId: Overload:Oqtane.Repository.DbContextUtils.SaveChanges
+  isSpec: "True"
+  fullName: Oqtane.Repository.DbContextUtils.SaveChanges
+  nameWithType: DbContextUtils.SaveChanges
 - uid: Oqtane.Repository.FileRepository
   name: FileRepository
   href: api/Oqtane.Repository.FileRepository.html
@@ -16188,6 +16336,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionsAsync
   nameWithType: IModuleDefinitionService.GetModuleDefinitionsAsync
+- uid: Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  name: GetModuleDefinitionTemplatesAsync()
+  href: api/Oqtane.Services.IModuleDefinitionService.html#Oqtane_Services_IModuleDefinitionService_GetModuleDefinitionTemplatesAsync
+  commentId: M:Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  fullName: Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionTemplatesAsync()
+  nameWithType: IModuleDefinitionService.GetModuleDefinitionTemplatesAsync()
+- uid: Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionTemplatesAsync*
+  name: GetModuleDefinitionTemplatesAsync
+  href: api/Oqtane.Services.IModuleDefinitionService.html#Oqtane_Services_IModuleDefinitionService_GetModuleDefinitionTemplatesAsync_
+  commentId: Overload:Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.IModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  nameWithType: IModuleDefinitionService.GetModuleDefinitionTemplatesAsync
 - uid: Oqtane.Services.IModuleDefinitionService.InstallModuleDefinitionsAsync
   name: InstallModuleDefinitionsAsync()
   href: api/Oqtane.Services.IModuleDefinitionService.html#Oqtane_Services_IModuleDefinitionService_InstallModuleDefinitionsAsync
@@ -17349,6 +17510,19 @@ references:
   commentId: T:Oqtane.Services.IThemeService
   fullName: Oqtane.Services.IThemeService
   nameWithType: IThemeService
+- uid: Oqtane.Services.IThemeService.CreateThemeAsync(Oqtane.Models.Theme)
+  name: CreateThemeAsync(Theme)
+  href: api/Oqtane.Services.IThemeService.html#Oqtane_Services_IThemeService_CreateThemeAsync_Oqtane_Models_Theme_
+  commentId: M:Oqtane.Services.IThemeService.CreateThemeAsync(Oqtane.Models.Theme)
+  fullName: Oqtane.Services.IThemeService.CreateThemeAsync(Oqtane.Models.Theme)
+  nameWithType: IThemeService.CreateThemeAsync(Theme)
+- uid: Oqtane.Services.IThemeService.CreateThemeAsync*
+  name: CreateThemeAsync
+  href: api/Oqtane.Services.IThemeService.html#Oqtane_Services_IThemeService_CreateThemeAsync_
+  commentId: Overload:Oqtane.Services.IThemeService.CreateThemeAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.IThemeService.CreateThemeAsync
+  nameWithType: IThemeService.CreateThemeAsync
 - uid: Oqtane.Services.IThemeService.DeleteThemeAsync(System.String)
   name: DeleteThemeAsync(String)
   href: api/Oqtane.Services.IThemeService.html#Oqtane_Services_IThemeService_DeleteThemeAsync_System_String_
@@ -17423,6 +17597,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.IThemeService.GetThemesAsync
   nameWithType: IThemeService.GetThemesAsync
+- uid: Oqtane.Services.IThemeService.GetThemeTemplatesAsync
+  name: GetThemeTemplatesAsync()
+  href: api/Oqtane.Services.IThemeService.html#Oqtane_Services_IThemeService_GetThemeTemplatesAsync
+  commentId: M:Oqtane.Services.IThemeService.GetThemeTemplatesAsync
+  fullName: Oqtane.Services.IThemeService.GetThemeTemplatesAsync()
+  nameWithType: IThemeService.GetThemeTemplatesAsync()
+- uid: Oqtane.Services.IThemeService.GetThemeTemplatesAsync*
+  name: GetThemeTemplatesAsync
+  href: api/Oqtane.Services.IThemeService.html#Oqtane_Services_IThemeService_GetThemeTemplatesAsync_
+  commentId: Overload:Oqtane.Services.IThemeService.GetThemeTemplatesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.IThemeService.GetThemeTemplatesAsync
+  nameWithType: IThemeService.GetThemeTemplatesAsync
 - uid: Oqtane.Services.IThemeService.InstallThemesAsync
   name: InstallThemesAsync()
   href: api/Oqtane.Services.IThemeService.html#Oqtane_Services_IThemeService_InstallThemesAsync
@@ -17526,12 +17713,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.IUserService.AddUserAsync
   nameWithType: IUserService.AddUserAsync
-- uid: Oqtane.Services.IUserService.DeleteUserAsync(System.Int32)
-  name: DeleteUserAsync(Int32)
-  href: api/Oqtane.Services.IUserService.html#Oqtane_Services_IUserService_DeleteUserAsync_System_Int32_
-  commentId: M:Oqtane.Services.IUserService.DeleteUserAsync(System.Int32)
-  fullName: Oqtane.Services.IUserService.DeleteUserAsync(System.Int32)
-  nameWithType: IUserService.DeleteUserAsync(Int32)
+- uid: Oqtane.Services.IUserService.DeleteUserAsync(System.Int32,System.Int32)
+  name: DeleteUserAsync(Int32, Int32)
+  href: api/Oqtane.Services.IUserService.html#Oqtane_Services_IUserService_DeleteUserAsync_System_Int32_System_Int32_
+  commentId: M:Oqtane.Services.IUserService.DeleteUserAsync(System.Int32,System.Int32)
+  fullName: Oqtane.Services.IUserService.DeleteUserAsync(System.Int32, System.Int32)
+  nameWithType: IUserService.DeleteUserAsync(Int32, Int32)
 - uid: Oqtane.Services.IUserService.DeleteUserAsync*
   name: DeleteUserAsync
   href: api/Oqtane.Services.IUserService.html#Oqtane_Services_IUserService_DeleteUserAsync_
@@ -18074,6 +18261,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionsAsync
   nameWithType: ModuleDefinitionService.GetModuleDefinitionsAsync
+- uid: Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  name: GetModuleDefinitionTemplatesAsync()
+  href: api/Oqtane.Services.ModuleDefinitionService.html#Oqtane_Services_ModuleDefinitionService_GetModuleDefinitionTemplatesAsync
+  commentId: M:Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  fullName: Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionTemplatesAsync()
+  nameWithType: ModuleDefinitionService.GetModuleDefinitionTemplatesAsync()
+- uid: Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionTemplatesAsync*
+  name: GetModuleDefinitionTemplatesAsync
+  href: api/Oqtane.Services.ModuleDefinitionService.html#Oqtane_Services_ModuleDefinitionService_GetModuleDefinitionTemplatesAsync_
+  commentId: Overload:Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ModuleDefinitionService.GetModuleDefinitionTemplatesAsync
+  nameWithType: ModuleDefinitionService.GetModuleDefinitionTemplatesAsync
 - uid: Oqtane.Services.ModuleDefinitionService.InstallModuleDefinitionsAsync
   name: InstallModuleDefinitionsAsync()
   href: api/Oqtane.Services.ModuleDefinitionService.html#Oqtane_Services_ModuleDefinitionService_InstallModuleDefinitionsAsync
@@ -19560,6 +19760,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.ThemeService.ThemeService
   nameWithType: ThemeService.ThemeService
+- uid: Oqtane.Services.ThemeService.CreateThemeAsync(Oqtane.Models.Theme)
+  name: CreateThemeAsync(Theme)
+  href: api/Oqtane.Services.ThemeService.html#Oqtane_Services_ThemeService_CreateThemeAsync_Oqtane_Models_Theme_
+  commentId: M:Oqtane.Services.ThemeService.CreateThemeAsync(Oqtane.Models.Theme)
+  fullName: Oqtane.Services.ThemeService.CreateThemeAsync(Oqtane.Models.Theme)
+  nameWithType: ThemeService.CreateThemeAsync(Theme)
+- uid: Oqtane.Services.ThemeService.CreateThemeAsync*
+  name: CreateThemeAsync
+  href: api/Oqtane.Services.ThemeService.html#Oqtane_Services_ThemeService_CreateThemeAsync_
+  commentId: Overload:Oqtane.Services.ThemeService.CreateThemeAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ThemeService.CreateThemeAsync
+  nameWithType: ThemeService.CreateThemeAsync
 - uid: Oqtane.Services.ThemeService.DeleteThemeAsync(System.String)
   name: DeleteThemeAsync(String)
   href: api/Oqtane.Services.ThemeService.html#Oqtane_Services_ThemeService_DeleteThemeAsync_System_String_
@@ -19634,6 +19847,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.ThemeService.GetThemesAsync
   nameWithType: ThemeService.GetThemesAsync
+- uid: Oqtane.Services.ThemeService.GetThemeTemplatesAsync
+  name: GetThemeTemplatesAsync()
+  href: api/Oqtane.Services.ThemeService.html#Oqtane_Services_ThemeService_GetThemeTemplatesAsync
+  commentId: M:Oqtane.Services.ThemeService.GetThemeTemplatesAsync
+  fullName: Oqtane.Services.ThemeService.GetThemeTemplatesAsync()
+  nameWithType: ThemeService.GetThemeTemplatesAsync()
+- uid: Oqtane.Services.ThemeService.GetThemeTemplatesAsync*
+  name: GetThemeTemplatesAsync
+  href: api/Oqtane.Services.ThemeService.html#Oqtane_Services_ThemeService_GetThemeTemplatesAsync_
+  commentId: Overload:Oqtane.Services.ThemeService.GetThemeTemplatesAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ThemeService.GetThemeTemplatesAsync
+  nameWithType: ThemeService.GetThemeTemplatesAsync
 - uid: Oqtane.Services.ThemeService.InstallThemesAsync
   name: InstallThemesAsync()
   href: api/Oqtane.Services.ThemeService.html#Oqtane_Services_ThemeService_InstallThemesAsync
@@ -19763,12 +19989,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.UserService.AddUserAsync
   nameWithType: UserService.AddUserAsync
-- uid: Oqtane.Services.UserService.DeleteUserAsync(System.Int32)
-  name: DeleteUserAsync(Int32)
-  href: api/Oqtane.Services.UserService.html#Oqtane_Services_UserService_DeleteUserAsync_System_Int32_
-  commentId: M:Oqtane.Services.UserService.DeleteUserAsync(System.Int32)
-  fullName: Oqtane.Services.UserService.DeleteUserAsync(System.Int32)
-  nameWithType: UserService.DeleteUserAsync(Int32)
+- uid: Oqtane.Services.UserService.DeleteUserAsync(System.Int32,System.Int32)
+  name: DeleteUserAsync(Int32, Int32)
+  href: api/Oqtane.Services.UserService.html#Oqtane_Services_UserService_DeleteUserAsync_System_Int32_System_Int32_
+  commentId: M:Oqtane.Services.UserService.DeleteUserAsync(System.Int32,System.Int32)
+  fullName: Oqtane.Services.UserService.DeleteUserAsync(System.Int32, System.Int32)
+  nameWithType: UserService.DeleteUserAsync(Int32, Int32)
 - uid: Oqtane.Services.UserService.DeleteUserAsync*
   name: DeleteUserAsync
   href: api/Oqtane.Services.UserService.html#Oqtane_Services_UserService_DeleteUserAsync_
@@ -21569,19 +21795,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Shared.InstallConfig.DefaultContainer
   nameWithType: InstallConfig.DefaultContainer
-- uid: Oqtane.Shared.InstallConfig.DefaultLayout
-  name: DefaultLayout
-  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DefaultLayout
-  commentId: P:Oqtane.Shared.InstallConfig.DefaultLayout
-  fullName: Oqtane.Shared.InstallConfig.DefaultLayout
-  nameWithType: InstallConfig.DefaultLayout
-- uid: Oqtane.Shared.InstallConfig.DefaultLayout*
-  name: DefaultLayout
-  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DefaultLayout_
-  commentId: Overload:Oqtane.Shared.InstallConfig.DefaultLayout
-  isSpec: "True"
-  fullName: Oqtane.Shared.InstallConfig.DefaultLayout
-  nameWithType: InstallConfig.DefaultLayout
 - uid: Oqtane.Shared.InstallConfig.DefaultTheme
   name: DefaultTheme
   href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DefaultTheme
@@ -22480,12 +22693,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Startup.Configuration
   nameWithType: Startup.Configuration
-- uid: Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
-  name: Configure(IApplicationBuilder, IWebHostEnvironment)
-  href: api/Oqtane.Startup.html#Oqtane_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
-  commentId: M:Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
-  fullName: Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
-  nameWithType: Startup.Configure(IApplicationBuilder, IWebHostEnvironment)
+- uid: Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ISyncManager)
+  name: Configure(IApplicationBuilder, IWebHostEnvironment, ISyncManager)
+  href: api/Oqtane.Startup.html#Oqtane_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ISyncManager_
+  commentId: M:Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ISyncManager)
+  fullName: Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Oqtane.Infrastructure.ISyncManager)
+  nameWithType: Startup.Configure(IApplicationBuilder, IWebHostEnvironment, ISyncManager)
 - uid: Oqtane.Startup.Configure*
   name: Configure
   href: api/Oqtane.Startup.html#Oqtane_Startup_Configure_
@@ -23201,6 +23414,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.UI.Interop.Interop
   nameWithType: Interop.Interop
+- uid: Oqtane.UI.Interop.FormValid(Microsoft.AspNetCore.Components.ElementReference)
+  name: FormValid(ElementReference)
+  href: api/Oqtane.UI.Interop.html#Oqtane_UI_Interop_FormValid_Microsoft_AspNetCore_Components_ElementReference_
+  commentId: M:Oqtane.UI.Interop.FormValid(Microsoft.AspNetCore.Components.ElementReference)
+  fullName: Oqtane.UI.Interop.FormValid(Microsoft.AspNetCore.Components.ElementReference)
+  nameWithType: Interop.FormValid(ElementReference)
+- uid: Oqtane.UI.Interop.FormValid*
+  name: FormValid
+  href: api/Oqtane.UI.Interop.html#Oqtane_UI_Interop_FormValid_
+  commentId: Overload:Oqtane.UI.Interop.FormValid
+  isSpec: "True"
+  fullName: Oqtane.UI.Interop.FormValid
+  nameWithType: Interop.FormValid
 - uid: Oqtane.UI.Interop.GetCookie(System.String)
   name: GetCookie(String)
   href: api/Oqtane.UI.Interop.html#Oqtane_UI_Interop_GetCookie_System_String_
