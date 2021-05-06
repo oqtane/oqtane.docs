@@ -1,10 +1,31 @@
 
-- name: Introduction
+- name: User Documentation
   href: index.md
-# - name: Concepts
-#   href: concepts/toc.yml
-#   homepage: concepts/  
-# - name: Documentation
+
+- name: Site Administration
+  href: SiteAdministration/toc.yml
+  homepage: SiteAdministration/
+
+- name: Installation
+  href: Installation/toc.yml
+  homepage: Installation/
+
+- name: Modules
+  href: Modules/toc.yml
+  homepage: Modules/
+
+- name: Host Administration
+  href: HostAdministration/toc.yml
+  homepage: HostAdministration/
+
+- name: Admin Dashboard
+  href: AdminDashboard/toc.yml
+  homepage: AdminDashboard/
+
+- name: Control Panel
+  href: ControlPanel/toc.yml
+  homepage: ControlPanel/
+
 #   # topicUid: Article.Docs.Index
 #   href: documentation/toc.yml
 #   homepage: documentation/

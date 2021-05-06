@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <!-- Google Tag Manager - disabled temporarily, until we have the GTM code -->
+    <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TODO-TODO-TODO');</script>-->
+    <!-- End Google Tag Manager -->
+    <!-- azing recipe embed resizer -->
+    <script src="https://cdn.azing.org/e/1/embed.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Site Settings | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Site Settings | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../../layout/images/favicon.png">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../../articles/index.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../../admin/index.html" title="Administration">Administration</a>
+                      </li>
+                      <li>
+                          <a href="../../api/index.html" title="API Documentation">API Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="site-settings">Site Settings</h1>
+
+<p>The Site Settings feature contains a large number of settings that you canuse to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages.The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.</p>
+<h3 id="basic-settings">Basic Settings</h3>
+<p>Basic Settings mostly contains set-it-and-forget it options that should be managed once when you build your site.</p>
+<ul>
+<li>Name: What you want to call the website.</li>
+<li>Tenant: The name of the database you wan the site to use.</li>
+<li>Aliases: The name that will appear for the sites URL.</li>
+<li>Logo: The logo that will appear in the navigation bar.</li>
+<li>Favicon: Enter a favicon address or another icon address to have a default icon to appear beside each page in the navigation bar.</li>
+<li>Default Theme: Choose a default theme tht will give a different color scheme and structure.</li>
+<li>Default Layout: Choose how many columns a page has by default.
+<img src="site-settings-1.png" alt="site-settingss1"></li>
+<li>Default Container: Choose if you want titles to appear about each module by default.</li>
+<li>Allow User Registration: Should users be able to create their own accounts or should only administrators be able to create accounts.</li>
+<li>Is Deleted: Select whether you want to delete this site.
+<img src="site-settings-2.png" alt="site-settings-2"></li>
+</ul>
+<h3 id="smtp-server-secure-mail-transfer-protocol">SMTP Server (Secure Mail Transfer Protocol)</h3>
+<p>The Oqtane instance sends outbound email for a variety of reasons, from the host or site admin or in the form of password reminders, event notifications, newsletters, or other business-specific use cases. A valid SMTP server is required for this to work; you should consult your network administrator for the appropriate credentials to use in a production configuration. Most non-Exchange Server SMTP hosts will require “Basic” authentication and a valid username/password combination. Some will also require that SSL be enabled.</p>
+<ul>
+<li>Host: Enter the host name for the server.</li>
+<li>Port: Enter the port number that the server is on.</li>
+<li>SSL Enabled: Specify yes or no if the SMTP server has an SSL certificate.</li>
+<li>Username: Enter the username for the SMTP server you are accessing.</li>
+<li>Password: Enter the password for the SMTP server you are accessing.
+<img src="smtp-settings.png" alt="smtp-settings"></li>
+</ul>
+<h3 id="progressive-web-application-settings">Progressive Web Application Settings</h3>
+<ul>
+<li>Is Enabled: Choose whether or not you want the site to be set up as a progressive web application.</li>
+<li>App Icon: Select a PNG image that is 192 X 192 pixels which will be the app icon for your application.</li>
+<li>Splash Icon: Select a PNG image that is 512 X 512 pixels which will appear on the screen while the application is loading.
+<img src="pwa-settings.png" alt="pwa-settings"></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gjwalk/oqtane.docs/blob/master/Oqtane.Docs/admin/AdminDashboard/site-settings.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

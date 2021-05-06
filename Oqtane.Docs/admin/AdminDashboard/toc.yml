@@ -1,0 +1,23 @@
+- name: Admin Dashboard
+  href: index.md
+
+- name: Site Settings
+  href: site-settings.md
+
+- name: Page Management
+  href: page-management.md
+
+- name: User Management
+  href: user-management.md
+
+- name: Profile Management
+  href: profile-management.md
+
+- name: Role Management
+  href: role-management.md
+
+- name: File Management
+  href: file-management.md
+
+- name: Recycle Bin
+  href: recycle-bin.md

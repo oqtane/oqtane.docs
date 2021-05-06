@@ -2917,18 +2917,12 @@ references:
   commentId: T:Oqtane.Extensions.DbContextOptionsBuilderExtensions
   fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions
   nameWithType: DbContextOptionsBuilderExtensions
-- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,Oqtane.Interfaces.IOqtaneDatabase,System.String)
-  name: UseOqtaneDatabase(DbContextOptionsBuilder, IOqtaneDatabase, String)
-  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_Oqtane_Interfaces_IOqtaneDatabase_System_String_
-  commentId: M:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,Oqtane.Interfaces.IOqtaneDatabase,System.String)
-  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, Oqtane.Interfaces.IOqtaneDatabase, System.String)
-  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase(DbContextOptionsBuilder, IOqtaneDatabase, String)
-- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String,System.String)
-  name: UseOqtaneDatabase(DbContextOptionsBuilder, String, String)
-  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_System_String_
-  commentId: M:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String,System.String)
-  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String, System.String)
-  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase(DbContextOptionsBuilder, String, String)
+- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseOqtaneDatabase(DbContextOptionsBuilder, String)
+  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
+  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase(DbContextOptionsBuilder, String)
 - uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase*
   name: UseOqtaneDatabase
   href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_
@@ -8310,18 +8304,24 @@ references:
   href: api/Oqtane.Migrations.EntityBuilders.UserEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserEntityBuilder_LastLoginOn_
   commentId: Overload:Oqtane.Migrations.EntityBuilders.UserEntityBuilder.LastLoginOn
   isSpec: "True"
-  fullName: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.LastLoginOn
-  nameWithType: UserEntityBuilder.LastLoginOn
-- uid: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.PhotoFileId
-  name: PhotoFileId
-  href: api/Oqtane.Migrations.EntityBuilders.UserEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserEntityBuilder_PhotoFileId
-  commentId: P:Oqtane.Migrations.EntityBuilders.UserEntityBuilder.PhotoFileId
-  fullName: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.PhotoFileId
-  nameWithType: UserEntityBuilder.PhotoFileId
-- uid: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.PhotoFileId*
-  name: PhotoFileId
-  href: api/Oqtane.Migrations.EntityBuilders.UserEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserEntityBuilder_PhotoFileId_
-  commentId: Overload:Oqtane.Migrations.EntityBuilders.UserEntityBuilder.PhotoFileId
+  fullName: Oqtane.Infrastructure.SyncManager.GetSyncEvents
+  nameWithType: SyncManager.GetSyncEvents
+- uid: Oqtane.Infrastructure.UpgradeManager
+  name: UpgradeManager
+  href: api/Oqtane.Infrastructure.UpgradeManager.html
+  commentId: T:Oqtane.Infrastructure.UpgradeManager
+  fullName: Oqtane.Infrastructure.UpgradeManager
+  nameWithType: UpgradeManager
+- uid: Oqtane.Infrastructure.UpgradeManager.#ctor(Oqtane.Repository.IAliasRepository,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: UpgradeManager(IAliasRepository, IServiceScopeFactory, IWebHostEnvironment)
+  href: api/Oqtane.Infrastructure.UpgradeManager.html#Oqtane_Infrastructure_UpgradeManager__ctor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:Oqtane.Infrastructure.UpgradeManager.#ctor(Oqtane.Repository.IAliasRepository,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: Oqtane.Infrastructure.UpgradeManager.UpgradeManager(Oqtane.Repository.IAliasRepository, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: UpgradeManager.UpgradeManager(IAliasRepository, IServiceScopeFactory, IWebHostEnvironment)
+- uid: Oqtane.Infrastructure.UpgradeManager.#ctor*
+  name: UpgradeManager
+  href: api/Oqtane.Infrastructure.UpgradeManager.html#Oqtane_Infrastructure_UpgradeManager__ctor_
+  commentId: Overload:Oqtane.Infrastructure.UpgradeManager.#ctor
   isSpec: "True"
   fullName: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.PhotoFileId
   nameWithType: UserEntityBuilder.PhotoFileId
