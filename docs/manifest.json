@@ -13,12 +13,390 @@
       "is_incremental": false
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/file-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/file-management.html",
+          "hash": "hlwXW2j4EyxdcHQSz3YDQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/index.html",
+          "hash": "zWwn4+X878kYOpEHrFA3aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/page-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/page-management.html",
+          "hash": "9J03jgM84dgk7/YvSQh6bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/profile-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/profile-management.html",
+          "hash": "KRhYGXlE1DdP/w5gf/BUOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/recycle-bin.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/recycle-bin.html",
+          "hash": "VEM2nww2QIBQG61TqedAFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/role-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/role-management.html",
+          "hash": "zF0ulG/Obapfw1Bkjgop6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/site-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/site-settings.html",
+          "hash": "0eyiMH43YREdWgZVEvltOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/AdminDashboard/user-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/AdminDashboard/user-management.html",
+          "hash": "OawOmkVrWEfCFXyxz6aGrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/ControlPanel/control-page.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/ControlPanel/control-page.html",
+          "hash": "cpXOVaYA8jEl8H37C4iymw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/ControlPanel/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/ControlPanel/index.html",
+          "hash": "R4PPyxbPYiF+oS9a5fz6Hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/ControlPanel/modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/ControlPanel/modules.html",
+          "hash": "X/RaKntxDxdJFWptbuguMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/event-log.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/event-log.html",
+          "hash": "Ex4Cli2VfjavCE8nRT5pqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/index.html",
+          "hash": "Wj2AIKETFKSVzuUH+GhxzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/module-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/module-management.html",
+          "hash": "A28JemsOvCo2Gnm0UO+0UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/scheduled-jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/scheduled-jobs.html",
+          "hash": "fD4i/N4QHpzAcKGUZRNoFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/site-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/site-management.html",
+          "hash": "S0v2iS814F+4v7luM5u3eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/sql-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/sql-management.html",
+          "hash": "SNdA/USROM84sP/AvVVHmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/system-info.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/system-info.html",
+          "hash": "bB/20lk7zX3q3PFFE599JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/system-update.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/system-update.html",
+          "hash": "Z/nm277FLC4FoTAF0n9YZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/HostAdministration/theme-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/HostAdministration/theme-management.html",
+          "hash": "6afC6nj+w0XQQjwJ2tS+ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/Installation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/Installation/index.html",
+          "hash": "q/CoulWachkc5IoWXjwm6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/Modules/adding-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/Modules/adding-modules.html",
+          "hash": "GRvmfMoeeEDydoRneBE/UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/Modules/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/Modules/index.html",
+          "hash": "yVsC25bS/lI4hFt5mumK0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/Modules/working-with-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/Modules/working-with-modules.html",
+          "hash": "GoKMqM7oRewv8cHGRY0Kgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/SiteAdministration/content-editor.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/SiteAdministration/content-editor.html",
+          "hash": "aVdVGo3zWtlMz/lSeuitVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/SiteAdministration/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/SiteAdministration/index.html",
+          "hash": "nelpEHZIQPHq9FyjNIfC4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/index.md",
       "output": {
         ".html": {
           "relative_path": "admin/index.html",
-          "hash": "uf8+YiC2pzaoi6HvfqdseA=="
+          "hash": "/F0ac17lJJl5mh9EHzR+4g=="
         }
       },
       "is_incremental": false,
@@ -30,7 +408,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/toc.html",
-          "hash": "o9UoFLr9Q97cgMVqvY1TMA=="
+          "hash": "fpbDErFR3MD12+a5pHZ//w=="
         }
       },
       "is_incremental": false,
@@ -5040,7 +5418,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 16,
+          "total_file_count": 42,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
