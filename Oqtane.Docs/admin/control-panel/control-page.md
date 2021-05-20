@@ -2,7 +2,8 @@
 
 The page management feature allows you to manipulate the page you are currently on, by providing options for adding, editing, deleting, and publishing pages.
 This feature also has many of the same capabilities as the admin dashboard's [Page Management feature](../admin-dashboard/page-management.md), with the only difference being that the control panel's page manager only has the ability to change the page you are currently on. 
-![page-management](page-management.png)
+
+![page-management](./assets/page-management.png)
 
 ### Add
 
@@ -16,7 +17,8 @@ The fields which exist in the page management window are the:
 >Navigation: Say whether you want the page to be displayed to users that fit within the permissions, or if you want the page to be hidden to everyone but administrators which can be useful while editing a page.
 >URL Path: The url is what is put in the web page's address, for example if the url path is set to page1 then the address might be www.website/page1.com. If no URL path is specified then the URL will by default be set to be the same as the name field above.
 >Redirect: Input a URL that is the same as the URL path of another page in the site that user will be sent to, remember that if no URL path is specified for another page then the name will be used. If this feature is implemented then you will not be able stay on the page to use the control panel's page manager, so you will need to use the admin dashboard's [page management feature](../admin-dashboard/page-management.md) to edit or delete page's with this feature.
-![add-page](add-page.png)
+
+![add-page](./assets/add-page.png)
 
 >#### Appearance
 >Title: The name that is displayed on the web page's tab.
@@ -25,13 +27,15 @@ The fields which exist in the page management window are the:
 >Default Container: Choose the layout of modules for the page, like hw the titles typically displayed above the modules will be.
 >Icon: Input a favicon address or other icon address to include an icon beside the name of your page.
 >Personalizable: This feature gives a page that is unique to every individual and allows them to add modules and edit the content of the page, so only the individual can see what they put onto the page.
-![page-appearance](page-appearance.png)
+
+![page-appearance](./assets/page-appearance.png)
 
 >#### Permissions
 >View: This is what allows different users to see certain pages and any users that are within certain roles, that can be specified in the admin dashboard's [role management feature](../admin-dashboard/role-management.md) will be able to see or not see the page depending on what you have checked the box for the role they fit into.
 >Edit: This allows users that fit into the specified roles to be able to edit pages using the [content editor](../SiteAdministration/content-editor.md).
 >Specific Users: The permissions tab also has the ability for you to enter a specific username and allow for you to set custom permissions for any specific users that you want.
-![permissions](permissions.png)
+
+![permissions](./assets/permissions.png)
 
 ### Edit
 

@@ -14,114 +14,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "admin/ControlPanel/add-page.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/ControlPanel/add-page.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/ControlPanel/control-page.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/ControlPanel/control-page.html",
-          "hash": "VdlQvyDkYRM/wBIRuMae1A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/ControlPanel/control-panel-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/ControlPanel/control-panel-modules.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/ControlPanel/control-panel.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/ControlPanel/control-panel.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/ControlPanel/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/ControlPanel/index.html",
-          "hash": "OpqS2Cy6gCwX/Dvop+Z3Uw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/ControlPanel/modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/ControlPanel/modules.html",
-          "hash": "OQL34Jb8Q0HseBNutdMt+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/ControlPanel/page-appearance.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/ControlPanel/page-appearance.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/ControlPanel/page-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/ControlPanel/page-management.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/ControlPanel/permissions.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "admin/ControlPanel/permissions.PNG"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "admin/HostAdministration/edit-jobs.png",
       "output": {
         "resource": {
@@ -171,7 +63,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/HostAdministration/index.html",
-          "hash": "/0gVo578De3G4ghFpKnVlQ=="
+          "hash": "RfKhDk5jiLxruB1ysQTsQw=="
         }
       },
       "is_incremental": false,
@@ -337,7 +229,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/Modules/adding-modules.html",
-          "hash": "GRvmfMoeeEDydoRneBE/UA=="
+          "hash": "ufkUyzWhQvRqF7r/U2P4bw=="
         }
       },
       "is_incremental": false,
@@ -416,7 +308,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/Modules/working-with-modules.html",
-          "hash": "GoKMqM7oRewv8cHGRY0Kgw=="
+          "hash": "mp0Vv/m6wsPsjtYjjobzBA=="
         }
       },
       "is_incremental": false,
@@ -473,7 +365,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/SiteAdministration/index.html",
-          "hash": "+ZnZ4Gtf758T86x0aJaFfw=="
+          "hash": "Wd3djzHLhWk36IUUHO4Fpg=="
         }
       },
       "is_incremental": false,
@@ -683,7 +575,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/file-management.html",
-          "hash": "LdzpZlJXeEnwFZ9+TuHvpw=="
+          "hash": "iCnyvSZO6ntKCbscWNRaDw=="
         }
       },
       "is_incremental": false,
@@ -695,7 +587,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/index.html",
-          "hash": "tGy8vFDDPGx08C0ZajOwag=="
+          "hash": "8hCKtbZvYyKP1QtymhQDKA=="
         }
       },
       "is_incremental": false,
@@ -707,7 +599,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/page-management.html",
-          "hash": "2iXsgqCukMsJgb/NuffIkA=="
+          "hash": "qNrdlpR2p1SV9n0CElSFXg=="
         }
       },
       "is_incremental": false,
@@ -719,7 +611,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/profile-management.html",
-          "hash": "OgIS1WiLrYoOHRJT4GfRFA=="
+          "hash": "ALcSaXmV58JyhMBIOWiCbQ=="
         }
       },
       "is_incremental": false,
@@ -731,7 +623,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/recycle-bin.html",
-          "hash": "tZE/jWoCDwTd0VIcfmxFcQ=="
+          "hash": "v/h29q1YJehpsc1lN0X4hg=="
         }
       },
       "is_incremental": false,
@@ -743,7 +635,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/role-management.html",
-          "hash": "+caMwzDAshu4B4ec3sSqAA=="
+          "hash": "QaCk1SVmOemJJcdul/fDKw=="
         }
       },
       "is_incremental": false,
@@ -755,7 +647,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/site-settings.html",
-          "hash": "yTtfcucIvHfkE2OGO1YPSQ=="
+          "hash": "1/V0YwibOjd/gyfrqbi2cw=="
         }
       },
       "is_incremental": false,
@@ -767,7 +659,112 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/user-management.html",
-          "hash": "ZnOlQgBZwu7GqyA+GZm93A=="
+          "hash": "+22pxdzp4idu4Jl79KAdjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/control-panel/assets/add-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/control-panel/assets/add-page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/control-panel/assets/control-panel-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/control-panel/assets/control-panel-modules.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/control-panel/assets/control-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/control-panel/assets/control-panel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/control-panel/assets/page-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/control-panel/assets/page-appearance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/control-panel/assets/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/control-panel/assets/page-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/control-panel/assets/permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/control-panel/assets/permissions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/control-panel/control-page.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/control-panel/control-page.html",
+          "hash": "gDy27XMSpRBcxPN68VWywA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/control-panel/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/control-panel/index.html",
+          "hash": "+nC48n3jlIbwioiYLuO9CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/control-panel/modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/control-panel/modules.html",
+          "hash": "xNrbMEBniqlV9QfBs4ATDg=="
         }
       },
       "is_incremental": false,
@@ -791,7 +788,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/toc.html",
-          "hash": "mQ9GKQAHyp/EiAX0KSgSaw=="
+          "hash": "dIsN65zYuRm73WkveLQW1A=="
         }
       },
       "is_incremental": false,
@@ -2480,7 +2477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html",
-          "hash": "9ofLdmwWbbcxqcMdNw6Txw=="
+          "hash": "V5EJvajZK8pcy+li2S+J3A=="
         }
       },
       "is_incremental": false,
@@ -2756,7 +2753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Migrations.ForeignKey-1.html",
-          "hash": "vhB7k/VfKTDnWR1U2v5QjQ=="
+          "hash": "Rw0PoA7m5gNdggXSN+fb5A=="
         }
       },
       "is_incremental": false,
@@ -2828,7 +2825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Migrations.PrimaryKey-1.html",
-          "hash": "Tdo4Jy/EzIEN4CqP7U43ow=="
+          "hash": "xwbI2m6lI9XpJeV1vD/5Ow=="
         }
       },
       "is_incremental": false,
@@ -2888,7 +2885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Alias.html",
-          "hash": "mQpB1LY/tar2jhzCSl9RUw=="
+          "hash": "H/PGRCwlpiXzPfF7O2AQGQ=="
         }
       },
       "is_incremental": false,
@@ -5980,7 +5977,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 42,
-          "skipped_file_count": 41
+          "skipped_file_count": 42
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

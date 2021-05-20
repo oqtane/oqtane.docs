@@ -20,4 +20,5 @@ The other module options below this are:
 * Title: Which is what will be displayed directly above the module as its title, if nothing is selected then the module's name will be put as the title.
 * Pane: Select which content pane you want the module to go inside of. Panes are made visible with the [content editor](../SiteAdministrator/content-editor.md).
 * Container: Select if you would like to have a title displayed above the module or not have one.
-![control-panel-module](control-panel-module.png)
+
+![control-panel-module](./assets/control-panel-modules.png)

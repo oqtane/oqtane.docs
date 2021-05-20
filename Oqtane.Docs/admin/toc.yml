@@ -23,8 +23,8 @@
   homepage: admin-dashboard/
 
 - name: Control Panel
-  href: ControlPanel/toc.yml
-  homepage: ControlPanel/
+  href: control-panel/toc.yml
+  homepage: control-panel/
 
 #   # topicUid: Article.Docs.Index
 #   href: documentation/toc.yml
