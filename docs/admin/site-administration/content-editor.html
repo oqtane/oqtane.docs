@@ -13,9 +13,9 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <title>Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="title" content="Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../layout/images/favicon.png">
@@ -97,17 +97,36 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="modules">Modules</h1>
+<h1 id="content-editor">Content Editor</h1>
 
-<h3 id="what-is-a-module">What is a Module?</h3>
-<p>A module is a reusable, plug-and-play piece of functionality. It’s a way to extend the functionality of the framework with whatever functionality you desire. Examples of modules could be photo galleries, blogs, rotators, forms, and so on. There can be multiple modules on a page and even multiple instances of the same module on a page. It’s very common to see multiple HTML modules on a single page.
-When you install Oqtane, the platform ships with a base set of modules already installed in the system. There are too many that come with the solution out of the box to list here, but suffice it to say that all modules needed for basic functionality within a website come with the solution. More modules can also be dowwnloaded for use or modules that you can created can be uploaded.</p>
-<p><img src="installing-modules.png" alt="installing-modules">
-<img src="installing-modules-2.png" alt="installing-modules-2"></p>
-<h3 id="modules-on-pages">Modules on Pages</h3>
-<p>Modules are placed onto pages in locations called “panes”. These panes are defined by the theme’s designer. These themes dictates the overall look and feel of your site and is usually created by a front-end designer. Panes can span the full width of the page or be positioned in a column fashion. It may be helpful to think of panes as windows in the design of the site where you can drop in modules. You can move modules around the panes by using the <a href="../site-administration/content-editor.html">content editor</a>.</p>
-<p>This is an example of a content pane.
-<img src="content-pane.png" alt="content-pane"></p>
+<p>The content editor is what allows you to edit the modules on the page in a variety of ways. You access the content editor by clicking on the pencil on the top right side of the page which then shows the borders of the content pane which the modules are put inside of, as well as a small downward pointing arrow beside each module that allows you to open a menu to interact with the modules.</p>
+<p><img src="assets/pencil-edit.png" alt="pencil-edit"></p>
+<p><img src="assets/content-arrow.png" alt="content-arrow"></p>
+<p>The options for the module&#39;s menu are:</p>
+<ul>
+<li>Manage Settings: Brings up the module&#39;s settings and permissions which allow you to change the:<ul>
+<li>Title: The title displayed above the module.</li>
+<li>Container: Specify if you want the title to be displayed for the module.</li>
+<li>Display on All Pages: Choose whether you want this module to be on every page on the site.</li>
+<li>Page: Chnage the page that the module is displayed on.</li>
+<li>Permissions: Specify either what <a href="../admin-dashboard/role-management.html">roles</a> or individual users should be able to view or edit the page.</li>
+</ul>
+</li>
+<li>Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.</li>
+<li>Delete Module: Deletes the module from the page.</li>
+<li>Import Content: Enter a file&#39;s address to import it into the module, such as a image address to include it.</li>
+<li>Export Content: Enter a file address to select where to export data from a module.</li>
+<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
+<li>Move Up: Moves the module up to be above the module above it.</li>
+<li>Move Down: Move the module down below the module beneath it.</li>
+<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
+If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
+<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
+<li>Move to Left Pane: Moves the module to the left-most column.</li>
+<li>Move to Right Pane: Moves the module to the right-most column.</li>
+<li>Move to Content Pane: Moves the module to the central column.</li>
+<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
+</ul>
 </article>
           </div>
           
@@ -116,7 +135,7 @@ When you install Oqtane, the platform ships with a base set of modules already i
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/Modules/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/site-administration/content-editor.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

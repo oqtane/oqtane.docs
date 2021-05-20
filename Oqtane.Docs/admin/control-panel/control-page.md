@@ -32,7 +32,7 @@ The fields which exist in the page management window are the:
 
 >#### Permissions
 >View: This is what allows different users to see certain pages and any users that are within certain roles, that can be specified in the admin dashboard's [role management feature](../admin-dashboard/role-management.md) will be able to see or not see the page depending on what you have checked the box for the role they fit into.
->Edit: This allows users that fit into the specified roles to be able to edit pages using the [content editor](../SiteAdministration/content-editor.md).
+>Edit: This allows users that fit into the specified roles to be able to edit pages using the [content editor](../site-administration/content-editor.md).
 >Specific Users: The permissions tab also has the ability for you to enter a specific username and allow for you to set custom permissions for any specific users that you want.
 
 ![permissions](./assets/permissions.png)

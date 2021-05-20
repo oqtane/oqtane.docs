@@ -8,7 +8,7 @@ When you install Oqtane, the platform ships with a base set of modules already i
 ![installing-modules-2](installing-modules-2.png)
 
 ### Modules on Pages
-Modules are placed onto pages in locations called “panes”\. These panes are defined by the theme’s designer\. These themes dictates the overall look and feel of your site and is usually created by a front-end designer\. Panes can span the full width of the page or be positioned in a column fashion\. It may be helpful to think of panes as windows in the design of the site where you can drop in modules\. You can move modules around the panes by using the [content editor](../SiteAdministration/content-editor.md)\.
+Modules are placed onto pages in locations called “panes”\. These panes are defined by the theme’s designer\. These themes dictates the overall look and feel of your site and is usually created by a front-end designer\. Panes can span the full width of the page or be positioned in a column fashion\. It may be helpful to think of panes as windows in the design of the site where you can drop in modules\. You can move modules around the panes by using the [content editor](../site-administration/content-editor.md)\.
 
 This is an example of a content pane.
 ![content-pane](content-pane.png)
