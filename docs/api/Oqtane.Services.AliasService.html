@@ -103,7 +103,8 @@
   
   <h1 id="Oqtane_Services_AliasService" data-uid="Oqtane.Services.AliasService" class="text-break">Class AliasService
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Retrieve and store <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> information.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -117,6 +118,15 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_System_String_Oqtane_Models_Alias_">ServiceBase.CreateApiUrl(String, Alias)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_System_String_Oqtane_Models_Alias_System_String_">ServiceBase.CreateApiUrl(String, Alias, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateAuthorizationPolicyUrl_System_String_System_Int32_">ServiceBase.CreateAuthorizationPolicyUrl(String, Int32)</a>
+    </div>
     <div>
       <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_GetAsync_System_String_">ServiceBase.GetAsync(String)</a>
     </div>
@@ -151,39 +161,38 @@
       <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_DeleteAsync_System_String_">ServiceBase.DeleteAsync(String)</a>
     </div>
     <div>
-      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_System_String_">ServiceBase.CreateApiUrl(String)</a>
+      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_Oqtane_Models_Alias_System_String_System_String_">ServiceBase.CreateApiUrl(Alias, String, String)</a>
     </div>
     <div>
-      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_Oqtane_Models_Alias_System_String_">ServiceBase.CreateApiUrl(Alias, String)</a>
+      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_System_String_">ServiceBase.CreateApiUrl(String)</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_Alias">ServiceBase.Alias</a>
     </div>
     <div>
-      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateAuthorizationPolicyUrl_System_String_System_Int32_">ServiceBase.CreateAuthorizationPolicyUrl(String, Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_Oqtane_Models_Alias_System_String_System_String_">ServiceBase.CreateApiUrl(Alias, String, String)</a>
+      <a class="xref" href="Oqtane.Services.ServiceBase.html#Oqtane_Services_ServiceBase_CreateApiUrl_Oqtane_Models_Alias_System_String_">ServiceBase.CreateApiUrl(Alias, String)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Services.html">Oqtane.Services</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Client.dll</h6>
   <h5 id="Oqtane_Services_AliasService_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AliasService : ServiceBase, IAliasService</code></pre>
+    <pre><code class="lang-csharp hljs">[PrivateApi(&quot;Don't show in the documentation, as everything should use the Interface&quot;)]
+public class AliasService : ServiceBase, IAliasService</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.%23ctor(System.Net.Http.HttpClient%2COqtane.Shared.SiteState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.%23ctor(System.Net.Http.HttpClient%2COqtane.Shared.SiteState)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L17">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L23">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService__ctor_" data-uid="Oqtane.Services.AliasService.#ctor*"></a>
   <h4 id="Oqtane_Services_AliasService__ctor_System_Net_Http_HttpClient_Oqtane_Shared_SiteState_" data-uid="Oqtane.Services.AliasService.#ctor(System.Net.Http.HttpClient,Oqtane.Shared.SiteState)">AliasService(HttpClient, SiteState)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constructor - should only be used by Dependency Injection</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -215,14 +224,15 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_AddAliasAsync_Oqtane_Models_Alias_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.AddAliasAsync(Oqtane.Models.Alias)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_AddAliasAsync_Oqtane_Models_Alias_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.AddAliasAsync(Oqtane.Models.Alias)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L41">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L51">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService_AddAliasAsync_" data-uid="Oqtane.Services.AliasService.AddAliasAsync*"></a>
   <h4 id="Oqtane_Services_AliasService_AddAliasAsync_Oqtane_Models_Alias_" data-uid="Oqtane.Services.AliasService.AddAliasAsync(Oqtane.Models.Alias)">AddAliasAsync(Alias)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Save another <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> in the DB. It must already contain all the information incl. <a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a> it belongs to. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -241,7 +251,8 @@
       <tr>
         <td><a class="xref" href="Oqtane.Models.Alias.html">Alias</a></td>
         <td><span class="parametername">alias</span></td>
-        <td></td>
+        <td><p>An <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> to add.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -262,14 +273,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_DeleteAliasAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.DeleteAliasAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_DeleteAliasAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.DeleteAliasAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L50">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L62">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService_DeleteAliasAsync_" data-uid="Oqtane.Services.AliasService.DeleteAliasAsync*"></a>
   <h4 id="Oqtane_Services_AliasService_DeleteAliasAsync_System_Int32_" data-uid="Oqtane.Services.AliasService.DeleteAliasAsync(System.Int32)">DeleteAliasAsync(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Remove an <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> from the DB. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -288,7 +300,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">aliasId</span></td>
-        <td></td>
+        <td><p>The Alias ID, not to be confused with a Site ID.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -309,14 +322,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_GetAliasAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.GetAliasAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_GetAliasAsync_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.GetAliasAsync(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L30">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L38">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService_GetAliasAsync_" data-uid="Oqtane.Services.AliasService.GetAliasAsync*"></a>
   <h4 id="Oqtane_Services_AliasService_GetAliasAsync_System_Int32_" data-uid="Oqtane.Services.AliasService.GetAliasAsync(System.Int32)">GetAliasAsync(Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a single alias</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -335,7 +349,8 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">aliasId</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> ID, not to be confused with a <a class="xref" href="Oqtane.Models.Site.html">Site</a> ID</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -356,18 +371,19 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_GetAliasAsync_System_String_System_DateTime_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.GetAliasAsync(System.String%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_GetAliasAsync_System_String_System_DateTime_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.GetAliasAsync(System.String%2CSystem.DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L35">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L44">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService_GetAliasAsync_" data-uid="Oqtane.Services.AliasService.GetAliasAsync*"></a>
   <h4 id="Oqtane_Services_AliasService_GetAliasAsync_System_String_System_DateTime_" data-uid="Oqtane.Services.AliasService.GetAliasAsync(System.String,System.DateTime)">GetAliasAsync(String, DateTime)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieve the Alias object of a URL.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Alias&gt; GetAliasAsync(string name, DateTime lastSyncDate)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Alias&gt; GetAliasAsync(string path, DateTime lastSyncDate)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -381,13 +397,14 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
+        <td><span class="parametername">path</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.DateTime</span></td>
         <td><span class="parametername">lastSyncDate</span></td>
-        <td></td>
+        <td><p>todoc - unclear what this is for</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -408,14 +425,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_GetAliasesAsync.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.GetAliasesAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_GetAliasesAsync.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.GetAliasesAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L24">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L31">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService_GetAliasesAsync_" data-uid="Oqtane.Services.AliasService.GetAliasesAsync*"></a>
   <h4 id="Oqtane_Services_AliasService_GetAliasesAsync" data-uid="Oqtane.Services.AliasService.GetAliasesAsync">GetAliasesAsync()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get all aliases in the system</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -438,14 +456,15 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_UpdateAliasAsync_Oqtane_Models_Alias_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.UpdateAliasAsync(Oqtane.Models.Alias)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService_UpdateAliasAsync_Oqtane_Models_Alias_.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService.UpdateAliasAsync(Oqtane.Models.Alias)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L46">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L57">View Source</a>
   </span>
   <a id="Oqtane_Services_AliasService_UpdateAliasAsync_" data-uid="Oqtane.Services.AliasService.UpdateAliasAsync*"></a>
   <h4 id="Oqtane_Services_AliasService_UpdateAliasAsync_Oqtane_Models_Alias_" data-uid="Oqtane.Services.AliasService.UpdateAliasAsync(Oqtane.Models.Alias)">UpdateAliasAsync(Alias)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update an <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> in the DB. Make sure the object is correctly filled, as it must update an existing record. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -464,7 +483,8 @@
       <tr>
         <td><a class="xref" href="Oqtane.Models.Alias.html">Alias</a></td>
         <td><span class="parametername">alias</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="Oqtane.Models.Alias.html">Alias</a> to update.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -495,10 +515,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_AliasService.md&amp;value=---%0Auid%3A%20Oqtane.Services.AliasService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/AliasService.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

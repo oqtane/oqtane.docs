@@ -116,25 +116,25 @@
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
   <h5 id="Oqtane_Controllers_FileController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Route(&quot;{alias}/api/[controller]&quot;)]
+    <pre><code class="lang-csharp hljs">[Route(&quot;api/[controller]&quot;)]
 public class FileController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Repository_IFileRepository_Oqtane_Repository_IFolderRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ITenantResolver_Oqtane_Infrastructure_ILogManager_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.%23ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment%2COqtane.Repository.IFileRepository%2COqtane.Repository.IFolderRepository%2COqtane.Security.IUserPermissions%2COqtane.Repository.ITenantResolver%2COqtane.Infrastructure.ILogManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Repository_IFileRepository_Oqtane_Repository_IFolderRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ILogManager_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.%23ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment%2COqtane.Repository.IFileRepository%2COqtane.Repository.IFolderRepository%2COqtane.Security.IUserPermissions%2COqtane.Infrastructure.ILogManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L36">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L34">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController__ctor_" data-uid="Oqtane.Controllers.FileController.#ctor*"></a>
-  <h4 id="Oqtane_Controllers_FileController__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Repository_IFileRepository_Oqtane_Repository_IFolderRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ITenantResolver_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.FileController.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Repository.IFileRepository,Oqtane.Repository.IFolderRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ITenantResolver,Oqtane.Infrastructure.ILogManager)">FileController(IWebHostEnvironment, IFileRepository, IFolderRepository, IUserPermissions, ITenantResolver, ILogManager)</h4>
+  <h4 id="Oqtane_Controllers_FileController__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Repository_IFileRepository_Oqtane_Repository_IFolderRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.FileController.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Repository.IFileRepository,Oqtane.Repository.IFolderRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ILogManager)">FileController(IWebHostEnvironment, IFileRepository, IFolderRepository, IUserPermissions, ILogManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FileController(IWebHostEnvironment environment, IFileRepository files, IFolderRepository folders, IUserPermissions userPermissions, ITenantResolver tenants, ILogManager logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public FileController(IWebHostEnvironment environment, IFileRepository files, IFolderRepository folders, IUserPermissions userPermissions, ILogManager logger)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,11 +167,6 @@ public class FileController : Controller, IActionFilter, IAsyncActionFilter, IFi
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Oqtane.Repository.ITenantResolver.html">ITenantResolver</a></td>
-        <td><span class="parametername">tenants</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><a class="xref" href="Oqtane.Infrastructure.ILogManager.html">ILogManager</a></td>
         <td><span class="parametername">logger</span></td>
         <td></td>
@@ -182,10 +177,10 @@ public class FileController : Controller, IActionFilter, IAsyncActionFilter, IFi
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Delete_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Delete(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Delete_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Delete(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L169">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L166">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_Delete_" data-uid="Oqtane.Controllers.FileController.Delete*"></a>
   <h4 id="Oqtane_Controllers_FileController_Delete_System_Int32_" data-uid="Oqtane.Controllers.FileController.Delete(System.Int32)">Delete(Int32)</h4>
@@ -216,10 +211,10 @@ public void Delete(int id)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_DownloadAttachment_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.DownloadAttachment(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_DownloadAttachment_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.DownloadAttachment(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L462">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L459">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_DownloadAttachment_" data-uid="Oqtane.Controllers.FileController.DownloadAttachment*"></a>
   <h4 id="Oqtane_Controllers_FileController_DownloadAttachment_System_Int32_" data-uid="Oqtane.Controllers.FileController.DownloadAttachment(System.Int32)">DownloadAttachment(Int32)</h4>
@@ -268,10 +263,10 @@ public IActionResult DownloadAttachment(int id)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_DownloadInline_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.DownloadInline(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_DownloadInline_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.DownloadInline(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L447">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L444">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_DownloadInline_" data-uid="Oqtane.Controllers.FileController.DownloadInline*"></a>
   <h4 id="Oqtane_Controllers_FileController_DownloadInline_System_Int32_" data-uid="Oqtane.Controllers.FileController.DownloadInline(System.Int32)">DownloadInline(Int32)</h4>
@@ -321,10 +316,10 @@ public IActionResult DownloadInline(int id)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Get_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Get(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Get_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Get(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L109">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L106">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_Get_" data-uid="Oqtane.Controllers.FileController.Get*"></a>
   <h4 id="Oqtane_Controllers_FileController_Get_System_Int32_" data-uid="Oqtane.Controllers.FileController.Get(System.Int32)">Get(Int32)</h4>
@@ -369,10 +364,10 @@ public File Get(int id)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Get_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Get(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Get_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Get(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L79">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L76">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_Get_" data-uid="Oqtane.Controllers.FileController.Get*"></a>
   <h4 id="Oqtane_Controllers_FileController_Get_System_Int32_System_String_" data-uid="Oqtane.Controllers.FileController.Get(System.Int32,System.String)">Get(Int32, String)</h4>
@@ -422,10 +417,10 @@ public IEnumerable&lt;File&gt; Get(int siteId, string path)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Get_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Get_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L47">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L44">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_Get_" data-uid="Oqtane.Controllers.FileController.Get*"></a>
   <h4 id="Oqtane_Controllers_FileController_Get_System_String_" data-uid="Oqtane.Controllers.FileController.Get(System.String)">Get(String)</h4>
@@ -470,10 +465,10 @@ public IEnumerable&lt;File&gt; Get(string folder)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Put_System_Int32_Oqtane_Models_File_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Put(System.Int32%2COqtane.Models.File)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_Put_System_Int32_Oqtane_Models_File_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.Put(System.Int32%2COqtane.Models.File)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L135">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L132">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_Put_" data-uid="Oqtane.Controllers.FileController.Put*"></a>
   <h4 id="Oqtane_Controllers_FileController_Put_System_Int32_Oqtane_Models_File_" data-uid="Oqtane.Controllers.FileController.Put(System.Int32,Oqtane.Models.File)">Put(Int32, File)</h4>
@@ -524,10 +519,10 @@ public File Put(int id, [FromBody] File file)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_UploadFile_System_String_Microsoft_AspNetCore_Http_IFormFile_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.UploadFile(System.String%2CMicrosoft.AspNetCore.Http.IFormFile)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_UploadFile_System_String_Microsoft_AspNetCore_Http_IFormFile_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.UploadFile(System.String%2CMicrosoft.AspNetCore.Http.IFormFile)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L261">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L258">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_UploadFile_" data-uid="Oqtane.Controllers.FileController.UploadFile*"></a>
   <h4 id="Oqtane_Controllers_FileController_UploadFile_System_String_Microsoft_AspNetCore_Http_IFormFile_" data-uid="Oqtane.Controllers.FileController.UploadFile(System.String,Microsoft.AspNetCore.Http.IFormFile)">UploadFile(String, IFormFile)</h4>
@@ -577,10 +572,10 @@ public Task UploadFile(string folder, IFormFile file)</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_UploadFile_System_String_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.UploadFile(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController_UploadFile_System_String_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController.UploadFile(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L202">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L199">View Source</a>
   </span>
   <a id="Oqtane_Controllers_FileController_UploadFile_" data-uid="Oqtane.Controllers.FileController.UploadFile*"></a>
   <h4 id="Oqtane_Controllers_FileController_UploadFile_System_String_System_String_" data-uid="Oqtane.Controllers.FileController.UploadFile(System.String,System.String)">UploadFile(String, String)</h4>
@@ -636,10 +631,10 @@ public File UploadFile(string url, string folderid)</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_FileController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.FileController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L26" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/FileController.cs/#L25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
