@@ -7,8 +7,8 @@
   homepage: site-administration/
 
 - name: Installation
-  href: Installation/toc.yml
-  homepage: Installation/
+  href: installation/toc.yml
+  homepage: installation/
 
 - name: Modules
   href: modules/toc.yml
