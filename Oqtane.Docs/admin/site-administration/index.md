@@ -7,7 +7,7 @@ This includes things like managing users, security, site settings, configuration
 
 ![admin-dash](./assets/admin-dash.png)
 
-Site administration can take on many forms, but there are two use cases that you should be familiar with. First, there’s site administration as defined by Oqtane.You enable this by adding the Administrators security role as one of the assigned roles for the account. That way, all “admin” features will be available for that user across that specific site.
+Site administration can take on many forms, but there are two use cases that you should be familiar with. First, there's site administration as defined by Oqtane.You enable this by adding the Administrators security role as one of the assigned roles for the account. That way, all “admin” features will be available for that user across that specific site.
 
 Site administration can take on a hybrid of another sort as well, where you as the site administrator can define a different kind of administration for your site. This would be a kind of administration where you define a subset of administration capabilities and assign them to more privileged users to avoid having to make them an actual administrator.
 

@@ -1,6 +1,6 @@
 # Theme Management
 
-The theme page is not used that often. Generally, it’s used during the development of a new site and sometimes is used during the rollout of a new site brand. It allows you to view the available themes and containers that have been installed in your site and then applied as the default for new and existing pages and modules.
+The theme page is not used that often. Generally, it's used during the development of a new site and sometimes is used during the rollout of a new site brand. It allows you to view the available themes and containers that have been installed in your site and then applied as the default for new and existing pages and modules.
 
 Themes on Oqtane provide a multitude of different colors and styles for pages to be presented in. These themes can provide unique looking pages and websites as a whole. There are two defualt themes for Oqtane, the Blazor theme and the Oqtane theme.
 

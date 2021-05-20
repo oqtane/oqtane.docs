@@ -9,4 +9,4 @@ When managing your Oqtane site as an administrator, you will most likely be doin
 ![control-panel](./assets/control-panel.png)
 
 Those with content management permissions, which are defined by a user account's roles, in Oqtane are often referred to as “content editors.” Content editors can typically view only some of the Control Panel—the parts that are required in order to perform other related tasks, such as adding a module to a page.
-It is worth noting that the Control Panel you’ll be using is the one that ships “out of the box” with Oqtane. However, it is one of numerous extension points in Oqtane. Like modules, themes, and other extensions, the Control Panel can be replaced with a custom or third-party alternative.
+It is worth noting that the Control Panel you'll be using is the one that ships “out of the box” with Oqtane. However, it is one of numerous extension points in Oqtane. Like modules, themes, and other extensions, the Control Panel can be replaced with a custom or third-party alternative.

@@ -1,6 +1,6 @@
 # Event Log
 
-The Event log allows you to know what’s happening on your website at all times.On the surface, the Event log may seem very simple and it is. You have a listing of the most recent events immediately visible on page load. This list is going to be any number of pages with 10 events by default on each page of results and the option to see more rows at a time.
+The Event log allows you to know what's happening on your website at all times.On the surface, the Event log may seem very simple and it is. You have a listing of the most recent events immediately visible on page load. This list is going to be any number of pages with 10 events by default on each page of results and the option to see more rows at a time.
 
 A paging feature at the bottom of the list allows you to move from page to page.
 If you want to filter the events to see more or fewer events, you have three controls at the top of the listing to help you. You can filter by the type of event that you want to see with the event Level and Function:
