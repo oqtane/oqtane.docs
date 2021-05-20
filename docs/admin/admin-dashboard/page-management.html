@@ -13,9 +13,9 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <title>Page Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="title" content="Page Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../layout/images/favicon.png">
@@ -97,36 +97,39 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="content-editor">Content Editor</h1>
+<h1 id="page-management">Page Management</h1>
 
-<p>The content editor is what allows you to edit the modules on the page in a variety of ways. You access the content editor by clicking on the pencil on the top right side of the page which then shows the borders of the content pane which the modules are put inside of, as well as a small downward pointing arrow beside each module that allows you to open a menu to interact with the modules.</p>
-<p><img src="pencil-edit.png" alt="pencil-edit"></p>
-<p><img src="content-arrow.png" alt="content-arrow"></p>
-<p>The options for the module&#39;s menu are:</p>
-<ul>
-<li>Manage Settings: Brings up the module&#39;s settings and permissions which allow you to change the:<ul>
-<li>Title: The title displayed above the module.</li>
-<li>Container: Specify if you want the title to be displayed for the module.</li>
-<li>Display on All Pages: Choose whether you want this module to be on every page on the site.</li>
-<li>Page: Chnage the page that the module is displayed on.</li>
-<li>Permissions: Specify either what <a href="/admin/admin-dashboard/role-management.md">roles</a> or individual users should be able to view or edit the page.</li>
-</ul>
-</li>
-<li>Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.</li>
-<li>Delete Module: Deletes the module from the page.</li>
-<li>Import Content: Enter a file&#39;s address to import it into the module, such as a image address to include it.</li>
-<li>Export Content: Enter a file address to select where to export data from a module.</li>
-<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
-<li>Move Up: Moves the module up to be above the module above it.</li>
-<li>Move Down: Move the module down below the module beneath it.</li>
-<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
-If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
-<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
-<li>Move to Left Pane: Moves the module to the left-most column.</li>
-<li>Move to Right Pane: Moves the module to the right-most column.</li>
-<li>Move to Content Pane: Moves the module to the central column.</li>
-<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
-</ul>
+<p>Pretty much every website starts out as one thing first and foremost: a collection of pages that constitute a web presence. Each page will have a purpose (we hope) and serve it well. As you have seen after the default installation of Oqtane, you are even given a home page to work with on the first load of your new site. Your next step might be to create additional pages, such as About Us, Contact Us, and more. 
+As your site continues to become successful and grows to meet the needs of your customers and other visitors, you will undoubtedly begin to have more and more pages on your site. You’ll have so many that at some point you will need to manage them from a centralized location. In other cases, you might have pages that are hidden from the menu and are not easily accessible. This is where the Page Management feature comes in to allow for a larger overview of the pages on your website, with all pages on your website viewable in a list format. These pages can be manipulated in the page manager by being able to add, edit, and delete pages.
+<img src="./assets/page-management.png" alt="page-management"></p>
+<h3 id="add">Add</h3>
+<p>The add feature adds a new page to your website and brings up the page management window, which allows you to specify the settings, appearance, and permissions for the page you are adding. 
+The fields which exist in the page management window are the:</p>
+<blockquote><h4 id="settings">Settings</h4>
+<p>Name: Which specifies the name that will be displayed in the navigation bar.
+Parent: Which will specify the page that this page will be underneath, meaning that the added page will be put to the right of the page specified in the navigation bar at the top.
+Insert: Specify where the name for the page will appear in the navigation bar, by saying where the page should appear among all of the children of the parent that has been selected.
+Navigation: Say whether you want the page to be displayed to users that fit within the permissions, or if you want the page to be hidden to everyone but administrators which can be useful while editing a page.
+URL Path: The url is what is put in the web page&#39;s address, for example if the url path is set to page1 then the address might be www.website/page1.com. If no URL path is specified then the URL will by default be set to be the same as the name field above.
+Redirect: Input a URL that is the same as the URL path of another page in the site that user will be sent to, remember that if no URL path is specified for another page then the name will be used. If this feature is implemented then you will not be able stay on the page to use the control panel&#39;s page manager, so you will need to edit or delete page&#39;s with this feature.
+<img src="./assets/add-page.png" alt="add-page"></p>
+<h4 id="appearance">Appearance</h4>
+<p>Title: The name that is displayed on the web page&#39;s tab.
+Theme: The theme that the web page will take on. In the admin dashboard&#39;s theme management feature you can see more information on these theme and import new themes to be used.
+Default Container: Choose the layout of modules for the page, like hw the titles typically displayed above the modules will be.
+Icon: Input a favicon address or other icon address to include an icon beside the name of your page.
+Personalizable: This feature gives a page that is unique to every individual and allows them to add modules and edit the content of the page, so only the individual can see what they put onto the page.
+<img src="./assets/page-appearance.png" alt="page-appearance"></p>
+<h4 id="permissions">Permissions</h4>
+<p>View: This is what allows different users to see certain pages and any users that are within certain roles, that can be specified in the admin dashboard&#39;s role management feature will be able to see or not see the page depending on what you have checked the box for the role they fit into.
+Edit: This allows users that fit into the specified roles to be able to edit pages using the content editor.
+Specific Users: The permissions tab also has the ability for you to enter a specific username and allow for you to set custom permissions for any specific users that you want.
+<img src="./assets/permissions.png" alt="permissions"></p>
+</blockquote>
+<h3 id="edit">Edit</h3>
+<p>The edit feature shares all of the same features as the add feature, allowing you to change the settings, appearances, and permissions of any page, with the insert feature being replaced by the move feature. The edit feature also shows you when a page was created and when the page was last edited at the bottom of the page management window.</p>
+<h3 id="delete">Delete</h3>
+<p>The delete feature will delete the page that you are currently on and you can recover the page or fully delete the page in the admin dashboard&#39;s <a href="recycle-bin.html">recycle bin</a>.</p>
 </article>
           </div>
           
@@ -135,7 +138,7 @@ If the page has the layout for multiple panes, which will allows for three cente
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/SiteAdministration/content-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/admin-dashboard/page-management.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

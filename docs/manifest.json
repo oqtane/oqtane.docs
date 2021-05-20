@@ -13,120 +13,11 @@
       "is_incremental": false
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/file-management.md",
+      "type": "Resource",
+      "source_relative_path": "admin/ControlPanel/add-page.png",
       "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/file-management.html",
-          "hash": "hlwXW2j4EyxdcHQSz3YDQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/index.html",
-          "hash": "zWwn4+X878kYOpEHrFA3aQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/page-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/page-management.html",
-          "hash": "9J03jgM84dgk7/YvSQh6bA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/profile-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/profile-management.html",
-          "hash": "KRhYGXlE1DdP/w5gf/BUOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/recycle-bin.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/recycle-bin.html",
-          "hash": "VEM2nww2QIBQG61TqedAFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/role-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/role-management.html",
-          "hash": "zF0ulG/Obapfw1Bkjgop6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/site-settings.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/site-settings.html",
-          "hash": "0eyiMH43YREdWgZVEvltOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/AdminDashboard/user-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/AdminDashboard/user-management.html",
-          "hash": "OawOmkVrWEfCFXyxz6aGrg=="
+        "resource": {
+          "relative_path": "admin/ControlPanel/add-page.png"
         }
       },
       "is_incremental": false,
@@ -141,22 +32,41 @@
       "output": {
         ".html": {
           "relative_path": "admin/ControlPanel/control-page.html",
-          "hash": "cpXOVaYA8jEl8H37C4iymw=="
+          "hash": "VdlQvyDkYRM/wBIRuMae1A=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/ControlPanel/control-panel-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/ControlPanel/control-panel-modules.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/ControlPanel/control-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/ControlPanel/control-panel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/ControlPanel/index.md",
       "output": {
         ".html": {
           "relative_path": "admin/ControlPanel/index.html",
-          "hash": "R4PPyxbPYiF+oS9a5fz6Hg=="
+          "hash": "OpqS2Cy6gCwX/Dvop+Z3Uw=="
         }
       },
       "is_incremental": false,
@@ -171,16 +81,79 @@
       "output": {
         ".html": {
           "relative_path": "admin/ControlPanel/modules.html",
-          "hash": "X/RaKntxDxdJFWptbuguMQ=="
+          "hash": "OQL34Jb8Q0HseBNutdMt+w=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/ControlPanel/page-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/ControlPanel/page-appearance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/ControlPanel/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/ControlPanel/page-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/ControlPanel/permissions.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "admin/ControlPanel/permissions.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/edit-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/edit-jobs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/event-function.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/event-function.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/event-level.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/event-level.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/HostAdministration/event-log.md",
       "output": {
@@ -198,16 +171,13 @@
       "output": {
         ".html": {
           "relative_path": "admin/HostAdministration/index.html",
-          "hash": "Wj2AIKETFKSVzuUH+GhxzQ=="
+          "hash": "/0gVo578De3G4ghFpKnVlQ=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/HostAdministration/module-management.md",
       "output": {
@@ -220,9 +190,17 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/module-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/module-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/HostAdministration/scheduled-jobs.md",
       "output": {
@@ -235,9 +213,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/HostAdministration/site-management.md",
       "output": {
@@ -250,15 +225,34 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/site-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/site-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/HostAdministration/sql-management.md",
       "output": {
         ".html": {
           "relative_path": "admin/HostAdministration/sql-management.html",
           "hash": "SNdA/USROM84sP/AvVVHmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/sql-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/sql-management.png"
         }
       },
       "is_incremental": false,
@@ -289,9 +283,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/HostAdministration/theme-management.md",
       "output": {
@@ -304,12 +295,34 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "admin/HostAdministration/theme-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/HostAdministration/theme-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/Installation/index.md",
       "output": {
         ".html": {
           "relative_path": "admin/Installation/index.html",
           "hash": "q/CoulWachkc5IoWXjwm6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/Modules/adding-module.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/Modules/adding-module.png"
         }
       },
       "is_incremental": false,
@@ -331,9 +344,17 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/Modules/content-pane.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/Modules/content-pane.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/Modules/index.md",
       "output": {
@@ -346,9 +367,50 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/Modules/installing-modules-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/Modules/installing-modules-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/Modules/installing-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/Modules/installing-modules.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/Modules/moving-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/Modules/moving-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/Modules/pencil.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "admin/Modules/pencil.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/Modules/working-with-modules.md",
       "output": {
@@ -361,30 +423,351 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/SiteAdministration/content-editor.md",
+      "type": "Resource",
+      "source_relative_path": "admin/SiteAdministration/admin-dash.png",
       "output": {
-        ".html": {
-          "relative_path": "admin/SiteAdministration/content-editor.html",
-          "hash": "aVdVGo3zWtlMz/lSeuitVg=="
+        "resource": {
+          "relative_path": "admin/SiteAdministration/admin-dash.png"
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
+      "type": "Resource",
+      "source_relative_path": "admin/SiteAdministration/content-arrow.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/SiteAdministration/content-arrow.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/SiteAdministration/content-editor.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/SiteAdministration/content-editor.html",
+          "hash": "2gBXH3MBO/SlBkFImgCA7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/SiteAdministration/control-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/SiteAdministration/control-panel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/SiteAdministration/index.md",
       "output": {
         ".html": {
           "relative_path": "admin/SiteAdministration/index.html",
-          "hash": "nelpEHZIQPHq9FyjNIfC4g=="
+          "hash": "+ZnZ4Gtf758T86x0aJaFfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/SiteAdministration/pencil-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/SiteAdministration/pencil-edit.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/add-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/add-page.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/add-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/add-profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/admin-dash.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/admin-dash.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/edit-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/edit-profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/file-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/file-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/page-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/page-appearance.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/page-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/permissions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/profile-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/profile-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/pwa-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/pwa-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/recycle-bin.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/recycle-bin.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/site-settings-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/site-settings-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/site-settings-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/site-settings-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/smtp-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/smtp-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/user-identity.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/user-identity.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/user-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/user-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/admin-dashboard/assets/user-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/admin-dashboard/assets/user-profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/file-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/file-management.html",
+          "hash": "LdzpZlJXeEnwFZ9+TuHvpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/index.html",
+          "hash": "tGy8vFDDPGx08C0ZajOwag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/page-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/page-management.html",
+          "hash": "2iXsgqCukMsJgb/NuffIkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/profile-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/profile-management.html",
+          "hash": "OgIS1WiLrYoOHRJT4GfRFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/recycle-bin.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/recycle-bin.html",
+          "hash": "tZE/jWoCDwTd0VIcfmxFcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/role-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/role-management.html",
+          "hash": "+caMwzDAshu4B4ec3sSqAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/site-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/site-settings.html",
+          "hash": "yTtfcucIvHfkE2OGO1YPSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/admin-dashboard/user-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/user-management.html",
+          "hash": "ZnOlQgBZwu7GqyA+GZm93A=="
         }
       },
       "is_incremental": false,
@@ -408,7 +791,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/toc.html",
-          "hash": "fpbDErFR3MD12+a5pHZ//w=="
+          "hash": "mQ9GKQAHyp/EiAX0KSgSaw=="
         }
       },
       "is_incremental": false,
@@ -5587,25 +5970,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 42,
-          "skipped_file_count": 0
+          "skipped_file_count": 41
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 413,
-          "skipped_file_count": 0
+          "skipped_file_count": 413
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -12,7 +12,7 @@ The options for the module's menu are:
     * Container: Specify if you want the title to be displayed for the module\.
     * Display on All Pages: Choose whether you want this module to be on every page on the site\.
     * Page: Chnage the page that the module is displayed on\.
-    * Permissions: Specify either what [roles](/admin/AdminDashboard/role-management.md) or individual users should be able to view or edit the page\.
+    * Permissions: Specify either what [roles](/admin/admin-dashboard/role-management.md) or individual users should be able to view or edit the page\.
 * Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules\.
 * Delete Module: Deletes the module from the page\.
 * Import Content: Enter a file's address to import it into the module, such as a image address to include it\.

@@ -13,9 +13,9 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <title>Role Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="title" content="Role Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../layout/images/favicon.png">
@@ -97,36 +97,14 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="content-editor">Content Editor</h1>
+<h1 id="role-management">Role Management</h1>
 
-<p>The content editor is what allows you to edit the modules on the page in a variety of ways. You access the content editor by clicking on the pencil on the top right side of the page which then shows the borders of the content pane which the modules are put inside of, as well as a small downward pointing arrow beside each module that allows you to open a menu to interact with the modules.</p>
-<p><img src="pencil-edit.png" alt="pencil-edit"></p>
-<p><img src="content-arrow.png" alt="content-arrow"></p>
-<p>The options for the module&#39;s menu are:</p>
-<ul>
-<li>Manage Settings: Brings up the module&#39;s settings and permissions which allow you to change the:<ul>
-<li>Title: The title displayed above the module.</li>
-<li>Container: Specify if you want the title to be displayed for the module.</li>
-<li>Display on All Pages: Choose whether you want this module to be on every page on the site.</li>
-<li>Page: Chnage the page that the module is displayed on.</li>
-<li>Permissions: Specify either what <a href="/admin/admin-dashboard/role-management.md">roles</a> or individual users should be able to view or edit the page.</li>
-</ul>
-</li>
-<li>Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.</li>
-<li>Delete Module: Deletes the module from the page.</li>
-<li>Import Content: Enter a file&#39;s address to import it into the module, such as a image address to include it.</li>
-<li>Export Content: Enter a file address to select where to export data from a module.</li>
-<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
-<li>Move Up: Moves the module up to be above the module above it.</li>
-<li>Move Down: Move the module down below the module beneath it.</li>
-<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
-If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
-<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
-<li>Move to Left Pane: Moves the module to the left-most column.</li>
-<li>Move to Right Pane: Moves the module to the right-most column.</li>
-<li>Move to Content Pane: Moves the module to the central column.</li>
-<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
-</ul>
+<p>Security Roles in Oqtane are nothing more than a grouping of one or more users for a purpose. That purpose is up to you. The purpose could be to see exclusive content in a specific area of the site or on specific pages in the site. It could also be to have the ability to edit content on one or more pages or to create content in a specific module, like a blog. We could go on and on. Just remember that Security Roles can be used for content targeting, editing, and hiding sections of your site.
+Security Roles work the same as most permissions-based systems, such as Windows. You first create a Security Role if it doesn’t already exist to create a grouping of users. Then, you add one or more people to that group. Once you do that minimal setup, you can apply that group to various capabilities, permissions, and features.
+Permissions are set when creating or editing pages and modules by selecting which roles can edit or view them.
+<img src="./assets/permissions.png" alt="permissions">
+At the top of the page is the add role btton that allows for the addition of a new group you want to make, with a name, description, and saying if it should be automatically assigned to users. You can edit, delete, and manage users in each role except for the default administrator and registered users roles which you cannot edit or delete, you can only manage their users.
+When adding a user into a role, there are fields for effective date and expiry date, which determines when a user will be added to a roles and how long they will be inside of a role.</p>
 </article>
           </div>
           
@@ -135,7 +113,7 @@ If the page has the layout for multiple panes, which will allows for three cente
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/SiteAdministration/content-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/admin-dashboard/role-management.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

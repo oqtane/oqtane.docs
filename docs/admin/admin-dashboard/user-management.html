@@ -13,9 +13,9 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <title>User Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Content Editor | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="title" content="User Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../layout/images/favicon.png">
@@ -97,35 +97,22 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="content-editor">Content Editor</h1>
+<h1 id="user-management">User Management</h1>
 
-<p>The content editor is what allows you to edit the modules on the page in a variety of ways. You access the content editor by clicking on the pencil on the top right side of the page which then shows the borders of the content pane which the modules are put inside of, as well as a small downward pointing arrow beside each module that allows you to open a menu to interact with the modules.</p>
-<p><img src="pencil-edit.png" alt="pencil-edit"></p>
-<p><img src="content-arrow.png" alt="content-arrow"></p>
-<p>The options for the module&#39;s menu are:</p>
+<p>One of your primary responsibilities as the site administrator will likely be to manage users on your site. You might need to create, edit, or delete users. You might also be required to add and remove abilities from users on your site. Everything that you need to do in these examples can be done from this one menu.
+<img src="./assets/user-management.png" alt="user-management">
+The options that are provided on this user manager includes:</p>
 <ul>
-<li>Manage Settings: Brings up the module&#39;s settings and permissions which allow you to change the:<ul>
-<li>Title: The title displayed above the module.</li>
-<li>Container: Specify if you want the title to be displayed for the module.</li>
-<li>Display on All Pages: Choose whether you want this module to be on every page on the site.</li>
-<li>Page: Chnage the page that the module is displayed on.</li>
-<li>Permissions: Specify either what <a href="/admin/admin-dashboard/role-management.md">roles</a> or individual users should be able to view or edit the page.</li>
+<li>Add User: The add new user button is exactly what it sounds like it allows you to add a new user to your site and upon being clicked, it brings up a window that asks for all of the essential information for an account with a username, password, email, and full name. There is also the profile tab which allows for more extensive information to be provided for a user account and may have some fields that are required to be input in order to create an account, which is specified in the required field of the <a href="profile-management.html">profile manager</a>.</li>
+<li>Find User: Provides a text field to input a user&#39;s account name that will search through all of the site&#39;s users and return the account below this ield with the following options:<ul>
+<li>Edit User: This allows for basic fields in the identity field such as password, email, and full name to be modified as well as the ability to give the user a profile image and the profile tab to specify more information about a user. 
+<img src="./assets/user-identity.png" alt="user-identity">
+There is also the profile tab which goes into more detail about a user allowing for the specification of things like postal code, phone number and address.
+<img src="./assets/user-profile.png" alt="user-profile"></li>
+<li>Delete User: This is exactly as it sounds, it will delete the user&#39;s account.</li>
+<li>User Roles: This allows for a user account to placed into a security role that has been previously defined in the <a href="role-management.html">role manager</a>, and requires a date that this security role will take effect and will expire for the user account.</li>
 </ul>
 </li>
-<li>Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.</li>
-<li>Delete Module: Deletes the module from the page.</li>
-<li>Import Content: Enter a file&#39;s address to import it into the module, such as a image address to include it.</li>
-<li>Export Content: Enter a file address to select where to export data from a module.</li>
-<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
-<li>Move Up: Moves the module up to be above the module above it.</li>
-<li>Move Down: Move the module down below the module beneath it.</li>
-<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
-If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
-<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
-<li>Move to Left Pane: Moves the module to the left-most column.</li>
-<li>Move to Right Pane: Moves the module to the right-most column.</li>
-<li>Move to Content Pane: Moves the module to the central column.</li>
-<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
 </ul>
 </article>
           </div>
@@ -135,7 +122,7 @@ If the page has the layout for multiple panes, which will allows for three cente
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/SiteAdministration/content-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/admin-dashboard/user-management.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

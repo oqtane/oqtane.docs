@@ -19,8 +19,8 @@
   homepage: HostAdministration/
 
 - name: Admin Dashboard
-  href: AdminDashboard/toc.yml
-  homepage: AdminDashboard/
+  href: admin-dashboard/toc.yml
+  homepage: admin-dashboard/
 
 - name: Control Panel
   href: ControlPanel/toc.yml
