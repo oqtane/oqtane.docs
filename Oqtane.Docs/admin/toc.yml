@@ -11,8 +11,8 @@
   homepage: Installation/
 
 - name: Modules
-  href: Modules/toc.yml
-  homepage: Modules/
+  href: modules/toc.yml
+  homepage: modules/
 
 - name: Host Administration
   href: host-administration/toc.yml

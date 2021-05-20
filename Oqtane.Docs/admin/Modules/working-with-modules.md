@@ -2,7 +2,7 @@
 
 In order to access a module’s settings, you must be in the content editor. To get into the editor, simply click over the pencil icon topright corner of the page. This puts you into the edit mode where you will see small white arrows in the top-right corner of every module on the page. These small arrows at the top left corners of each module allow you to move the module on the page, access the module’s settings, edit the module, delete the module, and access any specific functionality related to the module. 
 
-![pencil](pencil.png)
+![pencil](./assets/pencil.png)
 
 Once in Edit mode you will notice that Oqtane uses a very user-friendly and intuitive approach to managing content. Whenever you want to edit content in Oqtane, you go to the location where the content resides and edit it right there in place.
 
@@ -20,4 +20,4 @@ If the page has the layout for multiple panes, which will allows for three cente
 * Move to Content Pane: Moves the module to the central column.
 * Move to Bottom Pane: Moves the module to the pane at the bottom of the page.
 
-![moving-menu](moving-menu.png)
+![moving-menu](./assets/moving-menu.png)

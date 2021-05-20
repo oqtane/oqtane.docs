@@ -26,111 +26,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "admin/Modules/adding-module.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/Modules/adding-module.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "admin/Modules/adding-modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/Modules/adding-modules.html",
-          "hash": "ufkUyzWhQvRqF7r/U2P4bw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/Modules/content-pane.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/Modules/content-pane.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/Modules/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/Modules/index.html",
-          "hash": "2Q48cq5Ou8SymnuzV5fJFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/Modules/installing-modules-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/Modules/installing-modules-2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/Modules/installing-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/Modules/installing-modules.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/Modules/moving-menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/Modules/moving-menu.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/Modules/pencil.PNG",
-      "output": {
-        "resource": {
-          "relative_path": "admin/Modules/pencil.PNG"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/Modules/working-with-modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/Modules/working-with-modules.html",
-          "hash": "U43Wu+wA1Nm+2ybiUSUB5w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "admin/admin-dashboard/assets/add-page.png",
       "output": {
         "resource": {
@@ -715,6 +610,111 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "admin/modules/adding-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/modules/adding-modules.html",
+          "hash": "58wEb3KEpy6IX2PHKjKB6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/modules/assets/adding-module.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/modules/assets/adding-module.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/modules/assets/content-pane.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/modules/assets/content-pane.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/modules/assets/installing-modules-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/modules/assets/installing-modules-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/modules/assets/installing-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/modules/assets/installing-modules.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/modules/assets/moving-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/modules/assets/moving-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/modules/assets/pencil.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/modules/assets/pencil.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/modules/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/modules/index.html",
+          "hash": "VoxgUEwHs3Tnit8hhbOvHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/modules/working-with-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/modules/working-with-modules.html",
+          "hash": "5To5S8J0UjpV72Yek1TWJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "admin/site-administration/assets/admin-dash.png",
       "output": {
@@ -788,7 +788,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/toc.html",
-          "hash": "Kb5ycLd7uPLQPaSlWxfu2w=="
+          "hash": "Fa4Hdwb48CU5LFJsfrGmSQ=="
         }
       },
       "is_incremental": false,
