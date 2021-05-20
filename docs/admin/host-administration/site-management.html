@@ -13,9 +13,9 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Profile Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+    <title>Site Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Profile Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="title" content="Site Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../../layout/images/favicon.png">
@@ -97,27 +97,29 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="profile-management">Profile Management</h1>
+<h1 id="site-management">Site Management</h1>
 
-<p>The profile manager exposes one of the more powerful and under-appreciated features that Oqtane has to offer. The profile manager expose to you a few features, but the primary feature is the profile editor, which allows you to customize completely the profile fields that a user account has in nearly every way possible. This is the backbone of all of the user profile features in Oqtane.
-The Oqtane profile manager allows for a user to specify more things about themselves than the typical information from a basic user account. Fields from the profile can be made to be required upon making an account such as making a name or address a required field.
-<img src="assets/profile-management.png" alt="profile-management">
-The profile page has an add profile button at the top of its page which includes:</p>
+<p>Oqtane provides the ability to have multiple sites at you disposal within the singular Oqtane application. The Site Management page provides an inventory of all the sites in a Oqtane instance and quick access to the Site Settings functionality for each. Deleting your sites is permanent! So it should not be done unless you are certain you want to delete this site. The options to add and edit the set has a few options:</p>
+<p><img src="assets/site-management.png" alt="site-managemnt"></p>
 <ul>
-<li>Name: The name of the profile item as it would be accessible in the <a href="../host-administration/sql-management.html">database</a>.</li>
-<li>Title: The title of the field displayed to the user.</li>
-<li>Description: Enter a description for the profile that will be what shows up for the help icon for the field.</li>
-<li>Category: The name for a grouping of fields such as the name or address headings that are by default included in the profile tab above their respective groupings of fields.</li>
-<li>Order: Choose the spot where in the list of profile fields thatb this one will appear with 0 being the first position.</li>
-<li>Lenth: The maximum length that can be input into this field, with a 0 for unlimited length.</li>
-<li>Default Value: The value that will be put into this field if the user doesn&#39;t enter anything into it.</li>
-<li>Options: Has the ability to create a list of items that can be selected and is enter by a list with commas in between the items (a,b,c).</li>
-<li>Required?: Specify whether or not the field is required upon the creation of a new account.</li>
-<li>Private: Specify whether it should be seen by regular user or should just been seen by administrators.
-<img src="assets/add-profile.png" alt="add-profile"></li>
+<li>Site Name: This field is what the site will be called.</li>
+<li>Aliases: This is what the address of the site is that is being created adn can create websites under the default top level website, by using a / forward slash with the a name you want under the top level website.</li>
+<li>Default Theme: Choose the theme, which is the colors and styles that will be the default for pages created on this website.</li>
+<li>Default Layout: Choose how many content panes you want to have on a page by default.</li>
+<li>Default Container: Choose if you want a title header for your modules on the site by default.</li>
+<li>Site Template: Select if you want a template for your site or no template for your site.</li>
+<li>Tenant: Select the tenant for the site, which is the database that will be used for the site.<ul>
+<li>If you want to create a new tenant or database then you will have to select the &quot;create a new tenant&quot; option which will drop down with another menu that allows for a new tenant to be created, this menu includes:</li>
+<li>Name: This is the name for the new tenant on the site, that you will be creating and what will be displayed when selecting tenants in the future.</li>
+<li>Database Type: Choose if you would like the database to have a local database, which will create a Microsoft SQL database on your local database on yur system, and an SQL server which creates a that is linked to an SQL server.</li>
+<li>Server: This is the location of where the server where the database will be located and a default value is provided for a local database.</li>
+<li>Database: This is the name that is initialized for the database inside of the server and a default value is provided for a local database.</li>
+<li>Integraded Security: Choose if you want the host superuser for the site to have the same credentials (username and password) as the database&#39;s root account.</li>
+<li>Host Username: This is the username of the super user host account that will be created for the site, it will also be the database&#39;s root username if integrated security is set as true.</li>
+<li>Hosts Password: This is the super user host account&#39;s password, it will also be the database&#39;s root account password if integrated security is set as true.</li>
 </ul>
-<p>There is also the option to edit or delete any of the fields that have already been created with edit and delete buttons on each item in the list of profile fields.
-<img src="assets/edit-profile.png" alt="edit-profile"></p>
+</li>
+</ul>
 </article>
           </div>
           
@@ -126,7 +128,7 @@ The profile page has an add profile button at the top of its page which includes
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/admin-dashboard/profile-management.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/admin/host-administration/site-management.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

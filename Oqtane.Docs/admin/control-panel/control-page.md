@@ -22,7 +22,7 @@ The fields which exist in the page management window are the:
 
 >#### Appearance
 >Title: The name that is displayed on the web page's tab.
->Theme: The theme that the web page will take on from a selection of styles and colors that can be downloaded by the host user in the [theme manager](../HostAdministration/theme-management.md).
+>Theme: The theme that the web page will take on from a selection of styles and colors that can be downloaded by the host user in the [theme manager](../host-administration/theme-management.md).
 >Layout: The amount of content panes that will be available. Which are basically how many columns will be available to have content and modules inserted inside of.
 >Default Container: Choose the layout of modules for the page, like hw the titles typically displayed above the modules will be.
 >Icon: Input a favicon address or other icon address to include an icon beside the name of your page.

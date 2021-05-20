@@ -4,7 +4,7 @@ The profile manager exposes one of the more powerful and under-appreciated featu
 The Oqtane profile manager allows for a user to specify more things about themselves than the typical information from a basic user account\. Fields from the profile can be made to be required upon making an account such as making a name or address a required field\.
 ![profile-management](./assets/profile-management.png)
 The profile page has an add profile button at the top of its page which includes:
-* Name: The name of the profile item as it would be accessible in the [database](../HostAdministration/sql-management.md)\.
+* Name: The name of the profile item as it would be accessible in the [database](../host-administration/sql-management.md)\.
 * Title: The title of the field displayed to the user\.
 * Description: Enter a description for the profile that will be what shows up for the help icon for the field\.
 * Category: The name for a grouping of fields such as the name or address headings that are by default included in the profile tab above their respective groupings of fields\.

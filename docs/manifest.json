@@ -13,191 +13,6 @@
       "is_incremental": false
     },
     {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/edit-jobs.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/edit-jobs.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/event-function.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/event-function.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/event-level.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/event-level.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/event-log.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/event-log.html",
-          "hash": "Ex4Cli2VfjavCE8nRT5pqA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/index.html",
-          "hash": "RfKhDk5jiLxruB1ysQTsQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/module-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/module-management.html",
-          "hash": "A28JemsOvCo2Gnm0UO+0UQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/module-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/module-management.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/scheduled-jobs.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/scheduled-jobs.html",
-          "hash": "fD4i/N4QHpzAcKGUZRNoFg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/site-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/site-management.html",
-          "hash": "S0v2iS814F+4v7luM5u3eA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/site-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/site-management.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/sql-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/sql-management.html",
-          "hash": "SNdA/USROM84sP/AvVVHmA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/sql-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/sql-management.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/system-info.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/system-info.html",
-          "hash": "bB/20lk7zX3q3PFFE599JA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/system-update.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/system-update.html",
-          "hash": "Z/nm277FLC4FoTAF0n9YZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/HostAdministration/theme-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/HostAdministration/theme-management.html",
-          "hash": "6afC6nj+w0XQQjwJ2tS+ag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/HostAdministration/theme-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/HostAdministration/theme-management.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "admin/Installation/index.md",
       "output": {
@@ -611,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/admin-dashboard/profile-management.html",
-          "hash": "ALcSaXmV58JyhMBIOWiCbQ=="
+          "hash": "2hHEvW5zvhulwt1Cey0/bA=="
         }
       },
       "is_incremental": false,
@@ -737,7 +552,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/control-panel/control-page.html",
-          "hash": "gDy27XMSpRBcxPN68VWywA=="
+          "hash": "91oh0/jufDP3lh4c/RhPHg=="
         }
       },
       "is_incremental": false,
@@ -771,6 +586,191 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/edit-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/edit-jobs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/event-function.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/event-function.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/event-level.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/event-level.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/module-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/module-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/site-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/site-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/sql-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/sql-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "admin/host-administration/assets/theme-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "admin/host-administration/assets/theme-management.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/event-log.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/event-log.html",
+          "hash": "2pIDqRkiO7eaYJIRrxnfmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/index.html",
+          "hash": "HcYg9DdNhdD+nrGJxETH8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/module-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/module-management.html",
+          "hash": "ep9bcb4mKQmemmdiLjW+MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/scheduled-jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/scheduled-jobs.html",
+          "hash": "/JUHbDDWSLnqtg22SfIrdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/site-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/site-management.html",
+          "hash": "Iuj9xNgpN2c3usaTjiprsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/sql-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/sql-management.html",
+          "hash": "bbG21yiUOGY5axcSjZfG9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/system-info.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/system-info.html",
+          "hash": "RyXrjH9HBCBvIiA/wvlL4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/system-update.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/system-update.html",
+          "hash": "+5fiiBia6zkkbjfGfqtnNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "admin/host-administration/theme-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/theme-management.html",
+          "hash": "8J49eQ1ewTK5N4vHhpsuJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/index.md",
       "output": {
@@ -788,7 +788,7 @@
       "output": {
         ".html": {
           "relative_path": "admin/toc.html",
-          "hash": "dIsN65zYuRm73WkveLQW1A=="
+          "hash": "q2LGRWjcPafPAIfY6hQehw=="
         }
       },
       "is_incremental": false,

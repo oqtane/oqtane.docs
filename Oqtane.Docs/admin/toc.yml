@@ -15,8 +15,8 @@
   homepage: Modules/
 
 - name: Host Administration
-  href: HostAdministration/toc.yml
-  homepage: HostAdministration/
+  href: host-administration/toc.yml
+  homepage: host-administration/
 
 - name: Admin Dashboard
   href: admin-dashboard/toc.yml
