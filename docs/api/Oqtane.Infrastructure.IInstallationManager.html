@@ -115,18 +115,48 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_IInstallationManager_InstallPackages_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_IInstallationManager_InstallPackages.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.IInstallationManager.InstallPackages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/IInstallationManager.cs/#L5">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_IInstallationManager_InstallPackages_" data-uid="Oqtane.Infrastructure.IInstallationManager.InstallPackages*"></a>
-  <h4 id="Oqtane_Infrastructure_IInstallationManager_InstallPackages_System_String_" data-uid="Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)">InstallPackages(String)</h4>
+  <h4 id="Oqtane_Infrastructure_IInstallationManager_InstallPackages" data-uid="Oqtane.Infrastructure.IInstallationManager.InstallPackages">InstallPackages()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void InstallPackages(string folders)</code></pre>
+    <pre><code class="lang-csharp hljs">void InstallPackages()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_IInstallationManager_RestartApplication.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.IInstallationManager.RestartApplication%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/IInstallationManager.cs/#L8">View Source</a>
+  </span>
+  <a id="Oqtane_Infrastructure_IInstallationManager_RestartApplication_" data-uid="Oqtane.Infrastructure.IInstallationManager.RestartApplication*"></a>
+  <h4 id="Oqtane_Infrastructure_IInstallationManager_RestartApplication" data-uid="Oqtane.Infrastructure.IInstallationManager.RestartApplication">RestartApplication()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RestartApplication()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_IInstallationManager_UninstallPackage_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.IInstallationManager.UninstallPackage(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/IInstallationManager.cs/#L6">View Source</a>
+  </span>
+  <a id="Oqtane_Infrastructure_IInstallationManager_UninstallPackage_" data-uid="Oqtane.Infrastructure.IInstallationManager.UninstallPackage*"></a>
+  <h4 id="Oqtane_Infrastructure_IInstallationManager_UninstallPackage_System_String_" data-uid="Oqtane.Infrastructure.IInstallationManager.UninstallPackage(System.String)">UninstallPackage(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool UninstallPackage(string PackageName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,32 +170,32 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">folders</span></td>
+        <td><span class="parametername">PackageName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_IInstallationManager_RestartApplication.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.IInstallationManager.RestartApplication%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/IInstallationManager.cs/#L7">View Source</a>
-  </span>
-  <a id="Oqtane_Infrastructure_IInstallationManager_RestartApplication_" data-uid="Oqtane.Infrastructure.IInstallationManager.RestartApplication*"></a>
-  <h4 id="Oqtane_Infrastructure_IInstallationManager_RestartApplication" data-uid="Oqtane.Infrastructure.IInstallationManager.RestartApplication">RestartApplication()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void RestartApplication()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_IInstallationManager_UpgradeFramework.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.IInstallationManager.UpgradeFramework%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/IInstallationManager.cs/#L6">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/IInstallationManager.cs/#L7">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_IInstallationManager_UpgradeFramework_" data-uid="Oqtane.Infrastructure.IInstallationManager.UpgradeFramework*"></a>
   <h4 id="Oqtane_Infrastructure_IInstallationManager_UpgradeFramework" data-uid="Oqtane.Infrastructure.IInstallationManager.UpgradeFramework">UpgradeFramework()</h4>

@@ -143,18 +143,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.%23ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder%2COqtane.Interfaces.IOqtaneDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.%23ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder%2COqtane.Databases.Interfaces.IDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L17">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor*"></a>
-  <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)">BaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)</h4>
+  <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)">BaseEntityBuilder(MigrationBuilder, IDatabase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected BaseEntityBuilder(MigrationBuilder migrationBuilder, IOqtaneDatabase database)</code></pre>
+    <pre><code class="lang-csharp hljs">protected BaseEntityBuilder(MigrationBuilder migrationBuilder, IDatabase database)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,7 +172,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Oqtane.Interfaces.IOqtaneDatabase.html">IOqtaneDatabase</a></td>
+        <td><a class="xref" href="Oqtane.Databases.Interfaces.IDatabase.html">IDatabase</a></td>
         <td><span class="parametername">database</span></td>
         <td></td>
       </tr>
@@ -185,7 +185,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ActiveDatabase.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.ActiveDatabase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L23">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L24">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ActiveDatabase_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.ActiveDatabase*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ActiveDatabase" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.ActiveDatabase">ActiveDatabase</h4>
@@ -193,7 +193,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected IOqtaneDatabase ActiveDatabase { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected IDatabase ActiveDatabase { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,7 +205,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oqtane.Interfaces.IOqtaneDatabase.html">IOqtaneDatabase</a></td>
+        <td><a class="xref" href="Oqtane.Databases.Interfaces.IDatabase.html">IDatabase</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -215,7 +215,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_EntityTableName.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.EntityTableName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L27">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L28">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_EntityTableName_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.EntityTableName*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_EntityTableName" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.EntityTableName">EntityTableName</h4>
@@ -245,7 +245,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ForeignKeys.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.ForeignKeys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L31">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L32">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ForeignKeys_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.ForeignKeys*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_ForeignKeys" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.ForeignKeys">ForeignKeys</h4>
@@ -275,7 +275,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_PrimaryKey.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.PrimaryKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L29">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L30">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_PrimaryKey_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.PrimaryKey*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_PrimaryKey" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.PrimaryKey">PrimaryKey</h4>
@@ -307,7 +307,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L41">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L42">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddAutoIncrementColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddAutoIncrementColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)">AddAutoIncrementColumn(ColumnsBuilder, String)</h4>
@@ -359,7 +359,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddBooleanColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L51">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L52">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddBooleanColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddBooleanColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String,System.Boolean)">AddBooleanColumn(ColumnsBuilder, String, Boolean)</h4>
@@ -416,7 +416,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddBooleanColumn(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L46">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L47">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddBooleanColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddBooleanColumn_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddBooleanColumn(System.String)">AddBooleanColumn(String)</h4>
@@ -448,7 +448,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddDateTimeColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L61">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L62">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String,System.Boolean)">AddDateTimeColumn(ColumnsBuilder, String, Boolean)</h4>
@@ -505,7 +505,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddDateTimeColumn(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L56">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L57">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeColumn_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeColumn(System.String,System.Boolean)">AddDateTimeColumn(String, Boolean)</h4>
@@ -542,7 +542,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddDateTimeOffsetColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L71">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L72">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeOffsetColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeOffsetColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String,System.Boolean)">AddDateTimeOffsetColumn(ColumnsBuilder, String, Boolean)</h4>
@@ -599,7 +599,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddDateTimeOffsetColumn(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L66">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L67">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeOffsetColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddDateTimeOffsetColumn_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddDateTimeOffsetColumn(System.String,System.Boolean)">AddDateTimeOffsetColumn(String, Boolean)</h4>
@@ -636,7 +636,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_ForeignKey__0__.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddForeignKey(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder%7B%600%7D%2COqtane.Migrations.ForeignKey%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L175">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L176">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_ForeignKey__0__" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder{`0},Oqtane.Migrations.ForeignKey{`0})">AddForeignKey(CreateTableBuilder&lt;TEntityBuilder&gt;, ForeignKey&lt;TEntityBuilder&gt;)</h4>
@@ -670,10 +670,42 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddForeignKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L186">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey*"></a>
+  <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey(System.String)">AddForeignKey(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddForeignKey(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddIndex(System.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L125">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L126">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIndex*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_System_String_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIndex(System.String,System.String,System.Boolean)">AddIndex(String, String, Boolean)</h4>
@@ -719,7 +751,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_System_String_System_String___System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddIndex(System.String%2CSystem.String%5B%5D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L140">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L141">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIndex*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIndex_System_String_System_String___System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIndex(System.String,System.String[],System.Boolean)">AddIndex(String, String[], Boolean)</h4>
@@ -765,7 +797,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddIntegerColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L81">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L82">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIntegerColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIntegerColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String,System.Boolean)">AddIntegerColumn(ColumnsBuilder, String, Boolean)</h4>
@@ -822,7 +854,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddIntegerColumn(System.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L76">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L77">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIntegerColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddIntegerColumn_System_String_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddIntegerColumn(System.String,System.Boolean)">AddIntegerColumn(String, Boolean)</h4>
@@ -859,7 +891,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddMaxStringColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L91">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L92">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddMaxStringColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Boolean_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddMaxStringColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String,System.Boolean,System.Boolean)">AddMaxStringColumn(ColumnsBuilder, String, Boolean, Boolean)</h4>
@@ -921,7 +953,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddMaxStringColumn(System.String%2CSystem.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L86">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L87">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddMaxStringColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddMaxStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddMaxStringColumn(System.String,System.Int32,System.Boolean,System.Boolean)">AddMaxStringColumn(String, Int32, Boolean, Boolean)</h4>
@@ -968,7 +1000,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddPrimaryKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_PrimaryKey__0__.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddPrimaryKey(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder%7B%600%7D%2COqtane.Migrations.PrimaryKey%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L170">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L171">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddPrimaryKey_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddPrimaryKey*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddPrimaryKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_PrimaryKey__0__" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddPrimaryKey(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder{`0},Oqtane.Migrations.PrimaryKey{`0})">AddPrimaryKey(CreateTableBuilder&lt;TEntityBuilder&gt;, PrimaryKey&lt;TEntityBuilder&gt;)</h4>
@@ -1005,7 +1037,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddStringColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder%2CSystem.String%2CSystem.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L101">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L102">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddStringColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_System_Int32_System_Boolean_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddStringColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String,System.Int32,System.Boolean,System.Boolean)">AddStringColumn(ColumnsBuilder, String, Int32, Boolean, Boolean)</h4>
@@ -1072,7 +1104,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AddStringColumn(System.String%2CSystem.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L96">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L97">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddStringColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddStringColumn(System.String,System.Int32,System.Boolean,System.Boolean)">AddStringColumn(String, Int32, Boolean, Boolean)</h4>
@@ -1119,7 +1151,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AlterStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.AlterStringColumn(System.String%2CSystem.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L106">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L107">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AlterStringColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AlterStringColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AlterStringColumn_System_String_System_Int32_System_Boolean_System_Boolean_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AlterStringColumn(System.String,System.Int32,System.Boolean,System.Boolean)">AlterStringColumn(String, Int32, Boolean, Boolean)</h4>
@@ -1166,7 +1198,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_BuildTable_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.BuildTable(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L25">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L26">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_BuildTable_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.BuildTable*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_BuildTable_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.BuildTable(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)">BuildTable(ColumnsBuilder)</h4>
@@ -1213,7 +1245,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Create.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.Create%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L201">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L215">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Create_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.Create*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Create" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.Create">Create()</h4>
@@ -1229,7 +1261,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DeleteFromTable_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.DeleteFromTable(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L217">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L231">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DeleteFromTable_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DeleteFromTable*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DeleteFromTable_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DeleteFromTable(System.String)">DeleteFromTable(String)</h4>
@@ -1261,7 +1293,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Drop.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.Drop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L209">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L223">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Drop_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.Drop*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_Drop" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.Drop">Drop()</h4>
@@ -1277,7 +1309,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropColumn_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.DropColumn(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L111">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L112">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropColumn_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropColumn(System.String)">DropColumn(String)</h4>
@@ -1309,7 +1341,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_Oqtane_Migrations_ForeignKey__0__.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.DropForeignKey(Oqtane.Migrations.ForeignKey%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L185">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L199">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropForeignKey*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_Oqtane_Migrations_ForeignKey__0__" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropForeignKey(Oqtane.Migrations.ForeignKey{`0})">DropForeignKey(ForeignKey&lt;TEntityBuilder&gt;)</h4>
@@ -1341,7 +1373,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.DropForeignKey(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L190">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L204">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropForeignKey*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropForeignKey(System.String)">DropForeignKey(String)</h4>
@@ -1373,7 +1405,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropIndex_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.DropIndex(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L153">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L154">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropIndex_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropIndex*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropIndex_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.DropIndex(System.String)">DropIndex(String)</h4>
@@ -1407,7 +1439,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_UpdateColumn_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601.UpdateColumn(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L228">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L242">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_UpdateColumn_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.UpdateColumn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_UpdateColumn_System_String_System_String_System_String_" data-uid="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.UpdateColumn(System.String,System.String,System.String)">UpdateColumn(String, String, String)</h4>
@@ -1455,7 +1487,7 @@
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.BaseEntityBuilder%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/BaseEntityBuilder.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

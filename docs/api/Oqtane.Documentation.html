@@ -103,39 +103,7 @@
   <h1 id="Oqtane_Documentation" data-uid="Oqtane.Documentation" class="text-break">Namespace Oqtane.Documentation
   </h1>
   <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"><p>This namespace contains attributes like <code>PublicApi</code> which mark code as public, private, internal, etc. 
-Depending on what attributes you add to your code it will appear in the generated docs - and possibly have a warning or something attached. </p>
-<p>Typical use:</p>
-<pre><code class="lang-cs">[PublicApi]
-public class YourClass {
-    // this will be documented without any special comments
-    // because we&#39;re not using the &lt;summary&gt; tag
-    public string Name;
-
-    /// &lt;summary&gt;
-    /// This will be documented with this text in the summary
-    /// &lt;/summary&gt;
-    public string Something;
-
-    /// &lt;summary&gt;
-    /// This won&#39;t appear in the public documentation
-    /// &lt;/summary&gt;
-    [PrivateApi(&quot;Don&#39;t publish this - should only be used internally&quot;)]
-    public string InternalSpecialName;
-
-    /// &lt;summary&gt;
-    /// This will appear in the docs, but the Work-In-Progress will be clearly visible
-    /// &lt;/summary&gt;
-    [WorkInProgressApi(&quot;We&#39;re not done yet, may change&quot;)]
-    public string NotDoneYet;
-
-    /// &lt;summary&gt;
-    /// This will appear in the docs, but with a warning
-    /// &lt;/summary&gt;
-    [InternalApi_DoNotUse_MayChangeWithoutNotice(&quot;This may help you, but please don&#39;t use it&quot;)]
-    public string YouShouldKnowAboutThisButNotUseIt;
-}
-</code></pre></div>
+  <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
@@ -163,9 +131,6 @@ You can apply it to anything, but usually you will only need it on classes. </p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/apidoc/Documentation/index.md/#L2" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

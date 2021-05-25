@@ -1149,6 +1149,12 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.ModuleControllerBase.ModuleControllerBase
   nameWithType: ModuleControllerBase.ModuleControllerBase
+- uid: Oqtane.Controllers.ModuleControllerBase._authEntityId
+  name: _authEntityId
+  href: api/Oqtane.Controllers.ModuleControllerBase.html#Oqtane_Controllers_ModuleControllerBase__authEntityId
+  commentId: F:Oqtane.Controllers.ModuleControllerBase._authEntityId
+  fullName: Oqtane.Controllers.ModuleControllerBase._authEntityId
+  nameWithType: ModuleControllerBase._authEntityId
 - uid: Oqtane.Controllers.ModuleControllerBase._entityId
   name: _entityId
   href: api/Oqtane.Controllers.ModuleControllerBase.html#Oqtane_Controllers_ModuleControllerBase__entityId
@@ -1405,12 +1411,12 @@ references:
   commentId: T:Oqtane.Controllers.PageController
   fullName: Oqtane.Controllers.PageController
   nameWithType: PageController
-- uid: Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
-  name: PageController(IPageRepository, IModuleRepository, IPageModuleRepository, ISettingRepository, IUserPermissions, ITenantManager, ISyncManager, ILogManager)
-  href: api/Oqtane.Controllers.PageController.html#Oqtane_Controllers_PageController__ctor_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_ISettingRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_
-  commentId: M:Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
-  fullName: Oqtane.Controllers.PageController.PageController(Oqtane.Repository.IPageRepository, Oqtane.Repository.IModuleRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Repository.ISettingRepository, Oqtane.Security.IUserPermissions, Oqtane.Infrastructure.ITenantManager, Oqtane.Infrastructure.ISyncManager, Oqtane.Infrastructure.ILogManager)
-  nameWithType: PageController.PageController(IPageRepository, IModuleRepository, IPageModuleRepository, ISettingRepository, IUserPermissions, ITenantManager, ISyncManager, ILogManager)
+- uid: Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IPermissionRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  name: PageController(IPageRepository, IModuleRepository, IPageModuleRepository, IPermissionRepository, ISettingRepository, IUserPermissions, ITenantManager, ISyncManager, ILogManager)
+  href: api/Oqtane.Controllers.PageController.html#Oqtane_Controllers_PageController__ctor_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_IPermissionRepository_Oqtane_Repository_ISettingRepository_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_
+  commentId: M:Oqtane.Controllers.PageController.#ctor(Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IPermissionRepository,Oqtane.Repository.ISettingRepository,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager)
+  fullName: Oqtane.Controllers.PageController.PageController(Oqtane.Repository.IPageRepository, Oqtane.Repository.IModuleRepository, Oqtane.Repository.IPageModuleRepository, Oqtane.Repository.IPermissionRepository, Oqtane.Repository.ISettingRepository, Oqtane.Security.IUserPermissions, Oqtane.Infrastructure.ITenantManager, Oqtane.Infrastructure.ISyncManager, Oqtane.Infrastructure.ILogManager)
+  nameWithType: PageController.PageController(IPageRepository, IModuleRepository, IPageModuleRepository, IPermissionRepository, ISettingRepository, IUserPermissions, ITenantManager, ISyncManager, ILogManager)
 - uid: Oqtane.Controllers.PageController.#ctor*
   name: PageController
   href: api/Oqtane.Controllers.PageController.html#Oqtane_Controllers_PageController__ctor_
@@ -2563,19 +2569,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Database.MySQL.MySQLDatabase.Provider
   nameWithType: MySQLDatabase.Provider
-- uid: Oqtane.Database.MySQL.MySQLDatabase.TypeName
-  name: TypeName
-  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_TypeName
-  commentId: P:Oqtane.Database.MySQL.MySQLDatabase.TypeName
-  fullName: Oqtane.Database.MySQL.MySQLDatabase.TypeName
-  nameWithType: MySQLDatabase.TypeName
-- uid: Oqtane.Database.MySQL.MySQLDatabase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_TypeName_
-  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Database.MySQL.MySQLDatabase.TypeName
-  nameWithType: MySQLDatabase.TypeName
 - uid: Oqtane.Database.MySQL.MySQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
   name: UseDatabase(DbContextOptionsBuilder, String)
   href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
@@ -2720,19 +2713,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName
   nameWithType: PostgreSQLDatabase.RewriteName
-- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.TypeName
-  name: TypeName
-  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_TypeName
-  commentId: P:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.TypeName
-  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.TypeName
-  nameWithType: PostgreSQLDatabase.TypeName
-- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_TypeName_
-  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.TypeName
-  nameWithType: PostgreSQLDatabase.TypeName
 - uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
   name: UpdateIdentityStoreTableNames(ModelBuilder)
   href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_UpdateIdentityStoreTableNames_Microsoft_EntityFrameworkCore_ModelBuilder_
@@ -2877,19 +2857,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Database.Sqlite.SqliteDatabase.Provider
   nameWithType: SqliteDatabase.Provider
-- uid: Oqtane.Database.Sqlite.SqliteDatabase.TypeName
-  name: TypeName
-  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_TypeName
-  commentId: P:Oqtane.Database.Sqlite.SqliteDatabase.TypeName
-  fullName: Oqtane.Database.Sqlite.SqliteDatabase.TypeName
-  nameWithType: SqliteDatabase.TypeName
-- uid: Oqtane.Database.Sqlite.SqliteDatabase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_TypeName_
-  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Database.Sqlite.SqliteDatabase.TypeName
-  nameWithType: SqliteDatabase.TypeName
 - uid: Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
   name: UseDatabase(DbContextOptionsBuilder, String)
   href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
@@ -2934,38 +2901,6 @@ references:
   commentId: N:Oqtane.Database.SqlServer
   fullName: Oqtane.Database.SqlServer
   nameWithType: Oqtane.Database.SqlServer
-- uid: Oqtane.Database.SqlServer.LocalDbDatabase
-  name: LocalDbDatabase
-  href: api/Oqtane.Database.SqlServer.LocalDbDatabase.html
-  commentId: T:Oqtane.Database.SqlServer.LocalDbDatabase
-  fullName: Oqtane.Database.SqlServer.LocalDbDatabase
-  nameWithType: LocalDbDatabase
-- uid: Oqtane.Database.SqlServer.LocalDbDatabase.#ctor
-  name: LocalDbDatabase()
-  href: api/Oqtane.Database.SqlServer.LocalDbDatabase.html#Oqtane_Database_SqlServer_LocalDbDatabase__ctor
-  commentId: M:Oqtane.Database.SqlServer.LocalDbDatabase.#ctor
-  fullName: Oqtane.Database.SqlServer.LocalDbDatabase.LocalDbDatabase()
-  nameWithType: LocalDbDatabase.LocalDbDatabase()
-- uid: Oqtane.Database.SqlServer.LocalDbDatabase.#ctor*
-  name: LocalDbDatabase
-  href: api/Oqtane.Database.SqlServer.LocalDbDatabase.html#Oqtane_Database_SqlServer_LocalDbDatabase__ctor_
-  commentId: Overload:Oqtane.Database.SqlServer.LocalDbDatabase.#ctor
-  isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.LocalDbDatabase.LocalDbDatabase
-  nameWithType: LocalDbDatabase.LocalDbDatabase
-- uid: Oqtane.Database.SqlServer.LocalDbDatabase.TypeName
-  name: TypeName
-  href: api/Oqtane.Database.SqlServer.LocalDbDatabase.html#Oqtane_Database_SqlServer_LocalDbDatabase_TypeName
-  commentId: P:Oqtane.Database.SqlServer.LocalDbDatabase.TypeName
-  fullName: Oqtane.Database.SqlServer.LocalDbDatabase.TypeName
-  nameWithType: LocalDbDatabase.TypeName
-- uid: Oqtane.Database.SqlServer.LocalDbDatabase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Database.SqlServer.LocalDbDatabase.html#Oqtane_Database_SqlServer_LocalDbDatabase_TypeName_
-  commentId: Overload:Oqtane.Database.SqlServer.LocalDbDatabase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.LocalDbDatabase.TypeName
-  nameWithType: LocalDbDatabase.TypeName
 - uid: Oqtane.Database.SqlServer.SqlServerDatabase
   name: SqlServerDatabase
   href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html
@@ -2985,128 +2920,77 @@ references:
   isSpec: "True"
   fullName: Oqtane.Database.SqlServer.SqlServerDatabase.SqlServerDatabase
   nameWithType: SqlServerDatabase.SqlServerDatabase
-- uid: Oqtane.Database.SqlServer.SqlServerDatabase.TypeName
-  name: TypeName
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_TypeName
-  commentId: P:Oqtane.Database.SqlServer.SqlServerDatabase.TypeName
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.TypeName
-  nameWithType: SqlServerDatabase.TypeName
-- uid: Oqtane.Database.SqlServer.SqlServerDatabase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_TypeName_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.TypeName
-  nameWithType: SqlServerDatabase.TypeName
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase
-  name: SqlServerDatabaseBase
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html
-  commentId: T:Oqtane.Database.SqlServer.SqlServerDatabaseBase
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase
-  nameWithType: SqlServerDatabaseBase
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.#ctor(System.String,System.String)
-  name: SqlServerDatabaseBase(String, String)
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase__ctor_System_String_System_String_
-  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabaseBase.#ctor(System.String,System.String)
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.SqlServerDatabaseBase(System.String, System.String)
-  nameWithType: SqlServerDatabaseBase.SqlServerDatabaseBase(String, String)
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.#ctor*
-  name: SqlServerDatabaseBase
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase__ctor_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabaseBase.#ctor
-  isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.SqlServerDatabaseBase
-  nameWithType: SqlServerDatabaseBase.SqlServerDatabaseBase
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
   name: AddAutoIncrementColumn(ColumnsBuilder, String)
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
-  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, System.String)
-  nameWithType: SqlServerDatabaseBase.AddAutoIncrementColumn(ColumnsBuilder, String)
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.AddAutoIncrementColumn*
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, System.String)
+  nameWithType: SqlServerDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn*
   name: AddAutoIncrementColumn
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_AddAutoIncrementColumn_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabaseBase.AddAutoIncrementColumn
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn
   isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.AddAutoIncrementColumn
-  nameWithType: SqlServerDatabaseBase.AddAutoIncrementColumn
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteNonQuery(System.String,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn
+  nameWithType: SqlServerDatabase.AddAutoIncrementColumn
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(System.String,System.String)
   name: ExecuteNonQuery(String, String)
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_ExecuteNonQuery_System_String_System_String_
-  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteNonQuery(System.String,System.String)
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteNonQuery(System.String, System.String)
-  nameWithType: SqlServerDatabaseBase.ExecuteNonQuery(String, String)
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteNonQuery*
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(System.String,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(System.String, System.String)
+  nameWithType: SqlServerDatabase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery*
   name: ExecuteNonQuery
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_ExecuteNonQuery_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteNonQuery
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery
   isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteNonQuery
-  nameWithType: SqlServerDatabaseBase.ExecuteNonQuery
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteReader(System.String,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery
+  nameWithType: SqlServerDatabase.ExecuteNonQuery
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(System.String,System.String)
   name: ExecuteReader(String, String)
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_ExecuteReader_System_String_System_String_
-  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteReader(System.String,System.String)
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteReader(System.String, System.String)
-  nameWithType: SqlServerDatabaseBase.ExecuteReader(String, String)
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteReader*
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(System.String,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(System.String, System.String)
+  nameWithType: SqlServerDatabase.ExecuteReader(String, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader*
   name: ExecuteReader
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_ExecuteReader_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteReader
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteReader_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader
   isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.ExecuteReader
-  nameWithType: SqlServerDatabaseBase.ExecuteReader
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.Provider
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader
+  nameWithType: SqlServerDatabase.ExecuteReader
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.Provider
   name: Provider
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_Provider
-  commentId: P:Oqtane.Database.SqlServer.SqlServerDatabaseBase.Provider
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.Provider
-  nameWithType: SqlServerDatabaseBase.Provider
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.Provider*
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_Provider
+  commentId: P:Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  nameWithType: SqlServerDatabase.Provider
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.Provider*
   name: Provider
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_Provider_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabaseBase.Provider
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_Provider_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.Provider
   isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.Provider
-  nameWithType: SqlServerDatabaseBase.Provider
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  nameWithType: SqlServerDatabase.Provider
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
   name: UseDatabase(DbContextOptionsBuilder, String)
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
-  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
-  nameWithType: SqlServerDatabaseBase.UseDatabase(DbContextOptionsBuilder, String)
-- uid: Oqtane.Database.SqlServer.SqlServerDatabaseBase.UseDatabase*
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
+  nameWithType: SqlServerDatabase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase*
   name: UseDatabase
-  href: api/Oqtane.Database.SqlServer.SqlServerDatabaseBase.html#Oqtane_Database_SqlServer_SqlServerDatabaseBase_UseDatabase_
-  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabaseBase.UseDatabase
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_UseDatabase_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase
   isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.SqlServerDatabaseBase.UseDatabase
-  nameWithType: SqlServerDatabaseBase.UseDatabase
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase
+  nameWithType: SqlServerDatabase.UseDatabase
 - uid: Oqtane.Database.SqlServer.Tests
   name: Oqtane.Database.SqlServer.Tests
   href: api/Oqtane.Database.SqlServer.Tests.html
   commentId: N:Oqtane.Database.SqlServer.Tests
   fullName: Oqtane.Database.SqlServer.Tests
   nameWithType: Oqtane.Database.SqlServer.Tests
-- uid: Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests
-  name: LocalDbDatabaseTests
-  href: api/Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.html
-  commentId: T:Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests
-  fullName: Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests
-  nameWithType: LocalDbDatabaseTests
-- uid: Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.VerifyDatabaseTypeName
-  name: VerifyDatabaseTypeName()
-  href: api/Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.html#Oqtane_Database_SqlServer_Tests_LocalDbDatabaseTests_VerifyDatabaseTypeName
-  commentId: M:Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.VerifyDatabaseTypeName
-  fullName: Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.VerifyDatabaseTypeName()
-  nameWithType: LocalDbDatabaseTests.VerifyDatabaseTypeName()
-- uid: Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.VerifyDatabaseTypeName*
-  name: VerifyDatabaseTypeName
-  href: api/Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.html#Oqtane_Database_SqlServer_Tests_LocalDbDatabaseTests_VerifyDatabaseTypeName_
-  commentId: Overload:Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.VerifyDatabaseTypeName
-  isSpec: "True"
-  fullName: Oqtane.Database.SqlServer.Tests.LocalDbDatabaseTests.VerifyDatabaseTypeName
-  nameWithType: LocalDbDatabaseTests.VerifyDatabaseTypeName
 - uid: Oqtane.Database.SqlServer.Tests.SqlServerDatabaseTests
   name: SqlServerDatabaseTests
   href: api/Oqtane.Database.SqlServer.Tests.SqlServerDatabaseTests.html
@@ -3126,6 +3010,374 @@ references:
   isSpec: "True"
   fullName: Oqtane.Database.SqlServer.Tests.SqlServerDatabaseTests.VerifyDatabaseTypeName
   nameWithType: SqlServerDatabaseTests.VerifyDatabaseTypeName
+- uid: Oqtane.Databases
+  name: Oqtane.Databases
+  href: api/Oqtane.Databases.html
+  commentId: N:Oqtane.Databases
+  fullName: Oqtane.Databases
+  nameWithType: Oqtane.Databases
+- uid: Oqtane.Databases.DatabaseBase
+  name: DatabaseBase
+  href: api/Oqtane.Databases.DatabaseBase.html
+  commentId: T:Oqtane.Databases.DatabaseBase
+  fullName: Oqtane.Databases.DatabaseBase
+  nameWithType: DatabaseBase
+- uid: Oqtane.Databases.DatabaseBase.#ctor(System.String,System.String)
+  name: DatabaseBase(String, String)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase__ctor_System_String_System_String_
+  commentId: M:Oqtane.Databases.DatabaseBase.#ctor(System.String,System.String)
+  fullName: Oqtane.Databases.DatabaseBase.DatabaseBase(System.String, System.String)
+  nameWithType: DatabaseBase.DatabaseBase(String, String)
+- uid: Oqtane.Databases.DatabaseBase.#ctor*
+  name: DatabaseBase
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase__ctor_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.DatabaseBase
+  nameWithType: DatabaseBase.DatabaseBase
+- uid: Oqtane.Databases.DatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name: AddAutoIncrementColumn(ColumnsBuilder, String)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Databases.DatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  fullName: Oqtane.Databases.DatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, System.String)
+  nameWithType: DatabaseBase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Databases.DatabaseBase.AddAutoIncrementColumn*
+  name: AddAutoIncrementColumn
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.AddAutoIncrementColumn
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.AddAutoIncrementColumn
+  nameWithType: DatabaseBase.AddAutoIncrementColumn
+- uid: Oqtane.Databases.DatabaseBase.AssemblyName
+  name: AssemblyName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_AssemblyName
+  commentId: P:Oqtane.Databases.DatabaseBase.AssemblyName
+  fullName: Oqtane.Databases.DatabaseBase.AssemblyName
+  nameWithType: DatabaseBase.AssemblyName
+- uid: Oqtane.Databases.DatabaseBase.AssemblyName*
+  name: AssemblyName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_AssemblyName_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.AssemblyName
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.AssemblyName
+  nameWithType: DatabaseBase.AssemblyName
+- uid: Oqtane.Databases.DatabaseBase.ConcatenateSql(System.String[])
+  name: ConcatenateSql(String[])
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_ConcatenateSql_System_String___
+  commentId: M:Oqtane.Databases.DatabaseBase.ConcatenateSql(System.String[])
+  name.vb: ConcatenateSql(String())
+  fullName: Oqtane.Databases.DatabaseBase.ConcatenateSql(System.String[])
+  fullName.vb: Oqtane.Databases.DatabaseBase.ConcatenateSql(System.String())
+  nameWithType: DatabaseBase.ConcatenateSql(String[])
+  nameWithType.vb: DatabaseBase.ConcatenateSql(String())
+- uid: Oqtane.Databases.DatabaseBase.ConcatenateSql*
+  name: ConcatenateSql
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_ConcatenateSql_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.ConcatenateSql
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.ConcatenateSql
+  nameWithType: DatabaseBase.ConcatenateSql
+- uid: Oqtane.Databases.DatabaseBase.ExecuteNonQuery(System.String,System.String)
+  name: ExecuteNonQuery(String, String)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Databases.DatabaseBase.ExecuteNonQuery(System.String,System.String)
+  fullName: Oqtane.Databases.DatabaseBase.ExecuteNonQuery(System.String, System.String)
+  nameWithType: DatabaseBase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Databases.DatabaseBase.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.ExecuteNonQuery
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.ExecuteNonQuery
+  nameWithType: DatabaseBase.ExecuteNonQuery
+- uid: Oqtane.Databases.DatabaseBase.ExecuteReader(System.String,System.String)
+  name: ExecuteReader(String, String)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Databases.DatabaseBase.ExecuteReader(System.String,System.String)
+  fullName: Oqtane.Databases.DatabaseBase.ExecuteReader(System.String, System.String)
+  nameWithType: DatabaseBase.ExecuteReader(String, String)
+- uid: Oqtane.Databases.DatabaseBase.ExecuteReader*
+  name: ExecuteReader
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_ExecuteReader_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.ExecuteReader
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.ExecuteReader
+  nameWithType: DatabaseBase.ExecuteReader
+- uid: Oqtane.Databases.DatabaseBase.FriendlyName
+  name: FriendlyName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_FriendlyName
+  commentId: P:Oqtane.Databases.DatabaseBase.FriendlyName
+  fullName: Oqtane.Databases.DatabaseBase.FriendlyName
+  nameWithType: DatabaseBase.FriendlyName
+- uid: Oqtane.Databases.DatabaseBase.FriendlyName*
+  name: FriendlyName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_FriendlyName_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.FriendlyName
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.FriendlyName
+  nameWithType: DatabaseBase.FriendlyName
+- uid: Oqtane.Databases.DatabaseBase.Initialize(System.Type)
+  name: Initialize(Type)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_Initialize_System_Type_
+  commentId: M:Oqtane.Databases.DatabaseBase.Initialize(System.Type)
+  fullName: Oqtane.Databases.DatabaseBase.Initialize(System.Type)
+  nameWithType: DatabaseBase.Initialize(Type)
+- uid: Oqtane.Databases.DatabaseBase.Initialize*
+  name: Initialize
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_Initialize_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.Initialize
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.Initialize
+  nameWithType: DatabaseBase.Initialize
+- uid: Oqtane.Databases.DatabaseBase.Name
+  name: Name
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_Name
+  commentId: P:Oqtane.Databases.DatabaseBase.Name
+  fullName: Oqtane.Databases.DatabaseBase.Name
+  nameWithType: DatabaseBase.Name
+- uid: Oqtane.Databases.DatabaseBase.Name*
+  name: Name
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_Name_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.Name
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.Name
+  nameWithType: DatabaseBase.Name
+- uid: Oqtane.Databases.DatabaseBase.Provider
+  name: Provider
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_Provider
+  commentId: P:Oqtane.Databases.DatabaseBase.Provider
+  fullName: Oqtane.Databases.DatabaseBase.Provider
+  nameWithType: DatabaseBase.Provider
+- uid: Oqtane.Databases.DatabaseBase.Provider*
+  name: Provider
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_Provider_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.Provider
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.Provider
+  nameWithType: DatabaseBase.Provider
+- uid: Oqtane.Databases.DatabaseBase.RewriteName(System.String)
+  name: RewriteName(String)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_RewriteName_System_String_
+  commentId: M:Oqtane.Databases.DatabaseBase.RewriteName(System.String)
+  fullName: Oqtane.Databases.DatabaseBase.RewriteName(System.String)
+  nameWithType: DatabaseBase.RewriteName(String)
+- uid: Oqtane.Databases.DatabaseBase.RewriteName*
+  name: RewriteName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_RewriteName_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.RewriteName
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.RewriteName
+  nameWithType: DatabaseBase.RewriteName
+- uid: Oqtane.Databases.DatabaseBase.TypeName
+  name: TypeName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_TypeName
+  commentId: P:Oqtane.Databases.DatabaseBase.TypeName
+  fullName: Oqtane.Databases.DatabaseBase.TypeName
+  nameWithType: DatabaseBase.TypeName
+- uid: Oqtane.Databases.DatabaseBase.TypeName*
+  name: TypeName
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_TypeName_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.TypeName
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.TypeName
+  nameWithType: DatabaseBase.TypeName
+- uid: Oqtane.Databases.DatabaseBase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: UpdateIdentityStoreTableNames(ModelBuilder)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_UpdateIdentityStoreTableNames_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Oqtane.Databases.DatabaseBase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Oqtane.Databases.DatabaseBase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: DatabaseBase.UpdateIdentityStoreTableNames(ModelBuilder)
+- uid: Oqtane.Databases.DatabaseBase.UpdateIdentityStoreTableNames*
+  name: UpdateIdentityStoreTableNames
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_UpdateIdentityStoreTableNames_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.UpdateIdentityStoreTableNames
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.UpdateIdentityStoreTableNames
+  nameWithType: DatabaseBase.UpdateIdentityStoreTableNames
+- uid: Oqtane.Databases.DatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseDatabase(DbContextOptionsBuilder, String)
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Databases.DatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  fullName: Oqtane.Databases.DatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
+  nameWithType: DatabaseBase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Databases.DatabaseBase.UseDatabase*
+  name: UseDatabase
+  href: api/Oqtane.Databases.DatabaseBase.html#Oqtane_Databases_DatabaseBase_UseDatabase_
+  commentId: Overload:Oqtane.Databases.DatabaseBase.UseDatabase
+  isSpec: "True"
+  fullName: Oqtane.Databases.DatabaseBase.UseDatabase
+  nameWithType: DatabaseBase.UseDatabase
+- uid: Oqtane.Databases.Interfaces
+  name: Oqtane.Databases.Interfaces
+  href: api/Oqtane.Databases.Interfaces.html
+  commentId: N:Oqtane.Databases.Interfaces
+  fullName: Oqtane.Databases.Interfaces
+  nameWithType: Oqtane.Databases.Interfaces
+- uid: Oqtane.Databases.Interfaces.IDatabase
+  name: IDatabase
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html
+  commentId: T:Oqtane.Databases.Interfaces.IDatabase
+  fullName: Oqtane.Databases.Interfaces.IDatabase
+  nameWithType: IDatabase
+- uid: Oqtane.Databases.Interfaces.IDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name: AddAutoIncrementColumn(ColumnsBuilder, String)
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  fullName: Oqtane.Databases.Interfaces.IDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, System.String)
+  nameWithType: IDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Databases.Interfaces.IDatabase.AddAutoIncrementColumn*
+  name: AddAutoIncrementColumn
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.AddAutoIncrementColumn
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.AddAutoIncrementColumn
+  nameWithType: IDatabase.AddAutoIncrementColumn
+- uid: Oqtane.Databases.Interfaces.IDatabase.AssemblyName
+  name: AssemblyName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_AssemblyName
+  commentId: P:Oqtane.Databases.Interfaces.IDatabase.AssemblyName
+  fullName: Oqtane.Databases.Interfaces.IDatabase.AssemblyName
+  nameWithType: IDatabase.AssemblyName
+- uid: Oqtane.Databases.Interfaces.IDatabase.AssemblyName*
+  name: AssemblyName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_AssemblyName_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.AssemblyName
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.AssemblyName
+  nameWithType: IDatabase.AssemblyName
+- uid: Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql(System.String[])
+  name: ConcatenateSql(String[])
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_ConcatenateSql_System_String___
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql(System.String[])
+  name.vb: ConcatenateSql(String())
+  fullName: Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql(System.String[])
+  fullName.vb: Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql(System.String())
+  nameWithType: IDatabase.ConcatenateSql(String[])
+  nameWithType.vb: IDatabase.ConcatenateSql(String())
+- uid: Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql*
+  name: ConcatenateSql
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_ConcatenateSql_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.ConcatenateSql
+  nameWithType: IDatabase.ConcatenateSql
+- uid: Oqtane.Databases.Interfaces.IDatabase.ExecuteNonQuery(System.String,System.String)
+  name: ExecuteNonQuery(String, String)
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.ExecuteNonQuery(System.String,System.String)
+  fullName: Oqtane.Databases.Interfaces.IDatabase.ExecuteNonQuery(System.String, System.String)
+  nameWithType: IDatabase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Databases.Interfaces.IDatabase.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.ExecuteNonQuery
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.ExecuteNonQuery
+  nameWithType: IDatabase.ExecuteNonQuery
+- uid: Oqtane.Databases.Interfaces.IDatabase.ExecuteReader(System.String,System.String)
+  name: ExecuteReader(String, String)
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.ExecuteReader(System.String,System.String)
+  fullName: Oqtane.Databases.Interfaces.IDatabase.ExecuteReader(System.String, System.String)
+  nameWithType: IDatabase.ExecuteReader(String, String)
+- uid: Oqtane.Databases.Interfaces.IDatabase.ExecuteReader*
+  name: ExecuteReader
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_ExecuteReader_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.ExecuteReader
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.ExecuteReader
+  nameWithType: IDatabase.ExecuteReader
+- uid: Oqtane.Databases.Interfaces.IDatabase.FriendlyName
+  name: FriendlyName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_FriendlyName
+  commentId: P:Oqtane.Databases.Interfaces.IDatabase.FriendlyName
+  fullName: Oqtane.Databases.Interfaces.IDatabase.FriendlyName
+  nameWithType: IDatabase.FriendlyName
+- uid: Oqtane.Databases.Interfaces.IDatabase.FriendlyName*
+  name: FriendlyName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_FriendlyName_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.FriendlyName
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.FriendlyName
+  nameWithType: IDatabase.FriendlyName
+- uid: Oqtane.Databases.Interfaces.IDatabase.Name
+  name: Name
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_Name
+  commentId: P:Oqtane.Databases.Interfaces.IDatabase.Name
+  fullName: Oqtane.Databases.Interfaces.IDatabase.Name
+  nameWithType: IDatabase.Name
+- uid: Oqtane.Databases.Interfaces.IDatabase.Name*
+  name: Name
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_Name_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.Name
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.Name
+  nameWithType: IDatabase.Name
+- uid: Oqtane.Databases.Interfaces.IDatabase.Provider
+  name: Provider
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_Provider
+  commentId: P:Oqtane.Databases.Interfaces.IDatabase.Provider
+  fullName: Oqtane.Databases.Interfaces.IDatabase.Provider
+  nameWithType: IDatabase.Provider
+- uid: Oqtane.Databases.Interfaces.IDatabase.Provider*
+  name: Provider
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_Provider_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.Provider
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.Provider
+  nameWithType: IDatabase.Provider
+- uid: Oqtane.Databases.Interfaces.IDatabase.RewriteName(System.String)
+  name: RewriteName(String)
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_RewriteName_System_String_
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.RewriteName(System.String)
+  fullName: Oqtane.Databases.Interfaces.IDatabase.RewriteName(System.String)
+  nameWithType: IDatabase.RewriteName(String)
+- uid: Oqtane.Databases.Interfaces.IDatabase.RewriteName*
+  name: RewriteName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_RewriteName_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.RewriteName
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.RewriteName
+  nameWithType: IDatabase.RewriteName
+- uid: Oqtane.Databases.Interfaces.IDatabase.TypeName
+  name: TypeName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_TypeName
+  commentId: P:Oqtane.Databases.Interfaces.IDatabase.TypeName
+  fullName: Oqtane.Databases.Interfaces.IDatabase.TypeName
+  nameWithType: IDatabase.TypeName
+- uid: Oqtane.Databases.Interfaces.IDatabase.TypeName*
+  name: TypeName
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_TypeName_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.TypeName
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.TypeName
+  nameWithType: IDatabase.TypeName
+- uid: Oqtane.Databases.Interfaces.IDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: UpdateIdentityStoreTableNames(ModelBuilder)
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_UpdateIdentityStoreTableNames_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Oqtane.Databases.Interfaces.IDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: IDatabase.UpdateIdentityStoreTableNames(ModelBuilder)
+- uid: Oqtane.Databases.Interfaces.IDatabase.UpdateIdentityStoreTableNames*
+  name: UpdateIdentityStoreTableNames
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_UpdateIdentityStoreTableNames_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.UpdateIdentityStoreTableNames
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.UpdateIdentityStoreTableNames
+  nameWithType: IDatabase.UpdateIdentityStoreTableNames
+- uid: Oqtane.Databases.Interfaces.IDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseDatabase(DbContextOptionsBuilder, String)
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Databases.Interfaces.IDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  fullName: Oqtane.Databases.Interfaces.IDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
+  nameWithType: IDatabase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Databases.Interfaces.IDatabase.UseDatabase*
+  name: UseDatabase
+  href: api/Oqtane.Databases.Interfaces.IDatabase.html#Oqtane_Databases_Interfaces_IDatabase_UseDatabase_
+  commentId: Overload:Oqtane.Databases.Interfaces.IDatabase.UseDatabase
+  isSpec: "True"
+  fullName: Oqtane.Databases.Interfaces.IDatabase.UseDatabase
+  nameWithType: IDatabase.UseDatabase
 - uid: Oqtane.Documentation
   name: Oqtane.Documentation
   href: api/Oqtane.Documentation.html
@@ -3349,12 +3601,12 @@ references:
   commentId: T:Oqtane.Extensions.DbContextOptionsBuilderExtensions
   fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions
   nameWithType: DbContextOptionsBuilderExtensions
-- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,Oqtane.Interfaces.IOqtaneDatabase,System.String)
-  name: UseOqtaneDatabase(DbContextOptionsBuilder, IOqtaneDatabase, String)
-  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_Oqtane_Interfaces_IOqtaneDatabase_System_String_
-  commentId: M:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,Oqtane.Interfaces.IOqtaneDatabase,System.String)
-  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, Oqtane.Interfaces.IOqtaneDatabase, System.String)
-  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase(DbContextOptionsBuilder, IOqtaneDatabase, String)
+- uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,Oqtane.Databases.Interfaces.IDatabase,System.String)
+  name: UseOqtaneDatabase(DbContextOptionsBuilder, IDatabase, String)
+  href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_Oqtane_Databases_Interfaces_IDatabase_System_String_
+  commentId: M:Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,Oqtane.Databases.Interfaces.IDatabase,System.String)
+  fullName: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, Oqtane.Databases.Interfaces.IDatabase, System.String)
+  nameWithType: DbContextOptionsBuilderExtensions.UseOqtaneDatabase(DbContextOptionsBuilder, IDatabase, String)
 - uid: Oqtane.Extensions.DbContextOptionsBuilderExtensions.UseOqtaneDatabase*
   name: UseOqtaneDatabase
   href: api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html#Oqtane_Extensions_DbContextOptionsBuilderExtensions_UseOqtaneDatabase_
@@ -3443,12 +3695,12 @@ references:
   commentId: T:Oqtane.Infrastructure.DatabaseManager
   fullName: Oqtane.Infrastructure.DatabaseManager
   nameWithType: DatabaseManager
-- uid: Oqtane.Infrastructure.DatabaseManager.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Caching.Memory.IMemoryCache)
-  name: DatabaseManager(IConfigurationRoot, IServiceScopeFactory, IMemoryCache)
-  href: api/Oqtane.Infrastructure.DatabaseManager.html#Oqtane_Infrastructure_DatabaseManager__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_Extensions_Caching_Memory_IMemoryCache_
-  commentId: M:Oqtane.Infrastructure.DatabaseManager.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.Extensions.Caching.Memory.IMemoryCache)
-  fullName: Oqtane.Infrastructure.DatabaseManager.DatabaseManager(Microsoft.Extensions.Configuration.IConfigurationRoot, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory, Microsoft.Extensions.Caching.Memory.IMemoryCache)
-  nameWithType: DatabaseManager.DatabaseManager(IConfigurationRoot, IServiceScopeFactory, IMemoryCache)
+- uid: Oqtane.Infrastructure.DatabaseManager.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  name: DatabaseManager(IConfigurationRoot, IServiceScopeFactory, IWebHostEnvironment, IMemoryCache)
+  href: api/Oqtane.Infrastructure.DatabaseManager.html#Oqtane_Infrastructure_DatabaseManager__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_
+  commentId: M:Oqtane.Infrastructure.DatabaseManager.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  fullName: Oqtane.Infrastructure.DatabaseManager.DatabaseManager(Microsoft.Extensions.Configuration.IConfigurationRoot, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.Extensions.Caching.Memory.IMemoryCache)
+  nameWithType: DatabaseManager.DatabaseManager(IConfigurationRoot, IServiceScopeFactory, IWebHostEnvironment, IMemoryCache)
 - uid: Oqtane.Infrastructure.DatabaseManager.#ctor*
   name: DatabaseManager
   href: api/Oqtane.Infrastructure.DatabaseManager.html#Oqtane_Infrastructure_DatabaseManager__ctor_
@@ -3813,12 +4065,12 @@ references:
   commentId: T:Oqtane.Infrastructure.IInstallationManager
   fullName: Oqtane.Infrastructure.IInstallationManager
   nameWithType: IInstallationManager
-- uid: Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)
-  name: InstallPackages(String)
-  href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_InstallPackages_System_String_
-  commentId: M:Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)
-  fullName: Oqtane.Infrastructure.IInstallationManager.InstallPackages(System.String)
-  nameWithType: IInstallationManager.InstallPackages(String)
+- uid: Oqtane.Infrastructure.IInstallationManager.InstallPackages
+  name: InstallPackages()
+  href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_InstallPackages
+  commentId: M:Oqtane.Infrastructure.IInstallationManager.InstallPackages
+  fullName: Oqtane.Infrastructure.IInstallationManager.InstallPackages()
+  nameWithType: IInstallationManager.InstallPackages()
 - uid: Oqtane.Infrastructure.IInstallationManager.InstallPackages*
   name: InstallPackages
   href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_InstallPackages_
@@ -3839,6 +4091,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.IInstallationManager.RestartApplication
   nameWithType: IInstallationManager.RestartApplication
+- uid: Oqtane.Infrastructure.IInstallationManager.UninstallPackage(System.String)
+  name: UninstallPackage(String)
+  href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_UninstallPackage_System_String_
+  commentId: M:Oqtane.Infrastructure.IInstallationManager.UninstallPackage(System.String)
+  fullName: Oqtane.Infrastructure.IInstallationManager.UninstallPackage(System.String)
+  nameWithType: IInstallationManager.UninstallPackage(String)
+- uid: Oqtane.Infrastructure.IInstallationManager.UninstallPackage*
+  name: UninstallPackage
+  href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_UninstallPackage_
+  commentId: Overload:Oqtane.Infrastructure.IInstallationManager.UninstallPackage
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.IInstallationManager.UninstallPackage
+  nameWithType: IInstallationManager.UninstallPackage
 - uid: Oqtane.Infrastructure.IInstallationManager.UpgradeFramework
   name: UpgradeFramework()
   href: api/Oqtane.Infrastructure.IInstallationManager.html#Oqtane_Infrastructure_IInstallationManager_UpgradeFramework
@@ -3945,12 +4210,12 @@ references:
   commentId: T:Oqtane.Infrastructure.InstallationManager
   fullName: Oqtane.Infrastructure.InstallationManager
   nameWithType: InstallationManager
-- uid: Oqtane.Infrastructure.InstallationManager.#ctor(Microsoft.Extensions.Hosting.IHostApplicationLifetime,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache)
-  name: InstallationManager(IHostApplicationLifetime, IWebHostEnvironment, IMemoryCache)
-  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager__ctor_Microsoft_Extensions_Hosting_IHostApplicationLifetime_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_
-  commentId: M:Oqtane.Infrastructure.InstallationManager.#ctor(Microsoft.Extensions.Hosting.IHostApplicationLifetime,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache)
-  fullName: Oqtane.Infrastructure.InstallationManager.InstallationManager(Microsoft.Extensions.Hosting.IHostApplicationLifetime, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.Extensions.Caching.Memory.IMemoryCache)
-  nameWithType: InstallationManager.InstallationManager(IHostApplicationLifetime, IWebHostEnvironment, IMemoryCache)
+- uid: Oqtane.Infrastructure.InstallationManager.#ctor(Microsoft.Extensions.Hosting.IHostApplicationLifetime,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  name: InstallationManager(IHostApplicationLifetime, IWebHostEnvironment)
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager__ctor_Microsoft_Extensions_Hosting_IHostApplicationLifetime_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  commentId: M:Oqtane.Infrastructure.InstallationManager.#ctor(Microsoft.Extensions.Hosting.IHostApplicationLifetime,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  fullName: Oqtane.Infrastructure.InstallationManager.InstallationManager(Microsoft.Extensions.Hosting.IHostApplicationLifetime, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+  nameWithType: InstallationManager.InstallationManager(IHostApplicationLifetime, IWebHostEnvironment)
 - uid: Oqtane.Infrastructure.InstallationManager.#ctor*
   name: InstallationManager
   href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager__ctor_
@@ -3958,18 +4223,18 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.InstallationManager.InstallationManager
   nameWithType: InstallationManager.InstallationManager
-- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String)
-  name: InstallPackages(String)
-  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_
-  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String)
-  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String)
-  nameWithType: InstallationManager.InstallPackages(String)
-- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String,System.String)
-  name: InstallPackages(String, String, String)
-  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_System_String_System_String_
-  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String,System.String)
-  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String, System.String, System.String)
-  nameWithType: InstallationManager.InstallPackages(String, String, String)
+- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages
+  name: InstallPackages()
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages
+  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages
+  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages()
+  nameWithType: InstallationManager.InstallPackages()
+- uid: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String)
+  name: InstallPackages(String, String)
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_System_String_System_String_
+  commentId: M:Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String,System.String)
+  fullName: Oqtane.Infrastructure.InstallationManager.InstallPackages(System.String, System.String)
+  nameWithType: InstallationManager.InstallPackages(String, String)
 - uid: Oqtane.Infrastructure.InstallationManager.InstallPackages*
   name: InstallPackages
   href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_InstallPackages_
@@ -3990,6 +4255,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Infrastructure.InstallationManager.RestartApplication
   nameWithType: InstallationManager.RestartApplication
+- uid: Oqtane.Infrastructure.InstallationManager.UninstallPackage(System.String)
+  name: UninstallPackage(String)
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_UninstallPackage_System_String_
+  commentId: M:Oqtane.Infrastructure.InstallationManager.UninstallPackage(System.String)
+  fullName: Oqtane.Infrastructure.InstallationManager.UninstallPackage(System.String)
+  nameWithType: InstallationManager.UninstallPackage(String)
+- uid: Oqtane.Infrastructure.InstallationManager.UninstallPackage*
+  name: UninstallPackage
+  href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_UninstallPackage_
+  commentId: Overload:Oqtane.Infrastructure.InstallationManager.UninstallPackage
+  isSpec: "True"
+  fullName: Oqtane.Infrastructure.InstallationManager.UninstallPackage
+  nameWithType: InstallationManager.UninstallPackage
 - uid: Oqtane.Infrastructure.InstallationManager.UpgradeFramework
   name: UpgradeFramework()
   href: api/Oqtane.Infrastructure.InstallationManager.html#Oqtane_Infrastructure_InstallationManager_UpgradeFramework
@@ -4529,171 +4807,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Interfaces.IDatabaseConfigControl.GetConnectionString
   nameWithType: IDatabaseConfigControl.GetConnectionString
-- uid: Oqtane.Interfaces.IDatabaseConfigControl.IsInstaller
-  name: IsInstaller
-  href: api/Oqtane.Interfaces.IDatabaseConfigControl.html#Oqtane_Interfaces_IDatabaseConfigControl_IsInstaller
-  commentId: P:Oqtane.Interfaces.IDatabaseConfigControl.IsInstaller
-  fullName: Oqtane.Interfaces.IDatabaseConfigControl.IsInstaller
-  nameWithType: IDatabaseConfigControl.IsInstaller
-- uid: Oqtane.Interfaces.IDatabaseConfigControl.IsInstaller*
-  name: IsInstaller
-  href: api/Oqtane.Interfaces.IDatabaseConfigControl.html#Oqtane_Interfaces_IDatabaseConfigControl_IsInstaller_
-  commentId: Overload:Oqtane.Interfaces.IDatabaseConfigControl.IsInstaller
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IDatabaseConfigControl.IsInstaller
-  nameWithType: IDatabaseConfigControl.IsInstaller
-- uid: Oqtane.Interfaces.IOqtaneDatabase
-  name: IOqtaneDatabase
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html
-  commentId: T:Oqtane.Interfaces.IOqtaneDatabase
-  fullName: Oqtane.Interfaces.IOqtaneDatabase
-  nameWithType: IOqtaneDatabase
-- uid: Oqtane.Interfaces.IOqtaneDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
-  name: AddAutoIncrementColumn(ColumnsBuilder, String)
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, System.String)
-  nameWithType: IOqtaneDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
-- uid: Oqtane.Interfaces.IOqtaneDatabase.AddAutoIncrementColumn*
-  name: AddAutoIncrementColumn
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_AddAutoIncrementColumn_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.AddAutoIncrementColumn
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.AddAutoIncrementColumn
-  nameWithType: IOqtaneDatabase.AddAutoIncrementColumn
-- uid: Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql(System.String[])
-  name: ConcatenateSql(String[])
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_ConcatenateSql_System_String___
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql(System.String[])
-  name.vb: ConcatenateSql(String())
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql(System.String[])
-  fullName.vb: Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql(System.String())
-  nameWithType: IOqtaneDatabase.ConcatenateSql(String[])
-  nameWithType.vb: IOqtaneDatabase.ConcatenateSql(String())
-- uid: Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql*
-  name: ConcatenateSql
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_ConcatenateSql_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.ConcatenateSql
-  nameWithType: IOqtaneDatabase.ConcatenateSql
-- uid: Oqtane.Interfaces.IOqtaneDatabase.ExecuteNonQuery(System.String,System.String)
-  name: ExecuteNonQuery(String, String)
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_ExecuteNonQuery_System_String_System_String_
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.ExecuteNonQuery(System.String,System.String)
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.ExecuteNonQuery(System.String, System.String)
-  nameWithType: IOqtaneDatabase.ExecuteNonQuery(String, String)
-- uid: Oqtane.Interfaces.IOqtaneDatabase.ExecuteNonQuery*
-  name: ExecuteNonQuery
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_ExecuteNonQuery_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.ExecuteNonQuery
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.ExecuteNonQuery
-  nameWithType: IOqtaneDatabase.ExecuteNonQuery
-- uid: Oqtane.Interfaces.IOqtaneDatabase.ExecuteReader(System.String,System.String)
-  name: ExecuteReader(String, String)
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_ExecuteReader_System_String_System_String_
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.ExecuteReader(System.String,System.String)
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.ExecuteReader(System.String, System.String)
-  nameWithType: IOqtaneDatabase.ExecuteReader(String, String)
-- uid: Oqtane.Interfaces.IOqtaneDatabase.ExecuteReader*
-  name: ExecuteReader
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_ExecuteReader_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.ExecuteReader
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.ExecuteReader
-  nameWithType: IOqtaneDatabase.ExecuteReader
-- uid: Oqtane.Interfaces.IOqtaneDatabase.FriendlyName
-  name: FriendlyName
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_FriendlyName
-  commentId: P:Oqtane.Interfaces.IOqtaneDatabase.FriendlyName
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.FriendlyName
-  nameWithType: IOqtaneDatabase.FriendlyName
-- uid: Oqtane.Interfaces.IOqtaneDatabase.FriendlyName*
-  name: FriendlyName
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_FriendlyName_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.FriendlyName
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.FriendlyName
-  nameWithType: IOqtaneDatabase.FriendlyName
-- uid: Oqtane.Interfaces.IOqtaneDatabase.Name
-  name: Name
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_Name
-  commentId: P:Oqtane.Interfaces.IOqtaneDatabase.Name
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.Name
-  nameWithType: IOqtaneDatabase.Name
-- uid: Oqtane.Interfaces.IOqtaneDatabase.Name*
-  name: Name
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_Name_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.Name
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.Name
-  nameWithType: IOqtaneDatabase.Name
-- uid: Oqtane.Interfaces.IOqtaneDatabase.Provider
-  name: Provider
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_Provider
-  commentId: P:Oqtane.Interfaces.IOqtaneDatabase.Provider
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.Provider
-  nameWithType: IOqtaneDatabase.Provider
-- uid: Oqtane.Interfaces.IOqtaneDatabase.Provider*
-  name: Provider
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_Provider_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.Provider
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.Provider
-  nameWithType: IOqtaneDatabase.Provider
-- uid: Oqtane.Interfaces.IOqtaneDatabase.RewriteName(System.String)
-  name: RewriteName(String)
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_RewriteName_System_String_
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.RewriteName(System.String)
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.RewriteName(System.String)
-  nameWithType: IOqtaneDatabase.RewriteName(String)
-- uid: Oqtane.Interfaces.IOqtaneDatabase.RewriteName*
-  name: RewriteName
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_RewriteName_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.RewriteName
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.RewriteName
-  nameWithType: IOqtaneDatabase.RewriteName
-- uid: Oqtane.Interfaces.IOqtaneDatabase.TypeName
-  name: TypeName
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_TypeName
-  commentId: P:Oqtane.Interfaces.IOqtaneDatabase.TypeName
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.TypeName
-  nameWithType: IOqtaneDatabase.TypeName
-- uid: Oqtane.Interfaces.IOqtaneDatabase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_TypeName_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.TypeName
-  nameWithType: IOqtaneDatabase.TypeName
-- uid: Oqtane.Interfaces.IOqtaneDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
-  name: UpdateIdentityStoreTableNames(ModelBuilder)
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_UpdateIdentityStoreTableNames_Microsoft_EntityFrameworkCore_ModelBuilder_
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
-  nameWithType: IOqtaneDatabase.UpdateIdentityStoreTableNames(ModelBuilder)
-- uid: Oqtane.Interfaces.IOqtaneDatabase.UpdateIdentityStoreTableNames*
-  name: UpdateIdentityStoreTableNames
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_UpdateIdentityStoreTableNames_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.UpdateIdentityStoreTableNames
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.UpdateIdentityStoreTableNames
-  nameWithType: IOqtaneDatabase.UpdateIdentityStoreTableNames
-- uid: Oqtane.Interfaces.IOqtaneDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
-  name: UseDatabase(DbContextOptionsBuilder, String)
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
-  commentId: M:Oqtane.Interfaces.IOqtaneDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
-  nameWithType: IOqtaneDatabase.UseDatabase(DbContextOptionsBuilder, String)
-- uid: Oqtane.Interfaces.IOqtaneDatabase.UseDatabase*
-  name: UseDatabase
-  href: api/Oqtane.Interfaces.IOqtaneDatabase.html#Oqtane_Interfaces_IOqtaneDatabase_UseDatabase_
-  commentId: Overload:Oqtane.Interfaces.IOqtaneDatabase.UseDatabase
-  isSpec: "True"
-  fullName: Oqtane.Interfaces.IOqtaneDatabase.UseDatabase
-  nameWithType: IOqtaneDatabase.UseDatabase
 - uid: Oqtane.Interfaces.ISettingsControl
   name: ISettingsControl
   href: api/Oqtane.Interfaces.ISettingsControl.html
@@ -4725,12 +4838,12 @@ references:
   commentId: T:Oqtane.Migrations.AddAdditionalIndexesInMaster
   fullName: Oqtane.Migrations.AddAdditionalIndexesInMaster
   nameWithType: AddAdditionalIndexesInMaster
-- uid: Oqtane.Migrations.AddAdditionalIndexesInMaster.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddAdditionalIndexesInMaster(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddAdditionalIndexesInMaster.html#Oqtane_Migrations_AddAdditionalIndexesInMaster__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddAdditionalIndexesInMaster.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddAdditionalIndexesInMaster.AddAdditionalIndexesInMaster(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddAdditionalIndexesInMaster.AddAdditionalIndexesInMaster(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddAdditionalIndexesInMaster.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddAdditionalIndexesInMaster(IDatabase)
+  href: api/Oqtane.Migrations.AddAdditionalIndexesInMaster.html#Oqtane_Migrations_AddAdditionalIndexesInMaster__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddAdditionalIndexesInMaster.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddAdditionalIndexesInMaster.AddAdditionalIndexesInMaster(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddAdditionalIndexesInMaster.AddAdditionalIndexesInMaster(IDatabase)
 - uid: Oqtane.Migrations.AddAdditionalIndexesInMaster.#ctor*
   name: AddAdditionalIndexesInMaster
   href: api/Oqtane.Migrations.AddAdditionalIndexesInMaster.html#Oqtane_Migrations_AddAdditionalIndexesInMaster__ctor_
@@ -4770,12 +4883,12 @@ references:
   commentId: T:Oqtane.Migrations.AddAdditionalIndexesInTenant
   fullName: Oqtane.Migrations.AddAdditionalIndexesInTenant
   nameWithType: AddAdditionalIndexesInTenant
-- uid: Oqtane.Migrations.AddAdditionalIndexesInTenant.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddAdditionalIndexesInTenant(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddAdditionalIndexesInTenant.html#Oqtane_Migrations_AddAdditionalIndexesInTenant__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddAdditionalIndexesInTenant.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddAdditionalIndexesInTenant.AddAdditionalIndexesInTenant(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddAdditionalIndexesInTenant.AddAdditionalIndexesInTenant(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddAdditionalIndexesInTenant.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddAdditionalIndexesInTenant(IDatabase)
+  href: api/Oqtane.Migrations.AddAdditionalIndexesInTenant.html#Oqtane_Migrations_AddAdditionalIndexesInTenant__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddAdditionalIndexesInTenant.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddAdditionalIndexesInTenant.AddAdditionalIndexesInTenant(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddAdditionalIndexesInTenant.AddAdditionalIndexesInTenant(IDatabase)
 - uid: Oqtane.Migrations.AddAdditionalIndexesInTenant.#ctor*
   name: AddAdditionalIndexesInTenant
   href: api/Oqtane.Migrations.AddAdditionalIndexesInTenant.html#Oqtane_Migrations_AddAdditionalIndexesInTenant__ctor_
@@ -4815,12 +4928,12 @@ references:
   commentId: T:Oqtane.Migrations.AddAdditionColumnToNotifications
   fullName: Oqtane.Migrations.AddAdditionColumnToNotifications
   nameWithType: AddAdditionColumnToNotifications
-- uid: Oqtane.Migrations.AddAdditionColumnToNotifications.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddAdditionColumnToNotifications(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddAdditionColumnToNotifications.html#Oqtane_Migrations_AddAdditionColumnToNotifications__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddAdditionColumnToNotifications.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddAdditionColumnToNotifications.AddAdditionColumnToNotifications(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddAdditionColumnToNotifications.AddAdditionColumnToNotifications(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddAdditionColumnToNotifications.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddAdditionColumnToNotifications(IDatabase)
+  href: api/Oqtane.Migrations.AddAdditionColumnToNotifications.html#Oqtane_Migrations_AddAdditionColumnToNotifications__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddAdditionColumnToNotifications.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddAdditionColumnToNotifications.AddAdditionColumnToNotifications(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddAdditionColumnToNotifications.AddAdditionColumnToNotifications(IDatabase)
 - uid: Oqtane.Migrations.AddAdditionColumnToNotifications.#ctor*
   name: AddAdditionColumnToNotifications
   href: api/Oqtane.Migrations.AddAdditionColumnToNotifications.html#Oqtane_Migrations_AddAdditionColumnToNotifications__ctor_
@@ -4860,12 +4973,12 @@ references:
   commentId: T:Oqtane.Migrations.AddAppVersionsTable
   fullName: Oqtane.Migrations.AddAppVersionsTable
   nameWithType: AddAppVersionsTable
-- uid: Oqtane.Migrations.AddAppVersionsTable.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddAppVersionsTable(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddAppVersionsTable.html#Oqtane_Migrations_AddAppVersionsTable__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddAppVersionsTable.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddAppVersionsTable.AddAppVersionsTable(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddAppVersionsTable.AddAppVersionsTable(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddAppVersionsTable.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddAppVersionsTable(IDatabase)
+  href: api/Oqtane.Migrations.AddAppVersionsTable.html#Oqtane_Migrations_AddAppVersionsTable__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddAppVersionsTable.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddAppVersionsTable.AddAppVersionsTable(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddAppVersionsTable.AddAppVersionsTable(IDatabase)
 - uid: Oqtane.Migrations.AddAppVersionsTable.#ctor*
   name: AddAppVersionsTable
   href: api/Oqtane.Migrations.AddAppVersionsTable.html#Oqtane_Migrations_AddAppVersionsTable__ctor_
@@ -4892,12 +5005,12 @@ references:
   commentId: T:Oqtane.Migrations.AddColumnToProfileAndUpdatePage
   fullName: Oqtane.Migrations.AddColumnToProfileAndUpdatePage
   nameWithType: AddColumnToProfileAndUpdatePage
-- uid: Oqtane.Migrations.AddColumnToProfileAndUpdatePage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddColumnToProfileAndUpdatePage(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddColumnToProfileAndUpdatePage.html#Oqtane_Migrations_AddColumnToProfileAndUpdatePage__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddColumnToProfileAndUpdatePage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddColumnToProfileAndUpdatePage.AddColumnToProfileAndUpdatePage(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddColumnToProfileAndUpdatePage.AddColumnToProfileAndUpdatePage(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddColumnToProfileAndUpdatePage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddColumnToProfileAndUpdatePage(IDatabase)
+  href: api/Oqtane.Migrations.AddColumnToProfileAndUpdatePage.html#Oqtane_Migrations_AddColumnToProfileAndUpdatePage__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddColumnToProfileAndUpdatePage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddColumnToProfileAndUpdatePage.AddColumnToProfileAndUpdatePage(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddColumnToProfileAndUpdatePage.AddColumnToProfileAndUpdatePage(IDatabase)
 - uid: Oqtane.Migrations.AddColumnToProfileAndUpdatePage.#ctor*
   name: AddColumnToProfileAndUpdatePage
   href: api/Oqtane.Migrations.AddColumnToProfileAndUpdatePage.html#Oqtane_Migrations_AddColumnToProfileAndUpdatePage__ctor_
@@ -4937,12 +5050,12 @@ references:
   commentId: T:Oqtane.Migrations.AddDatabaseTypeColumnToTenant
   fullName: Oqtane.Migrations.AddDatabaseTypeColumnToTenant
   nameWithType: AddDatabaseTypeColumnToTenant
-- uid: Oqtane.Migrations.AddDatabaseTypeColumnToTenant.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddDatabaseTypeColumnToTenant(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddDatabaseTypeColumnToTenant.html#Oqtane_Migrations_AddDatabaseTypeColumnToTenant__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddDatabaseTypeColumnToTenant.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddDatabaseTypeColumnToTenant.AddDatabaseTypeColumnToTenant(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddDatabaseTypeColumnToTenant.AddDatabaseTypeColumnToTenant(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddDatabaseTypeColumnToTenant.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddDatabaseTypeColumnToTenant(IDatabase)
+  href: api/Oqtane.Migrations.AddDatabaseTypeColumnToTenant.html#Oqtane_Migrations_AddDatabaseTypeColumnToTenant__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddDatabaseTypeColumnToTenant.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddDatabaseTypeColumnToTenant.AddDatabaseTypeColumnToTenant(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddDatabaseTypeColumnToTenant.AddDatabaseTypeColumnToTenant(IDatabase)
 - uid: Oqtane.Migrations.AddDatabaseTypeColumnToTenant.#ctor*
   name: AddDatabaseTypeColumnToTenant
   href: api/Oqtane.Migrations.AddDatabaseTypeColumnToTenant.html#Oqtane_Migrations_AddDatabaseTypeColumnToTenant__ctor_
@@ -4969,12 +5082,12 @@ references:
   commentId: T:Oqtane.Migrations.AddIndexesForForeignKeyInMaster
   fullName: Oqtane.Migrations.AddIndexesForForeignKeyInMaster
   nameWithType: AddIndexesForForeignKeyInMaster
-- uid: Oqtane.Migrations.AddIndexesForForeignKeyInMaster.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddIndexesForForeignKeyInMaster(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddIndexesForForeignKeyInMaster.html#Oqtane_Migrations_AddIndexesForForeignKeyInMaster__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddIndexesForForeignKeyInMaster.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddIndexesForForeignKeyInMaster.AddIndexesForForeignKeyInMaster(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddIndexesForForeignKeyInMaster.AddIndexesForForeignKeyInMaster(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddIndexesForForeignKeyInMaster.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddIndexesForForeignKeyInMaster(IDatabase)
+  href: api/Oqtane.Migrations.AddIndexesForForeignKeyInMaster.html#Oqtane_Migrations_AddIndexesForForeignKeyInMaster__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddIndexesForForeignKeyInMaster.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddIndexesForForeignKeyInMaster.AddIndexesForForeignKeyInMaster(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddIndexesForForeignKeyInMaster.AddIndexesForForeignKeyInMaster(IDatabase)
 - uid: Oqtane.Migrations.AddIndexesForForeignKeyInMaster.#ctor*
   name: AddIndexesForForeignKeyInMaster
   href: api/Oqtane.Migrations.AddIndexesForForeignKeyInMaster.html#Oqtane_Migrations_AddIndexesForForeignKeyInMaster__ctor_
@@ -5014,12 +5127,12 @@ references:
   commentId: T:Oqtane.Migrations.AddLanguageTable
   fullName: Oqtane.Migrations.AddLanguageTable
   nameWithType: AddLanguageTable
-- uid: Oqtane.Migrations.AddLanguageTable.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddLanguageTable(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddLanguageTable.html#Oqtane_Migrations_AddLanguageTable__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddLanguageTable.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddLanguageTable.AddLanguageTable(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddLanguageTable.AddLanguageTable(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddLanguageTable.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddLanguageTable(IDatabase)
+  href: api/Oqtane.Migrations.AddLanguageTable.html#Oqtane_Migrations_AddLanguageTable__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddLanguageTable.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddLanguageTable.AddLanguageTable(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddLanguageTable.AddLanguageTable(IDatabase)
 - uid: Oqtane.Migrations.AddLanguageTable.#ctor*
   name: AddLanguageTable
   href: api/Oqtane.Migrations.AddLanguageTable.html#Oqtane_Migrations_AddLanguageTable__ctor_
@@ -5059,12 +5172,12 @@ references:
   commentId: T:Oqtane.Migrations.AddSiteGuidToSite
   fullName: Oqtane.Migrations.AddSiteGuidToSite
   nameWithType: AddSiteGuidToSite
-- uid: Oqtane.Migrations.AddSiteGuidToSite.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: AddSiteGuidToSite(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.AddSiteGuidToSite.html#Oqtane_Migrations_AddSiteGuidToSite__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.AddSiteGuidToSite.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.AddSiteGuidToSite.AddSiteGuidToSite(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AddSiteGuidToSite.AddSiteGuidToSite(IOqtaneDatabase)
+- uid: Oqtane.Migrations.AddSiteGuidToSite.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddSiteGuidToSite(IDatabase)
+  href: api/Oqtane.Migrations.AddSiteGuidToSite.html#Oqtane_Migrations_AddSiteGuidToSite__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.AddSiteGuidToSite.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.AddSiteGuidToSite.AddSiteGuidToSite(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddSiteGuidToSite.AddSiteGuidToSite(IDatabase)
 - uid: Oqtane.Migrations.AddSiteGuidToSite.#ctor*
   name: AddSiteGuidToSite
   href: api/Oqtane.Migrations.AddSiteGuidToSite.html#Oqtane_Migrations_AddSiteGuidToSite__ctor_
@@ -5104,12 +5217,12 @@ references:
   commentId: T:Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize
   fullName: Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize
   nameWithType: ChangeFolderNameAndPathColumnsSize
-- uid: Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: ChangeFolderNameAndPathColumnsSize(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.html#Oqtane_Migrations_ChangeFolderNameAndPathColumnsSize__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.ChangeFolderNameAndPathColumnsSize(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: ChangeFolderNameAndPathColumnsSize.ChangeFolderNameAndPathColumnsSize(IOqtaneDatabase)
+- uid: Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: ChangeFolderNameAndPathColumnsSize(IDatabase)
+  href: api/Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.html#Oqtane_Migrations_ChangeFolderNameAndPathColumnsSize__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.ChangeFolderNameAndPathColumnsSize(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: ChangeFolderNameAndPathColumnsSize.ChangeFolderNameAndPathColumnsSize(IDatabase)
 - uid: Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.#ctor*
   name: ChangeFolderNameAndPathColumnsSize
   href: api/Oqtane.Migrations.ChangeFolderNameAndPathColumnsSize.html#Oqtane_Migrations_ChangeFolderNameAndPathColumnsSize__ctor_
@@ -5149,12 +5262,12 @@ references:
   commentId: T:Oqtane.Migrations.DropColumnFromPage
   fullName: Oqtane.Migrations.DropColumnFromPage
   nameWithType: DropColumnFromPage
-- uid: Oqtane.Migrations.DropColumnFromPage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: DropColumnFromPage(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.DropColumnFromPage.html#Oqtane_Migrations_DropColumnFromPage__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.DropColumnFromPage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.DropColumnFromPage.DropColumnFromPage(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: DropColumnFromPage.DropColumnFromPage(IOqtaneDatabase)
+- uid: Oqtane.Migrations.DropColumnFromPage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: DropColumnFromPage(IDatabase)
+  href: api/Oqtane.Migrations.DropColumnFromPage.html#Oqtane_Migrations_DropColumnFromPage__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.DropColumnFromPage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.DropColumnFromPage.DropColumnFromPage(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: DropColumnFromPage.DropColumnFromPage(IDatabase)
 - uid: Oqtane.Migrations.DropColumnFromPage.#ctor*
   name: DropColumnFromPage
   href: api/Oqtane.Migrations.DropColumnFromPage.html#Oqtane_Migrations_DropColumnFromPage__ctor_
@@ -5194,12 +5307,12 @@ references:
   commentId: T:Oqtane.Migrations.DropDefaultLayoutInSite
   fullName: Oqtane.Migrations.DropDefaultLayoutInSite
   nameWithType: DropDefaultLayoutInSite
-- uid: Oqtane.Migrations.DropDefaultLayoutInSite.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: DropDefaultLayoutInSite(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.DropDefaultLayoutInSite.html#Oqtane_Migrations_DropDefaultLayoutInSite__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.DropDefaultLayoutInSite.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.DropDefaultLayoutInSite.DropDefaultLayoutInSite(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: DropDefaultLayoutInSite.DropDefaultLayoutInSite(IOqtaneDatabase)
+- uid: Oqtane.Migrations.DropDefaultLayoutInSite.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: DropDefaultLayoutInSite(IDatabase)
+  href: api/Oqtane.Migrations.DropDefaultLayoutInSite.html#Oqtane_Migrations_DropDefaultLayoutInSite__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.DropDefaultLayoutInSite.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.DropDefaultLayoutInSite.DropDefaultLayoutInSite(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: DropDefaultLayoutInSite.DropDefaultLayoutInSite(IDatabase)
 - uid: Oqtane.Migrations.DropDefaultLayoutInSite.#ctor*
   name: DropDefaultLayoutInSite
   href: api/Oqtane.Migrations.DropDefaultLayoutInSite.html#Oqtane_Migrations_DropDefaultLayoutInSite__ctor_
@@ -5232,12 +5345,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.AliasEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.AliasEntityBuilder
   nameWithType: AliasEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: AliasEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AliasEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.AliasEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AliasEntityBuilder.AliasEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: AliasEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AliasEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.AliasEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AliasEntityBuilder.AliasEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.#ctor*
   name: AliasEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.AliasEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AliasEntityBuilder__ctor_
@@ -5316,12 +5429,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder
   nameWithType: AppVersionsEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: AppVersionsEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AppVersionsEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.AppVersionsEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AppVersionsEntityBuilder.AppVersionsEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: AppVersionsEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AppVersionsEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.AppVersionsEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AppVersionsEntityBuilder.AppVersionsEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.#ctor*
   name: AppVersionsEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.AppVersionsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AppVersionsEntityBuilder__ctor_
@@ -5387,12 +5500,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder
   nameWithType: AspNetUserClaimsEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: AspNetUserClaimsEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AspNetUserClaimsEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.AspNetUserClaimsEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AspNetUserClaimsEntityBuilder.AspNetUserClaimsEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: AspNetUserClaimsEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AspNetUserClaimsEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.AspNetUserClaimsEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AspNetUserClaimsEntityBuilder.AspNetUserClaimsEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.#ctor*
   name: AspNetUserClaimsEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.AspNetUserClaimsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AspNetUserClaimsEntityBuilder__ctor_
@@ -5471,12 +5584,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder
   nameWithType: AspNetUsersEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: AspNetUsersEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AspNetUsersEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.AspNetUsersEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AspNetUsersEntityBuilder.AspNetUsersEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: AspNetUsersEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AspNetUsersEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.AspNetUsersEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AspNetUsersEntityBuilder.AspNetUsersEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.#ctor*
   name: AspNetUsersEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.AspNetUsersEntityBuilder.html#Oqtane_Migrations_EntityBuilders_AspNetUsersEntityBuilder__ctor_
@@ -5701,14 +5814,14 @@ references:
   fullName.vb: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder(Of TEntityBuilder)
   nameWithType: AuditableBaseEntityBuilder<TEntityBuilder>
   nameWithType.vb: AuditableBaseEntityBuilder(Of TEntityBuilder)
-- uid: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: AuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder<TEntityBuilder>.AuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  fullName.vb: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder(Of TEntityBuilder).AuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: AuditableBaseEntityBuilder<TEntityBuilder>.AuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  nameWithType.vb: AuditableBaseEntityBuilder(Of TEntityBuilder).AuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: AuditableBaseEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder<TEntityBuilder>.AuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  fullName.vb: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder(Of TEntityBuilder).AuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AuditableBaseEntityBuilder<TEntityBuilder>.AuditableBaseEntityBuilder(MigrationBuilder, IDatabase)
+  nameWithType.vb: AuditableBaseEntityBuilder(Of TEntityBuilder).AuditableBaseEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder`1.#ctor*
   name: AuditableBaseEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.AuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_AuditableBaseEntityBuilder_1__ctor_
@@ -5812,14 +5925,14 @@ references:
   fullName.vb: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder(Of TEntityBuilder)
   nameWithType: BaseEntityBuilder<TEntityBuilder>
   nameWithType.vb: BaseEntityBuilder(Of TEntityBuilder)
-- uid: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: BaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder<TEntityBuilder>.BaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  fullName.vb: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder(Of TEntityBuilder).BaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: BaseEntityBuilder<TEntityBuilder>.BaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  nameWithType.vb: BaseEntityBuilder(Of TEntityBuilder).BaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: BaseEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder<TEntityBuilder>.BaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  fullName.vb: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder(Of TEntityBuilder).BaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: BaseEntityBuilder<TEntityBuilder>.BaseEntityBuilder(MigrationBuilder, IDatabase)
+  nameWithType.vb: BaseEntityBuilder(Of TEntityBuilder).BaseEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.#ctor*
   name: BaseEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1__ctor_
@@ -5947,6 +6060,14 @@ references:
   fullName.vb: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder(Of TEntityBuilder).AddForeignKey(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder(Of TEntityBuilder), Oqtane.Migrations.ForeignKey(Of TEntityBuilder))
   nameWithType: BaseEntityBuilder<TEntityBuilder>.AddForeignKey(CreateTableBuilder<TEntityBuilder>, ForeignKey<TEntityBuilder>)
   nameWithType.vb: BaseEntityBuilder(Of TEntityBuilder).AddForeignKey(CreateTableBuilder(Of TEntityBuilder), ForeignKey(Of TEntityBuilder))
+- uid: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey(System.String)
+  name: AddForeignKey(String)
+  href: api/Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_System_String_
+  commentId: M:Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey(System.String)
+  fullName: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder<TEntityBuilder>.AddForeignKey(System.String)
+  fullName.vb: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder(Of TEntityBuilder).AddForeignKey(System.String)
+  nameWithType: BaseEntityBuilder<TEntityBuilder>.AddForeignKey(String)
+  nameWithType.vb: BaseEntityBuilder(Of TEntityBuilder).AddForeignKey(String)
 - uid: Oqtane.Migrations.EntityBuilders.BaseEntityBuilder`1.AddForeignKey*
   name: AddForeignKey
   href: api/Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_
@@ -6297,14 +6418,14 @@ references:
   fullName.vb: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder(Of TEntityBuilder)
   nameWithType: DeletableAuditableBaseEntityBuilder<TEntityBuilder>
   nameWithType.vb: DeletableAuditableBaseEntityBuilder(Of TEntityBuilder)
-- uid: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: DeletableAuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder<TEntityBuilder>.DeletableAuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  fullName.vb: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder(Of TEntityBuilder).DeletableAuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: DeletableAuditableBaseEntityBuilder<TEntityBuilder>.DeletableAuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  nameWithType.vb: DeletableAuditableBaseEntityBuilder(Of TEntityBuilder).DeletableAuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: DeletableAuditableBaseEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder<TEntityBuilder>.DeletableAuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  fullName.vb: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder(Of TEntityBuilder).DeletableAuditableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: DeletableAuditableBaseEntityBuilder<TEntityBuilder>.DeletableAuditableBaseEntityBuilder(MigrationBuilder, IDatabase)
+  nameWithType.vb: DeletableAuditableBaseEntityBuilder(Of TEntityBuilder).DeletableAuditableBaseEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor*
   name: DeletableAuditableBaseEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_
@@ -6391,14 +6512,14 @@ references:
   fullName.vb: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder(Of TEntityBuilder)
   nameWithType: DeletableBaseEntityBuilder<TEntityBuilder>
   nameWithType.vb: DeletableBaseEntityBuilder(Of TEntityBuilder)
-- uid: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: DeletableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder<TEntityBuilder>.DeletableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  fullName.vb: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder(Of TEntityBuilder).DeletableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: DeletableBaseEntityBuilder<TEntityBuilder>.DeletableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  nameWithType.vb: DeletableBaseEntityBuilder(Of TEntityBuilder).DeletableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: DeletableBaseEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder<TEntityBuilder>.DeletableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  fullName.vb: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder(Of TEntityBuilder).DeletableBaseEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: DeletableBaseEntityBuilder<TEntityBuilder>.DeletableBaseEntityBuilder(MigrationBuilder, IDatabase)
+  nameWithType.vb: DeletableBaseEntityBuilder(Of TEntityBuilder).DeletableBaseEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder`1.#ctor*
   name: DeletableBaseEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.DeletableBaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_DeletableBaseEntityBuilder_1__ctor_
@@ -6482,12 +6603,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.FileEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.FileEntityBuilder
   nameWithType: FileEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.FileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: FileEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.FileEntityBuilder.html#Oqtane_Migrations_EntityBuilders_FileEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.FileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.FileEntityBuilder.FileEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: FileEntityBuilder.FileEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.FileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: FileEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.FileEntityBuilder.html#Oqtane_Migrations_EntityBuilders_FileEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.FileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.FileEntityBuilder.FileEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: FileEntityBuilder.FileEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.FileEntityBuilder.#ctor*
   name: FileEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.FileEntityBuilder.html#Oqtane_Migrations_EntityBuilders_FileEntityBuilder__ctor_
@@ -6605,12 +6726,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.FolderEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.FolderEntityBuilder
   nameWithType: FolderEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: FolderEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.html#Oqtane_Migrations_EntityBuilders_FolderEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.FolderEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: FolderEntityBuilder.FolderEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: FolderEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.html#Oqtane_Migrations_EntityBuilders_FolderEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.FolderEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: FolderEntityBuilder.FolderEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.#ctor*
   name: FolderEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.FolderEntityBuilder.html#Oqtane_Migrations_EntityBuilders_FolderEntityBuilder__ctor_
@@ -6728,12 +6849,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.JobEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.JobEntityBuilder
   nameWithType: JobEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.JobEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: JobEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.JobEntityBuilder.html#Oqtane_Migrations_EntityBuilders_JobEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.JobEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.JobEntityBuilder.JobEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: JobEntityBuilder.JobEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.JobEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: JobEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.JobEntityBuilder.html#Oqtane_Migrations_EntityBuilders_JobEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.JobEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.JobEntityBuilder.JobEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: JobEntityBuilder.JobEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.JobEntityBuilder.#ctor*
   name: JobEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.JobEntityBuilder.html#Oqtane_Migrations_EntityBuilders_JobEntityBuilder__ctor_
@@ -6916,12 +7037,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder
   nameWithType: JobLogEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: JobLogEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.html#Oqtane_Migrations_EntityBuilders_JobLogEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.JobLogEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: JobLogEntityBuilder.JobLogEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: JobLogEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.html#Oqtane_Migrations_EntityBuilders_JobLogEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.JobLogEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: JobLogEntityBuilder.JobLogEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.#ctor*
   name: JobLogEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.JobLogEntityBuilder.html#Oqtane_Migrations_EntityBuilders_JobLogEntityBuilder__ctor_
@@ -7026,12 +7147,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder
   nameWithType: LanguageEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: LanguageEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.html#Oqtane_Migrations_EntityBuilders_LanguageEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.LanguageEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: LanguageEntityBuilder.LanguageEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: LanguageEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.html#Oqtane_Migrations_EntityBuilders_LanguageEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.LanguageEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: LanguageEntityBuilder.LanguageEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.#ctor*
   name: LanguageEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.LanguageEntityBuilder.html#Oqtane_Migrations_EntityBuilders_LanguageEntityBuilder__ctor_
@@ -7123,12 +7244,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.LogEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.LogEntityBuilder
   nameWithType: LogEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.LogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: LogEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.LogEntityBuilder.html#Oqtane_Migrations_EntityBuilders_LogEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.LogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.LogEntityBuilder.LogEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: LogEntityBuilder.LogEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.LogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: LogEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.LogEntityBuilder.html#Oqtane_Migrations_EntityBuilders_LogEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.LogEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.LogEntityBuilder.LogEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: LogEntityBuilder.LogEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.LogEntityBuilder.#ctor*
   name: LogEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.LogEntityBuilder.html#Oqtane_Migrations_EntityBuilders_LogEntityBuilder__ctor_
@@ -7363,12 +7484,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder
   nameWithType: ModuleDefinitionsEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: ModuleDefinitionsEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ModuleDefinitionsEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.ModuleDefinitionsEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: ModuleDefinitionsEntityBuilder.ModuleDefinitionsEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: ModuleDefinitionsEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ModuleDefinitionsEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.ModuleDefinitionsEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: ModuleDefinitionsEntityBuilder.ModuleDefinitionsEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.#ctor*
   name: ModuleDefinitionsEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.ModuleDefinitionsEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ModuleDefinitionsEntityBuilder__ctor_
@@ -7473,12 +7594,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder
   nameWithType: ModuleEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: ModuleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ModuleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.ModuleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: ModuleEntityBuilder.ModuleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: ModuleEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ModuleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.ModuleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: ModuleEntityBuilder.ModuleEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.#ctor*
   name: ModuleEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.ModuleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ModuleEntityBuilder__ctor_
@@ -7557,12 +7678,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder
   nameWithType: NotificationEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: NotificationEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.html#Oqtane_Migrations_EntityBuilders_NotificationEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.NotificationEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: NotificationEntityBuilder.NotificationEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: NotificationEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.html#Oqtane_Migrations_EntityBuilders_NotificationEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.NotificationEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: NotificationEntityBuilder.NotificationEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.#ctor*
   name: NotificationEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.NotificationEntityBuilder.html#Oqtane_Migrations_EntityBuilders_NotificationEntityBuilder__ctor_
@@ -7732,12 +7853,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.PageEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.PageEntityBuilder
   nameWithType: PageEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.PageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: PageEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.PageEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PageEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.PageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.PageEntityBuilder.PageEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: PageEntityBuilder.PageEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.PageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: PageEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.PageEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PageEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.PageEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.PageEntityBuilder.PageEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: PageEntityBuilder.PageEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.PageEntityBuilder.#ctor*
   name: PageEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.PageEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PageEntityBuilder__ctor_
@@ -7946,12 +8067,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder
   nameWithType: PageModuleEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: PageModuleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PageModuleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.PageModuleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: PageModuleEntityBuilder.PageModuleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: PageModuleEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PageModuleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.PageModuleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: PageModuleEntityBuilder.PageModuleEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.#ctor*
   name: PageModuleEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.PageModuleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PageModuleEntityBuilder__ctor_
@@ -8069,12 +8190,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder
   nameWithType: PermissionEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: PermissionEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PermissionEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.PermissionEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: PermissionEntityBuilder.PermissionEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: PermissionEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PermissionEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.PermissionEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: PermissionEntityBuilder.PermissionEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.#ctor*
   name: PermissionEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.PermissionEntityBuilder.html#Oqtane_Migrations_EntityBuilders_PermissionEntityBuilder__ctor_
@@ -8205,12 +8326,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder
   nameWithType: ProfileEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: ProfileEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ProfileEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.ProfileEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: ProfileEntityBuilder.ProfileEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: ProfileEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ProfileEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.ProfileEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: ProfileEntityBuilder.ProfileEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.#ctor*
   name: ProfileEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.ProfileEntityBuilder.html#Oqtane_Migrations_EntityBuilders_ProfileEntityBuilder__ctor_
@@ -8380,12 +8501,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.RoleEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.RoleEntityBuilder
   nameWithType: RoleEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: RoleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_RoleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.RoleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: RoleEntityBuilder.RoleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: RoleEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_RoleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.RoleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: RoleEntityBuilder.RoleEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.#ctor*
   name: RoleEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.RoleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_RoleEntityBuilder__ctor_
@@ -8490,12 +8611,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.SettingEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.SettingEntityBuilder
   nameWithType: SettingEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: SettingEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.html#Oqtane_Migrations_EntityBuilders_SettingEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.SettingEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: SettingEntityBuilder.SettingEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: SettingEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.html#Oqtane_Migrations_EntityBuilders_SettingEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.SettingEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: SettingEntityBuilder.SettingEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.#ctor*
   name: SettingEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.SettingEntityBuilder.html#Oqtane_Migrations_EntityBuilders_SettingEntityBuilder__ctor_
@@ -8587,12 +8708,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.SiteEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.SiteEntityBuilder
   nameWithType: SiteEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: SiteEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html#Oqtane_Migrations_EntityBuilders_SiteEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.SiteEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: SiteEntityBuilder.SiteEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: SiteEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html#Oqtane_Migrations_EntityBuilders_SiteEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.SiteEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: SiteEntityBuilder.SiteEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.#ctor*
   name: SiteEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.SiteEntityBuilder.html#Oqtane_Migrations_EntityBuilders_SiteEntityBuilder__ctor_
@@ -8762,12 +8883,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.TenantEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.TenantEntityBuilder
   nameWithType: TenantEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: TenantEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.html#Oqtane_Migrations_EntityBuilders_TenantEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.TenantEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: TenantEntityBuilder.TenantEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: TenantEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.html#Oqtane_Migrations_EntityBuilders_TenantEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.TenantEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: TenantEntityBuilder.TenantEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.#ctor*
   name: TenantEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.TenantEntityBuilder.html#Oqtane_Migrations_EntityBuilders_TenantEntityBuilder__ctor_
@@ -8846,12 +8967,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.UserEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.UserEntityBuilder
   nameWithType: UserEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: UserEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.UserEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.UserEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.UserEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: UserEntityBuilder.UserEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: UserEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.UserEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.UserEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.UserEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: UserEntityBuilder.UserEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.UserEntityBuilder.#ctor*
   name: UserEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.UserEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserEntityBuilder__ctor_
@@ -8969,12 +9090,12 @@ references:
   commentId: T:Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder
   fullName: Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder
   nameWithType: UserRoleEntityBuilder
-- uid: Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: UserRoleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserRoleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.UserRoleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: UserRoleEntityBuilder.UserRoleEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: UserRoleEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserRoleEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.UserRoleEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: UserRoleEntityBuilder.UserRoleEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.#ctor*
   name: UserRoleEntityBuilder
   href: api/Oqtane.Migrations.EntityBuilders.UserRoleEntityBuilder.html#Oqtane_Migrations_EntityBuilders_UserRoleEntityBuilder__ctor_
@@ -9104,6 +9225,23 @@ references:
   fullName.vb: Oqtane.Migrations.ForeignKey(Of TEntityBuilder).Column
   nameWithType: ForeignKey<TEntityBuilder>.Column
   nameWithType.vb: ForeignKey(Of TEntityBuilder).Column
+- uid: Oqtane.Migrations.ForeignKey`1.ColumnName
+  name: ColumnName
+  href: api/Oqtane.Migrations.ForeignKey-1.html#Oqtane_Migrations_ForeignKey_1_ColumnName
+  commentId: P:Oqtane.Migrations.ForeignKey`1.ColumnName
+  fullName: Oqtane.Migrations.ForeignKey<TEntityBuilder>.ColumnName
+  fullName.vb: Oqtane.Migrations.ForeignKey(Of TEntityBuilder).ColumnName
+  nameWithType: ForeignKey<TEntityBuilder>.ColumnName
+  nameWithType.vb: ForeignKey(Of TEntityBuilder).ColumnName
+- uid: Oqtane.Migrations.ForeignKey`1.ColumnName*
+  name: ColumnName
+  href: api/Oqtane.Migrations.ForeignKey-1.html#Oqtane_Migrations_ForeignKey_1_ColumnName_
+  commentId: Overload:Oqtane.Migrations.ForeignKey`1.ColumnName
+  isSpec: "True"
+  fullName: Oqtane.Migrations.ForeignKey<TEntityBuilder>.ColumnName
+  fullName.vb: Oqtane.Migrations.ForeignKey(Of TEntityBuilder).ColumnName
+  nameWithType: ForeignKey<TEntityBuilder>.ColumnName
+  nameWithType.vb: ForeignKey(Of TEntityBuilder).ColumnName
 - uid: Oqtane.Migrations.ForeignKey`1.Name
   name: Name
   href: api/Oqtane.Migrations.ForeignKey-1.html#Oqtane_Migrations_ForeignKey_1_Name
@@ -9219,12 +9357,12 @@ references:
   commentId: T:Oqtane.Migrations.InitializeMaster
   fullName: Oqtane.Migrations.InitializeMaster
   nameWithType: InitializeMaster
-- uid: Oqtane.Migrations.InitializeMaster.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: InitializeMaster(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.InitializeMaster.html#Oqtane_Migrations_InitializeMaster__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.InitializeMaster.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.InitializeMaster.InitializeMaster(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: InitializeMaster.InitializeMaster(IOqtaneDatabase)
+- uid: Oqtane.Migrations.InitializeMaster.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: InitializeMaster(IDatabase)
+  href: api/Oqtane.Migrations.InitializeMaster.html#Oqtane_Migrations_InitializeMaster__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.InitializeMaster.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.InitializeMaster.InitializeMaster(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: InitializeMaster.InitializeMaster(IDatabase)
 - uid: Oqtane.Migrations.InitializeMaster.#ctor*
   name: InitializeMaster
   href: api/Oqtane.Migrations.InitializeMaster.html#Oqtane_Migrations_InitializeMaster__ctor_
@@ -9264,12 +9402,12 @@ references:
   commentId: T:Oqtane.Migrations.InitializeTenant
   fullName: Oqtane.Migrations.InitializeTenant
   nameWithType: InitializeTenant
-- uid: Oqtane.Migrations.InitializeTenant.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: InitializeTenant(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.InitializeTenant.html#Oqtane_Migrations_InitializeTenant__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.InitializeTenant.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.InitializeTenant.InitializeTenant(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: InitializeTenant.InitializeTenant(IOqtaneDatabase)
+- uid: Oqtane.Migrations.InitializeTenant.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: InitializeTenant(IDatabase)
+  href: api/Oqtane.Migrations.InitializeTenant.html#Oqtane_Migrations_InitializeTenant__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.InitializeTenant.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.InitializeTenant.InitializeTenant(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: InitializeTenant.InitializeTenant(IDatabase)
 - uid: Oqtane.Migrations.InitializeTenant.#ctor*
   name: InitializeTenant
   href: api/Oqtane.Migrations.InitializeTenant.html#Oqtane_Migrations_InitializeTenant__ctor_
@@ -9309,12 +9447,12 @@ references:
   commentId: T:Oqtane.Migrations.MultiDatabaseMigration
   fullName: Oqtane.Migrations.MultiDatabaseMigration
   nameWithType: MultiDatabaseMigration
-- uid: Oqtane.Migrations.MultiDatabaseMigration.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: MultiDatabaseMigration(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.MultiDatabaseMigration.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.MultiDatabaseMigration.MultiDatabaseMigration(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: MultiDatabaseMigration.MultiDatabaseMigration(IOqtaneDatabase)
+- uid: Oqtane.Migrations.MultiDatabaseMigration.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: MultiDatabaseMigration(IDatabase)
+  href: api/Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.MultiDatabaseMigration.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.MultiDatabaseMigration.MultiDatabaseMigration(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: MultiDatabaseMigration.MultiDatabaseMigration(IDatabase)
 - uid: Oqtane.Migrations.MultiDatabaseMigration.#ctor*
   name: MultiDatabaseMigration
   href: api/Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration__ctor_
@@ -9415,12 +9553,12 @@ references:
   commentId: T:Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage
   fullName: Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage
   nameWithType: UpdateDefaultContainerTypeInSitePage
-- uid: Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: UpdateDefaultContainerTypeInSitePage(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.html#Oqtane_Migrations_UpdateDefaultContainerTypeInSitePage__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.UpdateDefaultContainerTypeInSitePage(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: UpdateDefaultContainerTypeInSitePage.UpdateDefaultContainerTypeInSitePage(IOqtaneDatabase)
+- uid: Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: UpdateDefaultContainerTypeInSitePage(IDatabase)
+  href: api/Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.html#Oqtane_Migrations_UpdateDefaultContainerTypeInSitePage__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.UpdateDefaultContainerTypeInSitePage(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: UpdateDefaultContainerTypeInSitePage.UpdateDefaultContainerTypeInSitePage(IDatabase)
 - uid: Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.#ctor*
   name: UpdateDefaultContainerTypeInSitePage
   href: api/Oqtane.Migrations.UpdateDefaultContainerTypeInSitePage.html#Oqtane_Migrations_UpdateDefaultContainerTypeInSitePage__ctor_
@@ -9447,12 +9585,12 @@ references:
   commentId: T:Oqtane.Migrations.UpdateIconColumnInPage
   fullName: Oqtane.Migrations.UpdateIconColumnInPage
   nameWithType: UpdateIconColumnInPage
-- uid: Oqtane.Migrations.UpdateIconColumnInPage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: UpdateIconColumnInPage(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.UpdateIconColumnInPage.html#Oqtane_Migrations_UpdateIconColumnInPage__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.UpdateIconColumnInPage.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.UpdateIconColumnInPage.UpdateIconColumnInPage(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: UpdateIconColumnInPage.UpdateIconColumnInPage(IOqtaneDatabase)
+- uid: Oqtane.Migrations.UpdateIconColumnInPage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: UpdateIconColumnInPage(IDatabase)
+  href: api/Oqtane.Migrations.UpdateIconColumnInPage.html#Oqtane_Migrations_UpdateIconColumnInPage__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.UpdateIconColumnInPage.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.UpdateIconColumnInPage.UpdateIconColumnInPage(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: UpdateIconColumnInPage.UpdateIconColumnInPage(IDatabase)
 - uid: Oqtane.Migrations.UpdateIconColumnInPage.#ctor*
   name: UpdateIconColumnInPage
   href: api/Oqtane.Migrations.UpdateIconColumnInPage.html#Oqtane_Migrations_UpdateIconColumnInPage__ctor_
@@ -9479,12 +9617,12 @@ references:
   commentId: T:Oqtane.Migrations.UpdatePageAndAddColumnToSite
   fullName: Oqtane.Migrations.UpdatePageAndAddColumnToSite
   nameWithType: UpdatePageAndAddColumnToSite
-- uid: Oqtane.Migrations.UpdatePageAndAddColumnToSite.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: UpdatePageAndAddColumnToSite(IOqtaneDatabase)
-  href: api/Oqtane.Migrations.UpdatePageAndAddColumnToSite.html#Oqtane_Migrations_UpdatePageAndAddColumnToSite__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Migrations.UpdatePageAndAddColumnToSite.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Migrations.UpdatePageAndAddColumnToSite.UpdatePageAndAddColumnToSite(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: UpdatePageAndAddColumnToSite.UpdatePageAndAddColumnToSite(IOqtaneDatabase)
+- uid: Oqtane.Migrations.UpdatePageAndAddColumnToSite.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: UpdatePageAndAddColumnToSite(IDatabase)
+  href: api/Oqtane.Migrations.UpdatePageAndAddColumnToSite.html#Oqtane_Migrations_UpdatePageAndAddColumnToSite__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.UpdatePageAndAddColumnToSite.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.UpdatePageAndAddColumnToSite.UpdatePageAndAddColumnToSite(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: UpdatePageAndAddColumnToSite.UpdatePageAndAddColumnToSite(IDatabase)
 - uid: Oqtane.Migrations.UpdatePageAndAddColumnToSite.#ctor*
   name: UpdatePageAndAddColumnToSite
   href: api/Oqtane.Migrations.UpdatePageAndAddColumnToSite.html#Oqtane_Migrations_UpdatePageAndAddColumnToSite__ctor_
@@ -9834,6 +9972,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Database.Name
   nameWithType: Database.Name
+- uid: Oqtane.Models.Database.Package
+  name: Package
+  href: api/Oqtane.Models.Database.html#Oqtane_Models_Database_Package
+  commentId: P:Oqtane.Models.Database.Package
+  fullName: Oqtane.Models.Database.Package
+  nameWithType: Database.Package
+- uid: Oqtane.Models.Database.Package*
+  name: Package
+  href: api/Oqtane.Models.Database.html#Oqtane_Models_Database_Package_
+  commentId: Overload:Oqtane.Models.Database.Package
+  isSpec: "True"
+  fullName: Oqtane.Models.Database.Package
+  nameWithType: Database.Package
 - uid: Oqtane.Models.File
   name: File
   href: api/Oqtane.Models.File.html
@@ -11674,6 +11825,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.ModuleDefinition.Owner
   nameWithType: ModuleDefinition.Owner
+- uid: Oqtane.Models.ModuleDefinition.PackageName
+  name: PackageName
+  href: api/Oqtane.Models.ModuleDefinition.html#Oqtane_Models_ModuleDefinition_PackageName
+  commentId: P:Oqtane.Models.ModuleDefinition.PackageName
+  fullName: Oqtane.Models.ModuleDefinition.PackageName
+  nameWithType: ModuleDefinition.PackageName
+- uid: Oqtane.Models.ModuleDefinition.PackageName*
+  name: PackageName
+  href: api/Oqtane.Models.ModuleDefinition.html#Oqtane_Models_ModuleDefinition_PackageName_
+  commentId: Overload:Oqtane.Models.ModuleDefinition.PackageName
+  isSpec: "True"
+  fullName: Oqtane.Models.ModuleDefinition.PackageName
+  nameWithType: ModuleDefinition.PackageName
 - uid: Oqtane.Models.ModuleDefinition.PermissionNames
   name: PermissionNames
   href: api/Oqtane.Models.ModuleDefinition.html#Oqtane_Models_ModuleDefinition_PermissionNames
@@ -14435,6 +14599,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Theme.Owner
   nameWithType: Theme.Owner
+- uid: Oqtane.Models.Theme.PackageName
+  name: PackageName
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_PackageName
+  commentId: P:Oqtane.Models.Theme.PackageName
+  fullName: Oqtane.Models.Theme.PackageName
+  nameWithType: Theme.PackageName
+- uid: Oqtane.Models.Theme.PackageName*
+  name: PackageName
+  href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_PackageName_
+  commentId: Overload:Oqtane.Models.Theme.PackageName
+  isSpec: "True"
+  fullName: Oqtane.Models.Theme.PackageName
+  nameWithType: Theme.PackageName
 - uid: Oqtane.Models.Theme.PaneLayouts
   name: PaneLayouts
   href: api/Oqtane.Models.Theme.html#Oqtane_Models_Theme_PaneLayouts
@@ -15375,12 +15552,12 @@ references:
   commentId: T:Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder
   fullName: Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder
   nameWithType: HtmlTextEntityBuilder
-- uid: Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  name: HtmlTextEntityBuilder(MigrationBuilder, IOqtaneDatabase)
-  href: api/Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.html#Oqtane_Modules_HtmlText_Migrations_EntityBuilders_HtmlTextEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.HtmlTextEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: HtmlTextEntityBuilder.HtmlTextEntityBuilder(MigrationBuilder, IOqtaneDatabase)
+- uid: Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  name: HtmlTextEntityBuilder(MigrationBuilder, IDatabase)
+  href: api/Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.html#Oqtane_Modules_HtmlText_Migrations_EntityBuilders_HtmlTextEntityBuilder__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.HtmlTextEntityBuilder(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: HtmlTextEntityBuilder.HtmlTextEntityBuilder(MigrationBuilder, IDatabase)
 - uid: Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.#ctor*
   name: HtmlTextEntityBuilder
   href: api/Oqtane.Modules.HtmlText.Migrations.EntityBuilders.HtmlTextEntityBuilder.html#Oqtane_Modules_HtmlText_Migrations_EntityBuilders_HtmlTextEntityBuilder__ctor_
@@ -15446,12 +15623,12 @@ references:
   commentId: T:Oqtane.Modules.HtmlText.Migrations.InitializeModule
   fullName: Oqtane.Modules.HtmlText.Migrations.InitializeModule
   nameWithType: InitializeModule
-- uid: Oqtane.Modules.HtmlText.Migrations.InitializeModule.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  name: InitializeModule(IOqtaneDatabase)
-  href: api/Oqtane.Modules.HtmlText.Migrations.InitializeModule.html#Oqtane_Modules_HtmlText_Migrations_InitializeModule__ctor_Oqtane_Interfaces_IOqtaneDatabase_
-  commentId: M:Oqtane.Modules.HtmlText.Migrations.InitializeModule.#ctor(Oqtane.Interfaces.IOqtaneDatabase)
-  fullName: Oqtane.Modules.HtmlText.Migrations.InitializeModule.InitializeModule(Oqtane.Interfaces.IOqtaneDatabase)
-  nameWithType: InitializeModule.InitializeModule(IOqtaneDatabase)
+- uid: Oqtane.Modules.HtmlText.Migrations.InitializeModule.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: InitializeModule(IDatabase)
+  href: api/Oqtane.Modules.HtmlText.Migrations.InitializeModule.html#Oqtane_Modules_HtmlText_Migrations_InitializeModule__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Modules.HtmlText.Migrations.InitializeModule.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Modules.HtmlText.Migrations.InitializeModule.InitializeModule(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: InitializeModule.InitializeModule(IDatabase)
 - uid: Oqtane.Modules.HtmlText.Migrations.InitializeModule.#ctor*
   name: InitializeModule
   href: api/Oqtane.Modules.HtmlText.Migrations.InitializeModule.html#Oqtane_Modules_HtmlText_Migrations_InitializeModule__ctor_
@@ -17964,12 +18141,12 @@ references:
   commentId: T:Oqtane.Repository.InstallationContext
   fullName: Oqtane.Repository.InstallationContext
   nameWithType: InstallationContext
-- uid: Oqtane.Repository.InstallationContext.#ctor(Oqtane.Interfaces.IOqtaneDatabase,System.String)
-  name: InstallationContext(IOqtaneDatabase, String)
-  href: api/Oqtane.Repository.InstallationContext.html#Oqtane_Repository_InstallationContext__ctor_Oqtane_Interfaces_IOqtaneDatabase_System_String_
-  commentId: M:Oqtane.Repository.InstallationContext.#ctor(Oqtane.Interfaces.IOqtaneDatabase,System.String)
-  fullName: Oqtane.Repository.InstallationContext.InstallationContext(Oqtane.Interfaces.IOqtaneDatabase, System.String)
-  nameWithType: InstallationContext.InstallationContext(IOqtaneDatabase, String)
+- uid: Oqtane.Repository.InstallationContext.#ctor(Oqtane.Databases.Interfaces.IDatabase,System.String)
+  name: InstallationContext(IDatabase, String)
+  href: api/Oqtane.Repository.InstallationContext.html#Oqtane_Repository_InstallationContext__ctor_Oqtane_Databases_Interfaces_IDatabase_System_String_
+  commentId: M:Oqtane.Repository.InstallationContext.#ctor(Oqtane.Databases.Interfaces.IDatabase,System.String)
+  fullName: Oqtane.Repository.InstallationContext.InstallationContext(Oqtane.Databases.Interfaces.IDatabase, System.String)
+  nameWithType: InstallationContext.InstallationContext(IDatabase, String)
 - uid: Oqtane.Repository.InstallationContext.#ctor*
   name: InstallationContext
   href: api/Oqtane.Repository.InstallationContext.html#Oqtane_Repository_InstallationContext__ctor_
@@ -25430,19 +25607,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Shared.InstallConfig.ConnectionString
   nameWithType: InstallConfig.ConnectionString
-- uid: Oqtane.Shared.InstallConfig.Database
-  name: Database
-  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_Database
-  commentId: P:Oqtane.Shared.InstallConfig.Database
-  fullName: Oqtane.Shared.InstallConfig.Database
-  nameWithType: InstallConfig.Database
-- uid: Oqtane.Shared.InstallConfig.Database*
-  name: Database
-  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_Database_
-  commentId: Overload:Oqtane.Shared.InstallConfig.Database
+- uid: Oqtane.Shared.InstallConfig.DatabasePackage
+  name: DatabasePackage
+  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DatabasePackage
+  commentId: P:Oqtane.Shared.InstallConfig.DatabasePackage
+  fullName: Oqtane.Shared.InstallConfig.DatabasePackage
+  nameWithType: InstallConfig.DatabasePackage
+- uid: Oqtane.Shared.InstallConfig.DatabasePackage*
+  name: DatabasePackage
+  href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DatabasePackage_
+  commentId: Overload:Oqtane.Shared.InstallConfig.DatabasePackage
   isSpec: "True"
-  fullName: Oqtane.Shared.InstallConfig.Database
-  nameWithType: InstallConfig.Database
+  fullName: Oqtane.Shared.InstallConfig.DatabasePackage
+  nameWithType: InstallConfig.DatabasePackage
 - uid: Oqtane.Shared.InstallConfig.DatabaseType
   name: DatabaseType
   href: api/Oqtane.Shared.InstallConfig.html#Oqtane_Shared_InstallConfig_DatabaseType
@@ -25628,171 +25805,6 @@ references:
   commentId: F:Oqtane.Shared.LogLevel.Warning
   fullName: Oqtane.Shared.LogLevel.Warning
   nameWithType: LogLevel.Warning
-- uid: Oqtane.Shared.OqtaneDatabaseBase
-  name: OqtaneDatabaseBase
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html
-  commentId: T:Oqtane.Shared.OqtaneDatabaseBase
-  fullName: Oqtane.Shared.OqtaneDatabaseBase
-  nameWithType: OqtaneDatabaseBase
-- uid: Oqtane.Shared.OqtaneDatabaseBase.#ctor(System.String,System.String)
-  name: OqtaneDatabaseBase(String, String)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase__ctor_System_String_System_String_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.#ctor(System.String,System.String)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.OqtaneDatabaseBase(System.String, System.String)
-  nameWithType: OqtaneDatabaseBase.OqtaneDatabaseBase(String, String)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.#ctor*
-  name: OqtaneDatabaseBase
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase__ctor_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.#ctor
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.OqtaneDatabaseBase
-  nameWithType: OqtaneDatabaseBase.OqtaneDatabaseBase
-- uid: Oqtane.Shared.OqtaneDatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
-  name: AddAutoIncrementColumn(ColumnsBuilder, String)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, System.String)
-  nameWithType: OqtaneDatabaseBase.AddAutoIncrementColumn(ColumnsBuilder, String)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.AddAutoIncrementColumn*
-  name: AddAutoIncrementColumn
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_AddAutoIncrementColumn_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.AddAutoIncrementColumn
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.AddAutoIncrementColumn
-  nameWithType: OqtaneDatabaseBase.AddAutoIncrementColumn
-- uid: Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql(System.String[])
-  name: ConcatenateSql(String[])
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_ConcatenateSql_System_String___
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql(System.String[])
-  name.vb: ConcatenateSql(String())
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql(System.String[])
-  fullName.vb: Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql(System.String())
-  nameWithType: OqtaneDatabaseBase.ConcatenateSql(String[])
-  nameWithType.vb: OqtaneDatabaseBase.ConcatenateSql(String())
-- uid: Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql*
-  name: ConcatenateSql
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_ConcatenateSql_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.ConcatenateSql
-  nameWithType: OqtaneDatabaseBase.ConcatenateSql
-- uid: Oqtane.Shared.OqtaneDatabaseBase.ExecuteNonQuery(System.String,System.String)
-  name: ExecuteNonQuery(String, String)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_ExecuteNonQuery_System_String_System_String_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.ExecuteNonQuery(System.String,System.String)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.ExecuteNonQuery(System.String, System.String)
-  nameWithType: OqtaneDatabaseBase.ExecuteNonQuery(String, String)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.ExecuteNonQuery*
-  name: ExecuteNonQuery
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_ExecuteNonQuery_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.ExecuteNonQuery
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.ExecuteNonQuery
-  nameWithType: OqtaneDatabaseBase.ExecuteNonQuery
-- uid: Oqtane.Shared.OqtaneDatabaseBase.ExecuteReader(System.String,System.String)
-  name: ExecuteReader(String, String)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_ExecuteReader_System_String_System_String_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.ExecuteReader(System.String,System.String)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.ExecuteReader(System.String, System.String)
-  nameWithType: OqtaneDatabaseBase.ExecuteReader(String, String)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.ExecuteReader*
-  name: ExecuteReader
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_ExecuteReader_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.ExecuteReader
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.ExecuteReader
-  nameWithType: OqtaneDatabaseBase.ExecuteReader
-- uid: Oqtane.Shared.OqtaneDatabaseBase.FriendlyName
-  name: FriendlyName
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_FriendlyName
-  commentId: P:Oqtane.Shared.OqtaneDatabaseBase.FriendlyName
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.FriendlyName
-  nameWithType: OqtaneDatabaseBase.FriendlyName
-- uid: Oqtane.Shared.OqtaneDatabaseBase.FriendlyName*
-  name: FriendlyName
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_FriendlyName_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.FriendlyName
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.FriendlyName
-  nameWithType: OqtaneDatabaseBase.FriendlyName
-- uid: Oqtane.Shared.OqtaneDatabaseBase.Name
-  name: Name
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_Name
-  commentId: P:Oqtane.Shared.OqtaneDatabaseBase.Name
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.Name
-  nameWithType: OqtaneDatabaseBase.Name
-- uid: Oqtane.Shared.OqtaneDatabaseBase.Name*
-  name: Name
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_Name_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.Name
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.Name
-  nameWithType: OqtaneDatabaseBase.Name
-- uid: Oqtane.Shared.OqtaneDatabaseBase.Provider
-  name: Provider
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_Provider
-  commentId: P:Oqtane.Shared.OqtaneDatabaseBase.Provider
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.Provider
-  nameWithType: OqtaneDatabaseBase.Provider
-- uid: Oqtane.Shared.OqtaneDatabaseBase.Provider*
-  name: Provider
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_Provider_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.Provider
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.Provider
-  nameWithType: OqtaneDatabaseBase.Provider
-- uid: Oqtane.Shared.OqtaneDatabaseBase.RewriteName(System.String)
-  name: RewriteName(String)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_RewriteName_System_String_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.RewriteName(System.String)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.RewriteName(System.String)
-  nameWithType: OqtaneDatabaseBase.RewriteName(String)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.RewriteName*
-  name: RewriteName
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_RewriteName_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.RewriteName
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.RewriteName
-  nameWithType: OqtaneDatabaseBase.RewriteName
-- uid: Oqtane.Shared.OqtaneDatabaseBase.TypeName
-  name: TypeName
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_TypeName
-  commentId: P:Oqtane.Shared.OqtaneDatabaseBase.TypeName
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.TypeName
-  nameWithType: OqtaneDatabaseBase.TypeName
-- uid: Oqtane.Shared.OqtaneDatabaseBase.TypeName*
-  name: TypeName
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_TypeName_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.TypeName
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.TypeName
-  nameWithType: OqtaneDatabaseBase.TypeName
-- uid: Oqtane.Shared.OqtaneDatabaseBase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
-  name: UpdateIdentityStoreTableNames(ModelBuilder)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_UpdateIdentityStoreTableNames_Microsoft_EntityFrameworkCore_ModelBuilder_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
-  nameWithType: OqtaneDatabaseBase.UpdateIdentityStoreTableNames(ModelBuilder)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.UpdateIdentityStoreTableNames*
-  name: UpdateIdentityStoreTableNames
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_UpdateIdentityStoreTableNames_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.UpdateIdentityStoreTableNames
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.UpdateIdentityStoreTableNames
-  nameWithType: OqtaneDatabaseBase.UpdateIdentityStoreTableNames
-- uid: Oqtane.Shared.OqtaneDatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
-  name: UseDatabase(DbContextOptionsBuilder, String)
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
-  commentId: M:Oqtane.Shared.OqtaneDatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, System.String)
-  nameWithType: OqtaneDatabaseBase.UseDatabase(DbContextOptionsBuilder, String)
-- uid: Oqtane.Shared.OqtaneDatabaseBase.UseDatabase*
-  name: UseDatabase
-  href: api/Oqtane.Shared.OqtaneDatabaseBase.html#Oqtane_Shared_OqtaneDatabaseBase_UseDatabase_
-  commentId: Overload:Oqtane.Shared.OqtaneDatabaseBase.UseDatabase
-  isSpec: "True"
-  fullName: Oqtane.Shared.OqtaneDatabaseBase.UseDatabase
-  nameWithType: OqtaneDatabaseBase.UseDatabase
 - uid: Oqtane.Shared.OqtaneIgnoreAttribute
   name: OqtaneIgnoreAttribute
   href: api/Oqtane.Shared.OqtaneIgnoreAttribute.html

@@ -211,6 +211,9 @@
       <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_CreateTableBuilder__0__Oqtane_Migrations_ForeignKey__0__">BaseEntityBuilder&lt;TEntityBuilder&gt;.AddForeignKey(CreateTableBuilder&lt;TEntityBuilder&gt;, ForeignKey&lt;TEntityBuilder&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_AddForeignKey_System_String_">BaseEntityBuilder&lt;TEntityBuilder&gt;.AddForeignKey(String)</a>
+    </div>
+    <div>
       <a class="xref" href="Oqtane.Migrations.EntityBuilders.BaseEntityBuilder-1.html#Oqtane_Migrations_EntityBuilders_BaseEntityBuilder_1_DropForeignKey_Oqtane_Migrations_ForeignKey__0__">BaseEntityBuilder&lt;TEntityBuilder&gt;.DropForeignKey(ForeignKey&lt;TEntityBuilder&gt;)</a>
     </div>
     <div>
@@ -254,18 +257,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601.%23ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder%2COqtane.Interfaces.IOqtaneDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601.%23ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder%2COqtane.Databases.Interfaces.IDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L13">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L14">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor*"></a>
-  <h4 id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Interfaces_IOqtaneDatabase_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Interfaces.IOqtaneDatabase)">DeletableAuditableBaseEntityBuilder(MigrationBuilder, IOqtaneDatabase)</h4>
+  <h4 id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1__ctor_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_Oqtane_Databases_Interfaces_IDatabase_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.#ctor(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,Oqtane.Databases.Interfaces.IDatabase)">DeletableAuditableBaseEntityBuilder(MigrationBuilder, IDatabase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected DeletableAuditableBaseEntityBuilder(MigrationBuilder migrationBuilder, IOqtaneDatabase database)</code></pre>
+    <pre><code class="lang-csharp hljs">protected DeletableAuditableBaseEntityBuilder(MigrationBuilder migrationBuilder, IDatabase database)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,7 +286,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Oqtane.Interfaces.IOqtaneDatabase.html">IOqtaneDatabase</a></td>
+        <td><a class="xref" href="Oqtane.Databases.Interfaces.IDatabase.html">IDatabase</a></td>
         <td><span class="parametername">database</span></td>
         <td></td>
       </tr>
@@ -296,7 +299,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedBy.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601.DeletedBy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L24">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L25">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedBy_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.DeletedBy*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedBy" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.DeletedBy">DeletedBy</h4>
@@ -326,7 +329,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedOn.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601.DeletedOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L26">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L27">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedOn_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.DeletedOn*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_DeletedOn" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.DeletedOn">DeletedOn</h4>
@@ -356,7 +359,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_IsDeleted.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601.IsDeleted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L28">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L29">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_IsDeleted_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.IsDeleted*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_IsDeleted" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.IsDeleted">IsDeleted</h4>
@@ -388,7 +391,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_AddDeletableColumns_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601.AddDeletableColumns(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L17">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L18">View Source</a>
   </span>
   <a id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_AddDeletableColumns_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.AddDeletableColumns*"></a>
   <h4 id="Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1_AddDeletableColumns_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_" data-uid="Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder`1.AddDeletableColumns(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder)">AddDeletableColumns(ColumnsBuilder)</h4>
@@ -426,7 +429,7 @@
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_EntityBuilders_DeletableAuditableBaseEntityBuilder_1.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.EntityBuilders.DeletableAuditableBaseEntityBuilder%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/EntityBuilders/DeletableAuditableBaseEntityBuilder.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

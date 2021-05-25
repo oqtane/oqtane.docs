@@ -112,11 +112,14 @@
       <section><p>An Alias maps a url like <code>oqtane.my</code> or <code>oqtane.my/products</code> to a <a class="xref" href="Oqtane.Models.Site.html">Site</a> and <a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></p>
 </section>
       <h4><a class="xref" href="Oqtane.Models.ConnectionStringField.html">ConnectionStringField</a></h4>
-      <section></section>
+      <section><p>Helper class for input fields in the setup of the SQL connection</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Culture.html">Culture</a></h4>
-      <section></section>
+      <section><p>Culture information describing a Culture</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Database.html">Database</a></h4>
-      <section></section>
+      <section><p>Information about a Database used in the current Oqtane installation</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.File.html">File</a></h4>
       <section><p>Describes a File in Oqtane</p>
 </section>
@@ -124,11 +127,16 @@
       <section><p>Describes a Folder in Oqtane</p>
 </section>
       <h4><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></h4>
-      <section></section>
+      <section><p>Internal message used internally during installation.</p>
+<p>Each part of the installation will return the status / message when installing.</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Job.html">Job</a></h4>
-      <section></section>
+      <section><p>Definition of a Job / Task which is run on the server.
+When Jobs run, they create a <a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a></p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a></h4>
-      <section></section>
+      <section><p>Log / Journal of <a class="xref" href="Oqtane.Models.JobLog.html#Oqtane_Models_JobLog_Job">Job</a>s executed.</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Language.html">Language</a></h4>
       <section><p>Language Information for <a class="xref" href="Oqtane.Models.Site.html">Site</a>s
 TODO: todoc - unclear how this is different from <a class="xref" href="Oqtane.Models.Culture.html">Culture</a></p>
@@ -140,15 +148,19 @@ TODO: todoc - unclear how this is different from <a class="xref" href="Oqtane.Mo
       <section><p>Describes a Module <em>Instance</em> which will be shown on a page. This is different from a <a class="xref" href="Oqtane.Models.Module.html#Oqtane_Models_Module_ModuleDefinition">ModuleDefinition</a> which describes a Module.</p>
 </section>
       <h4><a class="xref" href="Oqtane.Models.ModuleContent.html">ModuleContent</a></h4>
-      <section></section>
+      <section><p>Generic Model for Module-Contents to enable Import/Export of the Module-Data</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.ModuleDefinition.html">ModuleDefinition</a></h4>
       <section><p>Describes a Module type (Definition) in Oqtane.
 The available Modules are determined at StartUp.</p>
 </section>
       <h4><a class="xref" href="Oqtane.Models.Notification.html">Notification</a></h4>
-      <section></section>
+      <section><p>Notification for a User - usually meant to be sent as an E-Mail.</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Package.html">Package</a></h4>
-      <section></section>
+      <section><p>A software Package which is like an Oqtane Plugin / Extension.
+This is used for creating lists from NuGet to offer for installation. </p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Page.html">Page</a></h4>
       <section><p>Describes a Page in Oqtane</p>
 </section>
@@ -160,13 +172,18 @@ The available Modules are determined at StartUp.</p>
       <h4><a class="xref" href="Oqtane.Models.PageTemplateModule.html">PageTemplateModule</a></h4>
       <section></section>
       <h4><a class="xref" href="Oqtane.Models.Permission.html">Permission</a></h4>
-      <section></section>
+      <section><p>Permission information for anything in Oqtane.
+Things in Oqtane are identified as Entities, so anything that can be identified can be described here. </p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.PermissionString.html">PermissionString</a></h4>
-      <section></section>
+      <section><p>Use this to define a <a class="xref" href="Oqtane.Models.PermissionString.html#Oqtane_Models_PermissionString_PermissionName">PermissionName</a> which addresses a set of multiple permissions.</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Profile.html">Profile</a></h4>
-      <section></section>
+      <section><p>A single Profile Property information of a <a class="xref" href="Oqtane.Models.User.html">User</a>.<br>So a user will have many of these to fully describe his Profile. </p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Resource.html">Resource</a></h4>
-      <section></section>
+      <section><p>Resource Objects describe a JavaScript or CSS file which is needed by the Module to work. </p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.Role.html">Role</a></h4>
       <section><p>Describes a Security Role in Oqtane.</p>
 </section>
@@ -188,7 +205,8 @@ Sites can have multiple <a class="xref" href="Oqtane.Models.Alias.html">Alias</a
 Tenants can contain multiple <a class="xref" href="Oqtane.Models.Site.html">Site</a>s and have all their data in a separate Database.</p>
 </section>
       <h4><a class="xref" href="Oqtane.Models.Theme.html">Theme</a></h4>
-      <section></section>
+      <section><p>Information about a Theme in Oqtane.</p>
+</section>
       <h4><a class="xref" href="Oqtane.Models.ThemeControl.html">ThemeControl</a></h4>
       <section></section>
       <h4><a class="xref" href="Oqtane.Models.User.html">User</a></h4>
