@@ -386,15 +386,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/control-panel/modules.md",
       "output": {
         ".html": {
           "relative_path": "admin/control-panel/modules.html",
-          "hash": "xNrbMEBniqlV9QfBs4ATDg=="
+          "hash": "V1PQF9PygnqhbtpE1MW9DQ=="
         }
       },
       "is_incremental": false,
@@ -610,15 +607,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/modules/adding-modules.md",
       "output": {
         ".html": {
           "relative_path": "admin/modules/adding-modules.html",
-          "hash": "hy6SJdiGewlwXYwZ05HoTg=="
+          "hash": "4aB7wGiSXo0unFyROHlP6g=="
         }
       },
       "is_incremental": false,
@@ -626,10 +620,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "admin/modules/assets/adding-module.png",
+      "source_relative_path": "admin/modules/assets/adding-modules.png",
       "output": {
         "resource": {
-          "relative_path": "admin/modules/assets/adding-module.png"
+          "relative_path": "admin/modules/assets/adding-modules.png"
         }
       },
       "is_incremental": false,
@@ -5653,13 +5647,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 42,
-          "skipped_file_count": 42
+          "skipped_file_count": 40
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 386,
-          "skipped_file_count": 202
+          "skipped_file_count": 386
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

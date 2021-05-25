@@ -9,7 +9,7 @@ In order to add a module to a page, simply open the control panel with the gear 
 There are also features after selecting the module that you would like which are the:
 
 * Title: Which is what will be displayed directly above the module as its title, if nothing is selected then the module's name will be put as the title.
-* Pane: Select which content pane you want the module to go inside of. Panes are made visible with the [content editor](../SiteAdministrator/content-editor.md).
+* Pane: Select which content pane you want the module to go inside of. Panes are made visible with the [content editor](../site-administration/content-editor.md).
 * Container: Select if you would like to have a title displayed above the module or not have one.
 
 ![adding-modules](./assets/adding-modules.png)
