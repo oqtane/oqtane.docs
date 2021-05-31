@@ -103,7 +103,8 @@
   
   <h1 id="Oqtane_Services_IUserService" data-uid="Oqtane.Services.IUserService" class="text-break">Interface IUserService
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manage (get / update) user information</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Services.html">Oqtane.Services</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Client.dll</h6>
@@ -118,11 +119,13 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_AddUserAsync_Oqtane_Models_User_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.AddUserAsync(Oqtane.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L12">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L34">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_AddUserAsync_" data-uid="Oqtane.Services.IUserService.AddUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_AddUserAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.AddUserAsync(Oqtane.Models.User)">AddUserAsync(User)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Save a user to the Database.
+The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all the information incl. what <a class="xref" href="Oqtane.Models.Site.html">Site</a> it belongs to. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -165,11 +168,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_DeleteUserAsync_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.DeleteUserAsync(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L49">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_DeleteUserAsync_" data-uid="Oqtane.Services.IUserService.DeleteUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_DeleteUserAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IUserService.DeleteUserAsync(System.Int32,System.Int32)">DeleteUserAsync(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Delete / remove a user in the database</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -188,12 +192,14 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">userId</span></td>
-        <td></td>
+        <td><p>ID-reference to the <a class="xref" href="Oqtane.Models.User.html">User</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">siteId</span></td>
-        <td></td>
+        <td><p>ID-reference to the <a class="xref" href="Oqtane.Models.Site.html">Site</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -217,11 +223,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_ForgotPasswordAsync_Oqtane_Models_User_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.ForgotPasswordAsync(Oqtane.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L24">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L82">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_ForgotPasswordAsync_" data-uid="Oqtane.Services.IUserService.ForgotPasswordAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_ForgotPasswordAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.ForgotPasswordAsync(Oqtane.Models.User)">ForgotPasswordAsync(User)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Trigger a forgot-password e-mail for this <a class="xref" href="Oqtane.Models.User.html">User</a>. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -264,11 +271,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_GetUserAsync_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.GetUserAsync(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L8">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L17">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_GetUserAsync_" data-uid="Oqtane.Services.IUserService.GetUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_GetUserAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IUserService.GetUserAsync(System.Int32,System.Int32)">GetUserAsync(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a <a class="xref" href="Oqtane.Models.User.html">User</a> of a specific site</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -287,12 +295,14 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">userId</span></td>
-        <td></td>
+        <td><p>ID of a <a class="xref" href="Oqtane.Models.User.html">User</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">siteId</span></td>
-        <td></td>
+        <td><p>ID of a <a class="xref" href="Oqtane.Models.Site.html">Site</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -316,11 +326,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_GetUserAsync_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.GetUserAsync(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L10">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L26">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_GetUserAsync_" data-uid="Oqtane.Services.IUserService.GetUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_GetUserAsync_System_String_System_Int32_" data-uid="Oqtane.Services.IUserService.GetUserAsync(System.String,System.Int32)">GetUserAsync(String, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a <a class="xref" href="Oqtane.Models.User.html">User</a> of a specific site</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -339,12 +350,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">username</span></td>
-        <td></td>
+        <td><p>Username / login of a <a class="xref" href="Oqtane.Models.User.html">User</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">siteId</span></td>
-        <td></td>
+        <td><p>ID of a <a class="xref" href="Oqtane.Models.Site.html">Site</a></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -368,11 +381,13 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_LoginUserAsync_Oqtane_Models_User_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.LoginUserAsync(Oqtane.Models.User%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L18">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L60">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_LoginUserAsync_" data-uid="Oqtane.Services.IUserService.LoginUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_LoginUserAsync_Oqtane_Models_User_System_Boolean_System_Boolean_" data-uid="Oqtane.Services.IUserService.LoginUserAsync(Oqtane.Models.User,System.Boolean,System.Boolean)">LoginUserAsync(User, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Will login the specified <a class="xref" href="Oqtane.Models.User.html">User</a>.</p>
+<p>Note that this will probably not be a real User, but a user object where the <code>Username</code> and <code>Password</code> have been filled.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -391,17 +406,20 @@
       <tr>
         <td><a class="xref" href="Oqtane.Models.User.html">User</a></td>
         <td><span class="parametername">user</span></td>
-        <td></td>
+        <td><p>A <a class="xref" href="Oqtane.Models.User.html">User</a> object which should have at least the <a class="xref" href="Oqtane.Models.User.html#Oqtane_Models_User_Username">Username</a> and <a class="xref" href="Oqtane.Models.User.html#Oqtane_Models_User_Password">Password</a> set.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">setCookie</span></td>
-        <td></td>
+        <td><p>Determines if the login should be stored in the cookie.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">isPersistent</span></td>
-        <td></td>
+        <td><p>Determines if the login should be persisted in the cookie for a long time.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -425,11 +443,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_LogoutUserAsync_Oqtane_Models_User_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.LogoutUserAsync(Oqtane.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L20">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L67">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_LogoutUserAsync_" data-uid="Oqtane.Services.IUserService.LogoutUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_LogoutUserAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.LogoutUserAsync(Oqtane.Models.User)">LogoutUserAsync(User)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Logout a <a class="xref" href="Oqtane.Models.User.html">User</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -472,11 +491,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_ResetPasswordAsync_Oqtane_Models_User_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.ResetPasswordAsync(Oqtane.Models.User%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L26">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L90">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_ResetPasswordAsync_" data-uid="Oqtane.Services.IUserService.ResetPasswordAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_ResetPasswordAsync_Oqtane_Models_User_System_String_" data-uid="Oqtane.Services.IUserService.ResetPasswordAsync(Oqtane.Models.User,System.String)">ResetPasswordAsync(User, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reset the password of this <a class="xref" href="Oqtane.Models.User.html">User</a></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -524,11 +544,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_UpdateUserAsync_Oqtane_Models_User_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.UpdateUserAsync(Oqtane.Models.User)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L14">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L41">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_UpdateUserAsync_" data-uid="Oqtane.Services.IUserService.UpdateUserAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_UpdateUserAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.UpdateUserAsync(Oqtane.Models.User)">UpdateUserAsync(User)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update an existing user in the database.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -571,11 +592,12 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService_VerifyEmailAsync_Oqtane_Models_User_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService.VerifyEmailAsync(Oqtane.Models.User%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L22">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L75">View Source</a>
   </span>
   <a id="Oqtane_Services_IUserService_VerifyEmailAsync_" data-uid="Oqtane.Services.IUserService.VerifyEmailAsync*"></a>
   <h4 id="Oqtane_Services_IUserService_VerifyEmailAsync_Oqtane_Models_User_System_String_" data-uid="Oqtane.Services.IUserService.VerifyEmailAsync(Oqtane.Models.User,System.String)">VerifyEmailAsync(User, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update e-mail verification status of a user.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -594,12 +616,14 @@
       <tr>
         <td><a class="xref" href="Oqtane.Models.User.html">User</a></td>
         <td><span class="parametername">user</span></td>
-        <td></td>
+        <td><p>The <a class="xref" href="Oqtane.Models.User.html">User</a> we&apos;re verifying</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">token</span></td>
-        <td></td>
+        <td><p>A Hash value in the URL which verifies this user got the e-mail (containing this token)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -629,7 +653,7 @@
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Services_IUserService.md&amp;value=---%0Auid%3A%20Oqtane.Services.IUserService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Services/Interfaces/IUserService.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

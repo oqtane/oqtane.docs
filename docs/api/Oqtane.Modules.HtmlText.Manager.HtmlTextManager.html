@@ -121,6 +121,9 @@
     <div>
       <a class="xref" href="Oqtane.Modules.MigratableModuleBase.html#Oqtane_Modules_MigratableModuleBase_Migrate_Oqtane_Repository_DBContextBase_Oqtane_Models_Tenant_Oqtane_Enums_MigrationType_">MigratableModuleBase.Migrate(DBContextBase, Tenant, MigrationType)</a>
     </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.MigratableModuleBase.html#Oqtane_Modules_MigratableModuleBase_AddMigrationHistory_Oqtane_Repository_ISqlRepository_Oqtane_Models_Tenant_System_String_">MigratableModuleBase.AddMigrationHistory(ISqlRepository, Tenant, String)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Modules.HtmlText.Manager.html">Oqtane.Modules.HtmlText.Manager</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
@@ -132,18 +135,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager__ctor_Oqtane_Modules_HtmlText_Repository_IHtmlTextRepository_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager.%23ctor(Oqtane.Modules.HtmlText.Repository.IHtmlTextRepository%2COqtane.Infrastructure.ITenantManager%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager__ctor_Oqtane_Modules_HtmlText_Repository_IHtmlTextRepository_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_ISqlRepository_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager.%23ctor(Oqtane.Modules.HtmlText.Repository.IHtmlTextRepository%2COqtane.Infrastructure.ITenantManager%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor%2COqtane.Repository.ISqlRepository)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L26">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L21">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager__ctor_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.#ctor*"></a>
-  <h4 id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager__ctor_Oqtane_Modules_HtmlText_Repository_IHtmlTextRepository_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.#ctor(Oqtane.Modules.HtmlText.Repository.IHtmlTextRepository,Oqtane.Infrastructure.ITenantManager,Microsoft.AspNetCore.Http.IHttpContextAccessor)">HtmlTextManager(IHtmlTextRepository, ITenantManager, IHttpContextAccessor)</h4>
+  <h4 id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager__ctor_Oqtane_Modules_HtmlText_Repository_IHtmlTextRepository_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_ISqlRepository_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.#ctor(Oqtane.Modules.HtmlText.Repository.IHtmlTextRepository,Oqtane.Infrastructure.ITenantManager,Microsoft.AspNetCore.Http.IHttpContextAccessor,Oqtane.Repository.ISqlRepository)">HtmlTextManager(IHtmlTextRepository, ITenantManager, IHttpContextAccessor, ISqlRepository)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HtmlTextManager(IHtmlTextRepository htmlText, ITenantManager tenantManager, IHttpContextAccessor httpContextAccessor)</code></pre>
+    <pre><code class="lang-csharp hljs">public HtmlTextManager(IHtmlTextRepository htmlText, ITenantManager tenantManager, IHttpContextAccessor httpContextAccessor, ISqlRepository sqlRepository)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,6 +173,11 @@
         <td><span class="parametername">httpContextAccessor</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.ISqlRepository.html">ISqlRepository</a></td>
+        <td><span class="parametername">sqlRepository</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
@@ -179,7 +187,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager_ExportModule_Oqtane_Models_Module_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager.ExportModule(Oqtane.Models.Module)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L33">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L29">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_ExportModule_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.ExportModule*"></a>
   <h4 id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_ExportModule_Oqtane_Models_Module_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.ExportModule(Oqtane.Models.Module)">ExportModule(Module)</h4>
@@ -226,7 +234,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager_ImportModule_Oqtane_Models_Module_System_String_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager.ImportModule(Oqtane.Models.Module%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L44">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L40">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_ImportModule_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.ImportModule*"></a>
   <h4 id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_ImportModule_Oqtane_Models_Module_System_String_System_String_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.ImportModule(Oqtane.Models.Module,System.String,System.String)">ImportModule(Module, String, String)</h4>
@@ -268,7 +276,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager_Install_Oqtane_Models_Tenant_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager.Install(Oqtane.Models.Tenant%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L62">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L58">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_Install_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.Install*"></a>
   <h4 id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_Install_Oqtane_Models_Tenant_System_String_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.Install(Oqtane.Models.Tenant,System.String)">Install(Tenant, String)</h4>
@@ -320,7 +328,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager_Uninstall_Oqtane_Models_Tenant_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager.Uninstall(Oqtane.Models.Tenant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L69">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L68">View Source</a>
   </span>
   <a id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_Uninstall_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.Uninstall*"></a>
   <h4 id="Oqtane_Modules_HtmlText_Manager_HtmlTextManager_Uninstall_Oqtane_Models_Tenant_" data-uid="Oqtane.Modules.HtmlText.Manager.HtmlTextManager.Uninstall(Oqtane.Models.Tenant)">Uninstall(Tenant)</h4>
@@ -380,7 +388,7 @@
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Manager_HtmlTextManager.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Manager.HtmlTextManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L19" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Manager/HtmlTextManager.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
