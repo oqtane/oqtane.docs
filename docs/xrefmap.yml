@@ -236,6 +236,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.FileController.Get
   nameWithType: FileController.Get
+- uid: Oqtane.Controllers.FileController.GetImage(System.Int32,System.String,System.String)
+  name: GetImage(Int32, String, String)
+  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_GetImage_System_Int32_System_String_System_String_
+  commentId: M:Oqtane.Controllers.FileController.GetImage(System.Int32,System.String,System.String)
+  fullName: Oqtane.Controllers.FileController.GetImage(System.Int32, System.String, System.String)
+  nameWithType: FileController.GetImage(Int32, String, String)
+- uid: Oqtane.Controllers.FileController.GetImage*
+  name: GetImage
+  href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_GetImage_
+  commentId: Overload:Oqtane.Controllers.FileController.GetImage
+  isSpec: "True"
+  fullName: Oqtane.Controllers.FileController.GetImage
+  nameWithType: FileController.GetImage
 - uid: Oqtane.Controllers.FileController.Put(System.Int32,Oqtane.Models.File)
   name: Put(Int32, File)
   href: api/Oqtane.Controllers.FileController.html#Oqtane_Controllers_FileController_Put_System_Int32_Oqtane_Models_File_
@@ -9471,6 +9484,51 @@ references:
   isSpec: "True"
   fullName: Oqtane.Migrations.Tenant.AddColumnToProfileAndUpdatePage.Up
   nameWithType: AddColumnToProfileAndUpdatePage.Up
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity
+  name: AddFolderCapacity
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html
+  commentId: T:Oqtane.Migrations.Tenant.AddFolderCapacity
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity
+  nameWithType: AddFolderCapacity
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  name: AddFolderCapacity(IDatabase)
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html#Oqtane_Migrations_Tenant_AddFolderCapacity__ctor_Oqtane_Databases_Interfaces_IDatabase_
+  commentId: M:Oqtane.Migrations.Tenant.AddFolderCapacity.#ctor(Oqtane.Databases.Interfaces.IDatabase)
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity.AddFolderCapacity(Oqtane.Databases.Interfaces.IDatabase)
+  nameWithType: AddFolderCapacity.AddFolderCapacity(IDatabase)
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity.#ctor*
+  name: AddFolderCapacity
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html#Oqtane_Migrations_Tenant_AddFolderCapacity__ctor_
+  commentId: Overload:Oqtane.Migrations.Tenant.AddFolderCapacity.#ctor
+  isSpec: "True"
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity.AddFolderCapacity
+  nameWithType: AddFolderCapacity.AddFolderCapacity
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html#Oqtane_Migrations_Tenant_AddFolderCapacity_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Oqtane.Migrations.Tenant.AddFolderCapacity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: AddFolderCapacity.Down(MigrationBuilder)
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity.Down*
+  name: Down
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html#Oqtane_Migrations_Tenant_AddFolderCapacity_Down_
+  commentId: Overload:Oqtane.Migrations.Tenant.AddFolderCapacity.Down
+  isSpec: "True"
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity.Down
+  nameWithType: AddFolderCapacity.Down
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html#Oqtane_Migrations_Tenant_AddFolderCapacity_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:Oqtane.Migrations.Tenant.AddFolderCapacity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: AddFolderCapacity.Up(MigrationBuilder)
+- uid: Oqtane.Migrations.Tenant.AddFolderCapacity.Up*
+  name: Up
+  href: api/Oqtane.Migrations.Tenant.AddFolderCapacity.html#Oqtane_Migrations_Tenant_AddFolderCapacity_Up_
+  commentId: Overload:Oqtane.Migrations.Tenant.AddFolderCapacity.Up
+  isSpec: "True"
+  fullName: Oqtane.Migrations.Tenant.AddFolderCapacity.Up
+  nameWithType: AddFolderCapacity.Up
 - uid: Oqtane.Migrations.Tenant.AddFolderType
   name: AddFolderType
   href: api/Oqtane.Migrations.Tenant.AddFolderType.html
@@ -10249,6 +10307,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.File.DeletedOn
   nameWithType: File.DeletedOn
+- uid: Oqtane.Models.File.Description
+  name: Description
+  href: api/Oqtane.Models.File.html#Oqtane_Models_File_Description
+  commentId: P:Oqtane.Models.File.Description
+  fullName: Oqtane.Models.File.Description
+  nameWithType: File.Description
+- uid: Oqtane.Models.File.Description*
+  name: Description
+  href: api/Oqtane.Models.File.html#Oqtane_Models_File_Description_
+  commentId: Overload:Oqtane.Models.File.Description
+  isSpec: "True"
+  fullName: Oqtane.Models.File.Description
+  nameWithType: File.Description
 - uid: Oqtane.Models.File.Extension
   name: Extension
   href: api/Oqtane.Models.File.html#Oqtane_Models_File_Extension
@@ -10411,6 +10482,19 @@ references:
   commentId: T:Oqtane.Models.Folder
   fullName: Oqtane.Models.Folder
   nameWithType: Folder
+- uid: Oqtane.Models.Folder.Capacity
+  name: Capacity
+  href: api/Oqtane.Models.Folder.html#Oqtane_Models_Folder_Capacity
+  commentId: P:Oqtane.Models.Folder.Capacity
+  fullName: Oqtane.Models.Folder.Capacity
+  nameWithType: Folder.Capacity
+- uid: Oqtane.Models.Folder.Capacity*
+  name: Capacity
+  href: api/Oqtane.Models.Folder.html#Oqtane_Models_Folder_Capacity_
+  commentId: Overload:Oqtane.Models.Folder.Capacity
+  isSpec: "True"
+  fullName: Oqtane.Models.Folder.Capacity
+  nameWithType: Folder.Capacity
 - uid: Oqtane.Models.Folder.CreatedBy
   name: CreatedBy
   href: api/Oqtane.Models.Folder.html#Oqtane_Models_Folder_CreatedBy
@@ -10489,6 +10573,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Folder.HasChildren
   nameWithType: Folder.HasChildren
+- uid: Oqtane.Models.Folder.ImageSizes
+  name: ImageSizes
+  href: api/Oqtane.Models.Folder.html#Oqtane_Models_Folder_ImageSizes
+  commentId: P:Oqtane.Models.Folder.ImageSizes
+  fullName: Oqtane.Models.Folder.ImageSizes
+  nameWithType: Folder.ImageSizes
+- uid: Oqtane.Models.Folder.ImageSizes*
+  name: ImageSizes
+  href: api/Oqtane.Models.Folder.html#Oqtane_Models_Folder_ImageSizes_
+  commentId: Overload:Oqtane.Models.Folder.ImageSizes
+  isSpec: "True"
+  fullName: Oqtane.Models.Folder.ImageSizes
+  nameWithType: Folder.ImageSizes
 - uid: Oqtane.Models.Folder.IsDeleted
   name: IsDeleted
   href: api/Oqtane.Models.Folder.html#Oqtane_Models_Folder_IsDeleted
@@ -12597,6 +12694,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Package.Downloads
   nameWithType: Package.Downloads
+- uid: Oqtane.Models.Package.ExpiryDate
+  name: ExpiryDate
+  href: api/Oqtane.Models.Package.html#Oqtane_Models_Package_ExpiryDate
+  commentId: P:Oqtane.Models.Package.ExpiryDate
+  fullName: Oqtane.Models.Package.ExpiryDate
+  nameWithType: Package.ExpiryDate
+- uid: Oqtane.Models.Package.ExpiryDate*
+  name: ExpiryDate
+  href: api/Oqtane.Models.Package.html#Oqtane_Models_Package_ExpiryDate_
+  commentId: Overload:Oqtane.Models.Package.ExpiryDate
+  isSpec: "True"
+  fullName: Oqtane.Models.Package.ExpiryDate
+  nameWithType: Package.ExpiryDate
 - uid: Oqtane.Models.Package.License
   name: License
   href: api/Oqtane.Models.Package.html#Oqtane_Models_Package_License
@@ -12727,6 +12837,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Package.ReleaseDate
   nameWithType: Package.ReleaseDate
+- uid: Oqtane.Models.Package.TrialPeriod
+  name: TrialPeriod
+  href: api/Oqtane.Models.Package.html#Oqtane_Models_Package_TrialPeriod
+  commentId: P:Oqtane.Models.Package.TrialPeriod
+  fullName: Oqtane.Models.Package.TrialPeriod
+  nameWithType: Package.TrialPeriod
+- uid: Oqtane.Models.Package.TrialPeriod*
+  name: TrialPeriod
+  href: api/Oqtane.Models.Package.html#Oqtane_Models_Package_TrialPeriod_
+  commentId: Overload:Oqtane.Models.Package.TrialPeriod
+  isSpec: "True"
+  fullName: Oqtane.Models.Package.TrialPeriod
+  nameWithType: Package.TrialPeriod
 - uid: Oqtane.Models.Package.Version
   name: Version
   href: api/Oqtane.Models.Package.html#Oqtane_Models_Package_Version
@@ -15420,6 +15543,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.User.Email
   nameWithType: User.Email
+- uid: Oqtane.Models.User.FolderPath
+  name: FolderPath
+  href: api/Oqtane.Models.User.html#Oqtane_Models_User_FolderPath
+  commentId: P:Oqtane.Models.User.FolderPath
+  fullName: Oqtane.Models.User.FolderPath
+  nameWithType: User.FolderPath
+- uid: Oqtane.Models.User.FolderPath*
+  name: FolderPath
+  href: api/Oqtane.Models.User.html#Oqtane_Models_User_FolderPath_
+  commentId: Overload:Oqtane.Models.User.FolderPath
+  isSpec: "True"
+  fullName: Oqtane.Models.User.FolderPath
+  nameWithType: User.FolderPath
 - uid: Oqtane.Models.User.IsAuthenticated
   name: IsAuthenticated
   href: api/Oqtane.Models.User.html#Oqtane_Models_User_IsAuthenticated
@@ -16958,6 +17094,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.ModuleBase.HideProgressIndicator
   nameWithType: ModuleBase.HideProgressIndicator
+- uid: Oqtane.Modules.ModuleBase.ImageUrl(System.Int32,System.String,System.String)
+  name: ImageUrl(Int32, String, String)
+  href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_String_System_String_
+  commentId: M:Oqtane.Modules.ModuleBase.ImageUrl(System.Int32,System.String,System.String)
+  fullName: Oqtane.Modules.ModuleBase.ImageUrl(System.Int32, System.String, System.String)
+  nameWithType: ModuleBase.ImageUrl(Int32, String, String)
+- uid: Oqtane.Modules.ModuleBase.ImageUrl*
+  name: ImageUrl
+  href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ImageUrl_
+  commentId: Overload:Oqtane.Modules.ModuleBase.ImageUrl
+  isSpec: "True"
+  fullName: Oqtane.Modules.ModuleBase.ImageUrl
+  nameWithType: ModuleBase.ImageUrl
 - uid: Oqtane.Modules.ModuleBase.JSRuntime
   name: JSRuntime
   href: api/Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_JSRuntime
@@ -24946,6 +25095,12 @@ references:
   commentId: F:Oqtane.Shared.Constants.ImageFiles
   fullName: Oqtane.Shared.Constants.ImageFiles
   nameWithType: Constants.ImageFiles
+- uid: Oqtane.Shared.Constants.ImageUrl
+  name: ImageUrl
+  href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_ImageUrl
+  commentId: F:Oqtane.Shared.Constants.ImageUrl
+  fullName: Oqtane.Shared.Constants.ImageUrl
+  nameWithType: Constants.ImageUrl
 - uid: Oqtane.Shared.Constants.InvalidFileNameChars
   name: InvalidFileNameChars
   href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_InvalidFileNameChars
@@ -25048,6 +25203,12 @@ references:
   commentId: F:Oqtane.Shared.Constants.UrlParametersDelimiter
   fullName: Oqtane.Shared.Constants.UrlParametersDelimiter
   nameWithType: Constants.UrlParametersDelimiter
+- uid: Oqtane.Shared.Constants.UserFolderCapacity
+  name: UserFolderCapacity
+  href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_UserFolderCapacity
+  commentId: F:Oqtane.Shared.Constants.UserFolderCapacity
+  fullName: Oqtane.Shared.Constants.UserFolderCapacity
+  nameWithType: Constants.UserFolderCapacity
 - uid: Oqtane.Shared.Constants.Version
   name: Version
   href: api/Oqtane.Shared.Constants.html#Oqtane_Shared_Constants_Version
@@ -27259,6 +27420,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Shared.Utilities.GetTypeNameLastSegment
   nameWithType: Utilities.GetTypeNameLastSegment
+- uid: Oqtane.Shared.Utilities.ImageUrl(Oqtane.Models.Alias,System.Int32,System.String,System.String)
+  name: ImageUrl(Alias, Int32, String, String)
+  href: api/Oqtane.Shared.Utilities.html#Oqtane_Shared_Utilities_ImageUrl_Oqtane_Models_Alias_System_Int32_System_String_System_String_
+  commentId: M:Oqtane.Shared.Utilities.ImageUrl(Oqtane.Models.Alias,System.Int32,System.String,System.String)
+  fullName: Oqtane.Shared.Utilities.ImageUrl(Oqtane.Models.Alias, System.Int32, System.String, System.String)
+  nameWithType: Utilities.ImageUrl(Alias, Int32, String, String)
+- uid: Oqtane.Shared.Utilities.ImageUrl*
+  name: ImageUrl
+  href: api/Oqtane.Shared.Utilities.html#Oqtane_Shared_Utilities_ImageUrl_
+  commentId: Overload:Oqtane.Shared.Utilities.ImageUrl
+  isSpec: "True"
+  fullName: Oqtane.Shared.Utilities.ImageUrl
+  nameWithType: Utilities.ImageUrl
 - uid: Oqtane.Shared.Utilities.IsFileValid(Oqtane.Models.File)
   name: IsFileValid(File)
   href: api/Oqtane.Shared.Utilities.html#Oqtane_Shared_Utilities_IsFileValid_Oqtane_Models_File_
@@ -28161,6 +28335,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.ThemeBase.EditUrl
   nameWithType: ThemeBase.EditUrl
+- uid: Oqtane.Themes.ThemeBase.ImageUrl(System.Int32,System.String,System.String)
+  name: ImageUrl(Int32, String, String)
+  href: api/Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_ImageUrl_System_Int32_System_String_System_String_
+  commentId: M:Oqtane.Themes.ThemeBase.ImageUrl(System.Int32,System.String,System.String)
+  fullName: Oqtane.Themes.ThemeBase.ImageUrl(System.Int32, System.String, System.String)
+  nameWithType: ThemeBase.ImageUrl(Int32, String, String)
+- uid: Oqtane.Themes.ThemeBase.ImageUrl*
+  name: ImageUrl
+  href: api/Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_ImageUrl_
+  commentId: Overload:Oqtane.Themes.ThemeBase.ImageUrl
+  isSpec: "True"
+  fullName: Oqtane.Themes.ThemeBase.ImageUrl
+  nameWithType: ThemeBase.ImageUrl
 - uid: Oqtane.Themes.ThemeBase.JSRuntime
   name: JSRuntime
   href: api/Oqtane.Themes.ThemeBase.html#Oqtane_Themes_ThemeBase_JSRuntime

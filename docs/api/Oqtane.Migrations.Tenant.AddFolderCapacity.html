@@ -13,10 +13,10 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HtmlTextContext
+    <title>Class AddFolderCapacity
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HtmlTextContext
+    <meta name="title" content="Class AddFolderCapacity
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -98,68 +98,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext">
+            <article class="content wrap" id="_content" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity">
   
   
-  <h1 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext" class="text-break">Class HtmlTextContext
+  <h1 id="Oqtane_Migrations_Tenant_AddFolderCapacity" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity" class="text-break">Class AddFolderCapacity
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Microsoft.EntityFrameworkCore.DbContext</span></div>
-    <div class="level2"><span class="xref">Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityUser</span>, <span class="xref">System.String</span>, <span class="xref">Microsoft.AspNetCore.Identity.IdentityUserClaim</span>&lt;<span class="xref">System.String</span>&gt;, <span class="xref">Microsoft.AspNetCore.Identity.IdentityUserLogin</span>&lt;<span class="xref">System.String</span>&gt;, <span class="xref">Microsoft.AspNetCore.Identity.IdentityUserToken</span>&lt;<span class="xref">System.String</span>&gt;&gt;</div>
-    <div class="level3"><span class="xref">Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityUser</span>, <span class="xref">System.String</span>&gt;</div>
-    <div class="level4"><span class="xref">Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserContext</span>&lt;<span class="xref">Microsoft.AspNetCore.Identity.IdentityUser</span>&gt;</div>
-    <div class="level5"><a class="xref" href="Oqtane.Repository.DBContextBase.html">DBContextBase</a></div>
-    <div class="level6"><span class="xref">HtmlTextContext</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Oqtane.Modules.IService.html">IService</a></div>
-    <div><a class="xref" href="Oqtane.Repository.Databases.Interfaces.IMultiDatabase.html">IMultiDatabase</a></div>
+    <div class="level1"><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Migration</span></div>
+    <div class="level2"><a class="xref" href="Oqtane.Migrations.MultiDatabaseMigration.html">MultiDatabaseMigration</a></div>
+    <div class="level3"><span class="xref">AddFolderCapacity</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_ActiveDatabase">DBContextBase.ActiveDatabase</a>
+      <a class="xref" href="Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration_ActiveDatabase">MultiDatabaseMigration.ActiveDatabase</a>
     </div>
     <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_">DBContextBase.OnConfiguring(DbContextOptionsBuilder)</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_">DBContextBase.OnModelCreating(ModelBuilder)</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_SaveChanges">DBContextBase.SaveChanges()</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_SaveChangesAsync_System_Threading_CancellationToken_">DBContextBase.SaveChangesAsync(CancellationToken)</a>
+      <a class="xref" href="Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration_RewriteName_System_String_">MultiDatabaseMigration.RewriteName(String)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Modules.HtmlText.Repository.html">Oqtane.Modules.HtmlText.Repository</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Migrations.Tenant.html">Oqtane.Migrations.Tenant</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
-  <h5 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext_syntax">Syntax</h5>
+  <h5 id="Oqtane_Migrations_Tenant_AddFolderCapacity_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HtmlTextContext : DBContextBase, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IDisposable, IAsyncDisposable, IResettableService, IService, IMultiDatabase</code></pre>
+    <pre><code class="lang-csharp hljs">[DbContext(typeof(TenantDBContext))]
+[Migration(&quot;Tenant.02.03.00.01&quot;)]
+public class AddFolderCapacity : MultiDatabaseMigration</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext.%23ctor(Oqtane.Infrastructure.ITenantManager%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddFolderCapacity__ctor_Oqtane_Databases_Interfaces_IDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddFolderCapacity.%23ctor(Oqtane.Databases.Interfaces.IDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L14">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/02030001_AddFolderCapacity.cs/#L14">View Source</a>
   </span>
-  <a id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.#ctor*"></a>
-  <h4 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext__ctor_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.#ctor(Oqtane.Infrastructure.ITenantManager,Microsoft.AspNetCore.Http.IHttpContextAccessor)">HtmlTextContext(ITenantManager, IHttpContextAccessor)</h4>
+  <a id="Oqtane_Migrations_Tenant_AddFolderCapacity__ctor_" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity.#ctor*"></a>
+  <h4 id="Oqtane_Migrations_Tenant_AddFolderCapacity__ctor_Oqtane_Databases_Interfaces_IDatabase_" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity.#ctor(Oqtane.Databases.Interfaces.IDatabase)">AddFolderCapacity(IDatabase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HtmlTextContext(ITenantManager tenantManager, IHttpContextAccessor httpContextAccessor)</code></pre>
+    <pre><code class="lang-csharp hljs">public AddFolderCapacity(IDatabase database)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,56 +157,82 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></td>
-        <td><span class="parametername">tenantManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.AspNetCore.Http.IHttpContextAccessor</span></td>
-        <td><span class="parametername">httpContextAccessor</span></td>
+        <td><a class="xref" href="Oqtane.Databases.Interfaces.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext_HtmlText.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext.HtmlText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddFolderCapacity_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddFolderCapacity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/02030001_AddFolderCapacity.cs/#L30">View Source</a>
   </span>
-  <a id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext_HtmlText_" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.HtmlText*"></a>
-  <h4 id="Oqtane_Modules_HtmlText_Repository_HtmlTextContext_HtmlText" data-uid="Oqtane.Modules.HtmlText.Repository.HtmlTextContext.HtmlText">HtmlText</h4>
+  <a id="Oqtane_Migrations_Tenant_AddFolderCapacity_Down_" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity.Down*"></a>
+  <h4 id="Oqtane_Migrations_Tenant_AddFolderCapacity_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">Down(MigrationBuilder)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;HtmlText&gt; HtmlText { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Down(MigrationBuilder migrationBuilder)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.EntityFrameworkCore.DbSet</span>&lt;<a class="xref" href="Oqtane.Modules.HtmlText.Models.HtmlText.html">HtmlText</a>&gt;</td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder</span></td>
+        <td><span class="parametername">migrationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Oqtane.Modules.IService.html">IService</a>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddFolderCapacity_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddFolderCapacity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/02030001_AddFolderCapacity.cs/#L18">View Source</a>
+  </span>
+  <a id="Oqtane_Migrations_Tenant_AddFolderCapacity_Up_" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity.Up*"></a>
+  <h4 id="Oqtane_Migrations_Tenant_AddFolderCapacity_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_" data-uid="Oqtane.Migrations.Tenant.AddFolderCapacity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">Up(MigrationBuilder)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Up(MigrationBuilder migrationBuilder)</code></pre>
   </div>
-  <div>
-      <a class="xref" href="Oqtane.Repository.Databases.Interfaces.IMultiDatabase.html">IMultiDatabase</a>
-  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder</span></td>
+        <td><span class="parametername">migrationBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)</span></div>
 </article>
           </div>
           
@@ -230,10 +241,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Modules_HtmlText_Repository_HtmlTextContext.md&amp;value=---%0Auid%3A%20Oqtane.Modules.HtmlText.Repository.HtmlTextContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddFolderCapacity.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddFolderCapacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Modules/HtmlText/Repository/HtmlTextContext.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/02030001_AddFolderCapacity.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

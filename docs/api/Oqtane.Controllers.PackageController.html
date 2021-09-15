@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PackageController
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -184,7 +184,7 @@ public class PackageController : Controller, IActionFilter, IAsyncActionFilter, 
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet]
-public Task&lt;IEnumerable&lt;Package&gt;&gt; Get(string type, string search, string price, string package)</code></pre>
+public async Task&lt;IEnumerable&lt;Package&gt;&gt; Get(string type, string search, string price, string package)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,7 +265,7 @@ public void InstallPackages()</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
 [Authorize(Roles = &quot;Host Users&quot;)]
-public Task&lt;Package&gt; Post(string packageid, string version, string folder)</code></pre>
+public async Task&lt;Package&gt; Post(string packageid, string version, string folder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

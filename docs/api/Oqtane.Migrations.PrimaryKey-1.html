@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct PrimaryKey&lt;TEntityBuilder&gt;
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -109,8 +109,7 @@
   <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
   <h5 id="Oqtane_Migrations_PrimaryKey_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct PrimaryKey&lt;TEntityBuilder&gt;
-
+    <pre><code class="lang-csharp hljs">public readonly struct PrimaryKey&lt;TEntityBuilder&gt;
     where TEntityBuilder : BaseEntityBuilder&lt;TEntityBuilder&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -182,7 +181,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Expression&lt;Func&lt;TEntityBuilder, object&gt;&gt; Columns { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly Expression&lt;Func&lt;TEntityBuilder, object&gt;&gt; Columns { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,7 +211,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Name { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
