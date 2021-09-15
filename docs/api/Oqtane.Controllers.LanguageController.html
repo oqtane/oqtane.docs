@@ -123,18 +123,18 @@ public class LanguageController : Controller, IActionFilter, IAsyncActionFilter,
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController__ctor_Oqtane_Repository_ILanguageRepository_Oqtane_Infrastructure_ILogManager_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController.%23ctor(Oqtane.Repository.ILanguageRepository%2COqtane.Infrastructure.ILogManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController__ctor_Oqtane_Repository_ILanguageRepository_Oqtane_Infrastructure_ILogManager_Oqtane_Infrastructure_ITenantManager_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController.%23ctor(Oqtane.Repository.ILanguageRepository%2COqtane.Infrastructure.ILogManager%2COqtane.Infrastructure.ITenantManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L18">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L20">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LanguageController__ctor_" data-uid="Oqtane.Controllers.LanguageController.#ctor*"></a>
-  <h4 id="Oqtane_Controllers_LanguageController__ctor_Oqtane_Repository_ILanguageRepository_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.LanguageController.#ctor(Oqtane.Repository.ILanguageRepository,Oqtane.Infrastructure.ILogManager)">LanguageController(ILanguageRepository, ILogManager)</h4>
+  <h4 id="Oqtane_Controllers_LanguageController__ctor_Oqtane_Repository_ILanguageRepository_Oqtane_Infrastructure_ILogManager_Oqtane_Infrastructure_ITenantManager_" data-uid="Oqtane.Controllers.LanguageController.#ctor(Oqtane.Repository.ILanguageRepository,Oqtane.Infrastructure.ILogManager,Oqtane.Infrastructure.ITenantManager)">LanguageController(ILanguageRepository, ILogManager, ITenantManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LanguageController(ILanguageRepository language, ILogManager logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public LanguageController(ILanguageRepository language, ILogManager logger, ITenantManager tenantManager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,6 +156,11 @@ public class LanguageController : Controller, IActionFilter, IAsyncActionFilter,
         <td><span class="parametername">logger</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></td>
+        <td><span class="parametername">tenantManager</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
@@ -165,7 +170,7 @@ public class LanguageController : Controller, IActionFilter, IAsyncActionFilter,
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController_Delete_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController.Delete(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L42">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L77">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LanguageController_Delete_" data-uid="Oqtane.Controllers.LanguageController.Delete*"></a>
   <h4 id="Oqtane_Controllers_LanguageController_Delete_System_Int32_" data-uid="Oqtane.Controllers.LanguageController.Delete(System.Int32)">Delete(Int32)</h4>
@@ -199,7 +204,7 @@ public void Delete(int id)</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController_Get_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController.Get(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L27">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L43">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LanguageController_Get_" data-uid="Oqtane.Controllers.LanguageController.Get*"></a>
   <h4 id="Oqtane_Controllers_LanguageController_Get_System_Int32_" data-uid="Oqtane.Controllers.LanguageController.Get(System.Int32)">Get(Int32)</h4>
@@ -247,7 +252,7 @@ public Language Get(int id)</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController_Get_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L24">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L27">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LanguageController_Get_" data-uid="Oqtane.Controllers.LanguageController.Get*"></a>
   <h4 id="Oqtane_Controllers_LanguageController_Get_System_String_" data-uid="Oqtane.Controllers.LanguageController.Get(System.String)">Get(String)</h4>
@@ -295,7 +300,7 @@ public IEnumerable&lt;Language&gt; Get(string siteid)</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController_Post_Oqtane_Models_Language_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController.Post(Oqtane.Models.Language)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L30">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L59">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LanguageController_Post_" data-uid="Oqtane.Controllers.LanguageController.Post*"></a>
   <h4 id="Oqtane_Controllers_LanguageController_Post_Oqtane_Models_Language_" data-uid="Oqtane.Controllers.LanguageController.Post(Oqtane.Models.Language)">Post(Language)</h4>
@@ -350,7 +355,7 @@ public Language Post([FromBody] Language language)</code></pre>
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LanguageController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LanguageController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LanguageController.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -162,40 +162,6 @@ public class TenantController : Controller, IActionFilter, IAsyncActionFilter, I
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_TenantController_Delete_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.TenantController.Delete(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/TenantController.cs/#L67">View Source</a>
-  </span>
-  <a id="Oqtane_Controllers_TenantController_Delete_" data-uid="Oqtane.Controllers.TenantController.Delete*"></a>
-  <h4 id="Oqtane_Controllers_TenantController_Delete_System_Int32_" data-uid="Oqtane.Controllers.TenantController.Delete(System.Int32)">Delete(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpDelete(&quot;{id}&quot;)]
-[Authorize(Roles = &quot;Host Users&quot;)]
-public void Delete(int id)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_TenantController_Get.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.TenantController.Get%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -208,7 +174,7 @@ public void Delete(int id)</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet]
-[Authorize(Roles = &quot;Administrators&quot;)]
+[Authorize(Roles = &quot;Host Users&quot;)]
 public IEnumerable&lt;Tenant&gt; Get()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -240,7 +206,7 @@ public IEnumerable&lt;Tenant&gt; Get()</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;{id}&quot;)]
-[Authorize(Roles = &quot;Administrators&quot;)]
+[Authorize(Roles = &quot;Host Users&quot;)]
 public Tenant Get(int id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -256,109 +222,6 @@ public Tenant Get(int id)</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_TenantController_Post_Oqtane_Models_Tenant_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.TenantController.Post(Oqtane.Models.Tenant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/TenantController.cs/#L41">View Source</a>
-  </span>
-  <a id="Oqtane_Controllers_TenantController_Post_" data-uid="Oqtane.Controllers.TenantController.Post*"></a>
-  <h4 id="Oqtane_Controllers_TenantController_Post_Oqtane_Models_Tenant_" data-uid="Oqtane.Controllers.TenantController.Post(Oqtane.Models.Tenant)">Post(Tenant)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpPost]
-[Authorize(Roles = &quot;Host Users&quot;)]
-public Tenant Post([FromBody] Tenant tenant)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></td>
-        <td><span class="parametername">tenant</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_TenantController_Put_System_Int32_Oqtane_Models_Tenant_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.TenantController.Put(System.Int32%2COqtane.Models.Tenant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/TenantController.cs/#L54">View Source</a>
-  </span>
-  <a id="Oqtane_Controllers_TenantController_Put_" data-uid="Oqtane.Controllers.TenantController.Put*"></a>
-  <h4 id="Oqtane_Controllers_TenantController_Put_System_Int32_Oqtane_Models_Tenant_" data-uid="Oqtane.Controllers.TenantController.Put(System.Int32,Oqtane.Models.Tenant)">Put(Int32, Tenant)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpPut(&quot;{id}&quot;)]
-[Authorize(Roles = &quot;Host Users&quot;)]
-public Tenant Put(int id, [FromBody] Tenant tenant)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></td>
-        <td><span class="parametername">tenant</span></td>
         <td></td>
       </tr>
     </tbody>

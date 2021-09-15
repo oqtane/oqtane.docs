@@ -123,18 +123,18 @@ public class InstallationController : Controller, IActionFilter, IAsyncActionFil
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.%23ctor(Microsoft.Extensions.Configuration.IConfigurationRoot%2COqtane.Infrastructure.IInstallationManager%2COqtane.Infrastructure.IDatabaseManager%2COqtane.Infrastructure.ILocalizationManager%2CMicrosoft.Extensions.Caching.Memory.IMemoryCache)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController__ctor_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_Logging_ILogger_Oqtane_Controllers_InstallationController__.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.%23ctor(Oqtane.Infrastructure.IConfigManager%2COqtane.Infrastructure.IInstallationManager%2COqtane.Infrastructure.IDatabaseManager%2COqtane.Infrastructure.ILocalizationManager%2CMicrosoft.Extensions.Caching.Memory.IMemoryCache%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor%2COqtane.Repository.IAliasRepository%2CMicrosoft.Extensions.Logging.ILogger%7BOqtane.Controllers.InstallationController%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L27">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L36">View Source</a>
   </span>
   <a id="Oqtane_Controllers_InstallationController__ctor_" data-uid="Oqtane.Controllers.InstallationController.#ctor*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_" data-uid="Oqtane.Controllers.InstallationController.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager,Microsoft.Extensions.Caching.Memory.IMemoryCache)">InstallationController(IConfigurationRoot, IInstallationManager, IDatabaseManager, ILocalizationManager, IMemoryCache)</h4>
+  <h4 id="Oqtane_Controllers_InstallationController__ctor_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_Logging_ILogger_Oqtane_Controllers_InstallationController__" data-uid="Oqtane.Controllers.InstallationController.#ctor(Oqtane.Infrastructure.IConfigManager,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Http.IHttpContextAccessor,Oqtane.Repository.IAliasRepository,Microsoft.Extensions.Logging.ILogger{Oqtane.Controllers.InstallationController})">InstallationController(IConfigManager, IInstallationManager, IDatabaseManager, ILocalizationManager, IMemoryCache, IHttpContextAccessor, IAliasRepository, ILogger&lt;InstallationController&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InstallationController(IConfigurationRoot config, IInstallationManager installationManager, IDatabaseManager databaseManager, ILocalizationManager localizationManager, IMemoryCache cache)</code></pre>
+    <pre><code class="lang-csharp hljs">public InstallationController(IConfigManager configManager, IInstallationManager installationManager, IDatabaseManager databaseManager, ILocalizationManager localizationManager, IMemoryCache cache, IHttpContextAccessor accessor, IAliasRepository aliases, ILogger&lt;InstallationController&gt; filelogger)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,8 +147,8 @@ public class InstallationController : Controller, IActionFilter, IAsyncActionFil
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Extensions.Configuration.IConfigurationRoot</span></td>
-        <td><span class="parametername">config</span></td>
+        <td><a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></td>
+        <td><span class="parametername">configManager</span></td>
         <td></td>
       </tr>
       <tr>
@@ -171,26 +171,58 @@ public class InstallationController : Controller, IActionFilter, IAsyncActionFil
         <td><span class="parametername">cache</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Http.IHttpContextAccessor</span></td>
+        <td><span class="parametername">accessor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Repository.IAliasRepository.html">IAliasRepository</a></td>
+        <td><span class="parametername">aliases</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span>&lt;<a class="xref" href="Oqtane.Controllers.InstallationController.html">InstallationController</a>&gt;</td>
+        <td><span class="parametername">filelogger</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_IsInstalled.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.IsInstalled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_IsInstalled_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.IsInstalled(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L55">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L72">View Source</a>
   </span>
   <a id="Oqtane_Controllers_InstallationController_IsInstalled_" data-uid="Oqtane.Controllers.InstallationController.IsInstalled*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_IsInstalled" data-uid="Oqtane.Controllers.InstallationController.IsInstalled">IsInstalled()</h4>
+  <h4 id="Oqtane_Controllers_InstallationController_IsInstalled_System_String_" data-uid="Oqtane.Controllers.InstallationController.IsInstalled(System.String)">IsInstalled(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;installed&quot;)]
-public Installation IsInstalled()</code></pre>
+public Installation IsInstalled(string path)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -211,7 +243,7 @@ public Installation IsInstalled()</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Load.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Load%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L79">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L102">View Source</a>
   </span>
   <a id="Oqtane_Controllers_InstallationController_Load_" data-uid="Oqtane.Controllers.InstallationController.Load*"></a>
   <h4 id="Oqtane_Controllers_InstallationController_Load" data-uid="Oqtane.Controllers.InstallationController.Load">Load()</h4>
@@ -242,7 +274,7 @@ public IActionResult Load()</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Post_Oqtane_Shared_InstallConfig_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Post(Oqtane.Shared.InstallConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L37">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L49">View Source</a>
   </span>
   <a id="Oqtane_Controllers_InstallationController_Post_" data-uid="Oqtane.Controllers.InstallationController.Post*"></a>
   <h4 id="Oqtane_Controllers_InstallationController_Post_Oqtane_Shared_InstallConfig_" data-uid="Oqtane.Controllers.InstallationController.Post(Oqtane.Shared.InstallConfig)">Post(InstallConfig)</h4>
@@ -251,7 +283,7 @@ public IActionResult Load()</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
-public Installation Post([FromBody] InstallConfig config)</code></pre>
+public Task&lt;Installation&gt; Post([FromBody] InstallConfig config)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,7 +312,56 @@ public Installation Post([FromBody] InstallConfig config)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Oqtane.Models.Installation.html">Installation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Register_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Register(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L231">View Source</a>
+  </span>
+  <a id="Oqtane_Controllers_InstallationController_Register_" data-uid="Oqtane.Controllers.InstallationController.Register*"></a>
+  <h4 id="Oqtane_Controllers_InstallationController_Register_System_String_" data-uid="Oqtane.Controllers.InstallationController.Register(System.String)">Register(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;register&quot;)]
+[Authorize(Roles = &quot;Host Users&quot;)]
+public Task Register(string email)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -290,7 +371,7 @@ public Installation Post([FromBody] InstallConfig config)</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Restart.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Restart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L71">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L94">View Source</a>
   </span>
   <a id="Oqtane_Controllers_InstallationController_Restart_" data-uid="Oqtane.Controllers.InstallationController.Restart*"></a>
   <h4 id="Oqtane_Controllers_InstallationController_Restart" data-uid="Oqtane.Controllers.InstallationController.Restart">Restart()</h4>
@@ -307,7 +388,7 @@ public void Restart()</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Upgrade.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Upgrade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L61">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L84">View Source</a>
   </span>
   <a id="Oqtane_Controllers_InstallationController_Upgrade_" data-uid="Oqtane.Controllers.InstallationController.Upgrade*"></a>
   <h4 id="Oqtane_Controllers_InstallationController_Upgrade" data-uid="Oqtane.Controllers.InstallationController.Upgrade">Upgrade()</h4>
@@ -345,7 +426,7 @@ public Installation Upgrade()</code></pre>
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L18" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

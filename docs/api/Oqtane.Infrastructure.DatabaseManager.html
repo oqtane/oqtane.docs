@@ -124,18 +124,18 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.%23ctor(Microsoft.Extensions.Configuration.IConfigurationRoot%2CMicrosoft.Extensions.DependencyInjection.IServiceScopeFactory%2CMicrosoft.AspNetCore.Hosting.IWebHostEnvironment%2CMicrosoft.Extensions.Caching.Memory.IMemoryCache%2COqtane.Infrastructure.IConfigManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_Logging_ILogger_Oqtane_Infrastructure_DatabaseManager__.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.%23ctor(Microsoft.Extensions.Configuration.IConfigurationRoot%2CMicrosoft.Extensions.DependencyInjection.IServiceScopeFactory%2CMicrosoft.AspNetCore.Hosting.IWebHostEnvironment%2CMicrosoft.Extensions.Caching.Memory.IMemoryCache%2COqtane.Infrastructure.IConfigManager%2CMicrosoft.Extensions.Logging.ILogger%7BOqtane.Infrastructure.DatabaseManager%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L36">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L38">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager__ctor_" data-uid="Oqtane.Infrastructure.DatabaseManager.#ctor*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_" data-uid="Oqtane.Infrastructure.DatabaseManager.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Oqtane.Infrastructure.IConfigManager)">DatabaseManager(IConfigurationRoot, IServiceScopeFactory, IWebHostEnvironment, IMemoryCache, IConfigManager)</h4>
+  <h4 id="Oqtane_Infrastructure_DatabaseManager__ctor_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_Logging_ILogger_Oqtane_Infrastructure_DatabaseManager__" data-uid="Oqtane.Infrastructure.DatabaseManager.#ctor(Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Oqtane.Infrastructure.IConfigManager,Microsoft.Extensions.Logging.ILogger{Oqtane.Infrastructure.DatabaseManager})">DatabaseManager(IConfigurationRoot, IServiceScopeFactory, IWebHostEnvironment, IMemoryCache, IConfigManager, ILogger&lt;DatabaseManager&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DatabaseManager(IConfigurationRoot config, IServiceScopeFactory serviceScopeFactory, IWebHostEnvironment environment, IMemoryCache cache, IConfigManager configManager)</code></pre>
+    <pre><code class="lang-csharp hljs">public DatabaseManager(IConfigurationRoot config, IServiceScopeFactory serviceScopeFactory, IWebHostEnvironment environment, IMemoryCache cache, IConfigManager configManager, ILogger&lt;DatabaseManager&gt; filelogger)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,6 +172,11 @@
         <td><span class="parametername">configManager</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span>&lt;<a class="xref" href="Oqtane.Infrastructure.DatabaseManager.html">DatabaseManager</a>&gt;</td>
+        <td><span class="parametername">filelogger</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
@@ -181,7 +186,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_Install.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.Install%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L74">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L86">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager_Install_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install*"></a>
   <h4 id="Oqtane_Infrastructure_DatabaseManager_Install" data-uid="Oqtane.Infrastructure.DatabaseManager.Install">Install()</h4>
@@ -211,7 +216,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_Install_Oqtane_Shared_InstallConfig_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.Install(Oqtane.Shared.InstallConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L79">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L91">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager_Install_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install*"></a>
   <h4 id="Oqtane_Infrastructure_DatabaseManager_Install_Oqtane_Shared_InstallConfig_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install(Oqtane.Shared.InstallConfig)">Install(InstallConfig)</h4>
@@ -258,7 +263,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_IsInstalled.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.IsInstalled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L45">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L48">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager_IsInstalled_" data-uid="Oqtane.Infrastructure.DatabaseManager.IsInstalled*"></a>
   <h4 id="Oqtane_Infrastructure_DatabaseManager_IsInstalled" data-uid="Oqtane.Infrastructure.DatabaseManager.IsInstalled">IsInstalled()</h4>
@@ -288,7 +293,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L664">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L694">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString*"></a>
   <h4 id="Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_System_String_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString(System.String)">UpdateConnectionString(String)</h4>
@@ -320,7 +325,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L673">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L703">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType*"></a>
   <h4 id="Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_System_String_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType(System.String)">UpdateDatabaseType(String)</h4>
@@ -352,7 +357,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_UpgradeSqlServer_Oqtane_Repository_ISqlRepository_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.UpgradeSqlServer(Oqtane.Repository.ISqlRepository%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L678">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L708">View Source</a>
   </span>
   <a id="Oqtane_Infrastructure_DatabaseManager_UpgradeSqlServer_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpgradeSqlServer*"></a>
   <h4 id="Oqtane_Infrastructure_DatabaseManager_UpgradeSqlServer_Oqtane_Repository_ISqlRepository_System_String_System_String_System_Boolean_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpgradeSqlServer(Oqtane.Repository.ISqlRepository,System.String,System.String,System.Boolean)">UpgradeSqlServer(ISqlRepository, String, String, Boolean)</h4>
@@ -409,7 +414,7 @@
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L28" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L29" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

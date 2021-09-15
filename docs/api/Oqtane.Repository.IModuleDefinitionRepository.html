@@ -118,7 +118,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_IModuleDefinitionRepository_DeleteModuleDefinition_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/Interfaces/IModuleDefinitionRepository.cs/#L12">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/Interfaces/IModuleDefinitionRepository.cs/#L13">View Source</a>
   </span>
   <a id="Oqtane_Repository_IModuleDefinitionRepository_DeleteModuleDefinition_" data-uid="Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition*"></a>
   <h4 id="Oqtane_Repository_IModuleDefinitionRepository_DeleteModuleDefinition_System_Int32_" data-uid="Oqtane.Repository.IModuleDefinitionRepository.DeleteModuleDefinition(System.Int32)">DeleteModuleDefinition(Int32)</h4>
@@ -147,6 +147,58 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_IModuleDefinitionRepository_GetModuleDefinition_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.IModuleDefinitionRepository.GetModuleDefinition(System.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/Interfaces/IModuleDefinitionRepository.cs/#L11">View Source</a>
+  </span>
+  <a id="Oqtane_Repository_IModuleDefinitionRepository_GetModuleDefinition_" data-uid="Oqtane.Repository.IModuleDefinitionRepository.GetModuleDefinition*"></a>
+  <h4 id="Oqtane_Repository_IModuleDefinitionRepository_GetModuleDefinition_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.IModuleDefinitionRepository.GetModuleDefinition(System.Int32,System.Boolean)">GetModuleDefinition(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ModuleDefinition GetModuleDefinition(int moduleDefinitionId, bool tracking)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">moduleDefinitionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">tracking</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Oqtane.Models.ModuleDefinition.html">ModuleDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_IModuleDefinitionRepository_GetModuleDefinition_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.IModuleDefinitionRepository.GetModuleDefinition(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -158,7 +210,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ModuleDefinition GetModuleDefinition(int moduleDefinitionId, int sideId)</code></pre>
+    <pre><code class="lang-csharp hljs">ModuleDefinition GetModuleDefinition(int moduleDefinitionId, int siteId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,7 +229,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">sideId</span></td>
+        <td><span class="parametername">siteId</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -240,7 +292,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IEnumerable&lt;ModuleDefinition&gt; GetModuleDefinitions(int sideId)</code></pre>
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ModuleDefinition&gt; GetModuleDefinitions(int siteId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,7 +306,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">sideId</span></td>
+        <td><span class="parametername">siteId</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -279,7 +331,7 @@
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Repository_IModuleDefinitionRepository_UpdateModuleDefinition_Oqtane_Models_ModuleDefinition_.md&amp;value=---%0Auid%3A%20Oqtane.Repository.IModuleDefinitionRepository.UpdateModuleDefinition(Oqtane.Models.ModuleDefinition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/Interfaces/IModuleDefinitionRepository.cs/#L11">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/Interfaces/IModuleDefinitionRepository.cs/#L12">View Source</a>
   </span>
   <a id="Oqtane_Repository_IModuleDefinitionRepository_UpdateModuleDefinition_" data-uid="Oqtane.Repository.IModuleDefinitionRepository.UpdateModuleDefinition*"></a>
   <h4 id="Oqtane_Repository_IModuleDefinitionRepository_UpdateModuleDefinition_Oqtane_Models_ModuleDefinition_" data-uid="Oqtane.Repository.IModuleDefinitionRepository.UpdateModuleDefinition(Oqtane.Models.ModuleDefinition)">UpdateModuleDefinition(ModuleDefinition)</h4>

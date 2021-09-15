@@ -123,18 +123,18 @@ public class LogController : Controller, IActionFilter, IAsyncActionFilter, IFil
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LogController__ctor_Oqtane_Infrastructure_ILogManager_Oqtane_Repository_ILogRepository_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LogController.%23ctor(Oqtane.Infrastructure.ILogManager%2COqtane.Repository.ILogRepository)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LogController__ctor_Oqtane_Infrastructure_ILogManager_Oqtane_Repository_ILogRepository_Oqtane_Infrastructure_ITenantManager_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LogController.%23ctor(Oqtane.Infrastructure.ILogManager%2COqtane.Repository.ILogRepository%2COqtane.Infrastructure.ITenantManager)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L18">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L21">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LogController__ctor_" data-uid="Oqtane.Controllers.LogController.#ctor*"></a>
-  <h4 id="Oqtane_Controllers_LogController__ctor_Oqtane_Infrastructure_ILogManager_Oqtane_Repository_ILogRepository_" data-uid="Oqtane.Controllers.LogController.#ctor(Oqtane.Infrastructure.ILogManager,Oqtane.Repository.ILogRepository)">LogController(ILogManager, ILogRepository)</h4>
+  <h4 id="Oqtane_Controllers_LogController__ctor_Oqtane_Infrastructure_ILogManager_Oqtane_Repository_ILogRepository_Oqtane_Infrastructure_ITenantManager_" data-uid="Oqtane.Controllers.LogController.#ctor(Oqtane.Infrastructure.ILogManager,Oqtane.Repository.ILogRepository,Oqtane.Infrastructure.ITenantManager)">LogController(ILogManager, ILogRepository, ITenantManager)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogController(ILogManager logger, ILogRepository logs)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogController(ILogManager logger, ILogRepository logs, ITenantManager tenantManager)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,6 +156,11 @@ public class LogController : Controller, IActionFilter, IAsyncActionFilter, IFil
         <td><span class="parametername">logs</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></td>
+        <td><span class="parametername">tenantManager</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="methods">Methods
@@ -165,7 +170,7 @@ public class LogController : Controller, IActionFilter, IAsyncActionFilter, IFil
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LogController_Get_System_Int32_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LogController.Get(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L33">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L48">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LogController_Get_" data-uid="Oqtane.Controllers.LogController.Get*"></a>
   <h4 id="Oqtane_Controllers_LogController_Get_System_Int32_" data-uid="Oqtane.Controllers.LogController.Get(System.Int32)">Get(Int32)</h4>
@@ -214,7 +219,7 @@ public Log Get(int id)</code></pre>
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LogController_Get_System_String_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LogController.Get(System.String%2CSystem.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L25">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L29">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LogController_Get_" data-uid="Oqtane.Controllers.LogController.Get*"></a>
   <h4 id="Oqtane_Controllers_LogController_Get_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.LogController.Get(System.String,System.String,System.String,System.String)">Get(String, String, String, String)</h4>
@@ -278,7 +283,7 @@ public IEnumerable&lt;Log&gt; Get(string siteid, string level, string function, 
     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LogController_Post_Oqtane_Models_Log_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LogController.Post(Oqtane.Models.Log)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L41">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L66">View Source</a>
   </span>
   <a id="Oqtane_Controllers_LogController_Post_" data-uid="Oqtane.Controllers.LogController.Post*"></a>
   <h4 id="Oqtane_Controllers_LogController_Post_Oqtane_Models_Log_" data-uid="Oqtane.Controllers.LogController.Post(Oqtane.Models.Log)">Post(Log)</h4>
@@ -317,7 +322,7 @@ public void Post([FromBody] Log log)</code></pre>
                     <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_LogController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.LogController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/LogController.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
