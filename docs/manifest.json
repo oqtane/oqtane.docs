@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Projects/oqtane.docs/Oqtane.Docs",
+  "source_base_path": "C:/Projects/Oqtane/oqtane.docs/Oqtane.Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -2939,7 +2939,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Database.html",
-          "hash": "YkJ2KKnREthVyspPocZqMtW/V/FVPDJ68WBCFKAl62I="
+          "hash": "mo8HdELwstlcbwrWFI/lkREpMcuB9Ic4MuOQ0/ASv/E="
         }
       },
       "is_incremental": false,
@@ -2951,7 +2951,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.File.html",
-          "hash": "deBc2dw2gIEsw2W87QOS2ItyZ3b2veQi9/yUKlM5uWA="
+          "hash": "xfoq3wN9vrxTi0iLTWbbsmwdOG1GKz1oJx3yR7w9nvI="
         }
       },
       "is_incremental": false,
@@ -5734,11 +5734,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "details": "Cannot build incrementally because docfx version changed from 2.56.6.0 to 2.58.4.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
