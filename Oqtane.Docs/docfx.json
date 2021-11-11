@@ -11,6 +11,7 @@
             "**/obj/**",
             "**/bin/**",
             "_site/**",
+            "Oqtane.Test",
             "Comment: This next one excludes template projects which cause errors ",
             "**/Templates/External/**"
           ]

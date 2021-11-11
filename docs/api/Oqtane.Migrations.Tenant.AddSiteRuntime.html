@@ -13,10 +13,10 @@
     <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Database
+    <title>Class AddSiteRuntime
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Database
+    <meta name="title" content="Class AddSiteRuntime
    | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -98,151 +98,141 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oqtane.Models.Database">
+            <article class="content wrap" id="_content" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime">
   
   
-  <h1 id="Oqtane_Models_Database" data-uid="Oqtane.Models.Database" class="text-break">Class Database
+  <h1 id="Oqtane_Migrations_Tenant_AddSiteRuntime" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime" class="text-break">Class AddSiteRuntime
   </h1>
-  <div class="markdown level0 summary"><p>Information about a Database used in the current Oqtane installation</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Database</span></div>
+    <div class="level1"><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Migration</span></div>
+    <div class="level2"><a class="xref" href="Oqtane.Migrations.MultiDatabaseMigration.html">MultiDatabaseMigration</a></div>
+    <div class="level3"><span class="xref">AddSiteRuntime</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Models.html">Oqtane.Models</a></h6>
-  <h6><strong>Assembly</strong>: Oqtane.Shared.dll</h6>
-  <h5 id="Oqtane_Models_Database_syntax">Syntax</h5>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration_ActiveDatabase">MultiDatabaseMigration.ActiveDatabase</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Migrations.MultiDatabaseMigration.html#Oqtane_Migrations_MultiDatabaseMigration_RewriteName_System_String_">MultiDatabaseMigration.RewriteName(String)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Migrations.Tenant.html">Oqtane.Migrations.Tenant</a></h6>
+  <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
+  <h5 id="Oqtane_Migrations_Tenant_AddSiteRuntime_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Database</code></pre>
+    <pre><code class="lang-csharp hljs">[DbContext(typeof(TenantDBContext))]
+[Migration(&quot;Tenant.03.00.00.01&quot;)]
+public class AddSiteRuntime : MultiDatabaseMigration</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Database_ControlType.md&amp;value=---%0Auid%3A%20Oqtane.Models.Database.ControlType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddSiteRuntime__ctor_Oqtane_Databases_Interfaces_IDatabase_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddSiteRuntime.%23ctor(Oqtane.Databases.Interfaces.IDatabase)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Database.cs/#L16">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/03000001_AddSiteRuntime.cs/#L13">View Source</a>
   </span>
-  <a id="Oqtane_Models_Database_ControlType_" data-uid="Oqtane.Models.Database.ControlType*"></a>
-  <h4 id="Oqtane_Models_Database_ControlType" data-uid="Oqtane.Models.Database.ControlType">ControlType</h4>
-  <div class="markdown level1 summary"><p>Namespace &amp; name of the UI control to configure this database, like <code>Oqtane.Installer.Controls.SqlServerConfig, Oqtane.Client</code></p>
-</div>
+  <a id="Oqtane_Migrations_Tenant_AddSiteRuntime__ctor_" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime.#ctor*"></a>
+  <h4 id="Oqtane_Migrations_Tenant_AddSiteRuntime__ctor_Oqtane_Databases_Interfaces_IDatabase_" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime.#ctor(Oqtane.Databases.Interfaces.IDatabase)">AddSiteRuntime(IDatabase)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ControlType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AddSiteRuntime(IDatabase database)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Oqtane.Databases.Interfaces.IDatabase.html">IDatabase</a></td>
+        <td><span class="parametername">database</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Database_DBType.md&amp;value=---%0Auid%3A%20Oqtane.Models.Database.DBType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddSiteRuntime_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddSiteRuntime.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Database.cs/#L21">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/03000001_AddSiteRuntime.cs/#L26">View Source</a>
   </span>
-  <a id="Oqtane_Models_Database_DBType_" data-uid="Oqtane.Models.Database.DBType*"></a>
-  <h4 id="Oqtane_Models_Database_DBType" data-uid="Oqtane.Models.Database.DBType">DBType</h4>
-  <div class="markdown level1 summary"><p>Type of DB using the full namespace, like <code>Oqtane.Database.SqlServer.SqlServerDatabase, Oqtane.Database.SqlServer</code></p>
-</div>
+  <a id="Oqtane_Migrations_Tenant_AddSiteRuntime_Down_" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime.Down*"></a>
+  <h4 id="Oqtane_Migrations_Tenant_AddSiteRuntime_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">Down(MigrationBuilder)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DBType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Down(MigrationBuilder migrationBuilder)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder</span></td>
+        <td><span class="parametername">migrationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Database_IsDefault.md&amp;value=---%0Auid%3A%20Oqtane.Models.Database.IsDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddSiteRuntime_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddSiteRuntime.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Database.cs/#L26">View Source</a>
+    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/03000001_AddSiteRuntime.cs/#L17">View Source</a>
   </span>
-  <a id="Oqtane_Models_Database_IsDefault_" data-uid="Oqtane.Models.Database.IsDefault*"></a>
-  <h4 id="Oqtane_Models_Database_IsDefault" data-uid="Oqtane.Models.Database.IsDefault">IsDefault</h4>
-  <div class="markdown level1 summary"><p>whether this item is the default database provider ( ie. specified by DefaultDBType in appsettings.json )</p>
-</div>
+  <a id="Oqtane_Migrations_Tenant_AddSiteRuntime_Up_" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime.Up*"></a>
+  <h4 id="Oqtane_Migrations_Tenant_AddSiteRuntime_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_" data-uid="Oqtane.Migrations.Tenant.AddSiteRuntime.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">Up(MigrationBuilder)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDefault { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Up(MigrationBuilder migrationBuilder)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder</span></td>
+        <td><span class="parametername">migrationBuilder</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Database_Name.md&amp;value=---%0Auid%3A%20Oqtane.Models.Database.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Database.cs/#L11">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Database_Name_" data-uid="Oqtane.Models.Database.Name*"></a>
-  <h4 id="Oqtane_Models_Database_Name" data-uid="Oqtane.Models.Database.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Name of the Database</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)</span></div>
 </article>
           </div>
           
@@ -251,10 +241,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Database.md&amp;value=---%0Auid%3A%20Oqtane.Models.Database%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Migrations_Tenant_AddSiteRuntime.md&amp;value=---%0Auid%3A%20Oqtane.Migrations.Tenant.AddSiteRuntime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Database.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Migrations/Tenant/03000001_AddSiteRuntime.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
