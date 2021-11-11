@@ -99,24 +99,59 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="installation">Installation</h1>
 
-<h3 id="using-version-2">Using Version 2+:</h3>
-<ul>
-<li><p>Install .NET 5 SDK (v5.0.100).</p>
+<h2 id="install-an-official-release-on-iis">Install an Official Release on IIS</h2>
+<p>The <a href="https://github.com/oqtane/oqtane.framework/releases">Official Oqtane Relases are found on Github</a></p>
+<p>Read the <a href="https://www.oqtane.org/Resources/Blog/PostId/542/installing-oqtane-on-iis">detailed instructions for installing Oqtane on IIS</a></p>
+<h2 id="upgrade-an-existing-oqtane">Upgrade an Existing Oqtane</h2>
+<p>Read the <a href="https://www.oqtane.org/Resources/Blog/PostId/543/upgrading-oqtane">instructions for upgrading Oqtane</a></p>
+<h2 id="reset-an-exiting-oqtane">Reset an Exiting Oqtane</h2>
+<p>If you have already installed a previous version of Oqtane and you wish to do a clean database install, simply reset the <code>DefaultConnection</code> value in the <code>Oqtane.Server\appsettings.json</code> file to &quot;&quot;. 
+This will trigger a re-install when you run the application which will execute the database installation scripts.</p>
+<h2 id="install-oqtane-for-development">Install Oqtane for Development</h2>
+<h3 id="oqtane-version-3-net-6">Oqtane Version 3 (.net 6)</h3>
+<ol>
+<li><p>Install <strong><a href="https://dotnet.microsoft.com/download/dotnet/6.0">.NET 6 SDK</a></strong></p>
 </li>
-<li><p>Install the latest edition (v16.8 or higher) of Visual Studio 2019 (Community, Professional, or Enterprise Editions) with the ASP.NET and web development workload enabled. Oqtane works with ALL editions of Visual Studio from Community to Enterprise. If you do not have a SQL Server installation available already and you wish to use LocalDB for development, you must also install the .NET desktop development workload.</p>
+<li><p>Install the latest edition of <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022</a> with the <strong>ASP.NET and web development</strong> workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
 </li>
-<li><p>Download a release or Clone the Oqtane source code to your local system. Open the Oqtane.sln solution file and Build the solution. Make sure you specify Oqtane.Server as the Startup Project and then Run the application.</p>
+<li><p>If you wish to use <em>LocalDB</em> for development (not a requirement as Oqtane supports <em>SQLite</em>, <em>mySQL</em> and <em>PostgreSQL</em>) you must also install the <strong>Data storage and processing</strong>.</p>
 </li>
-</ul>
-<h3 id="using-version-1">Using Version 1:</h3>
-<ul>
-<li><p>Install .NET Core 3.1 SDK (v3.1.300).</p>
+<li><p>Clone the Oqtane dev branch source code to your local system. Open the <strong>Oqtane.sln</strong> solution file and Build the solution.</p>
 </li>
-<li><p>Install Visual Studio 2019 (Community, Professional, or Enterprise Editions) with the ASP.NET and web development workload enabled. Oqtane works with ALL editions of Visual Studio from Community to Enterprise. If you do not have a SQL Server installation available already and you wish to use LocalDB for development, you must also install the .NET desktop development workload.</p>
+<li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project and then Run the application.</p>
 </li>
-<li><p>Download a release or Clone the Oqtane source code from a v1.x Tag to your local system. Open the Oqtane.sln solution file and Build the solution. Make sure you specify Oqtane.Server as the Startup Project and then Run the application.</p>
+</ol>
+<h3 id="oqtane-version-2-net-5">Oqtane Version 2 (.net 5)</h3>
+<ol>
+<li><p>Install the latest <a href="https://dotnet.microsoft.com/download/dotnet/5.0">.NET 5 SDK (v5.0.100)</a></p>
 </li>
-</ul>
+<li><p>Install the latest edition (v16.8 or higher) of 
+<a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2019</a> (Community, Professional, or Enterprise Editions) 
+with the <strong>ASP.NET and web development workload enabled</strong>.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise. </p>
+</li>
+<li><p>If you do not have a SQL Server installation available already and you wish to use LocalDB for development, 
+you must also install the <strong>.NET desktop development workload</strong>.</p>
+</li>
+<li><p>Download a release or Clone the Oqtane source code to your local system. Open the <strong>Oqtane.sln</strong> solution file and Build the solution.</p>
+</li>
+<li><p>Make sure you specify Oqtane.Server as the Startup Project and then Run the application.</p>
+</li>
+</ol>
+<h3 id="oqtane-version-1-net-core-3">Oqtane Version 1 (.net core 3)</h3>
+<ol>
+<li><p>Install <a href="https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.300-windows-x64-installer">.NET Core 3.1 SDK (v3.1.300)</a></p>
+</li>
+<li><p>Install <a href="https://visualstudio.microsoft.com/vs">Visual Studio 2019 (Community, Professional, or Enterprise Editions)</a> 
+with the ASP.NET and web development workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise. 
+If you do not have a SQL Server installation available already and you wish to use LocalDB for development, you must also install the .NET desktop development workload.</p>
+</li>
+<li><p>Download a release or Clone the Oqtane source code from a v1.x Tag to your local system. Open the <strong>Oqtane.sln</strong> solution file and Build the solution.
+Make sure you specify Oqtane.Server as the Startup Project and then Run the application.</p>
+</li>
+</ol>
 </article>
           </div>
           
