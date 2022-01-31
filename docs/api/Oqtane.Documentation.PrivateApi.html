@@ -107,26 +107,7 @@
 So they should <em>not</em> be publicly documented.
 By default, all APIs are private, so you only need this attribute on children of classes marked with <code>[PublicApi]</code>.</p>
 </div>
-  <div class="markdown level0 conceptual"><p>If you attach this attribute to a class like this:</p>
-<pre><code class="lang-cs">[PrivateApi]
-public class YourClass {
-
-}
-</code></pre><p>or like this</p>
-<pre><code class="lang-cs">[PrivateApi(&quot;Reason why the API should remain private&quot;)]
-public class YourClass {
-
-}
-</code></pre><p>or in combination with <a class="xref" href="Oqtane.Documentation.PublicApi.html">PublicApi</a></p>
-<pre><code class="lang-cs">[PublicApi]
-public class YourClass {
-    public string Name;
-
-    [PrivateApi(&quot;Don&#39;t publish this - should only be used internally&quot;)]
-    public string InternalSpecialName;
-}
-</code></pre><p>It will result in this class, method etc. to <em>not</em> be documented in the docs.oqtane.org.</p>
-</div>
+  <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
@@ -201,7 +182,7 @@ public class PrivateApi : Attribute</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/apidoc/Documentation/PrivateApi.md/#L2" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Documentation_PrivateApi.md&amp;value=---%0Auid%3A%20Oqtane.Documentation.PrivateApi%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
                     <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Documentation/PrivateApi.cs/#L10" class="contribution-link">View Source</a>
