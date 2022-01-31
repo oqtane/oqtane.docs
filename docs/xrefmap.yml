@@ -11543,31 +11543,6 @@ references:
   commentId: T:Oqtane.Modules.ModuleControlBase
   fullName: Oqtane.Modules.ModuleControlBase
   nameWithType: ModuleControlBase
-- uid: Oqtane.Oqtane.Client.Tests
-  name: Oqtane.Oqtane.Client.Tests
-  href: api/Oqtane.Oqtane.Client.Tests.html
-  commentId: N:Oqtane.Oqtane.Client.Tests
-  fullName: Oqtane.Oqtane.Client.Tests
-  nameWithType: Oqtane.Oqtane.Client.Tests
-- uid: Oqtane.Oqtane.Client.Tests.LocalizationCookieTests
-  name: LocalizationCookieTests
-  href: api/Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.html
-  commentId: T:Oqtane.Oqtane.Client.Tests.LocalizationCookieTests
-  fullName: Oqtane.Oqtane.Client.Tests.LocalizationCookieTests
-  nameWithType: LocalizationCookieTests
-- uid: Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.ParseCookie(System.String,System.String)
-  name: ParseCookie(String, String)
-  href: api/Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.html#Oqtane_Oqtane_Client_Tests_LocalizationCookieTests_ParseCookie_System_String_System_String_
-  commentId: M:Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.ParseCookie(System.String,System.String)
-  fullName: Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.ParseCookie(System.String, System.String)
-  nameWithType: LocalizationCookieTests.ParseCookie(String, String)
-- uid: Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.ParseCookie*
-  name: ParseCookie
-  href: api/Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.html#Oqtane_Oqtane_Client_Tests_LocalizationCookieTests_ParseCookie_
-  commentId: Overload:Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.ParseCookie
-  isSpec: "True"
-  fullName: Oqtane.Oqtane.Client.Tests.LocalizationCookieTests.ParseCookie
-  nameWithType: LocalizationCookieTests.ParseCookie
 - uid: Oqtane.Pages
   name: Oqtane.Pages
   href: api/Oqtane.Pages.html

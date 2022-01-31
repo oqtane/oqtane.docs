@@ -20,6 +20,9 @@
       ],
       "dest": "obj/api",
       "filter": "filterConfig.yml",
+      "properties": {
+        "TargetFramework": "net6.0"
+      }
     }
   ],
   "build": {
