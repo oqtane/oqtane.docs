@@ -13,6 +13,7 @@
             "_site/**",
             "Oqtane.Test",
             "Oqtane.Database.*",
+            "Oqtane.Maui/**",
             "Comment: This next one excludes template projects which cause errors ",
             "**/Templates/External/**"
           ]
@@ -21,7 +22,7 @@
       "dest": "obj/api",
       "filter": "filterConfig.yml",
       "properties": {
-        "TargetFramework": "net6.0"
+        "TargetFramework": "net7.0"
       }
     }
   ],
