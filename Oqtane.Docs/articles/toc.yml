@@ -3,8 +3,8 @@
   href: index.md
 - name: Concepts
   href: concepts/toc.yml
-  homepage: concepts/  
+  topicHref: concepts/index.md 
 - name: Documentation
   # topicUid: Article.Docs.Index
   href: documentation/toc.yml
-  homepage: documentation/
+  topicHref: documentation/index.md

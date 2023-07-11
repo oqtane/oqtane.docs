@@ -14,12 +14,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class Folder
-   | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+ | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Folder
-   | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.58.4.0">
-    
+ | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
@@ -27,14 +27,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
               </a>
@@ -55,7 +55,7 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-                
+
                 <ul class="nav level1 navbar-nav">
                       <li>
                           <a href="../articles/index.html" title="Articles">Articles</a>
@@ -66,10 +66,10 @@
                       <li class="active">
                           <a href="../api/index.html" title="API Documentation">API Documentation</a>
                       </li>
-                </ul>    </div>
+                </ul>            </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -79,7 +79,7 @@
         </div>
       </header>
       <div class="container body-content">
-        
+
         <div id="search-results">
           <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
@@ -89,7 +89,7 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -99,48 +99,65 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="Oqtane.Models.Folder">
-  
-  
+
+
+
   <h1 id="Oqtane_Models_Folder" data-uid="Oqtane.Models.Folder" class="text-break">Class Folder
-  </h1>
+</h1>
   <div class="markdown level0 summary"><p>Describes a Folder in Oqtane</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Folder</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="Oqtane.Models.ModelBase.html">ModelBase</a></div>
+    <div class="level2"><span class="xref">Folder</span></div>
   </div>
-  <div classs="implements">
+  <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Oqtane.Models.IAuditable.html">IAuditable</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Models.html">Oqtane.Models</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Oqtane.Models.ModelBase.html#Oqtane_Models_ModelBase_CreatedBy">ModelBase.CreatedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Models.ModelBase.html#Oqtane_Models_ModelBase_CreatedOn">ModelBase.CreatedOn</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Models.ModelBase.html#Oqtane_Models_ModelBase_ModifiedBy">ModelBase.ModifiedBy</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Models.ModelBase.html#Oqtane_Models_ModelBase_ModifiedOn">ModelBase.ModifiedOn</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Models.html">Models</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Shared.dll</h6>
   <h5 id="Oqtane_Models_Folder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Folder : IAuditable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Folder : ModelBase, IAuditable</code></pre>
   </div>
   <h3 id="properties">Properties
-  </h3>
+</h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Capacity.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Capacity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Capacity.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Capacity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L55">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L58">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_Capacity_" data-uid="Oqtane.Models.Folder.Capacity*"></a>
   <h4 id="Oqtane_Models_Folder_Capacity" data-uid="Oqtane.Models.Folder.Capacity">Capacity</h4>
   <div class="markdown level1 summary"><p>Maximum folder capacity (in bytes)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Capacity { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -149,149 +166,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_CreatedBy.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.CreatedBy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_FolderId.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.FolderId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L65">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Folder_CreatedBy_" data-uid="Oqtane.Models.Folder.CreatedBy*"></a>
-  <h4 id="Oqtane_Models_Folder_CreatedBy" data-uid="Oqtane.Models.Folder.CreatedBy">CreatedBy</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CreatedBy { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_CreatedOn.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.CreatedOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L68">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Folder_CreatedOn_" data-uid="Oqtane.Models.Folder.CreatedOn*"></a>
-  <h4 id="Oqtane_Models_Folder_CreatedOn" data-uid="Oqtane.Models.Folder.CreatedOn">CreatedOn</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime CreatedOn { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_DeletedBy.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.DeletedBy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L80">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Folder_DeletedBy_" data-uid="Oqtane.Models.Folder.DeletedBy*"></a>
-  <h4 id="Oqtane_Models_Folder_DeletedBy" data-uid="Oqtane.Models.Folder.DeletedBy">DeletedBy</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DeletedBy { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_DeletedOn.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.DeletedOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L81">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Folder_DeletedOn_" data-uid="Oqtane.Models.Folder.DeletedOn*"></a>
-  <h4 id="Oqtane_Models_Folder_DeletedOn" data-uid="Oqtane.Models.Folder.DeletedOn">DeletedOn</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime? DeletedOn { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_FolderId.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.FolderId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L14">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L17">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_FolderId_" data-uid="Oqtane.Models.Folder.FolderId*"></a>
   <h4 id="Oqtane_Models_Folder_FolderId" data-uid="Oqtane.Models.Folder.FolderId">FolderId</h4>
   <div class="markdown level1 summary"><p>ID to identify the folder</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int FolderId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -300,30 +197,30 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_HasChildren.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.HasChildren%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_HasChildren.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.HasChildren%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L102">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L86">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_HasChildren_" data-uid="Oqtane.Models.Folder.HasChildren*"></a>
   <h4 id="Oqtane_Models_Folder_HasChildren" data-uid="Oqtane.Models.Folder.HasChildren">HasChildren</h4>
   <div class="markdown level1 summary"><p>Information if this folder has sub-items like more <a class="xref" href="Oqtane.Models.Folder.html">Folder</a> or <a class="xref" href="Oqtane.Models.File.html">File</a> objects</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NotMapped]
 public bool HasChildren { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -332,29 +229,29 @@ public bool HasChildren { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_ImageSizes.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.ImageSizes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_ImageSizes.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.ImageSizes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L50">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L53">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_ImageSizes_" data-uid="Oqtane.Models.Folder.ImageSizes*"></a>
   <h4 id="Oqtane_Models_Folder_ImageSizes" data-uid="Oqtane.Models.Folder.ImageSizes">ImageSizes</h4>
   <div class="markdown level1 summary"><p>List of image sizes which can be generated dynamically from uploaded images (ie. 200x200,x200,200x)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string ImageSizes { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -363,28 +260,29 @@ public bool HasChildren { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_IsDeleted.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.IsDeleted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_IsDeleted.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.IsDeleted%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L82">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L68">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_IsDeleted_" data-uid="Oqtane.Models.Folder.IsDeleted*"></a>
   <h4 id="Oqtane_Models_Folder_IsDeleted" data-uid="Oqtane.Models.Folder.IsDeleted">IsDeleted</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Deprecated - not used</p>
+</div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsDeleted { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? IsDeleted { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -393,29 +291,29 @@ public bool HasChildren { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_IsSystem.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.IsSystem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_IsSystem.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.IsSystem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L60">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L63">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_IsSystem_" data-uid="Oqtane.Models.Folder.IsSystem*"></a>
   <h4 id="Oqtane_Models_Folder_IsSystem" data-uid="Oqtane.Models.Folder.IsSystem">IsSystem</h4>
   <div class="markdown level1 summary"><p>Folder is a dependency of the framework and cannot be modified or removed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsSystem { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -424,17 +322,17 @@ public bool HasChildren { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Level.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Level%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Level.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Level%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L96">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L80">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_Level_" data-uid="Oqtane.Models.Folder.Level*"></a>
   <h4 id="Oqtane_Models_Folder_Level" data-uid="Oqtane.Models.Folder.Level">Level</h4>
@@ -442,13 +340,13 @@ public bool HasChildren { get; set; }</code></pre>
 TODO: todoc Where does this start, so Depth 0 or 1 is where in the file system?</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NotMapped]
 public int Level { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -457,89 +355,29 @@ public int Level { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_ModifiedBy.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.ModifiedBy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Name.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Name%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L71">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Folder_ModifiedBy_" data-uid="Oqtane.Models.Folder.ModifiedBy*"></a>
-  <h4 id="Oqtane_Models_Folder_ModifiedBy" data-uid="Oqtane.Models.Folder.ModifiedBy">ModifiedBy</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ModifiedBy { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_ModifiedOn.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.ModifiedOn%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L74">View Source</a>
-  </span>
-  <a id="Oqtane_Models_Folder_ModifiedOn_" data-uid="Oqtane.Models.Folder.ModifiedOn*"></a>
-  <h4 id="Oqtane_Models_Folder_ModifiedOn" data-uid="Oqtane.Models.Folder.ModifiedOn">ModifiedOn</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime ModifiedOn { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.DateTime</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Name.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L34">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L37">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_Name_" data-uid="Oqtane.Models.Folder.Name*"></a>
   <h4 id="Oqtane_Models_Folder_Name" data-uid="Oqtane.Models.Folder.Name">Name</h4>
   <div class="markdown level1 summary"><p>Folder name</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -548,29 +386,29 @@ public int Level { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Order.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Order%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Order.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Order%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L45">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L48">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_Order_" data-uid="Oqtane.Models.Folder.Order*"></a>
   <h4 id="Oqtane_Models_Folder_Order" data-uid="Oqtane.Models.Folder.Order">Order</h4>
   <div class="markdown level1 summary"><p>Sorting order of the folder</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Order { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -579,29 +417,29 @@ public int Level { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_ParentId.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.ParentId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_ParentId.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.ParentId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L24">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L27">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_ParentId_" data-uid="Oqtane.Models.Folder.ParentId*"></a>
   <h4 id="Oqtane_Models_Folder_ParentId" data-uid="Oqtane.Models.Folder.ParentId">ParentId</h4>
   <div class="markdown level1 summary"><p>Reference to the parent <a class="xref" href="Oqtane.Models.Folder.html">Folder</a>, if it has a parent folder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int? ParentId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -610,17 +448,17 @@ public int Level { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Path.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Path%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Path.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Path%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L40">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L43">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_Path_" data-uid="Oqtane.Models.Folder.Path*"></a>
   <h4 id="Oqtane_Models_Folder_Path" data-uid="Oqtane.Models.Folder.Path">Path</h4>
@@ -628,12 +466,12 @@ public int Level { get; set; }</code></pre>
 TODO: document from where the path starts</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Path { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -642,30 +480,30 @@ TODO: document from where the path starts</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Permissions.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Permissions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_PermissionList.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.PermissionList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L89">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L73">View Source</a>
   </span>
-  <a id="Oqtane_Models_Folder_Permissions_" data-uid="Oqtane.Models.Folder.Permissions*"></a>
-  <h4 id="Oqtane_Models_Folder_Permissions" data-uid="Oqtane.Models.Folder.Permissions">Permissions</h4>
+  <a id="Oqtane_Models_Folder_PermissionList_" data-uid="Oqtane.Models.Folder.PermissionList*"></a>
+  <h4 id="Oqtane_Models_Folder_PermissionList" data-uid="Oqtane.Models.Folder.PermissionList">PermissionList</h4>
   <div class="markdown level1 summary"><p>TODO: todoc what would this contain?</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[NotMapped]
-public string Permissions { get; set; }</code></pre>
+public List&lt;Permission&gt; PermissionList { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -674,29 +512,62 @@ public string Permissions { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Oqtane.Models.Permission.html">Permission</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_SiteId.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.SiteId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Permissions.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Permissions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L19">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L91">View Source</a>
+  </span>
+  <a id="Oqtane_Models_Folder_Permissions_" data-uid="Oqtane.Models.Folder.Permissions*"></a>
+  <h4 id="Oqtane_Models_Folder_Permissions" data-uid="Oqtane.Models.Folder.Permissions">Permissions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The Permissions property is deprecated. Use PermissionList instead&quot;, false)]
+[NotMapped]
+[JsonIgnore]
+public string Permissions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_SiteId.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.SiteId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L22">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_SiteId_" data-uid="Oqtane.Models.Folder.SiteId*"></a>
   <h4 id="Oqtane_Models_Folder_SiteId" data-uid="Oqtane.Models.Folder.SiteId">SiteId</h4>
   <div class="markdown level1 summary"><p>Reference to the <a class="xref" href="Oqtane.Models.Site.html">Site</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SiteId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -705,29 +576,29 @@ public string Permissions { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder_Type.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder_Type.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder.Type%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L29">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L32">View Source</a>
   </span>
   <a id="Oqtane_Models_Folder_Type_" data-uid="Oqtane.Models.Folder.Type*"></a>
   <h4 id="Oqtane_Models_Folder_Type" data-uid="Oqtane.Models.Folder.Type">Type</h4>
   <div class="markdown level1 summary"><p>Folder type - based on FolderTypes</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Type { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -736,7 +607,7 @@ public string Permissions { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -749,18 +620,19 @@ public string Permissions { get; set; }</code></pre>
   <div>
       <a class="xref" href="Oqtane.Shared.Utilities.html#Oqtane_Shared_Utilities_IsPathValid_Oqtane_Models_Folder_">Utilities.IsPathValid(Folder)</a>
   </div>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Models_Folder.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Models_Folder.md&amp;value=---%0Auid%3A%20Oqtane.Models.Folder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Models/Folder.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Models/Folder.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -772,7 +644,7 @@ public string Permissions { get; set; }</code></pre>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -780,14 +652,14 @@ public string Permissions { get; set; }</code></pre>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>
