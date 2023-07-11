@@ -192,9 +192,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/admin-dashboard/index.md",
       "output": {
@@ -325,9 +322,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "admin/control-panel/index.md",
       "output": {
@@ -1343,6 +1337,116 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.MySQL.MySQLDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.MySQL.MySQLDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.MySQL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.MySQL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.PostgreSQL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.PostgreSQL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.SqlServer.SqlServerDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.SqlServer.SqlServerDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.SqlServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.SqlServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.Sqlite.SqliteDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.Sqlite.SqliteDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Database.Sqlite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Database.Sqlite.html"
         }
       },
       "version": ""

@@ -3051,6 +3051,741 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.VisitorController.Get
   nameWithType: VisitorController.Get
+- uid: Oqtane.Database.MySQL
+  name: Oqtane.Database.MySQL
+  href: api/Oqtane.Database.MySQL.html
+  commentId: N:Oqtane.Database.MySQL
+  fullName: Oqtane.Database.MySQL
+  nameWithType: Oqtane.Database.MySQL
+- uid: Oqtane.Database.MySQL.MySQLDatabase
+  name: MySQLDatabase
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html
+  commentId: T:Oqtane.Database.MySQL.MySQLDatabase
+  fullName: Oqtane.Database.MySQL.MySQLDatabase
+  nameWithType: MySQLDatabase
+- uid: Oqtane.Database.MySQL.MySQLDatabase.#ctor
+  name: MySQLDatabase()
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase__ctor
+  commentId: M:Oqtane.Database.MySQL.MySQLDatabase.#ctor
+  name.vb: New()
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.MySQLDatabase()
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.New()
+  nameWithType: MySQLDatabase.MySQLDatabase()
+  nameWithType.vb: MySQLDatabase.New()
+- uid: Oqtane.Database.MySQL.MySQLDatabase.#ctor*
+  name: MySQLDatabase
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase__ctor_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.MySQLDatabase
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.New
+  nameWithType: MySQLDatabase.MySQLDatabase
+  nameWithType.vb: MySQLDatabase.New
+- uid: Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name: AddAutoIncrementColumn(ColumnsBuilder, string)
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name.vb: AddAutoIncrementColumn(ColumnsBuilder, String)
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, string)
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, String)
+  nameWithType: MySQLDatabase.AddAutoIncrementColumn(ColumnsBuilder, string)
+  nameWithType.vb: MySQLDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn*
+  name: AddAutoIncrementColumn
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.AddAutoIncrementColumn
+  nameWithType: MySQLDatabase.AddAutoIncrementColumn
+- uid: Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql(System.String[])
+  name: ConcatenateSql(params string[])
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_ConcatenateSql_System_String___
+  commentId: M:Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql(System.String[])
+  name.vb: ConcatenateSql(ParamArray String())
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql(params string[])
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql(ParamArray String())
+  nameWithType: MySQLDatabase.ConcatenateSql(params string[])
+  nameWithType.vb: MySQLDatabase.ConcatenateSql(ParamArray String())
+- uid: Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql*
+  name: ConcatenateSql
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_ConcatenateSql_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql
+  isSpec: "True"
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.ConcatenateSql
+  nameWithType: MySQLDatabase.ConcatenateSql
+- uid: Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery(System.String,System.String)
+  name: ExecuteNonQuery(string, string)
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery(System.String,System.String)
+  name.vb: ExecuteNonQuery(String, String)
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery(string, string)
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery(String, String)
+  nameWithType: MySQLDatabase.ExecuteNonQuery(string, string)
+  nameWithType.vb: MySQLDatabase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery
+  isSpec: "True"
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.ExecuteNonQuery
+  nameWithType: MySQLDatabase.ExecuteNonQuery
+- uid: Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader(System.String,System.String)
+  name: ExecuteReader(string, string)
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader(System.String,System.String)
+  name.vb: ExecuteReader(String, String)
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader(string, string)
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader(String, String)
+  nameWithType: MySQLDatabase.ExecuteReader(string, string)
+  nameWithType.vb: MySQLDatabase.ExecuteReader(String, String)
+- uid: Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader*
+  name: ExecuteReader
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_ExecuteReader_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader
+  isSpec: "True"
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.ExecuteReader
+  nameWithType: MySQLDatabase.ExecuteReader
+- uid: Oqtane.Database.MySQL.MySQLDatabase.Provider
+  name: Provider
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_Provider
+  commentId: P:Oqtane.Database.MySQL.MySQLDatabase.Provider
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.Provider
+  nameWithType: MySQLDatabase.Provider
+- uid: Oqtane.Database.MySQL.MySQLDatabase.Provider*
+  name: Provider
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_Provider_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.Provider
+  isSpec: "True"
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.Provider
+  nameWithType: MySQLDatabase.Provider
+- uid: Oqtane.Database.MySQL.MySQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseDatabase(DbContextOptionsBuilder, string)
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Database.MySQL.MySQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name.vb: UseDatabase(DbContextOptionsBuilder, String)
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string)
+  fullName.vb: Oqtane.Database.MySQL.MySQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, String)
+  nameWithType: MySQLDatabase.UseDatabase(DbContextOptionsBuilder, string)
+  nameWithType.vb: MySQLDatabase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Database.MySQL.MySQLDatabase.UseDatabase*
+  name: UseDatabase
+  href: api/Oqtane.Database.MySQL.MySQLDatabase.html#Oqtane_Database_MySQL_MySQLDatabase_UseDatabase_
+  commentId: Overload:Oqtane.Database.MySQL.MySQLDatabase.UseDatabase
+  isSpec: "True"
+  fullName: Oqtane.Database.MySQL.MySQLDatabase.UseDatabase
+  nameWithType: MySQLDatabase.UseDatabase
+- uid: Oqtane.Database.PostgreSQL
+  name: Oqtane.Database.PostgreSQL
+  href: api/Oqtane.Database.PostgreSQL.html
+  commentId: N:Oqtane.Database.PostgreSQL
+  fullName: Oqtane.Database.PostgreSQL
+  nameWithType: Oqtane.Database.PostgreSQL
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository
+  name: OqtaneHistoryRepository
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html
+  commentId: T:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository
+  nameWithType: OqtaneHistoryRepository
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.#ctor(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  name: OqtaneHistoryRepository(HistoryRepositoryDependencies)
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html#Oqtane_Database_PostgreSQL_OqtaneHistoryRepository__ctor_Microsoft_EntityFrameworkCore_Migrations_HistoryRepositoryDependencies_
+  commentId: M:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.#ctor(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  name.vb: New(HistoryRepositoryDependencies)
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.OqtaneHistoryRepository(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  fullName.vb: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.New(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  nameWithType: OqtaneHistoryRepository.OqtaneHistoryRepository(HistoryRepositoryDependencies)
+  nameWithType.vb: OqtaneHistoryRepository.New(HistoryRepositoryDependencies)
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.#ctor*
+  name: OqtaneHistoryRepository
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html#Oqtane_Database_PostgreSQL_OqtaneHistoryRepository__ctor_
+  commentId: Overload:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.OqtaneHistoryRepository
+  fullName.vb: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.New
+  nameWithType: OqtaneHistoryRepository.OqtaneHistoryRepository
+  nameWithType.vb: OqtaneHistoryRepository.New
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Microsoft.EntityFrameworkCore.Migrations.HistoryRow})
+  name: ConfigureTable(EntityTypeBuilder<HistoryRow>)
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html#Oqtane_Database_PostgreSQL_OqtaneHistoryRepository_ConfigureTable_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_Microsoft_EntityFrameworkCore_Migrations_HistoryRow__
+  commentId: M:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Microsoft.EntityFrameworkCore.Migrations.HistoryRow})
+  name.vb: ConfigureTable(EntityTypeBuilder(Of HistoryRow))
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Microsoft.EntityFrameworkCore.Migrations.HistoryRow>)
+  fullName.vb: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of Microsoft.EntityFrameworkCore.Migrations.HistoryRow))
+  nameWithType: OqtaneHistoryRepository.ConfigureTable(EntityTypeBuilder<HistoryRow>)
+  nameWithType.vb: OqtaneHistoryRepository.ConfigureTable(EntityTypeBuilder(Of HistoryRow))
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable*
+  name: ConfigureTable
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html#Oqtane_Database_PostgreSQL_OqtaneHistoryRepository_ConfigureTable_
+  commentId: Overload:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.ConfigureTable
+  nameWithType: OqtaneHistoryRepository.ConfigureTable
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  name: GetInsertScript(HistoryRow)
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html#Oqtane_Database_PostgreSQL_OqtaneHistoryRepository_GetInsertScript_Microsoft_EntityFrameworkCore_Migrations_HistoryRow_
+  commentId: M:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  nameWithType: OqtaneHistoryRepository.GetInsertScript(HistoryRow)
+- uid: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.GetInsertScript*
+  name: GetInsertScript
+  href: api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html#Oqtane_Database_PostgreSQL_OqtaneHistoryRepository_GetInsertScript_
+  commentId: Overload:Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.GetInsertScript
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.GetInsertScript
+  nameWithType: OqtaneHistoryRepository.GetInsertScript
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase
+  name: PostgreSQLDatabase
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html
+  commentId: T:Oqtane.Database.PostgreSQL.PostgreSQLDatabase
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase
+  nameWithType: PostgreSQLDatabase
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.#ctor
+  name: PostgreSQLDatabase()
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase__ctor
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.#ctor
+  name.vb: New()
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.PostgreSQLDatabase()
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.New()
+  nameWithType: PostgreSQLDatabase.PostgreSQLDatabase()
+  nameWithType.vb: PostgreSQLDatabase.New()
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.#ctor*
+  name: PostgreSQLDatabase
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase__ctor_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.PostgreSQLDatabase
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.New
+  nameWithType: PostgreSQLDatabase.PostgreSQLDatabase
+  nameWithType.vb: PostgreSQLDatabase.New
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name: AddAutoIncrementColumn(ColumnsBuilder, string)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name.vb: AddAutoIncrementColumn(ColumnsBuilder, String)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, string)
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, String)
+  nameWithType: PostgreSQLDatabase.AddAutoIncrementColumn(ColumnsBuilder, string)
+  nameWithType.vb: PostgreSQLDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn*
+  name: AddAutoIncrementColumn
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.AddAutoIncrementColumn
+  nameWithType: PostgreSQLDatabase.AddAutoIncrementColumn
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql(System.String[])
+  name: ConcatenateSql(params string[])
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_ConcatenateSql_System_String___
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql(System.String[])
+  name.vb: ConcatenateSql(ParamArray String())
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql(params string[])
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql(ParamArray String())
+  nameWithType: PostgreSQLDatabase.ConcatenateSql(params string[])
+  nameWithType.vb: PostgreSQLDatabase.ConcatenateSql(ParamArray String())
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql*
+  name: ConcatenateSql
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_ConcatenateSql_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ConcatenateSql
+  nameWithType: PostgreSQLDatabase.ConcatenateSql
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery(System.String,System.String)
+  name: ExecuteNonQuery(string, string)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery(System.String,System.String)
+  name.vb: ExecuteNonQuery(String, String)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery(string, string)
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery(String, String)
+  nameWithType: PostgreSQLDatabase.ExecuteNonQuery(string, string)
+  nameWithType.vb: PostgreSQLDatabase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteNonQuery
+  nameWithType: PostgreSQLDatabase.ExecuteNonQuery
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader(System.String,System.String)
+  name: ExecuteReader(string, string)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader(System.String,System.String)
+  name.vb: ExecuteReader(String, String)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader(string, string)
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader(String, String)
+  nameWithType: PostgreSQLDatabase.ExecuteReader(string, string)
+  nameWithType.vb: PostgreSQLDatabase.ExecuteReader(String, String)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader*
+  name: ExecuteReader
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_ExecuteReader_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.ExecuteReader
+  nameWithType: PostgreSQLDatabase.ExecuteReader
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.Provider
+  name: Provider
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_Provider
+  commentId: P:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.Provider
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.Provider
+  nameWithType: PostgreSQLDatabase.Provider
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.Provider*
+  name: Provider
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_Provider_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.Provider
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.Provider
+  nameWithType: PostgreSQLDatabase.Provider
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName(System.String)
+  name: RewriteName(string)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_RewriteName_System_String_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName(System.String)
+  name.vb: RewriteName(String)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName(string)
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName(String)
+  nameWithType: PostgreSQLDatabase.RewriteName(string)
+  nameWithType.vb: PostgreSQLDatabase.RewriteName(String)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName*
+  name: RewriteName
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_RewriteName_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteName
+  nameWithType: PostgreSQLDatabase.RewriteName
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue(System.String,System.String)
+  name: RewriteValue(string, string)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_RewriteValue_System_String_System_String_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue(System.String,System.String)
+  name.vb: RewriteValue(String, String)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue(string, string)
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue(String, String)
+  nameWithType: PostgreSQLDatabase.RewriteValue(string, string)
+  nameWithType.vb: PostgreSQLDatabase.RewriteValue(String, String)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue*
+  name: RewriteValue
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_RewriteValue_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.RewriteValue
+  nameWithType: PostgreSQLDatabase.RewriteValue
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: UpdateIdentityStoreTableNames(ModelBuilder)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_UpdateIdentityStoreTableNames_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: PostgreSQLDatabase.UpdateIdentityStoreTableNames(ModelBuilder)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames*
+  name: UpdateIdentityStoreTableNames
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_UpdateIdentityStoreTableNames_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UpdateIdentityStoreTableNames
+  nameWithType: PostgreSQLDatabase.UpdateIdentityStoreTableNames
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseDatabase(DbContextOptionsBuilder, string)
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name.vb: UseDatabase(DbContextOptionsBuilder, String)
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string)
+  fullName.vb: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, String)
+  nameWithType: PostgreSQLDatabase.UseDatabase(DbContextOptionsBuilder, string)
+  nameWithType.vb: PostgreSQLDatabase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase*
+  name: UseDatabase
+  href: api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html#Oqtane_Database_PostgreSQL_PostgreSQLDatabase_UseDatabase_
+  commentId: Overload:Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase
+  isSpec: "True"
+  fullName: Oqtane.Database.PostgreSQL.PostgreSQLDatabase.UseDatabase
+  nameWithType: PostgreSQLDatabase.UseDatabase
+- uid: Oqtane.Database.Sqlite
+  name: Oqtane.Database.Sqlite
+  href: api/Oqtane.Database.Sqlite.html
+  commentId: N:Oqtane.Database.Sqlite
+  fullName: Oqtane.Database.Sqlite
+  nameWithType: Oqtane.Database.Sqlite
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository
+  name: OqtaneHistoryRepository
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html
+  commentId: T:Oqtane.Database.Sqlite.OqtaneHistoryRepository
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository
+  nameWithType: OqtaneHistoryRepository
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository.#ctor(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  name: OqtaneHistoryRepository(HistoryRepositoryDependencies)
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html#Oqtane_Database_Sqlite_OqtaneHistoryRepository__ctor_Microsoft_EntityFrameworkCore_Migrations_HistoryRepositoryDependencies_
+  commentId: M:Oqtane.Database.Sqlite.OqtaneHistoryRepository.#ctor(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  name.vb: New(HistoryRepositoryDependencies)
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository.OqtaneHistoryRepository(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  fullName.vb: Oqtane.Database.Sqlite.OqtaneHistoryRepository.New(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  nameWithType: OqtaneHistoryRepository.OqtaneHistoryRepository(HistoryRepositoryDependencies)
+  nameWithType.vb: OqtaneHistoryRepository.New(HistoryRepositoryDependencies)
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository.#ctor*
+  name: OqtaneHistoryRepository
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html#Oqtane_Database_Sqlite_OqtaneHistoryRepository__ctor_
+  commentId: Overload:Oqtane.Database.Sqlite.OqtaneHistoryRepository.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository.OqtaneHistoryRepository
+  fullName.vb: Oqtane.Database.Sqlite.OqtaneHistoryRepository.New
+  nameWithType: OqtaneHistoryRepository.OqtaneHistoryRepository
+  nameWithType.vb: OqtaneHistoryRepository.New
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Microsoft.EntityFrameworkCore.Migrations.HistoryRow})
+  name: ConfigureTable(EntityTypeBuilder<HistoryRow>)
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html#Oqtane_Database_Sqlite_OqtaneHistoryRepository_ConfigureTable_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_Microsoft_EntityFrameworkCore_Migrations_HistoryRow__
+  commentId: M:Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Microsoft.EntityFrameworkCore.Migrations.HistoryRow})
+  name.vb: ConfigureTable(EntityTypeBuilder(Of HistoryRow))
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Microsoft.EntityFrameworkCore.Migrations.HistoryRow>)
+  fullName.vb: Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of Microsoft.EntityFrameworkCore.Migrations.HistoryRow))
+  nameWithType: OqtaneHistoryRepository.ConfigureTable(EntityTypeBuilder<HistoryRow>)
+  nameWithType.vb: OqtaneHistoryRepository.ConfigureTable(EntityTypeBuilder(Of HistoryRow))
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable*
+  name: ConfigureTable
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html#Oqtane_Database_Sqlite_OqtaneHistoryRepository_ConfigureTable_
+  commentId: Overload:Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository.ConfigureTable
+  nameWithType: OqtaneHistoryRepository.ConfigureTable
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  name: GetInsertScript(HistoryRow)
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html#Oqtane_Database_Sqlite_OqtaneHistoryRepository_GetInsertScript_Microsoft_EntityFrameworkCore_Migrations_HistoryRow_
+  commentId: M:Oqtane.Database.Sqlite.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  nameWithType: OqtaneHistoryRepository.GetInsertScript(HistoryRow)
+- uid: Oqtane.Database.Sqlite.OqtaneHistoryRepository.GetInsertScript*
+  name: GetInsertScript
+  href: api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html#Oqtane_Database_Sqlite_OqtaneHistoryRepository_GetInsertScript_
+  commentId: Overload:Oqtane.Database.Sqlite.OqtaneHistoryRepository.GetInsertScript
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.OqtaneHistoryRepository.GetInsertScript
+  nameWithType: OqtaneHistoryRepository.GetInsertScript
+- uid: Oqtane.Database.Sqlite.SqliteDatabase
+  name: SqliteDatabase
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html
+  commentId: T:Oqtane.Database.Sqlite.SqliteDatabase
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase
+  nameWithType: SqliteDatabase
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.#ctor
+  name: SqliteDatabase()
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase__ctor
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.#ctor
+  name.vb: New()
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.SqliteDatabase()
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.New()
+  nameWithType: SqliteDatabase.SqliteDatabase()
+  nameWithType.vb: SqliteDatabase.New()
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.#ctor*
+  name: SqliteDatabase
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase__ctor_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.SqliteDatabase
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.New
+  nameWithType: SqliteDatabase.SqliteDatabase
+  nameWithType.vb: SqliteDatabase.New
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name: AddAutoIncrementColumn(ColumnsBuilder, string)
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name.vb: AddAutoIncrementColumn(ColumnsBuilder, String)
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, string)
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, String)
+  nameWithType: SqliteDatabase.AddAutoIncrementColumn(ColumnsBuilder, string)
+  nameWithType.vb: SqliteDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn*
+  name: AddAutoIncrementColumn
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.AddAutoIncrementColumn
+  nameWithType: SqliteDatabase.AddAutoIncrementColumn
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.String)
+  name: AlterStringColumn(MigrationBuilder, string, string, int, bool, bool, string)
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_AlterStringColumn_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_String_
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.String)
+  name.vb: AlterStringColumn(MigrationBuilder, String, String, Integer, Boolean, Boolean, String)
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, string, string, int, bool, bool, string)
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, String, String, Integer, Boolean, Boolean, String)
+  nameWithType: SqliteDatabase.AlterStringColumn(MigrationBuilder, string, string, int, bool, bool, string)
+  nameWithType.vb: SqliteDatabase.AlterStringColumn(MigrationBuilder, String, String, Integer, Boolean, Boolean, String)
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn*
+  name: AlterStringColumn
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_AlterStringColumn_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.AlterStringColumn
+  nameWithType: SqliteDatabase.AlterStringColumn
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql(System.String[])
+  name: ConcatenateSql(params string[])
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_ConcatenateSql_System_String___
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql(System.String[])
+  name.vb: ConcatenateSql(ParamArray String())
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql(params string[])
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql(ParamArray String())
+  nameWithType: SqliteDatabase.ConcatenateSql(params string[])
+  nameWithType.vb: SqliteDatabase.ConcatenateSql(ParamArray String())
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql*
+  name: ConcatenateSql
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_ConcatenateSql_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.ConcatenateSql
+  nameWithType: SqliteDatabase.ConcatenateSql
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.DropColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,System.String,System.String)
+  name: DropColumn(MigrationBuilder, string, string)
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_DropColumn_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_System_String_System_String_
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.DropColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,System.String,System.String)
+  name.vb: DropColumn(MigrationBuilder, String, String)
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.DropColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, string, string)
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.DropColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, String, String)
+  nameWithType: SqliteDatabase.DropColumn(MigrationBuilder, string, string)
+  nameWithType.vb: SqliteDatabase.DropColumn(MigrationBuilder, String, String)
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.DropColumn*
+  name: DropColumn
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_DropColumn_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.DropColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.DropColumn
+  nameWithType: SqliteDatabase.DropColumn
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery(System.String,System.String)
+  name: ExecuteNonQuery(string, string)
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery(System.String,System.String)
+  name.vb: ExecuteNonQuery(String, String)
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery(string, string)
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery(String, String)
+  nameWithType: SqliteDatabase.ExecuteNonQuery(string, string)
+  nameWithType.vb: SqliteDatabase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteNonQuery
+  nameWithType: SqliteDatabase.ExecuteNonQuery
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader(System.String,System.String)
+  name: ExecuteReader(string, string)
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader(System.String,System.String)
+  name.vb: ExecuteReader(String, String)
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader(string, string)
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader(String, String)
+  nameWithType: SqliteDatabase.ExecuteReader(string, string)
+  nameWithType.vb: SqliteDatabase.ExecuteReader(String, String)
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader*
+  name: ExecuteReader
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_ExecuteReader_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.ExecuteReader
+  nameWithType: SqliteDatabase.ExecuteReader
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.Provider
+  name: Provider
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_Provider
+  commentId: P:Oqtane.Database.Sqlite.SqliteDatabase.Provider
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.Provider
+  nameWithType: SqliteDatabase.Provider
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.Provider*
+  name: Provider
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_Provider_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.Provider
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.Provider
+  nameWithType: SqliteDatabase.Provider
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseDatabase(DbContextOptionsBuilder, string)
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name.vb: UseDatabase(DbContextOptionsBuilder, String)
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string)
+  fullName.vb: Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, String)
+  nameWithType: SqliteDatabase.UseDatabase(DbContextOptionsBuilder, string)
+  nameWithType.vb: SqliteDatabase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase*
+  name: UseDatabase
+  href: api/Oqtane.Database.Sqlite.SqliteDatabase.html#Oqtane_Database_Sqlite_SqliteDatabase_UseDatabase_
+  commentId: Overload:Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase
+  isSpec: "True"
+  fullName: Oqtane.Database.Sqlite.SqliteDatabase.UseDatabase
+  nameWithType: SqliteDatabase.UseDatabase
+- uid: Oqtane.Database.SqlServer
+  name: Oqtane.Database.SqlServer
+  href: api/Oqtane.Database.SqlServer.html
+  commentId: N:Oqtane.Database.SqlServer
+  fullName: Oqtane.Database.SqlServer
+  nameWithType: Oqtane.Database.SqlServer
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository
+  name: OqtaneHistoryRepository
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html
+  commentId: T:Oqtane.Database.SqlServer.OqtaneHistoryRepository
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository
+  nameWithType: OqtaneHistoryRepository
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository.#ctor(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  name: OqtaneHistoryRepository(HistoryRepositoryDependencies)
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html#Oqtane_Database_SqlServer_OqtaneHistoryRepository__ctor_Microsoft_EntityFrameworkCore_Migrations_HistoryRepositoryDependencies_
+  commentId: M:Oqtane.Database.SqlServer.OqtaneHistoryRepository.#ctor(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  name.vb: New(HistoryRepositoryDependencies)
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository.OqtaneHistoryRepository(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  fullName.vb: Oqtane.Database.SqlServer.OqtaneHistoryRepository.New(Microsoft.EntityFrameworkCore.Migrations.HistoryRepositoryDependencies)
+  nameWithType: OqtaneHistoryRepository.OqtaneHistoryRepository(HistoryRepositoryDependencies)
+  nameWithType.vb: OqtaneHistoryRepository.New(HistoryRepositoryDependencies)
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository.#ctor*
+  name: OqtaneHistoryRepository
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html#Oqtane_Database_SqlServer_OqtaneHistoryRepository__ctor_
+  commentId: Overload:Oqtane.Database.SqlServer.OqtaneHistoryRepository.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository.OqtaneHistoryRepository
+  fullName.vb: Oqtane.Database.SqlServer.OqtaneHistoryRepository.New
+  nameWithType: OqtaneHistoryRepository.OqtaneHistoryRepository
+  nameWithType.vb: OqtaneHistoryRepository.New
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Microsoft.EntityFrameworkCore.Migrations.HistoryRow})
+  name: ConfigureTable(EntityTypeBuilder<HistoryRow>)
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html#Oqtane_Database_SqlServer_OqtaneHistoryRepository_ConfigureTable_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_Microsoft_EntityFrameworkCore_Migrations_HistoryRow__
+  commentId: M:Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{Microsoft.EntityFrameworkCore.Migrations.HistoryRow})
+  name.vb: ConfigureTable(EntityTypeBuilder(Of HistoryRow))
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Microsoft.EntityFrameworkCore.Migrations.HistoryRow>)
+  fullName.vb: Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of Microsoft.EntityFrameworkCore.Migrations.HistoryRow))
+  nameWithType: OqtaneHistoryRepository.ConfigureTable(EntityTypeBuilder<HistoryRow>)
+  nameWithType.vb: OqtaneHistoryRepository.ConfigureTable(EntityTypeBuilder(Of HistoryRow))
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable*
+  name: ConfigureTable
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html#Oqtane_Database_SqlServer_OqtaneHistoryRepository_ConfigureTable_
+  commentId: Overload:Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository.ConfigureTable
+  nameWithType: OqtaneHistoryRepository.ConfigureTable
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  name: GetInsertScript(HistoryRow)
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html#Oqtane_Database_SqlServer_OqtaneHistoryRepository_GetInsertScript_Microsoft_EntityFrameworkCore_Migrations_HistoryRow_
+  commentId: M:Oqtane.Database.SqlServer.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository.GetInsertScript(Microsoft.EntityFrameworkCore.Migrations.HistoryRow)
+  nameWithType: OqtaneHistoryRepository.GetInsertScript(HistoryRow)
+- uid: Oqtane.Database.SqlServer.OqtaneHistoryRepository.GetInsertScript*
+  name: GetInsertScript
+  href: api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html#Oqtane_Database_SqlServer_OqtaneHistoryRepository_GetInsertScript_
+  commentId: Overload:Oqtane.Database.SqlServer.OqtaneHistoryRepository.GetInsertScript
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.OqtaneHistoryRepository.GetInsertScript
+  nameWithType: OqtaneHistoryRepository.GetInsertScript
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase
+  name: SqlServerDatabase
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html
+  commentId: T:Oqtane.Database.SqlServer.SqlServerDatabase
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase
+  nameWithType: SqlServerDatabase
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.#ctor
+  name: SqlServerDatabase()
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase__ctor
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.#ctor
+  name.vb: New()
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.SqlServerDatabase()
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.New()
+  nameWithType: SqlServerDatabase.SqlServerDatabase()
+  nameWithType.vb: SqlServerDatabase.New()
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.#ctor*
+  name: SqlServerDatabase
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase__ctor_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.SqlServerDatabase
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.New
+  nameWithType: SqlServerDatabase.SqlServerDatabase
+  nameWithType.vb: SqlServerDatabase.New
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name: AddAutoIncrementColumn(ColumnsBuilder, string)
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_AddAutoIncrementColumn_Microsoft_EntityFrameworkCore_Migrations_Operations_Builders_ColumnsBuilder_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder,System.String)
+  name.vb: AddAutoIncrementColumn(ColumnsBuilder, String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, string)
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn(Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, String)
+  nameWithType: SqlServerDatabase.AddAutoIncrementColumn(ColumnsBuilder, string)
+  nameWithType.vb: SqlServerDatabase.AddAutoIncrementColumn(ColumnsBuilder, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn*
+  name: AddAutoIncrementColumn
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_AddAutoIncrementColumn_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.AddAutoIncrementColumn
+  nameWithType: SqlServerDatabase.AddAutoIncrementColumn
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.String)
+  name: AlterStringColumn(MigrationBuilder, string, string, int, bool, bool, string)
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_AlterStringColumn_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_System_String_System_String_System_Int32_System_Boolean_System_Boolean_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.String)
+  name.vb: AlterStringColumn(MigrationBuilder, String, String, Integer, Boolean, Boolean, String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, string, string, int, bool, bool, string)
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder, String, String, Integer, Boolean, Boolean, String)
+  nameWithType: SqlServerDatabase.AlterStringColumn(MigrationBuilder, string, string, int, bool, bool, string)
+  nameWithType.vb: SqlServerDatabase.AlterStringColumn(MigrationBuilder, String, String, Integer, Boolean, Boolean, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn*
+  name: AlterStringColumn
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_AlterStringColumn_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.AlterStringColumn
+  nameWithType: SqlServerDatabase.AlterStringColumn
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(System.String,System.String)
+  name: ExecuteNonQuery(string, string)
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteNonQuery_System_String_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(System.String,System.String)
+  name.vb: ExecuteNonQuery(String, String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(string, string)
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery(String, String)
+  nameWithType: SqlServerDatabase.ExecuteNonQuery(string, string)
+  nameWithType.vb: SqlServerDatabase.ExecuteNonQuery(String, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery*
+  name: ExecuteNonQuery
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteNonQuery_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteNonQuery
+  nameWithType: SqlServerDatabase.ExecuteNonQuery
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(System.String,System.String)
+  name: ExecuteReader(string, string)
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteReader_System_String_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(System.String,System.String)
+  name.vb: ExecuteReader(String, String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(string, string)
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader(String, String)
+  nameWithType: SqlServerDatabase.ExecuteReader(string, string)
+  nameWithType.vb: SqlServerDatabase.ExecuteReader(String, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader*
+  name: ExecuteReader
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_ExecuteReader_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.ExecuteReader
+  nameWithType: SqlServerDatabase.ExecuteReader
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  name: Provider
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_Provider
+  commentId: P:Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  nameWithType: SqlServerDatabase.Provider
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.Provider*
+  name: Provider
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_Provider_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.Provider
+  nameWithType: SqlServerDatabase.Provider
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name: UseDatabase(DbContextOptionsBuilder, string)
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_UseDatabase_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_System_String_
+  commentId: M:Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)
+  name.vb: UseDatabase(DbContextOptionsBuilder, String)
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, string)
+  fullName.vb: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder, String)
+  nameWithType: SqlServerDatabase.UseDatabase(DbContextOptionsBuilder, string)
+  nameWithType.vb: SqlServerDatabase.UseDatabase(DbContextOptionsBuilder, String)
+- uid: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase*
+  name: UseDatabase
+  href: api/Oqtane.Database.SqlServer.SqlServerDatabase.html#Oqtane_Database_SqlServer_SqlServerDatabase_UseDatabase_
+  commentId: Overload:Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase
+  isSpec: "True"
+  fullName: Oqtane.Database.SqlServer.SqlServerDatabase.UseDatabase
+  nameWithType: SqlServerDatabase.UseDatabase
 - uid: Oqtane.Databases
   name: Oqtane.Databases
   href: api/Oqtane.Databases.html
