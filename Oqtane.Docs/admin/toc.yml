@@ -4,29 +4,29 @@
 
 - name: Site Administration
   href: site-administration/toc.yml
-  homepage: site-administration/
+  topicHref: site-administration/index.md
 
 - name: Installation
   href: installation/index.md
   # href: installation/toc.yml
-  # homepage: installation/
+  # topicHref: installation/
 
 - name: Modules
   href: modules/toc.yml
-  homepage: modules/
+  topicHref: modules/index.md
 
 - name: Host Administration
   href: host-administration/toc.yml
-  homepage: host-administration/
+  topicHref: host-administration/index.md
 
 - name: Admin Dashboard
   href: admin-dashboard/toc.yml
-  homepage: admin-dashboard/
+  topicHref: admin-dashboard/index.md
 
 - name: Control Panel
   href: control-panel/toc.yml
-  homepage: control-panel/
+  topicHref: control-panel/index.md
 
 #   # topicUid: Article.Docs.Index
 #   href: documentation/toc.yml
-#   homepage: documentation/
+#   topicHref: documentation/index.md
