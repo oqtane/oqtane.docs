@@ -14,12 +14,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class PrivateApi
-   | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+ | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PrivateApi
-   | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.58.4.0">
-    
+ | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../layout/images/favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
@@ -27,14 +27,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
-    
-    <meta property="docfx:rel" content="../">
-    <meta property="docfx:newtab" content="true">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
               </a>
@@ -55,7 +55,7 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-                
+
                 <ul class="nav level1 navbar-nav">
                       <li>
                           <a href="../articles/index.html" title="Articles">Articles</a>
@@ -66,10 +66,10 @@
                       <li class="active">
                           <a href="../api/index.html" title="API Documentation">API Documentation</a>
                       </li>
-                </ul>    </div>
+                </ul>            </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -79,7 +79,7 @@
         </div>
       </header>
       <div class="container body-content">
-        
+
         <div id="search-results">
           <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
@@ -89,7 +89,7 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -99,41 +99,46 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="Oqtane.Documentation.PrivateApi">
-  
-  
+
+
+
   <h1 id="Oqtane_Documentation_PrivateApi" data-uid="Oqtane.Documentation.PrivateApi" class="text-break">Class PrivateApi
-  </h1>
+</h1>
   <div class="markdown level0 summary"><p>This attribute marks classes, methods, etc. as private APIs
 So they should <em>not</em> be publicly documented.
 By default, all APIs are private, so you only need this attribute on children of classes marked with <code>[PublicApi]</code>.</p>
 </div>
-  <div class="markdown level0 conceptual"><p>If you attach this attribute to a class like this:</p>
+  <div class="markdown level0 conceptual">
+<p>If you attach this attribute to a class like this:</p>
 <pre><code class="lang-cs">[PrivateApi]
 public class YourClass {
 
 }
-</code></pre><p>or like this</p>
+</code></pre>
+<p>or like this</p>
 <pre><code class="lang-cs">[PrivateApi(&quot;Reason why the API should remain private&quot;)]
 public class YourClass {
 
 }
-</code></pre><p>or in combination with <a class="xref" href="Oqtane.Documentation.PublicApi.html">PublicApi</a></p>
+</code></pre>
+<p>or in combination with <a class="xref" href="Oqtane.Documentation.PublicApi.html">PublicApi</a></p>
 <pre><code class="lang-cs">[PublicApi]
 public class YourClass {
-    public string Name;
+	public string Name;
 
-    [PrivateApi(&quot;Don&#39;t publish this - should only be used internally&quot;)]
-    public string InternalSpecialName;
+	[PrivateApi(&quot;Don't publish this - should only be used internally&quot;)]
+	public string InternalSpecialName;
 }
-</code></pre><p>It will result in this class, method etc. to <em>not</em> be documented in the docs.oqtane.org.</p>
+</code></pre>
+<p>It will result in this class, method etc. to <em>not</em> be documented in the docs.oqtane.org.</p>
 </div>
   <div class="inheritance">
     <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
     <div class="level2"><span class="xref">PrivateApi</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.Documentation.html">Oqtane.Documentation</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Documentation.html">Documentation</a></h6>
   <h6><strong>Assembly</strong>: Oqtane.Shared.dll</h6>
   <h5 id="Oqtane_Documentation_PrivateApi_syntax">Syntax</h5>
   <div class="codewrapper">
@@ -142,41 +147,41 @@ public class YourClass {
 public class PrivateApi : Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
-  </h3>
+</h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Documentation_PrivateApi__ctor.md&amp;value=---%0Auid%3A%20Oqtane.Documentation.PrivateApi.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Documentation_PrivateApi__ctor.md&amp;value=---%0Auid%3A%20Oqtane.Documentation.PrivateApi.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Documentation/PrivateApi.cs/#L19">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Documentation/PrivateApi.cs/#L19">View Source</a>
   </span>
   <a id="Oqtane_Documentation_PrivateApi__ctor_" data-uid="Oqtane.Documentation.PrivateApi.#ctor*"></a>
   <h4 id="Oqtane_Documentation_PrivateApi__ctor" data-uid="Oqtane.Documentation.PrivateApi.#ctor">PrivateApi()</h4>
-  <div class="markdown level1 summary"><p>The <code>[PrivateApi]</code> attribute can be used without additional comment. </p>
+  <div class="markdown level1 summary"><p>The <code>[PrivateApi]</code> attribute can be used without additional comment.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public PrivateApi()</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.framework/new/feature/docs1794/apiSpec/new?filename=Oqtane_Documentation_PrivateApi__ctor_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Documentation.PrivateApi.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Documentation_PrivateApi__ctor_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Documentation.PrivateApi.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Documentation/PrivateApi.cs/#L25">View Source</a>
+    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Documentation/PrivateApi.cs/#L25">View Source</a>
   </span>
   <a id="Oqtane_Documentation_PrivateApi__ctor_" data-uid="Oqtane.Documentation.PrivateApi.#ctor*"></a>
-  <h4 id="Oqtane_Documentation_PrivateApi__ctor_System_String_" data-uid="Oqtane.Documentation.PrivateApi.#ctor(System.String)">PrivateApi(String)</h4>
-  <div class="markdown level1 summary"><p>Constructor with optional comment <code>[PrivateApi(some-comment)]</code>. </p>
+  <h4 id="Oqtane_Documentation_PrivateApi__ctor_System_String_" data-uid="Oqtane.Documentation.PrivateApi.#ctor(System.String)">PrivateApi(string)</h4>
+  <div class="markdown level1 summary"><p>Constructor with optional comment <code>[PrivateApi(some-comment)]</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public PrivateApi(string comment)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -186,25 +191,26 @@ public class PrivateApi : Attribute</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">comment</span></td>
-        <td><p>Reason why it&apos;s private, optional</p>
+        <td><p>Reason why it's private, optional</p>
 </td>
       </tr>
     </tbody>
   </table>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/apidoc/Documentation/PrivateApi.md/#L2" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/apidoc/Documentation/PrivateApi.md/#L2" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/2sic-forks/oqtane.framework/blob/feature/docs1794/Oqtane.Shared/Documentation/PrivateApi.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Shared/Documentation/PrivateApi.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -216,7 +222,7 @@ public class PrivateApi : Attribute</code></pre>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -224,14 +230,14 @@ public class PrivateApi : Attribute</code></pre>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

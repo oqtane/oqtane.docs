@@ -16,8 +16,8 @@
     <title>Documenting Code | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Documenting Code | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx 2.58.4.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../layout/images/favicon.png">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../../styles/docfx.css">
@@ -25,14 +25,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="../../toc.html">
     <meta property="docfx:tocrel" content="../toc.html">
-    
-    <meta property="docfx:rel" content="../../">
-    <meta property="docfx:newtab" content="true">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -42,7 +42,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../index.html">
                 <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
               </a>
@@ -53,7 +53,7 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-                
+
                 <ul class="nav level1 navbar-nav">
                       <li class="active">
                           <a href="../../articles/index.html" title="Articles">Articles</a>
@@ -64,10 +64,10 @@
                       <li>
                           <a href="../../api/index.html" title="API Documentation">API Documentation</a>
                       </li>
-                </ul>    </div>
+                </ul>            </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -77,7 +77,7 @@
         </div>
       </header>
       <div class="container body-content">
-        
+
         <div id="search-results">
           <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
@@ -87,7 +87,7 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -106,9 +106,10 @@
 /// &lt;/summary&gt;
 /// &lt;param name=&quot;id&quot;&gt;the id&lt;/param&gt;
 public MyMethod(int id) { }
-</code></pre><p>All this is automatically picked up and converted to documentation. </p>
+</code></pre>
+<p>All this is automatically picked up and converted to documentation.</p>
 <h2 id="adding-extensive-documentation">Adding Extensive Documentation</h2>
-<p>Let&#39;s assume you have a class <code>Oqtane.Example.MyClass</code> and you would like to add images and a lot of markdown to explain what it does. This is your code:</p>
+<p>Let's assume you have a class <code>Oqtane.Example.MyClass</code> and you would like to add images and a lot of markdown to explain what it does. This is your code:</p>
 <pre><code class="lang-cs">/// &lt;summary&gt;
 /// This class does something
 /// &lt;/summary&gt;
@@ -116,7 +117,8 @@ public class MyClass
 {
 
 }
-</code></pre><p>Now go to the documentation project <code>Oqtane.Docs</code> in the solution and open the <code>apidoc\Example</code> folder (create it, if it doesn&#39;t exist yet&#39;). 
+</code></pre>
+<p>Now go to the documentation project <code>Oqtane.Docs</code> in the solution and open the <code>apidoc\Example</code> folder (create it, if it doesn't exist yet').
 In this, create a <code>MyClass.md</code> file which contains this</p>
 <pre><code class="lang-md">---
 uid: Oqtane.Example.MyClass
@@ -126,22 +128,24 @@ Here is some **great** additional [Information](https://oqtane.org).
 
 1. Do this
 1. Then that
-</code></pre><p>Because you have the <code>uid: ...</code> header in your file, docfx will now combine these documentations in the output. 
-You can also add images, html, or whatever you need. </p>
-<p>You can also find examples of this merge in the <code>apidoc\Documentation\PublicApi.md</code> file. </p>
+
+</code></pre>
+<p>Because you have the <code>uid: ...</code> header in your file, docfx will now combine these documentations in the output.
+You can also add images, html, or whatever you need.</p>
+<p>You can also find examples of this merge in the <code>apidoc\Documentation\PublicApi.md</code> file.</p>
 <h2 id="documenting-namespaces">Documenting Namespaces</h2>
-<p>It&#39;s usually very helpful to document what a namespace does. 
-Using the same mechanism with the <code>uid:</code> you can create markdown files which will show extensive instructions. </p>
-<p>Check out the <code>apidoc\Documentation\index.md</code> file for an example. </p>
+<p>It's usually very helpful to document what a namespace does.
+Using the same mechanism with the <code>uid: </code> you can create markdown files which will show extensive instructions.</p>
+<p>Check out the <code>apidoc\Documentation\index.md</code> file for an example.</p>
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/oqtane/oqtane.docs/blob/master/Oqtane.Docs/articles/documentation/code.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/articles/documentation/code.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -153,7 +157,7 @@ Using the same mechanism with the <code>uid:</code> you can create markdown file
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -161,14 +165,14 @@ Using the same mechanism with the <code>uid:</code> you can create markdown file
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
