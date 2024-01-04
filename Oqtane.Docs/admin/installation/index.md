@@ -28,7 +28,7 @@ For general development and keeping up with the latest features, you can use the
 
 3. If you wish to use _LocalDB_ for development (not a requirement as Oqtane supports _SQLite_, _mySQL_, and _PostgreSQL_), you must also install the **Data storage and processing**.
 
-4. Download and extract the [Oqtane Dev Branch Zip](https://github.com/oqtane/oqtane.framework/archive/dev.zip) or clone the Oqtane dev branch source code to your local system using [Git Bash](https://git-scm.com/) with the following command:
+4. Visit the [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework) to download and extract the [Oqtane Dev Branch Source Zip File](https://github.com/oqtane/oqtane.framework/archive/dev.zip) or clone the Oqtane dev branch source code to your local system using [Git Bash](https://git-scm.com/) with the following command:
    ```bash
    git clone -b dev https://github.com/oqtane/oqtane.framework.git
 5. Open the **Oqtane.sln** solution file.
@@ -72,7 +72,7 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 
 1. If you wish to use _LocalDB_ for development (not a requirement as Oqtane supports _SQLite_, _mySQL_ and _PostgreSQL_) you must also install the **Data storage and processing**.
 
-1. Download the [Official Oqtane Releases Source 4.0.6 Zip](https://github.com/oqtane/oqtane.framework/releases/tag/v4.0.6).
+1. Download the [Official Oqtane Release Source 4.0.6](https://github.com/oqtane/oqtane.framework/releases/tag/v4.0.6).
 
 1. Open the **Oqtane.sln** solution file.
 
@@ -91,7 +91,7 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 
 1. If you wish to use _LocalDB_ for development (not a requirement as Oqtane supports _SQLite_, _mySQL_ and _PostgreSQL_) you must also install the **Data storage and processing**.
 
-1. Download the latest [Official Oqtane Releases Source 3.4.3 Zip](https://github.com/oqtane/oqtane.framework/releases/tag/v3.4.3).
+1. Download the latest [Official Oqtane Release Source 3.4.3](https://github.com/oqtane/oqtane.framework/releases/tag/v3.4.3).
 
 1. Open the **Oqtane.sln** solution file.
 
@@ -113,7 +113,7 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 1. If you do not have a SQL Server installation available already and you wish to use LocalDB for development, 
 you must also install the **.NET desktop development workload**.
 
-1. Download the [Official Oqtane Releases Source 2.3.1 Zip](https://github.com/oqtane/oqtane.framework/releases/tag/v2.3.1).
+1. Download the [Official Oqtane Release Source 2.3.1](https://github.com/oqtane/oqtane.framework/releases/tag/v2.3.1).
 
 1. Open the **Oqtane.sln** solution file.
 
@@ -133,7 +133,7 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 
 1. If you do not have a SQL Server installation available already and you wish to use LocalDB for development, you must also install the .NET desktop development workload.
 
-1. Download the [Official Oqtane Releases Source 1.0.4 Zip](https://github.com/oqtane/oqtane.framework/releases/tag/v1.0.4).
+1. Download the [Official Oqtane Release Source 1.0.4](https://github.com/oqtane/oqtane.framework/releases/tag/v1.0.4).
 
 1. Open the **Oqtane.sln** solution file.
 
