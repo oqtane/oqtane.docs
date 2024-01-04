@@ -71,7 +71,7 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md",
+          "apidoc/**.md"
         ],
         "exclude": [
           "obj/**",
