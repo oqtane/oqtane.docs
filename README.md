@@ -21,9 +21,9 @@ The final docs are generated into the `/docs` folder.
 
 ## Test locally
 
-As some of the stuff needs JS which only runs well from HTTP, you should setup IIS to publish the `/docs` folder on any domain you want - like `docs.oqtane.me`. 
+As some of the stuff needs JavaScript which only runs well from HTTP, you should setup IIS to publish the `/docs` folder on any domain you want - like `docs.oqtane.me`. 
 
 
 ## Publish
 
-When you push back this repo github will automatically publish the updated documentation. 
+When you push back this repo GitHub will automatically publish the updated documentation. 
