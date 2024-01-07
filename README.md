@@ -1,6 +1,6 @@
 # Oqtane Docs Builder
 
-This project generates the documentation for Oqtane using [docfx](https://dotnet.github.io/docfx/).
+This project generates the documentation for [Oqtane Framework](https://github.com/oqtane/oqtane.framework) using [DocFX](https://dotnet.github.io/docfx/).
 
 It's explained in detail on https://docs.oqtane.org/articles/documentation/
 
@@ -8,7 +8,7 @@ It's explained in detail on https://docs.oqtane.org/articles/documentation/
 
 To set everything up, do the following:
 
-In some folder (like `c:\projects\oqtane`) pull this repo and also the oqtane.framework. You should then have something like
+In some folder (like `c:\projects\oqtane`) pull this repo and also the `oqtane.framework`. You should then have something like
 
 * some-root\oqtane.docs
 * some-root\oqtane.framework
