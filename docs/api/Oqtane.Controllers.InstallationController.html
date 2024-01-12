@@ -1,520 +1,457 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
   <head>
-    <!-- Google Tag Manager - disabled temporarily, until we have the GTM code -->
-    <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TODO-TODO-TODO');</script>-->
-    <!-- End Google Tag Manager -->
-    <!-- azing recipe embed resizer -->
-    <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InstallationController
+      <title>Class InstallationController
  | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InstallationController
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class InstallationController
  | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx ">
-  
-    <link rel="shortcut icon" href="../layout/images/favicon.png">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
+      
+      <link rel="icon" href="../layout/images/favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
-
-                <ul class="nav level1 navbar-nav">
-                      <li>
-                          <a href="../articles/index.html" title="Articles">Articles</a>
-                      </li>
-                      <li>
-                          <a href="../admin/index.html" title="Administration">Administration</a>
-                      </li>
-                      <li class="active">
-                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
-                      </li>
-                </ul>            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+            </div>
           </div>
         </div>
-      </header>
-      <div class="container body-content">
+      </nav>
+    </header>
 
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oqtane.Controllers.InstallationController">
+
+        <article data-uid="Oqtane.Controllers.InstallationController">
 
 
 
-  <h1 id="Oqtane_Controllers_InstallationController" data-uid="Oqtane.Controllers.InstallationController" class="text-break">Class InstallationController
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase">ControllerBase</a></div>
-    <div class="level2"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></div>
-    <div class="level3"><span class="xref">InstallationController</span></div>
+  <h1 id="Oqtane_Controllers_InstallationController" data-uid="Oqtane.Controllers.InstallationController" class="text-break">
+    Class InstallationController
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Controllers.html">Controllers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Oqtane.Server.dll</dd></dl>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Controllers.html">Controllers</a></h6>
-  <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
-  <h5 id="Oqtane_Controllers_InstallationController_syntax">Syntax</h5>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Route(&quot;api/[controller]&quot;)]
 public class InstallationController : Controller</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController__ctor_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_Logging_ILogger_Oqtane_Controllers_InstallationController__Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_ServerStateManager_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.%23ctor(Oqtane.Infrastructure.IConfigManager%2COqtane.Infrastructure.IInstallationManager%2COqtane.Infrastructure.IDatabaseManager%2COqtane.Infrastructure.ILocalizationManager%2CMicrosoft.Extensions.Caching.Memory.IMemoryCache%2CMicrosoft.AspNetCore.Http.IHttpContextAccessor%2COqtane.Repository.IAliasRepository%2CMicrosoft.Extensions.Logging.ILogger%7BOqtane.Controllers.InstallationController%7D%2COqtane.Infrastructure.ITenantManager%2COqtane.Infrastructure.ServerStateManager)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L39">View Source</a>
-  </span>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controllerbase">ControllerBase</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.controller">Controller</a></div>
+      <div><span class="xref">InstallationController</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="Oqtane_Controllers_InstallationController__ctor_" data-uid="Oqtane.Controllers.InstallationController.#ctor*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController__ctor_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_IAliasRepository_Microsoft_Extensions_Logging_ILogger_Oqtane_Controllers_InstallationController__Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_ServerStateManager_" data-uid="Oqtane.Controllers.InstallationController.#ctor(Oqtane.Infrastructure.IConfigManager,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Http.IHttpContextAccessor,Oqtane.Repository.IAliasRepository,Microsoft.Extensions.Logging.ILogger{Oqtane.Controllers.InstallationController},Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.ServerStateManager)">InstallationController(IConfigManager, IInstallationManager, IDatabaseManager, ILocalizationManager, IMemoryCache, IHttpContextAccessor, IAliasRepository, ILogger&lt;InstallationController&gt;, ITenantManager, ServerStateManager)</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController__ctor_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_IInstallationManager_Oqtane_Infrastructure_IDatabaseManager_Oqtane_Infrastructure_ILocalizationManager_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_AspNetCore_Http_IHttpContextAccessor_Oqtane_Repository_IAliasRepository_Oqtane_Repository_ISiteRepository_Microsoft_Extensions_Logging_ILogger_Oqtane_Controllers_InstallationController__Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_IServerStateManager_" data-uid="Oqtane.Controllers.InstallationController.#ctor(Oqtane.Infrastructure.IConfigManager,Oqtane.Infrastructure.IInstallationManager,Oqtane.Infrastructure.IDatabaseManager,Oqtane.Infrastructure.ILocalizationManager,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.AspNetCore.Http.IHttpContextAccessor,Oqtane.Repository.IAliasRepository,Oqtane.Repository.ISiteRepository,Microsoft.Extensions.Logging.ILogger{Oqtane.Controllers.InstallationController},Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.IServerStateManager)">
+  InstallationController(IConfigManager, IInstallationManager, IDatabaseManager, ILocalizationManager, IMemoryCache, IHttpContextAccessor, IAliasRepository, ISiteRepository, ILogger&lt;InstallationController&gt;, ITenantManager, IServerStateManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InstallationController(IConfigManager configManager, IInstallationManager installationManager, IDatabaseManager databaseManager, ILocalizationManager localizationManager, IMemoryCache cache, IHttpContextAccessor accessor, IAliasRepository aliases, ILogger&lt;InstallationController&gt; filelogger, ITenantManager tenantManager, ServerStateManager serverState)</code></pre>
+    <pre><code class="lang-csharp hljs">public InstallationController(IConfigManager configManager, IInstallationManager installationManager, IDatabaseManager databaseManager, ILocalizationManager localizationManager, IMemoryCache cache, IHttpContextAccessor accessor, IAliasRepository aliases, ISiteRepository sites, ILogger&lt;InstallationController&gt; filelogger, ITenantManager tenantManager, IServerStateManager serverState)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></td>
-        <td><span class="parametername">configManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.IInstallationManager.html">IInstallationManager</a></td>
-        <td><span class="parametername">installationManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.IDatabaseManager.html">IDatabaseManager</a></td>
-        <td><span class="parametername">databaseManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.ILocalizationManager.html">ILocalizationManager</a></td>
-        <td><span class="parametername">localizationManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.imemorycache">IMemoryCache</a></td>
-        <td><span class="parametername">cache</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.ihttpcontextaccessor">IHttpContextAccessor</a></td>
-        <td><span class="parametername">accessor</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Repository.IAliasRepository.html">IAliasRepository</a></td>
-        <td><span class="parametername">aliases</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="Oqtane.Controllers.InstallationController.html">InstallationController</a>&gt;</td>
-        <td><span class="parametername">filelogger</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></td>
-        <td><span class="parametername">tenantManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.ServerStateManager.html">ServerStateManager</a></td>
-        <td><span class="parametername">serverState</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_IsInstalled_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.IsInstalled(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L77">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configManager</code> <a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></dt>
+    <dd></dd>
+    <dt><code>installationManager</code> <a class="xref" href="Oqtane.Infrastructure.IInstallationManager.html">IInstallationManager</a></dt>
+    <dd></dd>
+    <dt><code>databaseManager</code> <a class="xref" href="Oqtane.Infrastructure.IDatabaseManager.html">IDatabaseManager</a></dt>
+    <dd></dd>
+    <dt><code>localizationManager</code> <a class="xref" href="Oqtane.Infrastructure.ILocalizationManager.html">ILocalizationManager</a></dt>
+    <dd></dd>
+    <dt><code>cache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.imemorycache">IMemoryCache</a></dt>
+    <dd></dd>
+    <dt><code>accessor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.ihttpcontextaccessor">IHttpContextAccessor</a></dt>
+    <dd></dd>
+    <dt><code>aliases</code> <a class="xref" href="Oqtane.Repository.IAliasRepository.html">IAliasRepository</a></dt>
+    <dd></dd>
+    <dt><code>sites</code> <a class="xref" href="Oqtane.Repository.ISiteRepository.html">ISiteRepository</a></dt>
+    <dd></dd>
+    <dt><code>filelogger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="Oqtane.Controllers.InstallationController.html">InstallationController</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>tenantManager</code> <a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></dt>
+    <dd></dd>
+    <dt><code>serverState</code> <a class="xref" href="Oqtane.Infrastructure.IServerStateManager.html">IServerStateManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="Oqtane_Controllers_InstallationController_IsInstalled_" data-uid="Oqtane.Controllers.InstallationController.IsInstalled*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_IsInstalled_System_String_" data-uid="Oqtane.Controllers.InstallationController.IsInstalled(System.String)">IsInstalled(string)</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_IsInstalled_System_String_" data-uid="Oqtane.Controllers.InstallationController.IsInstalled(System.String)">
+  IsInstalled(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;installed&quot;)]
 public Installation IsInstalled(string path)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">path</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_List.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.List%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L107">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_InstallationController_List_" data-uid="Oqtane.Controllers.InstallationController.List*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_List" data-uid="Oqtane.Controllers.InstallationController.List">List()</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_List" data-uid="Oqtane.Controllers.InstallationController.List">
+  List()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;list&quot;)]
 public List&lt;string&gt; List()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Load_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Load(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L114">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_InstallationController_Load_" data-uid="Oqtane.Controllers.InstallationController.Load*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_Load_System_String_" data-uid="Oqtane.Controllers.InstallationController.Load(System.String)">Load(string)</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_Load_System_String_" data-uid="Oqtane.Controllers.InstallationController.Load(System.String)">
+  Load(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;load&quot;)]
 public IActionResult Load(string list = &quot;*&quot;)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">list</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Post_Oqtane_Shared_InstallConfig_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Post(Oqtane.Shared.InstallConfig)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L54">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>list</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.iactionresult">IActionResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_InstallationController_Post_" data-uid="Oqtane.Controllers.InstallationController.Post*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_Post_Oqtane_Shared_InstallConfig_" data-uid="Oqtane.Controllers.InstallationController.Post(Oqtane.Shared.InstallConfig)">Post(InstallConfig)</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_Post_Oqtane_Shared_InstallConfig_" data-uid="Oqtane.Controllers.InstallationController.Post(Oqtane.Shared.InstallConfig)">
+  Post(InstallConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost]
 public Task&lt;Installation&gt; Post(InstallConfig config)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Shared.InstallConfig.html">InstallConfig</a></td>
-        <td><span class="parametername">config</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.Installation.html">Installation</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Register_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Register(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L260">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="Oqtane.Shared.InstallConfig.html">InstallConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.Installation.html">Installation</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_InstallationController_Register_" data-uid="Oqtane.Controllers.InstallationController.Register*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_Register_System_String_" data-uid="Oqtane.Controllers.InstallationController.Register(System.String)">Register(string)</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_Register_System_String_" data-uid="Oqtane.Controllers.InstallationController.Register(System.String)">
+  Register(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost(&quot;register&quot;)]
 [Authorize(Roles = &quot;Host Users&quot;)]
 public Task Register(string email)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">email</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Restart.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Restart%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L99">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_InstallationController_Restart_" data-uid="Oqtane.Controllers.InstallationController.Restart*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_Restart" data-uid="Oqtane.Controllers.InstallationController.Restart">Restart()</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_Restart" data-uid="Oqtane.Controllers.InstallationController.Restart">
+  Restart()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost(&quot;restart&quot;)]
 [Authorize(Roles = &quot;Host Users&quot;)]
 public void Restart()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController_Upgrade.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController.Upgrade%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L89">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_InstallationController_Upgrade_" data-uid="Oqtane.Controllers.InstallationController.Upgrade*"></a>
-  <h4 id="Oqtane_Controllers_InstallationController_Upgrade" data-uid="Oqtane.Controllers.InstallationController.Upgrade">Upgrade()</h4>
+
+  <h3 id="Oqtane_Controllers_InstallationController_Upgrade" data-uid="Oqtane.Controllers.InstallationController.Upgrade">
+  Upgrade()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;upgrade&quot;)]
 [Authorize(Roles = &quot;Host Users&quot;)]
 public Installation Upgrade()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Controllers_InstallationController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.InstallationController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L25" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Controllers/InstallationController.cs/#L23" class="edit-link">Edit this page</a>
         </div>
+
+
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

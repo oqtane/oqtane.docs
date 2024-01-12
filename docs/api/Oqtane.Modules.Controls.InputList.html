@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class InputList
+ | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class InputList
+ | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../layout/images/favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Oqtane.Modules.Controls.InputList">
+
+
+
+  <h1 id="Oqtane_Modules_Controls_InputList" data-uid="Oqtane.Modules.Controls.InputList" class="text-break">
+    Class InputList
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Modules.html">Modules</a>.<a class="xref" href="Oqtane.Modules.Controls.html">Controls</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Oqtane.Client.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InputList : LocalizableComponent, IModuleControl</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase">ComponentBase</a></div>
+      <div><a class="xref" href="Oqtane.Modules.ModuleBase.html">ModuleBase</a></div>
+      <div><a class="xref" href="Oqtane.Modules.ModuleControlBase.html">ModuleControlBase</a></div>
+      <div><a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html">LocalizableComponent</a></div>
+      <div><span class="xref">InputList</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Oqtane.Modules.IModuleControl.html">IModuleControl</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_LocalizerFactory">LocalizableComponent.LocalizerFactory</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_ResourceKey">LocalizableComponent.ResourceKey</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_ResourceType">LocalizableComponent.ResourceType</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_IsLocalizable">LocalizableComponent.IsLocalizable</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_Localize_System_String_">LocalizableComponent.Localize(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_Localize_System_String_System_String_">LocalizableComponent.Localize(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.Controls.LocalizableComponent.html#Oqtane_Modules_Controls_LocalizableComponent_OnParametersSet">LocalizableComponent.OnParametersSet()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_logger">ModuleBase.logger</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_LoggingService">ModuleBase.LoggingService</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_JSRuntime">ModuleBase.JSRuntime</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SiteState">ModuleBase.SiteState</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_PageState">ModuleBase.PageState</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleState">ModuleBase.ModuleState</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleInstance">ModuleBase.ModuleInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SecurityAccessLevel">ModuleBase.SecurityAccessLevel</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Title">ModuleBase.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Actions">ModuleBase.Actions</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_UseAdminContainer">ModuleBase.UseAdminContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Resources">ModuleBase.Resources</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_UrlParametersTemplate">ModuleBase.UrlParametersTemplate</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_UrlParameters">ModuleBase.UrlParameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_OnAfterRenderAsync_System_Boolean_">ModuleBase.OnAfterRenderAsync(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ShouldRender">ModuleBase.ShouldRender()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModulePath">ModuleBase.ModulePath()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_NavigateUrl">ModuleBase.NavigateUrl()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_NavigateUrl_System_String_">ModuleBase.NavigateUrl(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_NavigateUrl_System_Boolean_">ModuleBase.NavigateUrl(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_NavigateUrl_System_String_System_String_">ModuleBase.NavigateUrl(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_NavigateUrl_System_String_System_Boolean_">ModuleBase.NavigateUrl(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_EditUrl_System_String_">ModuleBase.EditUrl(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_EditUrl_System_String_System_String_">ModuleBase.EditUrl(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_EditUrl_System_Int32_System_String_">ModuleBase.EditUrl(int, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_EditUrl_System_Int32_System_String_System_String_">ModuleBase.EditUrl(int, string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_EditUrl_System_String_System_Int32_System_String_System_String_">ModuleBase.EditUrl(string, int, string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_FileUrl_System_String_System_String_">ModuleBase.FileUrl(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_FileUrl_System_String_System_String_System_Boolean_">ModuleBase.FileUrl(string, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_FileUrl_System_Int32_">ModuleBase.FileUrl(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_FileUrl_System_Int32_System_Boolean_">ModuleBase.FileUrl(int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_Int32_System_Int32_">ModuleBase.ImageUrl(int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_Int32_System_Int32_System_String_">ModuleBase.ImageUrl(int, int, int, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_Int32_System_Int32_System_String_System_String_System_String_System_Int32_System_Boolean_">ModuleBase.ImageUrl(int, int, int, string, string, string, int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddUrlParameters_System_Object___">ModuleBase.AddUrlParameters(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_GetUrlParameters_System_String_">ModuleBase.GetUrlParameters(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_">ModuleBase.AddModuleMessage(string, MessageType)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_">ModuleBase.AddModuleMessage(string, MessageType, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ClearModuleMessage">ModuleBase.ClearModuleMessage()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ShowProgressIndicator">ModuleBase.ShowProgressIndicator()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_HideProgressIndicator">ModuleBase.HideProgressIndicator()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SetModuleTitle_System_String_">ModuleBase.SetModuleTitle(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SetModuleVisibility_System_Boolean_">ModuleBase.SetModuleVisibility(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SetPageTitle_System_String_">ModuleBase.SetPageTitle(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddHeadContent_System_String_">ModuleBase.AddHeadContent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddScript_Oqtane_Models_Resource_">ModuleBase.AddScript(Resource)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ScrollToPageTop">ModuleBase.ScrollToPageTop()</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Log_Oqtane_Models_Alias_Oqtane_Shared_LogLevel_System_String_System_Exception_System_String_System_Object___">ModuleBase.Log(Alias, LogLevel, string, Exception, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Log_Oqtane_Models_Alias_Oqtane_Shared_LogLevel_Oqtane_Enums_LogFunction_System_Exception_System_String_System_Object___">ModuleBase.Log(Alias, LogLevel, LogFunction, Exception, string, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_">ModuleBase.ContentUrl(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_">ModuleBase.ContentUrl(int, bool)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Oqtane_Modules_Controls_InputList_DataList_" data-uid="Oqtane.Modules.Controls.InputList.DataList*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_InputList_DataList" data-uid="Oqtane.Modules.Controls.InputList.DataList">
+  DataList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[EditorRequired]
+[Parameter]
+public Dictionary&lt;string, string&gt; DataList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_InputList_Value_" data-uid="Oqtane.Modules.Controls.InputList.Value*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_InputList_Value" data-uid="Oqtane.Modules.Controls.InputList.Value">
+  Value
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter]
+public string Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_InputList_ValueChanged_" data-uid="Oqtane.Modules.Controls.InputList.ValueChanged*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_InputList_ValueChanged" data-uid="Oqtane.Modules.Controls.InputList.ValueChanged">
+  ValueChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[EditorRequired]
+[Parameter]
+public EventCallback&lt;string&gt; ValueChanged { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.eventcallback-1">EventCallback</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Oqtane_Modules_Controls_InputList_BuildRenderTree_" data-uid="Oqtane.Modules.Controls.InputList.BuildRenderTree*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_InputList_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_" data-uid="Oqtane.Modules.Controls.InputList.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)">
+  BuildRenderTree(RenderTreeBuilder)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Renders the component to the supplied <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.rendering.rendertreebuilder">RenderTreeBuilder</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void BuildRenderTree(RenderTreeBuilder __builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>__builder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.rendering.rendertreebuilder">RenderTreeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_InputList_OnChange_" data-uid="Oqtane.Modules.Controls.InputList.OnChange*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_InputList_OnChange_Microsoft_AspNetCore_Components_ChangeEventArgs_" data-uid="Oqtane.Modules.Controls.InputList.OnChange(Microsoft.AspNetCore.Components.ChangeEventArgs)">
+  OnChange(ChangeEventArgs)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnChange(ChangeEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.changeeventargs">ChangeEventArgs</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_InputList_OnInitialized_" data-uid="Oqtane.Modules.Controls.InputList.OnInitialized*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_InputList_OnInitialized" data-uid="Oqtane.Modules.Controls.InputList.OnInitialized">
+  OnInitialized()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method invoked when the component is ready to start, having received its
+initial parameters from its parent in the render tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInitialized()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

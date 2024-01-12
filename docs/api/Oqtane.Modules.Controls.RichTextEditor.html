@@ -1,125 +1,136 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
   <head>
-    <!-- Google Tag Manager - disabled temporarily, until we have the GTM code -->
-    <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TODO-TODO-TODO');</script>-->
-    <!-- End Google Tag Manager -->
-    <!-- azing recipe embed resizer -->
-    <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RichTextEditor
+      <title>Class RichTextEditor
  | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RichTextEditor
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RichTextEditor
  | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx ">
-  
-    <link rel="shortcut icon" href="../layout/images/favicon.png">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
+      
+      <link rel="icon" href="../layout/images/favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
-
-                <ul class="nav level1 navbar-nav">
-                      <li>
-                          <a href="../articles/index.html" title="Articles">Articles</a>
-                      </li>
-                      <li>
-                          <a href="../admin/index.html" title="Administration">Administration</a>
-                      </li>
-                      <li class="active">
-                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
-                      </li>
-                </ul>            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+            </div>
           </div>
         </div>
-      </header>
-      <div class="container body-content">
+      </nav>
+    </header>
 
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oqtane.Modules.Controls.RichTextEditor">
+
+        <article data-uid="Oqtane.Modules.Controls.RichTextEditor">
 
 
 
-  <h1 id="Oqtane_Modules_Controls_RichTextEditor" data-uid="Oqtane.Modules.Controls.RichTextEditor" class="text-break">Class RichTextEditor
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase">ComponentBase</a></div>
-    <div class="level2"><a class="xref" href="Oqtane.Modules.ModuleBase.html">ModuleBase</a></div>
-    <div class="level3"><a class="xref" href="Oqtane.Modules.ModuleControlBase.html">ModuleControlBase</a></div>
-    <div class="level4"><span class="xref">RichTextEditor</span></div>
+  <h1 id="Oqtane_Modules_Controls_RichTextEditor" data-uid="Oqtane.Modules.Controls.RichTextEditor" class="text-break">
+    Class RichTextEditor
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Modules.html">Modules</a>.<a class="xref" href="Oqtane.Modules.Controls.html">Controls</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Oqtane.Client.dll</dd></dl>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Oqtane.Modules.IModuleControl.html">IModuleControl</a></div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RichTextEditor : ModuleControlBase, IModuleControl</code></pre>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase">ComponentBase</a></div>
+      <div><a class="xref" href="Oqtane.Modules.ModuleBase.html">ModuleBase</a></div>
+      <div><a class="xref" href="Oqtane.Modules.ModuleControlBase.html">ModuleControlBase</a></div>
+      <div><span class="xref">RichTextEditor</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Oqtane.Modules.IModuleControl.html">IModuleControl</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_logger">ModuleBase.logger</a>
     </div>
@@ -158,6 +169,9 @@
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_UrlParameters">ModuleBase.UrlParameters</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ShouldRender">ModuleBase.ShouldRender()</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModulePath">ModuleBase.ModulePath()</a>
@@ -223,6 +237,9 @@
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_">ModuleBase.AddModuleMessage(string, MessageType)</a>
     </div>
     <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_">ModuleBase.AddModuleMessage(string, MessageType, string)</a>
+    </div>
+    <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ClearModuleMessage">ModuleBase.ClearModuleMessage()</a>
     </div>
     <div>
@@ -261,623 +278,677 @@
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_">ModuleBase.ContentUrl(int, bool)</a>
     </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Modules.html">Modules</a>.<a class="xref" href="Oqtane.Modules.Controls.html">Controls</a></h6>
-  <h6><strong>Assembly</strong>: Oqtane.Client.dll</h6>
-  <h5 id="Oqtane_Modules_Controls_RichTextEditor_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RichTextEditor : ModuleControlBase, IModuleControl</code></pre>
-  </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_AllowFileManagement.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L762">View Source</a>
-  </span>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_AllowFileManagement_" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_AllowFileManagement" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement">AllowFileManagement</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_AllowFileManagement" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement">
+  AllowFileManagement
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public bool AllowFileManagement { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_AllowRawHtml.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L765">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_AllowRawHtml_" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_AllowRawHtml" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml">AllowRawHtml</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_AllowRawHtml" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml">
+  AllowRawHtml
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public bool AllowRawHtml { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_Content.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.Content%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L753">View Source</a>
-  </span>
-  <a id="Oqtane_Modules_Controls_RichTextEditor_Content_" data-uid="Oqtane.Modules.Controls.RichTextEditor.Content*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_Content" data-uid="Oqtane.Modules.Controls.RichTextEditor.Content">Content</h4>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_RichTextEditor_AllowRichText_" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowRichText*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_AllowRichText" data-uid="Oqtane.Modules.Controls.RichTextEditor.AllowRichText">
+  AllowRichText
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter]
+public bool AllowRichText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_RichTextEditor_Content_" data-uid="Oqtane.Modules.Controls.RichTextEditor.Content*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_Content" data-uid="Oqtane.Modules.Controls.RichTextEditor.Content">
+  Content
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public string Content { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_DebugLevel.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.DebugLevel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L775">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_DebugLevel_" data-uid="Oqtane.Modules.Controls.RichTextEditor.DebugLevel*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_DebugLevel" data-uid="Oqtane.Modules.Controls.RichTextEditor.DebugLevel">DebugLevel</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_DebugLevel" data-uid="Oqtane.Modules.Controls.RichTextEditor.DebugLevel">
+  DebugLevel
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public string DebugLevel { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_Placeholder.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.Placeholder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L759">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_Placeholder_" data-uid="Oqtane.Modules.Controls.RichTextEditor.Placeholder*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_Placeholder" data-uid="Oqtane.Modules.Controls.RichTextEditor.Placeholder">Placeholder</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_Placeholder" data-uid="Oqtane.Modules.Controls.RichTextEditor.Placeholder">
+  Placeholder
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public string Placeholder { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_ReadOnly.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.ReadOnly%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L756">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_ReadOnly_" data-uid="Oqtane.Modules.Controls.RichTextEditor.ReadOnly*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_ReadOnly" data-uid="Oqtane.Modules.Controls.RichTextEditor.ReadOnly">ReadOnly</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_ReadOnly" data-uid="Oqtane.Modules.Controls.RichTextEditor.ReadOnly">
+  ReadOnly
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public bool ReadOnly { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_Resources.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.Resources%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L778">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_Resources_" data-uid="Oqtane.Modules.Controls.RichTextEditor.Resources*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_Resources" data-uid="Oqtane.Modules.Controls.RichTextEditor.Resources">Resources</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_Resources" data-uid="Oqtane.Modules.Controls.RichTextEditor.Resources">
+  Resources
+  
+  </h3>
+
   <div class="markdown level1 summary"><p>Identifies all resources in a module</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override List&lt;Resource&gt; Resources { get; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Oqtane.Models.Resource.html">Resource</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Resources">ModuleBase.Resources</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_Theme.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.Theme%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L772">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Oqtane.Models.Resource.html">Resource</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_Theme_" data-uid="Oqtane.Modules.Controls.RichTextEditor.Theme*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_Theme" data-uid="Oqtane.Modules.Controls.RichTextEditor.Theme">Theme</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_Theme" data-uid="Oqtane.Modules.Controls.RichTextEditor.Theme">
+  Theme
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public string Theme { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_ToolbarContent.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.ToolbarContent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L769">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_ToolbarContent_" data-uid="Oqtane.Modules.Controls.RichTextEditor.ToolbarContent*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_ToolbarContent" data-uid="Oqtane.Modules.Controls.RichTextEditor.ToolbarContent">ToolbarContent</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_ToolbarContent" data-uid="Oqtane.Modules.Controls.RichTextEditor.ToolbarContent">
+  ToolbarContent
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public RenderFragment ToolbarContent { get; set; }</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.renderfragment">RenderFragment</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L180">View Source</a>
-  </span>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.renderfragment">RenderFragment</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_BuildRenderTree_" data-uid="Oqtane.Modules.Controls.RichTextEditor.BuildRenderTree*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_" data-uid="Oqtane.Modules.Controls.RichTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)">BuildRenderTree(RenderTreeBuilder)</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_" data-uid="Oqtane.Modules.Controls.RichTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)">
+  BuildRenderTree(RenderTreeBuilder)
+  
+  </h3>
+
   <div class="markdown level1 summary"><p>Renders the component to the supplied <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.rendering.rendertreebuilder">RenderTreeBuilder</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void BuildRenderTree(RenderTreeBuilder __builder)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.rendering.rendertreebuilder">RenderTreeBuilder</a></td>
-        <td><span class="parametername">__builder</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.buildrendertree">ComponentBase.BuildRenderTree(RenderTreeBuilder)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_CloseRawFileManager.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L822">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>__builder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.rendering.rendertreebuilder">RenderTreeBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_CloseRawFileManager_" data-uid="Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_CloseRawFileManager" data-uid="Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager">CloseRawFileManager()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_CloseRawFileManager" data-uid="Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager">
+  CloseRawFileManager()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void CloseRawFileManager()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_CloseRichFileManager.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L815">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_CloseRichFileManager_" data-uid="Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_CloseRichFileManager" data-uid="Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager">CloseRichFileManager()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_CloseRichFileManager" data-uid="Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager">
+  CloseRichFileManager()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void CloseRichFileManager()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_GetHtml.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.GetHtml%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L842">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_GetHtml_" data-uid="Oqtane.Modules.Controls.RichTextEditor.GetHtml*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_GetHtml" data-uid="Oqtane.Modules.Controls.RichTextEditor.GetHtml">GetHtml()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_GetHtml" data-uid="Oqtane.Modules.Controls.RichTextEditor.GetHtml">
+  GetHtml()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetHtml()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_InsertRawImage.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.InsertRawImage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L890">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_InsertRawImage_" data-uid="Oqtane.Modules.Controls.RichTextEditor.InsertRawImage*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_InsertRawImage" data-uid="Oqtane.Modules.Controls.RichTextEditor.InsertRawImage">InsertRawImage()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_InsertRawImage" data-uid="Oqtane.Modules.Controls.RichTextEditor.InsertRawImage">
+  InsertRawImage()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task InsertRawImage()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_InsertRichImage.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.InsertRichImage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L866">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_InsertRichImage_" data-uid="Oqtane.Modules.Controls.RichTextEditor.InsertRichImage*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_InsertRichImage" data-uid="Oqtane.Modules.Controls.RichTextEditor.InsertRichImage">InsertRichImage()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_InsertRichImage" data-uid="Oqtane.Modules.Controls.RichTextEditor.InsertRichImage">
+  InsertRichImage()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task InsertRichImage()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.OnAfterRenderAsync(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L792">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_" data-uid="Oqtane.Modules.Controls.RichTextEditor.OnAfterRenderAsync*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_System_Boolean_" data-uid="Oqtane.Modules.Controls.RichTextEditor.OnAfterRenderAsync(System.Boolean)">OnAfterRenderAsync(bool)</h4>
-  <div class="markdown level1 summary"><p>Method invoked after each time the component has been rendered. Note that the component does
-not automatically re-render after the completion of any returned <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>, because
-that would cause an infinite render loop.</p>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_System_Boolean_" data-uid="Oqtane.Modules.Controls.RichTextEditor.OnAfterRenderAsync(System.Boolean)">
+  OnAfterRenderAsync(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method invoked after each time the component has been rendered interactively and the UI has finished
+updating (for example, after elements have been added to the browser DOM). Any <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.elementreference">ElementReference</a>
+fields will be populated by the time this runs.</p>
+<p>This method is not invoked during prerendering or server-side rendering, because those processes
+are not attached to any live browser DOM and are already complete before the DOM is updated.</p>
+<p>Note that the component does not automatically re-render after the completion of any returned <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>,
+because that would cause an infinite render loop.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override Task OnAfterRenderAsync(bool firstRender)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">firstRender</span></td>
-        <td><p>Set to <code>true</code> if this is the first time <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrender">OnAfterRender(bool)</a> has been invoked
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>firstRender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Set to <code>true</code> if this is the first time <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrender">OnAfterRender(bool)</a> has been invoked
 on this component instance; otherwise <code>false</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> representing any asynchronous operation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_OnAfterRenderAsync_System_Boolean_">ModuleBase.OnAfterRenderAsync(bool)</a></div>
-  <h5 id="Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_System_Boolean__remarks">Remarks</h5>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> representing any asynchronous operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_System_Boolean__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrender">OnAfterRender(bool)</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrenderasync">OnAfterRenderAsync(bool)</a> lifecycle methods
 are useful for performing interop, or interacting with values received from <code>@ref</code>.
 Use the <code class="paramref">firstRender</code> parameter to ensure that initialization work is only performed
 once.</p>
 </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_OnParametersSet.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.OnParametersSet%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L785">View Source</a>
-  </span>
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_OnParametersSet_" data-uid="Oqtane.Modules.Controls.RichTextEditor.OnParametersSet*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_OnParametersSet" data-uid="Oqtane.Modules.Controls.RichTextEditor.OnParametersSet">OnParametersSet()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_OnParametersSet" data-uid="Oqtane.Modules.Controls.RichTextEditor.OnParametersSet">
+  OnParametersSet()
+  
+  </h3>
+
   <div class="markdown level1 summary"><p>Method invoked when the component has received parameters from its parent in
 the render tree, and the incoming values have been assigned to properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void OnParametersSet()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onparametersset">ComponentBase.OnParametersSet()</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_RefreshRawHtml.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.RefreshRawHtml%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L835">View Source</a>
-  </span>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_RefreshRawHtml_" data-uid="Oqtane.Modules.Controls.RichTextEditor.RefreshRawHtml*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_RefreshRawHtml" data-uid="Oqtane.Modules.Controls.RichTextEditor.RefreshRawHtml">RefreshRawHtml()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_RefreshRawHtml" data-uid="Oqtane.Modules.Controls.RichTextEditor.RefreshRawHtml">
+  RefreshRawHtml()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task RefreshRawHtml()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor_RefreshRichText.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor.RefreshRichText%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L829">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditor_RefreshRichText_" data-uid="Oqtane.Modules.Controls.RichTextEditor.RefreshRichText*"></a>
-  <h4 id="Oqtane_Modules_Controls_RichTextEditor_RefreshRichText" data-uid="Oqtane.Modules.Controls.RichTextEditor.RefreshRichText">RefreshRichText()</h4>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditor_RefreshRichText" data-uid="Oqtane.Modules.Controls.RichTextEditor.RefreshRichText">
+  RefreshRichText()
+  
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RefreshRichText()</code></pre>
   </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Oqtane.Modules.IModuleControl.html">IModuleControl</a>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/2sic-forks/oqtane.docs/new/master/apiSpec/new?filename=Oqtane_Modules_Controls_RichTextEditor.md&amp;value=---%0Auid%3A%20Oqtane.Modules.Controls.RichTextEditor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/2sic-forks/oqtane.docs/blob/master/Oqtane.Docs/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Modules_Controls_RichTextEditor_razor.g.cs/#L177" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
         </div>
+
+
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

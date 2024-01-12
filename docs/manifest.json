@@ -1,6 +1,5 @@
 {
-  "homepages": [],
-  "source_base_path": "A:/oqtane/oqtane.docs/Oqtane.Docs",
+  "source_base_path": "C:/Projects/Oqtane/oqtane.docs/Oqtane.Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -252,6 +251,19 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "admin/admin-dashboard/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "admin/admin-dashboard/toc.html"
+        },
+        ".json": {
+          "relative_path": "admin/admin-dashboard/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/admin-dashboard/user-management.md",
       "output": {
@@ -347,6 +359,19 @@
       "output": {
         ".html": {
           "relative_path": "admin/control-panel/page-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "admin/control-panel/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "admin/control-panel/toc.html"
+        },
+        ".json": {
+          "relative_path": "admin/control-panel/toc.json"
         }
       },
       "version": ""
@@ -512,6 +537,19 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "admin/host-administration/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "admin/host-administration/toc.html"
+        },
+        ".json": {
+          "relative_path": "admin/host-administration/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/index.md",
       "output": {
@@ -612,6 +650,19 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "admin/modules/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "admin/modules/toc.html"
+        },
+        ".json": {
+          "relative_path": "admin/modules/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "admin/modules/working-with-modules.md",
       "output": {
@@ -683,10 +734,26 @@
     },
     {
       "type": "Toc",
+      "source_relative_path": "admin/site-administration/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "admin/site-administration/toc.html"
+        },
+        ".json": {
+          "relative_path": "admin/site-administration/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
       "source_relative_path": "admin/toc.yml",
       "output": {
         ".html": {
           "relative_path": "admin/toc.html"
+        },
+        ".json": {
+          "relative_path": "admin/toc.json"
         }
       },
       "version": ""
@@ -727,6 +794,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/concepts/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/concepts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/concepts/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/concepts/toc.json"
         }
       },
       "version": ""
@@ -852,6 +932,19 @@
       "version": ""
     },
     {
+      "type": "Toc",
+      "source_relative_path": "articles/documentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documentation/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/documentation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/index.md",
       "output": {
@@ -877,6 +970,9 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
       "version": ""
@@ -1343,156 +1439,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.MySQL.MySQLDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.MySQL.MySQLDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.MySQL.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.MySQL.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.PostgreSQL.OqtaneHistoryRepository.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.PostgreSQL.PostgreSQLDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.PostgreSQL.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.PostgreSQL.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.SqlServer.OqtaneHistoryRepository.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.SqlServer.SqlServerDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.SqlServer.SqlServerDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.SqlServer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.SqlServer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.Sqlite.OqtaneHistoryRepository.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.Sqlite.SqliteDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.Sqlite.SqliteDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Database.Sqlite.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Database.Sqlite.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Databases.DatabaseBase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Databases.DatabaseBase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Databases.Interfaces.IDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Databases.Interfaces.IDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Databases.Interfaces.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Databases.Interfaces.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Databases.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Databases.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.yml",
       "output": {
         ".html": {
@@ -1577,6 +1523,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Extensions.ApplicationBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Extensions.ClaimsPrincipalExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Extensions.ClaimsPrincipalExtensions.html"
         }
       },
       "version": ""
@@ -1677,6 +1633,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Head.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.IconResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.IconResources.html"
         }
       },
       "version": ""
@@ -1883,10 +1849,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.IServerStateManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.IServerStateManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Infrastructure.ISiteMigration.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Infrastructure.ISiteMigration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.ISiteNamedOptions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.ISiteNamedOptions-1.html"
         }
       },
       "version": ""
@@ -2033,6 +2019,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.SiteNamedOptions-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.SiteNamedOptions-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Infrastructure.SiteOptions-1.yml",
       "output": {
         ".html": {
@@ -2123,86 +2119,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Controls.LocalDBConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Controls.LocalDBConfig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Controls.MySQLConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Controls.MySQLConfig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Controls.PostgreSQLConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Controls.PostgreSQLConfig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Controls.SqlServerConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Controls.SqlServerConfig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Controls.SqliteConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Controls.SqliteConfig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Controls.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Controls.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.Installer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.Installer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Installer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Installer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Interfaces.IDatabaseConfigControl.yml",
       "output": {
         ".html": {
@@ -2233,70 +2149,30 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui.App.yml",
+      "source_relative_path": "obj/api/Oqtane.Managers.IUserManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Oqtane.Maui.App.html"
+          "relative_path": "api/Oqtane.Managers.IUserManager.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui.Head.yml",
+      "source_relative_path": "obj/api/Oqtane.Managers.UserManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Oqtane.Maui.Head.html"
+          "relative_path": "api/Oqtane.Managers.UserManager.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui.Main.yml",
+      "source_relative_path": "obj/api/Oqtane.Managers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Oqtane.Maui.Main.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui.MainPage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Maui.MainPage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui.MauiProgram.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Maui.MauiProgram.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui._Imports.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Maui._Imports.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Maui.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Maui.html"
+          "relative_path": "api/Oqtane.Managers.html"
         }
       },
       "version": ""
@@ -2543,6 +2419,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.PermissionString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.PermissionString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Models.Profile.yml",
       "output": {
         ".html": {
@@ -2557,6 +2443,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Resource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.Result.html"
         }
       },
       "version": ""
@@ -2743,826 +2639,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Dashboard.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Dashboard.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Dashboard.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Dashboard.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Error.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Error.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Error.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Error.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Files.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Files.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Files.Details.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Files.Details.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Files.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Files.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Files.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Files.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Files.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Files.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Jobs.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Jobs.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Jobs.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Jobs.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Jobs.Log.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Jobs.Log.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Jobs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Jobs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Languages.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Languages.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Languages.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Languages.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Languages.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Languages.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Login.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Login.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Login.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Login.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Logs.Detail.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Logs.Detail.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Logs.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Logs.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Logs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Logs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleCreator.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleCreator.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleCreator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleCreator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleDefinitions.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleDefinitions.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleDefinitions.Create.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleDefinitions.Create.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleDefinitions.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleDefinitions.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleDefinitions.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleDefinitions.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.ModuleDefinitions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.ModuleDefinitions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Modules.Export.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Modules.Export.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Modules.Import.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Modules.Import.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Modules.Settings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Modules.Settings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Modules.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Modules.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Pages.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Pages.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Pages.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Pages.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Pages.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Pages.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Pages.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Pages.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Profiles.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Profiles.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Profiles.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Profiles.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Profiles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Profiles.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.RecycleBin.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.RecycleBin.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.RecycleBin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.RecycleBin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Register.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Register.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Register.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Register.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Reset.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Reset.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Reset.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Reset.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Roles.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Roles.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Roles.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Roles.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Roles.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Roles.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Roles.Users.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Roles.Users.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Roles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Roles.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Site.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Site.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Site.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Site.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Sites.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Sites.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Sites.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Sites.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Sites.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Sites.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Sql.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Sql.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Sql.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Sql.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.SystemInfo.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.SystemInfo.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.SystemInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.SystemInfo.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Themes.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Themes.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Themes.Create.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Themes.Create.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Themes.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Themes.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Themes.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Themes.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Themes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Themes.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Upgrade.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Upgrade.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Upgrade.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Upgrade.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UrlMappings.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UrlMappings.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UrlMappings.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UrlMappings.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UrlMappings.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UrlMappings.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UrlMappings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UrlMappings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UserProfile.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UserProfile.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UserProfile.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UserProfile.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UserProfile.View.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UserProfile.View.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.UserProfile.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.UserProfile.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Users.Add.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Users.Add.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Users.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Users.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Users.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Users.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Users.Roles.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Users.Roles.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Users.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Users.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Visitors.Detail.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Visitors.Detail.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Visitors.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Visitors.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.Admin.Visitors.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.Admin.Visitors.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Modules.Controls.ActionDialog.yml",
       "output": {
         ".html": {
@@ -3607,6 +2683,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Modules.Controls.FileManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Modules.Controls.InputList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.InputList.html"
         }
       },
       "version": ""
@@ -3727,46 +2813,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Modules.Controls.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.HtmlText.Edit.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.HtmlText.Edit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.HtmlText.Index.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.HtmlText.Index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.HtmlText.Settings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.HtmlText.Settings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Modules.HtmlText.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Modules.HtmlText.html"
         }
       },
       "version": ""
@@ -4017,26 +3063,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.DBContextDependencies.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Repository.Databases.Interfaces.IMultiDatabase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Repository.Databases.Interfaces.IMultiDatabase.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Repository.Databases.Interfaces.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Repository.Databases.Interfaces.html"
         }
       },
       "version": ""
@@ -5403,36 +4429,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.BlazorTheme.Container.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.BlazorTheme.Container.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.BlazorTheme.Default.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.BlazorTheme.Default.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.BlazorTheme.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.BlazorTheme.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Themes.ContainerBase.yml",
       "output": {
         ".html": {
@@ -5693,50 +4689,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.OqtaneTheme.Container.yml",
+      "source_relative_path": "obj/api/Oqtane.Themes.ThemeBase.Logger.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Oqtane.Themes.OqtaneTheme.Container.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.OqtaneTheme.ContainerSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.OqtaneTheme.ContainerSettings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.OqtaneTheme.Default.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.OqtaneTheme.Default.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.OqtaneTheme.ThemeSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.OqtaneTheme.ThemeSettings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Themes.OqtaneTheme.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Themes.OqtaneTheme.html"
+          "relative_path": "api/Oqtane.Themes.ThemeBase.Logger.html"
         }
       },
       "version": ""
@@ -5833,6 +4789,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.UI.Refresh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.UI.Refresh.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.UI.Runtime.yml",
       "output": {
         ".html": {
@@ -5873,16 +4839,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane._Imports.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane._Imports.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.yml",
       "output": {
         ".html": {
@@ -5897,6 +4853,9 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -5917,12 +4876,14 @@
       "output": {
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"

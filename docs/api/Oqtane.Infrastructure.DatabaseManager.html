@@ -1,507 +1,445 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
   <head>
-    <!-- Google Tag Manager - disabled temporarily, until we have the GTM code -->
-    <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TODO-TODO-TODO');</script>-->
-    <!-- End Google Tag Manager -->
-    <!-- azing recipe embed resizer -->
-    <script src="https://cdn.azing.org/e/1/embed.js"></script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DatabaseManager
+      <title>Class DatabaseManager
  | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DatabaseManager
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DatabaseManager
  | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
-    <meta name="generator" content="docfx ">
-  
-    <link rel="shortcut icon" href="../layout/images/favicon.png">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-  
-  <meta property="docfx:rel" content="../">
-  <meta property="docfx:newtab" content="true">
+      
+      <link rel="icon" href="../layout/images/favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
-
-                <ul class="nav level1 navbar-nav">
-                      <li>
-                          <a href="../articles/index.html" title="Articles">Articles</a>
-                      </li>
-                      <li>
-                          <a href="../admin/index.html" title="Administration">Administration</a>
-                      </li>
-                      <li class="active">
-                          <a href="../api/index.html" title="API Documentation">API Documentation</a>
-                      </li>
-                </ul>            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
+            </div>
           </div>
         </div>
-      </header>
-      <div class="container body-content">
+      </nav>
+    </header>
 
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
         </div>
       </div>
-      <div role="main" class="container body-content hide-when-search">
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
         </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Oqtane.Infrastructure.DatabaseManager">
+
+        <article data-uid="Oqtane.Infrastructure.DatabaseManager">
 
 
 
-  <h1 id="Oqtane_Infrastructure_DatabaseManager" data-uid="Oqtane.Infrastructure.DatabaseManager" class="text-break">Class DatabaseManager
-</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">DatabaseManager</span></div>
+  <h1 id="Oqtane_Infrastructure_DatabaseManager" data-uid="Oqtane.Infrastructure.DatabaseManager" class="text-break">
+    Class DatabaseManager
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Infrastructure.html">Infrastructure</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Oqtane.Server.dll</dd></dl>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Oqtane.Infrastructure.IDatabaseManager.html">IDatabaseManager</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Infrastructure.html">Infrastructure</a></h6>
-  <h6><strong>Assembly</strong>: Oqtane.Server.dll</h6>
-  <h5 id="Oqtane_Infrastructure_DatabaseManager_syntax">Syntax</h5>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class DatabaseManager : IDatabaseManager</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager__ctor_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_Logging_ILogger_Oqtane_Infrastructure_DatabaseManager__.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.%23ctor(Oqtane.Infrastructure.IConfigManager%2CMicrosoft.Extensions.DependencyInjection.IServiceScopeFactory%2CMicrosoft.AspNetCore.Hosting.IWebHostEnvironment%2CMicrosoft.Extensions.Caching.Memory.IMemoryCache%2COqtane.Infrastructure.IConfigManager%2CMicrosoft.Extensions.Logging.ILogger%7BOqtane.Infrastructure.DatabaseManager%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L37">View Source</a>
-  </span>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">DatabaseManager</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Oqtane.Infrastructure.IDatabaseManager.html">IDatabaseManager</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager__ctor_" data-uid="Oqtane.Infrastructure.DatabaseManager.#ctor*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager__ctor_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_Logging_ILogger_Oqtane_Infrastructure_DatabaseManager__" data-uid="Oqtane.Infrastructure.DatabaseManager.#ctor(Oqtane.Infrastructure.IConfigManager,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Oqtane.Infrastructure.IConfigManager,Microsoft.Extensions.Logging.ILogger{Oqtane.Infrastructure.DatabaseManager})">DatabaseManager(IConfigManager, IServiceScopeFactory, IWebHostEnvironment, IMemoryCache, IConfigManager, ILogger&lt;DatabaseManager&gt;)</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager__ctor_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_IConfigManager_Microsoft_Extensions_Logging_ILogger_Oqtane_Infrastructure_DatabaseManager__" data-uid="Oqtane.Infrastructure.DatabaseManager.#ctor(Oqtane.Infrastructure.IConfigManager,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Caching.Memory.IMemoryCache,Oqtane.Infrastructure.IConfigManager,Microsoft.Extensions.Logging.ILogger{Oqtane.Infrastructure.DatabaseManager})">
+  DatabaseManager(IConfigManager, IServiceScopeFactory, IWebHostEnvironment, IMemoryCache, IConfigManager, ILogger&lt;DatabaseManager&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DatabaseManager(IConfigManager config, IServiceScopeFactory serviceScopeFactory, IWebHostEnvironment environment, IMemoryCache cache, IConfigManager configManager, ILogger&lt;DatabaseManager&gt; filelogger)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></td>
-        <td><span class="parametername">config</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory">IServiceScopeFactory</a></td>
-        <td><span class="parametername">serviceScopeFactory</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.hosting.iwebhostenvironment">IWebHostEnvironment</a></td>
-        <td><span class="parametername">environment</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.imemorycache">IMemoryCache</a></td>
-        <td><span class="parametername">cache</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></td>
-        <td><span class="parametername">configManager</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="Oqtane.Infrastructure.DatabaseManager.html">DatabaseManager</a>&gt;</td>
-        <td><span class="parametername">filelogger</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_AddEFMigrationsHistory_Oqtane_Repository_ISqlRepository_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.AddEFMigrationsHistory(Oqtane.Repository.ISqlRepository%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L732">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>config</code> <a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></dt>
+    <dd></dd>
+    <dt><code>serviceScopeFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory">IServiceScopeFactory</a></dt>
+    <dd></dd>
+    <dt><code>environment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.hosting.iwebhostenvironment">IWebHostEnvironment</a></dt>
+    <dd></dd>
+    <dt><code>cache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.imemorycache">IMemoryCache</a></dt>
+    <dd></dd>
+    <dt><code>configManager</code> <a class="xref" href="Oqtane.Infrastructure.IConfigManager.html">IConfigManager</a></dt>
+    <dd></dd>
+    <dt><code>filelogger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="Oqtane.Infrastructure.DatabaseManager.html">DatabaseManager</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_AddEFMigrationsHistory_" data-uid="Oqtane.Infrastructure.DatabaseManager.AddEFMigrationsHistory*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_AddEFMigrationsHistory_Oqtane_Repository_ISqlRepository_System_String_System_String_System_String_System_Boolean_" data-uid="Oqtane.Infrastructure.DatabaseManager.AddEFMigrationsHistory(Oqtane.Repository.ISqlRepository,System.String,System.String,System.String,System.Boolean)">AddEFMigrationsHistory(ISqlRepository, string, string, string, bool)</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_AddEFMigrationsHistory_Oqtane_Repository_ISqlRepository_System_String_System_String_System_String_System_Boolean_" data-uid="Oqtane.Infrastructure.DatabaseManager.AddEFMigrationsHistory(Oqtane.Repository.ISqlRepository,System.String,System.String,System.String,System.Boolean)">
+  AddEFMigrationsHistory(ISqlRepository, string, string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L682"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AddEFMigrationsHistory(ISqlRepository sql, string connectionString, string databaseType, string version, bool isMaster)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Repository.ISqlRepository.html">ISqlRepository</a></td>
-        <td><span class="parametername">sql</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">connectionString</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">databaseType</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">version</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">isMaster</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_Install.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.Install%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L85">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sql</code> <a class="xref" href="Oqtane.Repository.ISqlRepository.html">ISqlRepository</a></dt>
+    <dd></dd>
+    <dt><code>connectionString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>databaseType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>version</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>isMaster</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_Install_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_Install" data-uid="Oqtane.Infrastructure.DatabaseManager.Install">Install()</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_Install" data-uid="Oqtane.Infrastructure.DatabaseManager.Install">
+  Install()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Installation Install()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_Install_Oqtane_Shared_InstallConfig_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.Install(Oqtane.Shared.InstallConfig)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L90">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_Install_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_Install_Oqtane_Shared_InstallConfig_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install(Oqtane.Shared.InstallConfig)">Install(InstallConfig)</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_Install_Oqtane_Shared_InstallConfig_" data-uid="Oqtane.Infrastructure.DatabaseManager.Install(Oqtane.Shared.InstallConfig)">
+  Install(InstallConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Installation Install(InstallConfig install)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Shared.InstallConfig.html">InstallConfig</a></td>
-        <td><span class="parametername">install</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_IsInstalled.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.IsInstalled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L47">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>install</code> <a class="xref" href="Oqtane.Shared.InstallConfig.html">InstallConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_IsInstalled_" data-uid="Oqtane.Infrastructure.DatabaseManager.IsInstalled*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_IsInstalled" data-uid="Oqtane.Infrastructure.DatabaseManager.IsInstalled">IsInstalled()</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_IsInstalled" data-uid="Oqtane.Infrastructure.DatabaseManager.IsInstalled">
+  IsInstalled()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Installation IsInstalled()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_MigrateConnectionString_Oqtane_Repository_InstallationContext_Oqtane_Models_Tenant_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.MigrateConnectionString(Oqtane.Repository.InstallationContext%2COqtane.Models.Tenant)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L746">View Source</a>
-  </span>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.Installation.html">Installation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_MigrateConnectionString_" data-uid="Oqtane.Infrastructure.DatabaseManager.MigrateConnectionString*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_MigrateConnectionString_Oqtane_Repository_InstallationContext_Oqtane_Models_Tenant_" data-uid="Oqtane.Infrastructure.DatabaseManager.MigrateConnectionString(Oqtane.Repository.InstallationContext,Oqtane.Models.Tenant)">MigrateConnectionString(InstallationContext, Tenant)</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_MigrateConnectionString_Oqtane_Repository_InstallationContext_Oqtane_Models_Tenant_" data-uid="Oqtane.Infrastructure.DatabaseManager.MigrateConnectionString(Oqtane.Repository.InstallationContext,Oqtane.Models.Tenant)">
+  MigrateConnectionString(InstallationContext, Tenant)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L696"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string MigrateConnectionString(InstallationContext db, Tenant tenant)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Oqtane.Repository.InstallationContext.html">InstallationContext</a></td>
-        <td><span class="parametername">db</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></td>
-        <td><span class="parametername">tenant</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L718">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>db</code> <a class="xref" href="Oqtane.Repository.InstallationContext.html">InstallationContext</a></dt>
+    <dd></dd>
+    <dt><code>tenant</code> <a class="xref" href="Oqtane.Models.Tenant.html">Tenant</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_System_String_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString(System.String)">UpdateConnectionString(string)</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_UpdateConnectionString_System_String_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateConnectionString(System.String)">
+  UpdateConnectionString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L668"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void UpdateConnectionString(string connectionString)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">connectionString</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_System_String_.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L727">View Source</a>
-  </span>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>connectionString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType*"></a>
-  <h4 id="Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_System_String_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType(System.String)">UpdateDatabaseType(string)</h4>
+
+  <h3 id="Oqtane_Infrastructure_DatabaseManager_UpdateDatabaseType_System_String_" data-uid="Oqtane.Infrastructure.DatabaseManager.UpdateDatabaseType(System.String)">
+  UpdateDatabaseType(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L677"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void UpdateDatabaseType(string databaseType)</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">databaseType</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Oqtane.Infrastructure.IDatabaseManager.html">IDatabaseManager</a>
-  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>databaseType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
-          </div>
 
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/new/dev/apiSpec/new?filename=Oqtane_Infrastructure_DatabaseManager.md&amp;value=---%0Auid%3A%20Oqtane.Infrastructure.DatabaseManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/oqtane/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L28" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
+        <div class="contribution d-print-none">
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/DatabaseManager.cs/#L28" class="edit-link">Edit this page</a>
         </div>
+
+
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
