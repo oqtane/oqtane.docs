@@ -8,22 +8,36 @@ It's explained in detail on https://docs.oqtane.org/articles/documentation/
 
 To set everything up, do the following:
 
-In some folder (like `c:\projects\oqtane`) pull this repo and also the oqtane.framework. You should then have something like
+1. Clone this repository and the oqtane.framework repository in the same parent folder (e.g., `c:\projects\oqtane`), creating a structure like:
 
-* some-root\oqtane.docs
-* some-root\oqtane.framework
+    ```
+    some-root\
+    ├── oqtane.docs
+    ├── oqtane.framework
+    ```
 
-## Run with Visual Studio
+2. Run with Visual Studio:
 
-Open the `Oqtane Docs Builder.sln` solution in this folder and just rebuild everything. 
+   - Open the `Oqtane Docs Builder.sln` solution located in the `oqtane.docs` folder.
+   - Rebuild the entire solution.
 
-The final docs are generated into the `/docs` folder.
+3. The final documentation is generated into the `/docs` folder.
 
-## Test locally
+## Test Locally
 
-As some of the stuff needs JS which only runs well from HTTP, you should setup IIS to publish the `/docs` folder on any domain you want - like `docs.oqtane.me`. 
+To test locally, considering some functionalities requiring JavaScript:
 
+1. Set up IIS to publish the `/docs` folder on any domain of your choice, such as `docs.oqtane.me`.
 
 ## Publish
 
-When you push back this repo github will automatically publish the updated documentation. 
+Upon pushing changes back to this repository, GitHub will automatically publish the updated documentation.
+
+## Current Homepage
+
+Visit the [current homepage](https://docs.oqtane.org) for a quick overview.
+
+For further discussions, feedback, or questions, head over to [GitHub Discussions](https://github.com/oqtane/oqtane.docs/discussions).
+
+Happy documenting!
+
