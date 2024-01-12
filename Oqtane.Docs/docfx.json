@@ -22,7 +22,7 @@
       "dest": "obj/api",
       "filter": "filterConfig.yml",
       "properties": {
-        "TargetFramework": "net7.0"
+        "TargetFramework": "net8.0"
       }
     }
   ],
@@ -71,7 +71,7 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md",
+          "apidoc/**.md"
         ],
         "exclude": [
           "obj/**",
