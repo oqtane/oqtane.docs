@@ -15,7 +15,7 @@ This is how it works
     1. a bunch of markdown files which will be merged with XML-docs in the source of Oqtane
     1. various YAML files (`.yml`) which describe the navigation structure
     1. Solution (`.sln`) and project (`.csproj`) files to build the documentation
-    1. docfx configurations (`docxf.json` and `filterConfig.yml`)
+    1. docfx configurations (`docfx.json` and `filterConfig.yml`)
     1. various json configs so it also works in VS-Code
 1. It requires the `Oqtane.Framework` project to be in a sibling folder (see setup details below)
 1. When you build this project, it will

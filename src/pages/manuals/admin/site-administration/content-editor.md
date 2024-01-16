@@ -7,12 +7,13 @@ The content editor is what allows you to edit the modules on the page in a varie
 ![content-arrow](./assets/content-arrow.png)
 
 The options for the module's menu are:
+
 * Manage Settings: Brings up the module's settings and permissions which allow you to change the:
-    * Title: The title displayed above the module.
-    * Container: Specify if you want the title to be displayed for the module.
-    * Display on All Pages: Choose whether you want this module to be on every page on the site.
-    * Page: Chnage the page that the module is displayed on.
-    * Permissions: Specify either what [roles](~/admin/admin-dashboard/role-management.md) or individual users should be able to view or edit the page.
+  * Title: The title displayed above the module.
+  * Container: Specify if you want the title to be displayed for the module.
+  * Display on All Pages: Choose whether you want this module to be on every page on the site.
+  * Page: Change the page that the module is displayed on.
+  * Permissions: Specify either what [roles](../admin-dashboard/role-management.md) or individual users should be able to view or edit the page.
 * Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.
 * Delete Module: Deletes the module from the page.
 * Import Content: Enter a file's address to import it into the module, such as a image address to include it.
