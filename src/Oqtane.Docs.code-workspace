@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+  ],
+  "settings": {
+    "cSpell.words": [
+      "Oqtane"
+    ],
+    "liveServer.settings.mount": [
+      [
+        "/",
+        "../docs"
+      ]
+    ],
+  },
+}

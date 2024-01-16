@@ -1,0 +1,124 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../../oqtane.framework",
+          "files": [
+            "**/*.csproj"
+          ],
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**",
+            "Oqtane.Test",
+            "Oqtane.Database.*",
+            "Oqtane.Maui/**",
+            "Comment: This next one excludes template projects which cause errors ",
+            "**/Templates/External/**"
+          ]
+        }
+      ],
+      "dest": "obj/api",
+      "filter": "filterConfig.yml",
+      "properties": {
+        "TargetFramework": "net8.0"
+      },
+      "namespaceLayout": "nested", // make APIs use a tree
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml"
+        ],
+        "src": "obj",
+      },
+      {
+        // Note: new docfx convention places things in /pages
+        "src": "pages",
+        "files": [
+          "**.md",
+        ],
+        "exclude": [
+          // exclude _*.md files, as they are used for includes
+          "**/_*.md",
+          // exclude readme.md, which are meant for docs-admins
+          "**/readme.md",
+        ]
+      },
+      {
+        "files": [
+          "api/**.md",
+          "admin/**.md",
+          "articles/**.md",
+          "**toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        // Note: new docfx convention places things in /pages
+        "cwd": "pages",
+        "files": [
+          "**.jpg",
+          "**.png",
+          "**.jpeg",
+          "**.svg",
+          "**.gif"
+        ],
+      },
+      {
+        "files": [
+          "layout/**",
+          "admin/**.png",
+          "admin/**.jpg",
+          "admin/**.svg",
+          "articles/**.png",
+          "articles/**.jpg",
+          "articles/**.svg",
+          "apidoc/**.png",
+          "apidoc/**.jpg",
+          "apidoc/**.svg"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**",
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "../docs",
+    "template": [
+      "default",
+      "modern",
+      // "statictoc",
+      // "layout/oqtane"
+    ],
+    "globalMetadata": {
+      "_appTitle": "Oqtane Docs - APIs and more for the Modular Blazor Application Framework",
+      "_appLogoPath": "layout/images/logo-white-50.png",
+      "_appFaviconPath": "layout/images/favicon.png",
+      "_enableNewTab": true,
+      "_enableSearch": true,
+      "_disableContribution": false, // turn off the edit-this
+
+    }
+  }
+}

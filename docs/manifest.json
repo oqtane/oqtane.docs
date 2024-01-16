@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Projects/Oqtane/oqtane.docs/Oqtane.Docs",
+  "source_base_path": "C:/Projects/Oqtane/oqtane.docs/src",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -11,968 +11,11 @@
       }
     },
     {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/add-page.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/add-page.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/add-profile.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/add-profile.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/admin-dash.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/admin-dash.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/edit-profile.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/edit-profile.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/file-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/file-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/page-appearance.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/page-appearance.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/page-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/page-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/permissions.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/permissions.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/profile-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/profile-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/pwa-settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/pwa-settings.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/recycle-bin.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/recycle-bin.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/site-settings-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/site-settings-1.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/site-settings-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/site-settings-2.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/smtp-settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/smtp-settings.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/user-identity.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/user-identity.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/user-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/user-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/admin-dashboard/assets/user-profile.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/admin-dashboard/assets/user-profile.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/file-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/file-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/page-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/page-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/profile-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/profile-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/recycle-bin.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/recycle-bin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/role-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/role-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/site-settings.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/site-settings.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "admin/admin-dashboard/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/toc.html"
-        },
-        ".json": {
-          "relative_path": "admin/admin-dashboard/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/admin-dashboard/user-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/admin-dashboard/user-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/control-panel/assets/add-page.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/control-panel/assets/add-page.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/control-panel/assets/control-panel-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/control-panel/assets/control-panel-modules.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/control-panel/assets/control-panel.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/control-panel/assets/control-panel.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/control-panel/assets/page-appearance.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/control-panel/assets/page-appearance.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/control-panel/assets/page-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/control-panel/assets/page-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/control-panel/assets/permissions.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/control-panel/assets/permissions.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/control-panel/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/control-panel/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/control-panel/modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/control-panel/modules.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/control-panel/page-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/control-panel/page-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "admin/control-panel/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "admin/control-panel/toc.html"
-        },
-        ".json": {
-          "relative_path": "admin/control-panel/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/edit-jobs.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/edit-jobs.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/event-function.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/event-function.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/event-level.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/event-level.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/module-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/module-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/site-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/site-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/sql-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/sql-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/host-administration/assets/theme-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/host-administration/assets/theme-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/event-log.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/event-log.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/module-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/module-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/scheduled-jobs.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/scheduled-jobs.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/site-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/site-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/sql-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/sql-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/system-info.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/system-info.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/system-update.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/system-update.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/host-administration/theme-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/theme-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "admin/host-administration/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "admin/host-administration/toc.html"
-        },
-        ".json": {
-          "relative_path": "admin/host-administration/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/installation/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/installation/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/modules/adding-modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/modules/adding-modules.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/modules/assets/adding-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/modules/assets/adding-modules.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/modules/assets/content-pane.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/modules/assets/content-pane.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/modules/assets/installing-modules-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/modules/assets/installing-modules-2.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/modules/assets/installing-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/modules/assets/installing-modules.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/modules/assets/moving-menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/modules/assets/moving-menu.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/modules/assets/pencil.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/modules/assets/pencil.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/modules/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/modules/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "admin/modules/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "admin/modules/toc.html"
-        },
-        ".json": {
-          "relative_path": "admin/modules/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/modules/working-with-modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/modules/working-with-modules.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/site-administration/assets/admin-dash.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/site-administration/assets/admin-dash.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/site-administration/assets/content-arrow.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/site-administration/assets/content-arrow.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/site-administration/assets/control-panel.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/site-administration/assets/control-panel.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "admin/site-administration/assets/pencil-edit.png",
-      "output": {
-        "resource": {
-          "relative_path": "admin/site-administration/assets/pencil-edit.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/site-administration/content-editor.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/site-administration/content-editor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "admin/site-administration/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "admin/site-administration/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "admin/site-administration/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "admin/site-administration/toc.html"
-        },
-        ".json": {
-          "relative_path": "admin/site-administration/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "admin/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "admin/toc.html"
-        },
-        ".json": {
-          "relative_path": "admin/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/assets/logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/assets/logo.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/concepts/dll-handling.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/concepts/dll-handling.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/concepts/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/concepts/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/concepts/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/concepts/toc.html"
-        },
-        ".json": {
-          "relative_path": "articles/concepts/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/api-menu.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/api-menu.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documentation/assets/folder-structure-for-building.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documentation/assets/folder-structure-for-building.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documentation/assets/vs-code-build-succeeded.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documentation/assets/vs-code-build-succeeded.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documentation/assets/vs-code-build.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documentation/assets/vs-code-build.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documentation/assets/vs-code-run-task.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documentation/assets/vs-code-run-task.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/build.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/build.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/code.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/code.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/folders.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/folders.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/how-it-works.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/how-it-works.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/markdown.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/markdown.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documentation/run-in-iis.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/run-in-iis.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/documentation/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documentation/toc.html"
-        },
-        ".json": {
-          "relative_path": "articles/documentation/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html"
-        },
-        ".json": {
-          "relative_path": "articles/toc.json"
         }
       },
       "version": ""
@@ -2413,16 +1456,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Permission.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.Models.PermissionString.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.Models.PermissionString.html"
         }
       },
       "version": ""
@@ -4789,16 +3822,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Oqtane.UI.Refresh.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Oqtane.UI.Refresh.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.UI.Runtime.yml",
       "output": {
         ".html": {
@@ -4856,6 +3879,953 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/assets/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/assets/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/concepts/dll-handling.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/concepts/dll-handling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/concepts/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/concepts/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/concepts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/concepts/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/concepts/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/api-menu.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/api-menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/folder-structure-for-building.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/folder-structure-for-building.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-code-build-succeeded.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-code-build-succeeded.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-code-build.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-code-build.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-code-run-task.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-code-run-task.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/build.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/build.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/code.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/folders.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/folders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/how-it-works.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/how-it-works.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/markdown.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/markdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/run-in-iis.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/run-in-iis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/add-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/add-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/add-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/add-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/admin-dash.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/admin-dash.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/edit-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/edit-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/file-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/file-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/page-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/page-appearance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/page-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/profile-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/profile-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/pwa-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/pwa-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/recycle-bin.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/recycle-bin.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/smtp-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/smtp-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/user-identity.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/user-identity.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/user-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/user-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/user-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/assets/user-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/file-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/file-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/page-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/page-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/profile-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/profile-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/recycle-bin.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/recycle-bin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/role-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/role-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/site-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/site-settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/admin-dashboard/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-dashboard/user-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-dashboard/user-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/control-panel/assets/add-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/control-panel/assets/add-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/control-panel/assets/control-panel-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/control-panel/assets/control-panel-modules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/control-panel/assets/control-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/control-panel/assets/control-panel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/control-panel/assets/page-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/control-panel/assets/page-appearance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/control-panel/assets/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/control-panel/assets/page-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/control-panel/assets/permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/control-panel/assets/permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/control-panel/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/control-panel/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/control-panel/modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/control-panel/modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/control-panel/page-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/control-panel/page-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/control-panel/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/control-panel/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/control-panel/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/edit-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/edit-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/event-function.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/event-function.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/event-level.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/event-level.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/module-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/module-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/site-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/site-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/sql-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/sql-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-administration/assets/theme-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-administration/assets/theme-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/event-log.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/event-log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/module-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/module-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/scheduled-jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/scheduled-jobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/site-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/site-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/sql-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/sql-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/system-info.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/system-info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/system-update.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/system-update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-administration/theme-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-administration/theme-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/host-administration/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/host-administration/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/host-administration/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/adding-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/adding-modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/modules/assets/adding-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/modules/assets/adding-modules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/modules/assets/content-pane.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/modules/assets/content-pane.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/modules/assets/installing-modules-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/modules/assets/installing-modules-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/modules/assets/installing-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/modules/assets/installing-modules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/modules/assets/moving-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/modules/assets/moving-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/modules/assets/pencil.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/modules/assets/pencil.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/modules/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/modules/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/modules/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/working-with-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/working-with-modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/site-administration/assets/admin-dash.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/site-administration/assets/admin-dash.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/site-administration/assets/content-arrow.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/site-administration/assets/content-arrow.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/site-administration/assets/control-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/site-administration/assets/control-panel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/site-administration/assets/pencil-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/site-administration/assets/pencil-edit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/site-administration/content-editor.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/site-administration/content-editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/site-administration/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/site-administration/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/site-administration/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/site-administration/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/site-administration/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/toc.json"
         }
       },
       "version": ""

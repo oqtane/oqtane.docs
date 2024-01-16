@@ -1,6 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Guides.Index
+  name: Guides WIP
+  href: guides/index.html
 - uid: Oqtane
   name: Oqtane
   href: api/Oqtane.html
@@ -10844,38 +10847,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Permission.UserId
   nameWithType: Permission.UserId
-- uid: Oqtane.Models.PermissionString
-  name: PermissionString
-  href: api/Oqtane.Models.PermissionString.html
-  commentId: T:Oqtane.Models.PermissionString
-  fullName: Oqtane.Models.PermissionString
-  nameWithType: PermissionString
-- uid: Oqtane.Models.PermissionString.PermissionName
-  name: PermissionName
-  href: api/Oqtane.Models.PermissionString.html#Oqtane_Models_PermissionString_PermissionName
-  commentId: P:Oqtane.Models.PermissionString.PermissionName
-  fullName: Oqtane.Models.PermissionString.PermissionName
-  nameWithType: PermissionString.PermissionName
-- uid: Oqtane.Models.PermissionString.PermissionName*
-  name: PermissionName
-  href: api/Oqtane.Models.PermissionString.html#Oqtane_Models_PermissionString_PermissionName_
-  commentId: Overload:Oqtane.Models.PermissionString.PermissionName
-  isSpec: "True"
-  fullName: Oqtane.Models.PermissionString.PermissionName
-  nameWithType: PermissionString.PermissionName
-- uid: Oqtane.Models.PermissionString.Permissions
-  name: Permissions
-  href: api/Oqtane.Models.PermissionString.html#Oqtane_Models_PermissionString_Permissions
-  commentId: P:Oqtane.Models.PermissionString.Permissions
-  fullName: Oqtane.Models.PermissionString.Permissions
-  nameWithType: PermissionString.Permissions
-- uid: Oqtane.Models.PermissionString.Permissions*
-  name: Permissions
-  href: api/Oqtane.Models.PermissionString.html#Oqtane_Models_PermissionString_Permissions_
-  commentId: Overload:Oqtane.Models.PermissionString.Permissions
-  isSpec: "True"
-  fullName: Oqtane.Models.PermissionString.Permissions
-  nameWithType: PermissionString.Permissions
 - uid: Oqtane.Models.Profile
   name: Profile
   href: api/Oqtane.Models.Profile.html
@@ -34584,36 +34555,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.UI.PaneLayout.BuildRenderTree
   nameWithType: PaneLayout.BuildRenderTree
-- uid: Oqtane.UI.Refresh
-  name: Refresh
-  href: api/Oqtane.UI.Refresh.html
-  commentId: T:Oqtane.UI.Refresh
-  fullName: Oqtane.UI.Refresh
-  nameWithType: Refresh
-- uid: Oqtane.UI.Refresh.Application
-  name: Application
-  href: api/Oqtane.UI.Refresh.html#Oqtane_UI_Refresh_Application
-  commentId: F:Oqtane.UI.Refresh.Application
-  fullName: Oqtane.UI.Refresh.Application
-  nameWithType: Refresh.Application
-- uid: Oqtane.UI.Refresh.None
-  name: None
-  href: api/Oqtane.UI.Refresh.html#Oqtane_UI_Refresh_None
-  commentId: F:Oqtane.UI.Refresh.None
-  fullName: Oqtane.UI.Refresh.None
-  nameWithType: Refresh.None
-- uid: Oqtane.UI.Refresh.Page
-  name: Page
-  href: api/Oqtane.UI.Refresh.html#Oqtane_UI_Refresh_Page
-  commentId: F:Oqtane.UI.Refresh.Page
-  fullName: Oqtane.UI.Refresh.Page
-  nameWithType: Refresh.Page
-- uid: Oqtane.UI.Refresh.Site
-  name: Site
-  href: api/Oqtane.UI.Refresh.html#Oqtane_UI_Refresh_Site
-  commentId: F:Oqtane.UI.Refresh.Site
-  fullName: Oqtane.UI.Refresh.Site
-  nameWithType: Refresh.Site
 - uid: Oqtane.UI.Runtime
   name: Runtime
   href: api/Oqtane.UI.Runtime.html
