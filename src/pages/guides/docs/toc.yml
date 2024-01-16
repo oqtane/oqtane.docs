@@ -1,4 +1,10 @@
 
+- name: Get Started
+  href: build.md
+  items:
+  - name: Run Docs on Local IIS
+    href: run-in-iis.md
+
 - name: How DocFx Works
   href: how-it-works.md
   items:
@@ -10,7 +16,3 @@
   href: markdown.md
 - name: Documenting Code
   href: code.md
-- name: Build and Deploy Docs
-  href: build.md
-- name: Run Docs on Local IIS
-  href: run-in-iis.md

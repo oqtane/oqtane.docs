@@ -87,25 +87,90 @@
 <h1 id="build-and-deploy-the-documentation">Build and Deploy the Documentation</h1>
 
 <h2 id="setup">Setup</h2>
-<p>You must have a folder containing both the <code>oqtane.docs</code> and the <code>oqtane.framework</code> subfolders - like this:</p>
+<p>To set everything up, clone the thi repository and the oqtane.framework repository
+in the same parent folder (e.g., <code>c:\projects\oqtane</code>), creating a structure like:</p>
+<ul>
+<li><code>c:\projects\oqtane</code> (example)
+<ul>
+<li><code>oqtane.docs</code> cloned from <a href="https://github.com/oqtane/oqtane.docs">oqtane.docs</a></li>
+<li><code>oqtane.framework</code> cloned from <a href="https://github.com/oqtane/oqtane.framework">oqtane.framework</a></li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-text">some-root\
+├── oqtane.docs
+├── oqtane.framework
+</code></pre>
+<p>That will look like this:</p>
 <p><img src="../../pages/guides/docs/assets/folder-structure-for-building.jpg" alt="Folder structure for Building"></p>
-<h2 id="build-with-vs-code-recommended">Build with VS Code (recommended)</h2>
+<h2 id="build-and-test-locally">Build and Test Locally</h2>
+<p>Depending on your preferred toolchain, you can use</p>
 <ol>
-<li>Open the subfolder <code>Oqtane.Docs</code> in VS Code (so not the top-level folder, but in the example above <code>Oqtane/octane.docs/Oqtane.Docs/</code>).</li>
-<li>Hit Ctrl + Shift + P and select &quot;Run Task&quot;...<br>
-<img src="../../pages/guides/docs/assets/vs-code-run-task.jpg" alt="VS Code Run Task"></li>
-<li>...and then &quot;Build&quot;
-<img src="../../pages/guides/docs/assets/vs-code-build.jpg" alt="VS Code Build"></li>
-<li>In the output you should then see a bunch of stuff - ending with <code>Build Succeeded</code><br>
-<img src="../../pages/guides/docs/assets/vs-code-build-succeeded.jpg" alt="VS Code Build Successfull"></li>
+<li><a href="#build-and-test-locally-using-vs-code">VS Code</a>  (recommended🌟)</li>
+<li><a href="#build-and-test-locally-using-visual-studio-2022">Visual Studio 2022</a></li>
 </ol>
-<h2 id="build-with-visual-studio-2019">Build with Visual Studio 2019</h2>
+<h3 id="build-and-test-locally-using-vs-code">Build and Test Locally using VS Code</h3>
 <ol>
-<li>Open the docs solution in Visual Studio</li>
-<li>Hit Ctrl+Shift+B to run build</li>
+<li><p>Run with VS Code:</p>
+<ul>
+<li><p>Open the <code>Oqtane.Docs.code-workspace</code> workspace located in the <code>/src</code> folder.</p>
+</li>
+<li><p>Rebuild the entire solution</p>
+<ul>
+<li><p>Either using <code>Ctrl+Shift+B</code>.</p>
+</li>
+<li><p>Or by hitting <code>Ctrl + Shift + P</code> and selecting &quot;Run Task&quot;<br>
+<img src="../../pages/guides/docs/assets/vs-code-run-task.jpg" alt="VS Code Run Task"><br>
+...and then &quot;Build&quot;.<br>
+<img src="../../pages/guides/docs/assets/vs-code-build.jpg" alt="VS Code Build"></p>
+</li>
+</ul>
+</li>
+<li><p>In the output you should then see a bunch of stuff - ending with <code>Build Succeeded</code><br>
+<img src="../../pages/guides/docs/assets/vs-code-build-succeeded.jpg" alt="VS Code Build Successfull"></p>
+</li>
+<li><p>It is generated into the root <code>/docs</code> folder.</p>
+</li>
+</ul>
+</li>
+<li><p>Test Locally - three options:</p>
+<ul>
+<li><p><em>Recommended 🌟:</em> Use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>
+extension to serve the <code>/docs</code> folder on <a href="http://localhost:5500%60">http://localhost:5500`</a> using <code>Alt + L, Alt + O</code>.</p>
+</li>
+<li><p><em>Or:</em> Use <a href="https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express">IIS Express Extension</a>
+to serve the <code>/docs</code> folder on <a href="http://localhost:27629%60">http://localhost:27629`</a> using <code>Ctrl+F5</code>.</p>
+</li>
+<li><p><em>Or:</em> <a href="run-in-iis.html">Set up IIS</a> to publish the <code>/docs</code> folder on a domain
+such as <code>docs.oqtane.me</code>.</p>
+</li>
+</ul>
+</li>
 </ol>
-<h2 id="deploy">Deploy</h2>
-<p>Push back the docs to the git-repo, Github will automatically deploy it for you.</p>
+<h3 id="build-and-test-locally-using-visual-studio-2022">Build and Test Locally using Visual Studio 2022</h3>
+<ol>
+<li><p>Run with Visual Studio:</p>
+<ul>
+<li><p>Open the <code>Oqtane.Docs.sln</code> solution located in the <code>/src</code> folder.</p>
+</li>
+<li><p>Rebuild the entire solution. It is generated into the root <code>/docs</code> folder.</p>
+</li>
+</ul>
+</li>
+<li><p>Test Locally</p>
+<ul>
+<li><em>Or:</em> <a href="run-in-iis.html">Set up IIS</a> to publish the <code>/docs</code> folder on a domain
+such as <code>docs.oqtane.me</code>.</li>
+</ul>
+</li>
+</ol>
+<h2 id="publish--deploy-to-github">Publish / Deploy to GitHub</h2>
+<p>Push the result back to the repository.
+GitHub will automatically publish the updated documentation to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a>.</p>
+<h2 id="questions">Questions</h2>
+<p>For further discussions, feedback, or questions, head over
+to <a href="https://github.com/oqtane/oqtane.docs/discussions">GitHub Discussions</a>
+or <a href="https://github.com/oqtane/oqtane.docs/issues">GitHub Issues</a>.</p>
 
 </article>
 

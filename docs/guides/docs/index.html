@@ -91,86 +91,40 @@
 <div class="TIP">
 <h5>Tip</h5>
 <p>The <code>Oqtane.Docs</code> project generates the documentation for Oqtane using <a href="https://dotnet.github.io/docfx/">docfx</a>.
-So for the most part, you'll want to read the docfx documentation to understand how it works.</p>
+So for the most part, you'll want to read the docfx documentation
+to understand how it works.</p>
 </div>
 <p>This is how it works</p>
 <ol>
 <li>This project has a <code>src</code> folder containing...
 <ol>
-<li>a bunch of markdown files for standalone docs pages</li>
-<li>a bunch of markdown files which will be merged with XML-docs in the source of Oqtane</li>
+<li>markdown files in <code>/pages</code> for standalone docs pages</li>
+<li>markdown files in <code>/apidoc</code> for merging with XML-docs in the source of Oqtane</li>
 <li>various YAML files (<code>.yml</code>) which describe the navigation structure</li>
 <li>Solution (<code>.sln</code>) and project (<code>.csproj</code>) files to build the documentation</li>
 <li>docfx configurations (<code>docfx.json</code> and <code>filterConfig.yml</code>)</li>
 <li>various json configs so it also works in VS-Code</li>
 </ol>
 </li>
-<li>It requires the <code>Oqtane.Framework</code> project to be in a sibling folder (see setup details below)</li>
+<li>It requires the <code>Oqtane.Framework</code> project to be in a sibling folder (see <a href="build.html">setup</a>)</li>
 <li>When you build this project, it will
 <ol>
 <li>Compile Oqtane</li>
 <li>Extract the XML documentation from Oqtane and generate YAML and markdown files</li>
 <li>Merge the generated files with the ones in this project</li>
-<li>Generate a <code>../docs</code> folder with the documentation which are static HTML files that can be hosted anywhere</li>
+<li>Generate a <code>../docs</code> folder with static HTML files that can be hosted anywhere</li>
 </ol>
 </li>
-<li>When pushed back to Github, Github will automatically build and deploy the documentation to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a></li>
+<li>When pushed back to Github, Github will automatically build and deploy to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a></li>
 </ol>
 <div class="NOTE">
 <h5>Note</h5>
-<p>When testing the generated docs locally, you'll need to host the <code>../docs</code> folder on a web server.
+<p>To test the generated docs locally, you'll need to host the <code>../docs</code> folder on a web server.
 This is because there are some absolute paths used in some JavaScripts for the TOC (table of contents) and search functionality.
 The setup is explained below.</p>
 </div>
 <h2 id="setup">Setup</h2>
-<p>To set everything up, clone this repository and the oqtane.framework repository in the same parent folder (e.g., <code>c:\projects\oqtane</code>), creating a structure like:</p>
-<pre><code class="lang-text">some-root\
-├── oqtane.docs
-├── oqtane.framework
-</code></pre>
-<h2 id="build-and-test-locally-using-visual-studio">Build and Test Locally using Visual Studio</h2>
-<ol>
-<li><p>Run with Visual Studio:</p>
-<ul>
-<li><p>Open the <code>Oqtane.Docs.sln</code> solution located in the <code>/src</code> folder.</p>
-</li>
-<li><p>Rebuild the entire solution. It is generated into the root <code>/docs</code> folder.</p>
-</li>
-</ul>
-</li>
-<li><p>Test Locally</p>
-<ul>
-<li>Set up IIS to publish the <code>/docs</code> folder on any domain of your choice, such as <code>docs.oqtane.me</code>.</li>
-</ul>
-</li>
-</ol>
-<h2 id="build-and-test-locally-using-vs-code">Build and Test Locally using VS Code</h2>
-<ol>
-<li><p>Run with VS Code:</p>
-<ul>
-<li><p>Open the <code>Oqtane.Docs.code-workspace</code> workspace located in the <code>/src</code> folder.</p>
-</li>
-<li><p>Rebuild the entire solution (<code>Ctrl+Shift+B</code>). It is generated into the root <code>/docs</code> folder.</p>
-</li>
-</ul>
-</li>
-<li><p>Test Locally - three options:</p>
-<ul>
-<li><p><em>Either:</em> Set up IIS to publish the <code>/docs</code> folder on any domain of your choice, such as <code>docs.oqtane.me</code>.</p>
-</li>
-<li><p><em>Or:</em> Use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> extension to serve the <code>/docs</code> folder on <code>http://localhost:5500</code> using <code>Alt + L, Alt + O</code>.</p>
-</li>
-<li><p><em>Or:</em> Use <a href="https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express">IIS Express Extension</a> to serve the <code>/docs</code> folder on <code>http://localhost:27629</code> using <code>Ctrl+F5</code>.</p>
-</li>
-</ul>
-</li>
-</ol>
-<h2 id="publish">Publish</h2>
-<p>Upon pushing changes back to this repository, GitHub will automatically publish the updated documentation to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a>.</p>
-<h2 id="questions">Questions</h2>
-<p>For further discussions, feedback, or questions, head over
-to <a href="https://github.com/oqtane/oqtane.docs/discussions">GitHub Discussions</a>
-or <a href="https://github.com/oqtane/oqtane.docs/issues">GitHub Issues</a>.</p>
+<p>👉 continue with <a href="build.html">Setup, Build, Test and Deploy</a></p>
 
 </article>
 
