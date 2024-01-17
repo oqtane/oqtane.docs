@@ -2,11 +2,11 @@
 
 This project generates the documentation for Oqtane using [docfx](https://dotnet.github.io/docfx/).
 
-It's explained in detail on <https://docs.oqtane.org/guide/documentation/>.
+It's explained in detail on <https://docs.oqtane.org/guides/documentation/>.
 
 ## Setup, Build & Publish
 
-To set everything up, follow the instructions on <https://docs.oqtane.org/guide/documentation/>.
+To set everything up, follow the instructions on <https://docs.oqtane.org/guides/documentation/>.
 
 ## Current Homepage
 
