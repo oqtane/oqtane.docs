@@ -12,11 +12,15 @@
       href: folders.md
     - name: About the API TOC
       href: api-menu.md
-- name: Docs Project
+- name: The Docs Project
   href: project.md
-- name: Markdown Tips
-  href: markdown.md
-- name: Document Code
-  href: code.md
-- name: Oqtane Docs Conventions
-  href: conventions.md
+- name: Contribute
+  items:
+  - name: Markdown Tips
+    href: markdown.md
+  - name: Document Code
+    href: code.md
+  - name: Oqtane Docs Conventions
+    href: conventions.md
+  - name: Tips
+    href: ./tips/index.md

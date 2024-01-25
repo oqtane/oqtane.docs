@@ -4067,6 +4067,66 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/tips/assets/live-server-go-live-button.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/tips/assets/live-server-go-live-button.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/tips/assets/live-server-run-from-menu.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/tips/assets/live-server-run-from-menu.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/tips/assets/vs-code-install-recommended-prompt.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/tips/assets/vs-code-install-recommended-prompt.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/tips/assets/vs-code-install-recommended-review.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/tips/assets/vs-code-install-recommended-review.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/tips/assets/vs-code-preview.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/tips/assets/vs-code-preview.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/tips/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/tips/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "pages/guides/docs/toc.yml",
       "output": {

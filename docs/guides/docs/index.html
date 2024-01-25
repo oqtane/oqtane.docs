@@ -94,9 +94,8 @@
 So for the most part, you'll want to read the docfx documentation
 to understand how it works.</p>
 </div>
-<p>This is how it works</p>
-<ol>
-<li>This project has a <code>src</code> folder containing...
+<h3 id="the-source-code">The Source Code</h3>
+<p>This project has a <code>src</code> folder containing...</p>
 <ol>
 <li>markdown files in <code>/pages</code> for standalone docs pages</li>
 <li>markdown files in <code>/apidoc</code> for merging with XML-docs in the source of Oqtane</li>
@@ -105,24 +104,35 @@ to understand how it works.</p>
 <li>docfx configurations (<code>docfx.json</code> and <code>filterConfig.yml</code>)</li>
 <li>various json configs so it also works in VS-Code</li>
 </ol>
-</li>
-<li>It requires the <code>Oqtane.Framework</code> project to be in a sibling folder (see <a href="build.html">setup</a>)</li>
-<li>When you build this project, it will
+<p>It also requires the <code>Oqtane.Framework</code> project to be in a sibling folder (see <a href="build.html">setup</a>)</p>
+<h3 id="the-build-process">The Build Process</h3>
+<pre><code class="lang-mermaid">flowchart TD
+    CS[Oqtane C# Source\n&lt;code&gt;../../oqtane.framework&lt;/code&gt;] --&gt;|⚙️Compiler| XD
+    XD[&quot;Xml Docs\n(temp)&quot;] --&gt; MD[&quot;Merged API Docs\n(temp)&quot;]
+    DM[Docs Mixins\n~/apidocs] --&gt; MD
+    CONTENT[Content/Articles\n~/pages] --&gt; Docs[Docs HTML\n../docs/]
+    ASS[Assets/Images\n**/assets] --&gt; Docs
+    MD --&gt; Docs
+    TOC[&quot;TOC Files\n**/toc.yml&quot;] --&gt; TOCG
+    Docs --&gt;|generate| TOCG[&quot;Various TOCs\n(Tables of Contents)&quot;]
+</code></pre>
+<p>When you build this project, it will</p>
 <ol>
 <li>Compile Oqtane</li>
 <li>Extract the XML documentation from Oqtane and generate YAML and markdown files</li>
 <li>Merge the generated files with the ones in this project</li>
 <li>Generate a <code>../docs</code> folder with static HTML files that can be hosted anywhere</li>
 </ol>
-</li>
-<li>When pushed back to Github, Github will automatically build and deploy to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a></li>
-</ol>
 <div class="NOTE">
 <h5>Note</h5>
-<p>To test the generated docs locally, you'll need to host the <code>../docs</code> folder on a web server.
-This is because there are some absolute paths used in some JavaScripts for the TOC (table of contents) and search functionality.
+<p>To test the generated docs locally,
+you'll need to host the <code>../docs</code> folder on a web server.
+This is because there are some absolute paths used in some JavaScripts
+for the TOC (table of contents) and search functionality.
 The setup is explained below.</p>
 </div>
+<h3 id="deployment">Deployment</h3>
+<p>When pushed back to Github, Github will automatically build and deploy to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a></p>
 <h2 id="setup">Setup</h2>
 <p>👉 continue with <a href="build.html">Setup, Build, Test and Deploy</a></p>
 

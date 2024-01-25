@@ -12,7 +12,9 @@ Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to wri
 
 ## Images
 
-Images can be added it two ways - using markdown, or the HTML counterpart. We recommend to always place images in an `assets` folder below the markdown file you're using the image on. 
+Images can be added it two ways - using markdown, or the HTML counterpart.
+We recommend to always place images in an `assets` folder below
+the markdown file you're using the image on.
 
 Here's an example using markdown:
 
