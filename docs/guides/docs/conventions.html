@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Document Code | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Documentation Conventions | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Document Code | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Documentation Conventions | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/code.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/conventions.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,53 +84,43 @@
         </div>
 
         <article data-uid="">
-<h1 id="document-code">Document Code</h1>
+<h1 id="oqtane-documentation-conventions">Oqtane Documentation Conventions</h1>
 
-<h2 id="basic-documentation">Basic Documentation</h2>
-<p>Add normal documentation with <code>/// &lt;summary&gt;</code> tags to your code, like this:</p>
-<pre><code class="lang-cs">/// &lt;summary&gt;
-/// Constructor which does xyz
-/// &lt;/summary&gt;
-/// &lt;param name=&quot;id&quot;&gt;the id&lt;/param&gt;
-public MyMethod(int id) { }
-</code></pre>
-<p>All this is automatically picked up and converted to documentation.</p>
-<h2 id="adding-extensive-documentation">Adding Extensive Documentation</h2>
-<p>Let's assume you have a class <code>Oqtane.Example.MyClass</code> and you would like to
-add images and a lot of markdown to explain what it does. This is your code:</p>
-<pre><code class="lang-cs">namespace Oqtane.Example;
-public class MyClass
-{
-}
-</code></pre>
-<p>Now go to the documentation project <code>Oqtane.Docs</code> in the solution and open
-the <code>apidoc\Example</code> folder (create it, if it doesn't exist yet').
-In this, create a <code>MyClass.md</code> file which contains this</p>
-<pre><code class="lang-md">---
-uid: Oqtane.Example.MyClass
----
-
-Here is some **great** additional [Information](https://oqtane.org).
-
-1. Do this
-1. Then that
-
-</code></pre>
-<p>Because you have the <code>uid: ...</code> header in your file,
-docfx will now combine these documentations in the output.
-You can also add images, html, or whatever you need.</p>
-<p>You can also find examples of this merge in the
-<code>apidoc\Documentation\PublicApi.md</code> file.</p>
-<h2 id="documenting-namespaces">Documenting Namespaces</h2>
-<p>It's usually very helpful to document what a namespace does.
-Using the same mechanism with the <code>uid:</code> you can
-create markdown files which will show extensive instructions.</p>
-<p>Check out the <code>apidoc\Documentation\index.md</code> file for an example.</p>
+<p>The following conventions should help all docs contributors work together.</p>
+<h2 id="images--files--assets">Images / Files / Assets</h2>
+<p>When using files, especially images, please follow these conventions.</p>
+<h3 id="1-remember-case-sensitive-when-hosted">1. Remember: Case Sensitive when Hosted</h3>
+<p>Be aware that the final docs will be hosted on github, which is case-sensitive.</p>
+<ol>
+<li>So <code>MyImage.png</code> and <code>myimage.png</code> are different files</li>
+<li>This is important when you're linking to files</li>
+<li>always use lower-case file names</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you accidentally get this wrong (eg. <code>MyImage.png</code>), and linking <code>myimage.png</code>
+it will work on your IIS/Windows, but not when finally hosted on Github.</p>
+</div>
+<h3 id="2-put-files-close-to-where-they-are-used">2. Put Files Close to Where They Are Used</h3>
+<p>Put all files in the <code>assets</code> folder below the page where they are used.</p>
+<ol>
+<li>This makes it easier to find the files when you're editing the page.</li>
+<li>It also makes it easier to move the page to a different location.</li>
+<li>This also helps to &quot;see&quot; when files are not used any more</li>
+<li>Only use files in the &quot;own&quot; asset folder</li>
+<li>don't use files from far-away asset folders</li>
+</ol>
+<h3 id="3-use-relative-paths">3. Use Relative Paths</h3>
+<ol>
+<li><code>./assets/myimage.png</code> or <code>assets/myimage.png</code></li>
+<li>rarely <code>../assets/myimage.png</code> (only if you're in a sub-folder),
+but the file is still part of the same topic and should be reused</li>
+</ol>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/code.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/conventions.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

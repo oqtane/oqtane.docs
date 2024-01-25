@@ -3998,6 +3998,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/conventions.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/conventions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/guides/docs/folders.md",
       "output": {
         ".html": {
@@ -4032,6 +4042,16 @@
       "output": {
         ".html": {
           "relative_path": "guides/docs/markdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/docs/project.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/docs/project.html"
         }
       },
       "version": ""

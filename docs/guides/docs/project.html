@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Document Code | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Documentation Project | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Document Code | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Documentation Project | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/code.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/project.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,53 +84,67 @@
         </div>
 
         <article data-uid="">
-<h1 id="document-code">Document Code</h1>
+<h1 id="oqtane-documentation-project">Oqtane Documentation Project</h1>
 
-<h2 id="basic-documentation">Basic Documentation</h2>
-<p>Add normal documentation with <code>/// &lt;summary&gt;</code> tags to your code, like this:</p>
-<pre><code class="lang-cs">/// &lt;summary&gt;
-/// Constructor which does xyz
-/// &lt;/summary&gt;
-/// &lt;param name=&quot;id&quot;&gt;the id&lt;/param&gt;
-public MyMethod(int id) { }
-</code></pre>
-<p>All this is automatically picked up and converted to documentation.</p>
-<h2 id="adding-extensive-documentation">Adding Extensive Documentation</h2>
-<p>Let's assume you have a class <code>Oqtane.Example.MyClass</code> and you would like to
-add images and a lot of markdown to explain what it does. This is your code:</p>
-<pre><code class="lang-cs">namespace Oqtane.Example;
-public class MyClass
-{
-}
-</code></pre>
-<p>Now go to the documentation project <code>Oqtane.Docs</code> in the solution and open
-the <code>apidoc\Example</code> folder (create it, if it doesn't exist yet').
-In this, create a <code>MyClass.md</code> file which contains this</p>
-<pre><code class="lang-md">---
-uid: Oqtane.Example.MyClass
----
-
-Here is some **great** additional [Information](https://oqtane.org).
-
-1. Do this
-1. Then that
-
-</code></pre>
-<p>Because you have the <code>uid: ...</code> header in your file,
-docfx will now combine these documentations in the output.
-You can also add images, html, or whatever you need.</p>
-<p>You can also find examples of this merge in the
-<code>apidoc\Documentation\PublicApi.md</code> file.</p>
-<h2 id="documenting-namespaces">Documenting Namespaces</h2>
-<p>It's usually very helpful to document what a namespace does.
-Using the same mechanism with the <code>uid:</code> you can
-create markdown files which will show extensive instructions.</p>
-<p>Check out the <code>apidoc\Documentation\index.md</code> file for an example.</p>
+<p>There are kind of internal notes for the project team.
+It's based on various discussions in the team and the community.</p>
+<h2 id="docs-team">Docs Team</h2>
+<p>The docs team is responsible for the documentation of Oqtane.
+It currently consists of:</p>
+<ul>
+<li><a href="https://github.com/iJungleboy">@iJungleboy</a> (Team Lead)</li>
+<li><a href="https://github.com/thabaum">@thebaum</a></li>
+<li><a href="https://github.com/GregStevenson">@GregStevenson</a></li>
+</ul>
+<h2 id="top-level-view">Top Level View</h2>
+<p>Things to consider for the docs project</p>
+<ul>
+<li><a href="#content">Content</a>: breadth, depth and quality of docs</li>
+<li><a href="#maintenance">Maintenance / Timeliness</a>: keep docs up to date with features &amp; changes</li>
+<li><a href="#use">Use</a>: get people to find use the docs</li>
+<li><a href="#contribute">Contribute</a>: get people to contribute</li>
+</ul>
+<h2 id="content">Content</h2>
+<p>This covers a lot of areas:</p>
+<ol>
+<li>Content Breadth, Depth and Quality</li>
+<li>Code Documentation - volume and quality<br>
+<em>These are the XML comments in the source code which are maintained in the main repo</em></li>
+<li>Backgrounds / Concepts<br>
+<em>These are the &quot;What is Oqtane&quot; and &quot;What is a Module&quot; type of docs</em>
+which both help understand something, and often serve as background for other docs.
+Without these backgrounds, pages will tend to repeat the same information since there's no primary link.</li>
+<li>User Help (what does this dialog / button do)</li>
+<li>Guides / How-To</li>
+<li>Link other resources</li>
+</ol>
+<h2 id="maintenance">Maintenance</h2>
+<p>Things we should consider for maintenance</p>
+<ol>
+<li>new features</li>
+<li>changes in Oqtane which result in
+<ol>
+<li>different UIs</li>
+<li>different ways to do things as a user</li>
+<li>different ways to develop something</li>
+</ol>
+</li>
+</ol>
+<h2 id="use">Use</h2>
+<p>Bring people to docs
+eg. move &quot;Getting Started&quot; from Github to docs and link from Github/Oqtane</p>
+<h2 id="contribute">Contribute</h2>
+<p>Questions</p>
+<ol>
+<li>what motivates people to contribute to docs?</li>
+<li>how can we make it easy to contribute?</li>
+<li>can we provide benefits or visibility to contributors?</li>
+</ol>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/code.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/project.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
