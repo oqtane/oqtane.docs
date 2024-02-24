@@ -1,4 +1,4 @@
-﻿
+
 # Build and Deploy the Documentation
 
 ## Setup
@@ -64,14 +64,34 @@ Depending on your preferred toolchain, you can use
 1. Run with Visual Studio:
 
    * Open the `Oqtane.Docs.sln` solution located in the `/src` folder.
+   ![VS 2022 Docs Solution](./assets/vs-2022-docs-solution.png)
 
    * Rebuild the entire solution. It is generated into the root `/docs` folder.
+   ![VS 2022 Build Successful](./assets/vs-2022-build-successful.png)
 
 2. Test Locally
 
-    * _Or:_ [Set up IIS](./run-in-iis.md) to publish the `/docs` folder on a domain
+   * _Or:_ [Set up IIS](./run-in-iis.md) to publish the `/docs` folder on a domain
       such as `docs.oqtane.me`.
 
+> [!NOTE] 
+> If you experience build errors like shown below:
+> ![VS 2022 Build Errors](./assets/vs-2022-build-errors.png)
+>
+> ![VS 2022 Build Error Code 1](./assets/vs-2022-build-error-code-1.png)
+>
+> You may also need to run the following commands in terminal:
+> * `Unblock-File -Path .\.config\dotnet-tools.json`
+> * `dotnet tool restore`
+>
+> Results should be shown as follows after running these commands:
+>
+> ![VS 2022 Build Errors Resolved](./assets/vs-2022-build-errors-resolved.png)
+
+> [!TIP]
+> Be sure to use the `Rebuild Solution` option to see your updates in the locally hosted IIS website.
+>
+> ![VS 2022 Rebuild Solution](./assets/vs-2022-rebuild-solution.png)
 
 ## Publish / Deploy to GitHub
 
