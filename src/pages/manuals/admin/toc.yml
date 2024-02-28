@@ -2,6 +2,17 @@
 - name: Manuals Home
   href: index.md
 
+- name: Installation
+  href: installation/index.md
+  items:
+    - name: Windows, IIS, SQL
+      href: installation/windows-iis-sql.md
+    # - name: Visual Studio, IIS Express, SQL Express
+    - name: Linux, Apache, MySQL
+
+  # href: installation/toc.yml
+  # topicHref: installation/
+
 # This should be added later on, but just a placeholder for now
 - name: Content Administration
 
@@ -9,10 +20,6 @@
   href: site-administration/toc.yml
   topicHref: site-administration/index.md
 
-- name: Installation
-  href: installation/index.md
-  # href: installation/toc.yml
-  # topicHref: installation/
 
 - name: Modules
   href: modules/toc.yml

@@ -4783,6 +4783,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/windows-iis-sql.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/windows-iis-sql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/modules/adding-modules.md",
       "output": {
         ".html": {
