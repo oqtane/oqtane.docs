@@ -3948,6 +3948,66 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-2022-build-error-code-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-2022-build-error-code-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-2022-build-errors-resolved.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-2022-build-errors-resolved.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-2022-build-errors.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-2022-build-errors.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-2022-build-successful.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-2022-build-successful.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-2022-docs-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-2022-docs-solution.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/docs/assets/vs-2022-rebuild-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/docs/assets/vs-2022-rebuild-solution.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/guides/docs/assets/vs-code-build-succeeded.jpg",
       "output": {
         "resource": {

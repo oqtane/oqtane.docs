@@ -138,10 +138,10 @@ in the same parent folder (e.g., <code>c:\projects\oqtane</code>), creating a st
 <li><p><em>Recommended 🌟:</em> Use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>
 extension to serve the <code>/docs</code> folder on <a href="http://localhost:5500%60">http://localhost:5500`</a> using <code>Alt + L, Alt + O</code>.</p>
 </li>
-<li><p><em>Or:</em> Use <a href="https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express">IIS Express Extension</a>
+<li><p><em>Alternatively:</em> Use <a href="https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express">IIS Express Extension</a>
 to serve the <code>/docs</code> folder on <a href="http://localhost:27629%60">http://localhost:27629`</a> using <code>Ctrl+F5</code>.</p>
 </li>
-<li><p><em>Or:</em> <a href="run-in-iis.html">Set up IIS</a> to publish the <code>/docs</code> folder on a domain
+<li><p><em>Alternatively:</em> <a href="run-in-iis.html">Set up IIS</a> to publish the <code>/docs</code> folder on a domain
 such as <code>docs.oqtane.me</code>.</p>
 </li>
 </ul>
@@ -151,19 +151,39 @@ such as <code>docs.oqtane.me</code>.</p>
 <ol>
 <li><p>Run with Visual Studio:</p>
 <ul>
-<li><p>Open the <code>Oqtane.Docs.sln</code> solution located in the <code>/src</code> folder.</p>
+<li><p>Open the <code>Oqtane.Docs.sln</code> solution located in the <code>/src</code> folder.
+<img src="../../pages/guides/docs/assets/vs-2022-docs-solution.png" alt="VS 2022 Docs Solution"></p>
 </li>
-<li><p>Rebuild the entire solution. It is generated into the root <code>/docs</code> folder.</p>
+<li><p>Rebuild the entire solution. It is generated into the root <code>/docs</code> folder.
+<img src="../../pages/guides/docs/assets/vs-2022-build-successful.png" alt="VS 2022 Build Successful"></p>
 </li>
 </ul>
 </li>
 <li><p>Test Locally</p>
 <ul>
-<li><em>Or:</em> <a href="run-in-iis.html">Set up IIS</a> to publish the <code>/docs</code> folder on a domain
+<li><em>Alternatively:</em> <a href="run-in-iis.html">Set up IIS</a> to publish the <code>/docs</code> folder on a domain
 such as <code>docs.oqtane.me</code>.</li>
 </ul>
 </li>
 </ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p><em>If you encoutner build errors like shown below:</em>
+<img src="../../pages/guides/docs/assets/vs-2022-build-errors.png" alt="VS 2022 Build Errors"></p>
+<p><img src="../../pages/guides/docs/assets/vs-2022-build-error-code-1.png" alt="VS 2022 Build Error Code 1"></p>
+<p><em>You may also need to execute the following commands in terminal:</em></p>
+<ul>
+<li><code>Unblock-File -Path .\.config\dotnet-tools.json</code></li>
+<li><code>dotnet tool restore</code></li>
+</ul>
+<p><em>After running these commands, the build errors should be resolved.</em></p>
+<p><img src="../../pages/guides/docs/assets/vs-2022-build-errors-resolved.png" alt="VS 2022 Build Errors Resolved"></p>
+</div>
+<div class="TIP">
+<h5>Tip</h5>
+<p><em>To see your updates in the locally hosted IIS website, make sure to use the <code>Rebuild Solution</code> option.</em></p>
+<p><img src="../../pages/guides/docs/assets/vs-2022-rebuild-solution.png" alt="VS 2022 Rebuild Solution"></p>
+</div>
 <h2 id="publish--deploy-to-github">Publish / Deploy to GitHub</h2>
 <p>Push the result back to the repository.
 GitHub will automatically publish the updated documentation to <a href="https://docs.oqtane.org">https://docs.oqtane.org</a>.</p>
