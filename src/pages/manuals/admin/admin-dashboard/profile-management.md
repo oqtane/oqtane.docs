@@ -8,7 +8,7 @@ The profile page has an add profile button at the top of its page which includes
 * Title: The title of the field displayed to the user.
 * Description: Enter a description for the profile that will be what shows up for the help icon for the field.
 * Category: The name for a grouping of fields such as the name or address headings that are by default included in the profile tab above their respective groupings of fields.
-* Order: Choose the spot where in the list of profile fields thatb this one will appear with 0 being the first position.
+* Order: Choose the spot where in the list of profile fields that this one will appear with 0 being the first position.
 * Lenth: The maximum length that can be input into this field, with a 0 for unlimited length.
 * Default Value: The value that will be put into this field if the user doesn't enter anything into it.
 * Options: Has the ability to create a list of items that can be selected and is enter by a list with commas in between the items (a,b,c).
