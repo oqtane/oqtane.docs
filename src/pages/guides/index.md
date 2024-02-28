@@ -9,7 +9,7 @@ uid: Guides.Index
 This will probably become a main entry point to guide users through more complex topics.
 
 > [!NOTE]
-> This is a quick thing to get poeple started.
+> This is a quick thing to get people started.
 > This contents may be moved elsewhere
 
 ## Current Guides
