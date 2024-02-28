@@ -3,7 +3,7 @@
 
 ## Setup
 
-To set everything up, clone the thi repository and the oqtane.framework repository
+To set everything up, clone the oqtane.docs and the oqtane.framework repositories
 in the same parent folder (e.g., `c:\projects\oqtane`), creating a structure like:
 
 * `c:\projects\oqtane` (example)
