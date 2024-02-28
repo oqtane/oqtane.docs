@@ -1,4 +1,4 @@
-﻿
+
 # Build and Deploy the Documentation
 
 ## Setup
@@ -51,10 +51,10 @@ Depending on your preferred toolchain, you can use
     * _Recommended 🌟:_ Use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
       extension to serve the `/docs` folder on <http://localhost:5500`> using `Alt + L, Alt + O`.
 
-    * _Or:_ Use [IIS Express Extension](https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express)
+    * _Alternatively:_ Use [IIS Express Extension](https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express)
       to serve the `/docs` folder on <http://localhost:27629`> using `Ctrl+F5`.
 
-    * _Or:_ [Set up IIS](./run-in-iis.md) to publish the `/docs` folder on a domain
+    * _Alternatively:_ [Set up IIS](./run-in-iis.md) to publish the `/docs` folder on a domain
       such as `docs.oqtane.me`.
 
 
@@ -64,14 +64,34 @@ Depending on your preferred toolchain, you can use
 1. Run with Visual Studio:
 
    * Open the `Oqtane.Docs.sln` solution located in the `/src` folder.
+   ![VS 2022 Docs Solution](./assets/vs-2022-docs-solution.png)
 
    * Rebuild the entire solution. It is generated into the root `/docs` folder.
+   ![VS 2022 Build Successful](./assets/vs-2022-build-successful.png)
 
 2. Test Locally
 
-    * _Or:_ [Set up IIS](./run-in-iis.md) to publish the `/docs` folder on a domain
+   * _Alternatively:_ [Set up IIS](./run-in-iis.md) to publish the `/docs` folder on a domain
       such as `docs.oqtane.me`.
 
+> [!NOTE] 
+> _If you encoutner build errors like shown below:_
+> ![VS 2022 Build Errors](./assets/vs-2022-build-errors.png)
+>
+> ![VS 2022 Build Error Code 1](./assets/vs-2022-build-error-code-1.png)
+>
+> _You may also need to execute the following commands in terminal:_
+> * `Unblock-File -Path .\.config\dotnet-tools.json`
+> * `dotnet tool restore`
+>
+> _After running these commands, the build errors should be resolved._
+>
+> ![VS 2022 Build Errors Resolved](./assets/vs-2022-build-errors-resolved.png)
+
+> [!TIP]
+> _To see your updates in the locally hosted IIS website, make sure to use the `Rebuild Solution` option._
+>
+> ![VS 2022 Rebuild Solution](./assets/vs-2022-rebuild-solution.png)
 
 ## Publish / Deploy to GitHub
 
