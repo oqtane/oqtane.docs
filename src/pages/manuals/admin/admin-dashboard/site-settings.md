@@ -1,6 +1,6 @@
 # Site Settings
 
-The Site Settings feature contains a large number of settings that you canuse to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages.The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.
+The Site Settings feature contains a large number of settings that you can use to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages. The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.
 
 ### Basic Settings
 Basic Settings mostly contains set-it-and-forget it options that should be managed once when you build your site.
