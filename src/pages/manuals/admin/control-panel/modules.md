@@ -8,7 +8,7 @@ options which are found in the admin dashboard's [module management feature](../
 On the side control panel's module management section, you have the option to:
 * Add A New Module: which will put a new module of your choosing onto the page which has the option of being a:
     * Admin Module: These are only available to people within the administrator role and there are many more default modules available to put onto your webpages.
-    * Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personilizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.
+    * Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personalizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.
     * Developer Module: This feature is for placing a module creator onto a page which will provide you with useful pre-built structure and methods for writing code for your own modules.
 
 * Add An Existing Module: Provides the ability to select modules that are already on other pages from your website.

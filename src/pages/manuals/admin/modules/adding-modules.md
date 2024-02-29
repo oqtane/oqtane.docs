@@ -3,7 +3,7 @@
 In order to add a module to a page, simply open the control panel with the gear icon in the top right of a page and in the [module management feature](../control-panel/modules.md) there is the ability to select a new module from the options of:
 
 * Admin Module: These are only available to people within the administrator role and there are many more default modules available to put onto your webpages.
-* Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personilizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.
+* Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personalizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.
 * Developer Module: This feature is for placing a module creator onto a page which will provide you with useful pre-built structure and methods for writing code for your own modules.
 
 There are also features after selecting the module that you would like which are the:
