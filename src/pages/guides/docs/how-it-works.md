@@ -37,7 +37,7 @@ If you need to troubleshoot this, best contact iJungleboy on Github.
 
 ### Problems with Old / Unexpected Results
 
-MSBuild will compile everyting into the `obj` folder of this docs-project. 
+MSBuild will compile everything into the `obj` folder of this docs-project. 
 This is used as a cache for the next builds. If you run into unexpected results, always clean out the `obj` folder first. 
 
 ### Problems with Github links

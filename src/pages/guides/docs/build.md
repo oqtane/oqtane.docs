@@ -3,7 +3,7 @@
 
 ## Setup
 
-To set everything up, clone the thi repository and the oqtane.framework repository
+To set everything up, clone the oqtane.docs and the oqtane.framework repositories
 in the same parent folder (e.g., `c:\projects\oqtane`), creating a structure like:
 
 * `c:\projects\oqtane` (example)
@@ -75,7 +75,7 @@ Depending on your preferred toolchain, you can use
       such as `docs.oqtane.me`.
 
 > [!NOTE] 
-> _If you encoutner build errors like shown below:_
+> _If you encounter build errors like shown below:_
 > ![VS 2022 Build Errors](./assets/vs-2022-build-errors.png)
 >
 > ![VS 2022 Build Error Code 1](./assets/vs-2022-build-error-code-1.png)
