@@ -11,4 +11,4 @@ This is how you can set it up:
 
 ## Warning about Caching
 
-The navigation / menus in docfx use JavaScript, so you'll sometimes see an old cached menu on your local system. Just activate F12 and disable cache to ensure that you're always viewing the latest build. 
+The navigation / menus in DocFX use JavaScript, so you'll sometimes see an old cached menu on your local system. Just activate F12 and disable cache to ensure that you're always viewing the latest build. 
