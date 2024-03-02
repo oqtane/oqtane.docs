@@ -2,7 +2,7 @@
 
 Oqtane provides the ability to have multiple sites at you disposal within the singular Oqtane application. The Site Management page provides an inventory of all the sites in a Oqtane instance and quick access to the Site Settings functionality for each. Deleting your sites is permanent\! So it should not be done unless you are certain you want to delete this site. The options to add and edit the set has a few options:
 
-![site-managemnt](./assets/site-management.png)
+![site-management](./assets/site-management.png)
 
 * Site Name: This field is what the site will be called.
 * Aliases: This is what the address of the site is that is being created and can create websites under the default top level website, by using a / forward slash with the a name you want under the top level website.
