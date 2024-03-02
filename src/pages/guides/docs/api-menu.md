@@ -2,7 +2,7 @@
 # How the API-Navigation (TOC) Works
 
 The API navigation can be quite tricky, because the default docfx behavior results in a very hard-to-use TOC-menu on the side. 
-Because of this, we use a special trick where a javascript in `layout\oqtane\toc.extension.js` optimizes the names based on some rules. 
+Because of this, we use a special trick where a JavaScript in `layout\oqtane\toc.extension.js` optimizes the names based on some rules. 
 
 Here's what it does
 
