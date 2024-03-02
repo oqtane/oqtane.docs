@@ -42,7 +42,7 @@ Depending on your preferred toolchain, you can use
           ![VS Code Build](./assets/vs-code-build.jpg)
 
     * In the output you should then see a bunch of stuff - ending with `Build Succeeded`  
-      ![VS Code Build Successfull](./assets/vs-code-build-succeeded.jpg)
+      ![VS Code Build Successful](./assets/vs-code-build-succeeded.jpg)
 
     * It is generated into the root `/docs` folder.
 
