@@ -11,7 +11,7 @@ Basic Settings mostly contains set-it-and-forget it options that should be manag
 * Favicon: Enter a favicon address or another icon address to have a default icon to appear beside each page in the navigation bar.
 * Default Theme: Choose a default theme tht will give a different color scheme and structure.
 * Default Layout: Choose how many columns a page has by default.
-![site-settingss1](./assets/site-settings-1.png)
+![site-settings-1](./assets/site-settings-1.png)
 * Default Container: Choose if you want titles to appear about each module by default.
 * Allow User Registration: Should users be able to create their own accounts or should only administrators be able to create accounts.
 * Is Deleted: Select whether you want to delete this site.
