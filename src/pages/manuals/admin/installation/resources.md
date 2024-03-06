@@ -11,6 +11,9 @@ Links to the information related to doucmentation installation manuals.
 - [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
 - [.NET Core Hosting Bundle](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
 - [WebSocket Support on IIS](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis): Instructions for enabling WebSockets on IIS.
+- [Publish an ASP.NET Core app to IIS](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis): This tutorial demonstrates how to host an ASP.NET Core app on an IIS server.
+- [ASP.NET Core security topics](https://learn.microsoft.com/en-us/aspnet/core/security): This article provides an overview of ASP.NET Core security features, including authentication, authorization, data protection, HTTPS enforcement, safe storage of app secrets, XSRF/CSRF prevention, CORS, and XSS attack prevention.
+
 
 ## Databases:
 
@@ -60,5 +63,10 @@ Links to the information related to doucmentation installation manuals.
   - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for the Apache HTTP Server, providing comprehensive guides, configuration references, and troubleshooting tips.
   - [Apache Foundation](https://www.apache.org/): The official website of the Apache Software Foundation, where you can find information about all Apache projects, including the HTTP Server.
   - [Ubuntu: Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache): Tutorial going through the steps of setting up an Apache server on Ubuntu.
-
+  - [Host ASP.NET Core on Linux with Apache](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache): This article explains how to set up Apache as a reverse proxy server on CentOS 7 to redirect HTTP traffic to an ASP.NET Core web app running on the Kestrel server.
+ 
+- **Nginx Server**
+  - [Host ASP.NET Core on Linux with Nginx](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx): Learn how to set up a production-ready ASP.NET Core environment for Ubuntu, Red Hat Enterprise (RHEL), and SUSE Linux Enterprise Server using Nginx as a reverse proxy server.
+  - [Nginx Official Website](https://nginx.org/en/): Visit the official website of Nginx to learn more about this open-source web server, commonly used as a reverse proxy or HTTP cache.
+  - [Install and configure Nginx on Ubuntu](https://ubuntu.com/tutorials/install-and-configure-nginx): This tutorial provides a comprehensive guide to installing and configuring Nginx on Ubuntu. It covers topics such as setting up a basic website, configuring virtual hosts, activating virtual hosts, and testing the results.
 
