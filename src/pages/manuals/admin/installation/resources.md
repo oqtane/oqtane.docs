@@ -1,4 +1,4 @@
-# Installation Resources
+# Resources
 
 Links to the information related to doucmentation installation manuals.
 
@@ -12,7 +12,7 @@ Links to the information related to doucmentation installation manuals.
 - [.NET Core Hosting Bundle](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
 - [WebSocket Support on IIS](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis): Instructions for enabling WebSockets on IIS.
 
-## Database Resources:
+## Databases:
 
 ### SQL Server:
 - [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
@@ -42,7 +42,7 @@ Links to the information related to doucmentation installation manuals.
 - [Oqtane GitHub Repository](https://github.com/oqtane/oqtane.framework): Contribute to the Oqtane project and report issues on GitHub.
 - [Oqtane Blog](https://www.oqtane.org/blog/): Stay updated with the latest news, tips, and tutorials.
 
-## For Ubuntu:
+## For Ubuntu OS (Linux):
 
 - **Downloads:** 
   - [Ubuntu Downloads](https://ubuntu.com/download): Download the latest version of Ubuntu.
@@ -50,3 +50,9 @@ Links to the information related to doucmentation installation manuals.
 - **Installation Guide:**
   - [Ubuntu Installation Guide](https://ubuntu.com/tutorials/install-ubuntu-desktop): Step-by-step guide for installing Ubuntu Desktop edition.
   - [Ubuntu Server Installation Guide](https://ubuntu.com/server/docs/installation): Installation guide for Ubuntu Server edition.
+    
+- **Nano Editor**
+  - [Online Manual](https://www.nano-editor.org/dist/latest/nano.html): This is the online manual for the Nano text editor, providing detailed documentation on its usage and features.
+  - [GNU Nano Official Website](https://www.nano-editor.org/): Visit the official website of GNU Nano to find additional resources, downloads, and community support.
+  - [GNU Nano Documentation](https://www.nano-editor.org/docs.php): Access the comprehensive documentation for GNU Nano, including guides, FAQs, and release notes.
+
