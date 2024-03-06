@@ -1,4 +1,4 @@
-# Install on Windows, IIS and LocalDB 
+# Install on Windows, IIS Express, LocalDB 
 
 ## Step 1: Install IIS
 
