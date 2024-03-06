@@ -2,7 +2,7 @@
 
 Links to the information related to doucmentation installation manuals.
 
-## IDE
+## IDE Tools:
 
 - [Visual Studio and VS Code Downloads](https://visualstudio.microsoft.com/downloads/): Download Visual Studio and VS Code IDEs for development.
 
