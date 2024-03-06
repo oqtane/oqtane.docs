@@ -1,4 +1,6 @@
-## Step 1: Install Ubuntu Desktop
+# Install Oqtane on Ubuntu Desktop with Apache and MySQL
+
+# Step 1: Install Ubuntu Desktop
 
 1. Visit the [Ubuntu Desktop download page](https://ubuntu.com/download/desktop) to download the latest version of Ubuntu Desktop.
    
@@ -30,7 +32,7 @@ This guide provides detailed instructions on how to install and configure MySQL 
 ### Prerequisites
 - Ubuntu Desktop installed and configured on your system.
 
-## Step 1: Download MySQL APT Repository Configuration
+### Step 1: Download MySQL APT Repository Configuration
 
 1. Open a web browser and navigate to the [MySQL APT Repository](https://dev.mysql.com/downloads/repo/apt/) download page.
 
@@ -38,13 +40,13 @@ This guide provides detailed instructions on how to install and configure MySQL 
 
 3. Once the download is complete, navigate to the directory where the package is saved.
 
-## Step 2: Install MySQL APT Repository
+### Step 2: Install MySQL APT Repository
 
 1. Open a terminal window by pressing `Ctrl + Alt + T` or searching for "Terminal" in the applications menu.
 
 2. Navigate to the directory where you downloaded the MySQL APT repository configuration package.
 
-## Step 3: Install MySQL Package
+### Step 3: Install MySQL Package
 
 1. Navigate to the directory where the downloaded MySQL package is located.
 2. Use the following command to install the downloaded package, replacing `version-specific-package-name.deb` with the actual name of the downloaded package:
@@ -63,7 +65,7 @@ This guide provides detailed instructions on how to install and configure MySQL 
     sudo apt-get update
     ```
 
-## Step 3: Configure MySQL Server
+### Step 4: Configure MySQL Server
 
 1. After installing MySQL, you may need to configure it based on your specific requirements. This includes settings such as the default character set, server collation, and other options.
 
@@ -81,7 +83,7 @@ This guide provides detailed instructions on how to install and configure MySQL 
 
 5. Refer to the [MySQL documentation](https://dev.mysql.com/doc/refman/8.0/en/) for a comprehensive list of configuration options and best practices.
 
-## Step 4: Secure MySQL Installation
+### Step 5: Secure MySQL Installation
 
 1. After configuring MySQL, it's essential to secure the installation to protect your data and prevent unauthorized access.
 
@@ -94,7 +96,7 @@ This guide provides detailed instructions on how to install and configure MySQL 
 
 4. Choose the appropriate options based on your security requirements.
 
-## Step 5: Verify MySQL Installation
+### Step 6: Verify MySQL Installation
 
 1. Once the installation and configuration are complete, verify the status of the MySQL service to ensure it is running:
     ```bash
@@ -111,7 +113,7 @@ This guide provides detailed instructions on how to install and configure MySQL 
     mysql --version
     ```
 
-## Step 6: Create Oqtane Database
+### Step 7: Create Oqtane Database
 
 1. To create a new MySQL database for the Oqtane Framework, log in to the MySQL command-line interface as the root user:
     ```bash
@@ -136,7 +138,7 @@ This guide provides detailed instructions on how to install and configure MySQL 
     FLUSH PRIVILEGES;
     ```
 
-# Step 4: Install Apache Server
+# Step 3: Install Apache Server
 
 ## Overview
 This step covers the installation of Apache HTTP Server on Ubuntu. Apache is a widely-used web server that can serve HTML files and other content over HTTP.
@@ -186,7 +188,7 @@ This step covers the installation of Apache HTTP Server on Ubuntu. Apache is a w
 - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
 - [Ubuntu Server Guide](https://ubuntu.com/server/docs): Comprehensive guide for Ubuntu Server, which includes instructions for installing and configuring various software packages.
 
-# Step 5: Install .NET Core
+# Step 4: Install .NET Core
 
 ## Overview
 This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-platform, open-source framework for building modern, cloud-based, and internet-connected applications.
@@ -231,7 +233,7 @@ This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-p
 - [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/): Official documentation for .NET.
 - [.NET Core Download Page](https://dotnet.microsoft.com/download/dotnet): Official download page for .NET Core SDK and runtime.
 
-# Step 6: Configure Host and Service Files for Apache
+# Step 5: Configure Host and Service Files for Apache
 
 ## Overview
 This step involves creating configuration files for Apache virtual host and service to serve your .NET Core application.
@@ -289,7 +291,7 @@ This step involves creating configuration files for Apache virtual host and serv
    - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
    - [.NET Core Deployment Guide](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/): Official deployment guide for .NET Core applications.
 
-# Step 7: Setup App Files and Folders
+# Step 6: Setup App Files and Folders
 
 1. **Create Directory Structure**: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:
    
@@ -318,7 +320,7 @@ This step involves creating configuration files for Apache virtual host and serv
 If you haven't already configured Apache to serve your Oqtane application, you'll need to set up a virtual host and configure the necessary Apache directives to point to the application directory. Refer to the [Apache documentation](https://httpd.apache.org/docs/) for detailed instructions on virtual host configuration.
 
 
-# Step 8: Install Oqtane Framework (Linux)
+# Step 7: Install Oqtane Framework (Linux)
 
 To install the Oqtane Framework on Linux, follow these steps:
 
@@ -337,7 +339,7 @@ To install the Oqtane Framework on Linux, follow these steps:
 
 By following these steps, you will have successfully installed and configured the Oqtane Framework on your Linux machine, making your application accessible via a web browser.
 
-# Step 9: Test the Installation
+# Step 8: Test the Installation
 
 After completing the installation process, it's important to test your Oqtane application to ensure everything is working correctly. Follow these steps to test the installation:
 
