@@ -9,7 +9,7 @@ Links to the information related to doucmentation installation manuals.
 ## IIS & .NET Core Hosting:
 
 - [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
-- [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-windows-runtime-bundle-installer): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
+- [.NET Core Hosting Bundle](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
 - [WebSocket Support on IIS](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis): Instructions for enabling WebSockets on IIS.
 
 ## Database Resources:
