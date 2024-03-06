@@ -19,7 +19,7 @@ Links to the information related to doucmentation installation manuals.
 - [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
 - [SQL Server Management Studio (SSMS) Download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
 
-### LocalDB:
+### SQL Server Express LocalDB:
 - [SQL Server Express LocalDB Installation Guide](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb): Instructions for installing SQL Server Express LocalDB.
 
 ### MySQL:
