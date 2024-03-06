@@ -1,5 +1,7 @@
 # Databases
 
+This section provides a general setup guide for popular database systems such as SQL Server, MySQL, PostgreSQL, and SQLite on both Windows and Linux environments. Each database system includes steps for downloading, installing, configuring, and connecting to the database, along with relevant tools and documentation.
+
 ## SQL Server
 
 ### Windows
