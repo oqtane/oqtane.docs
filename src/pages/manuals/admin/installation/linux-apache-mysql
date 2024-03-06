@@ -242,7 +242,6 @@ This step involves creating configuration files for Apache virtual host and serv
 - Oqtane Framework files ready to be deployed.
 
 ## Configuration Process
-
 1. **Create Apache Virtual Host Configuration File**:
     - Open a terminal window and navigate to the Apache sites-available directory:
     ```bash
@@ -261,7 +260,8 @@ This step involves creating configuration files for Apache virtual host and serv
         CustomLog ${APACHE_LOG_DIR}/example.com-access.log combined
     </VirtualHost>
     ```
-    - Save the file and exit the text editor.
+    - Save the file and exit the text editor. If you're not familiar with `nano`, you can learn more about it in the [nano documentation](https://www.nano-editor.org/dist/latest/nano.html).
+
 
 2. **Create Document Root Directory**:
     - Create the document root directory where your .NET Core application files will be stored:
