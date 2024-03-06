@@ -18,6 +18,7 @@ Links to the information related to doucmentation installation manuals.
 - [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
 - [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
 - [SQL Server Management Studio (SSMS) Download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
+- [Visual Studio Code mssql Extension](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code/mssql-extensions): The mssql extension for Visual Studio Code (VS Code) to work with databases in SQL Server on Windows, macOS, and Linux, as well as Azure SQL Database and Azure SQL Managed Instance.
 
 ### SQL Server Express LocalDB:
 - [SQL Server Express LocalDB Installation Guide](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb): Instructions for installing SQL Server Express LocalDB.
