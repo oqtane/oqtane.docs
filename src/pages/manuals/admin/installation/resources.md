@@ -42,7 +42,7 @@ Links to the information related to doucmentation installation manuals.
 - [Oqtane GitHub Repository](https://github.com/oqtane/oqtane.framework): Contribute to the Oqtane project and report issues on GitHub.
 - [Oqtane Blog](https://www.oqtane.org/blog/): Stay updated with the latest news, tips, and tutorials.
 
-## For Ubuntu operating system:
+## For Ubuntu:
 
 - **Downloads:** 
   - [Ubuntu Downloads](https://ubuntu.com/download): Download the latest version of Ubuntu.
