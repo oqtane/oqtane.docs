@@ -164,12 +164,16 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 - [PostgreSQL Documentation for Ubuntu Installation](https://www.postgresql.org/download/linux/ubuntu/): Installation guide specific to Ubuntu environment.
 
 #### SQL Server:
-- [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server for Ubuntu.
-- [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15): Detailed guide on installing SQL Server on Ubuntu.
+- [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
+- [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
 - [SQL Server Management Studio (SSMS) Download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
 
 #### LocalDB:
 - [LocalDB Installation Guide](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb): Instructions for installing LocalDB on Ubuntu.
+
+#### SQLite:
+- [SQLite Downloads](https://www.sqlite.org/download.html): Download SQLite for Ubuntu.
+- [SQLite Documentation](https://www.sqlite.org/docs.html): Official documentation for SQLite.
 
 ### Oqtane Framework:
 - [Oqtane Framework Releases](https://github.com/oqtane/oqtane.framework/releases): Download the latest Oqtane release for installation on Ubuntu.
