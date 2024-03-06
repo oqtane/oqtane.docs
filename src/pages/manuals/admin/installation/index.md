@@ -21,7 +21,7 @@ If you need to perform a clean database install for a previous version of Oqtane
 
 ## Development
 
-Install Oqtane for development, primarily for Visual Studio and Windows development:
+Install Oqtane quickly for development, primarily for Visual Studio and Windows development:
 
 - [Install Oqtane for Development](development.md)
 
