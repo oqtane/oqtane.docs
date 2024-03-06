@@ -1,4 +1,6 @@
-## Step 1: Install Ubuntu Desktop
+# Install Oqtane on Linux Ubuntu, Apache, PostgreSQL
+
+# Step 1: Install Ubuntu Desktop
 
 1. Visit the [Ubuntu Desktop download page](https://ubuntu.com/download/desktop) to download the latest version of Ubuntu Desktop.
    
@@ -275,7 +277,7 @@ This step involves creating configuration files for Apache virtual host and serv
 - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
 - [.NET Core Deployment Guide](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/): Official deployment guide for .NET Core applications.
 
-### Step 7: Setup App Files and Folders
+# Step 7: Setup App Files and Folders
 
 1. **Create Directory Structure**: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:
    
@@ -317,7 +319,7 @@ Set Permissions (Optional): Depending on your setup, you may need to adjust file
 
 By following these steps, you have successfully set up the directory structure and placed the Oqtane Framework files in the appropriate location on your Ubuntu system. Your application is now ready for further configuration and deployment.
 
-### Step 8: Install Oqtane Framework (Linux)
+# Step 8: Install Oqtane Framework (Linux)
 
 To install the Oqtane Framework on Linux, follow these steps:
 
@@ -336,7 +338,7 @@ To install the Oqtane Framework on Linux, follow these steps:
 
 By following these steps, you will have successfully installed and configured the Oqtane Framework on your Linux machine, making your application accessible via a web browser.
 
-### Step 10: Test the Installation
+# Step 9: Test the Installation
 
 After completing the installation process, it's important to test your Oqtane application to ensure everything is working correctly. Follow these steps to test the installation:
 
