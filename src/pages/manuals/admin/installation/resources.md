@@ -41,3 +41,12 @@ Links to the information related to doucmentation installation manuals.
 - [Oqtane Framework Releases](https://github.com/oqtane/oqtane.framework/releases/latest): Download the latest Oqtane release for installation.
 - [Oqtane GitHub Repository](https://github.com/oqtane/oqtane.framework): Contribute to the Oqtane project and report issues on GitHub.
 - [Oqtane Blog](https://www.oqtane.org/blog/): Stay updated with the latest news, tips, and tutorials.
+
+## For Ubuntu operating system:
+
+- **Downloads:** 
+  - [Ubuntu Downloads](https://ubuntu.com/download): Download the latest version of Ubuntu.
+
+- **Installation Guide:**
+  - [Ubuntu Installation Guide](https://ubuntu.com/tutorials/install-ubuntu-desktop): Step-by-step guide for installing Ubuntu Desktop edition.
+  - [Ubuntu Server Installation Guide](https://ubuntu.com/server/docs/installation): Installation guide for Ubuntu Server edition.
