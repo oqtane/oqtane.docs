@@ -17,7 +17,7 @@
 
 ## Step 3: Install .NET Core Hosting Bundle
 
-- Navigate to [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-windows-runtime-bundle-installer).
+- Navigate to [.NET Core Hosting Bundle](https://dotnet.microsoft.com/en-us/download).
 - Download and install the bundle.
 - Restart your machine.
 
