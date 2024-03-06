@@ -289,7 +289,7 @@ This step involves creating configuration files for Apache virtual host and serv
    - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
    - [.NET Core Deployment Guide](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/): Official deployment guide for .NET Core applications.
 
-### Step 7: Setup App Files and Folders
+# Step 7: Setup App Files and Folders
 
 1. **Create Directory Structure**: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:
    
@@ -318,7 +318,7 @@ This step involves creating configuration files for Apache virtual host and serv
 If you haven't already configured Apache to serve your Oqtane application, you'll need to set up a virtual host and configure the necessary Apache directives to point to the application directory. Refer to the [Apache documentation](https://httpd.apache.org/docs/) for detailed instructions on virtual host configuration.
 
 
-### Step 8: Install Oqtane Framework (Linux)
+# Step 8: Install Oqtane Framework (Linux)
 
 To install the Oqtane Framework on Linux, follow these steps:
 
@@ -337,7 +337,7 @@ To install the Oqtane Framework on Linux, follow these steps:
 
 By following these steps, you will have successfully installed and configured the Oqtane Framework on your Linux machine, making your application accessible via a web browser.
 
-### Step 10: Test the Installation
+# Step 9: Test the Installation
 
 After completing the installation process, it's important to test your Oqtane application to ensure everything is working correctly. Follow these steps to test the installation:
 
