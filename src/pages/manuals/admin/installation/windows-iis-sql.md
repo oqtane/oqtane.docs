@@ -52,11 +52,10 @@ Before you begin, make sure you have the following:
 
 ## Step 8: Configure IIS App Pool
 
-[Note: Ensure that the folder containing the Oqtane files has appropriate modify permissions set for the "IIS AppPool\oqtane" user to avoid any permission issues during installation or runtime.]
-
 1. Open "Internet Information Services (IIS) Manager" from the Start menu.
 2. Create a new Application Pool named "oqtane" with No Managed Code for the .NET CLR version.
-3. Set appropriate permissions for the folder containing the Oqtane files and the LocalDB data directory.
+3. Set appropriate permissions for the folder containing the Oqtane files.
+_Note: Ensure that the folder containing the Oqtane files has appropriate modify permissions set for the "IIS AppPool\oqtane" user to avoid any permission issues during installation or runtime._
 
 ## Step 9: Configure IIS Website
 
