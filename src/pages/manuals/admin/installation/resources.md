@@ -70,3 +70,10 @@ Links to the information related to doucmentation installation manuals.
   - [Nginx Official Website](https://nginx.org/en/): Visit the official website of Nginx to learn more about this open-source web server, commonly used as a reverse proxy or HTTP cache.
   - [Install and configure Nginx on Ubuntu](https://ubuntu.com/tutorials/install-and-configure-nginx): This tutorial provides a comprehensive guide to installing and configuring Nginx on Ubuntu. It covers topics such as setting up a basic website, configuring virtual hosts, activating virtual hosts, and testing the results.
 
+## Additional Resources
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/): Visit MDN for comprehensive documentation and resources on web development, including HTML, CSS, JavaScript, and more.
+- [Mozilla Server Side TLS Guidelines](https://wiki.mozilla.org/Security/Server_Side_TLS): Mozilla provides guidelines for configuring server-side TLS to enhance security. These guidelines cover various aspects of TLS configuration, including cipher suites, protocols, and certificate management.
+- [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/): This tool helps generate secure SSL configurations for popular web servers, including Apache, Nginx, and others. It provides recommended configurations based on Mozilla's SSL/TLS best practices.
+- [Let's Encrypt](https://letsencrypt.org/): Let's Encrypt is a free, automated, and open certificate authority (CA) that provides SSL/TLS certificates to enable HTTPS on websites. Their website offers detailed documentation and resources for setting up HTTPS on web servers.
+
+
