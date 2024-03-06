@@ -286,50 +286,37 @@ This step involves creating configuration files for Apache virtual host and serv
     - Open a web browser and navigate to your domain name (e.g., `http://example.com`). If configured correctly, you should see your .NET Core application running.
 
 ### Additional Resources
-- [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
-- [.NET Core Deployment Guide](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/): Official deployment guide for .NET Core applications.
+   - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
+   - [.NET Core Deployment Guide](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/): Official deployment guide for .NET Core applications.
 
 ### Step 7: Setup App Files and Folders
 
 1. **Create Directory Structure**: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:
    
-```bash
+   ```bash
+   sudo mkdir /var/www/oqtane
+   ```
 
-    sudo mkdir /var/www/oqtane
+2. **Download Oqtane Framework**:
 
-```
-    Clone or Download Oqtane Framework: Navigate to the Oqtane Framework GitHub repository and clone the repository to your local machine using Git or download the source code as a ZIP archive.
+   Download ZIP Archive:
 
-        Option 1: Clone Repository
+   - Visit the [Oqtane Framework releases page](https://github.com/oqtane/oqtane.framework/releases/latest) on GitHub.
+   - Click on the "Oqtane.Framework.x.x.x.Install.zip" file under the latest release to download it.
+   - Once downloaded, extract the ZIP archive to the `/var/www/oqtane` directory.
+   - Extract the downloaded ZIP archive to the `/var/www/oqtane` directory.
 
-     ```bash
+3. **Set Permissions (Optional)**:
+   
+   Depending on your setup, you may need to adjust file permissions to ensure that the web server can access the Oqtane application files properly. Use the following commands to set appropriate permissions:
+   
+   ```bash
+   sudo chown -R www-data:www-data /var/www/oqtane
+   sudo chmod -R 755 /var/www/oqtane
+   ```
+4. **Configure Web Server**:
+If you haven't already configured Apache to serve your Oqtane application, you'll need to set up a virtual host and configure the necessary Apache directives to point to the application directory. Refer to the [Apache documentation](https://httpd.apache.org/docs/) for detailed instructions on virtual host configuration.
 
-        sudo git clone https://github.com/oqtane/oqtane.framework.git /var/www/oqtane
-    
-     ```
-    Option 2: Download ZIP Archive
-        Visit the Oqtane Framework repository on GitHub.
-        Click on the "Code" button and select "Download ZIP".
-        Extract the downloaded ZIP archive to the /var/www/oqtane directory.
-
-Place Oqtane Files: Once you have obtained the Oqtane Framework files, place them in the directory structure you created earlier. Ensure that the files are organized correctly within the directory to maintain the application's structure.
-
-```bash
-
-    sudo cp -r /path/to/oqtane.framework/* /var/www/oqtane
-
-```
-Set Permissions (Optional): Depending on your setup, you may need to adjust file permissions to ensure that the web server can access the Oqtane application files properly. Use the following commands to set appropriate permissions:
-
-```bash
-
-    sudo chown -R www-data:www-data /var/www/oqtane
-    sudo chmod -R 755 /var/www/oqtane
-    
-```
-    Configure Web Server: If you haven't already configured Apache to serve your Oqtane application, you'll need to set up a virtual host and configure the necessary Apache directives to point to the application directory. Refer to the Apache documentation for detailed instructions on virtual host configuration.
-
-By following these steps, you have successfully set up the directory structure and placed the Oqtane Framework files in the appropriate location on your Ubuntu system. Your application is now ready for further configuration and deployment.
 
 ### Step 8: Install Oqtane Framework (Linux)
 
@@ -344,9 +331,9 @@ To install the Oqtane Framework on Linux, follow these steps:
    sudo chown -R www-data:www-data /path/to/oqtane
    sudo chmod -R 755 /path/to/oqtane
 ```
-    Configure Database Connection: Update the database connection string in the appsettings.json file located in the root directory of your Oqtane application. Use the connection string for your preferred database server (e.g., MySQL, PostgreSQL).
+ Configure Database Connection: Update the database connection string in the appsettings.json file located in the root directory of your Oqtane application. Use the connection string for your preferred database server (e.g., MySQL, PostgreSQL).
 
-    Access Oqtane Installation Wizard: Open a web browser and navigate to the URL associated with your Oqtane installation directory. If everything is configured correctly, you should see the Oqtane installation wizard, where you can proceed with the installation and setup of your Oqtane application.
+ Access Oqtane Installation Wizard: Open a web browser and navigate to the URL associated with your Oqtane installation directory. If everything is configured correctly, you should see the Oqtane installation wizard, where you can proceed with the installation and setup of your Oqtane application.
 
 By following these steps, you will have successfully installed and configured the Oqtane Framework on your Linux machine, making your application accessible via a web browser.
 
