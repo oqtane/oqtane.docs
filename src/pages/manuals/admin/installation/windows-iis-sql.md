@@ -26,7 +26,7 @@ Before you begin, make sure you have the following:
 ## Step 3: Install .NET Core Hosting Bundle
 
 1. Navigate to the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/download) page.
-2. Download and install the bundle.
+2. Download and install the Windows hosting bundle.
 3. Restart your machine.
 
 ## Step 4: Install Microsoft SQL Server
