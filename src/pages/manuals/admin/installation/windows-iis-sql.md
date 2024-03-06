@@ -33,7 +33,7 @@ Before you begin, make sure you have the following:
 
 1. Download and install [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads).
 2. Ensure that you enable SQL Server Authentication mode during the installation process.
-3. 3. During the installation, choose the option to enable TCP/IP protocol for network communication.
+3. During the installation, choose the option to enable TCP/IP protocol for network communication.
 
 ## Step 5: Install SQL Server Management Studio (SSMS)
 
