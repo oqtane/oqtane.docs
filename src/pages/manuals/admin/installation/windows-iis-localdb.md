@@ -27,7 +27,7 @@
 
 - If doing a local install and wanting to use LocalDB for development, navigate to [LocalDB installation](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb) and choose the appropriate package.
 
-*Note: LocalDB is recommended for development environments but can be substituted with other database options supported by Oqtane such as SQLite, MySQL, PostgreSQL, or SQL Server.*
+*Note: LocalDB is recommended for development environments but can be substituted with other [database options supported by Oqtane](./resources) such as SQLite, MySQL, PostgreSQL, or SQL Server.*
 
 ## Step 5: Install Oqtane
 
