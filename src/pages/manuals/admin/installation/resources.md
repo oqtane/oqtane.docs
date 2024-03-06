@@ -14,6 +14,14 @@ Links to the information related to doucmentation installation manuals.
 
 ## Database Resources:
 
+### SQL Server:
+- [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
+- [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
+- [SQL Server Management Studio (SSMS) Download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
+
+### LocalDB:
+- [LocalDB Installation Guide](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb): Instructions for installing LocalDB.
+
 ### MySQL:
 - [MySQL Downloads](https://dev.mysql.com/downloads/): Download MySQL Community Edition.
 - [MySQL Workbench Download](https://dev.mysql.com/downloads/workbench/): MySQL Workbench for database administration.
@@ -23,14 +31,6 @@ Links to the information related to doucmentation installation manuals.
 - [PostgreSQL Downloads](https://www.postgresql.org/download/): Download the latest version of PostgreSQL.
 - [pgAdmin Download](https://www.pgadmin.org/download/): Tool for PostgreSQL administration.
 - [PostgreSQL Documentation for Ubuntu Installation](https://www.postgresql.org/download/linux/ubuntu/): Installation guide specific to Ubuntu environment.
-
-### SQL Server:
-- [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
-- [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
-- [SQL Server Management Studio (SSMS) Download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
-
-### LocalDB:
-- [LocalDB Installation Guide](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb): Instructions for installing LocalDB.
 
 ### SQLite:
 - [SQLite Downloads](https://www.sqlite.org/download.html): Download SQLite for Ubuntu.
