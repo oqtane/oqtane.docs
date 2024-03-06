@@ -36,7 +36,7 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 
 1. If you wish to use _LocalDB_ for development (not a requirement as Oqtane supports _SQLite_, _mySQL_ and _PostgreSQL_) you must also install the **Data storage and processing**.
 
-1. Download the [Official Oqtane 5 Release Source](https://github.com/oqtane/oqtane.framework/releases/tag/v5.0.1).
+1. Download the [Official Oqtane 5 Release Source](https://github.com/oqtane/oqtane.framework/releases/tag/v5.0.2).
 
 1. Open the **Oqtane.sln** solution file.
 
