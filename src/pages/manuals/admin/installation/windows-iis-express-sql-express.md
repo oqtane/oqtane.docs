@@ -91,43 +91,8 @@
 *Note: If encountering errors during the Install Wizard due to database creation permissions, consider creating the database manually before initiating the Install Wizard.*
 
 ---
+## Additional Information
+- Review details about the [databases](databases.md) Oqtane supports.
+- For even more information and additional resources, visit the [installation resources](resources.md) page.
 
-## Related Links and Resources
-
-### For SQL Server:
-- [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server for Windows.
-- [SQL Server Management Studio (SSMS) Download](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
-- [SQL Server Installation Guide for Windows](https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server): Detailed guide on installing SQL Server on Windows.
-- [SQL Server Express LocalDB Installation Guide](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb): Instructions for installing SQL Server Express LocalDB.
-
-### For Other Database Options:
-
-- **Note:** If you prefer to use MySQL, PostgreSQL, or another supported database, you can find installation instructions on their respective documentation pages. The installation process will be similar to SQL Server's installation.
-
----
-
-### For MySQL:
-
-- [MySQL Downloads](https://dev.mysql.com/downloads/): Download MySQL Community Edition for Windows.
-- [MySQL Workbench Download](https://dev.mysql.com/downloads/workbench/): Download MySQL Workbench for database administration.
-- [MySQL Documentation for Windows Installation](https://dev.mysql.com/doc/refman/8.3/en/windows-installation.html): Detailed guide for installing MySQL on Windows.
-
-
-### For PostgreSQL:
-
-- [PostgreSQL Downloads](https://www.postgresql.org/download/): Download page for the latest version of PostgreSQL for Windows.
-- [pgAdmin Download](https://www.pgadmin.org/download/): Download pgAdmin for administration.
-- [PostgreSQL Documentation for Windows Installation](https://www.postgresql.org/docs/current/install-windows.html): Installation guide specific to Windows environment.
-
-### For SQLite:
-
-- [SQLite Downloads](https://www.sqlite.org/download.html): Download SQLite for Windows.
-- [SQLite Browser Download](https://sqlitebrowser.org/dl/): Download SQLite Database Browser for administration.
-- [SQLite Documentation](https://www.sqlite.org/docs.html): Official documentation for SQLite.
-
----
-
-## Additional Resources
-
-- [Oqtane Blog: Installation Guide for IIS with LocalDB](https://www.oqtane.org/blog/!/24/installing-oqtane-on-iis): Explore detailed instructions and tips for setting up Oqtane with IIS and LocalDB.
-- [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework): Contribute to the Oqtane Framework project and report issues on GitHub.
+[← Back to Installation Home](index.md)
