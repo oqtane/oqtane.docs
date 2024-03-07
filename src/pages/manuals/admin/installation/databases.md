@@ -100,4 +100,4 @@ sqlite3 mydatabase.db
 ```
 This command will open the SQLite command-line interface and create or connect to a database file named `mydatabase.db`.
 
-
+[← Back to Installation Home](index.md)
