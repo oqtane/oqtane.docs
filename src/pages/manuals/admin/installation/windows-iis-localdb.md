@@ -92,8 +92,8 @@
 
 ---
 ## Supported Databases
-- [Databases](databases.md): Oqtane supports multiple databases.
-
-## [<-Back to Installation Home](index.md)
+- Visit our list of [databases](databases.md) Oqtane supports.
 
 For more information and additional resources, visit the [Resources](resources.md) page.
+
+### [<-Back to Installation Home](index.md)
