@@ -351,3 +351,11 @@ After completing the installation process, it's important to test your Oqtane ap
 4. **Test User Experience**: Test the user experience by navigating through different pages, interacting with modules, and performing common tasks within the application. Ensure that the application is responsive and functions properly across different devices and screen sizes.
 
 By testing the installation and functionality of your Oqtane application, you can identify any issues or errors early on and address them accordingly, ensuring a smooth and successful deployment.
+
+---
+## Additional Information
+- Review details about the [databases](databases.md) Oqtane supports.
+- For even more information and additional resources, visit the [installation resources](resources.md) page.
+
+[← Back to Installation Home](index.md)
+
