@@ -88,4 +88,9 @@ _Note: Ensure that the folder containing the Oqtane files has appropriate modify
 6. **Monitor and Respond**: Monitor your site for suspicious activities and implement logging and monitoring solutions to detect and respond to security incidents effectively. Set up alerts for unusual behavior and unauthorized access attempts.
 7. **Regular Security Audits**: Conduct regular security audits of your Oqtane application to identify and remediate security vulnerabilities. Perform code reviews, penetration testing, and vulnerability scanning to ensure the integrity and security of your site.
 
+---
+## Additional Information
+- Review details about the [databases](databases.md) Oqtane supports.
+- For even more information and additional resources, visit the [installation resources](resources.md) page.
 
+[← Back to Installation Home](index.md)
