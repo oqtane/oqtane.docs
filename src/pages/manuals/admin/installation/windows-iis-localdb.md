@@ -91,9 +91,8 @@
 *Note: If encountering errors during the Install Wizard due to database creation permissions, consider creating the database manually before initiating the Install Wizard.*
 
 ---
-## Supported Databases
+## Additional Information
 - Visit our list of [databases](databases.md) Oqtane supports.
-
-For more information and additional resources, visit the [Resources](resources.md) page.
+- For even more information and additional resources, visit the [Resources](resources.md) page.
 
 ### [<-Back to Installation Home](index.md)
