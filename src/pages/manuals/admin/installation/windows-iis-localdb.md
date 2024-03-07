@@ -92,7 +92,7 @@
 
 ---
 ## Additional Information
-- Visit our list of [databases](databases.md) Oqtane supports.
+- Review details about the [databases](databases.md) Oqtane supports.
 - For even more information and additional resources, visit the [Resources](resources.md) page.
 
 ### [<-Back to Installation Home](index.md)
