@@ -93,6 +93,6 @@
 ---
 ## Additional Information
 - Review details about the [databases](databases.md) Oqtane supports.
-- For even more information and additional resources, visit the [Resources](resources.md) page.
+- For even more information and additional resources, visit the [installation resources](resources.md) page.
 
 ### [<-Back to Installation Home](index.md)
