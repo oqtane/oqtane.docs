@@ -44,6 +44,7 @@ This section provides installation instructions for development purposes. You ca
 ---
 
 ## Deploy
+
 _Note: In the guides below you will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package._
 
 ### Azure
@@ -55,14 +56,14 @@ Install Oqtane using the Deploy to Azure feature:
 
 ### Windows IIS
 Install Oqtane with various configurations on Windows using IIS:
-- [Install Oqtane with IIS Express and SQL Express](windows-iis-express-sql-express.md): This guide shows you how to install Oqtane on Windows using IIS Express and SQL Express Server. You will learn how to configure IIS, create a database, and deploy Oqtane using a release package.
-- [Install Oqtane with IIS Express and LocalDB](windows-iis-express-localdb.md): This guide shows you how to install Oqtane on Windows using IIS (Express) and LocalDb. You will learn how to configure IIS, create a database, and deploy Oqtane using a release package.
-- [Install Oqtane with IIS and SQL Server](windows-iis-sql.md): This guide shows you how to install Oqtane on Windows using IIS and SQL Server. You will learn how to configure IIS, create a database, and deploy Oqtane using a release package.
+- [Install Oqtane with IIS Express and SQL Express](windows-iis-express-sql-express.md): This guide shows you how to install Oqtane on Windows using IIS Express and SQL Express Server.
+- [Install Oqtane with IIS Express and LocalDB](windows-iis-express-localdb.md): This guide shows you how to install Oqtane on Windows using IIS (Express) and LocalDb.
+- [Install Oqtane with IIS and SQL Server](windows-iis-sql.md): This guide shows you how to install Oqtane on Windows using IIS and SQL Server.
 
 ### Linux Apache
 Install Oqtane with Apache on Linux (Ubuntu) with MySQL or PostgreSQL:
-- [Install Oqtane with Apache and MySQL](linux-ubuntu-apache-mysql.md): This guide shows you how to install Oqtane on Linux using Apache and MySQL. You will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package.
-- [Install Oqtane with Apache and PostgreSQL](linux-ubuntu-apache-postgresql.md): This guide shows you how to install Oqtane on Linux using Apache and PostgreSQL. You will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package.
+- [Install Oqtane with Apache and MySQL](linux-ubuntu-apache-mysql.md): This guide shows you how to install Oqtane on Linux using Apache and MySQL.
+- [Install Oqtane with Apache and PostgreSQL](linux-ubuntu-apache-postgresql.md): This guide shows you how to install Oqtane on Linux using Apache and PostgreSQL.
 
 ---
 
