@@ -25,7 +25,7 @@ If you need to perform a clean database install for a previous version of Oqtane
 
 ---
 
-## Upgrades
+## Upgrade
 Learn how to upgrade your existing Oqtane installation manually or through an automated process:
 - [Upgrading Oqtane](upgrade.md): This section provides information on how to upgrade your existing Oqtane installation manually or through an automated process.
 
@@ -43,7 +43,10 @@ This section provides installation instructions for development purposes. You ca
 
 ---
 
+## Deploy
 _Note: In the guides below you will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package._
+
+---
 
 ## Windows IIS
 Install Oqtane with various configurations on Windows using IIS:
