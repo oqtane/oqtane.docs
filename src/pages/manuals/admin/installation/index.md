@@ -1,6 +1,8 @@
 # Installation
+---
+## Overview
 
-## Downloading an Official Release
+##Downloading an Official Release
 
 Find the official Oqtane releases on GitHub and follow these steps to download:
 
@@ -21,9 +23,8 @@ If you need to perform a clean database install for a previous version of Oqtane
 
 ## Development
 
-Install Oqtane quickly for development, primarily for Visual Studio and Windows development:
-
-- [Install Oqtane for Development](development.md)
+- [Windows Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio and Windows development.
+- [Linux Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development.
 
 ---
 
