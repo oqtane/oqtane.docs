@@ -51,7 +51,7 @@ _Note: In the guides below you will learn how to install the prerequisites, crea
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json)
 
 Install Oqtane using the Deploy to Azure feature:
--[Deploy Oqtane To Azure](installation/deploy-to-auzure.md): This guide shows you how to install Oqtane using the above Deploy To Azure feature.
+- [Deploy Oqtane To Azure](installation/deploy-to-auzure.md): This guide shows you how to install Oqtane using the above Deploy To Azure feature.
 
 ### Windows IIS
 Install Oqtane with various configurations on Windows using IIS:
