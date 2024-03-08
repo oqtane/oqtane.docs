@@ -5,10 +5,35 @@
 - name: Installation
   href: installation/index.md
   items:
+    - name: Development Getting Started
+    - name: Visual Studio, IIS Express, SQL Express LocalDb
+      href: installation/development.md
+    - name: Visual Studio Code, IIS Express, SQL Express LocalDb
+      href: installation/development-vs-code.md
+    - name: Visual Studio Code (Linux), Apache, MySQL
+      href: installation/development-vs-code-linux.md
+
+    - name: Server Hosting Guides
+    - name: Windows, IIS, LocalDb
+      href: installation/windows-iis-localdb.md
+    - name: Windows, IIS Express, SQL Express
+      href: installation/windows-iis-express-sql-express.md
     - name: Windows, IIS, SQL
       href: installation/windows-iis-sql.md
-    # - name: Visual Studio, IIS Express, SQL Express
     - name: Linux, Apache, MySQL
+      href: installation/linux-ubuntu-apache-mysql.md
+    - name: Linux, Apache, PostgreSQL
+      href: installation/linux-ubuntu-apache-postgresql.md
+    - name: Windows, IIS, LocalDb
+      href: installation/windows-iis-localdb.md
+
+    - name: Additional Resources
+    - name: Upgrading Oqtane
+      href: installation/upgrade.md
+    - name: Supported Databases
+      href: installation/databases.md
+    - name: Installation Resources
+      href: installation/resources.md
 
   # href: installation/toc.yml
   # topicHref: installation/
