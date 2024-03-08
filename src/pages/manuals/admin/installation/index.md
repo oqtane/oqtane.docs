@@ -4,8 +4,6 @@
 ## Overview
 Oqtane is a modular application framework that allows you to create dynamic web sites and applications using Blazor and .NET MAUI. Oqtane supports various deployment scenarios and databases. This section provides installation instructions for different environments and configurations.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json)
-
 ---
 
 ## Downloading an Official Release
