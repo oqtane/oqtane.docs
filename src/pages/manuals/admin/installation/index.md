@@ -27,9 +27,9 @@ If you need to perform a clean database install for a previous version of Oqtane
 
 This section provides installation instructions for development purposes. You can choose between Windows or Linux development environments and use Visual Studio or Visual Studio Code as your IDE.
 
-- [Windows Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio and Windows development.
-- [Windows Development](development-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development. *TODO*
-- [Linux Development](development-linux-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development. *TODO*
+- [Windows Visual Studio Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio and Windows development.
+- [Windows Visual Studio Code Development](development-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development. *TODO*
+- [Linux Visual Studio Code Development](development-linux-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development. *TODO*
 
 ---
 
