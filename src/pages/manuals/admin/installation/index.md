@@ -34,7 +34,7 @@ Install Oqtane with various configurations on Windows using IIS:
 
 - [Install Oqtane with IIS Express and SQL Express](windows-iis-express-sql-express.md)
 - [Install Oqtane with IIS Express and LocalDB](windows-iis-express-localdb.md)
-- [Install Oqtane with IIS](windows-iis-sql.md)
+- [Install Oqtane with IIS and SQL Server](windows-iis-sql.md)
 
 ---
 
