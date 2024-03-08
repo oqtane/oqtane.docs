@@ -23,6 +23,14 @@ If you need to perform a clean database install for a previous version of Oqtane
 
 ---
 
+## Upgrades
+
+Learn how to upgrade your existing Oqtane installation manually or through an automated process:
+
+- [Upgrading Oqtane](upgrade.md): This section provides information on how to upgrade your existing Oqtane installation manually or through an automated process.
+
+---
+
 ## Development
 
 This section provides installation instructions for development purposes. You can choose between Windows or Linux development environments and use Visual Studio or Visual Studio Code as your IDE.
@@ -51,14 +59,6 @@ Install Oqtane with Apache on Linux (Ubuntu) with MySQL or PostgreSQL:
 
 - [Install Oqtane with Apache and MySQL](linux-ubuntu-apache-mysql.md): This guide shows you how to install Oqtane on Linux using Apache and MySQL. You will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package.
 - [Install Oqtane with Apache and PostgreSQL](linux-ubuntu-apache-postgresql.md): This guide shows you how to install Oqtane on Linux using Apache and PostgreSQL. You will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package.
-
----
-
-## Upgrades
-
-Learn how to upgrade your existing Oqtane installation manually or through an automated process:
-
-- [Upgrading Oqtane](upgrades.md): This section provides information on how to upgrade your existing Oqtane installation manually or through an automated process.
 
 ---
 
