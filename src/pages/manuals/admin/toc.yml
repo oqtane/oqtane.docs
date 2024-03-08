@@ -24,8 +24,6 @@
       href: installation/linux-ubuntu-apache-mysql.md
     - name: Linux, Apache, PostgreSQL
       href: installation/linux-ubuntu-apache-postgresql.md
-    - name: Windows, IIS, LocalDb
-      href: installation/windows-iis-localdb.md
 
     - name: Additional Resources
     - name: Upgrading Oqtane
