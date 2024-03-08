@@ -11,7 +11,7 @@ Find the official Oqtane releases on GitHub and follow these steps to download:
 3. Click on the release to view its details.
 4. Download the release package by clicking on the appropriate link.
 
-## Resetting an Existing Oqtane Installation
+### Resetting an Existing Oqtane Installation
 
 If you need to perform a clean database install for a previous version of Oqtane, follow these steps:
 
