@@ -2,7 +2,9 @@
 ---
 ## Overview
 
-### Downloading an Official Release
+Oqtane is a modular application framework that allows you to create dynamic web sites and applications using Blazor and .NET MAUI. Oqtane supports various deployment scenarios and databases. This section provides installation instructions for different environments and configurations.
+
+## Downloading an Official Release
 
 Find the official Oqtane releases on GitHub and follow these steps to download:
 
@@ -11,7 +13,7 @@ Find the official Oqtane releases on GitHub and follow these steps to download:
 3. Click on the release to view its details.
 4. Download the release package by clicking on the appropriate link.
 
-### Resetting an Existing Oqtane Installation
+## Resetting an Existing Oqtane Installation
 
 If you need to perform a clean database install for a previous version of Oqtane, follow these steps:
 
@@ -23,10 +25,15 @@ If you need to perform a clean database install for a previous version of Oqtane
 
 ## Development
 
+This section provides installation instructions for development purposes. You can choose between Windows or Linux development environments and use Visual Studio or Visual Studio Code as your IDE.
+
 - [Windows Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio and Windows development.
-- [Linux Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development. *TODO*
+- [Windows Development](development-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development. *TODO*
+- [Linux Development](development-linux-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development. *TODO*
 
 ---
+
+_Note: In the guides below you will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package._
 
 ## Windows IIS
 
@@ -34,16 +41,16 @@ Install Oqtane with various configurations on Windows using IIS:
 
 - [Install Oqtane with IIS Express and SQL Express](windows-iis-express-sql-express.md)
 - [Install Oqtane with IIS Express and LocalDB](windows-iis-express-localdb.md)
-- [Install Oqtane with IIS and SQL Server](windows-iis-sql.md)
+- [Install Oqtane with IIS and SQL Server](windows-iis-sql.md): This guide shows you how to install Oqtane on Windows using IIS and SQL Server. You will learn how to configure IIS, create a database, and deploy Oqtane using a release package.
 
 ---
 
-## Linux (Ubuntu) Apache
+## Linux Apache
 
 Install Oqtane with Apache on Linux (Ubuntu) with MySQL or PostgreSQL:
 
-- [Install Oqtane with Apache and MySQL](linux-ubuntu-apache-mysql.md)
-- [Install Oqtane with Apache and PostgreSQL](linux-ubuntu-apache-postgresql.md)
+- [Install Oqtane with Apache and MySQL](linux-ubuntu-apache-mysql.md): This guide shows you how to install Oqtane on Linux using Apache and MySQL. You will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package.
+- [Install Oqtane with Apache and PostgreSQL](linux-ubuntu-apache-postgresql.md): This guide shows you how to install Oqtane on Linux using Apache and PostgreSQL. You will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package.
 
 ---
 
@@ -51,7 +58,7 @@ Install Oqtane with Apache on Linux (Ubuntu) with MySQL or PostgreSQL:
 
 Learn how to upgrade your existing Oqtane installation manually or through an automated process:
 
-- [Upgrading Oqtane](upgrades.md)
+- [Upgrading Oqtane](upgrades.md): This section provides information on how to upgrade your existing Oqtane installation manually or through an automated process.
 
 ## Databases
 
