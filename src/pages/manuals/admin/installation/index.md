@@ -60,11 +60,13 @@ Learn how to upgrade your existing Oqtane installation manually or through an au
 
 - [Upgrading Oqtane](upgrades.md): This section provides information on how to upgrade your existing Oqtane installation manually or through an automated process.
 
+---
+
 ## Databases
 
 Explore additional installation resources and access the Oqtane blog and GitHub repository:
 
-- [Supported Databases](databases.md)
+- [Supported Databases](databases.md): Find detailed information relating to all databases currently supported by Oqtane for both Windows and Linux. 
 
 ---
 
