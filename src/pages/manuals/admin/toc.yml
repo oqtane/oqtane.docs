@@ -13,7 +13,11 @@
     - name: Visual Studio Code (Linux), Apache, MySQL
       href: installation/development-vs-code-linux.md
 
-    - name: Windows Server Hosting Guides
+    - name: Azure Deployment
+    - name: Deploy To Azure
+      href: installation/deploy-to-azure.md
+
+    - name: Windows Deployment
     - name: Windows, IIS, LocalDb
       href: installation/windows-iis-localdb.md
     - name: Windows, IIS Express, SQL Express
@@ -21,7 +25,7 @@
     - name: Windows, IIS, SQL
       href: installation/windows-iis-sql.md
     
-    - name: Linux Server Hosting Guides
+    - name: Linux Deployment
     - name: Linux (Ubuntu), Apache, MySQL
       href: installation/linux-ubuntu-apache-mysql.md
     - name: Linux (Ubuntu), Apache, PostgreSQL
