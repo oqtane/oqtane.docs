@@ -27,7 +27,7 @@
     - name: Linux, Apache, PostgreSQL
       href: installation/linux-ubuntu-apache-postgresql.md
 
-    - name: Additional Resources
+    - name: Additional Information
     - name: Upgrading Oqtane
       href: installation/upgrade.md
     - name: Supported Databases
