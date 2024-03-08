@@ -13,7 +13,7 @@
     - name: Visual Studio Code (Linux), Apache, MySQL
       href: installation/development-vs-code-linux.md
 
-    - name: Server Hosting Guides (Windows)
+    - name: Windows Server Hosting Guides
     - name: Windows, IIS, LocalDb
       href: installation/windows-iis-localdb.md
     - name: Windows, IIS Express, SQL Express
@@ -21,10 +21,10 @@
     - name: Windows, IIS, SQL
       href: installation/windows-iis-sql.md
     
-    - name: Server Hosting Guides (Linux)
-    - name: Linux, Apache, MySQL
+    - name: Linux Server Hosting Guides
+    - name: Linux (Ubuntu), Apache, MySQL
       href: installation/linux-ubuntu-apache-mysql.md
-    - name: Linux, Apache, PostgreSQL
+    - name: Linux (Ubuntu), Apache, PostgreSQL
       href: installation/linux-ubuntu-apache-postgresql.md
 
     - name: Additional Information
