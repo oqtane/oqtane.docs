@@ -75,5 +75,5 @@ Explore additional installation resources and access the Oqtane blog and GitHub 
 Explore additional installation resources and access the Oqtane blog and GitHub repository:
 
 - [Installation Resources](resources.md)
-- [Oqtane Blog](resources.md#oqtane-blog)
-- [Oqtane GitHub Repository](resources.md#oqtane-github-repository)
+- [Oqtane Blog](https://www.oqtane.org/blog)
+- [Oqtane GitHub Repository](https://github.com/oqtane/oqtane.framework)
