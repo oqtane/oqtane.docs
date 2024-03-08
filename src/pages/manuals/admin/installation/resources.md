@@ -1,5 +1,7 @@
 # Resources
 
+This section provides a collection of links and resources that can help you with Oqtane installation, development, and usage. You can find information and guidance on various topics, such as Oqtane framework, IDE tools, IIS and .NET Core hosting, databases, modules, themes, localization, security, and more. You can also access the Oqtane blog and GitHub repository for the latest news, tips, and tutorials.
+
 ## Oqtane Framework
 - [Oqtane Framework Releases](https://github.com/oqtane/oqtane.framework/releases/latest): Download the latest Oqtane release for installation.
 - [Oqtane GitHub Repository](https://github.com/oqtane/oqtane.framework): Contribute to the Oqtane project and report issues on GitHub.
