@@ -2,7 +2,7 @@
 ---
 ## Overview
 
-##Downloading an Official Release
+### Downloading an Official Release
 
 Find the official Oqtane releases on GitHub and follow these steps to download:
 
