@@ -41,6 +41,6 @@ Oqtane offers a streamlined upgrade experience for non-technical users through i
 4. On the default tab, if a newer version of Oqtane is available on Nuget.org, click the "Upgrade to #.#.#" button to download and perform the upgrade automatically. If you're already running the latest version, a message indicating this will be displayed.
 5. Alternatively, use the "Upload" tab to manually upload a framework upgrade package to the site and then select a button to install it. This method also allows you to reinstall or repair an existing installation with the current version.
 
-**Note:** Automated upgrades may not always be successful due to environmental factors. If an automated upgrade fails, revert to the manual method described above.
+_Note: Automated upgrades may not always be successful due to environmental factors. If an automated upgrade fails, revert to the manual method described above._
 
 By following these instructions, you can ensure your Oqtane installation remains up-to-date with the latest enhancements and security fixes.
