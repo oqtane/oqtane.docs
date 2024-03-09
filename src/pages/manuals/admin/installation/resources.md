@@ -13,8 +13,8 @@ _Note: The links in this section are external and may lead to websites that are 
 - [Visual Studio and VS Code Downloads](https://visualstudio.microsoft.com/downloads/): Download Visual Studio (Windows Only) and Visual Studio Code (Windows and Linux) IDEs for development.
 
 ## IIS & .NET Core Hosting
-- [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
 - [.NET Core Hosting Bundle](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
+- [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
 - [WebSocket Support on IIS](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis): Instructions for enabling WebSockets on IIS.
 - [Publish an ASP.NET Core app to IIS](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis): This tutorial demonstrates how to host an ASP.NET Core app on an IIS server.
 - [ASP.NET Core security topics](https://learn.microsoft.com/en-us/aspnet/core/security): This article provides an overview of ASP.NET Core security features, including authentication, authorization, data protection, HTTPS enforcement, safe storage of app secrets, XSRF/CSRF prevention, CORS, and XSS attack prevention.
