@@ -1,6 +1,4 @@
 # Deploy to Azure
-  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json)
-
 The Oqtane framework is a modular application framework for Blazor that allows you to easily deploy and manage web applications on Azure.
 
 ## Prerequisites
@@ -8,6 +6,8 @@ The Oqtane framework is a modular application framework for Blazor that allows y
 - The Oqtane GitHub repository. You can [access it here](https://www.github.com/oqtane/oqtane.framework).
 
 ## Steps
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json)
+
 1. Click on the **Deploy to Azure** button above. This will open the Azure portal and prompt you to log in with your Azure account.
 2. On the **Custom deployment** form, select an existing **Resource group** or create a new one. A resource group is a logical container for your Azure resources.
 3. Fill in the values for **Sql Server Name** and **Blazor Website Name**. These values must be unique to any other values on Azure. You can also change the other settings if you want, such as the location, the pricing tier, and the database size.
