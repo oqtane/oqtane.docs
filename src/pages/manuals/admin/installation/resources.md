@@ -43,7 +43,7 @@ _Note: The links in this section are external and may lead to websites that are 
 ## Windows OS
 - [Windows Server 2022 Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022): A free trial version of Windows Server 2022, the latest release of the server operating system from Microsoft.application platform, and storage.
 - [Windows 11 Enterprise Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise): A free trial version of Windows 11 Enterprise, the most advanced and secure edition of Windows 11, the latest operating system from Microsoft.
-- 
+
 ## Linux Ubuntu OS
 - **Downloads:** 
   - [Ubuntu Downloads](https://ubuntu.com/download): Download the latest version of Ubuntu.
