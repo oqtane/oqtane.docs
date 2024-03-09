@@ -51,7 +51,7 @@ Install Oqtane using the Deploy to Azure feature:
 ## Windows IIS
 Install Oqtane with various configurations on Windows using IIS:
 - [Install Oqtane with IIS Express and SQL Express](windows-iis-express-sql-express.md): This guide shows you how to install Oqtane on Windows using IIS Express and SQL Express Server.
-- [Install Oqtane with IIS Express and LocalDB](windows-iis-express-localdb.md): This guide shows you how to install Oqtane on Windows using IIS (Express) and LocalDb.
+- [Install Oqtane with IIS Express and LocalDB](windows-iis-localdb.md): This guide shows you how to install Oqtane on Windows using IIS (Express) and LocalDb.
 - [Install Oqtane with IIS and SQL Server](windows-iis-sql.md): This guide shows you how to install Oqtane on Windows using IIS and SQL Server.
 
 ## Linux Apache
