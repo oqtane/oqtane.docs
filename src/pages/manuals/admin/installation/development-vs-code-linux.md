@@ -4,7 +4,7 @@ This document provides instructions for installing Oqtane for development using 
 
 ## Prerequisites
 Before you start, make sure you have the following prerequisites:
-- A Linux Ubuntu machine with internet access and administrator privileges.
+- A [Linux Ubuntu](https://ubuntu.com/download/desktop) machine with internet access and administrator privileges.
 - [.NET SDK](https://dotnet.microsoft.com/download/dotnet) installed on your machine.
 - A [database server](installation/databases.md) installed on your machine or accessible from your network. You can use MySQL, PostgreSQL, SQLite, or SQL Server.
 
