@@ -40,13 +40,11 @@ This section provides installation instructions for development purposes. You ca
 ---
 
 # Deploy
+This section provides installation instructions for deploying Oqtane to various environments using a release package. You will learn how to install the prerequisites, create a database, and configure the web server for your Oqtane application.
 
-_Note: In the guides below you will learn how to install the prerequisites, create a database, and deploy Oqtane using a release package._
+You can choose between the following deployment options:
 
 ## Azure
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json)
-
 Install Oqtane using the Deploy to Azure feature:
 - [Deploy Oqtane To Azure](installation/deploy-to-auzure.md): This guide shows you how to install Oqtane using the above Deploy To Azure feature.
 
