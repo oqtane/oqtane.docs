@@ -22,8 +22,9 @@ _Note: The links in this section are external and may lead to websites that are 
 ## Databases
 ### SQL Server
 - [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
-- [SQL Server Installation Guide for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
+- [Windows SQL Server 2022 Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-sql-server-2022): A free trial version of SQL Server 2022, the latest release of the relational database management system from Microsoft.
 - [SQL Server Management Studio (SSMS) Download](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms): Download SQL Server Management Studio for database management.
+- [SQL Server Installation Guide for Linux Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
 - [Visual Studio Code mssql Extension](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code/mssql-extensions): The mssql extension for Visual Studio Code (VS Code) to work with databases in SQL Server on Windows, macOS, and Linux, as well as Azure SQL Database and Azure SQL Managed Instance.
 ### MySQL
 - [MySQL Downloads](https://dev.mysql.com/downloads/): Download MySQL Community Edition.
@@ -37,7 +38,11 @@ _Note: The links in this section are external and may lead to websites that are 
 - [SQLite Downloads](https://www.sqlite.org/download.html): Download SQLite for Ubuntu.
 - [SQLite Documentation](https://www.sqlite.org/docs.html): Official documentation for SQLite.
 
-## For Ubuntu OS (Linux)
+## Windows OS
+- [Windows Server 2022 Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022): A free trial version of Windows Server 2022, the latest release of the server operating system from Microsoft.application platform, and storage.
+- [Windows 11 Enterprise Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise): A free trial version of Windows 11 Enterprise, the most advanced and secure edition of Windows 11, the latest operating system from Microsoft.
+- 
+## Linux Ubuntu OS
 - **Downloads:** 
   - [Ubuntu Downloads](https://ubuntu.com/download): Download the latest version of Ubuntu.
 - **Installation Guide**
