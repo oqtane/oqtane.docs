@@ -27,12 +27,14 @@ _Note: The links in this section are external and may lead to websites that are 
 - [SQL Server Installation Guide for Linux Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
 - [Visual Studio Code mssql Extension](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code/mssql-extensions): The mssql extension for Visual Studio Code (VS Code) to work with databases in SQL Server on Windows, macOS, and Linux, as well as Azure SQL Database and Azure SQL Managed Instance.
 ### MySQL
-- [MySQL Downloads](https://dev.mysql.com/downloads/): Download MySQL Community Edition.
+- [MySQL Downloads](https://dev.mysql.com/downloads/mysql/): Download MySQL Community Server.
 - [MySQL Workbench Download](https://dev.mysql.com/downloads/workbench/): MySQL Workbench for database administration.
+- [MySQL Documentation for Windows Installation](https://dev.mysql.com/doc/refman/8.3/en/windows-installation.html): Installing MySQL on Microsoft Windows.
 - [MySQL Documentation for Ubuntu Installation](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/): Quick guide for installing MySQL on Ubuntu using APT repository.
 ### PostgreSQL
 - [PostgreSQL Downloads](https://www.postgresql.org/download/): Download the latest version of PostgreSQL.
 - [pgAdmin Download](https://www.pgadmin.org/download/): Tool for PostgreSQL administration.
+- [PostgreSQL Documentation Tutorial](https://www.postgresql.org/docs/current/tutorial-install.html): Tutorial to help with installing, configuring and using PostgreSQL database server.
 - [PostgreSQL Documentation for Ubuntu Installation](https://www.postgresql.org/download/linux/ubuntu/): Installation guide specific to Ubuntu environment.
 ### SQLite
 - [SQLite Downloads](https://www.sqlite.org/download.html): Download SQLite for Ubuntu.
