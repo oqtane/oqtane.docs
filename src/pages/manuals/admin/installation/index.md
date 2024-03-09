@@ -6,7 +6,7 @@ Oqtane is a modular application framework that allows you to create dynamic web 
 
 ---
 
-## Downloading an Official Release
+### Downloading an Official Release
 Find the official Oqtane releases on GitHub and follow these steps to download:
 
 1. Visit the [Official Oqtane Releases page on GitHub](https://github.com/oqtane/oqtane.framework/releases).
@@ -16,7 +16,7 @@ Find the official Oqtane releases on GitHub and follow these steps to download:
 
 ---
 
-## Resetting an Existing Oqtane Installation
+### Resetting an Existing Oqtane Installation
 If you need to perform a clean database install for a previous version of Oqtane, follow these steps:
 
 1. Open the `Oqtane.Server\appsettings.json` file.
