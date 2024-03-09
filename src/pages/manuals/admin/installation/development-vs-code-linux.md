@@ -51,7 +51,7 @@ _Note: This may not copy everything over, please review contents of all the late
    You may need to change the destination folder according to your Apache configuration.
 
 8. **Configure Apache:**  
-   Configure Apache to serve the Oqtane application following the instructions from the [Oqtane documentation](https://oqtane.org/documentation) on how to install Oqtane with Apache and MySQL or PostgreSQL.
+   Configure Apache to serve the Oqtane application following the instructions from the [Oqtane installation documentation](https://docs.oqtane.org/installation/index.md) on how to install Oqtane with Apache and MySQL or PostgreSQL.
 
 9. **Access Your Oqtane Application:**  
    Access your Oqtane application by visiting the URL of your virtual host. For example, if your virtual host is `oqtane.example.com`, then your URL would be [http://oqtane.example.com/](http://oqtane.example.com/).
@@ -64,7 +64,7 @@ You have successfully installed Oqtane for development using Visual Studio Code 
 
 **Resources**  
 For more information or troubleshooting, you can visit the following resources:
-- [Oqtane website](https://oqtane.org)
+- [Oqtane website](https://www.oqtane.org)
 - [Oqtane GitHub repository](https://github.com/oqtane/oqtane.framework)
 - [Visual Studio Code website](https://code.visualstudio.com)
 - [.NET website](https://dotnet.microsoft.com)
