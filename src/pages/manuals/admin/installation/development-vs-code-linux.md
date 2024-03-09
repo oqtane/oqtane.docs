@@ -13,8 +13,6 @@ Before you start, make sure you have the following prerequisites:
 1. **Install Visual Studio Code:**  
    Install Visual Studio Code on your machine. You can either download the .deb package from the [Visual Studio Code website](https://code.visualstudio.com) and install it using the command `sudo dpkg -i code*.deb`, or use the snap package manager and run the command `sudo snap install --classic code`.
 
-   ![Installing Visual Studio Code](path/to/installing_visual_studio_code_screenshot.png)
-
 2. **Clone the Oqtane GitHub Repository:**  
    Clone the Oqtane GitHub repository to your local machine using the following command:
    ```bash
