@@ -33,7 +33,7 @@ Performing a manual upgrade ensures full control over the process. Follow these 
   - Restart your site using your web server or cloud provider's interface.
   - In IIS, restart the previously stopped App Pool.
   - For Apache or Linux, restart the halted service.
-  - If you created an `app_offline.htm` file, delete it now. 
+- If you created an `app_offline.htm` file, delete it now. 
 
 ### Step 6: Verify Upgrade
 
