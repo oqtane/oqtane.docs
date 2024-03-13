@@ -43,4 +43,7 @@ Oqtane offers a streamlined upgrade experience for non-technical users through i
 
 _Note: Automated upgrades may not always be successful due to environmental factors. If an automated upgrade fails, revert to the manual method described above._
 
+#### Oqtane Automated Upgrade Process
+![Oqtane Automated Upgrade Process](assets/oqtane-automated-upgrade-process.png)
+
 By following these instructions, you can ensure your Oqtane installation remains up-to-date with the latest enhancements and security fixes.
