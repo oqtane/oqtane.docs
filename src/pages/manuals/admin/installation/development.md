@@ -1,4 +1,4 @@
-## Install Oqtane for Development
+## Install Oqtane for Visual Studio Development
 
 ### Development Version (Latest)
 
