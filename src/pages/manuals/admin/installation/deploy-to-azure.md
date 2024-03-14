@@ -1,4 +1,7 @@
 # Deploy to Azure
+
+[![Microsoft Azure](assets/microsoft-azure-logo.png)](https://azure.microsoft.com)
+
 The Oqtane framework is a modular application framework for Blazor that allows you to easily deploy and manage web applications on Azure.
 
 ## Prerequisites
