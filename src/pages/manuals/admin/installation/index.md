@@ -46,7 +46,7 @@ You can choose between the following deployment options:
 
 ## Azure
 Install Oqtane using the Deploy to Azure feature:
-- [Deploy Oqtane To Azure](installation/deploy-to-auzure.md): This guide shows you how to install Oqtane using the above Deploy To Azure feature.
+- [Deploy Oqtane To Azure](installation/deploy-to-azure.md): This guide shows you how to install Oqtane using the above Deploy To Azure feature.
 
 ## Windows IIS
 Install Oqtane with various configurations on Windows using IIS:
