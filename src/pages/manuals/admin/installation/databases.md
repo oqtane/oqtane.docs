@@ -27,7 +27,7 @@ This section provides a general setup guide for popular database systems such as
 4. **Connect to SQL Server**: After installation and configuration, you can connect to SQL Server using tools like SQL Server Management Studio (SSMS) or command-line tools like `sqlcmd` to manage databases and execute queries.
 
 ## MySQL
-![MySQL](assets/mysql-logo.png)
+![MySQL](assets/mysql.png)
 
 ### Windows
 ![Windows](assets/windows-logo.png)
