@@ -23,6 +23,7 @@ _Note: The links in this section are external and may lead to websites that are 
 
 ## Databases
 ### SQL Server
+
 ![Microsoft SQL Server](assets/ms-sql-server-logo.png)
 
 - [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads): Download SQL Server.
@@ -31,13 +32,16 @@ _Note: The links in this section are external and may lead to websites that are 
 - [SQL Server Installation Guide for Linux Ubuntu](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu): Detailed guide on installing SQL Server on Ubuntu.
 - [Visual Studio Code mssql Extension](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code/mssql-extensions): The mssql extension for Visual Studio Code (VS Code) to work with databases in SQL Server on Windows, macOS, and Linux, as well as Azure SQL Database and Azure SQL Managed Instance.
 ### MySQL
+
 ![MySQL](assets/mysql-logo.png)
 
 - [MySQL Downloads](https://dev.mysql.com/downloads/mysql/): Download MySQL Community Server.
 - [MySQL Workbench Download](https://dev.mysql.com/downloads/workbench/): MySQL Workbench for database administration.
 - [MySQL Documentation for Windows Installation](https://dev.mysql.com/doc/refman/8.3/en/windows-installation.html): Installing MySQL on Microsoft Windows.
 - [MySQL Documentation for Ubuntu Installation](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/): Quick guide for installing MySQL on Ubuntu using APT repository.
+- 
 ### PostgreSQL
+
 ![PostgreSQL](assets/postgresql-logo.png)
 
 - [PostgreSQL Downloads](https://www.postgresql.org/download/): Download the latest version of PostgreSQL.
@@ -45,18 +49,21 @@ _Note: The links in this section are external and may lead to websites that are 
 - [PostgreSQL Documentation Tutorial](https://www.postgresql.org/docs/current/tutorial-install.html): Tutorial to help with installing, configuring and using PostgreSQL database server.
 - [PostgreSQL Documentation for Ubuntu Installation](https://www.postgresql.org/download/linux/ubuntu/): Installation guide specific to Ubuntu environment.
 ### SQLite
+
 ![SQLite](assets/sqlite-logo.png)
 
 - [SQLite Downloads](https://www.sqlite.org/download.html): Download SQLite for Ubuntu.
 - [SQLite Documentation](https://www.sqlite.org/docs.html): Official documentation for SQLite.
 
 ## Windows OS
+
 ![Windows](assets/windows-logo.png)
 
 - [Windows Server 2022 Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022): A free trial version of Windows Server 2022, the latest release of the server operating system from Microsoft.application platform, and storage.
 - [Windows 11 Enterprise Evaluation Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise): A free trial version of Windows 11 Enterprise, the most advanced and secure edition of Windows 11, the latest operating system from Microsoft.
 
 ## Linux Ubuntu OS
+
 ![Ubuntu](assets/ubuntu-logo.png)
 
 - **Downloads:** 
@@ -69,7 +76,9 @@ _Note: The links in this section are external and may lead to websites that are 
   - [GNU Nano Official Website](https://www.nano-editor.org/): Visit the official website of GNU Nano to find additional resources, downloads, and community support.
   - [GNU Nano Documentation](https://www.nano-editor.org/docs.php): Access the comprehensive documentation for GNU Nano, including guides, FAQs, and release notes.
 - **Apache Server**
-    ![Apache HTTP Server](assets/apache-http-server-logo.png)
+
+![Apache HTTP Server](assets/apache-http-server-logo.png)
+  
   - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for the Apache HTTP Server, providing comprehensive guides, configuration references, and troubleshooting tips.
   - [Apache Foundation](https://www.apache.org/): The official website of the Apache Software Foundation, where you can find information about all Apache projects, including the HTTP Server.
   - [Ubuntu: Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache): Tutorial going through the steps of setting up an Apache server on Ubuntu.
