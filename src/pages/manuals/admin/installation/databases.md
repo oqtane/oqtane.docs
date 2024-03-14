@@ -3,7 +3,7 @@
 This section provides a general setup guide for popular database systems such as SQL Server, MySQL, PostgreSQL, and SQLite on both Windows and Linux environments. Each database system includes steps for downloading, installing, configuring, and connecting to the database, along with relevant tools and documentation.
 
 ## SQL Server
-![MS SQL SERVER](assets/ms-sql-server.png)
+![MS SQL SERVER](assets/ms-sql-server-logo.png)
 
 ### Windows
 ![Windows](assets/windows-logo.png)
@@ -27,10 +27,10 @@ This section provides a general setup guide for popular database systems such as
 4. **Connect to SQL Server**: After installation and configuration, you can connect to SQL Server using tools like SQL Server Management Studio (SSMS) or command-line tools like `sqlcmd` to manage databases and execute queries.
 
 ## MySQL
-![MySQL](assets/mysql.png)
+![MySQL](assets/mysql-logo.png)
 
 ### Windows
-![Windows](assets/windows.png)
+![Windows](assets/windows-logo.png)
 
 1. **Download MySQL**: Visit the [MySQL Downloads](https://dev.mysql.com/downloads/) page and download the MySQL Community Edition for Windows.
 
@@ -41,7 +41,7 @@ This section provides a general setup guide for popular database systems such as
 4. **Configure MySQL**: Once installed, configure MySQL according to your requirements. This may involve setting up databases, creating users, and configuring security settings. Refer to the MySQL documentation for detailed instructions on configuration.
 
 ### Linux
-![Linux](assets/linux-tux.png)
+![Linux](assets/linux-logo.png)
 
 1. **Download MySQL**: Visit the [MySQL Downloads](https://dev.mysql.com/downloads/) page and follow the instructions for installing MySQL on Ubuntu or your preferred Linux distribution.
 
@@ -52,10 +52,10 @@ This section provides a general setup guide for popular database systems such as
 4. **Connect to MySQL**: Once MySQL is installed and configured, you can connect to it using MySQL Workbench or command-line tools like `mysql` to manage databases and execute queries.
 
 ## PostgreSQL
-![PostgreSQL](assets/postgresql.png)
+![PostgreSQL](assets/postgresql-logo.png)
 
 ### Windows
-![Windows](assets/windows.png)
+![Windows](assets/windows-logo.png)
 
 1. **Download PostgreSQL**: Visit the [PostgreSQL Downloads](https://www.postgresql.org/download/windows/) page and download the installer for PostgreSQL on Windows.
 
@@ -66,7 +66,7 @@ This section provides a general setup guide for popular database systems such as
 4. **Configure PostgreSQL**: Once installed, configure PostgreSQL according to your requirements. This may involve setting up databases, creating users, and configuring security settings. Refer to the PostgreSQL documentation for detailed instructions on configuration.
 
 ### Linux
-![Linux](assets/linux-tux.png)
+![Linux](assets/linux-logo.png)
 
 1. **Install PostgreSQL**: On Ubuntu or your preferred Linux distribution, use the package manager to install PostgreSQL. Run the following command in the terminal:
 ```
@@ -79,10 +79,10 @@ sudo apt install postgresql postgresql-contrib
 3. **Connect to PostgreSQL**: Once PostgreSQL is installed and configured, you can connect to it using pgAdmin or command-line tools like `psql`. Use these tools to manage databases, create tables, and execute SQL queries.
 
 ## SQLite
-![SQLite](assets/sqlite.png)
+![SQLite](assets/sqlite-logo.png)
 
 ### Windows
-![Windows](assets/windows.png)
+![Windows](assets/windows-logo.png)
 
 1. **Download SQLite**: Visit the [SQLite Downloads](https://www.sqlite.org/download.html) page and download the SQLite tools for Windows. You can choose between the precompiled binaries or the command-line shell.
 
@@ -91,7 +91,7 @@ sudo apt install postgresql postgresql-contrib
 3. **Set up Environment Variables (Optional)**: If you plan to use SQLite from the command line frequently, you may want to add the directory containing the SQLite executable to your system's PATH environment variable. This will allow you to run SQLite commands from any directory in the command prompt.
 
 ### Linux
-![Linux](assets/linux-tux.png)
+![Linux](assets/linux-logo.png)
 
 1. **Install SQLite**: SQLite is likely available in your Linux distribution's package repositories. Use your package manager to install SQLite. For example, on Ubuntu, you can use the following command:
 ```
