@@ -6,7 +6,7 @@ This section provides a general setup guide for popular database systems such as
 ![MS SQL SERVER](assets/ms-sql-server.png)
 
 ### Windows
-![Windows](assets/windows.png)
+![Windows](assets/windows-logo.png)
 1. **Download SQL Server**: Navigate to the [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page and download the appropriate version of SQL Server for Windows.
 
 2. **Install SQL Server**: Follow the installation guide provided on the SQL Server website to install SQL Server on your Windows machine. Make sure to select the appropriate options during the installation process according to your requirements.
@@ -16,7 +16,8 @@ This section provides a general setup guide for popular database systems such as
 4. **Configure SQL Server**: After installation, configure SQL Server according to your specific needs. This may include setting up databases, configuring security settings, and adjusting server options.
 
 ### Linux
-![Linux](assets/linux-tux.png)
+<img src="assets/linux.png" alt="Image" width="200">
+![Linux](assets/linux-logo.png)
 
 1. **Download SQL Server**: Navigate to the [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page and follow the instructions for installing SQL Server on Ubuntu or your preferred Linux distribution.
 
