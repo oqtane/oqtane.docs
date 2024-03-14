@@ -10,7 +10,7 @@ _Note: The links in this section are external and may lead to websites that are 
 - [Oqtane Blog](https://www.oqtane.org/blog/): Stay updated with the latest news, tips, and tutorials.
 
 ## IDE Tools
-![Visual Studio](assets/visual-studio-logo.png)
+![Visual Studio](assets/visual-studio-logo.jpg)
 
 - [Visual Studio and VS Code Downloads](https://visualstudio.microsoft.com/downloads/): Download Visual Studio (Windows Only) and Visual Studio Code (Windows and Linux) IDEs for development.
 
