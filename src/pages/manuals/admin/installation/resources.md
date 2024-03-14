@@ -79,7 +79,8 @@ _Note: The links in this section are external and may lead to websites that are 
   - [Online Manual](https://www.nano-editor.org/dist/latest/nano.html): This is the online manual for the Nano text editor, providing detailed documentation on its usage and features.
   - [GNU Nano Official Website](https://www.nano-editor.org/): Visit the official website of GNU Nano to find additional resources, downloads, and community support.
   - [GNU Nano Documentation](https://www.nano-editor.org/docs.php): Access the comprehensive documentation for GNU Nano, including guides, FAQs, and release notes.
-- **Apache Server**
+
+## Apache HTTP Server
 
 [![Apache HTTP Server](assets/apache-http-server-logo.png)](https://httpd.apache.org/docs/)
   
@@ -87,10 +88,6 @@ _Note: The links in this section are external and may lead to websites that are 
   - [Apache Foundation](https://www.apache.org/): The official website of the Apache Software Foundation, where you can find information about all Apache projects, including the HTTP Server.
   - [Ubuntu: Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache): Tutorial going through the steps of setting up an Apache server on Ubuntu.
   - [Host ASP.NET Core on Linux with Apache](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache): This article explains how to set up Apache as a reverse proxy server on CentOS 7 to redirect HTTP traffic to an ASP.NET Core web app running on the Kestrel server.
-- **Nginx Server**
-  - [Host ASP.NET Core on Linux with Nginx](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx): Learn how to set up a production-ready ASP.NET Core environment for Ubuntu, Red Hat Enterprise (RHEL), and SUSE Linux Enterprise Server using Nginx as a reverse proxy server.
-  - [Nginx Official Website](https://nginx.org/en/): Visit the official website of Nginx to learn more about this open-source web server, commonly used as a reverse proxy or HTTP cache.
-  - [Install and configure Nginx on Ubuntu](https://ubuntu.com/tutorials/install-and-configure-nginx): This tutorial provides a comprehensive guide to installing and configuring Nginx on Ubuntu. It covers topics such as setting up a basic website, configuring virtual hosts, activating virtual hosts, and testing the results.
 
 ## Additional Resources
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/): Visit MDN for comprehensive documentation and resources on web development, including HTML, CSS, JavaScript, and more.
