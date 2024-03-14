@@ -69,8 +69,7 @@ _Note: The links in this section are external and may lead to websites that are 
   - [GNU Nano Official Website](https://www.nano-editor.org/): Visit the official website of GNU Nano to find additional resources, downloads, and community support.
   - [GNU Nano Documentation](https://www.nano-editor.org/docs.php): Access the comprehensive documentation for GNU Nano, including guides, FAQs, and release notes.
 - **Apache Server**
-![Apache HTTP Server](assets/apache-http-server-logo.png)
-
+    ![Apache HTTP Server](assets/apache-http-server-logo.png)
   - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for the Apache HTTP Server, providing comprehensive guides, configuration references, and troubleshooting tips.
   - [Apache Foundation](https://www.apache.org/): The official website of the Apache Software Foundation, where you can find information about all Apache projects, including the HTTP Server.
   - [Ubuntu: Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache): Tutorial going through the steps of setting up an Apache server on Ubuntu.
