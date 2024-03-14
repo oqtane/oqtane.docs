@@ -10,12 +10,16 @@ _Note: The links in this section are external and may lead to websites that are 
 - [Oqtane Blog](https://www.oqtane.org/blog/): Stay updated with the latest news, tips, and tutorials.
 
 ## IDE Tools
+
 [![Visual Studio](assets/visual-studio-logo.jpg)](https://visualstudio.microsoft.com/downloads/)
 
 - [Visual Studio and VS Code Downloads](https://visualstudio.microsoft.com/downloads/): Download Visual Studio (Windows Only) and Visual Studio Code (Windows and Linux) IDEs for development.
 
 ## IIS & .NET Core Hosting
-- [.NET Core Hosting Bundle](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
+
+[![Microsoft .NET](assets/microsoft-dot-net-logo.jpg)](https://dotnet.microsoft.com/en-us/download)
+
+- [Microsoft .NET Downloads](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
 - [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
 - [WebSocket Support on IIS](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis): Instructions for enabling WebSockets on IIS.
 - [Publish an ASP.NET Core app to IIS](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis): This tutorial demonstrates how to host an ASP.NET Core app on an IIS server.
