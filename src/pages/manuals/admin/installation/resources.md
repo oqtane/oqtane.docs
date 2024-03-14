@@ -11,7 +11,7 @@ _Note: The links in this section are external and may lead to websites that are 
 
 ## IDE Tools
 
-[![Visual Studio](assets/visual-studio-logo.jpg)](https://visualstudio.microsoft.com/downloads/)
+[![Visual Studio](assets/visual-studio-logo.png)](https://visualstudio.microsoft.com/downloads/)
 
 - [Visual Studio and VS Code Downloads](https://visualstudio.microsoft.com/downloads/): Download Visual Studio (Windows Only) and Visual Studio Code (Windows and Linux) IDEs for development.
 
