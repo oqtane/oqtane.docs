@@ -17,7 +17,7 @@ _Note: The links in this section are external and may lead to websites that are 
 
 ## IIS & .NET Core Hosting
 
-[![Microsoft .NET](assets/microsoft-dot-net-logo.jpg)](https://dotnet.microsoft.com/en-us/download)
+[![Microsoft .NET](assets/microsoft-dot-net-logo.png)](https://dotnet.microsoft.com/en-us/download)
 
 - [Microsoft .NET Downloads](https://dotnet.microsoft.com/en-us/download): Download the .NET Core Hosting Bundle for hosting .NET Core applications on Windows servers.
 - [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
