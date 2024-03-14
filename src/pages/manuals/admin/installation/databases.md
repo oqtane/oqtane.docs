@@ -16,7 +16,7 @@ This section provides a general setup guide for popular database systems such as
 4. **Configure SQL Server**: After installation, configure SQL Server according to your specific needs. This may include setting up databases, configuring security settings, and adjusting server options.
 
 ### Linux
-![Linux](assets/linux-logo.png){:max-height="50px"}
+![Linux](assets/linux-logo.png)
 
 1. **Download SQL Server**: Navigate to the [SQL Server Downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) page and follow the instructions for installing SQL Server on Ubuntu or your preferred Linux distribution.
 
