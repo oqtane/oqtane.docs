@@ -89,7 +89,9 @@ _Note: The links in this section are external and may lead to websites that are 
   - [Ubuntu: Install and Configure Apache](https://ubuntu.com/tutorials/install-and-configure-apache): Tutorial going through the steps of setting up an Apache server on Ubuntu.
   - [Host ASP.NET Core on Linux with Apache](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache): This article explains how to set up Apache as a reverse proxy server on CentOS 7 to redirect HTTP traffic to an ASP.NET Core web app running on the Kestrel server.
 
-## Additional Resources
+---
+
+## Resources
 - [Mozilla Developer Network (MDN)](https://developer.mozilla.org): Visit MDN for comprehensive documentation and resources on web development, including HTML, CSS, JavaScript, and more.
 - [Mozilla Server Side TLS Guidelines](https://wiki.mozilla.org/Security/Server_Side_TLS): Mozilla provides guidelines for configuring server-side TLS to enhance security. These guidelines cover various aspects of TLS configuration, including cipher suites, protocols, and certificate management.
 - [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/): This tool helps generate secure SSL configurations for popular web servers, including Apache, Nginx, and others. It provides recommended configurations based on Mozilla's SSL/TLS best practices.
