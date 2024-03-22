@@ -92,7 +92,8 @@
 
 ---
 ## Resources
-- Review details about the [databases](databases.md) Oqtane supports.
-- For even more information and additional resources, visit the [installation resources](resources.md) page.
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
+
