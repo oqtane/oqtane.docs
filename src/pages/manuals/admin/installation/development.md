@@ -126,9 +126,19 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
    
 1. Run the application.
 
----
+---  
+
 ## Resources
+- [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
+- [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
+- [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [.NET Core](https://dotnet.microsoft.com)
+- 
+
+## Related Pages
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
+
