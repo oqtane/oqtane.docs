@@ -58,6 +58,6 @@ By following these instructions, you'll ensure your Oqtane installation stays cu
 
 ## Resources
 - [Oqtane Supported Databases](databases.md)
-- [Installation Resources](resources.md)
+- [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
