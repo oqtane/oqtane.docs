@@ -110,5 +110,15 @@ This command should display the installed version of SQLite.
 sqlite3 mydatabase.db
 ```
 This command will open the SQLite command-line interface and create or connect to a database file named `mydatabase.db`.
+---
+## Resources
+- [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
+- [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
+- [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
+- [Visual Studio](https://visualstudio.microsoft.com)
+- [.NET Core](https://dotnet.microsoft.com)
+
+## Related Pages
+- [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
