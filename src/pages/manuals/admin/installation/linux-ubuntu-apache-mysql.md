@@ -1,4 +1,4 @@
-# Install Oqtane on Ubuntu Desktop with Apache and MySQL
+# Install Oqtane using Ubuntu Desktop, Apache and MySQL
 ![Ubuntu](assets/ubuntu-logo.png)
 ![Apache HTTP Server](assets/apache-http-server-logo.png)
 ![MySQL](assets/mysql-logo.png)
