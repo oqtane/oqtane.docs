@@ -61,7 +61,9 @@ _Note: This may not copy everything over, please review contents of all the late
 
 **Congratulations!**  
 You have successfully installed Oqtane for development using Visual Studio Code on Linux Ubuntu. Enjoy! 😊
+
 ---
+
 ## Resources
 - [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
 - [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
