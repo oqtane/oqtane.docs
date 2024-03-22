@@ -286,19 +286,19 @@ This step involves creating configuration files for Apache virtual host and serv
     sudo mkdir /var/www/oqtane
 
 ```
-    Clone or Download Oqtane Framework: Navigate to the Oqtane Framework GitHub repository and clone the repository to your local machine using Git or download the source code as a ZIP archive.
+ Clone or Download Oqtane Framework: Navigate to the Oqtane Framework GitHub repository and clone the repository to your local machine using Git or download the source code as a ZIP archive.
 
-        Option 1: Clone Repository
+  Option 1: Clone Repository
 
-     ```bash
+  ```bash
 
-        sudo git clone https://github.com/oqtane/oqtane.framework.git /var/www/oqtane
-    
-     ```
-    Option 2: Download ZIP Archive
-        Visit the Oqtane Framework repository on GitHub.
-        Click on the "Code" button and select "Download ZIP".
-        Extract the downloaded ZIP archive to the /var/www/oqtane directory.
+     sudo git clone https://github.com/oqtane/oqtane.framework.git /var/www/oqtane
+ 
+  ```
+ Option 2: Download ZIP Archive
+     Visit the Oqtane Framework repository on GitHub.
+     Click on the "Code" button and select "Download ZIP".
+     Extract the downloaded ZIP archive to the /var/www/oqtane directory.
 
 Place Oqtane Files: Once you have obtained the Oqtane Framework files, place them in the directory structure you created earlier. Ensure that the files are organized correctly within the directory to maintain the application's structure.
 
