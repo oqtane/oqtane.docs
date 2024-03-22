@@ -352,10 +352,20 @@ After completing the installation process, it's important to test your Oqtane ap
 
 By testing the installation and functionality of your Oqtane application, you can identify any issues or errors early on and address them accordingly, ensuring a smooth and successful deployment.
 
----
+---  
+
 ## Resources
+- [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
+- [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
+- [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [.NET Core](https://dotnet.microsoft.com)
+- 
+
+## Related Pages
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
+
 
