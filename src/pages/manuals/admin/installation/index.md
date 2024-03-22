@@ -32,10 +32,10 @@ This section provides installation instructions for development purposes. You ca
 
 ## Windows
 - [Windows Visual Studio Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio and Windows development.
-- [Windows Visual Studio Code Development](development-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development. *TODO*
+- [Windows Visual Studio Code Development](development-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development.
 
 ## Linux
-- [Linux Visual Studio Code Development](development-vs-code-linux.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development. *TODO*
+- [Linux Visual Studio Code Development](development-vs-code-linux.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development.
 
 ---
 
