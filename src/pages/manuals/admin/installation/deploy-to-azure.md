@@ -21,3 +21,6 @@ The Oqtane framework is a modular application framework for Blazor that allows y
 
 ## Congratulations!
 You have successfully deployed your Oqtane application on Azure. Enjoy! 😊
+
+## Additaional Resources
+
