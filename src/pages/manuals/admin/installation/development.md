@@ -127,8 +127,8 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 1. Run the application.
 
 ---
-## Additional Information
-- Review details about the [databases](databases.md) Oqtane supports.
-- For even more information and additional resources, visit the [installation resources](resources.md) page.
+## Resources
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
