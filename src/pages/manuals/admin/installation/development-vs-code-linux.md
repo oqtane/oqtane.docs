@@ -51,7 +51,7 @@ _Note: This may not copy everything over, please review contents of all the late
    You may need to change the destination folder according to your Apache configuration.
 
 8. **Configure Apache:**  
-   Configure Apache to serve the Oqtane application following the instructions from the [Oqtane installation documentation](https://docs.oqtane.org/installation/index.md) on how to install Oqtane with Apache and MySQL or PostgreSQL.
+   Configure Apache to serve the Oqtane application following the instructions from the [Oqtane installation documentation](https://docs.oqtane.org/installation/index.md) on how to install Oqtane with Apache and [MySQL](linux-ubuntu-apache-mysql.md) or [PostgreSQL](linux-ubuntu-apache-postgresql.md).
 
 9. **Access Your Oqtane Application:**  
    Access your Oqtane application by visiting the URL of your virtual host. For example, if your virtual host is `oqtane.example.com`, then your URL would be [http://oqtane.example.com/](http://oqtane.example.com/).
@@ -61,11 +61,17 @@ _Note: This may not copy everything over, please review contents of all the late
 
 **Congratulations!**  
 You have successfully installed Oqtane for development using Visual Studio Code on Linux Ubuntu. Enjoy! 😊
+---
+## Resources
+- [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
+- [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
+- [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [.NET Core](https://dotnet.microsoft.com)
+- [Apache HTTPD Server](https://httpd.apache.org)
+---
+## Related Pages
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
 
-**Resources**  
-For more information or troubleshooting, you can visit the following resources:
-- [Oqtane website](https://www.oqtane.org)
-- [Oqtane GitHub repository](https://github.com/oqtane/oqtane.framework)
-- [Visual Studio Code website](https://code.visualstudio.com)
-- [.NET website](https://dotnet.microsoft.com)
-- [Apache website](https://httpd.apache.org)
+[← Back to Installation Home](index.md)
