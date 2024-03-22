@@ -79,6 +79,7 @@ _Note: Ensure that the folder containing the Oqtane files has appropriate modify
 3. You should now see the Oqtane installation wizard. Follow the on-screen instructions to complete the installation process.
 
 ## Step 12: Secure the Site (Optional)
+_Note: It's essential to implement robust security measures for production applications before going live._
 
 1. Once the installation is complete and the site is up and running, consider implementing security measures to protect your Oqtane application.
 2. **Enable HTTPS**: Encrypt communication between the server and clients by enabling HTTPS. You can obtain SSL/TLS certificates from a trusted Certificate Authority (CA) like [Let's Encrypt](https://letsencrypt.org/) or purchase one from a commercial provider. Learn more about HTTPS and security best practices from the [Mozilla Server Side TLS Guidelines](https://wiki.mozilla.org/Security/Server_Side_TLS). [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/) tool helps generate secure SSL configurations for popular web servers, including Apache, Nginx, and others. It provides recommended configurations based on Mozilla's SSL/TLS best practices.
