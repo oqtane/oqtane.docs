@@ -61,7 +61,7 @@ Install Oqtane with Apache on Linux (Ubuntu) with MySQL or PostgreSQL:
 
 ---
 
-# Additional Resources
+# Resources
 Explore additional installation resources and access the Oqtane blog and GitHub repository:
 - [Oqtane Supported Databases](databases.md): Find detailed information on all databases supported by Oqtane for both Windows and Linux.
 - [Oqtane Installation Resources](resources.md): Access comprehensive installation guides and resources for deploying Oqtane on various platforms. 
