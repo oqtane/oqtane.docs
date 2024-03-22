@@ -1,4 +1,4 @@
-# Install Oqtane on Linux Ubuntu, Apache, PostgreSQL
+# Install Oqtane Using Linux Ubuntu, Apache, and PostgreSQL
 
 # Step 1: Install Ubuntu Desktop
 
