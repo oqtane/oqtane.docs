@@ -359,8 +359,9 @@ After completing the installation process, it's important to test your Oqtane ap
 By testing the installation and functionality of your Oqtane application, you can identify any issues or errors early on and address them accordingly, ensuring a smooth and successful deployment.
 
 ---
-## Additional Information
-- Review details about the [databases](databases.md) Oqtane supports.
-- For even more information and additional resources, visit the [installation resources](resources.md) page.
+## Resources
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
+
