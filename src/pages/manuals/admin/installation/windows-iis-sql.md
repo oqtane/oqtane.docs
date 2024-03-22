@@ -89,8 +89,9 @@ _Note: Ensure that the folder containing the Oqtane files has appropriate modify
 7. **Regular Security Audits**: Conduct regular security audits of your Oqtane application to identify and remediate security vulnerabilities. Perform code reviews, penetration testing, and vulnerability scanning to ensure the integrity and security of your site.
 
 ---
-## Additional Information
-- Review details about the [databases](databases.md) Oqtane supports.
-- For even more information and additional resources, visit the [installation resources](resources.md) page.
+## Resources
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
 
 [← Back to Installation Home](index.md)
+
