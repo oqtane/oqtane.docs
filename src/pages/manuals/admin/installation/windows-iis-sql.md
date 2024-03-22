@@ -1,4 +1,4 @@
-# Installing Oqtane on Windows with IIS and MS SQL Server
+# Install Oqtane Using Windows, IIS and MS SQL Server
 
 ## Overview
 
