@@ -1,6 +1,7 @@
 # Install Oqtane for Development using Visual Studio Code on Linux (VS Code Linux Ubuntu)
 
 This document provides general instructions for installing Oqtane for development using Visual Studio Code on Linux Ubuntu. Oqtane is an open-source, modular application framework for Blazor that allows you to easily deploy and manage web applications on Azure or any web server.
+
 TODO:  Review and update all steps to ensure things are as clear, easy and not missing steps, and also adding images.  This page will become more uniform with the others as this evolves.
 
 ## Prerequisites
