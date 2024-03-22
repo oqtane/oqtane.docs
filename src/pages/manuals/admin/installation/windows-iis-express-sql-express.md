@@ -1,4 +1,4 @@
-# Install on Windows, IIS Express and MS SQL Express
+# Install Using Windows, IIS Express and MS SQL Express
 
 ## Step 1: Install IIS
 
