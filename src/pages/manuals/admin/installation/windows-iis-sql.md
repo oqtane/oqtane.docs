@@ -15,7 +15,7 @@ Before you begin, make sure you have the following:
 ## Step 1: Enable Internet Information Services (IIS)
 
 1. Open the "Turn Windows features on or off" menu next to the Windows Start button.
-2. Enable Internet Information Services (IIS), ensuring that the WebSocket Protocol is enabled and WebDAV Publishing is disabled.
+2. Enable Internet Information Services (IIS), ensuring that the  [WebSocket Protocol](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis) is enabled and WebDAV Publishing is disabled.
 3. Click OK to complete the installation.
 
 ## Step 2: Install URL Rewrite Module
