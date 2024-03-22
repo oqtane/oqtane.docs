@@ -1,4 +1,4 @@
-# Install on Windows, IIS Express, LocalDB 
+# Install Oqtane Using Windows, IIS Express and LocalDB 
 
 ## Step 1: Install IIS
 
