@@ -55,3 +55,9 @@ _Note: Automated upgrades may fail due to environmental factors. If this occurs,
 ![Oqtane Automated Upgrade Process](assets/oqtane-automated-upgrade-process.png)
 
 By following these instructions, you'll ensure your Oqtane installation stays current with the latest enhancements and security fixes. Remember, stopping the Oqtane application is essential to replace files during the upgrade process. Automated upgrades streamline the process, but manual upgrades provide greater control, especially for custom installations.
+
+## Resources
+- [Oqtane Supported Databases](databases.md)
+- [Installation Resources](resources.md)
+
+[← Back to Installation Home](index.md)
