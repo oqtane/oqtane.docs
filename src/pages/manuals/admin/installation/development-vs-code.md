@@ -25,11 +25,12 @@ For general development and keeping up with the latest features, you can use the
 7. Ensure that you specify **Oqtane.Server** as the Startup Project.
  
 8. Run the application.
-   
-### Additional Information
+---  
+## Resources
 - [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
-- [ALL Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases) 
+- [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases) 
 - [Official Oqtane.Framework Respository](https://github.com/oqtane/oqtane.framework) 
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
 
-### Related Pages
-- [Oqtane Develoopment using Visual Studio Code and Linux](development-vs-code-linux.md)
+[← Back to Installation Home](index.md)
