@@ -67,3 +67,6 @@ Explore additional installation resources and access the Oqtane blog and GitHub 
 - [Oqtane Installation Resources](resources.md): Access comprehensive installation guides and resources for deploying Oqtane on various platforms. 
 - [Oqtane Blog](https://www.oqtane.org/blog): Stay updated with the latest news, announcements, and insights from the Oqtane community by exploring the Oqtane blog.
 - [Oqtane GitHub Repository](https://github.com/oqtane/oqtane.framework): Access the Oqtane framework's GitHub repository to explore the source code, contribute to development, and stay informed about the latest updates and releases.
+
+[← Back to Documentation Manuals Home Page](../index.md)
+
