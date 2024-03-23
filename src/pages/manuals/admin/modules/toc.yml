@@ -20,9 +20,7 @@
     - name: Creating a Module
       href: creating-a-module.md      
     - name: Customizing Module Appearance
-      href: customizing-module-appearance.md      
-    - name: Module Configuration
-      href: module-configuration.md      
+      href: customizing-module-appearance.md    
     - name: Module Deployment
       href: module-deployment.md    
     - name: Troubleshooting Tips
