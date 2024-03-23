@@ -75,5 +75,7 @@ You have successfully installed Oqtane for development using Visual Studio Code 
 ## Related Pages
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
+- [Oqtane Framework Development Using Visual Studio Code with Windows](development-vs-code.md)
+- [Oqtane Framework Development Using Visual Studio with Windows](development.md)
 
 [← Back to Installation Home](index.md)
