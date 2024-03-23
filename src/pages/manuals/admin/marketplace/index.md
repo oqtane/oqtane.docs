@@ -6,13 +6,13 @@ The Oqtane Marketplace is a central hub where users and developers can discover,
 
 Learn how to navigate the Oqtane Marketplace, find and install themes and modules, and explore the available offerings. This guide will walk you through the process of discovering and utilizing resources from the Marketplace to enhance your Oqtane experience.
 
-## [Submitting Themes and Modules](submitting-themes-and-modules.md)
+## [Submitting Contributions](submitting-contributions.md)
 
-Are you a developer interested in sharing your themes or modules with the Oqtane community? This manual provides detailed instructions on how to prepare and submit your creations to the Oqtane Marketplace, making them accessible to users worldwide.
+Are you a developer interested in sharing your themes, modules, or translations with the Oqtane community? This manual provides detailed instructions on how to prepare and submit your contributions to the Oqtane Marketplace, making them accessible to users worldwide.
 
-## [Monetization](monetization.md)
+## [Monetization Options](monetization.md)
 
-Discover opportunities for monetization within the Oqtane Marketplace. Whether you're interested in offering commercial themes and modules or exploring sponsorship and advertising options, this guide outlines various strategies for monetizing your contributions to the Oqtane ecosystem.
+Discover opportunities for monetization within the Oqtane Marketplace. Whether you're interested in offering commercial products or exploring sponsorship and advertising options, this guide outlines various strategies for monetizing your contributions to the Oqtane ecosystem.
 
 ## [Troubleshooting](troubleshooting.md)
 
