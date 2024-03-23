@@ -43,6 +43,6 @@ For general development and keeping up with the latest features, you can use the
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 - [Oqtane Development Using Visual Studio Code and Linux](development-vs-code-linux.md)
-- [Oqtane Installation Resources](resources.md)
+- [Oqtane Framework Development Using Visual Studio](development.md)
 
 [← Back to Installation Home](index.md)
