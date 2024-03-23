@@ -3,9 +3,11 @@
 ## Overview
 Developing Oqtane applications with Visual Studio Code (VS Code) offers a lightweight yet powerful environment for coding, debugging, and managing project resources. While VS Code may not provide the full IDE experience of Visual Studio, it offers extensive support for web development tasks, including CSS editing, theme development, and module creation.
 
-### Development Version (Latest)
+---
 
-For general development and keeping up with the latest features, you can use the development branch of the Oqtane Framework. However, for module development, it is recommended to target a stable release version of the Oqtane Framework.
+## Development Version
+
+For general development and keeping up with the latest features, you can use the development branch of the Oqtane Framework. However, for module development, it is recommended to target a [stable release version](https://github.com/oqtane/oqtane.framework/releases) of the Oqtane Framework.
 
 1. **Install Latest .NET SDK Release**: Ensure you have the latest .NET SDK installed on your system. You can download it from the [official .NET website](https://dotnet.microsoft.com/download/dotnet).
 
@@ -18,14 +20,14 @@ For general development and keeping up with the latest features, you can use the
    git clone -b dev https://github.com/oqtane/oqtane.framework.git
    ```
    
-6. **Open Oqtane Solution:** Navigate to the cloned directory and open the **Oqtane.sln** solution file in Visual Studio Code.
+6. **Open Oqtane Solution**": Navigate to the cloned directory and open the **Oqtane.sln** solution file in Visual Studio Code.
    
-7. **Build the solution:** Build the solution using the built-in terminal or the .NET CLI by running the following command:
+7. **Build the solution**: Build the solution using the built-in terminal or the .NET CLI by running the following command:
    ```bash
    dotnet build
    ```
  
-8. **Run Application:** After building the solution, you can run the Oqtane application locally using IIS or Apache. Ensure to stop/start the app pool or services related to the Oqtane app on the web server when updating file changes.
+8. **Run Application**: After building the solution, you can run the Oqtane application locally using IIS or Apache. Ensure to stop/start the app pool or services related to the Oqtane app on the web server when updating file changes.
 
 ---  
 
