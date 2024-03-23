@@ -1,5 +1,4 @@
-
-- name: Introduction
+- name: Overview
   href: index.md
 
 - name: Adding Modules
@@ -7,3 +6,21 @@
 
 - name: Working With Modules
   href: working-with-modules.md
+  
+- name: Developing Modules
+  href: developing-modules.md
+  children:
+    - name: Module Basics
+      href: module-basics.md
+      
+    - name: Creating a Module
+      href: creating-a-module.md
+      
+    - name: Customizing Module Appearance
+      href: customizing-module-appearance.md
+      
+    - name: Module Configuration
+      href: module-configuration.md
+      
+    - name: Module Deployment
+      href: module-deployment.md
