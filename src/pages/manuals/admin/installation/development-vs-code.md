@@ -5,7 +5,7 @@ Developing Oqtane applications with Visual Studio Code (VS Code) offers a lightw
 
 ---
 
-## Development Version
+## Development
 
 For general development and keeping up with the latest features, you can use the development branch of the Oqtane Framework. However, for module development, it is recommended to target a [stable release version](https://github.com/oqtane/oqtane.framework/releases) of the Oqtane Framework.
 
@@ -21,13 +21,15 @@ For general development and keeping up with the latest features, you can use the
    ```
    
 6. **Open Oqtane Solution**": Navigate to the cloned directory and open the **Oqtane.sln** solution file in Visual Studio Code.
+
+7. Copy Files to Hosted Folder Location: Copy the necessary files to the hosted folder location, which could be IIS or Apache root directory. This typically includes the compiled binaries and any static assets required for the application to run.
    
-7. **Build the solution**: Build the solution using the built-in terminal or the .NET CLI by running the following command:
+8. **Build the solution**: Build the solution using the built-in terminal or the .NET CLI by running the following command:
    ```bash
    dotnet build
    ```
  
-8. **Run Application**: After building the solution, you can run the Oqtane application locally using IIS or Apache. Ensure to stop/start the app pool or services related to the Oqtane app on the web server when updating file changes.
+9. **Run Application**: After building the solution, you can run the Oqtane application locally using IIS or Apache. Ensure to stop/start the app pool or services related to the Oqtane app on the web server when updating file changes.
 
 ---  
 
@@ -42,7 +44,7 @@ For general development and keeping up with the latest features, you can use the
 ## Related Pages
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
-- [Oqtane Development Using Visual Studio Code and Linux](development-vs-code-linux.md)
-- [Oqtane Framework Development Using Visual Studio](development.md)
+- [Oqtane Development Using Visual Studio Code with Linux](development-vs-code-linux.md)
+- [Oqtane Framework Development Using Visual Studio with Windows](development.md)
 
 [← Back to Installation Home](index.md)
