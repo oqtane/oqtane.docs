@@ -1,30 +1,31 @@
 # Install Oqtane for Development using Visual Studio Code (VS Code)
 
 ## Overview
-Rewrite this section for what can be done using vs code to help develop oqtane such as using it for a tool for theme and module CSS (maybe not much or maybe some css editing?)  
-TODO:  There are probably steps missing or need modified here are are considered.
+Developing Oqtane applications with Visual Studio Code (VS Code) offers a lightweight yet powerful environment for coding, debugging, and managing project resources. While VS Code may not provide the full IDE experience of Visual Studio, it offers extensive support for web development tasks, including CSS editing, theme development, and module creation.
 
 ### Development Version (Latest)
 
-For general development and keeping up with the latest features, you can use the development branch of Oqtane Framework. However, for module development, it is recommended to target a stable release version of Oqtane Framework.
+For general development and keeping up with the latest features, you can use the development branch of the Oqtane Framework. However, for module development, it is recommended to target a stable release version of the Oqtane Framework.
 
-1. Install **[Latest .NET SDK Release](https://dotnet.microsoft.com/download/dotnet)**.
+1. **Install Latest .NET SDK Release**: Ensure you have the latest .NET SDK installed on your system. You can download it from the [official .NET website](https://dotnet.microsoft.com/download/dotnet).
 
-2. Install the latest edition of [Visual Studio Code](https://code.visualstudio.com/download) with the **ASP.NET and web development** workload enabled.
-   Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
+2. **Install Visual Studio Code**: Download and install the latest edition of [Visual Studio Code](https://code.visualstudio.com/download). Ensure that the **ASP.NET and web development** workload is enabled during installation. Oqtane works with all editions of Visual Studio Code, from Community to Enterprise.
 
-3. If you wish to use _LocalDB_ for development (not a requirement as Oqtane supports _SQLite_, _mySQL_, and _PostgreSQL_), you must also install the **Data storage and processing**.
+3. **Optional: Install Data Storage and Processing Extensions**: If you prefer to use LocalDB for development (although not required, as Oqtane supports SQLite, MySQL, and PostgreSQL), you must install the necessary **Data storage and processing** extensions in VS Code.
 
-4. Visit the [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework) to download and extract the [Oqtane Dev Branch Source Zip File](https://github.com/oqtane/oqtane.framework/archive/dev.zip) or clone the Oqtane dev branch source code to your local system using [Git Bash](https://git-scm.com/) with the following command:
+4. **Clone Oqtane Dev Branch**: Visit the [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework) and clone the Oqtane dev branch source code to your local system using Git Bash with the following command:
    ```bash
    git clone -b dev https://github.com/oqtane/oqtane.framework.git
-5. Open the **Oqtane.sln** solution file.
+   ```
    
-6. **Build** the solution.
-
-7. Ensure that you specify **Oqtane.Server** as the Startup Project.
+6. **Open Oqtane Solution:** Navigate to the cloned directory and open the **Oqtane.sln** solution file in Visual Studio Code.
+   
+7. **Build the solution:** Build the solution using the built-in terminal or the .NET CLI by running the following command:
+   ```bash
+   dotnet build
+   ```
  
-8. Run the application.
+8. **Run Application:** After building the solution, you can run the Oqtane application locally using IIS or Apache. Ensure to stop/start the app pool or services related to the Oqtane app on the web server when updating file changes.
 
 ---  
 
