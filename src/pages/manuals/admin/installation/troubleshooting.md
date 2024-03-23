@@ -1,8 +1,12 @@
 # Installation Troubleshooting
 
+---
+
 ## Overview
 
 Encountering issues during the installation process can be frustrating, but with the right troubleshooting steps, you can overcome common obstacles and successfully set up Oqtane. Below are some common troubleshooting tips for both Windows and Linux installations:
+
+---
 
 ## Windows Installation Troubleshooting
 ![Windows Logo](assets/windows-logo.png)
@@ -15,6 +19,8 @@ Encountering issues during the installation process can be frustrating, but with
 
 - **Error Logs**: Check error logs generated during the installation process for any specific error messages or exceptions. These logs can provide valuable insights into the root cause of installation failures.
 
+---
+
 ## Linux Installation Troubleshooting
 ![Linux Logo](assets/linux-logo.png)
 
@@ -26,6 +32,13 @@ Encountering issues during the installation process can be frustrating, but with
 
 - **SELinux**: If SELinux is enabled on your Linux system, it may restrict certain operations during the installation process. Temporarily disable SELinux or adjust its policies to allow necessary operations for Oqtane installation.
 
+---
+
 ## Additional Resources
 
 For further assistance and discussions on installation troubleshooting, you can explore the [Oqtane Framework GitHub repository](https://github.com/oqtane/oqtane.framework) and review [existing issues](https://github.com/oqtane/oqtane.framework/issues) and [discussions](https://github.com/oqtane/oqtane.framework/discussions) related to installation problems. Engaging with the community and seeking help from experienced users and developers can often provide valuable insights and solutions to resolve installation issues.
+
+- [Oqtane Supported Databases](databases.md)
+- [Oqtane Installation Resources](resources.md)
+
+[← Back to Installation Home](index.md)
