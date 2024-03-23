@@ -3,24 +3,27 @@
 
 - name: Adding Modules
   href: adding-modules.md
-
 - name: Working With Modules
   href: working-with-modules.md
+- name: Installing Modules
+  href: installing-modules.md
+- name: Module Configuration
+  href: module-configuration.md  
+- name: Troubleshooting Modules
+  href: troubleshooting.md
   
 - name: Developing Modules
   href: developing-modules.md
   children:
-    - name: Module Basics
-      href: module-basics.md
-      
+    - name: Module Development Basics
+      href: module-development-basics.md      
     - name: Creating a Module
-      href: creating-a-module.md
-      
+      href: creating-a-module.md      
     - name: Customizing Module Appearance
-      href: customizing-module-appearance.md
-      
+      href: customizing-module-appearance.md      
     - name: Module Configuration
-      href: module-configuration.md
-      
+      href: module-configuration.md      
     - name: Module Deployment
-      href: module-deployment.md
+      href: module-deployment.md    
+    - name: Troubleshooting Tips
+      href: troubleshooting-tips.md
