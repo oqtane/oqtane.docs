@@ -3,23 +3,15 @@
   href: index.md
 
 - name: Installation
-  href: installation/index.md
-  items:
-    - name: Windows, IIS, SQL
-      href: installation/windows-iis-sql.md
-    # - name: Visual Studio, IIS Express, SQL Express
-    - name: Linux, Apache, MySQL
-
-  # href: installation/toc.yml
-  # topicHref: installation/
-
+  href: installation/toc.yml
+  topicHref: installation/index.md
+   
 # This should be added later on, but just a placeholder for now
 - name: Content Administration
 
 - name: Site Administration
   href: site-administration/toc.yml
   topicHref: site-administration/index.md
-
 
 - name: Modules
   href: modules/toc.yml
