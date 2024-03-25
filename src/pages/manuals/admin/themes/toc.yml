@@ -1,0 +1,15 @@
+- name: Overview
+  href: index.md
+
+- name: Theme Management
+  href: theme-management.md
+  children:
+    - name: Installation
+      href: theme-installation.md
+    - name: Configuration
+      href: theme-configuration.md
+    - name: Troubleshooting
+      href: troubleshooting.md
+
+- name: Developing Themes
+  href: theme-development.md

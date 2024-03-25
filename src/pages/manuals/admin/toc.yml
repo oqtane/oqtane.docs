@@ -1,13 +1,13 @@
-
 - name: Manuals Home
   href: index.md
 
 - name: Installation
   href: installation/toc.yml
   topicHref: installation/index.md
-   
-# This should be added later on, but just a placeholder for now
+
 - name: Content Administration
+  href: content-administration/toc.yml
+  topicHref: content-administration/index.md
 
 - name: Site Administration
   href: site-administration/toc.yml
@@ -28,6 +28,18 @@
 - name: Control Panel
   href: control-panel/toc.yml
   topicHref: control-panel/index.md
+
+- name: Modules
+  href: modules/toc.yml
+  topicHref: modules/index.md
+
+- name: Themes
+  href: themes/toc.yml
+  topicHref: themes/index.md
+
+- name: Marketplace
+  href: marketplace/toc.yml
+  topicHref: marketplace/index.md
 
 #   # topicUid: Article.Docs.Index
 #   href: documentation/toc.yml
