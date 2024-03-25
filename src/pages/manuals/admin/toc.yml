@@ -13,6 +13,10 @@
   href: site-administration/toc.yml
   topicHref: site-administration/index.md
 
+- name: Modules
+  href: modules/toc.yml
+  topicHref: modules/index.md
+
 - name: Host Administration
   href: host-administration/toc.yml
   topicHref: host-administration/index.md

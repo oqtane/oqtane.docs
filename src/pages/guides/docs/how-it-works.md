@@ -31,9 +31,9 @@ The site navigation is cascaded through the `toc.yml` files in each folder.
 ## Troubleshooting
 
 ### Problems with MSBuild or .net SDK
-Docfx runs MSBuild to compile the projects it finds. 
+DocFX runs MSBuild to compile the projects it finds. 
 This can easily cause trouble if your Dev-PC has been through various versions of Visual-Studio. 
-If you need to troubleshoot this, best contact iJungleboy on Github. 
+If you need to troubleshoot this, best contact iJungleboy on GitHub. 
 
 ### Problems with Old / Unexpected Results
 
@@ -42,4 +42,4 @@ This is used as a cache for the next builds. If you run into unexpected results,
 
 ### Problems with Github links
 
-Docfx automatically links all the auto-generated docs with the git-repo. So make sure that the `oqtane.framework` is pulled from the official location `https://github.com/oqtane/oqtane.framework` - otherwise the links will point to another repo. 
+DocFX automatically links all the auto-generated docs with the git-repo. So make sure that the `oqtane.framework` is pulled from the official location `https://github.com/oqtane/oqtane.framework` - otherwise the links will point to another repo. 

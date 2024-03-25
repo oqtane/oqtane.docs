@@ -4772,11 +4772,324 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/apache-http-server-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/apache-http-server-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/linux-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/linux-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/microsoft-azure-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/microsoft-azure-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/microsoft-dot-net-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/microsoft-dot-net-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/microsoft-office-teams-logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/microsoft-office-teams-logo.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/ms-sql-server-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/ms-sql-server-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/mysql-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/mysql-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/oqtane-automated-upgrade-process.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/oqtane-automated-upgrade-process.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/postgresql-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/postgresql-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/red-hat-enterprise-linux-logo.svg.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/red-hat-enterprise-linux-logo.svg.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/sqlite-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/sqlite-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/ubuntu-logo-2022.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/ubuntu-logo-2022.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/ubuntu-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/ubuntu-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/visual-studio-logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/visual-studio-logo.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/visual-studio-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/visual-studio-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/windows-11-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/windows-11-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/windows-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/windows-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/windows-server-2022-logo.svg.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/windows-server-2022-logo.svg.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/databases.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/databases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/deploy-to-azure.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/deploy-to-azure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/development-vs-code-linux.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/development-vs-code-linux.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/development-vs-code.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/development-vs-code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/development.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/development.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/installation/index.md",
       "output": {
         ".html": {
           "relative_path": "manuals/admin/installation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/linux-ubuntu-apache-mysql.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/linux-ubuntu-apache-mysql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/linux-ubuntu-apache-postgresql.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/linux-ubuntu-apache-postgresql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/resources.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/installation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/installation/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/installation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/troubleshooting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/upgrade.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/windows-iis-express-sql-express.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/windows-iis-express-sql-express.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/windows-iis-localdb.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/windows-iis-localdb.html"
         }
       },
       "version": ""
