@@ -33,7 +33,7 @@ Performing a manual upgrade ensures full control over the process. Follow these 
   - Restart your site using your web server or cloud provider's interface.
   - In IIS, restart the previously stopped App Pool.
   - For Apache or Linux, restart the halted service.
-- If you created an `app_offline.htm` file, delete it now. 
+- If you created an `app_offline.htm` file, delete it now.
 
 ### Step 6: Verify Upgrade
 
@@ -51,12 +51,14 @@ Oqtane streamlines the upgrade process for non-technical users with its automate
 
 _Note: Automated upgrades may fail due to environmental factors. If this occurs, resort to the manual method described above._
 
-#### Oqtane Automated Upgrade Process
+### Oqtane Automated Upgrade Process
+
 ![Oqtane Automated Upgrade Process](assets/oqtane-automated-upgrade-process.png)
 
 By following these instructions, you'll ensure your Oqtane installation stays current with the latest enhancements and security fixes. Remember, stopping the Oqtane application is essential to replace files during the upgrade process. Automated upgrades streamline the process, but manual upgrades provide greater control, especially for custom installations.
 
 ## Resources
+
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 

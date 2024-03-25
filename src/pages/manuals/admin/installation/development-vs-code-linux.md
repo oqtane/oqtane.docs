@@ -5,7 +5,9 @@ This document provides general instructions for installing Oqtane for developmen
 TODO:  Review and update all steps to ensure things are as clear, easy and not missing steps, and also adding images.  This page will become more uniform with the others as this evolves.
 
 ## Prerequisites
+
 Before you start, make sure you have the following prerequisites:
+
 - A [Linux Ubuntu](https://ubuntu.com/download/desktop) machine with internet access and administrator privileges.
 - [.NET SDK](https://dotnet.microsoft.com/download/dotnet) installed on your machine.
 - A [database server](installation/databases.md) installed on your machine or accessible from your network. You can use MySQL, PostgreSQL, SQLite, or SQL Server.
@@ -17,12 +19,14 @@ Before you start, make sure you have the following prerequisites:
 
 2. **Clone the Oqtane GitHub Repository:**  
    Clone the Oqtane GitHub repository to your local machine using the following command:
+
    ```bash
    git clone https://github.com/oqtane/oqtane.framework.git
    ```
 
 3. **Open the Oqtane Folder in Visual Studio Code:**
    Open the Oqtane folder in Visual Studio Code using the command:
+
    ```bash
    code oqtane.framework
    ```
@@ -32,22 +36,27 @@ Before you start, make sure you have the following prerequisites:
 
 5. **Build the Oqtane Solution:**
    Build the Oqtane solution using the integrated terminal in Visual Studio Code. Navigate to the src folder and run the command:
+
    ```bash
    dotnet build
    ```
 
 6. **Publish the Oqtane Project:**
    Publish the Oqtane project to a folder by running the command:
+
    ```bash
    dotnet publish -c Release -o publish
    ```
+
 _Note: This may not copy everything over, please review contents of all the latest dll files are copied properly._
 
 7. **Copy Folder Contents to Apache Folder:**
    Copy the folder contents to the Apache folder that hosts the site using the command:
+
    ```bash
    sudo cp -r publish /var/www/html/oqtane
    ```
+
    You may need to change the destination folder according to your Apache configuration.
 
 8. **Configure Apache:**  
@@ -65,14 +74,18 @@ You have successfully installed Oqtane for development using Visual Studio Code 
 ---
 
 ## Resources
+
 - [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
 - [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
 - [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [.NET Core](https://dotnet.microsoft.com)
 - [Apache HTTPD Server](https://httpd.apache.org)
+
 ---
+
 ## Related Pages
+
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 - [Oqtane Framework Development Using Visual Studio Code with Windows](development-vs-code.md)

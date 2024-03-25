@@ -1,9 +1,9 @@
 # Install Oqtane Using Linux Ubuntu, Apache, and PostgreSQL
 
-# Step 1: Install Ubuntu Desktop
+## Step 1: Install Ubuntu Desktop
 
 1. Visit the [Ubuntu Desktop download page](https://ubuntu.com/download/desktop) to download the latest version of Ubuntu Desktop.
-   
+
 2. Choose the appropriate version based on your system architecture (32-bit or 64-bit) and click on the "Download" button.
 
 3. Once the download is complete, create a bootable USB drive or DVD from the downloaded ISO file. You can use tools like [Rufus](https://rufus.ie/) for Windows or [Etcher](https://etcher.balena.io/) for macOS and Linux to create the bootable media.
@@ -23,88 +23,100 @@
 For more information on installing Ubuntu Desktop, refer to the [official Ubuntu Desktop Installation Guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
 
 For additional resources and documentation, visit the [Ubuntu documentation home page](https://help.ubuntu.com/).
-# Step 2: Install PostgreSQL Database
 
-## Overview
+## Step 2: Install PostgreSQL Database
+
 This step covers the installation of PostgreSQL Database on Ubuntu. PostgreSQL is a powerful, open-source relational database management system used for storing and managing data.
 
 ### Prerequisites
+
 - Ubuntu Desktop or Server installed and configured on your system.
 
-## Installation Process
+### Installation Process
 
-1. **Open Terminal**: 
+1. **Open Terminal**:
     - Open a terminal window by pressing `Ctrl + Alt + T` or searching for "Terminal" in the applications menu.
 
-2. **Update Package List**: 
+2. **Update Package List**:
     - Before installing any new software, it's good practice to update the package list to ensure you're installing the latest versions. Run the following command:
+
     ```bash
     sudo apt update
     ```
 
 3. **Install PostgreSQL**:
     - Install PostgreSQL Database Server using the following command:
+
     ```bash
     sudo apt install postgresql
     ```
 
 4. **Start PostgreSQL Service**:
     - Once the installation is complete, PostgreSQL service should start automatically. However, you can ensure that it's running by executing the following command:
+
     ```bash
     sudo systemctl start postgresql
     ```
 
 5. **Enable PostgreSQL Service to Start on Boot**:
     - To ensure that PostgreSQL starts automatically every time the system boots, enable it as a systemd service:
+
     ```bash
     sudo systemctl enable postgresql
     ```
 
 6. **Access PostgreSQL Command-Line Interface**:
     - To access the PostgreSQL command-line interface, use the following command:
+
     ```bash
     sudo -u postgres psql
     ```
 
 ### Additional Resources
+
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/): Official documentation for PostgreSQL.
 
-# Step 3: Create Database and User in PostgreSQL
+## Step 3: Create Database and User in PostgreSQL
 
-## Overview
 This step covers creating a new database and user in PostgreSQL for Oqtane Framework. Additionally, it includes instructions for using pgAdmin, a popular graphical user interface for PostgreSQL administration.
 
 ### Prerequisites
+
 - PostgreSQL installed and running on your Ubuntu system.
 
-## Process
+### Process
 
 1. **Access PostgreSQL Command-Line Interface**:
     - Open a terminal window and access the PostgreSQL command-line interface as the `postgres` user:
+
     ```bash
     sudo -u postgres psql
     ```
 
 2. **Create a New Database**:
     - Within the PostgreSQL command-line interface, run the following SQL command to create a new database for Oqtane Framework. Replace `oqtanedb` with your desired database name:
+
     ```sql
     CREATE DATABASE oqtanedb;
     ```
 
 3. **Create a New User**:
     - Next, create a new user for accessing the Oqtane database. Replace `oqtaneuser` with your desired username and `OqtaneDevPassword1-1` with a strong password:
+
     ```sql
     CREATE USER oqtaneuser WITH PASSWORD 'OqtaneDevPassword1-1';
     ```
 
 4. **Grant Privileges to the User**:
     - Grant all privileges on the Oqtane database to the newly created user:
+
     ```sql
     GRANT ALL PRIVILEGES ON DATABASE oqtanedb TO oqtaneuser;
     ```
 
 5. **Exit PostgreSQL Command-Line Interface**:
     - After completing the database setup, exit the PostgreSQL command-line interface:
+
     ```sql
     \q
     ```
@@ -120,49 +132,55 @@ This step covers creating a new database and user in PostgreSQL for Oqtane Frame
         - Once connected, you can perform various database administration tasks using pgAdmin's intuitive graphical interface.
 
 ### Additional Resources
+
 - [PostgreSQL Tutorial](https://www.postgresqltutorial.com/): Comprehensive tutorial for PostgreSQL beginners.
 - [pgAdmin Documentation](https://www.pgadmin.org/docs/): Official documentation for pgAdmin.
 
 
-# Step 4: Install Apache Server
+## Step 4: Install Apache Server
 
-## Overview
 This step covers the installation of Apache HTTP Server on Ubuntu. Apache is a widely-used web server that can serve HTML files and other content over HTTP.
 
 ### Prerequisites
+
 - Ubuntu Desktop or Server installed and configured on your system.
 
-## Installation Process
+### Installation Process
 
-1. **Open Terminal**: 
+1. **Open Terminal**:
     - Open a terminal window by pressing `Ctrl + Alt + T` or searching for "Terminal" in the applications menu.
 
-2. **Update Package List**: 
+2. **Update Package List**:
     - Before installing any new software, it's good practice to update the package list to ensure you're installing the latest versions. Run the following command:
+
     ```bash
     sudo apt update
     ```
 
 3. **Install Apache**:
     - Install Apache HTTP Server using the following command:
+
     ```bash
     sudo apt install apache2
     ```
 
 4. **Start Apache Service**:
     - Once the installation is complete, Apache service should start automatically. However, you can ensure that it's running by executing the following command:
+
     ```bash
     sudo systemctl start apache2
     ```
 
 5. **Enable Apache Service to Start on Boot**:
     - To ensure that Apache starts automatically every time the system boots, enable it as a systemd service:
+
     ```bash
     sudo systemctl enable apache2
     ```
 
 6. **Check Apache Status**:
     - To verify that Apache is running without any errors, you can check its status using:
+
     ```bash
     sudo systemctl status apache2
     ```
@@ -171,24 +189,26 @@ This step covers the installation of Apache HTTP Server on Ubuntu. Apache is a w
     - Open a web browser and navigate to `http://localhost`. You should see the Apache default page if the installation was successful.
 
 ### Additional Resources
+
 - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
 - [Ubuntu Server Guide](https://ubuntu.com/server/docs): Comprehensive guide for Ubuntu Server, which includes instructions for installing and configuring various software packages.
 
-# Step 5: Install .NET Core
+## Step 5: Install .NET Core
 
-## Overview
 This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-platform, open-source framework for building modern, cloud-based, and internet-connected applications.
 
 ### Prerequisites
+
 - Ubuntu Desktop or Server installed and configured on your system.
 
-## Installation Process
+### Installation Process
 
-1. **Open Terminal**: 
+1. **Open Terminal**:
     - Open a terminal window by pressing `Ctrl + Alt + T` or searching for "Terminal" in the applications menu.
 
 2. **Register Microsoft Product Repository**:
     - To install .NET Core, you first need to register the Microsoft product repository. Run the following command to download and install the Microsoft package signing key:
+
     ```bash
     wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
     sudo dpkg -i packages-microsoft-prod.deb
@@ -196,6 +216,7 @@ This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-p
 
 3. **Install .NET SDK**:
     - Once the repository is registered, update the package list and install the .NET SDK using the following commands:
+
     ```bash
     sudo apt update
     sudo apt install -y apt-transport-https
@@ -205,26 +226,29 @@ This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-p
 
 4. **Verify Installation**:
     - After installation, verify that the .NET SDK has been successfully installed by running:
+
     ```bash
     dotnet --version
     ```
 
 5. **Install ASP.NET Core Runtime (Optional)**:
     - If you plan to deploy ASP.NET Core applications, you may also want to install the ASP.NET Core Runtime. Use the following command to install it:
+
     ```bash
     sudo apt install -y aspnetcore-runtime
     ```
 
 ### Additional Resources
+
 - [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/): Official documentation for .NET.
 - [.NET Core Download Page](https://dotnet.microsoft.com/download/dotnet): Official download page for .NET Core SDK and runtime.
 
-# Step 6: Configure Host and Service Files for Apache
+## Step 6: Configure Host and Service Files for Apache
 
-## Overview
 This step involves creating configuration files for Apache virtual host and service to serve your .NET Core application.
 
 ### Prerequisites
+
 - Apache server installed on your Ubuntu system.
 - .NET Core SDK installed on your system.
 - Oqtane Framework files ready to be deployed.
@@ -233,14 +257,19 @@ This step involves creating configuration files for Apache virtual host and serv
 
 1. **Create Apache Virtual Host Configuration File**:
     - Open a terminal window and navigate to the Apache sites-available directory:
+
     ```bash
     cd /etc/apache2/sites-available
     ```
+
     - Create a new virtual host configuration file for your .NET Core application. Replace `example.com` with your domain name:
+
     ```bash
     sudo nano example.com.conf
     ```
+
     - Add the following configuration to the file, adjusting the values as needed:
+
     ```apache
     <VirtualHost *:80>
         ServerName example.com
@@ -249,16 +278,19 @@ This step involves creating configuration files for Apache virtual host and serv
         CustomLog ${APACHE_LOG_DIR}/example.com-access.log combined
     </VirtualHost>
     ```
+
     - Save the file and exit the text editor. If you're not familiar with `nano`, you can learn more about it in the [nano documentation](https://www.nano-editor.org/dist/latest/nano.html).
 
 2. **Create Document Root Directory**:
     - Create the document root directory where your .NET Core application files will be stored:
+
     ```bash
     sudo mkdir /var/www/example.com
     ```
 
 3. **Configure Apache Service**:
     - Enable the newly created virtual host configuration and restart the Apache service:
+
     ```bash
     sudo a2ensite example.com.conf
     sudo systemctl restart apache2
@@ -274,18 +306,20 @@ This step involves creating configuration files for Apache virtual host and serv
     - Open a web browser and navigate to your domain name (e.g., `http://example.com`). If configured correctly, you should see your .NET Core application running.
 
 ### Additional Resources
+
 - [Apache HTTP Server Documentation](https://httpd.apache.org/docs/): Official documentation for Apache HTTP Server.
 - [.NET Core Deployment Guide](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/): Official deployment guide for .NET Core applications.
 
-# Step 7: Setup App Files and Folders
+## Step 7: Setup App Files and Folders
 
 1. **Create Directory Structure**: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:
-   
+
 ```bash
 
     sudo mkdir /var/www/oqtane
 
 ```
+
  Clone or Download Oqtane Framework: Navigate to the Oqtane Framework GitHub repository and clone the repository to your local machine using Git or download the source code as a ZIP archive.
 
   Option 1: Clone Repository
@@ -295,6 +329,7 @@ This step involves creating configuration files for Apache virtual host and serv
      sudo git clone https://github.com/oqtane/oqtane.framework.git /var/www/oqtane
  
   ```
+
  Option 2: Download ZIP Archive
      Visit the Oqtane Framework repository on GitHub.
      Click on the "Code" button and select "Download ZIP".
@@ -359,6 +394,7 @@ By testing the installation and functionality of your Oqtane application, you ca
 ---  
 
 ## Resources
+
 - [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
 - [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
 - [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
@@ -366,6 +402,7 @@ By testing the installation and functionality of your Oqtane application, you ca
 - [.NET Core](https://dotnet.microsoft.com)
 
 ## Related Pages
+
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 

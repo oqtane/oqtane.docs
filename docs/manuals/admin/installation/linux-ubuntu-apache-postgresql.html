@@ -86,7 +86,7 @@
         <article data-uid="">
 <h1 id="install-oqtane-using-linux-ubuntu-apache-and-postgresql">Install Oqtane Using Linux Ubuntu, Apache, and PostgreSQL</h1>
 
-<h1 id="step-1-install-ubuntu-desktop">Step 1: Install Ubuntu Desktop</h1>
+<h2 id="step-1-install-ubuntu-desktop">Step 1: Install Ubuntu Desktop</h2>
 <ol>
 <li><p>Visit the <a href="https://ubuntu.com/download/desktop">Ubuntu Desktop download page</a> to download the latest version of Ubuntu Desktop.</p>
 </li>
@@ -109,14 +109,13 @@
 </ol>
 <p>For more information on installing Ubuntu Desktop, refer to the <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">official Ubuntu Desktop Installation Guide</a>.</p>
 <p>For additional resources and documentation, visit the <a href="https://help.ubuntu.com/">Ubuntu documentation home page</a>.</p>
-<h1 id="step-2-install-postgresql-database">Step 2: Install PostgreSQL Database</h1>
-<h2 id="overview">Overview</h2>
+<h2 id="step-2-install-postgresql-database">Step 2: Install PostgreSQL Database</h2>
 <p>This step covers the installation of PostgreSQL Database on Ubuntu. PostgreSQL is a powerful, open-source relational database management system used for storing and managing data.</p>
 <h3 id="prerequisites">Prerequisites</h3>
 <ul>
 <li>Ubuntu Desktop or Server installed and configured on your system.</li>
 </ul>
-<h2 id="installation-process">Installation Process</h2>
+<h3 id="installation-process">Installation Process</h3>
 <ol>
 <li><p><strong>Open Terminal</strong>:</p>
 <ul>
@@ -163,14 +162,13 @@
 <ul>
 <li><a href="https://www.postgresql.org/docs/">PostgreSQL Documentation</a>: Official documentation for PostgreSQL.</li>
 </ul>
-<h1 id="step-3-create-database-and-user-in-postgresql">Step 3: Create Database and User in PostgreSQL</h1>
-<h2 id="overview-1">Overview</h2>
+<h2 id="step-3-create-database-and-user-in-postgresql">Step 3: Create Database and User in PostgreSQL</h2>
 <p>This step covers creating a new database and user in PostgreSQL for Oqtane Framework. Additionally, it includes instructions for using pgAdmin, a popular graphical user interface for PostgreSQL administration.</p>
 <h3 id="prerequisites-1">Prerequisites</h3>
 <ul>
 <li>PostgreSQL installed and running on your Ubuntu system.</li>
 </ul>
-<h2 id="process">Process</h2>
+<h3 id="process">Process</h3>
 <ol>
 <li><p><strong>Access PostgreSQL Command-Line Interface</strong>:</p>
 <ul>
@@ -231,14 +229,13 @@
 <li><a href="https://www.postgresqltutorial.com/">PostgreSQL Tutorial</a>: Comprehensive tutorial for PostgreSQL beginners.</li>
 <li><a href="https://www.pgadmin.org/docs/">pgAdmin Documentation</a>: Official documentation for pgAdmin.</li>
 </ul>
-<h1 id="step-4-install-apache-server">Step 4: Install Apache Server</h1>
-<h2 id="overview-2">Overview</h2>
+<h2 id="step-4-install-apache-server">Step 4: Install Apache Server</h2>
 <p>This step covers the installation of Apache HTTP Server on Ubuntu. Apache is a widely-used web server that can serve HTML files and other content over HTTP.</p>
 <h3 id="prerequisites-2">Prerequisites</h3>
 <ul>
 <li>Ubuntu Desktop or Server installed and configured on your system.</li>
 </ul>
-<h2 id="installation-process-1">Installation Process</h2>
+<h3 id="installation-process-1">Installation Process</h3>
 <ol>
 <li><p><strong>Open Terminal</strong>:</p>
 <ul>
@@ -291,14 +288,13 @@
 <li><a href="https://httpd.apache.org/docs/">Apache HTTP Server Documentation</a>: Official documentation for Apache HTTP Server.</li>
 <li><a href="https://ubuntu.com/server/docs">Ubuntu Server Guide</a>: Comprehensive guide for Ubuntu Server, which includes instructions for installing and configuring various software packages.</li>
 </ul>
-<h1 id="step-5-install-net-core">Step 5: Install .NET Core</h1>
-<h2 id="overview-3">Overview</h2>
+<h2 id="step-5-install-net-core">Step 5: Install .NET Core</h2>
 <p>This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-platform, open-source framework for building modern, cloud-based, and internet-connected applications.</p>
 <h3 id="prerequisites-3">Prerequisites</h3>
 <ul>
 <li>Ubuntu Desktop or Server installed and configured on your system.</li>
 </ul>
-<h2 id="installation-process-2">Installation Process</h2>
+<h3 id="installation-process-2">Installation Process</h3>
 <ol>
 <li><p><strong>Open Terminal</strong>:</p>
 <ul>
@@ -343,8 +339,7 @@ sudo apt install -y dotnet-sdk
 <li><a href="https://docs.microsoft.com/en-us/dotnet/">.NET Documentation</a>: Official documentation for .NET.</li>
 <li><a href="https://dotnet.microsoft.com/download/dotnet">.NET Core Download Page</a>: Official download page for .NET Core SDK and runtime.</li>
 </ul>
-<h1 id="step-6-configure-host-and-service-files-for-apache">Step 6: Configure Host and Service Files for Apache</h1>
-<h2 id="overview-4">Overview</h2>
+<h2 id="step-6-configure-host-and-service-files-for-apache">Step 6: Configure Host and Service Files for Apache</h2>
 <p>This step involves creating configuration files for Apache virtual host and service to serve your .NET Core application.</p>
 <h3 id="prerequisites-4">Prerequisites</h3>
 <ul>
@@ -415,7 +410,7 @@ sudo systemctl restart apache2
 <li><a href="https://httpd.apache.org/docs/">Apache HTTP Server Documentation</a>: Official documentation for Apache HTTP Server.</li>
 <li><a href="https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/">.NET Core Deployment Guide</a>: Official deployment guide for .NET Core applications.</li>
 </ul>
-<h1 id="step-7-setup-app-files-and-folders">Step 7: Setup App Files and Folders</h1>
+<h2 id="step-7-setup-app-files-and-folders">Step 7: Setup App Files and Folders</h2>
 <ol>
 <li><strong>Create Directory Structure</strong>: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:</li>
 </ol>

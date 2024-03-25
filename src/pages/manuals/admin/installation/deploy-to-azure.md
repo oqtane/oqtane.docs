@@ -5,10 +5,12 @@
 The Oqtane framework is a modular application framework for Blazor that allows you to easily deploy and manage web applications on Azure.
 
 ## Prerequisites
+
 - An Azure account. If you don’t have one, you can [create one for free here](https://azure.microsoft.com/en-in/free/).
 - The Oqtane GitHub repository. You can [access it here](https://www.github.com/oqtane/oqtane.framework).
 
 ## Steps
+
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json)
 
 1. Click on the **Deploy to Azure** button above. This will open the Azure portal and prompt you to log in with your Azure account.
@@ -19,12 +21,14 @@ The Oqtane framework is a modular application framework for Blazor that allows y
 6. Once the deployment is complete, you can access your Oqtane application by visiting the URL of your Blazor Website Name. For example, if your Blazor Website Name is `my-oqtane-app`, then your URL would be `https://my-oqtane-app.azurewebsites.net/`.
 7. Follow the installation wizard to set up your Oqtane application. You will need to enter the host email and password, and optionally once the installation process has completed you can set the site name, logo plus more in the  administration dashboard site settings.
 
-## Congratulations!
+## Congratulations
+
 You have successfully deployed your Oqtane application on Azure. Enjoy! 😊
 
 ---
 
 ## Resources
+
 - [Official Oqtane Latest Release](https://github.com/oqtane/oqtane.framework/releases/latest)
 - [All Official Oqtane Releases](https://github.com/oqtane/oqtane.framework/releases)
 - [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
@@ -32,6 +36,7 @@ You have successfully deployed your Oqtane application on Azure. Enjoy! 😊
 - [.NET Core](https://dotnet.microsoft.com)
 
 ## Related Pages
+
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
 

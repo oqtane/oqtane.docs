@@ -161,15 +161,53 @@
 <li>You should now see the Oqtane installation wizard. Follow the on-screen instructions to complete the installation process.</li>
 </ol>
 <h2 id="step-12-secure-the-site-optional">Step 12: Secure the Site (Optional)</h2>
-<p><em>Note: It's essential to implement robust security measures for production applications before going live.</em></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It's essential to implement robust security measures
+for production applications before going live.</p>
+</div>
 <ol>
-<li>Once the installation is complete and the site is up and running, consider implementing security measures to protect your Oqtane application.</li>
-<li><strong>Enable HTTPS</strong>: Encrypt communication between the server and clients by enabling HTTPS. You can obtain SSL/TLS certificates from a trusted Certificate Authority (CA) like <a href="https://letsencrypt.org/">Let's Encrypt</a> or purchase one from a commercial provider. Learn more about HTTPS and security best practices from the <a href="https://wiki.mozilla.org/Security/Server_Side_TLS">Mozilla Server Side TLS Guidelines</a>. <a href="https://ssl-config.mozilla.org/">Mozilla SSL Configuration Generator</a> tool helps generate secure SSL configurations for popular web servers, including Apache, Nginx, and others. It provides recommended configurations based on Mozilla's SSL/TLS best practices.</li>
-<li><strong>Configure Authentication and Authorization</strong>: Control access to your site's resources by configuring appropriate authentication and authorization mechanisms. You can leverage <a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity">ASP.NET Core Identity</a> for user authentication and role-based authorization. Explore additional security topics and best practices for ASP.NET Core from the <a href="https://learn.microsoft.com/en-us/aspnet/core/security">ASP.NET Core security topics</a> documentation.</li>
-<li><strong>Implement Security Best Practices</strong>: Follow security best practices such as input validation, output encoding, and protection against common web vulnerabilities like <a href="https://owasp.org/www-community/attacks/xss/">Cross-Site Scripting (XSS)</a> and <a href="https://owasp.org/www-community/attacks/csrf/">Cross-Site Request Forgery (CSRF)</a>.</li>
-<li><strong>Keep Software Updated</strong>: Regularly update Oqtane and its dependencies to patch security vulnerabilities and ensure that your site is protected against known threats. Stay informed about security advisories and apply patches promptly.</li>
-<li><strong>Monitor and Respond</strong>: Monitor your site for suspicious activities and implement logging and monitoring solutions to detect and respond to security incidents effectively. Set up alerts for unusual behavior and unauthorized access attempts.</li>
-<li><strong>Regular Security Audits</strong>: Conduct regular security audits of your Oqtane application to identify and remediate security vulnerabilities. Perform code reviews, penetration testing, and vulnerability scanning to ensure the integrity and security of your site.</li>
+<li><p>Once the installation is complete and the site is up and running,
+consider implementing security measures to protect your Oqtane application.</p>
+</li>
+<li><p><strong>Enable HTTPS</strong>: Encrypt communication between the server and clients by enabling HTTPS.
+You can obtain SSL/TLS certificates from a trusted Certificate Authority (CA)
+like <a href="https://letsencrypt.org/">Let's Encrypt</a> or purchase one from a commercial provider.
+Learn more about HTTPS and security best practices from the <a href="https://wiki.mozilla.org/Security/Server_Side_TLS">Mozilla Server Side TLS Guidelines</a>.
+<a href="https://ssl-config.mozilla.org/">Mozilla SSL Configuration Generator</a> tool
+helps generate secure SSL configurations for popular web servers, including
+Apache, Nginx, and others. It provides recommended configurations based on
+Mozilla's SSL/TLS best practices.</p>
+</li>
+<li><p><strong>Configure Authentication and Authorization</strong>:
+Control access to your site's resources by configuring appropriate
+authentication and authorization mechanisms.
+You can leverage <a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity">ASP.NET Core Identity</a>
+for user authentication and role-based authorization.
+Explore additional security topics and best practices for ASP.NET Core from the
+<a href="https://learn.microsoft.com/en-us/aspnet/core/security">ASP.NET Core security topics</a> documentation.</p>
+</li>
+<li><p><strong>Implement Security Best Practices</strong>:
+Follow security best practices such as input validation, output encoding,
+and protection against common web vulnerabilities like <a href="https://owasp.org/www-community/attacks/xss/">Cross-Site Scripting (XSS)</a>
+and <a href="https://owasp.org/www-community/attacks/csrf/">Cross-Site Request Forgery (CSRF)</a>.</p>
+</li>
+<li><p><strong>Keep Software Updated</strong>:
+Regularly update Oqtane and its dependencies to patch security vulnerabilities
+and ensure that your site is protected against known threats.
+Stay informed about security advisories and apply patches promptly.</p>
+</li>
+<li><p><strong>Monitor and Respond</strong>:
+Monitor your site for suspicious activities and implement
+logging and monitoring solutions to detect and respond to security incidents effectively.
+Set up alerts for unusual behavior and unauthorized access attempts.</p>
+</li>
+<li><p><strong>Regular Security Audits</strong>:
+Conduct regular security audits of your Oqtane application to identify
+and remediate security vulnerabilities.
+Perform code reviews, penetration testing,
+and vulnerability scanning to ensure the integrity and security of your site.</p>
+</li>
 </ol>
 <hr>
 <h2 id="resources">Resources</h2>

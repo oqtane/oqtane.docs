@@ -89,7 +89,7 @@
 <p><img src="../../../pages/manuals/admin/installation/assets/ubuntu-logo.png" alt="Ubuntu">
 <img src="../../../pages/manuals/admin/installation/assets/apache-http-server-logo.png" alt="Apache HTTP Server">
 <img src="../../../pages/manuals/admin/installation/assets/mysql-logo.png" alt="MySQL"></p>
-<h1 id="step-1-install-ubuntu-desktop">Step 1: Install Ubuntu Desktop</h1>
+<h2 id="step-1-install-ubuntu-desktop">Step 1: Install Ubuntu Desktop</h2>
 <ol>
 <li><p>Visit the <a href="https://ubuntu.com/download/desktop">Ubuntu Desktop download page</a> to download the latest version of Ubuntu Desktop.</p>
 </li>
@@ -112,8 +112,7 @@
 </ol>
 <p>For more information on installing Ubuntu Desktop, refer to the <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview">official Ubuntu Desktop Installation Guide</a>.</p>
 <p>For additional resources and documentation, visit the <a href="https://help.ubuntu.com/">Ubuntu documentation home page</a>.</p>
-<h1 id="step-2-installing-mysql-database-on-ubuntu">Step 2: Installing MySQL Database on Ubuntu</h1>
-<h2 id="overview">Overview</h2>
+<h2 id="step-2-installing-mysql-database-on-ubuntu">Step 2: Installing MySQL Database on Ubuntu</h2>
 <p>This guide provides detailed instructions on how to install and configure MySQL Database on Ubuntu. MySQL is a popular open-source relational database management system used by many applications and frameworks, including Oqtane Framework.</p>
 <h3 id="prerequisites">Prerequisites</h3>
 <ul>
@@ -220,14 +219,13 @@ GRANT ALL PRIVILEGES ON oqtanedb.* TO 'oqtaneuser'@'localhost';
 </code></pre>
 </li>
 </ol>
-<h1 id="step-3-install-apache-server">Step 3: Install Apache Server</h1>
-<h2 id="overview-1">Overview</h2>
+<h2 id="step-3-install-apache-server">Step 3: Install Apache Server</h2>
 <p>This step covers the installation of Apache HTTP Server on Ubuntu. Apache is a widely-used web server that can serve HTML files and other content over HTTP.</p>
 <h3 id="prerequisites-1">Prerequisites</h3>
 <ul>
 <li>Ubuntu Desktop or Server installed and configured on your system.</li>
 </ul>
-<h2 id="installation-process">Installation Process</h2>
+<h3 id="installation-process">Installation Process</h3>
 <ol>
 <li><p><strong>Open Terminal</strong>:</p>
 <ul>
@@ -280,14 +278,13 @@ GRANT ALL PRIVILEGES ON oqtanedb.* TO 'oqtaneuser'@'localhost';
 <li><a href="https://httpd.apache.org/docs/">Apache HTTP Server Documentation</a>: Official documentation for Apache HTTP Server.</li>
 <li><a href="https://ubuntu.com/server/docs">Ubuntu Server Guide</a>: Comprehensive guide for Ubuntu Server, which includes instructions for installing and configuring various software packages.</li>
 </ul>
-<h1 id="step-4-install-net-core">Step 4: Install .NET Core</h1>
-<h2 id="overview-2">Overview</h2>
+<h2 id="step-4-install-net-core">Step 4: Install .NET Core</h2>
 <p>This step covers the installation of .NET Core on Ubuntu. .NET Core is a cross-platform, open-source framework for building modern, cloud-based, and internet-connected applications.</p>
 <h3 id="prerequisites-2">Prerequisites</h3>
 <ul>
 <li>Ubuntu Desktop or Server installed and configured on your system.</li>
 </ul>
-<h2 id="installation-process-1">Installation Process</h2>
+<h3 id="installation-process-1">Installation Process</h3>
 <ol>
 <li><p><strong>Open Terminal</strong>:</p>
 <ul>
@@ -332,8 +329,7 @@ sudo apt install -y dotnet-sdk
 <li><a href="https://docs.microsoft.com/en-us/dotnet/">.NET Documentation</a>: Official documentation for .NET.</li>
 <li><a href="https://dotnet.microsoft.com/download/dotnet">.NET Core Download Page</a>: Official download page for .NET Core SDK and runtime.</li>
 </ul>
-<h1 id="step-5-configure-host-and-service-files-for-apache">Step 5: Configure Host and Service Files for Apache</h1>
-<h2 id="overview-3">Overview</h2>
+<h2 id="step-5-configure-host-and-service-files-for-apache">Step 5: Configure Host and Service Files for Apache</h2>
 <p>This step involves creating configuration files for Apache virtual host and service to serve your .NET Core application.</p>
 <h3 id="prerequisites-3">Prerequisites</h3>
 <ul>
@@ -404,7 +400,7 @@ sudo systemctl restart apache2
 <li><a href="https://httpd.apache.org/docs/">Apache HTTP Server Documentation</a>: Official documentation for Apache HTTP Server.</li>
 <li><a href="https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/">.NET Core Deployment Guide</a>: Official deployment guide for .NET Core applications.</li>
 </ul>
-<h1 id="step-6-setup-app-files-and-folders">Step 6: Setup App Files and Folders</h1>
+<h2 id="step-6-setup-app-files-and-folders">Step 6: Setup App Files and Folders</h2>
 <ol>
 <li><p><strong>Create Directory Structure</strong>: Begin by creating a directory structure to organize your Oqtane application files. Choose a location on your Ubuntu system where you want to store the application files. For example:</p>
 <pre><code class="lang-bash">sudo mkdir /var/www/oqtane
@@ -445,7 +441,7 @@ If you haven't already configured Apache to serve your Oqtane application, you'l
 <p>Configure Database Connection: Update the database connection string in the appsettings.json file located in the root directory of your Oqtane application. Use the connection string for your preferred database server (e.g., MySQL, PostgreSQL).</p>
 <p>Access Oqtane Installation Wizard: Open a web browser and navigate to the URL associated with your Oqtane installation directory. If everything is configured correctly, you should see the Oqtane installation wizard, where you can proceed with the installation and setup of your Oqtane application.</p>
 <p>By following these steps, you will have successfully installed and configured the Oqtane Framework on your Linux machine, making your application accessible via a web browser.</p>
-<h1 id="step-8-test-the-installation">Step 8: Test the Installation</h1>
+<h2 id="step-8-test-the-installation">Step 8: Test the Installation</h2>
 <p>After completing the installation process, it's important to test your Oqtane application to ensure everything is working correctly. Follow these steps to test the installation:</p>
 <ol>
 <li><p><strong>Access Oqtane Application</strong>: Open a web browser and navigate to the URL associated with your Oqtane application. This should be the URL you configured during the installation process.</p>
