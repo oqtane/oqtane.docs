@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Working With Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Deploy to Azure | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Working With Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Deploy to Azure | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/modules/working-with-modules.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/deploy-to-azure.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,31 +84,48 @@
         </div>
 
         <article data-uid="">
-<h1 id="working-with-modules">Working With Modules</h1>
+<h1 id="deploy-to-azure">Deploy to Azure</h1>
 
-<p>In order to access a module's settings, you must be in the content editor. To get into the editor, simply click over the pencil icon top-right corner of the page. This puts you into the edit mode where you will see small white arrows in the top-right corner of every module on the page. These small arrows at the top left corners of each module allow you to move the module on the page, access the module's settings, edit the module, delete the module, and access any specific functionality related to the module.</p>
-<p><img src="../../../pages/manuals/admin/modules/assets/pencil.png" alt="pencil"></p>
-<p>Once in Edit mode you will notice that Oqtane uses a very user-friendly and intuitive approach to managing content. Whenever you want to edit content in Oqtane, you go to the location where the content resides and edit it right there in place.</p>
-<h3 id="moving-modules">Moving Modules</h3>
-<p>Once a module is on the page, you can move its location again if needed. All that is needed is to enter the <a href="../site-administration/content-editor.html">content editor</a> by clicking on the pencil icon in the top right hand side with editing permission on a certain page. And then selecting the small downward pointing arrow in the top left of the module to do a variety of things to it, including:</p>
+<p><a href="https://azure.microsoft.com"><img src="../../../pages/manuals/admin/installation/assets/microsoft-azure-logo.png" alt="Microsoft Azure"></a></p>
+<p>The Oqtane framework is a modular application framework for Blazor that allows you to easily deploy and manage web applications on Azure.</p>
+<h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
-<li>Move Up: Moves the module up to be above the module above it.</li>
-<li>Move Down: Move the module down below the module beneath it.</li>
-<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
-If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
-<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
-<li>Move to Left Pane: Moves the module to the left-most column.</li>
-<li>Move to Right Pane: Moves the module to the right-most column.</li>
-<li>Move to Content Pane: Moves the module to the central column.</li>
-<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
+<li>An Azure account. If you don’t have one, you can <a href="https://azure.microsoft.com/en-in/free/">create one for free here</a>.</li>
+<li>The Oqtane GitHub repository. You can <a href="https://www.github.com/oqtane/oqtane.framework">access it here</a>.</li>
 </ul>
-<p><img src="../../../pages/manuals/admin/modules/assets/moving-menu.png" alt="moving-menu"></p>
+<h2 id="steps">Steps</h2>
+<p><a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Foqtane%2Foqtane.framework%2Fmaster%2Fazuredeploy.json"><img src="https://aka.ms/deploytoazurebutton" alt="Deploy to Azure"></a></p>
+<ol>
+<li>Click on the <strong>Deploy to Azure</strong> button above. This will open the Azure portal and prompt you to log in with your Azure account.</li>
+<li>On the <strong>Custom deployment</strong> form, select an existing <strong>Resource group</strong> or create a new one. A resource group is a logical container for your Azure resources.</li>
+<li>Fill in the values for <strong>Sql Server Name</strong> and <strong>Blazor Website Name</strong>. These values must be unique to any other values on Azure. You can also change the other settings if you want, such as the location, the pricing tier, and the database size.</li>
+<li>Click the <strong>Purchase</strong> button. This will create and deploy the resources needed for your Oqtane application, such as the app service plan, the web app, and the SQL database.</li>
+<li>Wait for the deployment to finish. You can monitor the progress on the <strong>Deployment details</strong> page.</li>
+<li>Once the deployment is complete, you can access your Oqtane application by visiting the URL of your Blazor Website Name. For example, if your Blazor Website Name is <code>my-oqtane-app</code>, then your URL would be <code>https://my-oqtane-app.azurewebsites.net/</code>.</li>
+<li>Follow the installation wizard to set up your Oqtane application. You will need to enter the host email and password, and optionally once the installation process has completed you can set the site name, logo plus more in the  administration dashboard site settings.</li>
+</ol>
+<h2 id="congratulations">Congratulations!</h2>
+<p>You have successfully deployed your Oqtane application on Azure. Enjoy! 😊</p>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases/latest">Official Oqtane Latest Release</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases">All Official Oqtane Releases</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub Repository</a></li>
+<li><a href="https://visualstudio.microsoft.com">Visual Studio</a></li>
+<li><a href="https://dotnet.microsoft.com">.NET Core</a></li>
+</ul>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="databases.html">Oqtane Supported Databases</a></li>
+<li><a href="resources.html">Oqtane Installation Resources</a></li>
+</ul>
+<p><a href="index.html">← Back to Installation Home</a></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/modules/working-with-modules.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/deploy-to-azure.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

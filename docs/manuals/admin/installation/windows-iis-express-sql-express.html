@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Install Oqtane Using Windows, IIS and MS SQL Server | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Install Using Windows, IIS Express and MS SQL Express | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Install Oqtane Using Windows, IIS and MS SQL Server | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Install Using Windows, IIS Express and MS SQL Express | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/windows-iis-sql.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/windows-iis-express-sql-express.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,83 +84,107 @@
         </div>
 
         <article data-uid="">
-<h1 id="install-oqtane-using-windows-iis-and-ms-sql-server">Install Oqtane Using Windows, IIS and MS SQL Server</h1>
+<h1 id="install-using-windows-iis-express-and-ms-sql-express">Install Using Windows, IIS Express and MS SQL Express</h1>
 
-<h2 id="overview">Overview</h2>
-<p>This guide will walk you through the steps to install Oqtane on a Windows system using Internet Information Services (IIS) as the web server and Microsoft SQL Server as the database backend. We'll also use SQL Server Management Studio (SSMS) for database management.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<p>Before you begin, make sure you have the following:</p>
+<h2 id="step-1-install-iis">Step 1: Install IIS</h2>
 <ul>
-<li>A Windows machine with administrative privileges.</li>
-<li>Internet Information Services (IIS) installed.</li>
-<li>Microsoft SQL Server installed, along with SQL Server Management Studio (SSMS).</li>
-</ul>
-<h2 id="step-1-enable-internet-information-services-iis">Step 1: Enable Internet Information Services (IIS)</h2>
-<ol>
-<li>Open the &quot;Turn Windows features on or off&quot; menu next to the Windows Start button.</li>
-<li>Enable Internet Information Services (IIS), ensuring that the  <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis">WebSocket Protocol</a> is enabled and WebDAV Publishing is disabled.</li>
+<li>Search for &quot;Turn Windows features on or off&quot; next to the Windows Start button.</li>
+<li>Enable Internet Information Services (IIS) ensuring <a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis">WebSocket Protocol</a> is enabled and WebDAV Publishing is disabled.</li>
 <li>Click OK to complete the installation.</li>
-</ol>
-<h2 id="step-2-install-url-rewrite-module">Step 2: Install URL Rewrite Module</h2>
-<ol>
-<li>Navigate to the <a href="https://www.iis.net/downloads/microsoft/url-rewrite">Url Rewrite Module</a> page.</li>
-<li>Download and install the module.</li>
-</ol>
+</ul>
+<p><em>Note: Ensure that the WebSocket Protocol is enabled and WebDAV Publishing is disabled to avoid conflicts with Blazor.</em></p>
+<h2 id="step-2-install-url-rewrite-module">Step 2: Install Url Rewrite Module</h2>
+<ul>
+<li>Navigate to <a href="https://www.iis.net/downloads/microsoft/url-rewrite">Url Rewrite Module</a>.</li>
+<li>Download and install.</li>
+</ul>
+<p><em>Note: The URL Rewrite Module is necessary for configuring URL rewriting rules in IIS, which are often used in web applications like Oqtane.</em></p>
 <h2 id="step-3-install-net-core-hosting-bundle">Step 3: Install .NET Core Hosting Bundle</h2>
-<ol>
-<li>Navigate to the <a href="https://dotnet.microsoft.com/download">.NET Core Hosting Bundle</a> page.</li>
-<li>Download and install the Windows hosting bundle.</li>
+<ul>
+<li>Navigate to <a href="https://dotnet.microsoft.com/permalink/dotnetcore-windows-runtime-bundle-installer">.NET Core Hosting Bundle</a>.</li>
+<li>Download and install the bundle.</li>
 <li>Restart your machine.</li>
-</ol>
-<h2 id="step-4-install-microsoft-sql-server">Step 4: Install Microsoft SQL Server</h2>
-<ol>
-<li>Download and install <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">Microsoft SQL Server</a>.</li>
-<li>Ensure that you enable SQL Server Authentication mode during the installation process.</li>
-<li>During the installation, choose the option to enable TCP/IP protocol for network communication.</li>
-</ol>
-<h2 id="step-5-install-sql-server-management-studio-ssms">Step 5: Install SQL Server Management Studio (SSMS)</h2>
-<ol>
-<li>Download and install <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms">SQL Server Management Studio (SSMS)</a>.</li>
-</ol>
-<h2 id="step-6-configure-sql-server">Step 6: Configure SQL Server</h2>
-<ol>
-<li>Open SQL Server Management Studio (SSMS).</li>
-<li>Connect to your SQL Server instance.</li>
-<li>Create a new database for Oqtane.</li>
-<li>Optionally, create a new SQL Server login or use an existing one for Oqtane.</li>
-</ol>
-<h2 id="step-7-download-and-extract-oqtane">Step 7: Download and Extract Oqtane</h2>
-<ol>
-<li>Download the latest release of Oqtane from the <a href="https://github.com/oqtane/oqtane.framework/releases/latest">Oqtane Releases</a> page.</li>
+</ul>
+<p><em>Note: The .NET Core Hosting Bundle is required for hosting .NET Core applications on Windows servers.</em></p>
+<h2 id="step-4-install-localdb">Step 4: Install LocalDB</h2>
+<ul>
+<li>If doing a local install and wanting to use LocalDB for development, navigate to <a href="https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb">LocalDB installation</a> and choose the appropriate package.</li>
+</ul>
+<p><em>Note: LocalDB is recommended for development environments but can be substituted with other database options supported by Oqtane such as SQLite, MySQL, PostgreSQL, or SQL Server.</em></p>
+<h2 id="step-5-install-oqtane">Step 5: Install Oqtane</h2>
+<ul>
+<li>Download the latest Install package from <a href="https://github.com/oqtane/oqtane.framework/releases">Oqtane Releases</a>.</li>
 <li>Extract the files to your desired directory.</li>
-</ol>
-<h2 id="step-8-configure-iis-app-pool">Step 8: Configure IIS App Pool</h2>
-<ol>
-<li>Open &quot;Internet Information Services (IIS) Manager&quot; from the Start menu.</li>
-<li>Create a new Application Pool named &quot;oqtane&quot; with No Managed Code for the .NET CLR version.</li>
-<li>Set appropriate permissions for the folder containing the Oqtane files.</li>
-</ol>
-<p><em>Note: Ensure that the folder containing the Oqtane files has appropriate modify permissions set for the &quot;IIS AppPool\oqtane&quot; user to avoid any permission issues during installation or runtime.</em></p>
-<h2 id="step-9-configure-iis-website">Step 9: Configure IIS Website</h2>
-<ol>
-<li>In IIS Manager, right-click on Sites and select &quot;Add Website&quot;.</li>
-<li>Provide a name and choose the &quot;oqtane&quot; Application Pool.</li>
-<li>Specify the path to the Oqtane files and a host name (e.g., &quot;oqtane.dev&quot;).</li>
-</ol>
-<h2 id="step-10-add-a-host-entry-optional">Step 10: Add a Host Entry (Optional)</h2>
-<ol>
+</ul>
+<p><em>Note: Extract the files to a directory where you plan to host your application.</em></p>
+<h3 id="step-6-configure-iis-app-pool">Step 6: Configure IIS App Pool</h3>
+<ul>
+<li><p>Open &quot;Internet Information Services (IIS) Manager&quot; by searching for it using the search icon next to your Windows Start button.</p>
+</li>
+<li><p>Expand the top node identifying your machine in the left-hand pane.</p>
+</li>
+<li><p>Right-click on Application Pools and select &quot;Add Application Pool&quot;.</p>
+</li>
+<li><p>Provide a Name for the application pool, such as &quot;oqtane&quot;.</p>
+</li>
+<li><p>Specify No Managed Code for the .NET CLR version.</p>
+</li>
+<li><p>Click OK.</p>
+</li>
+<li><p>In the main Application Pools pane, select the newly created pool.</p>
+</li>
+<li><p>In the right-hand Actions pane, select Advanced Settings.</p>
+</li>
+<li><p>Scroll down to Process Model and find the Identity option.</p>
+</li>
+<li><p>To ensure secure interaction with the file system and LocalDB without granting excessive privileges, it's recommended to modify the permissions of the folder containing the IIS Oqtane files to grant appropriate access to the Application Pool's identity.</p>
+<ul>
+<li>Right-click on the folder containing the Oqtane files in Windows Explorer.</li>
+<li>Select &quot;Properties&quot; and navigate to the &quot;Security&quot; tab.</li>
+<li>Click on &quot;Edit&quot; to modify permissions.</li>
+<li>Add the Application Pool's identity (e.g., <code>IIS AppPool\oqtane</code>) and grant it appropriate permissions, such as Modify access. This allows the application pool to write to the directory in addition to reading from it.</li>
+</ul>
+</li>
+<li><p>Locate the LocalDB Data Directory: By default, LocalDB databases are stored in the user's profile directory under <code>C:\Users\{username}\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\{instancename}\</code>.</p>
+<ul>
+<li>Modify Folder Permissions:
+<ul>
+<li>Right-click on the folder containing the LocalDB database files in Windows Explorer.</li>
+<li>Select &quot;Properties&quot; and navigate to the &quot;Security&quot; tab.</li>
+<li>Click on &quot;Edit&quot; to modify permissions.</li>
+<li>Click on &quot;Add&quot; and enter the name of the user account or group that you want to grant modify permissions to. This could be your current user account or the Application Pool's identity if it needs to write to the LocalDB files.</li>
+<li>After adding the user or group, select it from the list and check the &quot;Modify&quot; permission checkbox under &quot;Allow&quot;.</li>
+<li>Click &quot;Apply&quot; and then &quot;OK&quot; to save the changes.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><em>Note: For development environments, setting the App Pool's Identity to &quot;LocalSystem&quot; may be acceptable for simplicity and ease of setup. However, exercise caution and consider using a more granular approach for production environments to adhere to security best practices.</em></p>
+<h2 id="step-7-configure-iis-website">Step 7: Configure IIS Website</h2>
+<ul>
+<li>In IIS, right-click on Sites and select &quot;Add Website&quot;.</li>
+<li>Provide a name and choose the Application Pool created earlier.</li>
+<li>Specify the path to the Oqtane files.</li>
+<li>Specify a Host name, e.g., &quot;oqtane.dev&quot;.</li>
+</ul>
+<p><em>Note: Ensure that the host name specified here is correctly mapped to the machine in the host file.</em></p>
+<h2 id="step-8-add-a-host-entry">Step 8: Add a Host Entry</h2>
+<ul>
 <li>Open Notepad as Administrator.</li>
-<li>Open the &quot;hosts&quot; file located in C:\Windows\System32\drivers\etc.</li>
-<li>Add an entry mapping the host name to 127.0.0.1, e.g., 127.0.0.1 oqtane.dev.</li>
+<li>Open the &quot;hosts&quot; file located in <code>C:\Windows\System32\drivers\etc</code>.</li>
+<li>Add an entry mapping the host name to 127.0.0.1, e.g., &quot;127.0.0.1 oqtane.dev&quot;.</li>
 <li>Save the file.</li>
-</ol>
-<h2 id="step-11-navigate-to-the-site">Step 11: Navigate to the Site</h2>
-<ol>
-<li>Open your favorite web browser.</li>
-<li>Navigate to the specified host name, e.g., <a href="http://oqtane.dev">http://oqtane.dev</a>.</li>
-<li>You should now see the Oqtane installation wizard. Follow the on-screen instructions to complete the installation process.</li>
-</ol>
-<h2 id="step-12-secure-the-site-optional">Step 12: Secure the Site (Optional)</h2>
+</ul>
+<p><em>Note: This step is only required for a local development environment. In shared or public environments, standard DNS configurations are used.</em></p>
+<h2 id="step-9-navigate-to-site">Step 9: Navigate to Site</h2>
+<ul>
+<li>Open your favorite browser and navigate to the specified host name, e.g., <code>http://oqtane.dev</code>.</li>
+<li>Follow the Oqtane install wizard, providing necessary database connection details and site administrator credentials.</li>
+<li>Click Install.</li>
+</ul>
+<p><em>Note: If encountering errors during the Install Wizard due to database creation permissions, consider creating the database manually before initiating the Install Wizard.</em></p>
+<h2 id="step-10-secure-the-site-optional">Step 10: Secure the Site (Optional)</h2>
 <p><em>Note: It's essential to implement robust security measures for production applications before going live.</em></p>
 <ol>
 <li>Once the installation is complete and the site is up and running, consider implementing security measures to protect your Oqtane application.</li>
@@ -182,7 +206,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/windows-iis-sql.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/windows-iis-express-sql-express.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

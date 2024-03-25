@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Working With Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Installation Troubleshooting | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Working With Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Installation Troubleshooting | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/modules/working-with-modules.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/troubleshooting.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,31 +84,50 @@
         </div>
 
         <article data-uid="">
-<h1 id="working-with-modules">Working With Modules</h1>
+<h1 id="installation-troubleshooting">Installation Troubleshooting</h1>
 
-<p>In order to access a module's settings, you must be in the content editor. To get into the editor, simply click over the pencil icon top-right corner of the page. This puts you into the edit mode where you will see small white arrows in the top-right corner of every module on the page. These small arrows at the top left corners of each module allow you to move the module on the page, access the module's settings, edit the module, delete the module, and access any specific functionality related to the module.</p>
-<p><img src="../../../pages/manuals/admin/modules/assets/pencil.png" alt="pencil"></p>
-<p>Once in Edit mode you will notice that Oqtane uses a very user-friendly and intuitive approach to managing content. Whenever you want to edit content in Oqtane, you go to the location where the content resides and edit it right there in place.</p>
-<h3 id="moving-modules">Moving Modules</h3>
-<p>Once a module is on the page, you can move its location again if needed. All that is needed is to enter the <a href="../site-administration/content-editor.html">content editor</a> by clicking on the pencil icon in the top right hand side with editing permission on a certain page. And then selecting the small downward pointing arrow in the top left of the module to do a variety of things to it, including:</p>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>Encountering issues during the installation process can be frustrating, but with the right troubleshooting steps, you can overcome common obstacles and successfully set up Oqtane. Below are some common troubleshooting tips for both Windows and Linux installations:</p>
+<hr>
+<h2 id="windows-installation-troubleshooting">Windows Installation Troubleshooting</h2>
+<p><img src="../../../pages/manuals/admin/installation/assets/windows-logo.png" alt="Windows Logo"></p>
 <ul>
-<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
-<li>Move Up: Moves the module up to be above the module above it.</li>
-<li>Move Down: Move the module down below the module beneath it.</li>
-<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
-If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
-<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
-<li>Move to Left Pane: Moves the module to the left-most column.</li>
-<li>Move to Right Pane: Moves the module to the right-most column.</li>
-<li>Move to Content Pane: Moves the module to the central column.</li>
-<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
+<li><p><strong>Check Prerequisites</strong>: Ensure that all prerequisites, such as .NET Framework, IIS, or SQL Server, are installed correctly and meet the minimum version requirements specified in the <a href="https://docs.oqtane.org/manuals/installation">Oqtane documentation</a>.</p>
+</li>
+<li><p><strong>Permissions</strong>: Verify that you have sufficient permissions to install and configure Oqtane. Running installation processes with administrative privileges can help resolve permission-related issues.</p>
+</li>
+<li><p><strong>Firewall and Antivirus</strong>: Temporarily disable firewall or antivirus software during the installation process, as they may interfere with file downloads or server connections.</p>
+</li>
+<li><p><strong>Error Logs</strong>: Check error logs generated during the installation process for any specific error messages or exceptions. These logs can provide valuable insights into the root cause of installation failures.</p>
+</li>
 </ul>
-<p><img src="../../../pages/manuals/admin/modules/assets/moving-menu.png" alt="moving-menu"></p>
+<hr>
+<h2 id="linux-installation-troubleshooting">Linux Installation Troubleshooting</h2>
+<p><img src="../../../pages/manuals/admin/installation/assets/linux-logo.png" alt="Linux Logo"></p>
+<ul>
+<li><p><strong>Package Dependencies</strong>: Ensure that all required dependencies, such as Mono, Apache, MySQL, or PostgreSQL, are installed and configured correctly on your Linux system. Use package managers like <code>apt</code> or <code>yum</code> to install missing dependencies.</p>
+</li>
+<li><p><strong>File Permissions</strong>: Check file and directory permissions to ensure that the installation directory and relevant files are accessible by the installation process. Adjust permissions using <code>chmod</code> or <code>chown</code> commands as needed.</p>
+</li>
+<li><p><strong>Service Status</strong>: Verify the status of Apache or other web servers, as well as database services like MySQL or PostgreSQL, to ensure they are running properly. Restart services if necessary to resolve any issues.</p>
+</li>
+<li><p><strong>SELinux</strong>: If SELinux is enabled on your Linux system, it may restrict certain operations during the installation process. Temporarily disable SELinux or adjust its policies to allow necessary operations for Oqtane installation.</p>
+</li>
+</ul>
+<hr>
+<h2 id="additional-resources">Additional Resources</h2>
+<p>For further assistance and discussions on installation troubleshooting, you can explore the <a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub repository</a> and review <a href="https://github.com/oqtane/oqtane.framework/issues">existing issues</a> and <a href="https://github.com/oqtane/oqtane.framework/discussions">discussions</a> related to installation problems. Engaging with the community and seeking help from experienced users and developers can often provide valuable insights and solutions to resolve installation issues.</p>
+<ul>
+<li><a href="databases.html">Oqtane Supported Databases</a></li>
+<li><a href="resources.html">Oqtane Installation Resources</a></li>
+</ul>
+<p><a href="index.html">← Back to Installation Home</a></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/modules/working-with-modules.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/installation/troubleshooting.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
