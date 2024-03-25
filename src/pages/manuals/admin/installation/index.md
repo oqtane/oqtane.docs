@@ -2,7 +2,7 @@
 
 ## Install an Official Release on IIS
 
-The [Official Oqtane Releases are found on Github](https://github.com/oqtane/oqtane.framework/releases)
+The [Official Oqtane Releases are found on GitHub](https://github.com/oqtane/oqtane.framework/releases)
 
 Read the [detailed instructions for installing Oqtane on IIS](https://www.oqtane.org/Resources/Blog/PostId/542/installing-oqtane-on-iis)
 
