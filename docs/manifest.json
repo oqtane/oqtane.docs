@@ -5106,6 +5106,79 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/marketplace/assets/placeholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/marketplace/assets/placeholder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/marketplace/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/marketplace/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/marketplace/monetization.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/marketplace/monetization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/marketplace/submitting-contributions.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/marketplace/submitting-contributions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/marketplace/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/marketplace/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/marketplace/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/marketplace/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/marketplace/troubleshooting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/marketplace/using-oqtane-marketplace.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/marketplace/using-oqtane-marketplace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/modules/adding-modules.md",
       "output": {
         ".html": {
@@ -5176,10 +5249,70 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/creating-a-module.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/creating-a-module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/customizing-module-appearance.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/customizing-module-appearance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/modules/index.md",
       "output": {
         ".html": {
           "relative_path": "manuals/admin/modules/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/module-configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/module-configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/module-deployment.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/module-deployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/module-development.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/module-development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/module-installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/module-installation.html"
         }
       },
       "version": ""
@@ -5193,6 +5326,16 @@
         },
         ".json": {
           "relative_path": "pages/manuals/admin/modules/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/modules/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/modules/troubleshooting.html"
         }
       },
       "version": ""
@@ -5276,6 +5419,89 @@
         },
         ".json": {
           "relative_path": "pages/manuals/admin/site-administration/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/assets/placeholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/assets/placeholder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/theme-configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/theme-configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/theme-development.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/theme-development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/theme-installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/theme-installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/theme-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/theme-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/themes/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/themes/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/themes/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/themes/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/themes/troubleshooting.html"
         }
       },
       "version": ""
