@@ -3,7 +3,7 @@
 
 - name: Theme Management
   href: theme-management.md
-  children:
+  items:
     - name: Installation
       href: theme-installation.md
     - name: Configuration
