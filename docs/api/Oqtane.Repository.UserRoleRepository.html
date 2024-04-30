@@ -137,8 +137,8 @@
 
   <a id="Oqtane_Repository_UserRoleRepository__ctor_" data-uid="Oqtane.Repository.UserRoleRepository.#ctor*"></a>
 
-  <h3 id="Oqtane_Repository_UserRoleRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IRoleRepository_" data-uid="Oqtane.Repository.UserRoleRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IRoleRepository)">
-  UserRoleRepository(TenantDBContext, IRoleRepository)
+  <h3 id="Oqtane_Repository_UserRoleRepository__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Oqtane_Repository_TenantDBContext__Oqtane_Repository_IRoleRepository_" data-uid="Oqtane.Repository.UserRoleRepository.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Oqtane.Repository.TenantDBContext},Oqtane.Repository.IRoleRepository)">
+  UserRoleRepository(IDbContextFactory&lt;TenantDBContext&gt;, IRoleRepository)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -146,12 +146,12 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserRoleRepository(TenantDBContext context, IRoleRepository roles)</code></pre>
+    <pre><code class="lang-csharp hljs">public UserRoleRepository(IDbContextFactory&lt;TenantDBContext&gt; dbContextFactory, IRoleRepository roles)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a></dt>
+    <dt><code>dbContextFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.idbcontextfactory-1">IDbContextFactory</a>&lt;<a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a>&gt;</dt>
     <dd></dd>
     <dt><code>roles</code> <a class="xref" href="Oqtane.Repository.IRoleRepository.html">IRoleRepository</a></dt>
     <dd></dd>
@@ -176,7 +176,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_AddUserRole_Oqtane_Models_UserRole_" data-uid="Oqtane.Repository.UserRoleRepository.AddUserRole(Oqtane.Models.UserRole)">
   AddUserRole(UserRole)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -212,7 +212,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_DeleteUserRole_System_Int32_" data-uid="Oqtane.Repository.UserRoleRepository.DeleteUserRole(System.Int32)">
   DeleteUserRole(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -243,7 +243,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_DeleteUserRoles_System_Int32_" data-uid="Oqtane.Repository.UserRoleRepository.DeleteUserRoles(System.Int32)">
   DeleteUserRoles(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -274,7 +274,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_GetUserRole_System_Int32_" data-uid="Oqtane.Repository.UserRoleRepository.GetUserRole(System.Int32)">
   GetUserRole(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -310,7 +310,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_GetUserRole_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.UserRoleRepository.GetUserRole(System.Int32,System.Boolean)">
   GetUserRole(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -348,7 +348,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_GetUserRole_System_Int32_System_Int32_" data-uid="Oqtane.Repository.UserRoleRepository.GetUserRole(System.Int32,System.Int32)">
   GetUserRole(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -386,7 +386,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_GetUserRole_System_Int32_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.UserRoleRepository.GetUserRole(System.Int32,System.Int32,System.Boolean)">
   GetUserRole(int, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -462,7 +462,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_GetUserRoles_System_Int32_System_Int32_" data-uid="Oqtane.Repository.UserRoleRepository.GetUserRoles(System.Int32,System.Int32)">
   GetUserRoles(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -500,7 +500,7 @@
 
   <h3 id="Oqtane_Repository_UserRoleRepository_UpdateUserRole_Oqtane_Models_UserRole_" data-uid="Oqtane.Repository.UserRoleRepository.UpdateUserRole(Oqtane.Models.UserRole)">
   UpdateUserRole(UserRole)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/UserRoleRepository.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

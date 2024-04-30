@@ -242,15 +242,14 @@ protected ILogService LoggingService { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ModuleInstance" data-uid="Oqtane.Modules.ModuleBase.ModuleInstance">
   ModuleInstance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L499"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Parameter]
-public ModuleInstance ModuleInstance { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ModuleInstance ModuleInstance { get; }</code></pre>
   </div>
 
 
@@ -324,6 +323,102 @@ protected PageState PageState { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Oqtane.UI.PageState.html">PageState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_ModuleBase_Prerender_" data-uid="Oqtane.Modules.ModuleBase.Prerender*"></a>
+
+  <h3 id="Oqtane_Modules_ModuleBase_Prerender" data-uid="Oqtane.Modules.ModuleBase.Prerender">
+  Prerender
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies the prerender mode for the moudle control ie: true or false</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool? Prerender { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_ModuleBase_RenderMode_" data-uid="Oqtane.Modules.ModuleBase.RenderMode*"></a>
+
+  <h3 id="Oqtane_Modules_ModuleBase_RenderMode" data-uid="Oqtane.Modules.ModuleBase.RenderMode">
+  RenderMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies the required render mode for the module control ie. Static,Interactive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string RenderMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_ModuleBase_RenderModeBoundary_" data-uid="Oqtane.Modules.ModuleBase.RenderModeBoundary*"></a>
+
+  <h3 id="Oqtane_Modules_ModuleBase_RenderModeBoundary" data-uid="Oqtane.Modules.ModuleBase.RenderModeBoundary">
+  RenderModeBoundary
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter]
+public RenderModeBoundary RenderModeBoundary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.UI.RenderModeBoundary.html">RenderModeBoundary</a></dt>
     <dd></dd>
   </dl>
 
@@ -466,7 +561,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_UrlParameters" data-uid="Oqtane.Modules.ModuleBase.UrlParameters">
   UrlParameters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -497,7 +592,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_UrlParametersTemplate" data-uid="Oqtane.Modules.ModuleBase.UrlParametersTemplate">
   UrlParametersTemplate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -595,7 +690,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_AddHeadContent_System_String_" data-uid="Oqtane.Modules.ModuleBase.AddHeadContent(System.String)">
   AddHeadContent(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L322"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -626,7 +721,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_" data-uid="Oqtane.Modules.ModuleBase.AddModuleMessage(System.String,Oqtane.Modules.MessageType)">
   AddModuleMessage(string, MessageType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L274"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -659,7 +754,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_" data-uid="Oqtane.Modules.ModuleBase.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)">
   AddModuleMessage(string, MessageType, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L279"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -694,7 +789,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_AddScript_Oqtane_Models_Resource_" data-uid="Oqtane.Modules.ModuleBase.AddScript(Oqtane.Models.Resource)">
   AddScript(Resource)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L327"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -725,7 +820,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_AddUrlParameters_System_Object___" data-uid="Oqtane.Modules.ModuleBase.AddUrlParameters(System.Object[])">
   AddUrlParameters(params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -761,7 +856,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ClearModuleMessage" data-uid="Oqtane.Modules.ModuleBase.ClearModuleMessage">
   ClearModuleMessage()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L285"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -787,7 +882,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_" data-uid="Oqtane.Modules.ModuleBase.ContentUrl(System.Int32)">
   ContentUrl(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L479"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L486"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -824,7 +919,7 @@ public string ContentUrl(int fileid)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.ContentUrl(System.Int32,System.Boolean)">
   ContentUrl(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L485"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L492"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -863,7 +958,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_EditUrl_System_Int32_System_String_" data-uid="Oqtane.Modules.ModuleBase.EditUrl(System.Int32,System.String)">
   EditUrl(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -901,7 +996,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_EditUrl_System_Int32_System_String_System_String_" data-uid="Oqtane.Modules.ModuleBase.EditUrl(System.Int32,System.String,System.String)">
   EditUrl(int, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -941,7 +1036,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_EditUrl_System_String_" data-uid="Oqtane.Modules.ModuleBase.EditUrl(System.String)">
   EditUrl(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -977,7 +1072,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_EditUrl_System_String_System_Int32_System_String_System_String_" data-uid="Oqtane.Modules.ModuleBase.EditUrl(System.String,System.Int32,System.String,System.String)">
   EditUrl(string, int, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1019,7 +1114,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_EditUrl_System_String_System_String_" data-uid="Oqtane.Modules.ModuleBase.EditUrl(System.String,System.String)">
   EditUrl(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1057,7 +1152,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_FileUrl_System_Int32_" data-uid="Oqtane.Modules.ModuleBase.FileUrl(System.Int32)">
   FileUrl(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1093,7 +1188,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_FileUrl_System_Int32_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.FileUrl(System.Int32,System.Boolean)">
   FileUrl(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1131,7 +1226,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_FileUrl_System_String_System_String_" data-uid="Oqtane.Modules.ModuleBase.FileUrl(System.String,System.String)">
   FileUrl(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L187"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1169,7 +1264,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_FileUrl_System_String_System_String_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.FileUrl(System.String,System.String,System.Boolean)">
   FileUrl(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1209,7 +1304,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_GetUrlParameters_System_String_" data-uid="Oqtane.Modules.ModuleBase.GetUrlParameters(System.String)">
   GetUrlParameters(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L228"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1245,7 +1340,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_HideProgressIndicator" data-uid="Oqtane.Modules.ModuleBase.HideProgressIndicator">
   HideProgressIndicator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L295"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1271,7 +1366,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_Int32_System_Int32_" data-uid="Oqtane.Modules.ModuleBase.ImageUrl(System.Int32,System.Int32,System.Int32)">
   ImageUrl(int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1311,7 +1406,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_Int32_System_Int32_System_String_" data-uid="Oqtane.Modules.ModuleBase.ImageUrl(System.Int32,System.Int32,System.Int32,System.String)">
   ImageUrl(int, int, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1353,7 +1448,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ImageUrl_System_Int32_System_Int32_System_Int32_System_String_System_String_System_String_System_Int32_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.ImageUrl(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean)">
   ImageUrl(int, int, int, string, string, string, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1403,7 +1498,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_Log_Oqtane_Models_Alias_Oqtane_Shared_LogLevel_Oqtane_Enums_LogFunction_System_Exception_System_String_System_Object___" data-uid="Oqtane.Modules.ModuleBase.Log(Oqtane.Models.Alias,Oqtane.Shared.LogLevel,Oqtane.Enums.LogFunction,System.Exception,System.String,System.Object[])">
   Log(Alias, LogLevel, LogFunction, Exception, string, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L376"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1449,7 +1544,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_Log_Oqtane_Models_Alias_Oqtane_Shared_LogLevel_System_String_System_Exception_System_String_System_Object___" data-uid="Oqtane.Modules.ModuleBase.Log(Oqtane.Models.Alias,Oqtane.Shared.LogLevel,System.String,System.Exception,System.String,System.Object[])">
   Log(Alias, LogLevel, string, Exception, string, params object[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L344"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1495,7 +1590,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_ModulePath" data-uid="Oqtane.Modules.ModuleBase.ModulePath">
   ModulePath()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1526,7 +1621,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_NavigateUrl" data-uid="Oqtane.Modules.ModuleBase.NavigateUrl">
   NavigateUrl()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1557,7 +1652,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_NavigateUrl_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.NavigateUrl(System.Boolean)">
   NavigateUrl(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1593,7 +1688,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_NavigateUrl_System_String_" data-uid="Oqtane.Modules.ModuleBase.NavigateUrl(System.String)">
   NavigateUrl(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1629,7 +1724,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_NavigateUrl_System_String_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.NavigateUrl(System.String,System.Boolean)">
   NavigateUrl(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1667,7 +1762,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_NavigateUrl_System_String_System_String_" data-uid="Oqtane.Modules.ModuleBase.NavigateUrl(System.String,System.String)">
   NavigateUrl(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1705,7 +1800,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h3 id="Oqtane_Modules_ModuleBase_OnAfterRenderAsync_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.OnAfterRenderAsync(System.Boolean)">
   OnAfterRenderAsync(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method invoked after each time the component has been rendered interactively and the UI has finished
@@ -1757,7 +1852,7 @@ once.</p>
 
   <h3 id="Oqtane_Modules_ModuleBase_ScrollToPageTop" data-uid="Oqtane.Modules.ModuleBase.ScrollToPageTop">
   ScrollToPageTop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L337"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1788,7 +1883,7 @@ once.</p>
 
   <h3 id="Oqtane_Modules_ModuleBase_SetModuleTitle_System_String_" data-uid="Oqtane.Modules.ModuleBase.SetModuleTitle(System.String)">
   SetModuleTitle(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L300"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1819,7 +1914,7 @@ once.</p>
 
   <h3 id="Oqtane_Modules_ModuleBase_SetModuleVisibility_System_Boolean_" data-uid="Oqtane.Modules.ModuleBase.SetModuleVisibility(System.Boolean)">
   SetModuleVisibility(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L308"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1850,7 +1945,7 @@ once.</p>
 
   <h3 id="Oqtane_Modules_ModuleBase_SetPageTitle_System_String_" data-uid="Oqtane.Modules.ModuleBase.SetPageTitle(System.String)">
   SetPageTitle(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L316"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1881,7 +1976,7 @@ once.</p>
 
   <h3 id="Oqtane_Modules_ModuleBase_ShouldRender" data-uid="Oqtane.Modules.ModuleBase.ShouldRender">
   ShouldRender()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a flag to indicate whether the component should render.</p>
@@ -1913,7 +2008,7 @@ once.</p>
 
   <h3 id="Oqtane_Modules_ModuleBase_ShowProgressIndicator" data-uid="Oqtane.Modules.ModuleBase.ShowProgressIndicator">
   ShowProgressIndicator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/ModuleBase.cs/#L290"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

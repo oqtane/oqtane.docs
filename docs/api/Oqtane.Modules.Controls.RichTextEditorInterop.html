@@ -284,6 +284,42 @@
 
 
 
+  <a id="Oqtane_Modules_Controls_RichTextEditorInterop_GetCurrentCursor_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.GetCurrentCursor*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_RichTextEditorInterop_GetCurrentCursor_Microsoft_AspNetCore_Components_ElementReference_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.GetCurrentCursor(Microsoft.AspNetCore.Components.ElementReference)">
+  GetCurrentCursor(ElementReference)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/Controls/RichTextEditorInterop.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueTask&lt;int&gt; GetCurrentCursor(ElementReference quillElement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quillElement</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.elementreference">ElementReference</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_RichTextEditorInterop_GetHtml_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml*"></a>
 
   <h3 id="Oqtane_Modules_Controls_RichTextEditorInterop_GetHtml_Microsoft_AspNetCore_Components_ElementReference_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.GetHtml(Microsoft.AspNetCore.Components.ElementReference)">
@@ -358,16 +394,16 @@
 
   <a id="Oqtane_Modules_Controls_RichTextEditorInterop_InsertImage_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage*"></a>
 
-  <h3 id="Oqtane_Modules_Controls_RichTextEditorInterop_InsertImage_Microsoft_AspNetCore_Components_ElementReference_System_String_System_String_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(Microsoft.AspNetCore.Components.ElementReference,System.String,System.String)">
-  InsertImage(ElementReference, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/Controls/RichTextEditorInterop.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Modules_Controls_RichTextEditorInterop_InsertImage_Microsoft_AspNetCore_Components_ElementReference_System_String_System_String_System_Int32_" data-uid="Oqtane.Modules.Controls.RichTextEditorInterop.InsertImage(Microsoft.AspNetCore.Components.ElementReference,System.String,System.String,System.Int32)">
+  InsertImage(ElementReference, string, string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Client/Modules/Controls/RichTextEditorInterop.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task InsertImage(ElementReference quillElement, string imageUrl, string altText)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task InsertImage(ElementReference quillElement, string imageUrl, string altText, int editorIndex)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -377,6 +413,8 @@
     <dt><code>imageUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
     <dt><code>altText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>editorIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 

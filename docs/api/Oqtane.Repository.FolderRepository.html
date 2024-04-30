@@ -137,8 +137,8 @@
 
   <a id="Oqtane_Repository_FolderRepository__ctor_" data-uid="Oqtane.Repository.FolderRepository.#ctor*"></a>
 
-  <h3 id="Oqtane_Repository_FolderRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IPermissionRepository_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ITenantManager_" data-uid="Oqtane.Repository.FolderRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ITenantManager)">
-  FolderRepository(TenantDBContext, IPermissionRepository, IWebHostEnvironment, ITenantManager)
+  <h3 id="Oqtane_Repository_FolderRepository__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Oqtane_Repository_TenantDBContext__Oqtane_Repository_IPermissionRepository_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ITenantManager_" data-uid="Oqtane.Repository.FolderRepository.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Oqtane.Repository.TenantDBContext},Oqtane.Repository.IPermissionRepository,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ITenantManager)">
+  FolderRepository(IDbContextFactory&lt;TenantDBContext&gt;, IPermissionRepository, IWebHostEnvironment, ITenantManager)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -146,12 +146,12 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public FolderRepository(TenantDBContext context, IPermissionRepository permissions, IWebHostEnvironment environment, ITenantManager tenants)</code></pre>
+    <pre><code class="lang-csharp hljs">public FolderRepository(IDbContextFactory&lt;TenantDBContext&gt; dbContextFactory, IPermissionRepository permissions, IWebHostEnvironment environment, ITenantManager tenants)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a></dt>
+    <dt><code>dbContextFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.idbcontextfactory-1">IDbContextFactory</a>&lt;<a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a>&gt;</dt>
     <dd></dd>
     <dt><code>permissions</code> <a class="xref" href="Oqtane.Repository.IPermissionRepository.html">IPermissionRepository</a></dt>
     <dd></dd>
@@ -180,7 +180,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_AddFolder_Oqtane_Models_Folder_" data-uid="Oqtane.Repository.FolderRepository.AddFolder(Oqtane.Models.Folder)">
   AddFolder(Folder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -216,7 +216,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_DeleteFolder_System_Int32_" data-uid="Oqtane.Repository.FolderRepository.DeleteFolder(System.Int32)">
   DeleteFolder(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -247,7 +247,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_GetFolder_System_Int32_" data-uid="Oqtane.Repository.FolderRepository.GetFolder(System.Int32)">
   GetFolder(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -283,7 +283,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_GetFolder_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.FolderRepository.GetFolder(System.Int32,System.Boolean)">
   GetFolder(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -321,7 +321,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_GetFolder_System_Int32_System_String_" data-uid="Oqtane.Repository.FolderRepository.GetFolder(System.Int32,System.String)">
   GetFolder(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -359,7 +359,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_GetFolderPath_Oqtane_Models_Folder_" data-uid="Oqtane.Repository.FolderRepository.GetFolderPath(Oqtane.Models.Folder)">
   GetFolderPath(Folder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -395,7 +395,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_GetFolderPath_System_Int32_" data-uid="Oqtane.Repository.FolderRepository.GetFolderPath(System.Int32)">
   GetFolderPath(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -467,7 +467,7 @@
 
   <h3 id="Oqtane_Repository_FolderRepository_UpdateFolder_Oqtane_Models_Folder_" data-uid="Oqtane.Repository.FolderRepository.UpdateFolder(Oqtane.Models.Folder)">
   UpdateFolder(Folder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/FolderRepository.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

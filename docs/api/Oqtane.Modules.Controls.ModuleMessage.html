@@ -150,7 +150,7 @@
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleState">ModuleBase.ModuleState</a>
     </div>
     <div>
-      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleInstance">ModuleBase.ModuleInstance</a>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_RenderModeBoundary">ModuleBase.RenderModeBoundary</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SecurityAccessLevel">ModuleBase.SecurityAccessLevel</a>
@@ -166,6 +166,12 @@
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Resources">ModuleBase.Resources</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_RenderMode">ModuleBase.RenderMode</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Prerender">ModuleBase.Prerender</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_UrlParametersTemplate">ModuleBase.UrlParametersTemplate</a>
@@ -284,6 +290,9 @@
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_">ModuleBase.ContentUrl(int, bool)</a>
     </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleInstance">ModuleBase.ModuleInstance</a>
+    </div>
   </dd></dl>
 
 
@@ -395,6 +404,34 @@ public MessageType Type { get; set; }</code></pre>
 
 
 
+  <a id="Oqtane_Modules_Controls_ModuleMessage_OnInitialized_" data-uid="Oqtane.Modules.Controls.ModuleMessage.OnInitialized*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_ModuleMessage_OnInitialized" data-uid="Oqtane.Modules.Controls.ModuleMessage.OnInitialized">
+  OnInitialized()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method invoked when the component is ready to start, having received its
+initial parameters from its parent in the render tree.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInitialized()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_ModuleMessage_OnParametersSet_" data-uid="Oqtane.Modules.Controls.ModuleMessage.OnParametersSet*"></a>
 
   <h3 id="Oqtane_Modules_Controls_ModuleMessage_OnParametersSet" data-uid="Oqtane.Modules.Controls.ModuleMessage.OnParametersSet">
@@ -411,6 +448,39 @@ the render tree, and the incoming values have been assigned to properties.</p>
     <pre><code class="lang-csharp hljs">protected override void OnParametersSet()</code></pre>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_ModuleMessage_RefreshMessage_" data-uid="Oqtane.Modules.Controls.ModuleMessage.RefreshMessage*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_ModuleMessage_RefreshMessage_System_String_Oqtane_Modules_MessageType_" data-uid="Oqtane.Modules.Controls.ModuleMessage.RefreshMessage(System.String,Oqtane.Modules.MessageType)">
+  RefreshMessage(string, MessageType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RefreshMessage(string message, MessageType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="Oqtane.Modules.MessageType.html">MessageType</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

@@ -155,7 +155,7 @@
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleState">ModuleBase.ModuleState</a>
     </div>
     <div>
-      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleInstance">ModuleBase.ModuleInstance</a>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_RenderModeBoundary">ModuleBase.RenderModeBoundary</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_SecurityAccessLevel">ModuleBase.SecurityAccessLevel</a>
@@ -171,6 +171,12 @@
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Resources">ModuleBase.Resources</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_RenderMode">ModuleBase.RenderMode</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_Prerender">ModuleBase.Prerender</a>
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_UrlParametersTemplate">ModuleBase.UrlParametersTemplate</a>
@@ -288,6 +294,9 @@
     </div>
     <div>
       <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ContentUrl_System_Int32_System_Boolean_">ModuleBase.ContentUrl(int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Oqtane.Modules.ModuleBase.html#Oqtane_Modules_ModuleBase_ModuleInstance">ModuleBase.ModuleInstance</a>
     </div>
   </dd></dl>
 
@@ -684,6 +693,38 @@ public string PageSize { get; set; }</code></pre>
 
 
 
+  <a id="Oqtane_Modules_Controls_Pager_1_Parameters_" data-uid="Oqtane.Modules.Controls.Pager`1.Parameters*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_Pager_1_Parameters" data-uid="Oqtane.Modules.Controls.Pager`1.Parameters">
+  Parameters
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Parameter]
+public string Parameters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Modules_Controls_Pager_1_Row_" data-uid="Oqtane.Modules.Controls.Pager`1.Row*"></a>
 
   <h3 id="Oqtane_Modules_Controls_Pager_1_Row" data-uid="Oqtane.Modules.Controls.Pager`1.Row">
@@ -793,6 +834,38 @@ public string SearchProperties { get; set; }</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Parameter]
 public string Toolbar { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Modules_Controls_Pager_1__Search_" data-uid="Oqtane.Modules.Controls.Pager`1._Search*"></a>
+
+  <h3 id="Oqtane_Modules_Controls_Pager_1__Search" data-uid="Oqtane.Modules.Controls.Pager`1._Search">
+  _Search
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SupplyParameterFromForm(FormName = &quot;PagerForm&quot;)]
+public string _Search { get; set; }</code></pre>
   </div>
 
 

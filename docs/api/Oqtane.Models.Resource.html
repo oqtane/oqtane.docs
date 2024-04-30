@@ -230,7 +230,7 @@
 
   <h3 id="Oqtane_Models_Resource_Declaration" data-uid="Oqtane.Models.Resource.Declaration">
   Declaration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -390,7 +390,7 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_Namespace" data-uid="Oqtane.Models.Resource.Namespace">
   Namespace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The namespace of the component that declared the resource - only used in SiteRouter</p>
@@ -399,6 +399,70 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Namespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Models_Resource_Reload_" data-uid="Oqtane.Models.Resource.Reload*"></a>
+
+  <h3 id="Oqtane_Models_Resource_Reload" data-uid="Oqtane.Models.Resource.Reload">
+  Reload
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates that a script should be reloaded on every page transition - not applicable to Stylesheets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Reload { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Models_Resource_RenderMode_" data-uid="Oqtane.Models.Resource.RenderMode*"></a>
+
+  <h3 id="Oqtane_Models_Resource_RenderMode" data-uid="Oqtane.Models.Resource.RenderMode">
+  RenderMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For Scripts this defines the render mode (default is all render modes) - not applicable to Stylesheets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RenderMode { get; set; }</code></pre>
   </div>
 
 
@@ -474,6 +538,48 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Oqtane_Models_Resource_Clone_" data-uid="Oqtane.Models.Resource.Clone*"></a>
+
+  <h3 id="Oqtane_Models_Resource_Clone_Oqtane_Shared_ResourceLevel_System_String_" data-uid="Oqtane.Models.Resource.Clone(Oqtane.Shared.ResourceLevel,System.String)">
+  Clone(ResourceLevel, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Shared/Models/Resource.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Resource Clone(ResourceLevel level, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>level</code> <a class="xref" href="Oqtane.Shared.ResourceLevel.html">ResourceLevel</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.Resource.html">Resource</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

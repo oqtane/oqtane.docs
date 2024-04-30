@@ -103,7 +103,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ModuleInstance : ErrorBoundary</code></pre>
+    <pre><code class="lang-csharp hljs">public class ModuleInstance : ComponentBase</code></pre>
   </div>
 
 
@@ -114,8 +114,6 @@
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase">ComponentBase</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.errorboundarybase">ErrorBoundaryBase</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.web.errorboundary">ErrorBoundary</a></div>
       <div><span class="xref">ModuleInstance</span></div>
     </dd>
   </dl>
@@ -179,7 +177,8 @@ protected PageState PageState { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddModuleMessage(string message, MessageType type)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AddModuleMessage is deprecated. Use AddModuleMessage in ModuleBase instead.&quot;, false)]
+public void AddModuleMessage(string message, MessageType type)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -212,7 +211,8 @@ protected PageState PageState { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddModuleMessage(string message, MessageType type, string position)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AddModuleMessage is deprecated. Use ModuleBase.AddModuleMessage instead.&quot;, false)]
+public void AddModuleMessage(string message, MessageType type, string position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -279,135 +279,11 @@ protected PageState PageState { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HideProgressIndicator()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;HideProgressIndicator is deprecated. Use HideProgressIndicator in ModuleBase instead.&quot;, false)]
+public void HideProgressIndicator()</code></pre>
   </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Oqtane_UI_ModuleInstance_OnErrorAsync_" data-uid="Oqtane.UI.ModuleInstance.OnErrorAsync*"></a>
-
-  <h3 id="Oqtane_UI_ModuleInstance_OnErrorAsync_System_Exception_" data-uid="Oqtane.UI.ModuleInstance.OnErrorAsync(System.Exception)">
-  OnErrorAsync(Exception)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invoked by the base class when an error is being handled. The default implementation
-logs the error.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override Task OnErrorAsync(Exception exception)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
-    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a> being handled.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Oqtane_UI_ModuleInstance_OnParametersSet_" data-uid="Oqtane.UI.ModuleInstance.OnParametersSet*"></a>
-
-  <h3 id="Oqtane_UI_ModuleInstance_OnParametersSet" data-uid="Oqtane.UI.ModuleInstance.OnParametersSet">
-  OnParametersSet()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Method invoked when the component has received parameters from its parent in
-the render tree, and the incoming values have been assigned to properties.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnParametersSet()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Oqtane_UI_ModuleInstance_Recover_" data-uid="Oqtane.UI.ModuleInstance.Recover*"></a>
-
-  <h3 id="Oqtane_UI_ModuleInstance_Recover" data-uid="Oqtane.UI.ModuleInstance.Recover">
-  Recover()
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Recover()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Oqtane_UI_ModuleInstance_ShouldRender_" data-uid="Oqtane.UI.ModuleInstance.ShouldRender*"></a>
-
-  <h3 id="Oqtane_UI_ModuleInstance_ShouldRender" data-uid="Oqtane.UI.ModuleInstance.ShouldRender">
-  ShouldRender()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a flag to indicate whether the component should render.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override bool ShouldRender()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -430,7 +306,8 @@ the render tree, and the incoming values have been assigned to properties.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ShowProgressIndicator()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;ShowProgressIndicator is deprecated. Use ShowProgressIndicator in ModuleBase instead.&quot;, false)]
+public void ShowProgressIndicator()</code></pre>
   </div>
 
 

@@ -137,8 +137,8 @@
 
   <a id="Oqtane_Repository_ModuleRepository__ctor_" data-uid="Oqtane.Repository.ModuleRepository.#ctor*"></a>
 
-  <h3 id="Oqtane_Repository_ModuleRepository__ctor_Oqtane_Repository_TenantDBContext_Oqtane_Repository_IPermissionRepository_Oqtane_Repository_ISettingRepository_Oqtane_Repository_IModuleDefinitionRepository_System_IServiceProvider_" data-uid="Oqtane.Repository.ModuleRepository.#ctor(Oqtane.Repository.TenantDBContext,Oqtane.Repository.IPermissionRepository,Oqtane.Repository.ISettingRepository,Oqtane.Repository.IModuleDefinitionRepository,System.IServiceProvider)">
-  ModuleRepository(TenantDBContext, IPermissionRepository, ISettingRepository, IModuleDefinitionRepository, IServiceProvider)
+  <h3 id="Oqtane_Repository_ModuleRepository__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Oqtane_Repository_TenantDBContext__Oqtane_Repository_IPermissionRepository_Oqtane_Repository_ISettingRepository_Oqtane_Repository_IModuleDefinitionRepository_System_IServiceProvider_" data-uid="Oqtane.Repository.ModuleRepository.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Oqtane.Repository.TenantDBContext},Oqtane.Repository.IPermissionRepository,Oqtane.Repository.ISettingRepository,Oqtane.Repository.IModuleDefinitionRepository,System.IServiceProvider)">
+  ModuleRepository(IDbContextFactory&lt;TenantDBContext&gt;, IPermissionRepository, ISettingRepository, IModuleDefinitionRepository, IServiceProvider)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -146,12 +146,12 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModuleRepository(TenantDBContext context, IPermissionRepository permissions, ISettingRepository settings, IModuleDefinitionRepository moduleDefinitions, IServiceProvider serviceProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public ModuleRepository(IDbContextFactory&lt;TenantDBContext&gt; dbContextFactory, IPermissionRepository permissions, ISettingRepository settings, IModuleDefinitionRepository moduleDefinitions, IServiceProvider serviceProvider)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>context</code> <a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a></dt>
+    <dt><code>dbContextFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.idbcontextfactory-1">IDbContextFactory</a>&lt;<a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a>&gt;</dt>
     <dd></dd>
     <dt><code>permissions</code> <a class="xref" href="Oqtane.Repository.IPermissionRepository.html">IPermissionRepository</a></dt>
     <dd></dd>
@@ -182,7 +182,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_AddModule_Oqtane_Models_Module_" data-uid="Oqtane.Repository.ModuleRepository.AddModule(Oqtane.Models.Module)">
   AddModule(Module)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -218,7 +218,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_DeleteModule_System_Int32_" data-uid="Oqtane.Repository.ModuleRepository.DeleteModule(System.Int32)">
   DeleteModule(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -249,7 +249,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_ExportModule_System_Int32_" data-uid="Oqtane.Repository.ModuleRepository.ExportModule(System.Int32)">
   ExportModule(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -285,7 +285,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_GetModule_System_Int32_" data-uid="Oqtane.Repository.ModuleRepository.GetModule(System.Int32)">
   GetModule(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -321,7 +321,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_GetModule_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.ModuleRepository.GetModule(System.Int32,System.Boolean)">
   GetModule(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -395,7 +395,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_ImportModule_System_Int32_System_String_" data-uid="Oqtane.Repository.ModuleRepository.ImportModule(System.Int32,System.String)">
   ImportModule(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -433,7 +433,7 @@
 
   <h3 id="Oqtane_Repository_ModuleRepository_UpdateModule_Oqtane_Models_Module_" data-uid="Oqtane.Repository.ModuleRepository.UpdateModule(Oqtane.Models.Module)">
   UpdateModule(Module)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Repository/ModuleRepository.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

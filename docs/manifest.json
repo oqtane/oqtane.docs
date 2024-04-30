@@ -152,6 +152,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Components.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Components.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Components._Imports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Components._Imports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Controllers.AliasController.yml",
       "output": {
         ".html": {
@@ -572,6 +602,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Extensions.CacheExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Extensions.CacheExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Extensions.ClaimsPrincipalExtensions.yml",
       "output": {
         ".html": {
@@ -982,6 +1022,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.Interfaces.ITokenReplace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.Interfaces.ITokenReplace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Infrastructure.LocalizationManager.yml",
       "output": {
         ".html": {
@@ -1142,6 +1202,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.TokenReplace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.TokenReplace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Infrastructure.UpgradeManager.yml",
       "output": {
         ".html": {
@@ -1176,6 +1246,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Interfaces.ISettingsControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Interfaces.ITokenSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Interfaces.ITokenSource.html"
         }
       },
       "version": ""
@@ -1852,6 +1932,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Modules.IClientService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.IClientService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Modules.IModule.yml",
       "output": {
         ".html": {
@@ -2056,6 +2146,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Providers.IdentityAuthenticationStateProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Providers.IdentityRevalidatingAuthenticationStateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Providers.IdentityRevalidatingAuthenticationStateProvider.html"
         }
       },
       "version": ""
@@ -3282,6 +3382,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.RenderModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.RenderModes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Shared.ResourceDeclaration.yml",
       "output": {
         ".html": {
@@ -3336,6 +3446,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.Runtime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.Runtimes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.Runtimes.html"
         }
       },
       "version": ""
@@ -3492,6 +3612,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Themes.Controls.ControlPanelInteractive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Themes.Controls.ControlPanelInteractive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Themes.Controls.LanguageSwitcher.yml",
       "output": {
         ".html": {
@@ -3626,6 +3756,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Themes.Controls.ModuleActionsInteractive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsInteractive.html"
         }
       },
       "version": ""
@@ -3772,6 +3912,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.UI.Head.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.UI.Head.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.UI.InteractiveRenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.UI.InteractiveRenderMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.UI.Interop.yml",
       "output": {
         ".html": {
@@ -3822,6 +3982,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.UI.RenderModeBoundary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.UI.RenderModeBoundary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.UI.Routes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.UI.Routes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.UI.Runtime.yml",
       "output": {
         ".html": {
@@ -3866,6 +4046,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OqtaneSSR.Extensions.ComponentEndpointRouteBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OqtaneSSR.Extensions.ComponentEndpointRouteBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/OqtaneSSR.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OqtaneSSR.Extensions.html"
         }
       },
       "version": ""

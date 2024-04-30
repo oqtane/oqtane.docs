@@ -124,8 +124,8 @@
 
   <a id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent*"></a>
 
-  <h3 id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_System_Int32_System_String_System_Int32_System_String_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent(System.Int32,System.String,System.Int32,System.String)">
-  AddSyncEvent(int, string, int, string)
+  <h3 id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_Oqtane_Models_Alias_System_String_System_Int32_System_String_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent(Oqtane.Models.Alias,System.String,System.Int32,System.String)">
+  AddSyncEvent(Alias, string, int, string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/ISyncManager.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -133,7 +133,84 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void AddSyncEvent(int tenantId, string entityName, int entityId, string action)</code></pre>
+    <pre><code class="lang-csharp hljs">void AddSyncEvent(Alias alias, string entityName, int entityId, string action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>alias</code> <a class="xref" href="Oqtane.Models.Alias.html">Alias</a></dt>
+    <dd></dd>
+    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent*"></a>
+
+  <h3 id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_System_Int32_System_Int32_System_String_System_Int32_System_String_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent(System.Int32,System.Int32,System.String,System.Int32,System.String)">
+  AddSyncEvent(int, int, string, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/ISyncManager.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddSyncEvent(int tenantId, int siteId, string entityName, int entityId, string action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tenantId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent*"></a>
+
+  <h3 id="Oqtane_Infrastructure_ISyncManager_AddSyncEvent_System_Int32_System_String_System_Int32_System_String_" data-uid="Oqtane.Infrastructure.ISyncManager.AddSyncEvent(System.Int32,System.String,System.Int32,System.String)">
+  AddSyncEvent(int, string, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/dev/Oqtane.Server/Infrastructure/Interfaces/ISyncManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AddSyncEvent(int tenantId, string entityName, int entityId, string action) is deprecated. Use AddSyncEvent(Alias alias, string entityName, int entityId, string action) instead.&quot;, false)]
+void AddSyncEvent(int tenantId, string entityName, int entityId, string action)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
