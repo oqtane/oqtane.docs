@@ -4,6 +4,9 @@ references:
 - uid: Guides.Index
   name: Guides WIP
   href: guides/index.html
+- uid: Guides.Roadmap.Index
+  name: Oqtane Roadmap and History
+  href: guides/roadmap/index.html
 - uid: Oqtane
   name: Oqtane
   href: api/Oqtane.html
