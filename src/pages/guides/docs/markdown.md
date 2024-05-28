@@ -1,4 +1,4 @@
-﻿# Markdown Tips in the Octane Docs
+﻿# Markdown Tips in the Oqtane Docs
 
 Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files. Here the most important tips for people working with this:
 
