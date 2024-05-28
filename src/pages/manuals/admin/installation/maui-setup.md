@@ -89,7 +89,7 @@ This option allows you to modify the `appsettings.json` without having to change
 - Oqtane Framework must be running on a seperate instance of Visual Studio or a web server.
 - For additional user functionality like file uploads you may need to create a user token.
   This can be accomplished by navigating to Admin Dashboard > User Management > **Token Settings** and setting the **Secret:* option.
-  ![Oqtane.Maui Run Windows Machine](./assets/maui-run-windows-machine.png)
+  ![Oqtane.Maui Run Windows Machine](./assets/user-management-token-settings.png)
 - For further assistance, refer to the Oqtane community discussion forums.
 
 ## Conclusion
