@@ -21,11 +21,16 @@ Oqtane.Maui is a hybrid .NET MAUI application that integrates with the Oqtane fr
 ### 2. Configure Oqtane for Hybrid .NET MAUI
 
 1. Open the Oqtane Admin Dashboard.
+
 ![Oqtane Control Panel Admin Dashboard](./assets/control-panel-admin-dashboard.png)
+
 2. Navigate to **Site Settings**
+
 ![Oqtane Site Settings](./assets/admin-dashboard-site-settings.png)
+
 3. Navigate to **UI Component Settings**
 4. Set the option for **Hybrid?** to **Yes**.
+
 ![Oqtane Site Settings](./assets/site-settings-ui-component-settings-hybrid-enabled.png)
 
 ### 3. Edit the `MauiConstants.cs` File (Option #1)
