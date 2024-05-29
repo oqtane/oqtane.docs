@@ -43,7 +43,6 @@ For general development and keeping up with the latest features, you can use the
 - [Oqtane Framework GitHub Repository](https://github.com/oqtane/oqtane.framework)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [.NET Core](https://dotnet.microsoft.com)
--
 
 ## Related Pages
 
