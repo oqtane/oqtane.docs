@@ -4095,6 +4095,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/guides/concepts/404-page-behavior.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/concepts/404-page-behavior.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/concepts/assets/404-not-found.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/concepts/assets/404-not-found.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/guides/concepts/dll-handling.md",
       "output": {
         ".html": {
@@ -4983,6 +5003,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/admin-dashboard-site-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/admin-dashboard-site-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/installation/assets/apache-http-server-logo.png",
       "output": {
         "resource": {
@@ -4993,10 +5023,60 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/control-panel-admin-dashboard.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/control-panel-admin-dashboard.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/installation/assets/linux-logo.png",
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/installation/assets/linux-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/maui-run-windows-machine.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/maui-run-windows-machine.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/maui-set-local-development-url.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/maui-set-local-development-url.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/maui-set-url.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/maui-set-url.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/maui-solution.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/maui-solution.png"
         }
       },
       "version": ""
@@ -5083,6 +5163,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/site-settings-ui-component-settings-hybrid-enabled.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/site-settings-ui-component-settings-hybrid-enabled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/installation/assets/sqlite-logo.png",
       "output": {
         "resource": {
@@ -5107,6 +5197,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/installation/assets/ubuntu-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/assets/user-management-token-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/assets/user-management-token-settings.png"
         }
       },
       "version": ""
@@ -5237,6 +5337,16 @@
       "output": {
         ".html": {
           "relative_path": "manuals/admin/installation/linux-ubuntu-apache-postgresql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/maui-setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/maui-setup.html"
         }
       },
       "version": ""

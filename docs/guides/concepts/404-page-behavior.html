@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Markdown Tips in the Oqtane Docs | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>404 Page Behavior | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Markdown Tips in the Oqtane Docs | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="404 Page Behavior | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/markdown.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/404-page-behavior.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,36 +84,33 @@
         </div>
 
         <article data-uid="">
-<h1 id="markdown-tips-in-the-oqtane-docs">Markdown Tips in the Oqtane Docs</h1>
+<h1 id="404-page-behavior">404 Page Behavior</h1>
 
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files. Here the most important tips for people working with this:</p>
-<h2 id="links">Links</h2>
+<p><img src="../../pages/guides/concepts/assets/404-not-found.png" alt="404 Page Example"></p>
+<h2 id="issue-description">Issue Description</h2>
+<p>This document aims to provide clarity on the behavior of the 404 page in the Oqtane Framework. It includes information on various scenarios where the 404 page is encountered and how it is handled within the framework.</p>
+<h2 id="use-cases">Use Cases</h2>
+<p>The 404 page is utilized in multiple scenarios within the Oqtane Framework:</p>
 <ol>
-<li>Link to a <a href="https://www.oqtane.org/">website</a> <code>[website](https://www.oqtane.org/)</code></li>
-<li>Link to another <a href="build.html">page</a> <code>[page](./build.md)</code></li>
-<li>Link to some <a class="xref" href="../../api/Oqtane.Models.html">Oqtane.Models</a> <code>[](xref:Oqtane.Models)</code> - will automatically pick the name of the target</li>
-<li>Link to a class <a class="xref" href="../../api/Oqtane.Models.File.html">File</a> <code>[](xref:Oqtane.Models.File)</code></li>
+<li><p><strong>Page Not Found</strong>: When a user requests a URL that does not correspond to any existing page in the site, and it has not been mapped using URL Mapping, the user is redirected to the 404 page.</p>
+</li>
+<li><p><strong>Unauthorized Access</strong>: If a user attempts to access a page for which they do not have permission, they are redirected to the 404 page instead of revealing the existence of the page.</p>
+</li>
+<li><p><strong>Effective Date and Expiry Date</strong>: If a page exists but the current date is outside the range specified by the Effective Date and Expiry Date, the user is directed to the 404 page.</p>
+</li>
 </ol>
-<h2 id="images">Images</h2>
-<p>Images can be added it two ways - using markdown, or the HTML counterpart.
-We recommend to always place images in an <code>assets</code> folder below
-the markdown file you're using the image on.</p>
-<p>Here's an example using markdown:</p>
-<p><code>![Folder structure for Building](./assets/folder-structure-for-building.jpg)</code></p>
-<p><img src="../../pages/guides/docs/assets/folder-structure-for-building.jpg" alt="Folder structure for Building"></p>
-<p>Here an example using an <code>&lt;img&gt;</code> tag which lets you provide more settings:</p>
-<p><code>&lt;img src=&quot;./assets/folder-structure-for-building.jpg&quot; width=&quot;100%&quot;&gt;</code></p>
-<img src="../../pages/guides/docs/assets/folder-structure-for-building.jpg" width="100%">
-<h2 id="checklists">Checklists</h2>
-<p>If you want to add checklists like this example, just use this checklist 😎</p>
-<iframe src="https://azing.org/oqtane/r/axPFtp2W?embed=1" width="100%" height="400" frameborder="0" allowfullscreen="" style="box-shadow: 0 1px 3px rgba(60,64,67,.3), 0 4px 8px 3px rgba(60,64,67,.15)"></iframe>
-<h2 id="videos">Videos</h2>
-<p>Todo</p>
+<h2 id="framework-behavior">Framework Behavior</h2>
+<p>In the Oqtane Framework, the term &quot;404&quot; refers to the friendly page that users are redirected to when the framework is unable to navigate them to the requested URL. This page has a path of &quot;/404&quot;.</p>
+<p>Regarding permissions, there has been debate about whether to strictly adhere to HTTP status codes or to prioritize security by not revealing the existence of pages to unauthorized users. As of now, Oqtane has opted for a single &quot;friendly&quot; page for handling these scenarios.</p>
+<h2 id="reference">Reference</h2>
+<p>For more details and discussions on this topic, refer to <a href="https://github.com/oqtane/oqtane.framework/issues/4088">issue #4088</a> in the Oqtane Framework repository.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>By understanding the behavior of the 404 page in the Oqtane Framework, administrators can better manage and customize the user experience when encountering non-existent or unauthorized URLs.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/markdown.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/404-page-behavior.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
