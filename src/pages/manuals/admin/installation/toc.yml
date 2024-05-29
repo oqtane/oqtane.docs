@@ -30,6 +30,8 @@
 - name: Additional Information
 - name: Upgrading Oqtane
   href: ./upgrade.md
+- name: Oqtane.Maui App Setup
+  href: ./maui-setup.md
 - name: Supported Databases
   href: ./databases.md
 - name: Installation Resources
