@@ -11197,6 +11197,19 @@ references:
   fullName.vb: Oqtane.Models.Permission.New
   nameWithType: Permission.Permission
   nameWithType.vb: Permission.New
+- uid: Oqtane.Models.Permission.Clone(Oqtane.Models.Permission)
+  name: Clone(Permission)
+  href: api/Oqtane.Models.Permission.html#Oqtane_Models_Permission_Clone_Oqtane_Models_Permission_
+  commentId: M:Oqtane.Models.Permission.Clone(Oqtane.Models.Permission)
+  fullName: Oqtane.Models.Permission.Clone(Oqtane.Models.Permission)
+  nameWithType: Permission.Clone(Permission)
+- uid: Oqtane.Models.Permission.Clone*
+  name: Clone
+  href: api/Oqtane.Models.Permission.html#Oqtane_Models_Permission_Clone_
+  commentId: Overload:Oqtane.Models.Permission.Clone
+  isSpec: "True"
+  fullName: Oqtane.Models.Permission.Clone
+  nameWithType: Permission.Clone
 - uid: Oqtane.Models.Permission.EntityId
   name: EntityId
   href: api/Oqtane.Models.Permission.html#Oqtane_Models_Permission_EntityId
@@ -33784,6 +33797,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.ModuleActionsBase.GetActions
   nameWithType: ModuleActionsBase.GetActions
+- uid: Oqtane.Themes.Controls.ModuleActionsBase.Localizer
+  name: Localizer
+  href: api/Oqtane.Themes.Controls.ModuleActionsBase.html#Oqtane_Themes_Controls_ModuleActionsBase_Localizer
+  commentId: P:Oqtane.Themes.Controls.ModuleActionsBase.Localizer
+  fullName: Oqtane.Themes.Controls.ModuleActionsBase.Localizer
+  nameWithType: ModuleActionsBase.Localizer
+- uid: Oqtane.Themes.Controls.ModuleActionsBase.Localizer*
+  name: Localizer
+  href: api/Oqtane.Themes.Controls.ModuleActionsBase.html#Oqtane_Themes_Controls_ModuleActionsBase_Localizer_
+  commentId: Overload:Oqtane.Themes.Controls.ModuleActionsBase.Localizer
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.ModuleActionsBase.Localizer
+  nameWithType: ModuleActionsBase.Localizer
 - uid: Oqtane.Themes.Controls.ModuleActionsBase.ModuleAction(Oqtane.Themes.Controls.ModuleActionsBase.ActionViewModel)
   name: ModuleAction(ActionViewModel)
   href: api/Oqtane.Themes.Controls.ModuleActionsBase.html#Oqtane_Themes_Controls_ModuleActionsBase_ModuleAction_Oqtane_Themes_Controls_ModuleActionsBase_ActionViewModel_
@@ -35389,83 +35415,6 @@ references:
   commentId: T:Oqtane.UI.ModuleInstance
   fullName: Oqtane.UI.ModuleInstance
   nameWithType: ModuleInstance
-- uid: Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
-  name: AddModuleMessage(string, MessageType)
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_AddModuleMessage_System_String_Oqtane_Modules_MessageType_
-  commentId: M:Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
-  name.vb: AddModuleMessage(String, MessageType)
-  fullName: Oqtane.UI.ModuleInstance.AddModuleMessage(string, Oqtane.Modules.MessageType)
-  fullName.vb: Oqtane.UI.ModuleInstance.AddModuleMessage(String, Oqtane.Modules.MessageType)
-  nameWithType: ModuleInstance.AddModuleMessage(string, MessageType)
-  nameWithType.vb: ModuleInstance.AddModuleMessage(String, MessageType)
-- uid: Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
-  name: AddModuleMessage(string, MessageType, string)
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_
-  commentId: M:Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
-  name.vb: AddModuleMessage(String, MessageType, String)
-  fullName: Oqtane.UI.ModuleInstance.AddModuleMessage(string, Oqtane.Modules.MessageType, string)
-  fullName.vb: Oqtane.UI.ModuleInstance.AddModuleMessage(String, Oqtane.Modules.MessageType, String)
-  nameWithType: ModuleInstance.AddModuleMessage(string, MessageType, string)
-  nameWithType.vb: ModuleInstance.AddModuleMessage(String, MessageType, String)
-- uid: Oqtane.UI.ModuleInstance.AddModuleMessage*
-  name: AddModuleMessage
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_AddModuleMessage_
-  commentId: Overload:Oqtane.UI.ModuleInstance.AddModuleMessage
-  isSpec: "True"
-  fullName: Oqtane.UI.ModuleInstance.AddModuleMessage
-  nameWithType: ModuleInstance.AddModuleMessage
-- uid: Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  name: BuildRenderTree(RenderTreeBuilder)
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
-  commentId: M:Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  fullName: Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  nameWithType: ModuleInstance.BuildRenderTree(RenderTreeBuilder)
-- uid: Oqtane.UI.ModuleInstance.BuildRenderTree*
-  name: BuildRenderTree
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_BuildRenderTree_
-  commentId: Overload:Oqtane.UI.ModuleInstance.BuildRenderTree
-  isSpec: "True"
-  fullName: Oqtane.UI.ModuleInstance.BuildRenderTree
-  nameWithType: ModuleInstance.BuildRenderTree
-- uid: Oqtane.UI.ModuleInstance.HideProgressIndicator
-  name: HideProgressIndicator()
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_HideProgressIndicator
-  commentId: M:Oqtane.UI.ModuleInstance.HideProgressIndicator
-  fullName: Oqtane.UI.ModuleInstance.HideProgressIndicator()
-  nameWithType: ModuleInstance.HideProgressIndicator()
-- uid: Oqtane.UI.ModuleInstance.HideProgressIndicator*
-  name: HideProgressIndicator
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_HideProgressIndicator_
-  commentId: Overload:Oqtane.UI.ModuleInstance.HideProgressIndicator
-  isSpec: "True"
-  fullName: Oqtane.UI.ModuleInstance.HideProgressIndicator
-  nameWithType: ModuleInstance.HideProgressIndicator
-- uid: Oqtane.UI.ModuleInstance.PageState
-  name: PageState
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_PageState
-  commentId: P:Oqtane.UI.ModuleInstance.PageState
-  fullName: Oqtane.UI.ModuleInstance.PageState
-  nameWithType: ModuleInstance.PageState
-- uid: Oqtane.UI.ModuleInstance.PageState*
-  name: PageState
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_PageState_
-  commentId: Overload:Oqtane.UI.ModuleInstance.PageState
-  isSpec: "True"
-  fullName: Oqtane.UI.ModuleInstance.PageState
-  nameWithType: ModuleInstance.PageState
-- uid: Oqtane.UI.ModuleInstance.ShowProgressIndicator
-  name: ShowProgressIndicator()
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_ShowProgressIndicator
-  commentId: M:Oqtane.UI.ModuleInstance.ShowProgressIndicator
-  fullName: Oqtane.UI.ModuleInstance.ShowProgressIndicator()
-  nameWithType: ModuleInstance.ShowProgressIndicator()
-- uid: Oqtane.UI.ModuleInstance.ShowProgressIndicator*
-  name: ShowProgressIndicator
-  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_ShowProgressIndicator_
-  commentId: Overload:Oqtane.UI.ModuleInstance.ShowProgressIndicator
-  isSpec: "True"
-  fullName: Oqtane.UI.ModuleInstance.ShowProgressIndicator
-  nameWithType: ModuleInstance.ShowProgressIndicator
 - uid: Oqtane.UI.PageState
   name: PageState
   href: api/Oqtane.UI.PageState.html
@@ -35854,161 +35803,6 @@ references:
   commentId: T:Oqtane.UI.RenderModeBoundary
   fullName: Oqtane.UI.RenderModeBoundary
   nameWithType: RenderModeBoundary
-- uid: Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
-  name: AddModuleMessage(string, MessageType)
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_AddModuleMessage_System_String_Oqtane_Modules_MessageType_
-  commentId: M:Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
-  name.vb: AddModuleMessage(String, MessageType)
-  fullName: Oqtane.UI.RenderModeBoundary.AddModuleMessage(string, Oqtane.Modules.MessageType)
-  fullName.vb: Oqtane.UI.RenderModeBoundary.AddModuleMessage(String, Oqtane.Modules.MessageType)
-  nameWithType: RenderModeBoundary.AddModuleMessage(string, MessageType)
-  nameWithType.vb: RenderModeBoundary.AddModuleMessage(String, MessageType)
-- uid: Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
-  name: AddModuleMessage(string, MessageType, string)
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_
-  commentId: M:Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
-  name.vb: AddModuleMessage(String, MessageType, String)
-  fullName: Oqtane.UI.RenderModeBoundary.AddModuleMessage(string, Oqtane.Modules.MessageType, string)
-  fullName.vb: Oqtane.UI.RenderModeBoundary.AddModuleMessage(String, Oqtane.Modules.MessageType, String)
-  nameWithType: RenderModeBoundary.AddModuleMessage(string, MessageType, string)
-  nameWithType.vb: RenderModeBoundary.AddModuleMessage(String, MessageType, String)
-- uid: Oqtane.UI.RenderModeBoundary.AddModuleMessage*
-  name: AddModuleMessage
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_AddModuleMessage_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.AddModuleMessage
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.AddModuleMessage
-  nameWithType: RenderModeBoundary.AddModuleMessage
-- uid: Oqtane.UI.RenderModeBoundary.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  name: BuildRenderTree(RenderTreeBuilder)
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
-  commentId: M:Oqtane.UI.RenderModeBoundary.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  fullName: Oqtane.UI.RenderModeBoundary.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
-  nameWithType: RenderModeBoundary.BuildRenderTree(RenderTreeBuilder)
-- uid: Oqtane.UI.RenderModeBoundary.BuildRenderTree*
-  name: BuildRenderTree
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_BuildRenderTree_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.BuildRenderTree
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.BuildRenderTree
-  nameWithType: RenderModeBoundary.BuildRenderTree
-- uid: Oqtane.UI.RenderModeBoundary.HideProgressIndicator
-  name: HideProgressIndicator()
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_HideProgressIndicator
-  commentId: M:Oqtane.UI.RenderModeBoundary.HideProgressIndicator
-  fullName: Oqtane.UI.RenderModeBoundary.HideProgressIndicator()
-  nameWithType: RenderModeBoundary.HideProgressIndicator()
-- uid: Oqtane.UI.RenderModeBoundary.HideProgressIndicator*
-  name: HideProgressIndicator
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_HideProgressIndicator_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.HideProgressIndicator
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.HideProgressIndicator
-  nameWithType: RenderModeBoundary.HideProgressIndicator
-- uid: Oqtane.UI.RenderModeBoundary.ModuleState
-  name: ModuleState
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ModuleState
-  commentId: P:Oqtane.UI.RenderModeBoundary.ModuleState
-  fullName: Oqtane.UI.RenderModeBoundary.ModuleState
-  nameWithType: RenderModeBoundary.ModuleState
-- uid: Oqtane.UI.RenderModeBoundary.ModuleState*
-  name: ModuleState
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ModuleState_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.ModuleState
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.ModuleState
-  nameWithType: RenderModeBoundary.ModuleState
-- uid: Oqtane.UI.RenderModeBoundary.OnErrorAsync(System.Exception)
-  name: OnErrorAsync(Exception)
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnErrorAsync_System_Exception_
-  commentId: M:Oqtane.UI.RenderModeBoundary.OnErrorAsync(System.Exception)
-  fullName: Oqtane.UI.RenderModeBoundary.OnErrorAsync(System.Exception)
-  nameWithType: RenderModeBoundary.OnErrorAsync(Exception)
-- uid: Oqtane.UI.RenderModeBoundary.OnErrorAsync*
-  name: OnErrorAsync
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnErrorAsync_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.OnErrorAsync
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.OnErrorAsync
-  nameWithType: RenderModeBoundary.OnErrorAsync
-- uid: Oqtane.UI.RenderModeBoundary.OnParametersSet
-  name: OnParametersSet()
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnParametersSet
-  commentId: M:Oqtane.UI.RenderModeBoundary.OnParametersSet
-  fullName: Oqtane.UI.RenderModeBoundary.OnParametersSet()
-  nameWithType: RenderModeBoundary.OnParametersSet()
-- uid: Oqtane.UI.RenderModeBoundary.OnParametersSet*
-  name: OnParametersSet
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnParametersSet_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.OnParametersSet
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.OnParametersSet
-  nameWithType: RenderModeBoundary.OnParametersSet
-- uid: Oqtane.UI.RenderModeBoundary.PageState
-  name: PageState
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_PageState
-  commentId: P:Oqtane.UI.RenderModeBoundary.PageState
-  fullName: Oqtane.UI.RenderModeBoundary.PageState
-  nameWithType: RenderModeBoundary.PageState
-- uid: Oqtane.UI.RenderModeBoundary.PageState*
-  name: PageState
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_PageState_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.PageState
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.PageState
-  nameWithType: RenderModeBoundary.PageState
-- uid: Oqtane.UI.RenderModeBoundary.Recover
-  name: Recover()
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_Recover
-  commentId: M:Oqtane.UI.RenderModeBoundary.Recover
-  fullName: Oqtane.UI.RenderModeBoundary.Recover()
-  nameWithType: RenderModeBoundary.Recover()
-- uid: Oqtane.UI.RenderModeBoundary.Recover*
-  name: Recover
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_Recover_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.Recover
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.Recover
-  nameWithType: RenderModeBoundary.Recover
-- uid: Oqtane.UI.RenderModeBoundary.ShouldRender
-  name: ShouldRender()
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShouldRender
-  commentId: M:Oqtane.UI.RenderModeBoundary.ShouldRender
-  fullName: Oqtane.UI.RenderModeBoundary.ShouldRender()
-  nameWithType: RenderModeBoundary.ShouldRender()
-- uid: Oqtane.UI.RenderModeBoundary.ShouldRender*
-  name: ShouldRender
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShouldRender_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.ShouldRender
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.ShouldRender
-  nameWithType: RenderModeBoundary.ShouldRender
-- uid: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
-  name: ShowProgressIndicator()
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShowProgressIndicator
-  commentId: M:Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
-  fullName: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator()
-  nameWithType: RenderModeBoundary.ShowProgressIndicator()
-- uid: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator*
-  name: ShowProgressIndicator
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShowProgressIndicator_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
-  nameWithType: RenderModeBoundary.ShowProgressIndicator
-- uid: Oqtane.UI.RenderModeBoundary.SiteState
-  name: SiteState
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_SiteState
-  commentId: P:Oqtane.UI.RenderModeBoundary.SiteState
-  fullName: Oqtane.UI.RenderModeBoundary.SiteState
-  nameWithType: RenderModeBoundary.SiteState
-- uid: Oqtane.UI.RenderModeBoundary.SiteState*
-  name: SiteState
-  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_SiteState_
-  commentId: Overload:Oqtane.UI.RenderModeBoundary.SiteState
-  isSpec: "True"
-  fullName: Oqtane.UI.RenderModeBoundary.SiteState
-  nameWithType: RenderModeBoundary.SiteState
 - uid: Oqtane.UI.Routes
   name: Routes
   href: api/Oqtane.UI.Routes.html
