@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Themes - Code Structure of a Theme | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Themes - Code Structure of a Theme | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-code-explained.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides..Themes.Index">
+<h1 id="themes---code-structure-of-a-theme">Themes - Code Structure of a Theme</h1>
+
+<p>Internally a theme only needs the following 4 things:</p>
+<ol>
+<li>An own namespace such as <code>YourCompany.Themes.YourTheme</code>.</li>
+<li>A <code>ThemeInfo.cs</code> file in that namespace which implements <code>Oqtane.Themes.ITheme</code>.<br>
+This file contains information about the theme like name, author, version, etc.</li>
+<li>A theme file like <code>MyTheme.razor</code> which is the main thing shown to the user.</li>
+<li>A container file like <code>Container.razor</code> which is the main wrapper around a module.</li>
+</ol>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>It is crucial that the namespace of the theme is unique,
+and that all these core elements (ThemeInfo, Theme, Container)
+are in <em>exactly</em> this namespace.</p>
+</div>
+<h2 id="example-from-the-oqtane-arsha">Example from the Oqtane Arsha</h2>
+<p><strong>Arsha</strong> is a sample theme that comes with Oqtane.
+You can find the <a href="https://github.com/oqtane/Oqtane.Theme.Arsha">git repo here</a>.</p>
+<h3 id="themeinfocs">ThemeInfo.cs</h3>
+<p>The <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/ThemeInfo.cs">ThemeInfo.cs</a>
+file is necessary to provide information about the theme.
+In the code you can see it contains</p>
+<ol>
+<li>The <code>namespace</code> of the theme - must be unique, and must match the theme/container namespace</li>
+<li>the <code>Name</code> of the theme - displayed to the user</li>
+<li>the <code>Version</code> of the theme</li>
+<li>the <code>PackageName</code> - used for installation / differentiation</li>
+<li>the <em>optional</em> <code>ThemeSettingsType</code> (class name) of the theme settings</li>
+<li>the <em>optional</em> <code>ContainerSettingsType</code> (class name) of the container settings</li>
+<li>a list of <code>Resources</code> - CSS and JS files that are loaded when the theme is used<br>
+<em>note: the <code>Resources</code> can also be specified in each <code>Theme.razor</code> file</em></li>
+</ol>
+<pre><code class="lang-csharp">using System.Collections.Generic;
+using Oqtane.Models;
+using Oqtane.Themes;
+using Oqtane.Shared;
+
+namespace Oqtane.Theme.Arsha
+{
+  public class ThemeInfo : ITheme
+  {
+    public Models.Theme Theme =&gt; new Models.Theme
+    {
+      Name = &quot;Arsha&quot;,
+      Version = &quot;1.0.0&quot;,
+      PackageName = &quot;Oqtane.Theme.Arsha&quot;,
+      ThemeSettingsType = &quot;Oqtane.Theme.Arsha.ThemeSettings, Oqtane.Theme.Arsha.Client.Oqtane&quot;,
+      ContainerSettingsType = &quot;Oqtane.Theme.Arsha.ContainerSettings, Oqtane.Theme.Arsha.Client.Oqtane&quot;,
+      Resources = new List&lt;Resource&gt;()
+      {
+        // Google Fonts
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = &quot;https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CRaleway:300,300i,400,400i,500,500i,600,600i,700,700i%7CPoppins:300,300i,400,400i,500,500i,600,600i,700,700i&quot; },
+        // Vendor CSS Files
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = &quot;~/assets/vendor/aos/aos.css&quot; },
+        // ...rest of files omitted for brevity
+
+        // Template Main CSS File
+        new Resource { ResourceType = ResourceType.Stylesheet, Url = &quot;~/assets/css/style.css&quot; },
+
+        // Vendor JS Files
+        new Resource { ResourceType = ResourceType.Script, Url = &quot;~/assets/vendor/aos/aos.js&quot;, Location = ResourceLocation.Body },
+        // ...rest of files omitted for brevity
+        
+        // Template Main JS File 
+        new Resource { ResourceType = ResourceType.Script, Url = &quot;~/assets/js/main.js&quot;, Location = ResourceLocation.Body, Reload = true, RenderMode = RenderModes.Static },
+        new Resource { ResourceType = ResourceType.Script, Url = &quot;~/assets/js/interop.js&quot;, Location = ResourceLocation.Body, RenderMode = RenderModes.Interactive }
+      }
+    };
+  }
+}
+</code></pre>
+<h2 id="the-theme-file">The Theme File</h2>
+<p>The <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Themes/Default.razor">Theme.razor</a>
+file is the main file that is shown to the user.</p>
+<p>It contains the HTML structure of the theme and can include other Blazor components.
+Important things to know:</p>
+<ol>
+<li>The <code>@namespace</code> directive must match the namespace of the theme</li>
+<li>The <code>@inherits</code> directive must inherit from <code>ThemeBase</code> or a class that inherits from <code>ThemeBase</code></li>
+<li>The <code>@inject</code> directive can be used to inject services like <code>NavigationManager</code> or <code>ISettingService</code></li>
+<li>The <code>@code</code> block can contain C# code that is executed when the component is rendered</li>
+<li>The HTML part - which is the HTML inside the <code>&lt;body&gt;</code> tag (without <code>&lt;head&gt;</code> etc.).
+This &quot;html&quot; can be
+<ol>
+<li>normal HTML such as <code>div</code>, <code>section</code>, <code>h1</code>, <code>p</code>, <code>img</code> etc.</li>
+<li>Razor variables such as <code>@PageState.Page.Name</code></li>
+<li>Razor data from functions such as <code>@NavigateUrl()</code></li>
+<li>Razor statements such as <code>@if</code> or <code>@foreach</code></li>
+<li>Blazor components such as <code>&lt;NavMenu /&gt;</code> or <code>&lt;Login /&gt;</code></li>
+</ol>
+</li>
+</ol>
+<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+@inherits ThemeBase
+@inject NavigationManager NavigationManager
+@inject ISettingService SettingService
+
+&lt;!-- ======= Header ======= --&gt;
+&lt;header id=&quot;header&quot; class=&quot;@_headerclass&quot;&gt;
+  &lt;div class=&quot;container d-flex align-items-center&quot;&gt;
+    &lt;!-- omited for brevity --&gt;
+    &lt;nav id=&quot;navbar&quot; class=&quot;navbar&quot;&gt;
+      &lt;NavMenu /&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;mx-3 controls-group&quot;&gt;&lt;UserProfile /&gt; &lt;Login /&gt; &lt;ControlPanel /&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/header&gt;
+&lt;!-- End Header --&gt;
+
+@if (!string.IsNullOrEmpty(_hero))
+{
+  &lt;!-- ======= Hero Section ======= --&gt;
+  @((MarkupString)_hero)
+  &lt;!-- End Hero --&gt;
+  &lt;!-- ======= Main ======= --&gt;
+  &lt;main id=&quot;main&quot;&gt;
+      &lt;Pane Name=&quot;@PaneNames.Default&quot; /&gt;
+  &lt;/main&gt;
+  &lt;!-- End #main --&gt;
+}
+else
+{
+  &lt;!-- ======= Main ======= --&gt;
+  &lt;main id=&quot;main&quot;&gt;
+    &lt;!-- ======= Breadcrumbs ======= --&gt;
+    &lt;section class=&quot;breadcrumbs&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;h2 class=&quot;mt-2&quot;&gt;@PageState.Page.Name&lt;/h2&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;&lt;!-- End Breadcrumbs --&gt;
+    &lt;section class=&quot;inner-page&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;Pane Name=&quot;@PaneNames.Default&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/main&gt;
+  &lt;!-- End Main --&gt;
+}
+
+&lt;!-- ======= Footer ======= --&gt;
+@((MarkupString)_footer)
+&lt;!-- End Footer --&gt;
+
+&lt;a href=&quot;@NavigateUrl()&quot; class=&quot;back-to-top d-flex align-items-center justify-content-center&quot; data-enhance-nav=&quot;false&quot;&gt;&lt;i class=&quot;bi bi-arrow-up-short&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+@code {
+  public override string Name =&gt; &quot;Default&quot;;
+  public override string Panes =&gt; PaneNames.Default;
+
+  private string _hero = &quot;&quot;;
+  private string _headerclass = &quot;&quot;;
+  private string _footer = &quot;&quot;;
+
+  protected override async Task OnParametersSetAsync()
+  {
+    // omitted for brevity
+  }
+
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    // omitted for brevity
+  }
+
+  private string DefaultFooter
+  {
+    get
+    {
+      return 
+      &quot;&lt;footer id=\&quot;footer\&quot;&gt;\n&quot; +
+      &quot;   &lt;div class=\&quot;footer-newsletter\&quot;&gt;\n&quot; +
+          &lt;!-- omitted for brevity --&gt;
+      &quot;   &lt;/div&gt;\n&quot; +
+      &quot;&lt;/footer&gt;\n&quot;;
+    }
+  }
+}
+</code></pre>
+<h2 id="the-container-file">The Container File</h2>
+<p>The <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Containers/Container.razor">Container.razor</a>
+file is the main wrapper around a module.
+Here's what you should know:</p>
+<ol>
+<li>The <code>@namespace</code> directive must match the namespace of the theme</li>
+<li>The <code>@inherits</code> directive must inherit from <code>ContainerBase</code> or a class that inherits from <code>ContainerBase</code></li>
+<li>The <code>@inject</code> directive can be used to inject services like <code>ISettingService</code></li>
+<li>The <code>@code</code> block can contain C# code that is executed when the component is rendered</li>
+<li>The HTML parts with the same possibilities as the theme above.</li>
+</ol>
+<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+@inherits ContainerBase
+@inject ISettingService SettingService
+
+@if (_title)
+{
+  @if (_animate)
+  {
+    &lt;section&gt;
+      &lt;div class=&quot;container&quot; data-aos=&quot;fade-up&quot;&gt;
+        &lt;ModuleActions /&gt;
+        @if (ModuleState.Title != &quot;-&quot;)
+        {
+          &lt;div class=&quot;section-title&quot;&gt;
+            &lt;h2&gt;@ModuleState.Title&lt;/h2&gt;
+          &lt;/div&gt;
+        }
+        &lt;div class=&quot;row&quot;&gt;
+          &lt;ModuleInstance /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  }
+  else
+  {
+    &lt;!-- omitted for brevity --&gt;
+  }
+}
+else
+{
+    &lt;!-- omitted for brevity --&gt;
+}
+
+@code {
+  private bool _title = true;
+  private bool _animate = false;
+
+  protected override void OnParametersSet()
+  {
+    // omitted for brevity
+  }
+}
+</code></pre>
+<h2 id="blazor-components">Blazor Components</h2>
+<p>In addition to the required minimum files, you can also include other Blazor components.
+Here's an example of the <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Components/NavMenu.razor">NavMenu.razor</a>.</p>
+<p>It doesn't do much, but check if the menu should show, and then calls the <code>NavMenuItems</code> component.</p>
+<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+
+@inherits MenuBase
+
+@if (MenuPages.Any())
+{
+  &lt;NavMenuItems ParentPage=&quot;null&quot; Pages=&quot;MenuPages&quot; /&gt;
+  &lt;i class=&quot;bi bi-list mobile-nav-toggle&quot;&gt;&lt;/i&gt;
+}
+</code></pre>
+<p>The <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Components/NavMenuItems.razor">NavMenuItems.razor</a>
+is way more complex, as it recursively calls itself to render the menu items.</p>
+<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+@inherits MenuItemsBase
+
+&lt;ul&gt;
+  @foreach (var childPage in GetChildPages())
+  {
+    var _attributes = new Dictionary&lt;string, object&gt;();
+    _attributes.Add(&quot;href&quot;, GetUrl(childPage));
+    var _target = GetTarget(childPage);
+    if (!string.IsNullOrEmpty(_target))
+        _attributes.Add(&quot;target&quot;, _target);
+
+    if (!childPage.HasChildren)
+    {
+      &lt;!-- omitted for brevity --&gt;
+    }
+    else
+    {
+      &lt;li class=&quot;dropdown&quot;&gt;
+        &lt;a @attributes=&quot;_attributes&quot;&gt;&lt;span&gt;@childPage.Name&lt;/span&gt; 
+          @if (childPage.Level == 0)
+            &lt;i class=&quot;bi bi-chevron-down&quot;&gt;&lt;/i&gt;
+          else
+            &lt;i class=&quot;bi bi-chevron-right&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;NavMenuItems ParentPage=&quot;childPage&quot; Pages=&quot;Pages&quot; /&gt;
+      &lt;/li&gt;
+    }
+  }
+&lt;/ul&gt;
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-code-explained.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -4480,11 +4480,74 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-solution.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/assets/oqtane-theme-solution.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "pages/guides/themes/index.md",
       "output": {
         ".html": {
           "relative_path": "guides/themes/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/oqtane-theme-code-explained.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/oqtane-theme-code-explained.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/oqtane-theme-distribution.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/oqtane-theme-distribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/oqtane-theme-solution-explained.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/oqtane-theme-solution-explained.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/parts-of-an-oqtane-theme.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/parts-of-an-oqtane-theme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/themes/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/themes/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/themes/toc.json"
         }
       },
       "version": ""

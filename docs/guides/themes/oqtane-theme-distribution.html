@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Themes Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Themes - Distribution and Installation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Themes Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Themes - Distribution and Installation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-distribution.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,58 +84,36 @@
         </div>
 
         <article data-uid="Guides..Themes.Index">
-<h1 id="oqtane-themes-guide">Oqtane Themes Guide</h1>
+<h1 id="themes---distribution-and-installation">Themes - Distribution and Installation</h1>
 
-<blockquote>
-<p>Oqtane Themes are a way to customize the look and feel of your Oqtane website.
-This guide will help you get started with creating and using themes in Oqtane.</p>
-</blockquote>
-<h2 id="what-is-a-theme">What is a Theme?</h2>
-<p>A theme is a collection of files that define the look and feel of your website.
-Themes can include CSS, JavaScript, images, and other assets that are used to style your website.</p>
-<p>Since Oqtane is based on .net and Blazor, themes are built using Blazor components
-and these are compiled into a DLL that is loaded by the Oqtane framework.
-Here's an example:</p>
-<img src="../../pages/guides/themes/assets/oqtane-theme-blazor-cms.org.jpg" width="100%">
+<p>Themes are usually distributed as nuget packages.
+Internally such a nuget package is actually just a ZIP file.</p>
+<img src="../../pages/guides/themes/assets/oqtane-theme-nuget-file-in-folder.jpg" width="100%">
+<p>It contains:</p>
+<ol>
+<li>a <code>.nuspec</code> file containing information about it's contents</li>
+<li>a <code>lib</code> folder containing the DLL file(s)</li>
+<li>a <code>wwwroot</code> folder containing the JS and CSS files</li>
+<li>an <code>icon.png</code> file</li>
+<li>and some other files which are not important to us</li>
+</ol>
+<img src="../../pages/guides/themes/assets/oqtane-theme-nuget-file-unzipped.jpg" width="100%">
 <p> </p>
-<p>In this example, the theme controls:</p>
+<h2 id="installation">Installation</h2>
+<p>Theme installation works like any other module installation in Oqtane.
+You can install a theme by either...</p>
 <ol>
-<li>Placement, size and styling of the logo - as well as how it changes in responsive scenarios.</li>
-<li>The layout of the main menu, including the dropdowns.</li>
-<li>The layout of the footer, including the social media links.</li>
-<li>Font sizes and colors for various headings and normal text.</li>
+<li>uploading the nuget package in the Modules section of the admin area</li>
+<li>by auto-downloading it from the Oqtane marketplace</li>
+<li>by placing it in the <code>Packages</code> folder of your Oqtane installation</li>
+<li>manually copying the files to your Oqtane installation</li>
 </ol>
-<h2 id="next-steps">Next Steps</h2>
-<p>Read about:</p>
-<ol>
-<li><a href="parts-of-an-oqtane-theme.html">Parts of an Oqtane Theme</a></li>
-<li><a href="oqtane-theme-distribution.html">Theme Distribution and Installation</a></li>
-<li><a href="./oqtane-theme-code-explained">Theme Code Explained</a></li>
-<li><a href="oqtane-theme-solution-explained.html">Theme Solution Explained</a></li>
-</ol>
-<h2 id="tasks-to-complete-these-guides">Tasks to complete these guides</h2>
-<p>The following topics should be covered as soon as possible (help wanted!)</p>
-<ol>
-<li>How to create a new theme - step by step starting with the built-in assistant</li>
-<li>How to customize an existing theme</li>
-<li>How to install a theme</li>
-<li>How to uninstall a theme</li>
-<li>How to update a theme</li>
-<li>How to create a theme from scratch</li>
-<li>How to publish a theme in the <a href="https://www.oqtane.net/">Marketplace</a></li>
-<li>Guidance for assets / resources</li>
-<li>Guidance for render modes and edge cases / SSR .net 8.0</li>
-<li>Guidance for responsive design</li>
-<li>Guidance for accessibility</li>
-<li>Guidance for performance &amp; SEO</li>
-<li>Best Practices for assets - especially JS/CSS</li>
-<li>Some guidance on CSS variables / Bootstrap 5.3 conventions</li>
-</ol>
+<p>...and then restarting Oqtane.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-distribution.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
