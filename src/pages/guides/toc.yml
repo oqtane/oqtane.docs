@@ -6,6 +6,11 @@
   href: concepts/toc.yml
   topicHref: concepts/index.md 
 
+- name: Themes
+  # href: themes/toc.yml
+  # topicHref: themes/index.md
+  href: themes/index.md
+
 - name: Roadmap & History
   topicUid: Guides.Roadmap.Index
 

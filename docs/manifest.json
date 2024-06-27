@@ -4440,6 +4440,56 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-blazor-cms.org.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/assets/oqtane-theme-blazor-cms.org.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-files-in-wwwroot.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/assets/oqtane-theme-files-in-wwwroot.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-in-folder.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-in-folder.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-unzipped.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-unzipped.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "pages/guides/toc.yml",
       "output": {

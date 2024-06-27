@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Themes Guide (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Themes Guide (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides..Themes.Index">
+<h1 id="themes-guide-wip">Themes Guide (WIP)</h1>
+
+<p>Oqtane Themes are a way to customize the look and feel of your Oqtane website.
+This guide will help you get started with creating and using themes in Oqtane.</p>
+<h2 id="what-is-a-theme">What is a Theme?</h2>
+<p>A theme is a collection of files that define the look and feel of your website.
+Themes can include CSS, JavaScript, images, and other assets that are used to style your website.</p>
+<p>Since Oqtane is based on .net and Blazor, themes are built using Blazor components
+and these are compiled into a DLL that is loaded by the Oqtane framework.
+Here's an example:</p>
+<img src="../../pages/guides/themes/assets/oqtane-theme-blazor-cms.org.jpg" width="100%">
+<p>In this example, the theme controls:</p>
+<ol>
+<li>Placement, size and styling of the logo - as well as how it changes in responsive scenarios.</li>
+<li>The layout of the main menu, including the dropdowns.</li>
+<li>The layout of the footer, including the social media links.</li>
+<li>Font sizes and colors for various headings and normal text.</li>
+</ol>
+<h2 id="parts-of-a-theme">Parts of a Theme</h2>
+<p>Oqtane themes - when installed - consist of the following parts:</p>
+<ol>
+<li>A DLL file that contains the compiled Blazor components.</li>
+<li>JS and CSS files in <code>wwwroot/Themes/[your-theme-name]</code>.</li>
+</ol>
+<img src="../../pages/guides/themes/assets/oqtane-theme-files-in-wwwroot.jpg" width="100%">
+<h2 id="theme-distribution-and-installation">Theme Distribution and Installation</h2>
+<p>Themes are usually distributed as nuget packages.
+Internally such a nuget package is actually just a ZIP file.</p>
+<img src="../../pages/guides/themes/assets/oqtane-theme-nuget-file-in-folder.jpg" width="100%">
+<p>It contains:</p>
+<ol>
+<li>a <code>.nuspec</code> file containing information about it's contents</li>
+<li>a <code>lib</code> folder containing the DLL file(s)</li>
+<li>a <code>wwwroot</code> folder containing the JS and CSS files</li>
+<li>an <code>icon.png</code> file</li>
+<li>and some other files which are not important to us</li>
+</ol>
+<img src="../../pages/guides/themes/assets/oqtane-theme-nuget-file-unzipped.jpg" width="100%">
+<p>Theme installation works like any other module installation in Oqtane.
+You can install a theme by either...</p>
+<ol>
+<li>uploading the nuget package in the Modules section of the admin area</li>
+<li>by auto-downloading it from the Oqtane marketplace</li>
+<li>by placing it in the <code>Packages</code> folder of your Oqtane installation</li>
+<li>manually copying the files to your Oqtane installation</li>
+</ol>
+<p>...and then restarting Oqtane.</p>
+<h2 id="code-structure-of-a-theme">Code Structure of a Theme</h2>
+<p>Internally a theme only needs the following 4 things:</p>
+<ol>
+<li>An own namespace such as <code>YourCompany.Themes.YourTheme</code>.</li>
+<li>A <code>ThemeInfo.cs</code> file in that namespace which implements <code>Oqtane.Themes.ITheme</code>.<br>
+This file contains information about the theme like name, author, version, etc.</li>
+<li>A theme file like <code>MyTheme.razor</code> which is the main thing shown to the user.</li>
+<li>A container file like <code>Container.razor</code> which is the main wrapper around a module.</li>
+</ol>
+<div class="TIP">
+<h5>Tip</h5>
+<p>It is crucial that the namespace of the theme is unique,
+and that all these core elements (ThemeInfo, Theme, Container)
+are in <em>exactly</em> this namespace.</p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
