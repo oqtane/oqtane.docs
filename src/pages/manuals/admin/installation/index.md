@@ -1,3 +1,7 @@
+---
+uid: Manuals.Installation.Index
+---
+
 # Installation
 
 Oqtane is a modular application framework that allows you to create

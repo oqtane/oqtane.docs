@@ -1,0 +1,10 @@
+
+- name: Oqtane Development Guide
+  href: index.md
+
+- name: Best Practices
+  items:
+  - name: Separate Solutions for Your Extensions
+    href: best-practices/create-solutions-for-each-extension.md
+  - name: Use NuGet for Oqtane Dependencies
+    href: best-practices/use-nuget-for-dependencies.md

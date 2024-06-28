@@ -1,7 +1,3 @@
----
-uid: Guides..Themes.Index
----
-
 # Themes Guide - Parts of a Theme
 
 Oqtane themes - when installed - consist of the following core parts:

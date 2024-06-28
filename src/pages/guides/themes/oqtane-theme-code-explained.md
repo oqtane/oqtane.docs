@@ -1,7 +1,3 @@
----
-uid: Guides..Themes.Index
----
-
 # Themes - Code Structure of a Theme
 
 Internally a theme only needs the following 4 things:

@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Themes Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Dev Best Practices: Separate Solutions for Each Extension | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Themes Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Dev Best Practices: Separate Solutions for Each Extension | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
-      <link rel="icon" href="../../layout/images/favicon.png">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      <link rel="icon" href="../../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../pages/guides/toc.html">
       
-      <meta name="docfx:rel" content="../../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/best-practices/create-solutions-for-each-extension.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module" src="./../../public/docfx.min.js"></script>
+  <script type="module" src="./../../../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -42,8 +42,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../layout/images/logo-white-50.png" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,59 +83,46 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Guides.Themes.Index">
-<h1 id="oqtane-themes-guide">Oqtane Themes Guide</h1>
+        <article data-uid="Guides.Dev.BestPractice.SeparateSolutions.Index">
+<h1 id="oqtane-dev-best-practices-separate-solutions-for-each-extension">Oqtane Dev Best Practices: Separate Solutions for Each Extension</h1>
 
-<blockquote>
-<p>Oqtane Themes are a way to customize the look and feel of your Oqtane website.
-This guide will help you get started with creating and using themes in Oqtane.</p>
-</blockquote>
-<h2 id="what-is-a-theme">What is a Theme?</h2>
-<p>A theme is a collection of files that define the look and feel of your website.
-Themes can include CSS, JavaScript, images, and other assets that are used to style your website.</p>
-<p>Since Oqtane is based on .net and Blazor, themes are built using Blazor components
-and these are compiled into a DLL that is loaded by the Oqtane framework.
-Here's an example:</p>
-<img src="../../pages/guides/themes/assets/oqtane-theme-blazor-cms.org.jpg" width="100%">
-<p> </p>
-<p>In this example, the theme controls:</p>
-<ol>
-<li>Placement, size and styling of the logo - as well as how it changes in responsive scenarios.</li>
-<li>The layout of the main menu, including the dropdowns.</li>
-<li>The layout of the footer, including the social media links.</li>
-<li>Font sizes and colors for various headings and normal text.</li>
-</ol>
-<h2 id="next-steps">Next Steps</h2>
-<p>Read about:</p>
-<ol>
-<li><a href="parts-of-an-oqtane-theme.html">Parts of an Oqtane Theme</a></li>
-<li><a href="oqtane-theme-distribution.html">Theme Distribution and Installation</a></li>
-<li><a href="oqtane-theme-code-explained.html">Theme Code Explained</a></li>
-<li><a href="oqtane-theme-solution-explained.html">Theme Solution Explained</a></li>
-</ol>
-<h2 id="tasks-to-complete-these-guides">Tasks to complete these guides</h2>
-<p>The following topics should be covered as soon as possible (help wanted!)</p>
-<ol>
-<li>How to create a new theme - step by step starting with the built-in assistant</li>
-<li>How to customize an existing theme</li>
-<li>How to install a theme</li>
-<li>How to uninstall a theme</li>
-<li>How to update a theme</li>
-<li>How to create a theme from scratch</li>
-<li>How to publish a theme in the <a href="https://www.oqtane.net/">Marketplace</a></li>
-<li>Guidance for assets / resources</li>
-<li>Guidance for render modes and edge cases / SSR .net 8.0</li>
-<li>Guidance for responsive design</li>
-<li>Guidance for accessibility</li>
-<li>Guidance for performance &amp; SEO</li>
-<li>Best Practices for assets - especially JS/CSS</li>
-<li>Some guidance on CSS variables / Bootstrap 5.3 conventions</li>
-</ol>
+<p>To create custom themes and modules,
+you will typically create them in a separate solution.
+This has benefits such as:</p>
+<ul>
+<li>Your code base and the git-repos are small and focused.</li>
+<li>It helps keep your code organized and makes it easier to share your work with others.</li>
+<li>It allows you to more easily update the Oqtane runtime without affecting your custom code.</li>
+<li>It ensures your extensions actually work in a vanilla Oqtane.</li>
+</ul>
+<p>Typically these projects and solutions will have the following folder structure:</p>
+<pre><code class="lang-text">/parent
+  /oqtane.framework
+  /SomeTheme
+  /SomeModule
+  /SomeOtherModule
+</code></pre>
+<p>This structure allows the modules to easily deploy the build output to the <code>oqtane.framework</code> folder,
+so it can be run in the Oqtane after every build.</p>
+<img src="../../../pages/guides/dev/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg" width="100%">
+<div class="TIP">
+<h5>Tip</h5>
+<p>Oqtane has built in assistants to generate template modules and themes.
+These will follow the above convention and also generate
+build-projects which will deploy the output to the <code>oqtane.framework</code> folder.</p>
+</div>
+<div class="TIP">
+<h5>Tip</h5>
+<p>As you get more experienced, you can then adjust these automatic mechanisms
+to better suit your own workflow.</p>
+</div>
+<p>In this setup, most Oqtane Modules/Themes will also reference
+the Oqtane framework project - but only to make it easier to run and debug directly from Visual Studio.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/best-practices/create-solutions-for-each-extension.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

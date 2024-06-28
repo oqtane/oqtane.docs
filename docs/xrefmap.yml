@@ -1,15 +1,24 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Guides..Themes.Index
-  name: Oqtane Themes Guide
-  href: guides/themes/index.html
+- uid: Guides.Dev.BestPractice.SeparateSolutions.Index
+  name: 'Oqtane Dev Best Practices: Separate Solutions for Each Extension'
+  href: guides/dev/best-practices/create-solutions-for-each-extension.html
+- uid: Guides.Dev.Index
+  name: Oqtane Development Guides (WIP)
+  href: guides/dev/index.html
 - uid: Guides.Index
   name: Guides WIP
   href: guides/index.html
 - uid: Guides.Roadmap.Index
   name: Oqtane Roadmap and History
   href: guides/roadmap/index.html
+- uid: Guides.Themes.Index
+  name: Oqtane Themes Guide
+  href: guides/themes/index.html
+- uid: Manuals.Installation.Index
+  name: Installation
+  href: manuals/admin/installation/index.html
 - uid: Oqtane
   name: Oqtane
   href: api/Oqtane.html

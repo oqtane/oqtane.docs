@@ -1,7 +1,3 @@
----
-uid: Guides..Themes.Index
----
-
 # Themes - Distribution and Installation
 
 Themes are usually distributed as nuget packages.

@@ -4147,6 +4147,69 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/dev/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/dev/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/dev/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/dev/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/dev/best-practices/create-solutions-for-each-extension.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/dev/best-practices/create-solutions-for-each-extension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/dev/best-practices/use-nuget-for-dependencies.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/dev/best-practices/use-nuget-for-dependencies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/dev/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/dev/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/dev/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/dev/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/dev/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "pages/guides/docs/api-menu.md",
       "output": {

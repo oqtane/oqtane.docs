@@ -6,6 +6,11 @@
   href: concepts/toc.yml
   topicHref: concepts/index.md 
 
+- name: Development
+  href: dev/toc.yml
+  topicUid: Guides.Dev.Index
+  # topicHref: dev/index.md
+
 - name: Themes
   href: themes/toc.yml
   topicHref: themes/index.md

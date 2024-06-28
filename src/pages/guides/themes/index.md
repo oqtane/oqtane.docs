@@ -1,5 +1,5 @@
 ---
-uid: Guides..Themes.Index
+uid: Guides.Themes.Index
 ---
 
 # Oqtane Themes Guide
@@ -33,7 +33,7 @@ Read about:
 
 1. [Parts of an Oqtane Theme](./parts-of-an-oqtane-theme.md)
 1. [Theme Distribution and Installation](./oqtane-theme-distribution.md)
-1. [Theme Code Explained](./oqtane-theme-code-explained)
+1. [Theme Code Explained](./oqtane-theme-code-explained.md)
 1. [Theme Solution Explained](./oqtane-theme-solution-explained.md)
 
 ## Tasks to complete these guides

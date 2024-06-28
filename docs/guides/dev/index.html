@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Themes Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Themes Guide | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,59 +83,53 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Guides.Themes.Index">
-<h1 id="oqtane-themes-guide">Oqtane Themes Guide</h1>
+        <article data-uid="Guides.Dev.Index">
+<h1 id="oqtane-development-guides-wip">Oqtane Development Guides (WIP)</h1>
 
 <blockquote>
-<p>Oqtane Themes are a way to customize the look and feel of your Oqtane website.
-This guide will help you get started with creating and using themes in Oqtane.</p>
+<p>These guides will help you get started with developing on Oqtane.</p>
 </blockquote>
-<h2 id="what-is-a-theme">What is a Theme?</h2>
-<p>A theme is a collection of files that define the look and feel of your website.
-Themes can include CSS, JavaScript, images, and other assets that are used to style your website.</p>
-<p>Since Oqtane is based on .net and Blazor, themes are built using Blazor components
-and these are compiled into a DLL that is loaded by the Oqtane framework.
-Here's an example:</p>
-<img src="../../pages/guides/themes/assets/oqtane-theme-blazor-cms.org.jpg" width="100%">
-<p> </p>
-<p>In this example, the theme controls:</p>
+<h2 id="background">Background</h2>
+<p>Oqtane is a .net 8.0 Blazor application that is designed to be modular and extensible.
+This means that you can create your own modules, themes, and other extensions
+to customize your Oqtane solution.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>To develop on Oqtane, you will typically need the following skills / tools:</p>
 <ol>
-<li>Placement, size and styling of the logo - as well as how it changes in responsive scenarios.</li>
-<li>The layout of the main menu, including the dropdowns.</li>
-<li>The layout of the footer, including the social media links.</li>
-<li>Font sizes and colors for various headings and normal text.</li>
+<li>Visual Studio 2022 with the latest .net 8.0 SDK</li>
+<li>SQL Server (alternatives are possible, but this is the easiest to get started)</li>
+<li>C# programming skills</li>
+</ol>
+<p>The following skills are also useful, or will need to be developed as you go:</p>
+<ol>
+<li>Blazor programming skills</li>
+<li>HTML / CSS / JavaScript / Bootstrap5 skills</li>
+<li>Git / GitHub skills</li>
+<li><a class="xref" href="../../manuals/admin/installation/index.html">Oqtane installation</a></li>
+</ol>
+<h2 id="basic-setup">Basic Setup</h2>
+<p>You will need to <a class="xref" href="../../manuals/admin/installation/index.html">install Oqtane</a>
+on your development machine to get started.
+For this you have 2 options:</p>
+<ol>
+<li>Clone/Fork the <a class="xref" href="https://github.com/oqtane/oqtane.framework">Oqtane Source Code</a> to your local machine and run using Visual Studio<br>
+This is the most common option, and the best way to also track down any issues.</li>
+<li>Install a runtime version of Oqtane in your web server<br>
+This is the method you'll use when you create many Oqtane solutions,
+since it will run faster and allow you to focus on only the code you write.</li>
 </ol>
 <h2 id="next-steps">Next Steps</h2>
 <p>Read about:</p>
 <ol>
-<li><a href="parts-of-an-oqtane-theme.html">Parts of an Oqtane Theme</a></li>
-<li><a href="oqtane-theme-distribution.html">Theme Distribution and Installation</a></li>
-<li><a href="oqtane-theme-code-explained.html">Theme Code Explained</a></li>
-<li><a href="oqtane-theme-solution-explained.html">Theme Solution Explained</a></li>
-</ol>
-<h2 id="tasks-to-complete-these-guides">Tasks to complete these guides</h2>
-<p>The following topics should be covered as soon as possible (help wanted!)</p>
-<ol>
-<li>How to create a new theme - step by step starting with the built-in assistant</li>
-<li>How to customize an existing theme</li>
-<li>How to install a theme</li>
-<li>How to uninstall a theme</li>
-<li>How to update a theme</li>
-<li>How to create a theme from scratch</li>
-<li>How to publish a theme in the <a href="https://www.oqtane.net/">Marketplace</a></li>
-<li>Guidance for assets / resources</li>
-<li>Guidance for render modes and edge cases / SSR .net 8.0</li>
-<li>Guidance for responsive design</li>
-<li>Guidance for accessibility</li>
-<li>Guidance for performance &amp; SEO</li>
-<li>Best Practices for assets - especially JS/CSS</li>
-<li>Some guidance on CSS variables / Bootstrap 5.3 conventions</li>
+<li>Best Practices</li>
+<li><a class="xref" href="../themes/index.html">Themes</a></li>
+<li>Modules</li>
 </ol>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

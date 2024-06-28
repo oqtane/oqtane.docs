@@ -1,7 +1,3 @@
----
-uid: Guides..Themes.Index
----
-
 # Themes - Theme Solution Explained
 
 A Oqtane Theme Solution is a Visual Studio project which is the basis for building a theme.
@@ -27,3 +23,5 @@ you can see that the theme solution contains two projects:
 
 > [!TIP]
 > This separation of projects makes work easier, so we recommend you do the same.
+>
+> See also [](xref:Guides.Dev.BestPractice.SeparateSolutions.Index).
