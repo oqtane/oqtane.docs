@@ -67,6 +67,10 @@
         ]
       }
     ],
+    // The XREFs contain shorthand links to other pages or even external sites/documentations.
+    "xref": [
+      "xrefmap.yml"
+    ],
     "resource": [
       {
         // Note: new docfx convention places things in /pages

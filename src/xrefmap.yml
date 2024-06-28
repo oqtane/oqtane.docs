@@ -1,0 +1,19 @@
+#
+# This file contains a map of links we will often use,
+# which can be referenced in the markdown files or in the oqtane source code.
+# So it provides a short name, such as `Oqtane.Source`
+# which can be linked as [](xref:Oqtane.Source)
+#
+# Some instructions:
+# - Comments start with a `#`
+# - Each link is a list item starting with `- uid: ...`
+# - The `uid` is the short name, which can be used in markdown files
+# - The `name` is the text which will be displayed in the markdown file
+# - The `href` is the URL which will be linked to
+
+references:
+
+# Oqtane Core Links
+- uid: Oqtane.Source
+  name: Oqtane Source Code
+  href: https://github.com/oqtane/oqtane.framework
