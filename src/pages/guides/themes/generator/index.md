@@ -48,4 +48,16 @@ Next, open the solution file in that folder:
 
 <img src="./assets/theme-folder-solution-file.jpg" class="full-width">
 
-&nbsp;
+You will now see 3 solutions according to
+[best-practices](xref:Guides.Extensions.BestPractice.SeparateSolutions.Index):
+
+<img src="./assets/theme-solution-showing-theme-info.jpg" class="full-width">
+
+## You're all set
+
+That's it - you can start building / customizing your own theme now.
+
+Remember to read more about:
+
+1. [Oqtane Extensions](xref:Guides.Extensions.Index)
+1. [Building Extensions](xref:Guides.Extensions.Build.Index)
