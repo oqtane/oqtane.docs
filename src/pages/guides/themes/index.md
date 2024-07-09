@@ -33,8 +33,9 @@ In this example, the theme controls:
 
 Read about:
 
+1. [Learn to generate a new theme](xref:Guides.Themes.Generator.Index)
 1. [Parts of an Oqtane Theme](./parts-of-an-oqtane-theme.md)
-1. [Theme Distribution and Installation](./oqtane-theme-distribution.md)
+1. [Theme Build, Distribute and Install](xref:Guides.Extensions.Build.Index)
 1. [Theme Code Explained](./oqtane-theme-code-explained.md)
 1. [Theme Solution Explained](./oqtane-theme-solution-explained.md)
 
@@ -42,9 +43,7 @@ Read about:
 
 The following topics should be covered as soon as possible (help wanted!)
 
-1. How to create a new theme - step by step starting with the built-in assistant
 1. How to customize an existing theme
-1. How to install a theme
 1. How to uninstall a theme
 1. How to update a theme
 1. How to create a theme from scratch
