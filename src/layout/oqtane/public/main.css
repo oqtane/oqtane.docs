@@ -46,13 +46,13 @@ p a {
 /* from the docfx material theme */
 
 body {
-    color: #34393e;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    font-size: 16px;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    word-wrap: break-word
+  /* color: #34393e; */
+  /* font-family: 'Roboto', sans-serif; */
+  line-height: 1.5;
+  font-size: 16px;
+  /* -ms-text-size-adjust: 100%; */
+  /* -webkit-text-size-adjust: 100%; */
+  word-wrap: break-word
 }
 
 /* HEADINGS */
@@ -246,4 +246,11 @@ pre {
 	background-color: #fffaef;
 	border-radius: 4px;
 	box-shadow: 0px 1px 4px 1px rgba(100, 100, 100, 0.4);
+}
+
+/* Images */
+
+img.full-width {
+  width: 100%;
+  padding-bottom: 10px;
 }
