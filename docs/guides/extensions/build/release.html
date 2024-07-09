@@ -100,35 +100,29 @@ XCOPY &quot;*.nupkg&quot; &quot;..\..\oqtane.framework\Oqtane.Server\wwwroot\The
 </code></pre>
 <p>As you can see, it will</p>
 <ol>
-<li>Delete any previous NuGet packages</li>
-<li>Use <code>nuget.exe</code> to pack the NuGet package instructions from the <code>.nuspec</code> file</li>
-<li>Copy the NuGet package into the <code>wwwroot\Themes</code> folder of the Oqtane.Server project</li>
+<li>Delete any previous Nuget packages</li>
+<li>Use <code>nuget.exe</code> to pack the Nuget package instructions from the <code>.nuspec</code> file</li>
+<li>Copy the Nuget package into the <code>wwwroot\Themes</code> folder of the Oqtane.Server project</li>
 </ol>
 <div class="TIP">
 <h5>Tip</h5>
 <p>The same warnings apply as for the <code>debug.cmd</code> - you may need to adjust paths and names.</p>
 </div>
-<h3 id="whats-missing-here">What's missing here?</h3>
-<p>The previous example shows a default setup for a Theme.
-As you may have noticed, it doesn't have a <strong>WebPack</strong> or other <strong>JavaScript</strong> build steps.</p>
-<div class="TIP">
-<h5>Tip</h5>
-<p>As of now, the default templates/modules don't include examples for TypeScript or SASS.</p>
-</div>
-<h2 id="what-is-a-nuget-package">What is a (NuGet) Package?</h2>
+<h2 id="what-is-a-nuget-package">What is a (Nuget) Package?</h2>
 <p>A package is a collection of files that are bundled together.
-In Oqtane, they are distributed in a <code>.nupkg</code> file, which is a NuGet package.
-Internally, a NuGet package is a ZIP file with a specific structure,
+In Oqtane, they are distributed in a <code>.nupkg</code> file, which is a Nuget package.
+Internally, a Nuget package is a ZIP file with a specific structure,
 so for discovery you can just rename a nuget package to <code>.zip</code> and open it.</p>
 <p>The definition of what goes inside a package is defined in a <code>.nuspec</code> file.
 The compiler will call <code>nuget.exe</code> and give it a NuSpec file to create the package.</p>
+<p>➡️ see also <a class="xref" href="package.html">Oqtane Extension - Nuget Package</a></p>
 <h2 id="what-is-a-nuspec-file">What is a NuSpec file?</h2>
 <p>Here is an example of a <code>.nuspec</code> file:</p>
 <pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;package xmlns=&quot;http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd&quot;&gt;
-  &lt;!-- Package information if publishing on NuGet.org --&gt;
+  &lt;!-- Package information if publishing on Nuget.org --&gt;
   &lt;metadata&gt;
-    &lt;!-- NuGet ID, must be unique to this extension --&gt;
+    &lt;!-- Nuget ID, must be unique to this extension --&gt;
     &lt;id&gt;Oqtane.Theme.Arsha&lt;/id&gt;
 
     &lt;!-- Version, Copyright, URL etc. --&gt;
@@ -150,7 +144,7 @@ The compiler will call <code>nuget.exe</code> and give it a NuSpec file to creat
 
     &lt;!--
       Dependencies, in this case the Oqtane.Framework
-      - These will be listed on NuGet.org (if you publish it there)
+      - These will be listed on Nuget.org (if you publish it there)
       - Oqtane may also check if they are installed before allowing installation
     --&gt;
     &lt;dependencies&gt;

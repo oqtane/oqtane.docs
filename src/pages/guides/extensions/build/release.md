@@ -22,31 +22,25 @@ XCOPY "*.nupkg" "..\..\oqtane.framework\Oqtane.Server\wwwroot\Themes\" /Y
 
 As you can see, it will
 
-1. Delete any previous NuGet packages
-1. Use `nuget.exe` to pack the NuGet package instructions from the `.nuspec` file
-1. Copy the NuGet package into the `wwwroot\Themes` folder of the Oqtane.Server project
+1. Delete any previous Nuget packages
+1. Use `nuget.exe` to pack the Nuget package instructions from the `.nuspec` file
+1. Copy the Nuget package into the `wwwroot\Themes` folder of the Oqtane.Server project
 
 > [!TIP]
 > The same warnings apply as for the `debug.cmd` - you may need to adjust paths and names.
 
-### What's missing here?
 
-The previous example shows a default setup for a Theme.
-As you may have noticed, it doesn't have a **WebPack** or other **JavaScript** build steps.
-
-> [!TIP]
-> As of now, the default templates/modules don't include examples for TypeScript or SASS.
-
-
-## What is a (NuGet) Package?
+## What is a (Nuget) Package?
 
 A package is a collection of files that are bundled together.
-In Oqtane, they are distributed in a `.nupkg` file, which is a NuGet package.
-Internally, a NuGet package is a ZIP file with a specific structure,
+In Oqtane, they are distributed in a `.nupkg` file, which is a Nuget package.
+Internally, a Nuget package is a ZIP file with a specific structure,
 so for discovery you can just rename a nuget package to `.zip` and open it.
 
 The definition of what goes inside a package is defined in a `.nuspec` file.
 The compiler will call `nuget.exe` and give it a NuSpec file to create the package.
+
+➡️ see also [](xref:Guides.Extensions.Package)
 
 ## What is a NuSpec file?
 
@@ -55,9 +49,9 @@ Here is an example of a `.nuspec` file:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <!-- Package information if publishing on NuGet.org -->
+  <!-- Package information if publishing on Nuget.org -->
   <metadata>
-    <!-- NuGet ID, must be unique to this extension -->
+    <!-- Nuget ID, must be unique to this extension -->
     <id>Oqtane.Theme.Arsha</id>
 
     <!-- Version, Copyright, URL etc. -->
@@ -79,7 +73,7 @@ Here is an example of a `.nuspec` file:
 
     <!--
       Dependencies, in this case the Oqtane.Framework
-      - These will be listed on NuGet.org (if you publish it there)
+      - These will be listed on Nuget.org (if you publish it there)
       - Oqtane may also check if they are installed before allowing installation
     -->
     <dependencies>

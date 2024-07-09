@@ -16,6 +16,12 @@ references:
 - uid: Guides.Extensions.Index
   name: Oqtane Extensions Development Guides (WIP)
   href: guides/extensions/index.html
+- uid: Guides.Extensions.Installation
+  name: Oqtane Extension - Installation
+  href: guides/extensions/build/installation.html
+- uid: Guides.Extensions.Package
+  name: Oqtane Extension - Nuget Package
+  href: guides/extensions/build/package.html
 - uid: Guides.Index
   name: Guides WIP
   href: guides/index.html

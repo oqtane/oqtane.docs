@@ -56,7 +56,7 @@ body {
 }
 
 /* HEADINGS */
-
+/* 
 h1 {
     font-weight: 600;
     font-size: 32px;
@@ -90,7 +90,7 @@ article h4 {
 article h4 {
     padding-bottom: 8px;
     border-bottom: 2px solid #ddd;
-}
+} */
 
 /* NAVBAR */
 
@@ -191,7 +191,7 @@ article h4 {
 }
 
 /* ALERTS */
-
+/* 
 .alert {
     padding: 0px 0px 5px 0px;
     color: inherit;
@@ -208,8 +208,8 @@ article h4 {
 .alert>ul {
     margin-bottom: 0;
     padding: 5px 40px;
-}
-
+} */
+/* 
 .alert>h5 {
     padding: 10px 15px;
     margin-top: 0;
@@ -234,7 +234,7 @@ article h4 {
     color: #d32f2f;
     border-bottom: 4px solid #d32f2f;
     background-color: #ffebee;
-}
+} */
 
 /* CODE HIGHLIGHT */
 pre {

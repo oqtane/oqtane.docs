@@ -4,6 +4,6 @@ The theme page is not used that often. Generally, it's used during the developme
 
 Themes on Oqtane provide a multitude of different colors and styles for pages to be presented in. These themes can provide unique looking pages and websites as a whole. There are two default themes for Oqtane, the Blazor theme and the Oqtane theme.
 
-You can also download new themes to use by clicking the install theme button at the top of the page and choosing some themes to download, so you change the look of your site. There is also an upload tab which allows you to put NuGet files for themes that are not available in the download menu onto your Oqtane framework.
+You can also download new themes to use by clicking the install theme button at the top of the page and choosing some themes to download, so you change the look of your site. There is also an upload tab which allows you to put Nuget files for themes that are not available in the download menu onto your Oqtane framework.
 
 ![theme-management](./assets/theme-management.png)

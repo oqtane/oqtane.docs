@@ -27,7 +27,7 @@ We want to cover the following topics:
 1. What is a deployment?
 1. Build and deploy during development
 1. Build and deploy for distribution
-1. Distribute through NuGet, Github and the Oqtane Marketplace
+1. Distribute through Nuget, Github and the Oqtane Marketplace
 
 ## Basics: What is a Build and What's Inside it?
 
@@ -44,7 +44,7 @@ The build is usually done by Visual Studio and typically involves 3 steps:
 1. Compiling any JavaScript, SASS etc. using Webpack
 1. Compiling your C# and Razor code into one .net assembly
 1. Deploying the results, together with any other files (eg. supporting DLLs)  
-    _deployment can be into other folders, or into a NuGet package_
+    _deployment can be into other folders, or into a Nuget package_
 
 ## How does the Build Process Work?
 

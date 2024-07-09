@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Host Administration | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Extension - Installation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Host Administration | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Extension - Installation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
       <link rel="stylesheet" href="../../../public/main.css">
       <meta name="docfx:navrel" content="../../../toc.html">
-      <meta name="docfx:tocrel" content="../../../pages/manuals/admin/toc.html">
+      <meta name="docfx:tocrel" content="../../../pages/guides/toc.html">
       
       <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/host-administration/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/build/installation.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,28 +83,30 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 id="host-administration">Host Administration</h1>
+        <article data-uid="Guides.Extensions.Installation">
+<h1 id="oqtane-extension---installation">Oqtane Extension - Installation</h1>
 
-<p>The host user has the highest possible level of permissions in a Oqtane instance and can manage any individual site, set defaults for the creation of new sites, and manage additional configurations that support all sites.</p>
-<p>An Oqtane site administrator is primarily concerned with the look, feel, functionality, and content of a site. A host is more concerned with the configuration, performance, monitoring, and support of the entire Oqtane instance. As the Oqtane host (or any user with superuser permissions), you need to have a working grasp of all the features and configuration options available to you.</p>
-<p>A host logs into a Oqtane site just like any other user, just using the host account that is created when the Oqtane application is first launched.</p>
-<p>In addition to the site options discussed in the site administration <a href="../control-panel/index.html">control panel</a> and <a href="../admin-dashboard/index.html">admin dashboard</a>, the host account has more options than an administrator account in the admin dashboard, which includes:</p>
-<ul>
-<li>Event Log: Which contain information on various events that have occurred on the site like errors or anything that has been created, updated, or deleted with more info on <a href="event-log.html">event log</a>.</li>
-<li>Site Management: Which allows for the addition and modification for all of the different sites you have with more info on <a href="site-management.html">site management</a>.</li>
-<li>Module Management: Which allows you to install new modules and edit existing modules with more info on <a href="module-management.html">module management</a>.</li>
-<li>Theme Management: Which allows you to install new themes to change the look of you webpages with more info on <a href="theme-management.html">theme management</a>.</li>
-<li>Scheduled Jobs: Which allows for the creation of jobs that will do something every time a specified amount of time passes with more info on <a href="scheduled-jobs.html">scheduled jobs</a>.</li>
-<li>SQL Management: Which lets you run SQL queries in your databases with more info on <a href="sql-management.html">sql management</a>.</li>
-<li>System Info: Which gives information on your version of the Oqtane framework and allows you to see information and methods in Oqtane's api with more info on <a href="system-info.html">system info</a>.</li>
-<li>System Update: Which allows you to keep the Oqtane framework up to date and allow you to use Nuget packages with more info on <a href="system-update.html">system update</a>.</li>
-</ul>
+<h2 id="package-installation">Package Installation</h2>
+<p>In most scenarios you will install a <a class="xref" href="package.html">nuget package</a>.</p>
+<p>Extension Package installation can be done by either:</p>
+<ol>
+<li>uploading the nuget package in the Modules section of the admin area</li>
+<li>by auto-downloading it from the Oqtane marketplace</li>
+<li>by placing it in the <code>Packages</code> folder of your Oqtane installation</li>
+<li>manually copying the files to your Oqtane installation</li>
+</ol>
+<p>...and then restarting Oqtane.</p>
+<h2 id="manual-file-copy-installation">Manual File-Copy Installation</h2>
+<p>You can also install an extension without a package.</p>
+<p>This actually happens when you build your extension
+in debug mode. In this case, the <code>debug.cmd</code> will just
+copy all the files to the correct places.</p>
+<p>When doing this, remember to restart Oqtane after copying the files.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/admin/host-administration/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/build/installation.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

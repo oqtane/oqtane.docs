@@ -4480,6 +4480,26 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/extensions/build/assets/oqtane-theme-nuget-file-in-folder.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/extensions/build/assets/oqtane-theme-nuget-file-in-folder.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/extensions/build/assets/oqtane-theme-nuget-file-unzipped.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/extensions/build/assets/oqtane-theme-nuget-file-unzipped.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "pages/guides/extensions/build/dev.md",
       "output": {
@@ -4495,6 +4515,26 @@
       "output": {
         ".html": {
           "relative_path": "guides/extensions/build/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/build/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/build/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/build/package.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/build/package.html"
         }
       },
       "version": ""
@@ -4578,26 +4618,6 @@
       "output": {
         "resource": {
           "relative_path": "pages/guides/themes/assets/oqtane-theme-files-in-wwwroot.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-in-folder.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-in-folder.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-unzipped.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/themes/assets/oqtane-theme-nuget-file-unzipped.jpg"
         }
       },
       "version": ""
