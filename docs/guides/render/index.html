@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title> | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content=" | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
       
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/render/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,56 +83,82 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Guides.Dev.Index">
-<h1 id="oqtane-development-guides-wip">Oqtane Development Guides (WIP)</h1>
+        <article data-uid="">
 
-<blockquote>
-<p>These guides will help you get started with developing <em>on</em>/<em>with</em> Oqtane.</p>
-<p>This is <em>not</em> about building Oqtane itself, but about
-building your own Themes and Modules.</p>
-</blockquote>
-<h2 id="background">Background</h2>
-<p>Oqtane is a .net 8.0 Blazor application that is designed to be modular and extensible.
-This means that you can create your own modules, themes, and other extensions
-to customize your Oqtane solution.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<p>To develop on Oqtane, you will typically need the following skills / tools:</p>
+<h2 id="an-example-render">An Example-Render</h2>
+<p>This should explain a basic render process of one specific scenario,
+as a foundation for understanding the various scenarios explained later on.</p>
+<p>The scenario is a <strong>Interactive WASM</strong> Oqtane site <em>without</em> <strong>Prerendering</strong>.
+This means:</p>
 <ol>
-<li>Visual Studio 2022 with the latest .net 8.0 SDK</li>
-<li>SQL Server (alternatives are possible, but this is the easiest to get started)</li>
-<li>C# programming skills</li>
+<li>The server is responsible for delivering data to the Web Assembly client.</li>
+<li>The Web Assembly client is responsible for
+<ol>
+<li>generating the HTML</li>
+<li>Handing the HTML to the browser</li>
+<li>handling user interactions</li>
 </ol>
-<p>The following skills are also useful, or will need to be developed as you go:</p>
-<ol>
-<li>Blazor programming skills</li>
-<li>HTML / CSS / JavaScript / Bootstrap5 skills</li>
-<li>Git / GitHub skills</li>
-<li><a class="xref" href="../../manuals/admin/installation/index.html">Oqtane installation</a></li>
+</li>
 </ol>
-<h2 id="basic-setup">Basic Setup</h2>
-<p>You will need to <a class="xref" href="../../manuals/admin/installation/index.html">install Oqtane</a>
-on your development machine to get started.
-For this you have 2 options:</p>
+<p>What will happen is this:</p>
 <ol>
-<li>Clone/Fork the <a class="xref" href="https://github.com/oqtane/oqtane.framework">Oqtane Source Code</a> to your local machine
-and run using Visual Studio<br>
-This is the most common option, and the best way to also track down any issues.</li>
-<li>Install a runtime version of Oqtane in your web server<br>
-This is the method you'll use when you create many Oqtane solutions,
-since it will run faster and allow you to focus on only the code you write.</li>
+<li>The browser requests the page</li>
+<li>The server generates some minimal HTML containing a bit of JavaScript to load the WASM</li>
+<li>The browser loads the bootloader</li>
+<li>The bootloader requests all the WASM files containing Blazor themes, components, services and more</li>
+<li>The Server returns these WASM files, some were precompiled / optimized, others are .net assemblies converted on the fly.</li>
+<li>The bootloader hands over to the WASM to run the application</li>
+<li>The WASM requests the data from the server - especially the site structure and the current page structure</li>
+<li>The WASM runs the theme &quot;component&quot; to generate the HTML</li>
+<li>The theme uses the site structure, settings etc. to generate the menus (usually with other Blazor controls)</li>
+<li>The theme uses the page structure to generate the Panes and Modules inside the panes</li>
+<li>Each module first loads a <strong>Container</strong> which is another small wrapper Blazor component</li>
+<li>...and inside that container the module is loaded</li>
+<li>The module requests the data it needs from the server</li>
+<li>The module generates the HTML</li>
 </ol>
-<h2 id="next-steps">Next Steps</h2>
-<p>Read about:</p>
+<h2 id="ways-a-theme-and-module-can-render">Ways a Theme and Module can Render</h2>
 <ol>
-<li>Best Practices</li>
-<li><a class="xref" href="../themes/index.html">Themes</a></li>
-<li>Modules</li>
+<li><p>SSR - Initial Load - Easiest to understand</p>
+</li>
+<li><p>SSR - Soft-Load - enhanced Navigation</p>
+</li>
+<li><p>Prerender</p>
+</li>
+<li><p>Interactive Server - Initial Load</p>
+</li>
+<li><p>Interactive Server - Soft-Load</p>
+</li>
+<li><p>Interactive Client WASM - Initial Load</p>
+</li>
+<li><p>Interactive Client WASM - Soft-Load</p>
+</li>
+</ol>
+<p>Your Theme or Control could be</p>
+<ol>
+<li>Static Output</li>
+<li>Interactive Output</li>
+</ol>
+<p>...and it could be inside of a Module or a Theme which is</p>
+<ol>
+<li>Static</li>
+<li>Interactive</li>
+</ol>
+<p>...and the site could be</p>
+<ol>
+<li>Static</li>
+<li>Interactive</li>
+<li>Automatic - starting as static and transferring to Interactive</li>
+</ol>
+<h2 id="flow-of-a-click---event">Flow of a Click - Event</h2>
+<ol>
+<li>SSR: Click....tbd</li>
 </ol>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/render/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Extension - Dev Build and Deployment | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Extension - Dev Build and Deployment | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
-      <link rel="icon" href="../../layout/images/favicon.png">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      <link rel="icon" href="../../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../pages/guides/toc.html">
       
-      <meta name="docfx:rel" content="../../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/build/dev.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module" src="./../../public/docfx.min.js"></script>
+  <script type="module" src="./../../../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -42,8 +42,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../layout/images/logo-white-50.png" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,56 +83,47 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Guides.Dev.Index">
-<h1 id="oqtane-development-guides-wip">Oqtane Development Guides (WIP)</h1>
+        <article data-uid="Guides.Dev.Build.Dev">
+<h1 id="oqtane-extension---dev-build-and-deployment">Oqtane Extension - Dev Build and Deployment</h1>
 
 <blockquote>
-<p>These guides will help you get started with developing <em>on</em>/<em>with</em> Oqtane.</p>
-<p>This is <em>not</em> about building Oqtane itself, but about
-building your own Themes and Modules.</p>
+<p>These guides will help you understand how
+Oqtane Extensions (Themes and Modules) are built and deployed for development.</p>
+<p>This is <em>not</em> about building/distributing Oqtane itself,
+but about developing your own Themes and Modules.</p>
 </blockquote>
-<h2 id="background">Background</h2>
-<p>Oqtane is a .net 8.0 Blazor application that is designed to be modular and extensible.
-This means that you can create your own modules, themes, and other extensions
-to customize your Oqtane solution.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<p>To develop on Oqtane, you will typically need the following skills / tools:</p>
+<h2 id="what-happens-in-a-dev-build">What Happens in a Dev-Build?</h2>
+<p>This is the typical <code>debug.cmd</code> for a dev-build:</p>
+<pre><code class="lang-cmd">XCOPY &quot;..\Client\bin\Debug\net8.0\Oqtane.Theme.Arsha.Client.Oqtane.dll&quot; &quot;..\..\oqtane.framework\Oqtane.Server\bin\Debug\net8.0\&quot; /Y
+XCOPY &quot;..\Client\bin\Debug\net8.0\Oqtane.Theme.Arsha.Client.Oqtane.pdb&quot; &quot;..\..\oqtane.framework\Oqtane.Server\bin\Debug\net8.0\&quot; /Y
+XCOPY &quot;..\Client\wwwroot\*&quot; &quot;..\..\oqtane.framework\Oqtane.Server\wwwroot\&quot; /Y /S /I
+</code></pre>
+<p>As you can see, it will <strong>deploy</strong> your work to the Oqtane.Server project:</p>
 <ol>
-<li>Visual Studio 2022 with the latest .net 8.0 SDK</li>
-<li>SQL Server (alternatives are possible, but this is the easiest to get started)</li>
-<li>C# programming skills</li>
+<li>Copy the DLL and PDB files into the Oqtane.Server folder which is
+<em>right beside</em> the current module - see <a class="xref" href="../best-practices/create-solutions-for-each-extension.html">Best Practices</a></li>
+<li>Copy the files in the <code>wwwroot</code> folder into the <code>wwwroot</code> folder of the Oqtane.Server project</li>
 </ol>
-<p>The following skills are also useful, or will need to be developed as you go:</p>
-<ol>
-<li>Blazor programming skills</li>
-<li>HTML / CSS / JavaScript / Bootstrap5 skills</li>
-<li>Git / GitHub skills</li>
-<li><a class="xref" href="../../manuals/admin/installation/index.html">Oqtane installation</a></li>
-</ol>
-<h2 id="basic-setup">Basic Setup</h2>
-<p>You will need to <a class="xref" href="../../manuals/admin/installation/index.html">install Oqtane</a>
-on your development machine to get started.
-For this you have 2 options:</p>
-<ol>
-<li>Clone/Fork the <a class="xref" href="https://github.com/oqtane/oqtane.framework">Oqtane Source Code</a> to your local machine
-and run using Visual Studio<br>
-This is the most common option, and the best way to also track down any issues.</li>
-<li>Install a runtime version of Oqtane in your web server<br>
-This is the method you'll use when you create many Oqtane solutions,
-since it will run faster and allow you to focus on only the code you write.</li>
-</ol>
-<h2 id="next-steps">Next Steps</h2>
-<p>Read about:</p>
-<ol>
-<li>Best Practices</li>
-<li><a class="xref" href="../themes/index.html">Themes</a></li>
-<li>Modules</li>
-</ol>
+<div class="TIP">
+<h5>Tip</h5>
+<p>As you can see, the <code>debug.cmd</code> has project names and paths hard-wired.
+You may need to adjust these values as your DLL names change
+or you move your projects around.</p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>The DLLs are compiles to a specific path, e.g. <code>…\bin\Debug\net8.0\…</code>.
+Upon upgrading to a newer .net framework, you <strong>must</strong> adjust these paths.</p>
+</div>
+<h2 id="remember-to-restart-your-oqtane">Remember to Restart your Oqtane</h2>
+<p>After you have deployed your work, you <strong>must</strong> restart your Oqtane solution.
+This is because the DLLs are loaded into memory and will not be reloaded
+until the application is restarted.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/dev/build/dev.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

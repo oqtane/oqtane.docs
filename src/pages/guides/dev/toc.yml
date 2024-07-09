@@ -2,6 +2,14 @@
 - name: Oqtane Development Guide
   href: index.md
 
+- name: Building and Distribution
+  topicUid: Guides.Dev.Build.Index
+  items:
+  - name: Dev Build and Deployment
+    href: build/dev.md
+  - name: Release Build and Deployment
+    href: build/release.md
+
 - name: Best Practices
   items:
   - name: Separate Solutions for Your Extensions

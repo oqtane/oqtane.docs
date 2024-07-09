@@ -4,6 +4,15 @@ references:
 - uid: Guides.Dev.BestPractice.SeparateSolutions.Index
   name: 'Oqtane Dev Best Practices: Separate Solutions for Each Extension'
   href: guides/dev/best-practices/create-solutions-for-each-extension.html
+- uid: Guides.Dev.Build.Dev
+  name: Oqtane Extension - Dev Build and Deployment
+  href: guides/dev/build/dev.html
+- uid: Guides.Dev.Build.Index
+  name: Oqtane Extension - Build and Distribution (WIP)
+  href: guides/dev/build/index.html
+- uid: Guides.Dev.Build.Release
+  name: Oqtane Extension - Release Build (WIP)
+  href: guides/dev/build/release.html
 - uid: Guides.Dev.Index
   name: Oqtane Development Guides (WIP)
   href: guides/dev/index.html
