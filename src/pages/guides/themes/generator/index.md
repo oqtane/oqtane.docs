@@ -53,6 +53,19 @@ You will now see 3 solutions according to
 
 <img src="./assets/theme-solution-showing-theme-info.jpg" class="full-width">
 
+## Build/Rebuild the _Package_ Solution
+
+Build the **Package** solution to compile and copy the files
+to the Oqtane installation.
+
+<img src="./assets/theme-build-package-solution.jpg" class="full-width">
+
+Then start/restart Oqtane - see [how to restart Oqtane](xref:Manuals.HowTo.Restart.Index).
+
+You should now see your new theme in the `/system/themes` section:
+
+<img src="./assets/system-themes-with-new-theme.jpg" class="full-width">
+
 ## You're all set
 
 That's it - you can start building / customizing your own theme now.

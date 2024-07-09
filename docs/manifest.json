@@ -4634,6 +4634,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/system-themes-with-new-theme.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/system-themes-with-new-theme.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-build-package-solution.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-build-package-solution.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/guides/themes/generator/assets/theme-folder-side-by-side.jpg",
       "output": {
         "resource": {
