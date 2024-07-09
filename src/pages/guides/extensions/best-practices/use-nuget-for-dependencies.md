@@ -9,4 +9,4 @@
 Instead, you should use NuGet packages to reference
 the Oqtane framework in the version you currently target.
 
-<img src="./assets/visual-studio-showing-oqtane-nuget-packages.jpg" width="100%">
+<img src="./assets/visual-studio-showing-oqtane-nuget-packages.jpg" class="full-width">

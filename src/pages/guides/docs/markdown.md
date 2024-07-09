@@ -24,9 +24,9 @@ Here's an example using markdown:
 
 Here an example using an `<img>` tag which lets you provide more settings:
 
-`<img src="./assets/folder-structure-for-building.jpg" width="100%">`
+`<img src="./assets/folder-structure-for-building.jpg" class="full-width">`
 
-<img src="./assets/folder-structure-for-building.jpg" width="100%">
+<img src="./assets/folder-structure-for-building.jpg" class="full-width">
 
 ## Checklists
 

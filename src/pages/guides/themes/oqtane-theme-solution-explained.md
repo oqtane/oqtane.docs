@@ -14,9 +14,7 @@ It will typically contain the following in one or more projects:
 In the example of the [Arsha theme]()
 you can see that the theme solution contains two projects:
 
-<img src="./assets/oqtane-theme-solution.jpg" width="100%">
-
-&nbsp;
+<img src="./assets/oqtane-theme-solution.jpg" class="full-width">
 
 1. The first one is the theme and everything it consists of
 1. The second one is the packaging project which separates nuget-creation into a separate project.

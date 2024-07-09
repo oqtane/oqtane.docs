@@ -52,17 +52,13 @@ The build process is usually done by Visual Studio.
 If you follow the current conventions, you will have a dedicated project
 called `Oqtane...Package` which is only responsible for the building process.
 
-<img src="./assets/main-project-and-build-project.jpg" width="100%">
-
-&nbsp;
+<img src="./assets/main-project-and-build-project.jpg" class="full-width">
 
 > [!TIP]
 > If you only build the main project, the result will just sit around and do nothing.
 > You must build the package project to see anything useful.
 
-<img src="./assets/build-the-package-project.jpg" width="100%">
-
-&nbsp;
+<img src="./assets/build-the-package-project.jpg" class="full-width">
 
 ### What is Triggered by the Build Process?
 

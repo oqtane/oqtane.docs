@@ -16,9 +16,7 @@ Since Oqtane is based on .net and Blazor, themes are built using Blazor componen
 and these are compiled into a DLL that is loaded by the Oqtane framework.
 Here's an example:
 
-<img src="./assets/oqtane-theme-blazor-cms.org.jpg" width="100%">
-
-&nbsp;
+<img src="./assets/oqtane-theme-blazor-cms.org.jpg" class="full-width">
 
 In this example, the theme controls:
 

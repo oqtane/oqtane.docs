@@ -3,7 +3,7 @@
 Themes are usually distributed as nuget packages.
 Internally such a nuget package is actually just a ZIP file.
 
-<img src="./assets/oqtane-theme-nuget-file-in-folder.jpg" width="100%">
+<img src="./assets/oqtane-theme-nuget-file-in-folder.jpg" class="full-width">
 
 It contains:
 
@@ -13,9 +13,7 @@ It contains:
 4. an `icon.png` file
 5. and some other files which are not important to us
 
-<img src="./assets/oqtane-theme-nuget-file-unzipped.jpg" width="100%">
-
-&nbsp;
+<img src="./assets/oqtane-theme-nuget-file-unzipped.jpg" class="full-width">
 
 ## Installation
 

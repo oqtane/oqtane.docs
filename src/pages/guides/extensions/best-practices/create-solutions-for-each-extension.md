@@ -26,7 +26,7 @@ Typically these projects and solutions will have the following folder structure:
 This structure allows the modules to easily deploy the build output to the `oqtane.framework` folder,
 so it can be run in the Oqtane after every build.
 
-<img src="./assets/visual-studio-theme-with-oqtane-framework-startup.jpg" width="100%">
+<img src="./assets/visual-studio-theme-with-oqtane-framework-startup.jpg" class="full-width">
 
 > [!TIP]
 > Oqtane has built in assistants to generate template modules and themes.
