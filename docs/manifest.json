@@ -72,70 +72,70 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/namespace-metadata.js",
+      "source_relative_path": "layout/oqtane-wip/namespace-metadata.js",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/namespace-metadata.js"
+          "relative_path": "layout/oqtane-wip/namespace-metadata.js"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/partials/head.tmpl.partial",
+      "source_relative_path": "layout/oqtane-wip/partials/head.tmpl.partial",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/partials/head.tmpl.partial"
+          "relative_path": "layout/oqtane-wip/partials/head.tmpl.partial"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/partials/li.tmpl.partial",
+      "source_relative_path": "layout/oqtane-wip/partials/li.tmpl.partial",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/partials/li.tmpl.partial"
+          "relative_path": "layout/oqtane-wip/partials/li.tmpl.partial"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/partials/navbar-li.tmpl.partial",
+      "source_relative_path": "layout/oqtane-wip/partials/navbar-li.tmpl.partial",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/partials/navbar-li.tmpl.partial"
+          "relative_path": "layout/oqtane-wip/partials/navbar-li.tmpl.partial"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/partials/toc.tmpl.partial",
+      "source_relative_path": "layout/oqtane-wip/partials/toc.tmpl.partial",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/partials/toc.tmpl.partial"
+          "relative_path": "layout/oqtane-wip/partials/toc.tmpl.partial"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/styles/main.css",
+      "source_relative_path": "layout/oqtane-wip/toc.extension.js",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/styles/main.css"
+          "relative_path": "layout/oqtane-wip/toc.extension.js"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/oqtane/toc.extension.js",
+      "source_relative_path": "layout/oqtane/public/main.css",
       "output": {
         "resource": {
-          "relative_path": "layout/oqtane/toc.extension.js"
+          "relative_path": "layout/oqtane/public/main.css"
         }
       },
       "version": ""
@@ -4608,6 +4608,76 @@
       "output": {
         "resource": {
           "relative_path": "pages/guides/themes/assets/oqtane-theme-solution.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-folder-side-by-side.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-folder-side-by-side.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-folder-solution-file.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-folder-solution-file.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-solution-showing-theme-info.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-solution-showing-theme-info.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-wizard-confirmation.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-wizard-confirmation.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-wizard-step-1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-wizard-step-1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/themes/generator/assets/theme-wizard-step-before.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/themes/generator/assets/theme-wizard-step-before.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/generator/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/generator/index.html"
         }
       },
       "version": ""

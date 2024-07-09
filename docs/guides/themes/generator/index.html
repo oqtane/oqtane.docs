@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Dev Best Practices: Separate Solutions for Each Extension | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Themes Generator | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Dev Best Practices: Separate Solutions for Each Extension | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Themes Generator | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/best-practices/create-solutions-for-each-extension.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/generator/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,46 +83,50 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Guides.Extensions.BestPractice.SeparateSolutions.Index">
-<h1 id="oqtane-dev-best-practices-separate-solutions-for-each-extension">Oqtane Dev Best Practices: Separate Solutions for Each Extension</h1>
+        <article data-uid="Guides.Themes.Generator.Index">
+<h1 id="oqtane-themes-generator">Oqtane Themes Generator</h1>
 
-<p>To create custom themes and modules,
-you will typically create them in a separate solution.
-This has benefits such as:</p>
+<blockquote>
+<p>Brief tutorial how to use the built-in Themes Generator.</p>
+</blockquote>
+<p>Oqtane helps you get started with themes by providing a built-in
+Themes generator. It will create a Visual Studio solution for you,
+containing all the necessary parts to start customizing your own theme.</p>
+<h2 id="start-the-generator">Start the Generator</h2>
+<p>In your Oqtane site, go to <code>/admin/themes</code> to see the Themes management:</p>
+<img src="../../../pages/guides/themes/generator/assets/theme-wizard-step-before.jpg" class="full-width">
+<p>Click on &quot;Create Theme&quot; and fill in the wizard as follows:</p>
+<img src="../../../pages/guides/themes/generator/assets/theme-wizard-step-1.jpg" class="full-width">
 <ul>
-<li>Your code base and the git-repos are small and focused.</li>
-<li>It helps keep your code organized and makes it easier to share your work with others.</li>
-<li>It allows you to more easily update the Oqtane runtime without affecting your custom code.</li>
-<li>It ensures your extensions actually work in a vanilla Oqtane.</li>
+<li><strong>Owner Name</strong> should be your company name or similar.
+It will be used in the Namespace of the generated code.</li>
+<li><strong>Theme Name</strong> will be the technical name of the theme.
+It too will be used in the Namespace of your generated code.</li>
+<li><strong>Template</strong> is meant to select from various templates,
+but as of now there is only one.</li>
+<li><strong>Framework Reference</strong> is to decide what Oqtane (<em>not</em> .net Framework) your
+Theme will target, but as of now you can always only select the
+current framework running on your Oqtane.</li>
+<li><strong>Location</strong> is where the generated code will be placed.
+It is best practice to put this
+<a class="xref" href="../../extensions/best-practices/create-solutions-for-each-extension.html">side-by side to your Oqtane solution</a>.</li>
 </ul>
-<p>Typically these projects and solutions will have the following folder structure:</p>
-<pre><code class="lang-text">/parent
-  /oqtane.framework
-  /SomeTheme
-  /SomeModule
-  /SomeOtherExtension
-</code></pre>
-<p>This structure allows the modules to easily deploy the build output to the <code>oqtane.framework</code> folder,
-so it can be run in the Oqtane after every build.</p>
-<img src="../../../pages/guides/extensions/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg" width="100%">
-<div class="TIP">
-<h5>Tip</h5>
-<p>Oqtane has built in assistants to generate template modules and themes.
-These will follow the above convention and also generate
-build-projects which will deploy the output to the <code>oqtane.framework</code> folder.</p>
-</div>
-<div class="TIP">
-<h5>Tip</h5>
-<p>As you get more experienced, you can then adjust these automatic mechanisms
-to better suit your own workflow.</p>
-</div>
-<p>In this setup, most Oqtane Modules/Themes will also reference
-the Oqtane framework project - but only to make it easier to run and debug directly from Visual Studio.</p>
+<p>Once you click on <strong>Create Theme</strong> you will see:</p>
+<img src="../../../pages/guides/themes/generator/assets/theme-wizard-confirmation.jpg" class="full-width">
+<p> </p>
+<h2 id="continue-in-visual-studio">Continue in Visual Studio</h2>
+<p>The generator created this folder with a visual studio solution
+beside your Oqtane Framework folder:</p>
+<img src="../../../pages/guides/themes/generator/assets/theme-folder-side-by-side.jpg" class="full-width">
+<p> </p>
+<p>Next, open the solution file in that folder:</p>
+<img src="../../../pages/guides/themes/generator/assets/theme-folder-solution-file.jpg" class="full-width">
+<p> </p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/best-practices/create-solutions-for-each-extension.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/generator/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

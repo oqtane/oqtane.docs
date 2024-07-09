@@ -22,6 +22,9 @@ references:
 - uid: Guides.Roadmap.Index
   name: Oqtane Roadmap and History
   href: guides/roadmap/index.html
+- uid: Guides.Themes.Generator.Index
+  name: Oqtane Themes Generator
+  href: guides/themes/generator/index.html
 - uid: Guides.Themes.Index
   name: Oqtane Themes Guide
   href: guides/themes/index.html

@@ -4,7 +4,7 @@ uid: Guides.Themes.Index
 
 # Oqtane Themes Guide
 
-> Oqtane Themes are a way to customize the look and feel of your Oqtane website.
+> Oqtane Themes are extensions to customize the look and feel of your Oqtane website.
 > This guide will help you get started with creating and using themes in Oqtane.
 
 ## What is a Theme?
@@ -28,6 +28,10 @@ In this example, the theme controls:
 4. Font sizes and colors for various headings and normal text.
 
 ## Next Steps
+
+> [!TIP]
+> Before diving too deep into themes, make sure you understand the basics
+> of [Extensions](xref:Guides.Extensions.Index).
 
 Read about:
 

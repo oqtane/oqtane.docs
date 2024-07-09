@@ -20,7 +20,7 @@ Typically these projects and solutions will have the following folder structure:
   /oqtane.framework
   /SomeTheme
   /SomeModule
-  /SomeOtherModule
+  /SomeOtherExtension
 ```
 
 This structure allows the modules to easily deploy the build output to the `oqtane.framework` folder,
