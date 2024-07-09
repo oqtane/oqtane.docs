@@ -40,3 +40,6 @@
 #   # topicUid: Article.Docs.Index
 #   href: documentation/toc.yml
 #   topicHref: documentation/index.md
+
+- name: How to Restart Oqtane
+  topicUid: Manuals.HowTo.Restart.Index

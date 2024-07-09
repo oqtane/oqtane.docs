@@ -6166,6 +6166,66 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/how-to/restart/assets/dev-start-oqtane.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/how-to/restart/assets/dev-start-oqtane.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/how-to/restart/assets/dev-stop-oqtane.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/how-to/restart/assets/dev-stop-oqtane.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/how-to/restart/assets/production-confirm-restart.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/how-to/restart/assets/production-confirm-restart.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/how-to/restart/assets/production-system-info-with-restart-button.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/how-to/restart/assets/production-system-info-with-restart-button.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/how-to/restart/assets/production-wait-for-restart.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/how-to/restart/assets/production-wait-for-restart.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/how-to/restart/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/how-to/restart/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "readme.md",
       "output": {

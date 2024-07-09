@@ -34,6 +34,9 @@ references:
 - uid: Guides.Themes.Index
   name: Oqtane Themes Guide
   href: guides/themes/index.html
+- uid: Manuals.HowTo.Restart.Index
+  name: How To Restart Oqtane
+  href: manuals/how-to/restart/index.html
 - uid: Manuals.Installation.Index
   name: Installation
   href: manuals/admin/installation/index.html
