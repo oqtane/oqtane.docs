@@ -24,4 +24,4 @@ you can see that the theme solution contains two projects:
 > [!TIP]
 > This separation of projects makes work easier, so we recommend you do the same.
 >
-> See also [](xref:Guides.Dev.BestPractice.SeparateSolutions.Index).
+> See also [](xref:Guides.Extensions.BestPractice.SeparateSolutions.Index).

@@ -1,5 +1,5 @@
 ---
-uid: Guides.Dev.Build.Dev
+uid: Guides.Extensions.Build.Dev
 ---
 
 # Oqtane Extension - Dev Build and Deployment
@@ -23,7 +23,7 @@ XCOPY "..\Client\wwwroot\*" "..\..\oqtane.framework\Oqtane.Server\wwwroot\" /Y /
 As you can see, it will **deploy** your work to the Oqtane.Server project:
 
 1. Copy the DLL and PDB files into the Oqtane.Server folder which is
-   _right beside_ the current module - see [Best Practices](xref:Guides.Dev.BestPractice.SeparateSolutions.Index)
+   _right beside_ the current module - see [Best Practices](xref:Guides.Extensions.BestPractice.SeparateSolutions.Index)
 1. Copy the files in the `wwwroot` folder into the `wwwroot` folder of the Oqtane.Server project
 
 > [!TIP]

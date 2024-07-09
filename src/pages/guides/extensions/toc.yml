@@ -1,9 +1,9 @@
 
-- name: Oqtane Development Guide
+- name: Extension Development Guide
   href: index.md
 
 - name: Building and Distribution
-  topicUid: Guides.Dev.Build.Index
+  topicUid: Guides.Extensions.Build.Index
   items:
   - name: Dev Build and Deployment
     href: build/dev.md

@@ -4147,119 +4147,6 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/dev/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/dev/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/dev/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/dev/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/dev/best-practices/create-solutions-for-each-extension.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/dev/best-practices/create-solutions-for-each-extension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/dev/best-practices/use-nuget-for-dependencies.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/dev/best-practices/use-nuget-for-dependencies.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/dev/build/assets/build-the-package-project.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/dev/build/assets/build-the-package-project.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/dev/build/assets/main-project-and-build-project.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/dev/build/assets/main-project-and-build-project.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/dev/build/dev.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/dev/build/dev.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/dev/build/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/dev/build/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/dev/build/release.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/dev/build/release.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/dev/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/dev/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "pages/guides/dev/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/guides/dev/toc.html"
-        },
-        ".json": {
-          "relative_path": "pages/guides/dev/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "pages/guides/docs/api-menu.md",
       "output": {
@@ -4528,6 +4415,119 @@
         },
         ".json": {
           "relative_path": "pages/guides/docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/extensions/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/extensions/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/extensions/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/extensions/best-practices/assets/visual-studio-theme-with-oqtane-framework-startup.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/best-practices/create-solutions-for-each-extension.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/best-practices/create-solutions-for-each-extension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/best-practices/use-nuget-for-dependencies.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/best-practices/use-nuget-for-dependencies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/extensions/build/assets/build-the-package-project.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/extensions/build/assets/build-the-package-project.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/extensions/build/assets/main-project-and-build-project.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/extensions/build/assets/main-project-and-build-project.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/build/dev.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/build/dev.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/build/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/build/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/build/release.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/build/release.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/extensions/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/extensions/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/extensions/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/extensions/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/extensions/toc.json"
         }
       },
       "version": ""

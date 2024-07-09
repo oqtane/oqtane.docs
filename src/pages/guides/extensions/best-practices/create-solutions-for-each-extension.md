@@ -1,5 +1,5 @@
 ---
-uid: Guides.Dev.BestPractice.SeparateSolutions.Index
+uid: Guides.Extensions.BestPractice.SeparateSolutions.Index
 ---
 
 # Oqtane Dev Best Practices: Separate Solutions for Each Extension

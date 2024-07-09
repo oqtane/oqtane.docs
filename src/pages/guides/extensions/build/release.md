@@ -1,5 +1,5 @@
 ---
-uid: Guides.Dev.Build.Release
+uid: Guides.Extensions.Build.Release
 ---
 
 # Oqtane Extension - Release Build (WIP)

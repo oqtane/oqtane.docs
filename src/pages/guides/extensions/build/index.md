@@ -1,5 +1,5 @@
 ---
-uid: Guides.Dev.Build.Index
+uid: Guides.Extensions.Build.Index
 ---
 
 # Oqtane Extension - Build and Distribution (WIP)
@@ -88,11 +88,11 @@ The build process is configured in the `Oqtane...Package.csproj` file, explained
 
 ## What Happens in a Dev-Build?
 
-➡️ [Read more about the Dev-Build](xref:Guides.Dev.Build.Dev)
+➡️ [Read more about the Dev-Build](xref:Guides.Extensions.Build.Dev)
 
 ## What Happens in a Release-Build?
 
-➡️ [Read more about the Release-Build](xref:Guides.Dev.Build.Release)
+➡️ [Read more about the Release-Build](xref:Guides.Extensions.Build.Release)
 
 ## What's missing here?
 

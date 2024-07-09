@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Themes - Theme Solution Explained | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Dev Best Practices: Use NuGet for Oqtane Dependencies | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Themes - Theme Solution Explained | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Dev Best Practices: Use NuGet for Oqtane Dependencies | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
-      <link rel="icon" href="../../layout/images/favicon.png">
-      <link rel="stylesheet" href="../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../public/main.css">
-      <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      <link rel="icon" href="../../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../pages/guides/toc.html">
       
-      <meta name="docfx:rel" content="../../">
+      <meta name="docfx:rel" content="../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-solution-explained.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/best-practices/use-nuget-for-dependencies.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module" src="./../../public/docfx.min.js"></script>
+  <script type="module" src="./../../../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -42,8 +42,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../layout/images/logo-white-50.png" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,36 +84,23 @@
         </div>
 
         <article data-uid="">
-<h1 id="themes---theme-solution-explained">Themes - Theme Solution Explained</h1>
+<h1 id="oqtane-dev-best-practices-use-nuget-for-oqtane-dependencies">Oqtane Dev Best Practices: Use NuGet for Oqtane Dependencies</h1>
 
-<p>A Oqtane Theme Solution is a Visual Studio project which is the basis for building a theme.</p>
-<p>It will typically contain the following in one or more projects:</p>
-<ol>
-<li>The basics such as the <code>ThemeInfo.cs</code>, the theme files and the container files.</li>
-<li>A <code>wwwroot</code> folder with the CSS and JS files.</li>
-<li>A <code>.nuspec</code> file to package the theme into a nuget package.</li>
-<li>Code and specs to build / compile the result - such as <code>package.json</code> and <code>webpack.config.json</code>.</li>
-<li>Code and specs to deploy the result - such as a <code>.nuspec</code> file.</li>
-<li>An icon file, copyright information and more.</li>
-</ol>
-<p>In the example of the <a href="">Arsha theme</a>
-you can see that the theme solution contains two projects:</p>
-<img src="../../pages/guides/themes/assets/oqtane-theme-solution.jpg" width="100%">
-<p> </p>
-<ol>
-<li>The first one is the theme and everything it consists of</li>
-<li>The second one is the packaging project which separates nuget-creation into a separate project.</li>
-</ol>
-<div class="TIP">
-<h5>Tip</h5>
-<p>This separation of projects makes work easier, so we recommend you do the same.</p>
-<p>See also <a class="xref" href="../extensions/best-practices/create-solutions-for-each-extension.html">Oqtane Dev Best Practices: Separate Solutions for Each Extension</a>.</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>The <a href="create-solutions-for-each-extension.html">recommended structure</a>
+may imply that the add-on solutions such as the themes
+should reference the <code>oqtane.framework</code> project or output DLLs.
+This is not recommended, as it will make your add-ons less portable and harder to maintain.</p>
 </div>
+<p>Instead, you should use NuGet packages to reference
+the Oqtane framework in the version you currently target.</p>
+<img src="../../../pages/guides/extensions/best-practices/assets/visual-studio-showing-oqtane-nuget-packages.jpg" width="100%">
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-solution-explained.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/best-practices/use-nuget-for-dependencies.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

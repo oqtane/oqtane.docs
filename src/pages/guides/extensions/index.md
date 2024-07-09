@@ -1,19 +1,38 @@
 ---
-uid: Guides.Dev.Index
+uid: Guides.Extensions.Index
 ---
 
-# Oqtane Development Guides (WIP)
+# Oqtane Extensions Development Guides (WIP)
 
-> These guides will help you get started with developing _on_/_with_ Oqtane.
+> These guides will help you get started with developing
+> **Extensions** _on_/_with_ Oqtane.
 >
 > This is _not_ about building Oqtane itself, but about
-> building your own Themes and Modules.
+> building your own Extensions such as **Themes** and **Modules**.
 
 ## Background
 
 Oqtane is a .net 8.0 Blazor application that is designed to be modular and extensible.
 This means that you can create your own modules, themes, and other extensions
 to customize your Oqtane solution.
+
+Extensions can be:
+
+1. **Themes**  
+    Themes are the visual appearance of your Oqtane solution.
+    They can be as simple as changing the colors and fonts,
+    or as complex as changing the layout and adding new components.
+1. **Modules**  
+    Modules are the functional components of your Oqtane solution.
+    They can be as simple as a single page with some text,
+    or as complex as a full-featured application with a database backend.
+1. **Language Packs**  
+    Language Packs are translations of the user interface into different languages.
+    They can be as simple as a few words, or as complex as a full translation
+    of the entire user interface.
+1. **Pure Extensions**  
+    Pure Extensions are any other type of extension that you can think of.
+    For example, an Image-Resizer which doesn't have a UI.
 
 ## Prerequisites
 

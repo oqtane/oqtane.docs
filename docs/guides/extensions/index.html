@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Themes - Theme Solution Explained | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Extensions Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Themes - Theme Solution Explained | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Extensions Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-solution-explained.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,37 +83,75 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 id="themes---theme-solution-explained">Themes - Theme Solution Explained</h1>
+        <article data-uid="Guides.Extensions.Index">
+<h1 id="oqtane-extensions-development-guides-wip">Oqtane Extensions Development Guides (WIP)</h1>
 
-<p>A Oqtane Theme Solution is a Visual Studio project which is the basis for building a theme.</p>
-<p>It will typically contain the following in one or more projects:</p>
+<blockquote>
+<p>These guides will help you get started with developing
+<strong>Extensions</strong> <em>on</em>/<em>with</em> Oqtane.</p>
+<p>This is <em>not</em> about building Oqtane itself, but about
+building your own Extensions such as <strong>Themes</strong> and <strong>Modules</strong>.</p>
+</blockquote>
+<h2 id="background">Background</h2>
+<p>Oqtane is a .net 8.0 Blazor application that is designed to be modular and extensible.
+This means that you can create your own modules, themes, and other extensions
+to customize your Oqtane solution.</p>
+<p>Extensions can be:</p>
 <ol>
-<li>The basics such as the <code>ThemeInfo.cs</code>, the theme files and the container files.</li>
-<li>A <code>wwwroot</code> folder with the CSS and JS files.</li>
-<li>A <code>.nuspec</code> file to package the theme into a nuget package.</li>
-<li>Code and specs to build / compile the result - such as <code>package.json</code> and <code>webpack.config.json</code>.</li>
-<li>Code and specs to deploy the result - such as a <code>.nuspec</code> file.</li>
-<li>An icon file, copyright information and more.</li>
+<li><strong>Themes</strong><br>
+Themes are the visual appearance of your Oqtane solution.
+They can be as simple as changing the colors and fonts,
+or as complex as changing the layout and adding new components.</li>
+<li><strong>Modules</strong><br>
+Modules are the functional components of your Oqtane solution.
+They can be as simple as a single page with some text,
+or as complex as a full-featured application with a database backend.</li>
+<li><strong>Language Packs</strong><br>
+Language Packs are translations of the user interface into different languages.
+They can be as simple as a few words, or as complex as a full translation
+of the entire user interface.</li>
+<li><strong>Pure Extensions</strong><br>
+Pure Extensions are any other type of extension that you can think of.
+For example, an Image-Resizer which doesn't have a UI.</li>
 </ol>
-<p>In the example of the <a href="">Arsha theme</a>
-you can see that the theme solution contains two projects:</p>
-<img src="../../pages/guides/themes/assets/oqtane-theme-solution.jpg" width="100%">
-<p> </p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>To develop on Oqtane, you will typically need the following skills / tools:</p>
 <ol>
-<li>The first one is the theme and everything it consists of</li>
-<li>The second one is the packaging project which separates nuget-creation into a separate project.</li>
+<li>Visual Studio 2022 with the latest .net 8.0 SDK</li>
+<li>SQL Server (alternatives are possible, but this is the easiest to get started)</li>
+<li>C# programming skills</li>
 </ol>
-<div class="TIP">
-<h5>Tip</h5>
-<p>This separation of projects makes work easier, so we recommend you do the same.</p>
-<p>See also <a class="xref" href="../extensions/best-practices/create-solutions-for-each-extension.html">Oqtane Dev Best Practices: Separate Solutions for Each Extension</a>.</p>
-</div>
+<p>The following skills are also useful, or will need to be developed as you go:</p>
+<ol>
+<li>Blazor programming skills</li>
+<li>HTML / CSS / JavaScript / Bootstrap5 skills</li>
+<li>Git / GitHub skills</li>
+<li><a class="xref" href="../../manuals/admin/installation/index.html">Oqtane installation</a></li>
+</ol>
+<h2 id="basic-setup">Basic Setup</h2>
+<p>You will need to <a class="xref" href="../../manuals/admin/installation/index.html">install Oqtane</a>
+on your development machine to get started.
+For this you have 2 options:</p>
+<ol>
+<li>Clone/Fork the <a class="xref" href="https://github.com/oqtane/oqtane.framework">Oqtane Source Code</a> to your local machine
+and run using Visual Studio<br>
+This is the most common option, and the best way to also track down any issues.</li>
+<li>Install a runtime version of Oqtane in your web server<br>
+This is the method you'll use when you create many Oqtane solutions,
+since it will run faster and allow you to focus on only the code you write.</li>
+</ol>
+<h2 id="next-steps">Next Steps</h2>
+<p>Read about:</p>
+<ol>
+<li>Best Practices</li>
+<li><a class="xref" href="../themes/index.html">Themes</a></li>
+<li>Modules</li>
+</ol>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/themes/oqtane-theme-solution-explained.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/extensions/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
