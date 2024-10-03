@@ -254,3 +254,8 @@ img.full-width {
   width: 100%;
   padding-bottom: 16px;
 }
+
+img.gallery {
+  width: 23%;
+  padding: 0 8px 16px 0;
+}

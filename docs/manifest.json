@@ -5741,6 +5741,376 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/121 Get from Github.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/121 Get from Github.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/200 Compile Oqtane.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/200 Compile Oqtane.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/201 Disable HotReload.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/201 Disable HotReload.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/211 Oqtane Installing.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/211 Oqtane Installing.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/211 Oqtane Settings.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/211 Oqtane Settings.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/291 Oqtane Installed.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/291 Oqtane Installed.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/292 Login as Super User.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/292 Login as Super User.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/293 Oqtane Logged In.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/293 Oqtane Logged In.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/311 Go to Modules - Open Menu.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/311 Go to Modules - Open Menu.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/312 Go to Modules - Admin Dashboard.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/312 Go to Modules - Admin Dashboard.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/313 Go to Modules - Module Management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/313 Go to Modules - Module Management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/321 Install Module Start.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/321 Install Module Start.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/322 Select Module.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/322 Select Module.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/323 Accept Module License.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/323 Accept Module License.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/324 Installed.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/324 Installed.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/331 Restart Oqtane.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/331 Restart Oqtane.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/332 Confirm Restart.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/332 Confirm Restart.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/333 Restarting.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/333 Restarting.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/334 Restart in Visual Studio.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/334 Restart in Visual Studio.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/341 Add Page.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/341 Add Page.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/342 New Page Name and Permissions.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/342 New Page Name and Permissions.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/351 Add Content Module.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/351 Add Content Module.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/361 Install 2sxc Content Package.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/361 Install 2sxc Content Package.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/362 Install 2sxc Content Package - Confirm.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/362 Install 2sxc Content Package - Confirm.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/363 Install 2sxc Content Package - Installing.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/363 Install 2sxc Content Package - Installing.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/364 Install 2sxc Content Package - Complete.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/364 Install 2sxc Content Package - Complete.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/371 2sxc Select Content Type.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/371 2sxc Select Content Type.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/372 2sxc Preview Content Type.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/372 2sxc Preview Content Type.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/373 2sxc Content Added.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/373 2sxc Content Added.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/411 Add App.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/411 Add App.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/421 App Auto-Installer - Select.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/421 App Auto-Installer - Select.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/422 App Auto-Installer - Confirm.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/422 App Auto-Installer - Confirm.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/423 App Auto-Installer - Installing.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/423 App Auto-Installer - Installing.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/424 App Auto-Installer - Complete.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/424 App Auto-Installer - Complete.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/541 App - Swiper - Confirm.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/541 App - Swiper - Confirm.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/541 App - Swiper.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/installation/walkthrough-dev/assets/541 App - Swiper.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/installation/walkthrough-dev/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/installation/walkthrough-dev/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/installation/windows-iis-express-sql-express.md",
       "output": {
