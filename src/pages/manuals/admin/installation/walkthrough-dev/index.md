@@ -93,6 +93,4 @@ Typical examples are Blog, News, Galleries, Swipers, Real-Estate-Listings, etc.
 
 ## Related Pages
 
-- [Oqtane Installation Resources](resources.md)
-
 [← Back to Installation Home](index.md)
