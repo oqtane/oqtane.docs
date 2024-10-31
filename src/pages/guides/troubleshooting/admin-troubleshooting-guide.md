@@ -38,7 +38,7 @@ This document provides troubleshooting tips for common issues encountered in the
    - If you know the user and trust their registration, you can manually update the `EmailConfirmed` field in the `AspNetUsers` database to `true`. This will allow the user to log in without verifying their email address.
    - Execute an SQL command similar to the following:
      ```sql
-     UPDATE AspNetUsers SET EmailConfirmed = 1 WHERE Email = 'user@example.com';
+     UPDATE AspNetUsers SET EmailConfirmed = `True` WHERE Email = 'user@example.com';
      ```
    - Replace `user@example.com` with the actual email address of the user.
 
