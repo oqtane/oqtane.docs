@@ -32,6 +32,8 @@ The **Language Management** feature allows administrators to manage translations
 
 Once in the Language Management settings, administrators can view and manage language resources.
 
+![Language Management Index Page](assets/language-management-search.png)
+
 ### Main Index Page
 
 The **Language Management** main index page displays all installed languages.
