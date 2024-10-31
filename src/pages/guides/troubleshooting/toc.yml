@@ -2,5 +2,8 @@
 - name: Oqtane Troubleshooting Guide
   href: index.md
 
-- name: Administration Troubleshooting
-  href: administration-troubleshooting-guide.md
+- name: Troubleshooting Login Issues
+  href: troubleshooting-login-issues.md
+
+- name: Troubleshooting User Registration Email Verification
+  href: troubleshooting-user-registration-email-verification.md
