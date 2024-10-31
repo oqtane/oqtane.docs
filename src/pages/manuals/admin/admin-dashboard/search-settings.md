@@ -78,6 +78,26 @@ Finally, in the admin dashboard, click on the search settings icon to configure 
 
 ---
 
+## 5. Using the Reindex Button
+
+After configuring your search settings, you may need to reindex your content to ensure that the latest changes take effect. 
+
+### Reindex Button Description
+
+The **Reindex** button initiates the process of scanning your site's content and updating the search index accordingly. This is essential after making changes to your site's content, structure, or search settings.
+
+![Search Reindex Button](images/search-reindex-button.jpg)
+
+### How to Use the Reindex Button
+
+1. Navigate to the search settings page as described in the previous sections.
+2. Locate the **Reindex** button on the settings page.
+3. Click the **Reindex** button to start the indexing process.
+
+**Note:** Depending on the amount of content on your site, the reindexing process may take some time. You will receive a notification once the process is complete.
+
+---
+
 ## Configuring Search Settings
 
 Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
