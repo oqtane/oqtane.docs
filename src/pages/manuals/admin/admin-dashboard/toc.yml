@@ -1,6 +1,9 @@
 - name: Admin Dashboard
   href: index.md
 
+- name: Language Management
+  href: language-management.md
+
 - name: Site Settings
   href: site-settings.md
 
@@ -24,3 +27,9 @@
 
 - name: Recycle Bin
   href: recycle-bin.md
+
+- name: Url Mappings
+  href: url-mappings.md
+
+- name: Visitor Management
+  href: visitor-management.md
