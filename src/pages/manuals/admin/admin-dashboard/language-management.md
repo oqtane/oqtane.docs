@@ -1,4 +1,4 @@
-# Language Management Manual
+# Language Management
 
 ![Language Management Feature](assets/language-management.png)
 
