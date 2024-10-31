@@ -46,17 +46,17 @@ Once in the URL Mappings settings, administrators can view and manage URL mappin
 
 1. The **Mapped URLs** tab displays all existing URL mappings, including the original URL, the mapped destination, the number of requests, and the last requested date. You can choose to view either mapped URLs or broken URLs using the dropdown select menu.
 
-   ![Mapped URLs](assets/url-mappings-management.jpg)
+   ![Mapped URLs](assets/url-mappings-mapped-urls.png)
 
 2. Use the **Add URL Mapping** button to create a new mapping. This will open a popup modal for adding a mapped URL.
 
-   ![Add URL Mapping](assets/url-mappings-add.jpg)
+   ![Add URL Mapping](assets/url-mappings-add-url.png)
 
 ### Reviewing and Editing URL Mappings
 
 1. After adding a URL mapping, it will appear in the list below the search feature. You can select an existing URL mapping to edit or delete it if it is no longer needed.
 
-   ![Edit URL Mapping](assets/url-mappings-edit.jpg)
+   ![Edit URL Mapping](assets/url-mappings-edit-broken-urls.png)
 
 2. In the case of broken URLs, you can also edit or delete them as necessary to redirect them as needed.
 
@@ -67,7 +67,7 @@ In the **Settings** tab, administrators can toggle the **Capture Broken URLs** s
 1. Set this option to `Yes` to automatically capture broken URLs when they are accessed.
 2. Click the **Save** button to apply changes.
 
-   ![Admin URL Mappings Settings](assets/url-mappings-settings.jpg)
+   ![Admin URL Mappings Settings](assets/url-mappings-settings.png)
 
 ---
 
