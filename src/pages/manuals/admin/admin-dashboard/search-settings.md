@@ -37,3 +37,49 @@ The `.resx` file includes localization data for search terms and placeholders in
 <data name="SearchPlaceHolder" xml:space="preserve">
     <value>Search</value>
 </data>
+```
+---
+
+# Configuring Search in Oqtane
+
+This guide provides a step-by-step walkthrough for configuring the search functionality in Oqtane.
+
+---
+
+## 1. Accessing the Search Feature in the Default Theme
+
+To get started, locate the search feature in the navigation bar of the default theme.
+
+![Search Feature in Navigation](assets/navigation-search.jpg)
+
+---
+
+## 2. Opening the Control Panel
+
+Next, click the control panel icon to access additional settings.
+
+![Control Panel Icon](assets/control-panel-button.jpg)
+
+---
+
+## 3. Navigating to the Admin Dashboard
+
+In the control panel, select the button to open the admin dashboard, where you can manage various site settings.
+
+![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.jpg)
+
+---
+
+## 4. Accessing Search Settings
+
+Finally, in the admin dashboard, click on the search settings icon to configure your search options.
+
+![Admin Dashboard Search Settings](assets/admin-dashboard-search-settings.jpg)
+
+---
+
+## Configuring Search Settings
+
+Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
+
+![Admininstration Search Settings](assets/search-settings-administration.jpg)
