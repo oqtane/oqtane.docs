@@ -78,7 +78,13 @@ Finally, in the admin dashboard, click on the search settings icon to configure 
 
 ---
 
-## 5. Using the Reindex Button
+## Configuring Search Settings
+
+Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
+
+![Admininstration Search Settings](assets/search-settings-administration.jpg)
+
+## Using the Reindex Button
 
 After configuring your search settings, you may need to reindex your content to ensure that the latest changes take effect. 
 
@@ -97,9 +103,3 @@ The **Reindex** button initiates the process of scanning your site's content and
 **Note:** Depending on the amount of content on your site, the reindexing process may take some time. You will receive a notification once the process is complete.
 
 ---
-
-## Configuring Search Settings
-
-Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
-
-![Admininstration Search Settings](assets/search-settings-administration.jpg)
