@@ -46,9 +46,17 @@ Once in the URL Mappings settings, administrators can view and manage URL mappin
 
 1. After adding a URL mapping, it will appear in the list below the search feature. You can select an existing URL mapping to edit or delete it if it is no longer needed.
 
-   ![Edit URL Mapping](assets/url-mappings-edit-broken-urls.png)
+   ![Edit URL Mapping](assets/url-mappings-edit-mapped-urls.png)
 
-2. In the case of broken URLs, you can also edit or delete them as necessary to redirect them as needed.
+### Managing Broken URLs
+
+1. Switch to the **Broken URLs** tab using the dropdown select menu. This will display all captured broken URLs that require attention.
+
+   ![Broken URLs](assets/url-mappings-broken-urls.png)
+
+2. You can edit or delete broken URLs as necessary to redirect them accordingly.
+
+   ![Edit Broken URL](assets/url-mappings-edit-broken-urls.png)
 
 ### URL Mapping Settings
 
