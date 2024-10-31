@@ -55,7 +55,7 @@ Below the dropdown selections, a list of visitors is displayed, showing the foll
 
 | Detail | IP Address | User | Language | Visits | Visited | Created |
 |--------|------------|------|----------|--------|---------|---------|
-| [Details](#) | Example IP | Example User | Example Language | Number of Visits | Last Visited Date | Created Date |
+| [Details](#) Button | Visitor IP Address | Visitor Username | Visitor Language | Number of Visits | Last Visited Date | Created Date |
 
 Each entry includes a **Details** button that opens a detailed view of the selected visitor's information.
 
