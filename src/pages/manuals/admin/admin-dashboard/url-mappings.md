@@ -10,16 +10,6 @@ The **URL Mappings** feature allows administrators to define mappings from one U
 
 ---
 
-## URL Mappings Settings
-
-Administrators can configure the URL Mappings module through **Host > URL Mappings**. The primary setting available is:
-
-| **Setting**                   | **Description**                                                                                                                                                                     |
-|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Capture Broken URLs?**      | Toggles the feature to automatically capture and save broken URLs in the URL Mappings. When set to `Yes`, any broken link encountered will be recorded for further management.    |
-
----
-
 ## Control Panel Walkthrough
 
 ### Accessing the URL Mappings Feature
@@ -61,6 +51,12 @@ Once in the URL Mappings settings, administrators can view and manage URL mappin
 2. In the case of broken URLs, you can also edit or delete them as necessary to redirect them as needed.
 
 ### URL Mapping Settings
+
+Administrators can configure the URL Mappings module through **Host > URL Mappings**. The primary setting available is:
+
+| **Setting**                   | **Description**                                                                                                                                                                     |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Capture Broken URLs?**      | Toggles the feature to automatically capture and save broken URLs in the URL Mappings. When set to `Yes`, any broken link encountered will be recorded for further management.      |
 
 In the **Settings** tab, administrators can toggle the **Capture Broken URLs** setting.
 
