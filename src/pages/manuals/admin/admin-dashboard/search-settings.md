@@ -86,7 +86,7 @@ After configuring your search settings, you may need to reindex your content to 
 
 The **Reindex** button initiates the process of scanning your site's content and updating the search index accordingly. This is essential after making changes to your site's content, structure, or search settings.
 
-![Search Reindex Button](images/search-reindex-button.jpg)
+![Search Reindex Button](assets/search-reindex-button.jpg)
 
 ### How to Use the Reindex Button
 
