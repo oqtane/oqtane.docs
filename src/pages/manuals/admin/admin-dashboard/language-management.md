@@ -60,11 +60,16 @@ The search feature allows administrators to filter through installed languages, 
 
 1. To edit an existing language, click the **Edit** button next to the desired language.
 
+   ![Edit/Delete Buttons](assets/language-management-edit-delete-buttons.png)
+
+2. This will open the edit popup, where you can modify the language settings.
+
    ![Edit Language Popup](assets/language-management-edit-settings.png)
 
    - You can set the language as default using the Yes/No dropdown option.
 
 3. To delete a language, click the **Delete** button next to the language. Note that the default English language cannot be deleted.
+
 
 ---
 
