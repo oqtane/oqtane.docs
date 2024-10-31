@@ -36,7 +36,7 @@ Once in the Language Management settings, administrators can view and manage lan
 
 The **Language Management** main index page displays all installed languages.
 
-![Language Management Index Page](assets/language-management-list.jpg)
+![Language Management Index Page](assets/language-management-list.png)
 
 1. The list includes the name of each language, along with options to edit or delete (except for the default English language).
 
