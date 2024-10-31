@@ -59,6 +59,8 @@ Below the dropdown selections, a list of visitors is displayed, showing the foll
 
 Each entry includes a **Details** button that opens a detailed view of the selected visitor's information.
 
+![Visitor Details](assets/visitors-management-details.png)
+
 ### 2. Settings Tab
 
 The Settings tab allows administrators to configure visitor tracking settings.
