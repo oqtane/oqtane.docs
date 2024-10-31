@@ -16,6 +16,11 @@
   topicHref: themes/index.md
   # href: themes/index.md
 
+- name: Troubleshooting
+  href: troubleshooting/toc.yml
+  topicHref: troubleshooting/index.md
+  # href: troubleshooting/index.md
+
 - name: Roadmap & History
   topicUid: Guides.Roadmap.Index
 
