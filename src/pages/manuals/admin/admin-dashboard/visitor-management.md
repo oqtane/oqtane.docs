@@ -36,7 +36,7 @@ The Visitor Management module consists of two main tabs: **Visitors** and **Sett
 
 The Visitors tab displays a list of site visitors and provides options to filter the displayed visitors based on type and time period.
 
-![Visitors Tab](assets/visitors-tab.png)
+![Visitors Tab](assets/visitor-management-visitors-tab.png)
 
 #### Dropdown Selections
 
@@ -59,13 +59,13 @@ Below the dropdown selections, a list of visitors is displayed, showing the foll
 
 Each entry includes a **Details** button that opens a detailed view of the selected visitor's information.
 
-![Visitor Details](assets/visitors-management-details.png)
+![Visitor Details](assets/visitor-management-details.png)
 
 ### 2. Settings Tab
 
 The Settings tab allows administrators to configure visitor tracking settings.
 
-![Settings Tab](assets/settings-tab.png)
+![Settings Tab](assets/visitor-management-settings-tab.png)
 
 #### Settings Fields
 
