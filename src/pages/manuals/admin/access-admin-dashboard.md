@@ -4,7 +4,7 @@
 
 To get started, locate the search feature in the navigation bar of the default theme.
 
-![Search Feature in Navigation](assets/navigation-search.jpg)
+![Search Feature in Navigation](admin-dashboard/assets/navigation-search.jpg)
 
 ---
 
@@ -12,7 +12,7 @@ To get started, locate the search feature in the navigation bar of the default t
 
 Next, click the control panel icon to access additional settings.
 
-![Control Panel Icon](assets/control-panel-button.jpg)
+![Control Panel Icon](admin-dashboard/assets/control-panel-button.jpg)
 
 ---
 
@@ -20,6 +20,6 @@ Next, click the control panel icon to access additional settings.
 
 In the control panel, select the button to open the admin dashboard, where you can manage various site settings.
 
-![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.jpg)
+![Open Admin Dashboard](admin-dashboard/assets/control-panel-admin-dashboard-button.jpg)
 
 ---
