@@ -1,4 +1,4 @@
-# Host Administration
+# Host Management
 
 The host user has the highest possible level of permissions in a Oqtane instance and can manage any individual site, set defaults for the creation of new sites, and manage additional configurations that support all sites.
 
