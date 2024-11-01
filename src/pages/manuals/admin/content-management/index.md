@@ -1,4 +1,4 @@
-# Control Panel
+# Content Management Introduction
 
 When managing your Oqtane site as an administrator, you will most likely be doing most of your daily work in the Control Panel. As an administrator, you will be able to use nearly every part of the Control Panel. The control panel is accessible through the gear icon located in the top right-hand corner of the screen and provides the ability to interact with the:
 
