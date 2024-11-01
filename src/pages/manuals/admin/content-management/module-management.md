@@ -1,4 +1,4 @@
-# Modules
+# Module Management
 
 Modules are a key feature of Oqtane as they allow for you to insert a massive variety of things into your web page. 
 There are a wide variety of different that can be added to your page for a high level of customization. 
