@@ -40,14 +40,14 @@ The following topics should be covered to enhance the troubleshooting guide:
 
 Explore additional troubleshooting guides for specific Oqtane features and administration:
 
-- [Themes Troubleshooting](../manuals/admin/themes/troubleshooting.md)  
+- [Themes Troubleshooting](../../manuals/admin/themes/troubleshooting.md)  
   Tips for addressing layout, styling, and rendering issues in Oqtane themes.
 
-- [Modules Troubleshooting](../manuals/admin/modules/troubleshooting.md)  
+- [Modules Troubleshooting](../../manuals/admin/modules/troubleshooting.md)  
   Guidance on resolving issues with module installation, compatibility, and functionality.
 
-- [Marketplace Troubleshooting](../manuals/admin/marketplace/troubleshooting.md)  
+- [Marketplace Troubleshooting](../../manuals/admin/marketplace/troubleshooting.md)  
   Solutions for common challenges encountered in the Oqtane Marketplace.
 
-- [Installation Troubleshooting](../manuals/admin/installation/troubleshooting.md)  
+- [Installation Troubleshooting](../../manuals/admin/installation/troubleshooting.md)  
   Instructions for resolving installation problems and verifying system requirements.
