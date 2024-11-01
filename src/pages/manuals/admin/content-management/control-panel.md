@@ -1,11 +1,9 @@
-# Site Administration
+# Control Panel
 
 Site administration in Oqtane is the processes, tasks, and features that it takes to effectively run a website in Oqtane.
 This includes things like managing users, security, site settings, configurations, and content using the features available to them, in both the [control panel](../control-panel/index.md) and the [admin dashboard](../admin-dashboard/index.md).
 
 ![control-panel](./assets/control-panel.png)
-
-![admin-dash](./assets/admin-dash.png)
 
 Site administration can take on many forms, but there are two use cases that you should be familiar with. First, there's site administration as defined by Oqtane.You enable this by adding the Administrators security role as one of the assigned roles for the account. That way, all “admin” features will be available for that user across that specific site.
 
