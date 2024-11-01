@@ -1,4 +1,4 @@
-# Admin Dashboard
+# Admin Management Introduction
 
 The admin dashboard has a variety of different tools for administrators to use in order to better manage their website and to add a great amount of functionality to the website. By selecting the gear icon in the top right of a page while being on an administrator account, then selecting the admin dashboard option at the top of the control panel, which will bring up a menu with a variety of options that can be selected.
 
