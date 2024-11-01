@@ -18,7 +18,10 @@
    - If the certificate is not properly set up, re-install or configure the certificate as per the guidelines provided by your CA or hosting provider.
 
 4. **Refresh the Page:**
-   - Refresh the login page to ensure that any changes to cookies are reflected. This helps prevent logging in with an old cookie name that may no longer be valid.
+   - Refresh the login page to ensure that any changes to cookies are reflected. This helps prevent logging in with an old cookie name that may no longer be valid. Use the following quick keys based on your browser:
+     - **Google Chrome / Firefox / Edge:** `F5` or `Ctrl + R`
+     - **Safari (macOS):** `Command + R`
+     - **Internet Explorer:** `F5` or `Ctrl + F5` (to refresh and bypass cache)
 
 5. **Test Login Again:**
    - After resolving any SSL or cookie issues, attempt to log in to the website again.
