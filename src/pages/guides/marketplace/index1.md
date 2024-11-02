@@ -1,4 +1,6 @@
-# Oqtane Marketplace Overview
+# Oqtane Marketplace
+
+## Introduction
 
 The Oqtane Marketplace is a central hub where users and developers can discover,
 share, and distribute themes, modules, and translations for the Oqtane framework.
