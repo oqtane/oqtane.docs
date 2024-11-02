@@ -16,15 +16,15 @@ The Oqtane Troubleshooting Guide aims to assist users in resolving common proble
 
 Read about:
 
-1. [Troubleshooting Login Issues](troubleshooting-login-issues.md)
-2. [Troubleshooting User Registration Email Verification](troubleshooting-user-registration-email-verification.md)
-3. [Installation Troubleshooting](troubleshooting-installation.md)  
+- [Troubleshooting Login Issues](troubleshooting-login-issues.md)
+-  [Troubleshooting User Registration Email Verification](troubleshooting-user-registration-email-verification.md)
+- [Installation Troubleshooting](troubleshooting-installation.md)  
    Instructions for resolving installation problems and verifying system requirements.
-4. [Marketplace Troubleshooting](troubleshooting-marketplace.md)  
+- [Marketplace Troubleshooting](troubleshooting-marketplace.md)  
   Solutions for common challenges encountered in the Oqtane Marketplace.
-5. [Modules Troubleshooting](troubleshooting-modules.md)  
+- [Modules Troubleshooting](troubleshooting-modules.md)  
    Guidance on resolving issues with module installation, compatibility, and functionality.
-6. [Themes Troubleshooting](troubleshooting-themes.md)  
+- [Themes Troubleshooting](troubleshooting-themes.md)  
    Tips for addressing layout, styling, and rendering issues in Oqtane themes.
 
 ## Tasks to Complete
