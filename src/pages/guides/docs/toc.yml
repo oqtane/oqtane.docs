@@ -1,5 +1,8 @@
 
 - name: Introduction
+  href: index.md
+
+- name: Get Started
   href: build.md
   items:
   - name: Run Docs on Local IIS
