@@ -18,6 +18,14 @@ Read about:
 
 1. [Troubleshooting Login Issues](troubleshooting-login-issues.md)
 2. [Troubleshooting User Registration Email Verification](troubleshooting-user-registration-email-verification.md)
+3. [Installation Troubleshooting](troubleshooting-installation.md)  
+   Instructions for resolving installation problems and verifying system requirements.
+4. [Marketplace Troubleshooting](troubleshooting-marketplace.md)  
+  Solutions for common challenges encountered in the Oqtane Marketplace.
+5. [Modules Troubleshooting](troubleshooting-modules.md)  
+   Guidance on resolving issues with module installation, compatibility, and functionality.
+6. [Themes Troubleshooting](troubleshooting-themes.md)  
+   Tips for addressing layout, styling, and rendering issues in Oqtane themes.
 
 ## Tasks to Complete
 
@@ -37,19 +45,3 @@ The following topics should be covered to enhance the troubleshooting guide:
 12. Troubleshooting user permissions and role management.
 13. Common database-related problems and recovery steps.
 14. Enabling and configuring logging for troubleshooting.
-
-## See Also
-
-Explore additional troubleshooting guides for specific Oqtane features and administration:
-
-- [Themes Troubleshooting](../../manuals/admin/themes/troubleshooting.md)  
-  Tips for addressing layout, styling, and rendering issues in Oqtane themes.
-
-- [Modules Troubleshooting](../../manuals/admin/modules/troubleshooting.md)  
-  Guidance on resolving issues with module installation, compatibility, and functionality.
-
-- [Marketplace Troubleshooting](../../manuals/admin/marketplace/troubleshooting.md)  
-  Solutions for common challenges encountered in the Oqtane Marketplace.
-
-- [Installation Troubleshooting](../../manuals/admin/installation/troubleshooting.md)  
-  Instructions for resolving installation problems and verifying system requirements.
