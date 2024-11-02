@@ -1,5 +1,6 @@
 # Oqtane Administrative Documentaion
 
+## Introduction
 This administrative documentation outlines the various ways that administrators and user can interact with the oqtane platform in a variety of ways, including but not limited to:
 
 * Basic installation instructions.
