@@ -2,7 +2,7 @@
 
 The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../admin-management/page-management.md), but is limited to changing the page you are currently managing.
 
-![page-management](./assets/control-panel-page-management.png)
+![page management](./assets/control-panel-page-management.png)
 
 ## Add
 
@@ -32,7 +32,7 @@ ___
 - **Head Content**: Optionally enter content to be included in the page head (ie. meta, link, or script tags)
 - **Body Content**: Optionally enter content to be included in the page body (ie. script tags)
 
-![page-management](./assets/page-management-add-settings.png)
+![page management add settings](./assets/page-management-add-settings.png)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 - **Edit**: Grants specified roles permission to edit pages using the [content editor](content-editor.md).
 - **Specific Users**: Custom permissions can be assigned to individual users.
 
-![permissions](./assets/page-management-add-permissions.png)
+![page management permissions](./assets/page-management-add-permissions.png)
 
 ---
 
