@@ -8,7 +8,7 @@ The **Page Management** feature allows you to manipulate the page you are curren
 
 The **Add** feature allows you to create a new page on your website. When you select this option, a page management window will appear, enabling you to specify the following settings:
 
-![page-management](./assets/control-panel-page-management-add-button.png)
+![Page Management Add Button](./assets/control-panel-page-management-add-button.png)
 
 ### Add Page Configration
 ___
