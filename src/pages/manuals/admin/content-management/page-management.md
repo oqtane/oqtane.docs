@@ -1,50 +1,114 @@
 # Control Panel Page Management
 
-The page management feature allows you to manipulate the page you are currently on, by providing options for adding, editing, deleting, and publishing pages.
-This feature also has many of the same capabilities as the admin dashboard's [Page Management feature](../admin-dashboard/page-management.md), with the only difference being that the control panel's page manager only has the ability to change the page you are currently on. 
+The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../admin-management/page-management.md), but is limited to changing the page you are currently managing.
 
-![page-management](./assets/page-management.png)
+![page-management](./assets/control-panel-page-management.png)
 
-### Add
+## Add
 
-The add feature adds a new page to your website and brings up the page management window, which allows you to specify the settings, appearance, and permissions for the page you are adding. 
-The fields which exist in the page management window are the:
+The **Add** feature allows you to create a new page on your website. When you select this option, a page management window will appear, enabling you to specify the following settings:
 
->#### Settings
->Name: Which specifies the name that will be displayed in the navigation bar.
->Parent: Which will specify the page that this page will be underneath, meaning that the added page will be put to the right of the page specified in the navigation bar at the top.
->Insert: Specify where the name for the page will appear in the navigation bar, by saying where the page should appear among all of the children of the parent that has been selected.
->Navigation: Say whether you want the page to be displayed to users that fit within the permissions, or if you want the page to be hidden to everyone but administrators which can be useful while editing a page.
->URL Path: The url is what is put in the web page's address, for example if the url path is set to page1 then the address might be www.website/page1.com. If no URL path is specified then the URL will by default be set to be the same as the name field above.
->Redirect: Input a URL that is the same as the URL path of another page in the site that user will be sent to, remember that if no URL path is specified for another page then the name will be used. If this feature is implemented then you will not be able stay on the page to use the control panel's page manager, so you will need to use the admin dashboard's [page management feature](../admin-dashboard/page-management.md) to edit or delete page's with this feature.
+![page-management](./assets/control-panel-page-management-add-button.png)
 
-![add-page](./assets/add-page.png)
+### Add Page Configration
+___
+#### Settings
+- **Name**: The name displayed in the navigation bar.
+- **Parent**: The page that this new page will fall under in the navigation structure.
+- **Insert**: Specifies the position of the page among its siblings under the selected parent.
+- **Navigation**: Determines if the page should be visible to users with appropriate permissions or hidden from everyone but administrators.
+- **URL Path**: Sets the URL for the page. If no path is specified, it defaults to the name.
+- **Redirect**: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard’s [page management feature](./admin-management/page-management.md) to manage this page further.
 
->#### Appearance
->Title: The name that is displayed on the web page's tab.
->Theme: The theme that the web page will take on from a selection of styles and colors that can be downloaded by the host user in the [theme manager](../host-administration/theme-management.md).
->Layout: The amount of content panes that will be available. Which are basically how many columns will be available to have content and modules inserted inside of.
->Default Container: Choose the layout of modules for the page, like hw the titles typically displayed above the modules will be.
->Icon: Input a favicon address or other icon address to include an icon beside the name of your page.
->Personalizable: This feature gives a page that is unique to every individual and allows them to add modules and edit the content of the page, so only the individual can see what they put onto the page.
+#### Appearance
+- **Title**: Name displayed on the web browser tab.
+- **Theme**: Select a theme from those available in the [theme manager](../host-administration/theme-management.md).
+- **Layout**: Number of content panes (columns) available on the page.
+- **Default Container**: Layout style for module titles above the content.
+- **Icon**: URL for a favicon or other icon associated with the page.
+- **Personalizable**: Allows users to customize the page uniquely for themselves.
 
-![page-appearance](./assets/page-appearance.png)
+#### Page Content
+- **Head Content**: Optionally enter content to be included in the page head (ie. meta, link, or script tags)
+- **Body Content**: Optionally enter content to be included in the page body (ie. script tags)
 
->#### Permissions
->View: This is what allows different users to see certain pages and any users that are within certain roles, that can be specified in the admin dashboard's [role management feature](../admin-dashboard/role-management.md) will be able to see or not see the page depending on what you have checked the box for the role they fit into.
->Edit: This allows users that fit into the specified roles to be able to edit pages using the [content editor](../site-administration/content-editor.md).
->Specific Users: The permissions tab also has the ability for you to enter a specific username and allow for you to set custom permissions for any specific users that you want.
+![page-management](./assets/page-management-add-settings.png)
 
-![permissions](./assets/permissions.png)
+___
 
-### Edit
+### Permissions
+- **View**: Controls which user roles can see the page, based on settings in the admin dashboard’s [role management feature](../admin-management/role-management.md).
+- **Edit**: Grants specified roles permission to edit pages using the [content editor](content-editor.md).
+- **Specific Users**: Custom permissions can be assigned to individual users.
 
-The edit feature shares all of the same features as the add feature, allowing you to change the settings, appearances, and permissions of any page, with the insert feature being replaced by the move feature. The edit feature also shows you when a page was created and when the page was last edited at the bottom of the page management window.
+![permissions](./assets/page-management-add-permissions.png)
 
-### Delete
+---
 
-The delete feature will delete the page that you are currently on.
+## Edit
 
-### Publish
+The **Edit** feature provides similar functionality to the **Add** feature but modifies the current existing page instead of creating a new one. This section allows you to update the settings, including the appearance, permissions, modules, and theme settings of the current page. The settings configuration has the **Insert** field replaced by a **Move** feature to adjust the page's position in the navigation.
 
-The publish feature makes any page public that you have previously specified to be hidden, if you have marked a page as not navigable when the page was created. It is useful to have this feature to be able to work on a page that is hidden from regular users until it is finished and ready to be officially added to the site.
+Additionally, the edit panel displays the creation date and last edited date for the page at the bottom.
+
+To edit the page:
+
+1. Click on the **Edit** button located in the **control panel**.
+
+![edit page button](./assets/control-panel-page-management-edit-button.png)
+
+2. Modify the settings, permissions, modules, and theme settings.
+
+### Settings
+As described in the **Add** section, you can modify the page's name, parent, navigation visibility, URL path, and redirect options. The only difference is that the **Insert** field is replaced by a **Move** feature for adjusting the page's position in the navigation.
+
+![page-management-edit-settings](./assets/page-management-edit-settings.png)
+
+### Permissions
+Permissions work the same as in the **Add** feature, allowing you to control which users can view or edit the page.
+
+![page-management-edit-permissions](./assets/page-management-edit-permissions.png)
+
+### Modules
+This tab allows you to manage the modules on the page, giving you the ability to modify or reorder existing modules. This provides a more granular control over the content displayed on your page.
+
+- **Edit**: Access the module’s configuration to modify settings, permissions, and layout.
+- **Delete**: Remove the module from the page.
+
+![page-management-edit-modules](./assets/page-management-edit-modules.png)
+
+### Theme Settings
+In the Theme Settings tab, you can adjust the theme and layout of the page. This includes options for the page’s appearance, such as selecting a different theme or changing layout configurations.
+
+- **Setting Scope**: Choose between **Site** or **Page** for theme application scope.
+- **Show Login?**: Toggle login visibility (options: **Not Specified/Yes/No**).
+- **Show Register?**: Toggle registration visibility (options: **Not Specified/Yes/No**).
+- **Display Fixed Footer?**: Toggle a fixed footer (options: **Not Specified/Yes/No**).
+
+![page-management-edit-theme-settings](./assets/page-management-edit-theme-settings.png)
+
+By using the **Edit** feature, you can effectively customize the current page, ensuring that it meets your requirements and reflects any necessary changes.
+
+---
+
+## Delete
+
+The **Delete** feature allows you to permanently remove the page you are currently managing. To delete the page, simply click the **Delete** button.
+
+![Control Panel Delete Button](./assets/control-panel-page-management-delete-button.png)
+
+> **Warning:** This action is irreversible. Ensure that the page is no longer needed before proceeding.
+
+---
+
+## Publish/Unpublish
+
+The **Publish** feature enables you to make a page public if it was previously marked as hidden. This is particularly useful for working on a page that you want to keep inaccessible to regular users until it is fully prepared for release.
+
+To toggle the publish status, click the **Publish** button, which will switch between publishing and unpublishing the page.
+
+![Control Panel Delete Button](./assets/control-panel-page-management-publish-button.png)
+
+---
+
+This detailed overview of the **Page Management** feature provides administrators with the essential tools to manage individual pages effectively. Each button feature is clearly defined to enhance user understanding and facilitate efficient page management.
