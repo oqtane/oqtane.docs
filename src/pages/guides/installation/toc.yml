@@ -37,4 +37,8 @@
 - name: Installation Resources
   href: ./resources.md
 - name: Installation Troubleshooting
+<<<<<<< Updated upstream
   href: ./troubleshooting.md
+=======
+  href: ./troubleshooting.md
+>>>>>>> Stashed changes

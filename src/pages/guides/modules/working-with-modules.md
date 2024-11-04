@@ -1,4 +1,4 @@
-# Working With Modules
+# Working With Modules Overview
 
 In order to access a module's settings, you must be in the content editor. To get into the editor, simply click over the pencil icon top-right corner of the page. This puts you into the edit mode where you will see small white arrows in the top-right corner of every module on the page. These small arrows at the top left corners of each module allow you to move the module on the page, access the module's settings, edit the module, delete the module, and access any specific functionality related to the module. 
 

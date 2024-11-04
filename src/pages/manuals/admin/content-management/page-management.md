@@ -2,13 +2,21 @@
 
 The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../admin-management/page-management.md), but is limited to changing the page you are currently managing.
 
+<<<<<<< Updated upstream
 ![page management](./assets/control-panel-page-management.png)
+=======
+![page-management](./assets/control-panel-page-management.png)
+>>>>>>> Stashed changes
 
 ## Add
 
 The **Add** feature allows you to create a new page on your website. When you select this option, a page management window will appear, enabling you to specify the following settings:
 
+<<<<<<< Updated upstream
 ![Page Management Add Button](./assets/control-panel-page-management-add-button.png)
+=======
+![page-management](./assets/control-panel-page-management-add-button.png)
+>>>>>>> Stashed changes
 
 ### Add Page Configration
 ___
@@ -32,7 +40,11 @@ ___
 - **Head Content**: Optionally enter content to be included in the page head (ie. meta, link, or script tags)
 - **Body Content**: Optionally enter content to be included in the page body (ie. script tags)
 
+<<<<<<< Updated upstream
 ![page management add settings](./assets/page-management-add-settings.png)
+=======
+![Add Page Settings](./assets/page-management-add-settings.png)
+>>>>>>> Stashed changes
 
 ___
 
@@ -41,7 +53,11 @@ ___
 - **Edit**: Grants specified roles permission to edit pages using the [content editor](content-editor.md).
 - **Specific Users**: Custom permissions can be assigned to individual users.
 
+<<<<<<< Updated upstream
 ![page management permissions](./assets/page-management-add-permissions.png)
+=======
+![permissions](./assets/page-management-add-permissions.png)
+>>>>>>> Stashed changes
 
 ---
 

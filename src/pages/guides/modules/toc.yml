@@ -1,7 +1,12 @@
-
 - name: Overview
   href: index.md
 
+<<<<<<< Updated upstream
+- name: Overview
+  href: index.md
+
+=======
+>>>>>>> Stashed changes
 - name: Working with Modules
   items:
     - name: Adding Modules

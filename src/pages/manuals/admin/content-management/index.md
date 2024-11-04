@@ -1,12 +1,15 @@
-# Content Management Introduction
+# Content Management
 
-When managing your Oqtane site as an administrator, you will most likely be doing most of your daily work in the Control Panel. As an administrator, you will be able to use nearly every part of the Control Panel. The control panel is accessible through the gear icon located in the top right-hand corner of the screen and provides the ability to interact with the:
+## Introduction
 
-* [admin dashboard](../admin-dashboard/index.md)
-* [page manager](page-management.md)
-* [module manager](modules.md)
+When managing your Oqtane site as an administrator, most of your daily tasks will likely involve the Control Panel. As an administrator, you have access to nearly every feature of the Control Panel. Access the Control Panel via the gear icon located in the top right-hand corner of the screen. The Control Panel provides tools for:
 
-![control-panel](./assets/control-panel.png)
+* [Control Panel](control-panel.md)
+* [Page Management](page-management.md)
+* [Module Management](module-management.md)
+* [Content Editor](content-editor.md)
+* [HTML/Text Editor](html-text-editor.md)
 
-Those with content management permissions, which are defined by a user account's roles, in Oqtane are often referred to as “content editors.” Content editors can typically view only some of the Control Panel—the parts that are required in order to perform other related tasks, such as adding a module to a page.
-It is worth noting that the Control Panel you'll be using is the one that ships “out of the box” with Oqtane. However, it is one of numerous extension points in Oqtane. Like modules, themes, and other extensions, the Control Panel can be replaced with a custom or third-party alternative.
+In Oqtane, users with content management permissions, defined by their roles, are referred to as “content editors.” Content editors typically access only the necessary sections of the Control Panel to perform tasks like adding or editing a module on a page.
+
+The Control Panel provided with Oqtane is the default, but it can be replaced with a custom or third-party option, like other extensions in Oqtane such as modules, themes, and more.
