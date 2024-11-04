@@ -4584,6 +4584,165 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/guides/installation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/installation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/installation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/installation/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/installation/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/marketplace/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/marketplace/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/marketplace/monetization.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/marketplace/monetization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/marketplace/submitting-contributions.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/marketplace/submitting-contributions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/marketplace/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/marketplace/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/marketplace/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/marketplace/using-oqtane-marketplace.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/marketplace/using-oqtane-marketplace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/creating-a-module.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/creating-a-module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/customizing-module-appearance.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/customizing-module-appearance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/module-deployment.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/module-deployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/module-development.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/module-development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/module-installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/module-installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/modules/modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/modules/modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/modules/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/modules/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/modules/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/guides/render/index.md",
       "output": {
         ".html": {
@@ -4628,6 +4787,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/guides/themes/assets/oqtane-theme-solution.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/assets/placeholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/assets/placeholder.html"
         }
       },
       "version": ""
@@ -4724,6 +4893,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/index-old.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/index-old.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/guides/themes/index.md",
       "output": {
         ".html": {
@@ -4773,6 +4952,46 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/theme-configuration.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/theme-configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/theme-development.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/theme-development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/theme-installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/theme-installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/themes/theme-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/themes/theme-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "pages/guides/themes/toc.yml",
       "output": {
@@ -4799,540 +5018,2823 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/add-page.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/add-page.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/add-profile.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/add-profile.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/admin-dash.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/admin-dash.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/edit-profile.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/edit-profile.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/file-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/file-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/page-appearance.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/page-appearance.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/page-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/page-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/permissions.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/permissions.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/profile-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/profile-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/pwa-settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/pwa-settings.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/recycle-bin.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/recycle-bin.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-1.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/site-settings-2.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/smtp-settings.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/smtp-settings.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/user-identity.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/user-identity.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/user-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/user-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/assets/user-profile.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/assets/user-profile.png"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/file-management.md",
+      "source_relative_path": "pages/guides/troubleshooting/index.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/file-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/page-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/page-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/profile-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/profile-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/recycle-bin.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/recycle-bin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/role-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/role-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/site-settings.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/site-settings.html"
+          "relative_path": "guides/troubleshooting/index.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/toc.yml",
+      "source_relative_path": "pages/guides/troubleshooting/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/toc.html"
+          "relative_path": "pages/guides/troubleshooting/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/admin/admin-dashboard/toc.json"
+          "relative_path": "pages/guides/troubleshooting/toc.json"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/admin-dashboard/user-management.md",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-installations.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/admin-dashboard/user-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/control-panel/assets/add-page.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/control-panel/assets/add-page.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/control-panel/assets/control-panel-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/control-panel/assets/control-panel-modules.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/control-panel/assets/control-panel.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/control-panel/assets/control-panel.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/control-panel/assets/page-appearance.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/control-panel/assets/page-appearance.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/control-panel/assets/page-management.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/control-panel/assets/page-management.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/control-panel/assets/permissions.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/control-panel/assets/permissions.png"
+          "relative_path": "guides/troubleshooting/troubleshooting-installations.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/control-panel/index.md",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-login-issues.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/control-panel/index.html"
+          "relative_path": "guides/troubleshooting/troubleshooting-login-issues.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/control-panel/modules.md",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-marketplace.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/control-panel/modules.html"
+          "relative_path": "guides/troubleshooting/troubleshooting-marketplace.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/control-panel/page-management.md",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-modules.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/control-panel/page-management.html"
+          "relative_path": "guides/troubleshooting/troubleshooting-modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-themes.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/troubleshooting/troubleshooting-themes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-user-registration-email-verification.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/troubleshooting/troubleshooting-user-registration-email-verification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/add-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/add-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/add-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/add-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dash.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dash.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-file-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-file-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-language-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-language-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-page-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-page-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-profile-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-profile-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-recycle-bin.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-recycle-bin.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-role-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-role-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-search-settings.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-search-settings.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-search.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-search.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-site-settings.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-site-settings.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-url-mappings.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-url-mappings.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-user-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-user-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-visitor-management.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-dashboard-visitor-management.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-pwa-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-pwa-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/admin-search-settings-administration.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/admin-search-settings-administration.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/control-panel-admin-dashboard-button.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/control-panel-admin-dashboard-button.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/control-panel-button.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/control-panel-button.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/edit-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/edit-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-add-folder-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-add-folder-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-download-files.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-download-files.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-edit-file-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-edit-file-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-edit-file.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-edit-file.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-edit-folder-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-edit-folder-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-select-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-select-folder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-files-buttons.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-files-buttons.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-files.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-files.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-folder-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-folder-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-folder.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-upload-folder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-add-language-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-add-language-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-add-language.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-add-language.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-edit-delete-buttons.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-edit-delete-buttons.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-edit-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-edit-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-list.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-list.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-navigation-menu-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-navigation-menu-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-navigation-select-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-navigation-select-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/language-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/language-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/navigation-search.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/navigation-search.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-appearance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-add-page-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-add-page-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-modules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-page-action-buttons.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-page-action-buttons.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-search-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-search-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-settings-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-settings-appearance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-settings-page-content.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-settings-page-content.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management-theme-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management-theme-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/page-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/profile-management-add-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/profile-management-add-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/profile-management-add.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/profile-management-add.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/profile-management-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/profile-management-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/profile-management-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/profile-management-edit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/profile-management-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/profile-management-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/profile-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/profile-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-modules-restore-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-modules-restore-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-modules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-modules-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-modules-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-modules-confirmation.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-modules-confirmation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-pages-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-pages-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-pages-confirmation.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-remove-all-deleted-pages-confirmation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-restore-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin-pages-restore-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/recycle-bin.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management-add-role-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management-add-role-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management-add.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management-add.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management-users-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management-users-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management-users.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management-users.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/role-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/role-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/search-reindex-button.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/search-reindex-button.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/search-settings-administration.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/search-settings-administration.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-setings-appearance.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-setings-appearance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-functionality.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-functionality.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-page-content.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-page-content.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-pwa-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-pwa-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-smtp-settings-test-smtp-configuration-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-smtp-settings-test-smtp-configuration-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings-smtp-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings-smtp-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/site-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/site-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/smtp-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/smtp-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-add-url.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-add-url.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-broken-urls.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-broken-urls.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-broken-urls.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-broken-urls.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-edit-broken-urls.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-edit-broken-urls.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-edit-mapped-urls.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-edit-mapped-urls.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-mapped-urls.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-mapped-urls.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-mapped-urls.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-mapped-urls.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/url-mappings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/url-mappings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/user-identity.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/user-identity.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/user-management-settings-user-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/user-management-settings-user-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/user-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/user-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/user-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/user-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/visitor-management-details.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/visitor-management-details.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/visitor-management-settings-tab.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/visitor-management-settings-tab.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/visitor-management-visitors-tab.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/visitor-management-visitors-tab.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/visitor-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/visitor-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/file-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/file-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/language-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/language-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/page-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/page-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/profile-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/profile-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/recycle-bin.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/recycle-bin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/role-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/role-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/search-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/search-settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/site-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/site-settings.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "pages/manuals/admin/control-panel/toc.yml",
+      "source_relative_path": "pages/manuals/admin/admin-management/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/admin/control-panel/toc.html"
+          "relative_path": "pages/manuals/admin/admin-management/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/admin/control-panel/toc.json"
+          "relative_path": "pages/manuals/admin/admin-management/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/url-mappings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/url-mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/user-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/user-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/admin-management/visitor-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/admin-management/visitor-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/content-management/adding-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/content-management/adding-modules.html"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/edit-jobs.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-arrow.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/edit-jobs.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-arrow.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/event-function.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-html-editor-edit-content-button.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/event-function.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-html-editor-edit-content-button.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/event-level.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-button-options.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/event-level.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-button-options.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/module-management.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-delete-module.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/module-management.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-delete-module.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/site-management.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-import-export-content.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/site-management.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-import-export-content.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/sql-management.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-manage-settings.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/sql-management.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-manage-settings.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-administration/assets/theme-management.png",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-move-to-pane.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-administration/assets/theme-management.png"
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-move-to-pane.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-move.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-move.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-unpublish-module.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-module-options-unpublish-module.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-modules-options-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-modules-options-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-pane-border.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-pane-border.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-pane-name.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-pane-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-pane.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-mode-pane.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/control-panel-add-module-to-page-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/control-panel-add-module-to-page-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/control-panel-button.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/control-panel-button.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/control-panel-logout-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/control-panel-logout-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/control-panel-module-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/control-panel-module-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/control-panel-page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/control-panel-page-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/control-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/control-panel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/html-text-editor-raw-html.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/html-text-editor-raw-html.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/html-text-editor-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/html-text-editor-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/html-text-editor-versions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/html-text-editor-versions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/html-text-editor.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/html-text-editor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/navigation-menu-content-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/navigation-menu-content-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/navigation-menu-content-edit-mode-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/navigation-menu-content-edit-mode-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-add-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-add-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-modules.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-modules.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-theme-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-edit-theme-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/page-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/page-management.png"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/event-log.md",
+      "source_relative_path": "pages/manuals/admin/content-management/content-editor.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/host-administration/event-log.html"
+          "relative_path": "manuals/admin/content-management/content-editor.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/index.md",
+      "source_relative_path": "pages/manuals/admin/content-management/control-panel.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/host-administration/index.html"
+          "relative_path": "manuals/admin/content-management/control-panel.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/module-management.md",
+      "source_relative_path": "pages/manuals/admin/content-management/index.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/host-administration/module-management.html"
+          "relative_path": "manuals/admin/content-management/index.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/scheduled-jobs.md",
+      "source_relative_path": "pages/manuals/admin/content-management/module-configuration.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/host-administration/scheduled-jobs.html"
+          "relative_path": "manuals/admin/content-management/module-configuration.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/site-management.md",
+      "source_relative_path": "pages/manuals/admin/content-management/module-management.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/host-administration/site-management.html"
+          "relative_path": "manuals/admin/content-management/module-management.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/sql-management.md",
+      "source_relative_path": "pages/manuals/admin/content-management/page-management.md",
       "output": {
         ".html": {
-          "relative_path": "manuals/admin/host-administration/sql-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/system-info.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/host-administration/system-info.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/system-update.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/host-administration/system-update.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/host-administration/theme-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/host-administration/theme-management.html"
+          "relative_path": "manuals/admin/content-management/page-management.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "pages/manuals/admin/host-administration/toc.yml",
+      "source_relative_path": "pages/manuals/admin/content-management/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/admin/host-administration/toc.html"
+          "relative_path": "pages/manuals/admin/content-management/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/admin/host-administration/toc.json"
+          "relative_path": "pages/manuals/admin/content-management/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/content-management/working-with-modules.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/content-management/working-with-modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/control-panel-admin-dasboard-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/control-panel-admin-dasboard-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/control-panel-icon-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/control-panel-icon-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-details-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-details-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-details.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-details.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-options.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-settings-clear-events-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-settings-clear-events-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-settings-clear-events-confirmation.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-settings-clear-events-confirmation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-settings-clear-events.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-settings-clear-events.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/event-log.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/event-log.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-event-log.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-event-log.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-language-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-language-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-module-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-module-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-scheduled-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-scheduled-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-site-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-site-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-site-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-site-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-sql-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-sql-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-system-info.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-system-info.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-system-update.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-system-update.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-theme-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-theme-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-user-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard-user-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/host-admin-dashboard.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/language-management-upload-buttons.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/language-management-upload-buttons.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/language-management-upload.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/language-management-upload.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-definition.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-definition.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-pages-browse-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-pages-browse-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-permissions-add-user.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-permissions-add-user.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-translations.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-edit-translations.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-install-marketplace-open-source-commercial-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-install-marketplace-open-source-commercial-options.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-install-marketplace.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-install-marketplace.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-install-module-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-install-module-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-install-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-install-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-install-sort-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-install-sort-options.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-install-upload.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-install-upload.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-module-category.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-module-category.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/oqtane-login.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/oqtane-login.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-refresh-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-refresh-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-restart.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-restart.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-view-all-logs-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-view-all-logs-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-view-all-logs.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs-view-all-logs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/scheduled-jobs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management-add-site-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management-add-site-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management-add-site.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management-add-site.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management-browse-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management-browse-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management-edit-site-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management-edit-site-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-database.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-database.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-interactivity.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-interactivity.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-render-mode.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-render-mode.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/sql-management-add-connection-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/sql-management-add-connection-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/sql-management-add-connection.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/sql-management-add-connection.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/sql-management-default-connection.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/sql-management-default-connection.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/sql-management-execute-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/sql-management-execute-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/sql-management-select-connection.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/sql-management-select-connection.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/sql-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/sql-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info-log-clear-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info-log-clear-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info-log-clear-confirmation-message.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info-log-clear-confirmation-message.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info-log.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info-log.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info-options-access-swagger-api-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info-options-access-swagger-api-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info-options.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info-restart-application-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info-restart-application-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-info.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-info.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-update-development-environment.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-update-development-environment.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-update-system-up-to-date-notification.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-update-system-up-to-date-notification.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-update-upload-file-buttons.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-update-upload-file-buttons.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-update-upload-upgrade-buttton.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-update-upload-upgrade-buttton.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/system-update-upload.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/system-update-upload.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-message.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-message.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-create-theme-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-create-theme-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-owner-name.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-owner-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-theme-name.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-theme-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-edit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-install-theme-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-install-theme-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-add-user-identity.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-add-user-identity.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-add-user-profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-add-user-profile.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-assign-administrators-role.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-assign-administrators-role.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-assign-host-users-role.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-assign-host-users-role.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-edit-users.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-edit-users.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users-template-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users-template-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users-template-text-file.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users-template-text-file.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-import-users.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-external-lockout-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-external-lockout-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-lockout-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-lockout-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-password-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-password-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-token-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-token-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-user-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-settings-user-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/user-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/user-management.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/event-log.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/event-log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/module-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/module-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/scheduled-jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/scheduled-jobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/site-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/site-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/sql-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/sql-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/system-info.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/system-info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/system-update.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/system-update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/theme-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/theme-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/manuals/admin/host-management/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/manuals/admin/host-management/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/manuals/admin/host-management/toc.json"
         }
       },
       "version": ""
@@ -5716,16 +8218,6 @@
         },
         ".json": {
           "relative_path": "pages/manuals/admin/installation/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/installation/troubleshooting.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/installation/troubleshooting.html"
         }
       },
       "version": ""
@@ -6151,36 +8643,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/marketplace/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/marketplace/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/marketplace/monetization.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/marketplace/monetization.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/marketplace/submitting-contributions.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/marketplace/submitting-contributions.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "pages/manuals/admin/marketplace/toc.yml",
       "output": {
@@ -6189,355 +8651,6 @@
         },
         ".json": {
           "relative_path": "pages/manuals/admin/marketplace/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/marketplace/troubleshooting.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/marketplace/troubleshooting.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/marketplace/using-oqtane-marketplace.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/marketplace/using-oqtane-marketplace.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/adding-modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/adding-modules.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/modules/assets/adding-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/modules/assets/adding-modules.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/modules/assets/content-pane.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/modules/assets/content-pane.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/modules/assets/installing-modules-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/modules/assets/installing-modules-2.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/modules/assets/installing-modules.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/modules/assets/installing-modules.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/modules/assets/moving-menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/modules/assets/moving-menu.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/modules/assets/pencil.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/modules/assets/pencil.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/creating-a-module.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/creating-a-module.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/customizing-module-appearance.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/customizing-module-appearance.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/module-configuration.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/module-configuration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/module-deployment.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/module-deployment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/module-development.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/module-development.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/module-installation.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/module-installation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "pages/manuals/admin/modules/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/manuals/admin/modules/toc.html"
-        },
-        ".json": {
-          "relative_path": "pages/manuals/admin/modules/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/troubleshooting.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/troubleshooting.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/modules/working-with-modules.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/modules/working-with-modules.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/site-administration/assets/admin-dash.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/site-administration/assets/admin-dash.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/site-administration/assets/content-arrow.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/site-administration/assets/content-arrow.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/site-administration/assets/control-panel.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/site-administration/assets/control-panel.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/site-administration/assets/pencil-edit.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/site-administration/assets/pencil-edit.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/site-administration/content-editor.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/site-administration/content-editor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/site-administration/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/site-administration/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "pages/manuals/admin/site-administration/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/manuals/admin/site-administration/toc.html"
-        },
-        ".json": {
-          "relative_path": "pages/manuals/admin/site-administration/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/assets/placeholder.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/assets/placeholder.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/theme-configuration.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/theme-configuration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/theme-development.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/theme-development.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/theme-installation.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/theme-installation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/theme-management.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/theme-management.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "pages/manuals/admin/themes/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "pages/manuals/admin/themes/toc.html"
-        },
-        ".json": {
-          "relative_path": "pages/manuals/admin/themes/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/manuals/admin/themes/troubleshooting.md",
-      "output": {
-        ".html": {
-          "relative_path": "manuals/admin/themes/troubleshooting.html"
         }
       },
       "version": ""

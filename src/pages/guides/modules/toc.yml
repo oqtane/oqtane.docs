@@ -1,1 +1,29 @@
 
+- name: Overview
+  href: index.md
+
+- name: Working with Modules
+  items:
+    - name: Adding Modules
+      href: adding-modules.md
+    - name: Working With Modules
+      href: working-with-modules.md
+    - name: Installing Modules
+      href: module-installation.md
+    - name: Configuring Modules
+      href: module-configuration.md
+    - name: Customizing Module Appearance
+      href: customizing-module-appearance.md
+    - name: Troubleshooting Modules
+      href: troubleshooting-modules.md
+
+- name: Developing Modules
+  items:
+    - name: Creating Modules
+      href: creating-a-module.md
+    - name: Developing Modules
+      href: module-development.md
+    - name: Module Deployment
+      href: module-deployment.md
+    - name: Troubleshooting Module Development
+      href: troubleshooting-module-development.md

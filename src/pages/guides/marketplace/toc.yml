@@ -1,1 +1,15 @@
 
+- name: Using the Oqtane Marketplace
+  href: using-oqtane-marketplace.md
+  
+- name: Installing Modules 
+  # href: installing-modules.md 
+
+- name: Submitting Themes and Modules
+  # href: submitting-themes-modules.md
+  
+- name: Monetization
+  href: ./monetization.md
+  
+- name: Troubleshooting
+  href: troubleshooting.md
