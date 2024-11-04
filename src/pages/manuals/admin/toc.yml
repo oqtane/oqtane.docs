@@ -1,45 +1,22 @@
-- name: Manuals Home
+
+- name: Introduction
   href: index.md
 
 - name: Installation
   href: installation/toc.yml
   topicHref: installation/index.md
 
-- name: Content Administration WIP
-  # href: content-administration/toc.yml
-  # topicHref: content-administration/index.md
+- name: Content Management
+  href: content-administration/toc.yml
+  topicHref: content-management/index.md
 
-- name: Site Administration
-  href: site-administration/toc.yml
-  topicHref: site-administration/index.md
+- name: Admin Management
+  href: admin-management/toc.yml
+  topicHref: admin-management/index.md
 
-- name: Host Administration
-  href: host-administration/toc.yml
-  topicHref: host-administration/index.md
-
-- name: Admin Dashboard
-  href: admin-dashboard/toc.yml
-  topicHref: admin-dashboard/index.md
-
-- name: Control Panel
-  href: control-panel/toc.yml
-  topicHref: control-panel/index.md
-
-- name: Modules
-  href: modules/toc.yml
-  topicHref: modules/index.md
-
-- name: Themes
-  href: themes/toc.yml
-  topicHref: themes/index.md
-
-- name: Marketplace
-  href: marketplace/toc.yml
-  topicHref: marketplace/index.md
-
-#   # topicUid: Article.Docs.Index
-#   href: documentation/toc.yml
-#   topicHref: documentation/index.md
+- name: Host Management
+  href: host-management/toc.yml
+  topicHref: host-management/index.md
 
 - name: How to Restart Oqtane
   topicUid: Manuals.HowTo.Restart.Index

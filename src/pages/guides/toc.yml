@@ -11,10 +11,30 @@
   topicUid: Guides.Extensions.Index
   # topicHref: dev/index.md
 
+- name: Installation
+  href: installation/toc.yml
+  topicHref: installation/index.md
+  # href: installation/index.md
+
+- name: Modules
+  href: modules/toc.yml
+  topicHref: modules/index.md
+  # href: modules/index.md
+
 - name: Themes
   href: themes/toc.yml
   topicHref: themes/index.md
   # href: themes/index.md
+  
+- name: Marketplace
+  href: marketplace/toc.yml
+  topicHref: marketplace/index.md
+  # href: marketplace/index.md
+
+- name: Troubleshooting
+  href: troubleshooting/toc.yml
+  topicHref: troubleshooting/index.md
+  # href: troubleshooting/index.md
 
 - name: Roadmap & History
   topicUid: Guides.Roadmap.Index
