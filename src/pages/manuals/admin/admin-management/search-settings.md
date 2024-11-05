@@ -1,5 +1,7 @@
 # Search Manual
 
+![Search Settings](assets/search-settings.png)
+
 This document describes the Search module, settings, and configuration for administrators to set up effective search functionality across their Oqtane site.
 
 ## Overview
@@ -50,7 +52,7 @@ This guide provides a step-by-step walkthrough for configuring the search functi
 
 To get started, locate the search feature in the navigation bar of the default theme.
 
-![Search Feature in Navigation](assets/navigation-search.jpg)
+![Search Feature in Navigation](assets/navigation-search.png)
 
 ---
 
@@ -58,7 +60,7 @@ To get started, locate the search feature in the navigation bar of the default t
 
 Next, click the control panel icon to access additional settings.
 
-![Control Panel Icon](assets/control-panel-button.jpg)
+![Control Panel Icon](assets/control-panel-button.png)
 
 ---
 
@@ -66,7 +68,7 @@ Next, click the control panel icon to access additional settings.
 
 In the control panel, select the button to open the admin dashboard, where you can manage various site settings.
 
-![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.jpg)
+![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
 
 ---
 
@@ -74,7 +76,7 @@ In the control panel, select the button to open the admin dashboard, where you c
 
 Finally, in the admin dashboard, click on the search settings icon to configure your search options.
 
-![Admin Dashboard Search Settings](assets/admin-dashboard-search-settings.jpg)
+![Admin Dashboard Search Settings](assets/search-settings.png)
 
 ---
 
@@ -82,7 +84,7 @@ Finally, in the admin dashboard, click on the search settings icon to configure 
 
 Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
 
-![Admininstration Search Settings](assets/search-settings-administration.jpg)
+![Admininstration Search Settings](assets/search-settings-configuration.png)
 
 ## Using the Reindex Button
 
@@ -92,7 +94,7 @@ After configuring your search settings, you may need to reindex your content to 
 
 The **Reindex** button initiates the process of scanning your site's content and updating the search index accordingly. This is essential after making changes to your site's content, structure, or search settings.
 
-![Search Reindex Button](assets/search-reindex-button.jpg)
+![Search Reindex Button](assets/search-settings-reindex-button.png)
 
 ### How to Use the Reindex Button
 
