@@ -16,15 +16,15 @@ The **Visitor Management** feature provides tools for monitoring and managing vi
 
 1. Click the control panel icon to access additional settings.
 
-   ![Control Panel Icon](assets/control-panel-button.jpg)
+   ![Control Panel Icon](assets/control-panel-button.png)
 
 2. In the control panel, select the button to open the admin dashboard.
 
-   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.jpg)
+   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
 
 3. In the admin dashboard, click on the **Visitor Management** icon to configure visitor tracking.
 
-   ![Admin Dashboard Visitor Management](assets/admin-dashboard-visitor-management.jpg)
+   ![Admin Dashboard Visitor Management](assets/admin-dashboard-visitor-management.png)
 
 ---
 

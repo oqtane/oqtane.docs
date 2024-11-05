@@ -52,7 +52,7 @@ This guide provides a step-by-step walkthrough for configuring the search functi
 
 To get started, locate the search feature in the navigation bar of the default theme.
 
-![Search Feature in Navigation](assets/navigation-search.png)
+![Search Feature in Navigation](assets/search-navigation-menu.png)
 
 ---
 
@@ -76,7 +76,7 @@ In the control panel, select the button to open the admin dashboard, where you c
 
 Finally, in the admin dashboard, click on the search settings icon to configure your search options.
 
-![Admin Dashboard Search Settings](assets/search-settings.png)
+![Admin Dashboard Search Settings](assets/admin-dashboard-search-settings.png)
 
 ---
 
@@ -84,7 +84,7 @@ Finally, in the admin dashboard, click on the search settings icon to configure 
 
 Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
 
-![Admininstration Search Settings](assets/search-settings-configuration.png)
+![Admininstration Search Settings](assets/search-settings.png)
 
 ## Using the Reindex Button
 
