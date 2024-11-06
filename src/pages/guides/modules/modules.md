@@ -21,7 +21,7 @@ This is an example of a content pane.
 - [Working With Modules](working-with-modules.md): Explore various tasks and operations related to managing installed modules on your site.
 - [Installing Modules](module-installation.md): Step-by-step instructions for installing modules on your Oqtane site.
 - [Configurating Modules](module-configuration.md): Customize and configure module settings to suit your specific requirements.
-- [Troubleshooting Modules](../../guides/troubleshooting/troubleshooting-working-with-modules.md): Troubleshooting tips and solutions for common issues encountered with modules.
+- [Troubleshooting Modules](../../guides/troubleshooting/troubleshooting-modules.md): Troubleshooting tips and solutions for common issues encountered with modules.
 - [Developing Modules](module-development.md): Resources and guidelines for developing custom modules for Oqtane.
 
 Feel free to explore each topic to find the information you need to effectively work with modules in your Oqtane applications.
