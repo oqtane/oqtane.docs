@@ -1,33 +1,101 @@
 # Site Settings
 
-![smtp-settings](./assets/site-settings.png)
+![site-settings](./assets/site-settings.png)
 
-The Site Settings feature contains a large number of settings that you can use to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages. The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.
 
-### Basic Settings
-Basic Settings mostly contains set-it-and-forget it options that should be managed once when you build your site.
-* Name: What you want to call the website.
-* Tenant: The name of the database you wan the site to use.
-* Aliases: The name that will appear for the sites URL.
-* Logo: The logo that will appear in the navigation bar.
-* Favicon: Enter a favicon address or another icon address to have a default icon to appear beside each page in the navigation bar.
-* Default Theme: Choose a default theme tht will give a different color scheme and structure.
-* Default Layout: Choose how many columns a page has by default.
-* Default Container: Choose if you want titles to appear about each module by default.
-* Allow User Registration: Should users be able to create their own accounts or should only administrators be able to create accounts.
-* Is Deleted: Select whether you want to delete this site.
+## Overview
 
-### SMTP Server (Secure Mail Transfer Protocol)
-The Oqtane instance sends outbound email for a variety of reasons, from the host or site admin or in the form of password reminders, event notifications, newsletters, or other business-specific use cases. A valid SMTP server is required for this to work; you should consult your network administrator for the appropriate credentials to use in a production configuration. Most non-Exchange Server SMTP hosts will require “Basic” authentication and a valid username/password combination. Some will also require that SSL be enabled.
-* Host: Enter the host name for the server.
-* Port: Enter the port number that the server is on.
-* SSL Enabled: Specify yes or no if the SMTP server has an SSL certificate.
-* Username: Enter the username for the SMTP server you are accessing.
-* Password: Enter the password for the SMTP server you are accessing.
+The Site Settings feature allows you to perform high-level administrative configurations for your site. This includes basic settings, SMTP configuration, and progressive web app (PWA) settings. Most options are set-it-and-forget-it and should be configured once when building your site.
+
+## Control Panel Walk-through
+
+### Accessing the Site Settings Feature
+
+1. Click the control panel icon to access additional settings.
+
+   ![Control Panel Icon](assets/control-panel-button.png)
+
+2. In the control panel, select the button to open the admin dashboard.
+
+   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
+
+3. In the admin dashboard, click on the **Site Settings** icon to configure visitor tracking.
+
+   ![Admin Dashboard Search Settings](assets/admin-dashboard-site-settings.png)
+
+---
+
+## Site Settings
+
+The **Site Settings** management feature includes foundational settings for your site.
+
+- **Name**: Enter the site name.
+- **Home Page**: Select the home page for the site (to be used if there is no page with a path of '/').
+- **Deleted?**: Indicates whether the site is deleted.
+- **Site Map**: The site map URL for this site, which can be submitted to search engines for indexing.
+- **ID**: The unique identifier for the site.
+- **Version**: Site version for content migrations.
+
+### Appearance
+
+The Appearance section includes options related to the visual representation of your site.
+
+- **Logo**: Specify a site logo using the file manager for easy selection, upload, and deletion.
+- **Favicon**: Specify a favicon with the same file manager options as the logo.
+- **Default Theme**: Select the site’s default theme.
+- **Default Container**: Choose the default container for the site.
+- **Default Admin Container**: Select the default admin container for the site.
+
+![appearance-settings](./assets/site-settings-appearance.png)
+
+### Functionality
+
+The Functionality section allows you to configure essential site functionalities.
+
+- **Text Editor**: Select the text editor for the site (default is the QuillJS editor). For more information, see the [HTML Text Editor Documentation](../content-management/html-text-editor.md).
+- **Image Extensions**: Enter a comma-separated list of allowed image extensions.
+- **Uploadable File Extensions**: Enter a comma-separated list of allowed uploadable file extensions.
+
+![functionality-settings](./assets/site-settings-functionality.png)
+
+### Page Content
+
+The Page Content section lets you define additional content that can be included in your pages.
+
+- **Head Content**: Optionally enter content to be included in the page head (e.g., meta, link, or script tags).
+- **Body Content**: Optionally enter content to be included in the page body (e.g., script tags).
+
+![page-content-settings](./assets/site-settings-page-content.png)
+
+### SMTP Settings
+
+**Please Note That SMTP Requires The Notification Job To Be Enabled In Scheduled Jobs**
+
+- **Host**: Enter the hostname of the SMTP server.
+- **Port**: Enter the port number for the SMTP server. This field is required if you provide a host name.
+- **SSL Enabled**: Specify yes or no.
+- **Username**: Enter the SMTP server username.
+- **Password**: Enter the SMTP server password.
+- **Email Sender**: Enter the email address from which emails will be sent. This email address may need to be authorized with the SMTP server.
+- **Relay Configured?**: Only specify this option if you have properly configured an SMTP Relay Service to route your outgoing mail. This will send notifications from the user's email rather than from the Email Sender specified above.
+- **Enabled?**: Specify yes or no to enable SMTP.
+- **Retention (Days)**: Enter the number of days to retain notifications.
+- **Test SMTP Configuration**: Button to test the SMTP configuration.
+
 ![smtp-settings](./assets/site-settings-smtp-settings.png)
 
-### Progressive Web Application Settings
-* Is Enabled: Choose whether or not you want the site to be set up as a progressive web application.
-* App Icon: Select a PNG image that is 192 X 192 pixels which will be the app icon for your application.
-* Splash Icon: Select a PNG image that is 512 X 512 pixels which will appear on the screen while the application is loading.
+![smtp-settings](./assets/site-settings-smtp-settings-test-smtp-configuration-button.png)
+
+### PWA Settings
+
+The PWA Settings section allows you to configure the Progressive Web Application capabilities of your site.
+
+- **Is Enabled?**: Choose whether the site will be available as a Progressive Web Application (PWA).
+- **App Icon**: Upload an application icon for your PWA (PNG, 192 x 192 pixels).
+- **Splash Icon**: Upload a splash icon for your PWA (PNG, 512 x 512 pixels).
+
 ![pwa-settings](./assets/site-settings-pwa-settings.png)
+
+## Conclusion
+
+Configuring the Site Settings correctly is crucial for the proper functioning and appearance of your site. Ensure all options are set according to your site's requirements, especially the SMTP settings for email functionality and PWA settings if you wish to enable a progressive web application experience. For further assistance, refer to other sections of the Oqtane documentation.
