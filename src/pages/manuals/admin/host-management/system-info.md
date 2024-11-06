@@ -1,20 +1,18 @@
-# System Info
+# System Update
 
-![System Info](./assets/system-info.png)
+![System Update](./assets/system-update.png)
 
 ## Overview
 
-The **System Info** feature provides a comprehensive overview of critical system details for Oqtane, including the framework version, Blazor runtime, server path, CLR (Common Language Runtime) version, operating system version, and the current server time. This feature is essential for administrators to quickly access and verify system configurations and statuses.
+The **System Update** feature in Oqtane allows administrators to keep the framework up to date, ensuring access to the latest capabilities and features. It also enables you to upload a NuGet package to include specific features or updates that are part of newer versions of Oqtane. This is particularly useful when you are unable to update to the latest Oqtane version but want to incorporate certain features or fixes from that newer release.
 
-In addition to basic system information, the **System Info** page offers access to the Oqtane API. This includes a Swagger interface that allows you to test various Oqtane methods and interact with the system programmatically.
-
-If significant changes are made to the system—such as installing or deleting themes and modules—the **System Info** page provides the option to restart the Oqtane framework to apply those changes.
+When updating, you can select a NuGet file from your local system, upload it to the framework, and then install it to integrate the package into your current Oqtane installation. This process is helpful for applying partial updates or integrating features without a full framework update.
 
 ---
 
-## Accessing the System Info Feature
+## Accessing the System Update Feature
 
-To access the **System Info** feature:
+To access the **System Update** feature, follow these steps:
 
 1. **Open the Control Panel**: Click the **Control Panel** icon to access additional settings.
 
@@ -24,81 +22,62 @@ To access the **System Info** feature:
 
    ![Open Admin Dashboard](./assets/control-panel-admin-dashboard-button.png)
 
-3. **Select System Info**: In the Admin Dashboard, click on the **System Info** icon to open the feature and view system details.
+3. **Select System Update**: In the Admin Dashboard, click on the **System Update** icon to access the update feature.
 
-   ![Admin Dashboard System Info](./assets/admin-dashboard-system-info.png)
-
----
-
-## System Info Features
-
-### Info Tab
-
-The **Info Tab** displays detailed system information, including:
-
-- **Oqtane Framework Version**: The current version of the Oqtane framework running on the system.
-- **Blazor Runtime**: The version of Blazor currently in use for the application.
-- **Server Path**: The directory path of the Oqtane server on the host system.
-- **CLR Version**: The version of the .NET runtime (CLR) being used.
-- **OS Version**: The version of the operating system running the application.
-- **Current Time**: The server's current time to help ensure time-based functionality is accurate.
-
-You can restart the Oqtane framework directly from the **Info Tab**:
-
-- To restart the application, click the **Restart Application** button.
-
-   ![System Info Tab Restart Application Button](./assets/system-info-restart-application-button.png)
-
-   > **Note**: A system restart may be necessary after installing or uninstalling themes, modules, or making other significant changes to the system configuration.
+   ![Admin Dashboard System Update](./assets/admin-dashboard-system-update.png)
 
 ---
 
-### Options Tab
+## Downloading An Update
 
-The **Options Tab** provides additional configuration options for the **System Info** feature:
+To download and apply an update, follow these steps:
 
-- **Swagger API Access**: You can interact with Oqtane's API via the Swagger interface, which allows you to explore and test available Oqtane methods and endpoints.
+1. Click the **Download** button to initiate the update download.
 
-   ![System Info Options Tab](./assets/system-info-options.png)
+2. After the download completes successfully, you will see a notification. At this point, click the **Upgrade** button to apply the update.
 
-   ![System Info Options Access Swagger API Button](./assets/system-info-options-access-swagger-api-button.png)
+   > **Note**: Ensure that you are connected to the internet during this process to download the latest update package.
 
-- **Save Settings**: After configuring any options in the **Options Tab**, be sure to click the **Save** button to apply your changes.
+### System Up To Date Notification
 
-   ![Save Button](./assets/system-info-options-save-button.png)
+If the Oqtane framework is already up to date, you will see the following notification:
 
-   > **Tip**: Ensure that any changes made here are properly saved, as failure to save may cause settings to revert to their defaults.
+![System Update Up To Date Notification](./assets/system-update-system-up-to-date-notification.png)
 
----
-
-### Log Tab
-
-The **Log Tab** provides detailed logging information from the application, specifically logs created when the system is not fully operational or experiencing issues. These logs can help troubleshoot and identify problems affecting the application’s performance or availability.
-
-- **Log Display**: The **Log Tab** shows logs from the `content/logs` directory. These logs may indicate issues such as server startup problems, missing dependencies, or unexpected errors that could affect the application's functionality.
-
-   ![System Info Log Tab](./assets/system-info-log.png)
-
-   > **Note**: The error displayed in the image of the system log above can generally be ignored, as it is not critical to the operation of the Oqtane framework.
-
-- **Clear Log**: You can clear the logs by clicking the **Clear** button. This is useful for clearing old logs or resetting the log view for new issues.
-
-   ![System Info Log Tab Clear Button](./assets/system-info-log-clear-button.png)
-
-   Once cleared, a confirmation message will appear to let you know the log was successfully cleared.
-
-   ![System Info Clear Log Confirmation Window](./assets/system-info-log-clear-confirmation-message.png)
+This indicates that no update is required and you are already using the latest version of the framework.
 
 ---
 
-## Troubleshooting
+## Uploading An Update
 
-- **Logs**: If you see unexpected errors or issues in the **Log Tab**, review the log entries for potential clues on the source of the issue. Common errors may involve missing files, incorrect paths, or configuration errors.
-  
-- **Restarting Oqtane**: After making changes to themes, modules, or other significant configuration adjustments, always restart the application using the **Restart Application** button to ensure that the changes take effect.
+In some cases, you may want to upload a NuGet package that includes new features or fixes from a newer version of Oqtane. To upload an update, follow these steps:
+
+1. Click the **Upload** button to browse and select the NuGet package file on your local system.
+
+   ![System Update Upload](./assets/system-update-upload.png)
+
+2. After selecting the file, click the **Upgrade** button to install the uploaded package into your current version of Oqtane.
+
+   ![System Update Upgrade Button](./assets/system-update-upload-upgrade-button.png)
+
+   > **Tip**: This step is useful if you cannot upgrade to the latest version of Oqtane but still need to integrate newer features or updates provided in a NuGet package.
+
+---
+
+## Development Environment Notification
+
+The **System Update** feature is only available in production environments. If you are working in a development environment, you will see a notification message indicating that updates cannot be performed.
+
+This is a safeguard to prevent accidental updates in environments where it may not be appropriate. The message will appear as shown in the image below:
+
+![System Update Development Environment](./assets/system-update-development-environment.png)
+
+> **Note**: If you need to perform updates in a development environment, consider switching to a production environment or testing updates locally before applying them to the live system.
 
 ---
 
 ## Conclusion
 
-The **System Info** feature in Oqtane offers a critical set of tools for managing and troubleshooting the framework. It provides key system information and access to advanced functionality like the Swagger API, as well as the ability to restart the application and clear logs to ensure smooth operation. Always monitor the **Log Tab** for errors and take appropriate actions to maintain the health of your Oqtane installation.
+The **System Update** feature in Oqtane ensures that your system is running the latest framework version, incorporating important features, bug fixes, and updates. You can either download updates directly from the Oqtane servers or upload NuGet packages to install specific updates. Always verify your environment type (production vs development) and follow the steps carefully to maintain system integrity.
+
+If you encounter any issues or have questions about updating, consult the logs or seek assistance from the community or support channels.
