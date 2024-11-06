@@ -24,6 +24,36 @@ By using the SQL console, you can run SQL queries directly from the Oqtane appli
 
 ---
 
+## Adding a Connection
+
+To add a new database connection:
+
+1. Click the **Add Connection** button in the SQL Management interface.
+
+   ![Add Connection Button](./assets/sql-management-add-connection-button.png)
+
+2. The **Add Connection Settings** window will appear, where you can configure the connection settings such as the server name, credentials, and database name.
+
+   ![Add Connection Window](./assets/sql-management-add-connection.png)
+
+---
+
+## Default Connection
+
+Once you've set up your connection, the default connection will be displayed for easy reference.
+
+   ![Default Connection](./assets/sql-management-default-connection.png)
+
+---
+
+## Executing Queries
+
+After setting up the connection, you can begin writing your SQL queries. To execute a query, click the **Execute** button.
+
+   ![Execute Button](./assets/sql-management-execute-button.png)
+
+---
+
 ## Using the SQL Management Console
 
 Once inside the SQL Management page, you can interact with the SQL console to execute queries on the tenant databases.
