@@ -1,2 +1,40 @@
+- name: Overview
+  href: index.md
 
-- name: TODO @CODY
+- name: Development Getting Started
+- name: Visual Studio, IIS Express, SQL Express LocalDb
+  href: ./development.md
+- name: VS Code, IIS Express, SQL Express LocalDb
+  href: ./development-vs-code.md
+- name: VS Code (Linux), Apache, MySQL
+  href: ./development-vs-code-linux.md
+
+- name: Azure Deployment
+- name: Deploy To Azure
+  href: ./deploy-to-azure.md
+
+- name: Windows Deployment
+- name: Windows, IIS, LocalDb
+  href: ./windows-iis-localdb.md
+- name: Windows, IIS Express, SQL Express
+  href: ./windows-iis-express-sql-express.md
+- name: Windows, IIS, SQL
+  href: ./windows-iis-sql.md
+
+- name: Linux Deployment
+- name: Linux (Ubuntu), Apache, MySQL
+  href: ./linux-ubuntu-apache-mysql.md
+- name: Linux (Ubuntu), Apache, PostgreSQL
+  href: ./linux-ubuntu-apache-postgresql.md
+
+- name: Additional Information
+- name: Upgrading Oqtane
+  href: ./upgrade.md
+- name: Oqtane.Maui App Setup
+  href: ./maui-setup.md
+- name: Supported Databases
+  href: ./databases.md
+- name: Installation Resources
+  href: ./resources.md
+- name: Installation Troubleshooting
+  href: ./troubleshooting.md

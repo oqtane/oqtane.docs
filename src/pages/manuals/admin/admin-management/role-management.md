@@ -1,5 +1,7 @@
 # Role Management
 
+![Role Management](./assets/role-management.png)
+
 Security Roles in Oqtane are nothing more than a grouping of one or more users for a purpose. That purpose is up to you. The purpose could be to see exclusive content in a specific area of the site or on specific pages in the site. It could also be to have the ability to edit content on one or more pages or to create content in a specific module, like a blog. We could go on and on. Just remember that Security Roles can be used for content targeting, editing, and hiding sections of your site.
 Security Roles work the same as most permissions-based systems, such as Windows. You first create a Security Role if it doesn't already exist to create a grouping of users. Then, you add one or more people to that group. Once you do that minimal setup, you can apply that group to various capabilities, permissions, and features.
 Permissions are set when creating or editing pages and modules by selecting which roles can edit or view them.

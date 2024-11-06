@@ -1,14 +1,43 @@
 # Control Panel
 
-Site administration in Oqtane is the processes, tasks, and features that it takes to effectively run a website in Oqtane.
-This includes things like managing users, security, site settings, configurations, and content using the features available to them, in both the [control panel](../control-panel/index.md) and the [admin dashboard](../admin-dashboard/index.md).
+Site administration in Oqtane involves using features like managing users, security, settings, configurations, and content to effectively run a website. The Control Panel is a primary tool for handling these tasks, providing options to manage pages, modules, and access site settings.
 
-![control-panel](./assets/control-panel.png)
+Users with the **Administrators** role can access the Control Panel by logging in with an account that has the appropriate permissions for site administration. This guide provides instructions on accessing the Control Panel, adding and managing pages and modules, and includes logout instructions.
 
-Site administration can take on many forms, but there are two use cases that you should be familiar with. First, there's site administration as defined by Oqtane.You enable this by adding the Administrators security role as one of the assigned roles for the account. That way, all “admin” features will be available for that user across that specific site.
+![Control Panel](./assets/control-panel.png)
 
-Site administration can take on a hybrid of another sort as well, where you as the site administrator can define a different kind of administration for your site. This would be a kind of administration where you define a subset of administration capabilities and assign them to more privileged users to avoid having to make them an actual administrator.
+---
 
-As an example, there may be times when you want to create a security role in the [role manager](/admin/admin-dashboard/role-management.md) that might be named something like Site Admin. You would then create a page or pages on the site that contain some of the Admin modules, assigning permission to the newly created Site Admin security role so that only participants of that security role can see them. In these areas, you can also add references or links to features that normally require Administrator permissions, provided you set up your permissions properly in those other areas and that the chosen feature(s) allows this.
+## Accessing the Control Panel
 
-In summary, you can perform all of the configuration and content management tasks that you need to in order to run your own site.
+To open the Control Panel:
+1. **Log in to Oqtane**: Ensure that you're logged in with a user account assigned to the Administrators role.
+2. **Click the Control Panel Icon**: Once logged in, you’ll see the Control Panel icon.
+![Control Panel Icon](./assets/control-panel-icon-button.png) 
+Click this icon to open the Control Panel menu. This will expand the menu and provide access to various management features within the Control Panel.
+
+---
+
+## Control Panel Options
+
+Once the Control Panel is open, several administrative options become available:
+
+1. **Page Management**: 
+   - Allows users to add, edit, delete, and publish pages.
+   - For more detailed information, visit this section's [Control Panel Page Management Documentation](./page-management.md).
+   - ![Page Management](./assets/control-panel-page-management.png)
+
+2. **Module Management**: 
+   - Provides tools for adding, editing, and deleting modules on a page.
+   - For more detailed information, visit this section's [Control Panel Module Management Documentation](./module-management.md).
+   - ![Module Management](./assets/control-panel-module-management.png)
+
+3. **Logout**: 
+   - An option to securely log out of Oqtane. 
+   - ![Logout Button](./assets/control-panel-logout-button.png)
+
+---
+
+### Summary
+
+The Control Panel is an essential component for site administration in Oqtane, enabling users to effectively manage their website's structure and content. By utilizing the Page Management and Module Management features, administrators can ensure their site operates smoothly and meets user needs.

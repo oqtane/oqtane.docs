@@ -1,13 +1,27 @@
+- name: Using the Oqtane Marketplace
+  href: using-oqtane-marketplace.md
+  
+- name: Installing Modules 
+  # href: installing-modules.md 
 
-# TODO
-- name: TODO @CODY
-  topicHref: index.md
+<<<<<<< Updated upstream
+- name: Using the Oqtane Marketplace
+  href: using-oqtane-marketplace.md
+  
+- name: Installing Modules 
+  # href: installing-modules.md 
 
+=======
+>>>>>>> Stashed changes
+- name: Submitting Themes and Modules
+  # href: submitting-themes-modules.md
+  
 - name: Monetization
-  topicHref: monetization.md
-
-- name: Submitting a Module
-  topicHref: submitting-contribution.md
-
-- name: Using TODO
-  topicHref: using-oqtane-marketplace.md
+  href: ./monetization.md
+  
+- name: Troubleshooting
+<<<<<<< Updated upstream
+  href: troubleshooting.md
+=======
+  href: troubleshooting.md
+>>>>>>> Stashed changes

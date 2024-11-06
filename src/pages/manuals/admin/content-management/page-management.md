@@ -2,7 +2,7 @@
 
 The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../admin-management/page-management.md), but is limited to changing the page you are currently managing.
 
-![page management](./assets/control-panel-page-management.png)
+![Control Panel Page Management](./assets/control-panel-page-management.png)
 
 ## Add
 
@@ -32,7 +32,7 @@ ___
 - **Head Content**: Optionally enter content to be included in the page head (ie. meta, link, or script tags)
 - **Body Content**: Optionally enter content to be included in the page body (ie. script tags)
 
-![page management add settings](./assets/page-management-add-settings.png)
+![Add Page Settings](./assets/page-management-add-settings.png)
 
 ___
 
@@ -110,5 +110,14 @@ To toggle the publish status, click the **Publish** button, which will switch be
 ![Control Panel Delete Button](./assets/control-panel-page-management-publish-button.png)
 
 ---
+
+---
+
+## Creating an Admin Dashboard Page
+
+If you wish to add a custom page to the **Admin Dashboard**, you can do so through **Page Management** by setting the **Parent** page to "Admin" when adding a new page. This action designates the new page as part of the Admin Dashboard, making it accessible only to administrators. Creating admin-specific pages expands the available tools for site management and customizes the Admin Dashboard.
+
+For more information on extending the Admin Dashboard, refer to the [Admin Management documentation](../admin-management/index.md#extending-the-admin-dashboard).
+
 
 This detailed overview of the **Page Management** feature provides administrators with the essential tools to manage individual pages effectively. Each button feature is clearly defined to enhance user understanding and facilitate efficient page management.

@@ -1,24 +1,55 @@
 # Module Management
 
-Modules are a key feature of Oqtane as they allow for you to insert a massive variety of things into your web page. 
-There are a wide variety of different that can be added to your page for a high level of customization. 
-An administrator also has the ability to both download new modules onto the website or upload modules you have created to the marketplace, 
-options which are found in the admin dashboard's [module management feature](../modules/index.md).
+Modules are a key feature of Oqtane, allowing you to insert a diverse array of components into your web pages. With a variety of modules available, you can customize your site extensively. Administrators have the ability to download new modules or upload custom modules to the marketplace, which can be accessed via the admin dashboard's [Module Management feature](../modules/index.md).
 
-On the side control panel's module management section, you have the option to:
-* Add A New Module: which will put a new module of your choosing onto the page which has the option of being a:
-    * Admin Module: These are only available to people within the administrator role and there are many more default modules available to put onto your webpages.
-    * Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personalizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.
-    * Developer Module: This feature is for placing a module creator onto a page which will provide you with useful pre-built structure and methods for writing code for your own modules.
+## Accessing Module Management
 
-* Add An Existing Module: Provides the ability to select modules that are already on other pages from your website.
-    * Page: A list of other your other web pages where you can select a page on your site that has the module you would like.
-    * Modules: A list of modules that are on the selected web page for you to select.
+To access the Module Management feature in the Control Panel:
+1. **Log in to Oqtane** with an account assigned to the Administrators role.
+2. **Click the Control Panel Icon**: Once logged in, click the Control Panel icon to open the Control Panel menu.
+3. **Select Module Management**: Click on the **Module Management** option in the Control Panel.
 
-Directly below these options, when a module is selected, the module's description will appear in a purple box so you have a better understanding of what the module is for.
-The other module options below this are:
-* Title: Which is what will be displayed directly above the module as its title, if nothing is selected then the module's name will be put as the title.
-* Pane: Select which content pane you want the module to go inside of. Panes are made visible with the [content editor](../site-administration/content-editor.md).
-* Container: Select if you would like to have a title displayed above the module or not have one.
+![Control Panel Module Management](./assets/control-panel-module-management.png)
 
-![control-panel-module](./assets/control-panel-modules.png)
+---
+
+## Module Management Options
+
+In the Control Panel’s Module Management section, you have the following options:
+
+### Add New Module
+
+This option allows you to place a new module of your choice onto the page:
+
+1. **Select Category**:
+   - **Admin Modules**: Modules available only to users with the Administrator role.
+   - **Common Modules**: Modules accessible to both Administrators and registered users.
+
+2. **Select Module**: Choose a module from the selected category.
+
+3. **Enter Module Details**:
+   - **Title**: The title displayed above the module. If left blank, the module’s name will serve as the title.
+   - **Pane**: Select the content pane where the module will be placed, organized by modules in the pane.
+   - **Location**: Set the location of the module as "Top" or "Bottom" inside the pane .
+   - **Container**: Choose a theme container for the pane.
+   - **Visibility**: Options to set visibility as "Same As Page" or "Page Editors Only."
+
+### Add Existing Module
+
+This option allows you to select modules that are already present on other pages of your website:
+
+1. **Select Page**: A dropdown list of your other web pages from which you can select a page containing the desired module.
+2. **Select Module**: A list of modules available on the selected page for you to choose from.
+
+### Copy Existing Module
+
+This option allows you to copy a module from another page:
+
+1. **Select Page**: A dropdown list of your other web pages from which you can select a page containing the desired module.
+2. **Select Module**: A list of modules available on the selected page for you to choose from, allowing you to replicate functionality on your current page.
+
+When a module is selected, its description will appear in a purple box, providing clarity on its purpose.
+
+![Add Module Button](./assets/control-panel-add-module-to-page-button.png)
+
+---
