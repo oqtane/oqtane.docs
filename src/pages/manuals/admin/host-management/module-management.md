@@ -112,4 +112,12 @@ Click the **Create Module** button to develop a new custom module for your site.
 
 ![Module Management Create Module Button](./assets/module-management-create-module-button.png)
 
-> Note: A notification will be shown if you attempt to create modules in an instance of the application running in a production environment.
+### **Warning**: Module Creation in Production Environments
+
+**Module creation** should be performed in a **development environment** only. Creating or developing modules directly in a **production environment** can lead to performance issues, instability, or security risks. It's best to develop and test your modules in a safe environment before deploying them to your live site. This ensures that the module functions as expected without affecting the user experience on your production site.
+
+---
+
+## Conclusion
+
+The **Module Management** feature provides a straightforward way to manage, install, and create modules to enhance your Oqtane site's functionality. Whether you're installing modules from the marketplace, uploading custom modules, or creating your own, this feature helps you add powerful tools and features to your site. Use the editing tools to fine-tune existing modules or start from scratch with a new module to meet your needs.
