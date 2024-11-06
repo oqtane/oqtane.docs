@@ -1,6 +1,6 @@
 # Module Management
 
-Modules are a key feature of Oqtane, allowing you to insert a diverse array of components into your web pages. With a variety of modules available, you can customize your site extensively. Administrators have the ability to download new modules or upload custom modules to the marketplace, which can be accessed via the admin dashboard's [Module Management feature](../modules/index.md).
+Modules are a key feature of Oqtane, allowing you to insert a diverse array of components into your web pages. With a variety of modules available, you can customize your site extensively. Administrators have the ability to download new modules or upload custom modules to the marketplace, which can be accessed via the `Host` user **Admin Dashboard's** [Module Management feature](../../admin/host-management/module-management.md).
 
 ## Accessing Module Management
 
