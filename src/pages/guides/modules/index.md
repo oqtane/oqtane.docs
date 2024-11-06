@@ -9,11 +9,11 @@ When you install Oqtane, the platform ships with a base set of modules already i
 
 ## Modules on Pages
 
-Modules are placed onto pages in locations called “panes”. These panes are defined by the theme's designer. These themes dictates the overall look and feel of your site and is usually created by a front-end designer. Panes can span the full width of the page or be positioned in a column fashion. It may be helpful to think of panes as windows in the design of the site where you can drop in modules. You can move modules around the panes by using the [content editor](../admin/content-management/content-editor.md).
+Modules are placed onto pages in locations called “panes”. These panes are defined by the theme's designer. These themes dictates the overall look and feel of your site and is usually created by a front-end designer. Panes can span the full width of the page or be positioned in a column fashion. It may be helpful to think of panes as windows in the design of the site where you can drop in modules. You can move modules around the panes by using the [content editor](../../manuals/content-management/content-editor.md).
 
 This is an example of a content pane.
 
-![content-pane](../../manuals/admin/content-management/assets/content-editor-pane-border.png)
+![content-pane](../../manuals/content-management/assets/content-editor-pane-border.png)
 
 ## Topics
 
@@ -23,7 +23,7 @@ This is an example of a content pane.
 - [Installing Modules](module-installation.md): Step-by-step instructions for installing modules on your Oqtane site.
 - [Configurating Modules](module-configuration.md): Customize and configure module settings to suit your specific requirements.
 - [Customizing Module Appearance](customizing-module-appearance.md): Customize a modules appearance.
-- [Troubleshooting Modules](../troubleshooting/troubleshooting-working-with-modules.md): Troubleshooting tips and solutions for common issues encountered working with modules.
+- [Troubleshooting Modules](../troubleshooting/troubleshooting-modules.md): Troubleshooting tips and solutions for common issues encountered working with modules.
 
 ### Developing Modules
 - [Creating Modules](creating-a-module.md): Resources and guidelines for creating custom modules for Oqtane.
