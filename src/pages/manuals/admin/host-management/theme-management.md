@@ -90,6 +90,11 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
 
    ![Theme Management Create Theme Notification](./assets/theme-management-create-theme-message.png)
 
+   
+### **Warning**: Theme Creation in Production Environments
+
+**Theme creation** is recommended for **development environments** only. It is not advisable to develop or create themes directly in a **production environment** as it can lead to performance issues, security concerns, or disruptions to the live user experience. For production sites, it is best to pre-build and test themes in a controlled environment before deploying them to your live site.
+
 ---
 
 ## Conclusion
