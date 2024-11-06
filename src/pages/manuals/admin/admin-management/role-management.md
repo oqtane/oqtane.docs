@@ -2,9 +2,107 @@
 
 ![Role Management](./assets/role-management.png)
 
-Security Roles in Oqtane are nothing more than a grouping of one or more users for a purpose. That purpose is up to you. The purpose could be to see exclusive content in a specific area of the site or on specific pages in the site. It could also be to have the ability to edit content on one or more pages or to create content in a specific module, like a blog. We could go on and on. Just remember that Security Roles can be used for content targeting, editing, and hiding sections of your site.
-Security Roles work the same as most permissions-based systems, such as Windows. You first create a Security Role if it doesn't already exist to create a grouping of users. Then, you add one or more people to that group. Once you do that minimal setup, you can apply that group to various capabilities, permissions, and features.
-Permissions are set when creating or editing pages and modules by selecting which roles can edit or view them.
-![permissions](./assets/permissions.png)
-At the top of the page is the add role button that allows for the addition of a new group you want to make, with a name, description, and saying if it should be automatically assigned to users. You can edit, delete, and manage users in each role except for the default administrator and registered users roles which you cannot edit or delete, you can only manage their users.
-When adding a user into a role, there are fields for effective date and expiry date, which determines when a user will be added to a roles and how long they will be inside of a role.
+## Overview
+
+The **Role Management** feature in Oqtane allows you to create and manage security roles, which are groupings of users assigned specific permissions or access. Roles can be used for content targeting, granting editing rights, or restricting access to certain areas of your site.
+
+Security roles operate similarly to permission-based systems: first, you create a role to group users, then add users to the group, and finally, assign the group permissions on pages or modules.
+
+---
+
+## Control Panel Walk-through
+
+### Accessing the Role Management Feature
+
+1. Click the **Control Panel** icon to access additional settings.
+
+   ![Control Panel Icon](assets/control-panel-button.png)
+
+2. In the control panel, select the button to open the **Admin Dashboard**.
+
+   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
+
+3. In the admin dashboard, click on the **Role Management** icon to manage user roles.
+
+   ![Admin Dashboard Role Management](assets/admin-dashboard-role-management.png)
+
+---
+
+## Role Management Features
+
+### 1. **Add Role**
+
+The **Add Role** feature enables you to create a new user role with specific settings.
+
+![Add Role Button](./assets/role-management-add-role-button.png)
+
+#### **Add Role Settings**
+When you click **Add Role**, a window opens with the following fields:
+
+- **Name:** The name of the role, as it will appear in the role list.
+- **Description:** A brief description explaining the role's purpose.
+- **Auto Assigned?**: Select **Yes** or **No** to determine whether new users are automatically assigned to this role.
+
+After filling out the settings, use the **Save** button to create the role, or **Cancel** to discard changes. You can also use the **X** button in the top-right corner to close the window without saving.
+
+![Add/Edit Role Window](./assets/role-management-add-edit-window.png)
+
+---
+
+### 2. **Search Roles**
+
+The **Search Roles** function allows you to quickly find roles by name. Enter the name in the **Search** field and click **Search** to filter results, or **Reset** to clear the search.
+
+![Search Roles](./assets/role-management-search.png)
+
+---
+
+### 3. **Role List**
+
+The **Role List** displays all existing roles, including default roles such as **Administrators** and **Registered Users**. For each role, you can perform the following actions:
+
+| **Action** | **Description**                                                                                         |
+|------------|---------------------------------------------------------------------------------------------------------|
+| **Edit**   | Modify the role's name, description, and auto-assign settings (disabled for Administrators and Registered Users). |
+| **Delete** | Permanently removes the role from the system (disabled for Administrators and Registered Users).        |
+| **Users**  | Manage users within the role, including adding or removing users.                                       |
+
+---
+
+### 4. **Edit Role**
+
+Clicking the **Edit** button for a role opens the same window as the **Add Role** feature, where you can modify the role's **Name**, **Description**, and **Auto Assigned** settings.
+
+![Edit Role Button](./assets/role-management-edit-button.png)
+
+Note: The **Edit** button is disabled for system roles like **Administrators** and **Registered Users**.
+
+---
+
+### 5. **Delete Role**
+
+Clicking the **Delete** button will delete a role. Deleting a role removes its permissions and cannot be undone. System roles like **Administrators** and **Registered Users** cannot be deleted.
+
+---
+
+### 6. **Manage Users in a Role**
+
+The **Users** button allows you to add or remove users from a specific role. Clicking **Users** for a role opens a window where you can:
+
+- **User:** Enter the user’s name to add them to the role.
+- **Effective Date:** Set the date when the role assignment starts.
+- **Expiry Date:** Set the date when the role assignment ends (optional).
+  
+At the bottom of this window, you can view a list of all users currently assigned to the role.
+
+![Manage Users in Role](./assets/role-management-users-window.png)
+
+Use **Save** to apply changes, **Cancel** to discard changes, or **X** to close the window.
+
+---
+
+## Summary
+
+The **Role Management** feature in Oqtane allows you to organize users by roles, granting or restricting access based on the assigned role. With options to add, edit, delete, and manage users in roles, you have flexibility in setting up and controlling permissions for your site.
+
+
