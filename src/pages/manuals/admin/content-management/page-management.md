@@ -18,11 +18,11 @@ ___
 - **Insert**: Specifies the position of the page among its siblings under the selected parent.
 - **Navigation**: Determines if the page should be visible to users with appropriate permissions or hidden from everyone but administrators.
 - **URL Path**: Sets the URL for the page. If no path is specified, it defaults to the name.
-- **Redirect**: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard’s [page management feature](./admin-management/page-management.md) to manage this page further.
+- **Redirect**: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard’s [page management feature](../admin-management/page-management.md) to manage this page further.
 
 #### Appearance
 - **Title**: Name displayed on the web browser tab.
-- **Theme**: Select a theme from those available in the [theme manager](../host-administration/theme-management.md).
+- **Theme**: Select a theme from those available in the [theme management](../host-management/theme-management.md).
 - **Layout**: Number of content panes (columns) available on the page.
 - **Default Container**: Layout style for module titles above the content.
 - **Icon**: URL for a favicon or other icon associated with the page.
