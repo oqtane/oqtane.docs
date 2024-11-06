@@ -1,5 +1,9 @@
 # Host Management Introduction
 
+![Host Management](./assets/admin-dashboard.png)
+
+## Overview
+
 The host user has the highest possible level of permissions in a Oqtane instance and can manage any individual site, set defaults for the creation of new sites, and manage additional configurations that support all sites.
 
 An Oqtane site administrator is primarily concerned with the look, feel, functionality, and content of a site. A host is more concerned with the configuration, performance, monitoring, and support of the entire Oqtane instance. As the Oqtane host (or any user with superuser permissions), you need to have a working grasp of all the features and configuration options available to you.
@@ -16,3 +20,15 @@ In addition to the site options discussed in the site administration [control pa
 * SQL Management: Which lets you run SQL queries in your databases with more info on [sql management](sql-management.md).
 * System Info: Which gives information on your version of the Oqtane framework and allows you to see information and methods in Oqtane's api with more info on [system info](system-info.md).
 * System Update: Which allows you to keep the Oqtane framework up to date and allow you to use Nuget packages with more info on [system update](system-update.md).
+
+### Accessing Host Mangagement Features
+
+1. Click the control panel icon to access additional settings.
+
+   ![Control Panel Icon](./assets/control-panel-button.png)
+
+2. In the control panel, select the button to open the admin dashboard.
+
+   ![Open Admin Dashboard](./assets/control-panel-admin-dashboard-button.png)
+
+3. Select the admin dashboard management feature by clicking on the icon.
