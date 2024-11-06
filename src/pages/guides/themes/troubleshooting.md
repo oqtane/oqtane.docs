@@ -15,7 +15,7 @@ Below are two detailed guides for troubleshooting themes, tailored to the specif
   - **UI and Styling Errors**: Solutions for fixing display or styling inconsistencies.
   - **Permission and Access Problems**: Guidance on ensuring that themes are visible and accessible for all users.
 
-- **[Developing Themes](../troubleshooting/troubleshooting-themes-development.md)**  
+- **[Developing Themes](../troubleshooting/troubleshooting-theme-development.md)**  
   This guide provides troubleshooting steps specifically for developers building custom themes in Oqtane. It addresses:
   - **Theme Structure and Layout Errors**: Common issues with file structure or layout configuration.
   - **CSS and Styling Debugging**: Techniques for diagnosing and fixing styling issues within theme CSS files.
