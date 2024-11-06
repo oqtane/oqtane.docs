@@ -94,7 +94,7 @@ The **Permissions** tab lets you configure user access for the module, including
 
 ### Pages Tab
 
-Use the **Pages** tab to link the module to specific pages on your site.
+Use the **Pages** tab to view and link to a specific page on your site with the module using the **Browse** button .
 
 ![Module Management Edit Pages Browse Button](./assets/module-management-edit-pages-browse-button.png)
 
