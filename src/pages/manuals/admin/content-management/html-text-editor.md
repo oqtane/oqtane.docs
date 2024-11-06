@@ -52,7 +52,7 @@ Each editor (Rich Text and HTML) includes an **"Insert Image"** button that open
 - **Select Folder** – Choose the folder where images are stored.
 - **Select File** – Pick an image file from the selected folder.
 
-   ![HTML/Text Editor Select Folder/File](./assets/html-text-editor-select-folder-file.png)
+   ![HTML/Text Editor Select Folder/File](./assets/html-text-editor-insert-image-select-file.png)
 
 Once an image file is selected, click the **Insert Image** button.
 
@@ -62,7 +62,7 @@ Once an image file is selected, click the **Insert Image** button.
 
    ![HTML/Text Editor Upload File Button](./assets/html-text-editor-upload-file-button.png)
 
-If you encounter issues with uploading files, see the [Troubleshooting File Manager](../../guides/troubleshooting/troubleshooting-file-manager.md) guide.
+If you encounter issues with uploading files, see the [Troubleshooting File Manager](../../../guides/troubleshooting/troubleshooting-file-manager.md) guide.
 
 After uploading the image to the selected folder, click the **Insert Image** button.
 
@@ -107,4 +107,4 @@ Each version offers the following actions:
 
    After clicking **Delete**, you will be prompted to confirm. To proceed, click the **Delete** button in the confirmation window.
 
-      ![HTML/Text Editor Versions Confirm Delete Button](./assets/html-text-editor-versions-confirm-delete-button.png)
+  ![HTML/Text Editor Versions Confirm Delete Button](./assets/html-text-editor-versions-confirm-delete-button.png)
