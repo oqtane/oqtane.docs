@@ -48,4 +48,21 @@ The Host Dashboard is customizable, allowing hosts to add new tools or features 
 1. **Access the Control Panel**: Log in as the host, click the **gear icon**, and navigate to **Page Management**.
 2. **Create a New Host Page**:
    - Click **Add** in the Page Management section.
-   - Set the **Parent Page** t
+   - Set the **Parent Page** to **Admin** to make the new page accessible in the Host Dashboard.
+   - Configure other page settings, such as title and permissions, to tailor the page to host needs.
+
+3. **Save and Confirm**: Once saved, the new page will be available in the Host Dashboard.
+
+For more details on page configuration, see the [Content Management - Page Management](../content-management/page-management.md) documentation.
+
+---
+
+## Additional Resources
+
+- **[Installation Guides](../../../guides/installation/index.md)**: Step-by-step instructions for initial Oqtane setup, including configuration specifics.
+- **[Troubleshooting Issues](../../../guides/troubleshooting/index.md)**: Solutions for common issues encountered during setup and maintenance.
+
+For community discussions, support, and feature requests, visit:
+
+- **[GitHub Discussions](https://github.com/oqtane/oqtane.framework/discussions)**
+- **[GitHub Issues](https://github.com/oqtane/oqtane.framework/issues)**
