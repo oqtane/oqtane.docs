@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Installation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Installation Introduction | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Installation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Installation Introduction | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -83,82 +83,52 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Manuals.Installation.Index">
-<h1 id="installation">Installation</h1>
+        <article data-uid="">
+<h1 id="installation-introduction">Installation Introduction</h1>
 
-<p>Oqtane is a modular application framework that allows you to create
-dynamic web sites and applications using Blazor and .NET MAUI.
-Oqtane supports various deployment scenarios and databases.
-This section provides installation instructions for different environments and configurations.</p>
-<h2 id="download-an-official-release">Download an Official Release</h2>
-<p>Find the official Oqtane releases on GitHub and follow these steps to download:</p>
+<p>This manual introduces the <strong>Installation Wizard</strong> for Oqtane, focusing on setting up a core installation. The Installation Wizard streamlines the configuration of essential settings, including database connections and host account setup.</p>
+<h2 id="installation-wizard-overview">Installation Wizard Overview</h2>
+<p>The <strong>Installation Wizard</strong> simplifies the setup process by guiding you through the following essential steps:</p>
 <ol>
-<li>Visit the <a href="https://github.com/oqtane/oqtane.framework/releases">Official Oqtane Releases page on GitHub</a>.</li>
-<li>Browse the list of releases to find the version you need.</li>
-<li>Click on the release to view its details.</li>
-<li>Download the release package by clicking on the appropriate link.</li>
+<li><p><strong>Database Configuration</strong></p>
+<ul>
+<li><strong>Choose Database Provider</strong>: Select a supported database (SQL Server, MySQL, PostgreSQL, SQLite).</li>
+<li><strong>Configure Connection String</strong>: Ensure accurate server address, credentials, and database name.</li>
+<li><strong>Set Permissions</strong>: The database user should have permissions for <code>CREATE</code>, <code>READ</code>, and <code>WRITE</code> operations.</li>
+</ul>
+</li>
+<li><p><strong>Host and Admin Configuration</strong></p>
+<ul>
+<li><strong>Host Name</strong>: Enter the primary domain or URL for accessing your Oqtane installation.</li>
+<li><strong>Admin Account</strong>: Set up an admin user to access and manage your Oqtane installation after setup.</li>
+</ul>
+</li>
+<li><p><strong>Finalize Installation</strong></p>
+<ul>
+<li><strong>Confirm Settings</strong>: Verify and apply your configurations to complete setup.</li>
+<li><strong>Access the Site</strong>: Redirect to the site homepage upon successful installation.</li>
+</ul>
+</li>
 </ol>
-<h2 id="reset-an-existing-oqtane-installation">Reset an Existing Oqtane Installation</h2>
-<p>If you need to perform a clean database install for a previous version of Oqtane, follow these steps:</p>
-<ol>
-<li>Open the <code>Oqtane.Server\appsettings.json</code> file.</li>
-<li>Locate the <code>DefaultConnection</code> value and set it to <code>&quot;&quot;</code>.</li>
-<li>Run the application to trigger the re-installation process, which will execute the database installation scripts.</li>
-</ol>
-<hr>
-<h2 id="upgrade">Upgrade</h2>
-<p>Learn how to upgrade your existing Oqtane installation manually or through an automated process:</p>
+<p>For an in-depth explanation of each screen and configuration in the wizard, refer to <a href="installation-wizard.html">Installation Wizard</a>.</p>
+<h2 id="environment-specific-recommendations">Environment-Specific Recommendations</h2>
+<p>For different deployment environments, such as production or development, consult the extended guides linked below. These provide more specific setup instructions, including handling permissions, optimizing server configurations, and other advanced considerations.</p>
+<blockquote>
+<p><strong>Note</strong>: Oqtane is optimized for Windows Server with IIS but also supports deployment on Linux (e.g., with NGINX or Apache).</p>
+</blockquote>
 <ul>
-<li><a href="upgrade.html">Upgrading Oqtane</a>: This section provides information on how to upgrade your existing Oqtane installation manually or through an automated process.</li>
+<li><a href="../../../manuals/installation/index.md">Installation Manuals</a>: Detailed setup instructions for deploying Oqtane in different environments.</li>
 </ul>
-<hr>
-<h2 id="development">Development</h2>
-<p>This section provides installation instructions for development purposes.
-You can choose between Windows or Linux development environments
-and use Visual Studio or Visual Studio Code as your IDE.</p>
-<h3 id="windows">Windows</h3>
+<p>markdown</p>
+<h2 id="additional-resources">Additional Resources</h2>
+<p>For further insights on Oqtane installation and configuration, consider exploring these resources:</p>
 <ul>
-<li><a href="development.html">Windows Visual Studio Development</a>: Install Oqtane quickly for development, primarily for Visual Studio and Windows development.</li>
-<li><a href="development-vs-code.html">Windows Visual Studio Code Development</a>: Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development.</li>
+<li><a href="https://github.com/oqtane/oqtane.framework/discussions">GitHub Discussions</a>: Find community support and solutions for common installation questions.</li>
+<li><a href="https://www.oqtane.org/blog">Oqtane Blog - Installation Best Practices</a>: Read about best practices and tips for a smooth installation process.</li>
+<li><a href="https://github.com/oqtane/oqtane.framework/wiki">Community Wiki - Oqtane Setup</a>: Access community-contributed knowledge for specific setup scenarios and troubleshooting.</li>
 </ul>
-<h3 id="linux">Linux</h3>
-<ul>
-<li><a href="development-vs-code-linux.html">Linux Visual Studio Code Development</a>: Install Oqtane quickly for development, primarily for Visual Studio Code and Linux development.</li>
-</ul>
-<hr>
-<h2 id="deploy">Deploy</h2>
-<p>This section provides installation instructions for deploying Oqtane to various environments using a release package.
-You will learn how to install the prerequisites, create a database, and configure the web server for your Oqtane application.</p>
-<p>You can choose between the following deployment options:</p>
-<h3 id="azure">Azure</h3>
-<p>Install Oqtane using the Deploy to Azure feature:</p>
-<ul>
-<li><a href="deploy-to-azure.html">Deploy Oqtane To Azure</a>: This guide shows you how to install Oqtane using the above Deploy To Azure feature.</li>
-</ul>
-<h3 id="windows-iis">Windows IIS</h3>
-<p>Install Oqtane with various configurations on Windows using IIS:</p>
-<ul>
-<li><a href="windows-iis-express-sql-express.html">Install Oqtane with IIS Express and SQL Express</a>: This guide shows you how to install Oqtane on Windows using IIS Express and SQL Express Server.</li>
-<li><a href="windows-iis-localdb.html">Install Oqtane with IIS Express and LocalDB</a>: This guide shows you how to install Oqtane on Windows using IIS (Express) and LocalDb.</li>
-<li><a href="windows-iis-sql.html">Install Oqtane with IIS and SQL Server</a>: This guide shows you how to install Oqtane on Windows using IIS and SQL Server.</li>
-</ul>
-<h3 id="linux-apache">Linux Apache</h3>
-<p>Install Oqtane with Apache on Linux (Ubuntu) with MySQL or PostgreSQL:</p>
-<ul>
-<li><a href="linux-ubuntu-apache-mysql.html">Install Oqtane with Apache and MySQL</a>: This guide shows you how to install Oqtane on Linux using Apache and MySQL.</li>
-<li><a href="linux-ubuntu-apache-postgresql.html">Install Oqtane with Apache and PostgreSQL</a>: This guide shows you how to install Oqtane on Linux using Apache and PostgreSQL.</li>
-</ul>
-<hr>
-<h2 id="resources">Resources</h2>
-<p>Explore additional installation resources and access the Oqtane blog and GitHub repository:</p>
-<ul>
-<li><a href="troubleshooting.md">Oqtane Installation Troubleshooting Tips</a>: If you encounter issues during the installation, upgrade, development, or deployment process, you can refer to our troubleshooting tips.</li>
-<li><a href="databases.html">Oqtane Supported Databases</a>: Find detailed information on all databases supported by Oqtane for both Windows and Linux.</li>
-<li><a href="resources.html">Oqtane Installation Resources</a>: Access comprehensive installation guides and resources for deploying Oqtane on various platforms.</li>
-<li><a href="https://www.oqtane.org/blog">Oqtane Blog</a>: Stay updated with the latest news, announcements, and insights from the Oqtane community by exploring the Oqtane blog.</li>
-<li><a href="https://github.com/oqtane/oqtane.framework">Oqtane GitHub Repository</a>: Access the Oqtane framework's GitHub repository to explore the source code, contribute to development, and stay informed about the latest updates and releases.</li>
-</ul>
-<p><a href="../index.html">← Back to Administration Documentation Manuals Home Page</a></p>
+<h2 id="see-also">See Also</h2>
+<p>For more comprehensive setup guidance, see the <a href="../../../manuals/installation/index.md">Installation Manuals</a>.</p>
 
 </article>
 

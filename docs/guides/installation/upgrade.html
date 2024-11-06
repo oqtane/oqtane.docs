@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Upgrading Oqtane | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Upgrading Oqtane | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/upgrade.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="upgrading-oqtane">Upgrading Oqtane</h1>
+
+<p>Regularly upgrading Oqtane is crucial to maintain the latest fixes, features, and security patches. Below, you'll find simplified instructions for both manual and automated upgrade processes.</p>
+<h2 id="manual-upgrade">Manual Upgrade</h2>
+<p>Performing a manual upgrade ensures full control over the process. Follow these straightforward steps:</p>
+<h3 id="step-1-download-upgrade-package">Step 1: Download Upgrade Package</h3>
+<ul>
+<li>Visit the <a href="https://github.com/oqtane/oqtane.framework/releases">Oqtane Framework releases page</a> on GitHub.</li>
+<li>Download the package for your desired version that ends with *.Upgrade.zip (e.g., Oqtane.Framework.5.0.2.Upgrade.zip).</li>
+</ul>
+<h3 id="step-2-access-installation-location">Step 2: Access Installation Location</h3>
+<ul>
+<li>Navigate to the root location where your Oqtane framework files were initially deployed. You can identify this location by files with a .dll extension (e.g., Oqtane.Server.dll).</li>
+</ul>
+<h3 id="step-3-stop-oqtane-application">Step 3: Stop Oqtane Application</h3>
+<ul>
+<li>Depending on your setup:
+<ul>
+<li>Stop your website using your web server or cloud provider's interface.</li>
+<li>In IIS (Internet Information Services), stop the corresponding App Pool.</li>
+<li>For Apache or Linux alternatives, halt the relevant service.</li>
+</ul>
+</li>
+<li>Alternatively, create an <code>app_offline.htm</code> file in the root folder to temporarily shut down your site.</li>
+</ul>
+<h3 id="step-4--replace-files">Step 4:  Replace Files</h3>
+<ul>
+<li>Extract all files from the Upgrade.zip package into the root location obtained in Step 2. When prompted, replace existing files with those from the upgrade package.</li>
+</ul>
+<h3 id="step-5-restart-oqtane-application">Step 5: Restart Oqtane Application</h3>
+<ul>
+<li>Restart your Oqtane application:
+<ul>
+<li>Restart your site using your web server or cloud provider's interface.</li>
+<li>In IIS, restart the previously stopped App Pool.</li>
+<li>For Apache or Linux, restart the halted service.</li>
+</ul>
+</li>
+<li>If you created an <code>app_offline.htm</code> file, delete it now.</li>
+</ul>
+<h3 id="step-6-verify-upgrade">Step 6: Verify Upgrade</h3>
+<ul>
+<li>Open your web browser and navigate to your site's URL. The upgrade scripts will automatically execute during application startup.</li>
+</ul>
+<h2 id="automated-upgrade">Automated Upgrade</h2>
+<p>Oqtane streamlines the upgrade process for non-technical users with its automated upgrade feature. Follow these steps:</p>
+<ol>
+<li>Log in to your Oqtane site as the host user.</li>
+<li>Navigate to the Admin Dashboard via the Control Panel.</li>
+<li>Choose the &quot;System Update&quot; option.
+4.If a newer version is available on Nuget.org, click &quot;Upgrade to #.#.#&quot; to download and perform the upgrade automatically. If you're already up-to-date, you'll see a message indicating this.</li>
+<li>Alternatively, use the &quot;Upload&quot; tab to manually upload a framework upgrade package to the site and select a button to install it. This method also supports reinstallation or repair of an existing installation with the current version.</li>
+</ol>
+<p><em>Note: Automated upgrades may fail due to environmental factors. If this occurs, resort to the manual method described above.</em></p>
+<h3 id="oqtane-automated-upgrade-process">Oqtane Automated Upgrade Process</h3>
+<p><img src="../../pages/guides/installation/assets/oqtane-automated-upgrade-process.png" alt="Oqtane Automated Upgrade Process"></p>
+<p>By following these instructions, you'll ensure your Oqtane installation stays current with the latest enhancements and security fixes. Remember, stopping the Oqtane application is essential to replace files during the upgrade process. Automated upgrades streamline the process, but manual upgrades provide greater control, especially for custom installations.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="databases.html">Oqtane Supported Databases</a></li>
+<li><a href="resources.html">Oqtane Installation Resources</a></li>
+</ul>
+<p><a href="index.html">← Back to Installation Home</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/upgrade.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

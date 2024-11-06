@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Install Oqtane for Visual Studio Development | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Install Oqtane for Visual Studio Development | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/development.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="install-oqtane-for-visual-studio-development">Install Oqtane for Visual Studio Development</h1>
+
+<h2 id="development-version-latest">Development Version (Latest)</h2>
+<p>For general development and keeping up with the latest features, you can use the development branch of Oqtane Framework.
+However, for module development, it is recommended to target a stable release version of Oqtane Framework.</p>
+<ol>
+<li><p>Install <strong><a href="https://dotnet.microsoft.com/download/dotnet">Latest .NET SDK Release</a></strong>.</p>
+</li>
+<li><p>Install the latest edition of <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio</a> with the <strong>ASP.NET and web development</strong> workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
+</li>
+<li><p>If you wish to use <em>LocalDB</em> for development (not a requirement as Oqtane supports <em>SQLite</em>, <em>mySQL</em>, and <em>PostgreSQL</em>), you must also install the <strong>Data storage and processing</strong>.</p>
+</li>
+<li><p>Visit the <a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub Repository</a> to download and extract the <a href="https://github.com/oqtane/oqtane.framework/archive/dev.zip">Oqtane Dev Branch Source Zip File</a> or clone the Oqtane dev branch source code to your local system using <a href="https://git-scm.com/">Git Bash</a> with the following command:</p>
+<pre><code class="lang-bash">git clone -b dev https://github.com/oqtane/oqtane.framework.git
+</code></pre>
+</li>
+<li><p>Open the <strong>Oqtane.sln</strong> solution file.</p>
+</li>
+<li><p>Build the solution.</p>
+</li>
+<li><p>Ensure that you specify <strong>Oqtane.Server</strong> as the Startup Project.</p>
+</li>
+<li><p>Run the application.</p>
+</li>
+</ol>
+<h2 id="release-and-legacy-development">Release and Legacy Development</h2>
+<p>Below is a list of current and prior releases for module development targeting different frameworks.<br>
+Check the official release page for any newer versions not listed.</p>
+<h3 id="oqtane-version-5-net-8">Oqtane Version 5 (.net 8)</h3>
+<ol>
+<li><p>Install <strong><a href="https://dotnet.microsoft.com/download/dotnet/8.0">.NET 8 SDK</a></strong></p>
+</li>
+<li><p>Install the latest edition of <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022</a> with the <strong>ASP.NET and web development</strong> workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
+</li>
+<li><p>If you wish to use <em>LocalDB</em> for development (not a requirement as Oqtane supports <em>SQLite</em>, <em>mySQL</em> and <em>PostgreSQL</em>) you must also install the <strong>Data storage and processing</strong>.</p>
+</li>
+<li><p>Download the <a href="https://github.com/oqtane/oqtane.framework/releases/tag/v5.0.2">Official Oqtane 5 Release Source</a>.</p>
+</li>
+<li><p>Open the <strong>Oqtane.sln</strong> solution file.</p>
+</li>
+<li><p>Build the solution.</p>
+</li>
+<li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project</p>
+</li>
+<li><p>Run the application.</p>
+</li>
+</ol>
+<h3 id="oqtane-version-4-net-7">Oqtane Version 4 (.net 7)</h3>
+<ol>
+<li><p>Install <strong><a href="https://dotnet.microsoft.com/download/dotnet/7.0">.NET 7 SDK</a></strong></p>
+</li>
+<li><p>Install the latest edition of <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022</a> with the <strong>ASP.NET and web development</strong> workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
+</li>
+<li><p>If you wish to use <em>LocalDB</em> for development (not a requirement as Oqtane supports <em>SQLite</em>, <em>mySQL</em> and <em>PostgreSQL</em>) you must also install the <strong>Data storage and processing</strong>.</p>
+</li>
+<li><p>Download the <a href="https://github.com/oqtane/oqtane.framework/releases/tag/v4.0.6">Official Oqtane Release Source 4.0.6</a>.</p>
+</li>
+<li><p>Open the <strong>Oqtane.sln</strong> solution file.</p>
+</li>
+<li><p>Build the solution.</p>
+</li>
+<li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project.</p>
+</li>
+<li><p>Run the application.</p>
+</li>
+</ol>
+<h3 id="oqtane-version-3-net-6">Oqtane Version 3 (.net 6)</h3>
+<ol>
+<li><p>Install <strong><a href="https://dotnet.microsoft.com/download/dotnet/6.0">.NET 6 SDK</a></strong></p>
+</li>
+<li><p>Install the latest edition of <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2022</a> with the <strong>ASP.NET and web development</strong> workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
+</li>
+<li><p>If you wish to use <em>LocalDB</em> for development (not a requirement as Oqtane supports <em>SQLite</em>, <em>mySQL</em> and <em>PostgreSQL</em>) you must also install the <strong>Data storage and processing</strong>.</p>
+</li>
+<li><p>Download the latest <a href="https://github.com/oqtane/oqtane.framework/releases/tag/v3.4.3">Official Oqtane Release Source 3.4.3</a>.</p>
+</li>
+<li><p>Open the <strong>Oqtane.sln</strong> solution file.</p>
+</li>
+<li><p>Build the solution.</p>
+</li>
+<li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project.</p>
+</li>
+<li><p>Run the application.</p>
+</li>
+</ol>
+<h3 id="oqtane-version-2-net-5">Oqtane Version 2 (.net 5)</h3>
+<ol>
+<li><p>Install the latest <a href="https://dotnet.microsoft.com/download/dotnet/5.0">.NET 5 SDK (v5.0.100)</a></p>
+</li>
+<li><p>Install the latest edition (v16.8 or higher) of
+<a href="https://visualstudio.microsoft.com/vs/">Visual Studio 2019</a> (Community, Professional, or Enterprise Editions)
+with the <strong>ASP.NET and web development workload enabled</strong>.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
+</li>
+<li><p>If you do not have a SQL Server installation available already and you wish to use LocalDB for development,
+you must also install the <strong>.NET desktop development workload</strong>.</p>
+</li>
+<li><p>Download the <a href="https://github.com/oqtane/oqtane.framework/releases/tag/v2.3.1">Official Oqtane Release Source 2.3.1</a>.</p>
+</li>
+<li><p>Open the <strong>Oqtane.sln</strong> solution file.</p>
+</li>
+<li><p>Build the solution.</p>
+</li>
+<li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project.</p>
+</li>
+<li><p>Run the application.</p>
+</li>
+</ol>
+<h3 id="oqtane-version-1-net-core-3">Oqtane Version 1 (.net core 3)</h3>
+<ol>
+<li><p>Install <a href="https://dotnet.microsoft.com/en-us/download/dotnet/3.1">.NET Core 3.1 SDK (v3.1)</a></p>
+</li>
+<li><p>Install <a href="https://visualstudio.microsoft.com/vs">Visual Studio 2019 (Community, Professional, or Enterprise Editions)</a>
+with the ASP.NET and web development workload enabled.
+Oqtane works with ALL editions of Visual Studio from Community to Enterprise.</p>
+</li>
+<li><p>If you do not have a SQL Server installation available already and you wish to use LocalDB for development, you must also install the .NET desktop development workload.</p>
+</li>
+<li><p>Download the <a href="https://github.com/oqtane/oqtane.framework/releases/tag/v1.0.4">Official Oqtane Release Source 1.0.4</a>.</p>
+</li>
+<li><p>Open the <strong>Oqtane.sln</strong> solution file.</p>
+</li>
+<li><p>Build the solution.</p>
+</li>
+<li><p>Make sure you specify <strong>Oqtane.Server</strong> as the Startup Project.</p>
+</li>
+<li><p>Run the application.</p>
+</li>
+</ol>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases/latest">Official Oqtane Latest Release</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases">All Official Oqtane Releases</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub Repository</a></li>
+<li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+<li><a href="https://dotnet.microsoft.com">.NET Core</a></li>
+<li></li>
+</ul>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="databases.html">Oqtane Supported Databases</a></li>
+<li><a href="resources.html">Oqtane Installation Resources</a></li>
+<li><a href="development-vs-code.html">Oqtane Development Using Visual Studio Code</a></li>
+<li><a href="development-vs-code-linux.html">Oqtane Development Using Linux and Visual Studio Code</a></li>
+</ul>
+<p><a href="index.html">← Back to Installation Home</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/development.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

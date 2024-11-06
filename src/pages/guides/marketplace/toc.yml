@@ -4,15 +4,9 @@
 - name: Installing Modules 
   # href: installing-modules.md 
 
-<<<<<<< Updated upstream
 - name: Using the Oqtane Marketplace
   href: using-oqtane-marketplace.md
   
-- name: Installing Modules 
-  # href: installing-modules.md 
-
-=======
->>>>>>> Stashed changes
 - name: Submitting Themes and Modules
   # href: submitting-themes-modules.md
   
@@ -20,8 +14,4 @@
   href: ./monetization.md
   
 - name: Troubleshooting
-<<<<<<< Updated upstream
   href: troubleshooting.md
-=======
-  href: troubleshooting.md
->>>>>>> Stashed changes

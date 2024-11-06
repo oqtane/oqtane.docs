@@ -25,6 +25,9 @@ references:
 - uid: Guides.Index
   name: Guides WIP
   href: guides/index.html
+- uid: Guides.Installation.Index
+  name: Installation
+  href: guides/installation/index.html
 - uid: Guides.Roadmap.Index
   name: Oqtane Roadmap and History
   href: guides/roadmap/index.html
@@ -40,9 +43,6 @@ references:
 - uid: Manuals.HowTo.Restart.Index
   name: How To Restart Oqtane
   href: manuals/how-to/restart/index.html
-- uid: Manuals.Installation.Index
-  name: Installation
-  href: manuals/admin/installation/index.html
 - uid: Oqtane
   name: Oqtane
   href: api/Oqtane.html

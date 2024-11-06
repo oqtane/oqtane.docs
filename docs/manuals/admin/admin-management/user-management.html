@@ -86,22 +86,156 @@
         <article data-uid="">
 <h1 id="user-management">User Management</h1>
 
-<p>One of your primary responsibilities as the site administrator will likely be to manage users on your site. You might need to create, edit, or delete users. You might also be required to add and remove abilities from users on your site. Everything that you need to do in these examples can be done from this one menu.
-<img src="../../../pages/manuals/admin/admin-management/assets/user-management.png" alt="user-management">
-The options that are provided on this user manager includes:</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management.png" alt="User Management Feature"></p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>User Management</strong> feature in Oqtane provides administrators with a centralized interface to manage site users. Here, you can add new users, edit profiles, assign roles, and delete accounts. The User Management feature is organized into two primary tabs:</p>
+<ol>
+<li><strong>Users Tab</strong> - Manage individual users by adding, editing, deleting, and assigning roles.</li>
+<li><strong>Settings Tab</strong> - Configure global settings related to user profiles and management options.</li>
+</ol>
+<p>This guide will walk you through each section, detailing how to utilize the User Management feature fully.</p>
+<hr>
+<h2 id="control-panel-walk-through">Control Panel Walk-through</h2>
+<h3 id="accessing-the-user-management-feature">Accessing the User Management Feature</h3>
+<ol>
+<li><p>Click the control panel icon to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, select the button to open the admin dashboard.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, click on the <strong>User Management</strong> icon to configure user settings and manage site users.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/admin-dashboard-user-management.png" alt="Admin Dashboard User Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="users-tab">Users Tab</h2>
+<h3 id="adding-a-new-user">Adding a New User</h3>
+<ol>
+<li><p>Click the <strong>Add User</strong> button to open a new window.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-add-user-button.png" alt="Add User Button"></p>
+</li>
+<li><p>In the <strong>Identity</strong> tab, fill in the following information:</p>
 <ul>
-<li>Add User: The add new user button is exactly what it sounds like it allows you to add a new user to your site and upon being clicked, it brings up a window that asks for all of the essential information for an account with a username, password, email, and full name. There is also the profile tab which allows for more extensive information to be provided for a user account and may have some fields that are required to be input in order to create an account, which is specified in the required field of the <a href="profile-management.html">profile manager</a>.</li>
-<li>Find User: Provides a text field to input a user's account name that will search through all of the site's users and return the account below this field with the following options:
+<li><strong>Username</strong></li>
+<li><strong>Email</strong></li>
+<li><strong>Full Name</strong></li>
+<li><strong>Notify</strong>: Select <strong>Yes</strong> or <strong>No</strong> to notify the user upon account creation.</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-add-user-identity.png" alt="User Identity Tab"></p>
+</li>
+<li><p>Switch to the <strong>Profile</strong> tab to input additional details, such as address, phone number, and other optional information.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-add-edit-profile.png" alt="User Profile Tab"></p>
+</li>
+<li><p>After entering the necessary information, click <strong>Save</strong> to create the user, or <strong>Cancel</strong> to discard the changes.</p>
+</li>
+</ol>
+<hr>
+<h3 id="importing-users">Importing Users</h3>
+<ol>
+<li><p>Click the <strong>Import Users</strong> button to add multiple users from a file.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-import-users-button.png" alt="Import Users Button"></p>
+</li>
+<li><p>In the import window, specify the file source and file name.</p>
 <ul>
-<li>Edit User: This allows for basic fields in the identity field such as password, email, and full name to be modified as well as the ability to give the user a profile image and the profile tab to specify more information about a user.
-<img src="../../../pages/manuals/admin/admin-management/assets/user-identity.png" alt="user-identity">
-There is also the profile tab which goes into more detail about a user allowing for the specification of things like postal code, phone number and address.
-<img src="../../../pages/manuals/admin/admin-management/assets/user-profile.png" alt="user-profile"></li>
-<li>Delete User: This is exactly as it sounds, it will delete the user's account.</li>
-<li>User Roles: This allows for a user account to placed into a security role that has been previously defined in the <a href="role-management.html">role manager</a>, and requires a date that this security role will take effect and will expire for the user account.</li>
+<li><strong>Folder</strong>: Choose the folder where the file is located.</li>
+<li><strong>File</strong>: Select the file to import users.</li>
+<li><strong>Notify</strong>: Choose <strong>Yes</strong> or <strong>No</strong> to send notifications to the users being imported.</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-import-users.png" alt="User Import Window"></p>
+</li>
+<li><p>Click <strong>Upload</strong> to load the file, then click <strong>Import</strong> to add users in bulk.</p>
+</li>
+<li><p>If you don’t have a template, you can download one by clicking the <strong>Template</strong> button.</p>
+<p><img src="assets/user-management-import.png" alt="User Import Window"></p>
+</li>
+</ol>
+<hr>
+<h3 id="searching-for-users">Searching for Users</h3>
+<ol>
+<li><p>Use the search field to locate a user by <strong>Username</strong>, <strong>Email</strong>, or <strong>DisplayName</strong>.</p>
+</li>
+<li><p>Click <strong>Search</strong> to filter results or <strong>Reset</strong> to clear the search input.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-search-users.png" alt="User Search Field"></p>
+</li>
+</ol>
+<hr>
+<h3 id="editing-users">Editing Users</h3>
+<ol>
+<li><p>To modify a user’s information, locate the user in the list and click <strong>Edit</strong>.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-edit-button.png" alt="Edit User Button"></p>
+</li>
+<li><p>The <strong>Edit User</strong> window includes:</p>
+<ul>
+<li><strong>Identity</strong> tab: Edit username, password, email, and name.</li>
+<li><strong>Profile</strong> tab: Update profile details such as address, phone number, and other custom fields.</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-edit-user-identity.png" alt="Edit User Identity Tab">
+<img src="../../../pages/manuals/admin/admin-management/assets/user-management-add-edit-profile.png" alt="Edit User Profile Tab"></p>
+</li>
+<li><p>Click <strong>Save</strong> to apply the changes or <strong>Cancel</strong> to discard them.</p>
+</li>
+</ol>
+<hr>
+<h3 id="deleting-users">Deleting Users</h3>
+<ol>
+<li>Click <strong>Delete</strong> next to a user in the list to remove their account.</li>
+<li>Confirm the deletion in the pop-up confirmation window.</li>
+</ol>
+<hr>
+<h3 id="assigning-user-roles">Assigning User Roles</h3>
+<ol>
+<li><p>Click the <strong>Roles</strong> button next to a user to manage their assigned roles.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-roles-button.png" alt="User Roles Button"></p>
+</li>
+<li><p>In the <strong>User Roles</strong> window:</p>
+<ul>
+<li><strong>User</strong>: Displays the user’s name.</li>
+<li><strong>Role</strong>: Select a role to assign from a dropdown list.</li>
+<li><strong>Effective Date</strong>: Choose a start date for the role.</li>
+<li><strong>Expiry Date</strong>: Set an expiration date for the role (optional).</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-roles.png" alt="User Roles Management"></p>
+</li>
+<li><p>Roles currently assigned to the user are listed below with their effective and expiry dates. You can remove roles from this list if needed.</p>
+</li>
+<li><p>Click <strong>Save</strong> to confirm the role assignment or <strong>Cancel</strong> to exit without changes.</p>
+</li>
+</ol>
+<hr>
+<h2 id="settings-tab">Settings Tab</h2>
+<p>The <strong>Settings Tab</strong> within the User Management feature allows administrators to configure site-wide user settings. The following options are available:</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/user-management-settings.png" alt="Allow Registration"></p>
+<ol>
+<li><p><strong>Allow Registration</strong>:</p>
+<ul>
+<li><strong>Description</strong>: This setting determines whether anonymous visitors can register for an account on the site.</li>
+<li><strong>Options</strong>:
+<ul>
+<li><strong>Yes</strong>: Visitors can create accounts.</li>
+<li><strong>No</strong>: Registration is disabled.</li>
 </ul>
 </li>
 </ul>
+<blockquote>
+<p><strong>Tip</strong>: Allowing registration can help increase user engagement by letting visitors create personalized accounts.</p>
+</blockquote>
+</li>
+<li><p><strong>Allow Login</strong>:</p>
+<ul>
+<li><strong>Description</strong>: This option specifies if users are permitted to sign in using a username and password that is managed locally on the site.</li>
+<li><strong>Options</strong>:
+<ul>
+<li><strong>Yes</strong>: Users can log in with their local account credentials.</li>
+<li><strong>No</strong>: Local login is disabled. Use this option with caution; only disable if you have successfully configured an external login provider, as it may lock you out of the site.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>Warning</strong>: Ensure that an external login provider is properly set up before disabling local login to avoid losing access to the site.</p>
+</blockquote>
+</li>
+</ol>
 
 </article>
 

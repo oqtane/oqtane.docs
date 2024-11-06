@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Databases | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Databases | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/databases.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="databases">Databases</h1>
+
+<p>This section provides a general setup guide for popular database systems such as SQL Server, MySQL, PostgreSQL, and SQLite on both Windows and Linux environments. Each database system includes steps for downloading, installing, configuring, and connecting to the database, along with relevant tools and documentation.</p>
+<h2 id="sql-server">SQL Server</h2>
+<p><img src="../../pages/guides/installation/assets/ms-sql-server-logo.png" alt="MS SQL SERVER"></p>
+<h3 id="windows">Windows</h3>
+<p><img src="../../pages/guides/installation/assets/windows-logo.png" alt="Windows"></p>
+<ol>
+<li><p><strong>Download SQL Server</strong>: Navigate to the <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">SQL Server Downloads</a> page and download the appropriate version of SQL Server for Windows.</p>
+</li>
+<li><p><strong>Install SQL Server</strong>: Follow the installation guide provided on the SQL Server website to install SQL Server on your Windows machine. Make sure to select the appropriate options during the installation process according to your requirements.</p>
+</li>
+<li><p><strong>Download SQL Server Management Studio (SSMS)</strong>: Once SQL Server is installed, download and install SQL Server Management Studio (SSMS) from the <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms">official website</a>.</p>
+</li>
+<li><p><strong>Configure SQL Server</strong>: After installation, configure SQL Server according to your specific needs. This may include setting up databases, configuring security settings, and adjusting server options.</p>
+</li>
+</ol>
+<h3 id="linux">Linux</h3>
+<p><img src="../../pages/guides/installation/assets/linux-logo.png" alt="Linux"></p>
+<ol>
+<li><p><strong>Download SQL Server</strong>: Navigate to the <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">SQL Server Downloads</a> page and follow the instructions for installing SQL Server on Ubuntu or your preferred Linux distribution.</p>
+</li>
+<li><p><strong>Install SQL Server</strong>: Use the provided package manager (such as <code>apt</code> for Ubuntu) to install SQL Server on your Linux machine. Make sure to follow the instructions carefully and resolve any dependencies as needed.</p>
+</li>
+<li><p><strong>Configure SQL Server</strong>: Once SQL Server is installed, configure it according to your requirements. This may involve setting up databases, configuring security settings, and adjusting server options. Refer to the SQL Server documentation for detailed instructions on configuration.</p>
+</li>
+<li><p><strong>Connect to SQL Server</strong>: After installation and configuration, you can connect to SQL Server using tools like SQL Server Management Studio (SSMS) or command-line tools like <code>sqlcmd</code> to manage databases and execute queries.</p>
+</li>
+</ol>
+<h2 id="mysql">MySQL</h2>
+<p><img src="../../pages/guides/installation/assets/mysql-logo.png" alt="MySQL"></p>
+<h3 id="windows-1">Windows</h3>
+<p><img src="../../pages/guides/installation/assets/windows-logo.png" alt="Windows"></p>
+<ol>
+<li><p><strong>Download MySQL</strong>: Visit the <a href="https://dev.mysql.com/downloads/">MySQL Downloads</a> page and download the MySQL Community Edition for Windows.</p>
+</li>
+<li><p><strong>Install MySQL</strong>: Run the installer and follow the installation wizard to install MySQL on your Windows machine. During installation, you may need to configure options such as the installation directory, root password, and port settings.</p>
+</li>
+<li><p><strong>Download MySQL Workbench</strong>: After installing MySQL, download MySQL Workbench from the <a href="https://dev.mysql.com/downloads/workbench/">official website</a>. MySQL Workbench is a graphical tool for managing MySQL databases and can be useful for administration tasks.</p>
+</li>
+<li><p><strong>Configure MySQL</strong>: Once installed, configure MySQL according to your requirements. This may involve setting up databases, creating users, and configuring security settings. Refer to the MySQL documentation for detailed instructions on configuration.</p>
+</li>
+</ol>
+<h3 id="linux-1">Linux</h3>
+<p><img src="../../pages/guides/installation/assets/linux-logo.png" alt="Linux"></p>
+<ol>
+<li><p><strong>Download MySQL</strong>: Visit the <a href="https://dev.mysql.com/downloads/">MySQL Downloads</a> page and follow the instructions for installing MySQL on Ubuntu or your preferred Linux distribution.</p>
+</li>
+<li><p><strong>Install MySQL</strong>: Use the provided package manager (such as <code>apt</code>) to install MySQL on your Linux machine. Make sure to follow the instructions carefully and resolve any dependencies as needed.</p>
+</li>
+<li><p><strong>Configure MySQL</strong>: After installing MySQL, configure it according to your requirements. This may include setting up databases, configuring security settings, and adjusting server options. Refer to the MySQL documentation for detailed instructions on configuration.</p>
+</li>
+<li><p><strong>Connect to MySQL</strong>: Once MySQL is installed and configured, you can connect to it using MySQL Workbench or command-line tools like <code>mysql</code> to manage databases and execute queries.</p>
+</li>
+</ol>
+<h2 id="postgresql">PostgreSQL</h2>
+<p><img src="../../pages/guides/installation/assets/postgresql-logo.png" alt="PostgreSQL"></p>
+<h3 id="windows-2">Windows</h3>
+<p><img src="../../pages/guides/installation/assets/windows-logo.png" alt="Windows"></p>
+<ol>
+<li><p><strong>Download PostgreSQL</strong>: Visit the <a href="https://www.postgresql.org/download/windows/">PostgreSQL Downloads</a> page and download the installer for PostgreSQL on Windows.</p>
+</li>
+<li><p><strong>Install PostgreSQL</strong>: Run the installer and follow the installation wizard to install PostgreSQL on your Windows machine. During installation, you may need to specify the installation directory, port settings, and provide a password for the default <code>postgres</code> user.</p>
+</li>
+<li><p><strong>Download pgAdmin</strong>: After installing PostgreSQL, download pgAdmin from the <a href="https://www.pgadmin.org/download/">official website</a>. pgAdmin is a popular graphical administration tool for PostgreSQL databases and can be helpful for managing databases and running queries.</p>
+</li>
+<li><p><strong>Configure PostgreSQL</strong>: Once installed, configure PostgreSQL according to your requirements. This may involve setting up databases, creating users, and configuring security settings. Refer to the PostgreSQL documentation for detailed instructions on configuration.</p>
+</li>
+</ol>
+<h3 id="linux-2">Linux</h3>
+<p><img src="../../pages/guides/installation/assets/linux-logo.png" alt="Linux"></p>
+<ol>
+<li><strong>Install PostgreSQL</strong>: On Ubuntu or your preferred Linux distribution, use the package manager to install PostgreSQL. Run the following command in the terminal:</li>
+</ol>
+<pre><code class="lang-bash">sudo apt update
+sudo apt install postgresql postgresql-contrib
+</code></pre>
+<ol start="2">
+<li><p><strong>Configure PostgreSQL</strong>: After installation, PostgreSQL should be up and running. By default, it creates a <code>postgres</code> user with administrative privileges. You may need to set a password for this user and configure access permissions as needed. Refer to the PostgreSQL documentation for detailed instructions on configuration.</p>
+</li>
+<li><p><strong>Connect to PostgreSQL</strong>: Once PostgreSQL is installed and configured, you can connect to it using pgAdmin or command-line tools like <code>psql</code>. Use these tools to manage databases, create tables, and execute SQL queries.</p>
+</li>
+</ol>
+<h2 id="sqlite">SQLite</h2>
+<p><img src="../../pages/guides/installation/assets/sqlite-logo.png" alt="SQLite"></p>
+<h3 id="windows-3">Windows</h3>
+<p><img src="../../pages/guides/installation/assets/windows-logo.png" alt="Windows"></p>
+<ol>
+<li><p><strong>Download SQLite</strong>: Visit the <a href="https://www.sqlite.org/download.html">SQLite Downloads</a> page and download the SQLite tools for Windows. You can choose between the precompiled binaries or the command-line shell.</p>
+</li>
+<li><p><strong>Install SQLite</strong>: After downloading, extract the contents of the downloaded file to a directory of your choice. SQLite is a self-contained, serverless database engine, so there's no formal installation process required.</p>
+</li>
+<li><p><strong>Set up Environment Variables (Optional)</strong>: If you plan to use SQLite from the command line frequently, you may want to add the directory containing the SQLite executable to your system's PATH environment variable. This will allow you to run SQLite commands from any directory in the command prompt.</p>
+</li>
+</ol>
+<h3 id="linux-3">Linux</h3>
+<p><img src="../../pages/guides/installation/assets/linux-logo.png" alt="Linux"></p>
+<ol>
+<li><strong>Install SQLite</strong>: SQLite is likely available in your Linux distribution's package repositories. Use your package manager to install SQLite. For example, on Ubuntu, you can use the following command:</li>
+</ol>
+<pre><code>sudo apt update
+sudo apt install sqlite3
+</code></pre>
+<ol start="2">
+<li><strong>Verify Installation</strong>: After installation, verify that SQLite is installed correctly by running the following command in the terminal:</li>
+</ol>
+<pre><code>sqlite3 --version
+</code></pre>
+<p>This command should display the installed version of SQLite.</p>
+<ol start="3">
+<li><strong>Start Using SQLite</strong>: Once installed, you can start using SQLite from the command line by running the <code>sqlite3</code> command followed by the name of the database file you want to create or connect to. For example:</li>
+</ol>
+<pre><code>sqlite3 mydatabase.db
+</code></pre>
+<p>This command will open the SQLite command-line interface and create or connect to a database file named <code>mydatabase.db</code>.</p>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases/latest">Official Oqtane Latest Release</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases">All Official Oqtane Releases</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub Repository</a></li>
+<li><a href="https://visualstudio.microsoft.com">Visual Studio</a></li>
+<li><a href="https://dotnet.microsoft.com">.NET Core</a></li>
+</ul>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="resources.html">Oqtane Installation Resources</a></li>
+</ul>
+<p><a href="index.html">← Back to Installation Home</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/databases.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

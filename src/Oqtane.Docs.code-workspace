@@ -19,6 +19,7 @@
     "files.associations": {
       "docfx.json": "jsonc"
     },
+    "liveServer.settings.port": 5501,
   },
   "extensions": {
     "recommendations": [

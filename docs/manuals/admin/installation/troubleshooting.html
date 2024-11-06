@@ -86,43 +86,55 @@
         <article data-uid="">
 <h1 id="installation-troubleshooting">Installation Troubleshooting</h1>
 
-<hr>
-<h2 id="overview">Overview</h2>
-<p>Encountering issues during the installation process can be frustrating, but with the right troubleshooting steps, you can overcome common obstacles and successfully set up Oqtane. Below are some common troubleshooting tips for both Windows and Linux installations:</p>
-<hr>
-<h2 id="windows-installation-troubleshooting">Windows Installation Troubleshooting</h2>
-<p><img src="../../../pages/manuals/admin/installation/assets/windows-logo.png" alt="Windows Logo"></p>
+<p>The Installation Troubleshooting section provides solutions for common errors and challenges encountered during the installation of the Oqtane Framework. This guide aims to assist users in resolving issues efficiently, ensuring a smooth setup experience.</p>
+<h2 id="common-installation-issues">Common Installation Issues</h2>
+<ol>
+<li><p><strong>Database Connection Problems</strong>:</p>
 <ul>
-<li><p><strong>Check Prerequisites</strong>: Ensure that all prerequisites, such as .NET Framework, IIS, or SQL Server, are installed correctly and meet the minimum version requirements specified in the <a href="https://docs.oqtane.org/manuals/installation">Oqtane documentation</a>.</p>
-</li>
-<li><p><strong>Permissions</strong>: Verify that you have sufficient permissions to install and configure Oqtane. Running installation processes with administrative privileges can help resolve permission-related issues.</p>
-</li>
-<li><p><strong>Firewall and Antivirus</strong>: Temporarily disable firewall or antivirus software during the installation process, as they may interfere with file downloads or server connections.</p>
-</li>
-<li><p><strong>Error Logs</strong>: Check error logs generated during the installation process for any specific error messages or exceptions. These logs can provide valuable insights into the root cause of installation failures.</p>
+<li>If the installation wizard fails to connect to the database, check the following:
+<ul>
+<li>Ensure the server address and database name are correctly entered.</li>
+<li>Verify that the database server is running and accessible.</li>
+<li>Confirm that the provided login credentials are valid and have the necessary permissions.</li>
+</ul>
 </li>
 </ul>
-<hr>
-<h2 id="linux-installation-troubleshooting">Linux Installation Troubleshooting</h2>
-<p><img src="../../../pages/manuals/admin/installation/assets/linux-logo.png" alt="Linux Logo"></p>
+</li>
+<li><p><strong>File Permission Errors</strong>:</p>
 <ul>
-<li><p><strong>Package Dependencies</strong>: Ensure that all required dependencies, such as Mono, Apache, MySQL, or PostgreSQL, are installed and configured correctly on your Linux system. Use package managers like <code>apt</code> or <code>yum</code> to install missing dependencies.</p>
-</li>
-<li><p><strong>File Permissions</strong>: Check file and directory permissions to ensure that the installation directory and relevant files are accessible by the installation process. Adjust permissions using <code>chmod</code> or <code>chown</code> commands as needed.</p>
-</li>
-<li><p><strong>Service Status</strong>: Verify the status of Apache or other web servers, as well as database services like MySQL or PostgreSQL, to ensure they are running properly. Restart services if necessary to resolve any issues.</p>
-</li>
-<li><p><strong>SELinux</strong>: If SELinux is enabled on your Linux system, it may restrict certain operations during the installation process. Temporarily disable SELinux or adjust its policies to allow necessary operations for Oqtane installation.</p>
+<li>If you encounter file permission issues, ensure that your web server has write access to the required directories. This is particularly important for:
+<ul>
+<li>SQLite databases, where the server needs permission to create and modify database files.</li>
+<li>Configuration files that need to be updated during installation.</li>
+</ul>
 </li>
 </ul>
-<hr>
+</li>
+<li><p><strong>Re-running the Installation Wizard</strong>:</p>
+<ul>
+<li>To re-run the installation wizard after an initial setup, remove the database connection string from the <code>appsettings.json</code> file. This file can typically be found in:
+<ul>
+<li>The website's root folder or in the <code>Oqtane.Server</code> project in Visual Studio.</li>
+</ul>
+</li>
+<li>Once the connection string is deleted, the installation wizard will prompt upon accessing the application URL.</li>
+</ul>
+</li>
+<li><p><strong>Unexpected Errors</strong>:</p>
+<ul>
+<li>If unexpected errors occur, refer to the server logs for detailed error messages. These logs can often provide insights into what went wrong during the installation process.</li>
+</ul>
+</li>
+</ol>
 <h2 id="additional-resources">Additional Resources</h2>
-<p>For further assistance and discussions on installation troubleshooting, you can explore the <a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub repository</a> and review <a href="https://github.com/oqtane/oqtane.framework/issues">existing issues</a> and <a href="https://github.com/oqtane/oqtane.framework/discussions">discussions</a> related to installation problems. Engaging with the community and seeking help from experienced users and developers can often provide valuable insights and solutions to resolve installation issues.</p>
+<p>For more in-depth guidance, consider exploring the following resources:</p>
 <ul>
-<li><a href="databases.html">Oqtane Supported Databases</a></li>
-<li><a href="resources.html">Oqtane Installation Resources</a></li>
+<li><a href="../../../guides/installation/index.html">Installation Guides</a>: Comprehensive setup guidance and environment-specific tips to help you through the installation process.</li>
+<li><a href="troubleshooting.html">Troubleshooting Installation Issues</a>: Detailed solutions for common installation errors and setup challenges, designed to assist both new and experienced users.</li>
+<li><a href="https://github.com/oqtane/oqtane.framework/discussions">GitHub Discussions</a>: Engage with the Oqtane community to find solutions to common installation questions and share your experiences.</li>
+<li><a href="https://github.com/oqtane/oqtane.framework/issues">GitHub Issues</a>: Report issues you encounter or check for existing issues related to installation problems.</li>
 </ul>
-<p><a href="index.html">← Back to Installation Home</a></p>
+<p>This section aims to streamline your installation experience by providing quick access to troubleshooting steps and resources. If you encounter any issues not covered in this guide, please refer to the community support channels for further assistance.</p>
 
 </article>
 

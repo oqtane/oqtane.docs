@@ -86,19 +86,73 @@
         <article data-uid="">
 <h1 id="admin-management-introduction">Admin Management Introduction</h1>
 
-<p>The admin dashboard has a variety of different tools for administrators to use in order to better manage their website and to add a great amount of functionality to the website. By selecting the gear icon in the top right of a page while being on an administrator account, then selecting the admin dashboard option at the top of the control panel, which will bring up a menu with a variety of options that can be selected.</p>
-<p><img src="../../../pages/manuals/admin/admin-management/assets/admin-dash.png" alt="adminDash"></p>
-<p>The default options in the dashboard that Oqtane offers for an administrator to use are:</p>
+<p>The Admin Dashboard in Oqtane provides administrators with a powerful suite of tools to manage, customize, and control various aspects of the site. These tools enable efficient management of content, users, site settings, and other features, helping administrators maintain and personalize the site effectively.</p>
+<p>Administrators can access the Admin Dashboard by logging in with an administrator account, clicking on the <strong>gear icon</strong> in the top-right corner to open the Control Panel, and selecting the <strong>Admin Dashboard</strong> option. This displays a menu of options that offer a variety of functionalities to manage the website.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/admin-dashboard.png" alt="Admin Dashboard"></p>
+<h2 id="control-panel-walkthrough">Control Panel Walkthrough</h2>
+<p>The Control Panel provides quick access to additional site settings and tools:</p>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>gear icon</strong> at the top right.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open Admin Dashboard</strong>: Click the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-admin-dashboard-button.png" alt="Admin Dashboard Button"></p>
+</li>
+<li><p><strong>Navigate to Desired Feature</strong>: In the Admin Dashboard, you’ll find icons for each feature available. Select the feature you wish to manage.</p>
+</li>
+</ol>
+<hr>
+<h2 id="access-permissions">Access Permissions</h2>
+<p>To access the Admin Dashboard, users must be assigned to the <strong>Administrator role</strong>. This can be done within the <strong>User Management</strong> feature by selecting the user and assigning them to the Administrator role.</p>
+<hr>
+<h2 id="admin-dashboard-features">Admin Dashboard Features</h2>
+<p>The following tools are available by default within the Admin Dashboard. Each link below will direct you to detailed documentation for that specific feature.</p>
+<h3 id="administrator-role-admin-dashboard-features">Administrator Role Admin Dashboard Features</h3>
 <ul>
-<li>Site Settings: Which provides a variety of settings to be able to modify and personalize your website with more information in the <a href="site-settings.html">site settings</a>.</li>
-<li>Page Management: Which provides a list of all pages on your website and provides the ability to to manipulate them in a variety of ways with more info on <a href="page-management.html">page management</a>.</li>
-<li>User Management: Which allows for the additional and modification of user accounts with more info on <a href="user-management.html">user management</a>.</li>
-<li>Profile Management: Which lets you specify what informational fields are available for a user to both optionally have and must have on their account with more info on <a href="profile-management.html">profile management</a>.</li>
-<li>Role Management: Which specifies what type of security group the user's account belongs in like giving an account administrative rights, with more info on <a href="role-management.html">role management</a>.</li>
-<li>File Management: Which allows the uploading of files like images to be inserted into pages with more info on <a href="file-management.html">file management</a>.</li>
-<li>Recycle Bin: Which allows for the restoration or full deletion of pages that were previously deleted with more info on <a href="recycle-bin.html">recycle bin</a>.
-If you want to add new options to the admin dashboard, then that can be done by creating a new page either in the <a href="../control-panel/page-management.md">control panel</a> or in the admin dashboard's <a href="page-management.html">page management</a> and specifying that you want &quot;Admin&quot; as the parent of the new page.</li>
+<li><strong><a href="site-settings.html">Site Settings</a></strong>: Configure site-wide settings, including site name, logo, language, and time zone.</li>
+<li><strong><a href="page-management.html">Page Management</a></strong>: Manage website pages—create, edit, arrange, and delete pages within the site hierarchy.</li>
+<li><strong><a href="user-management.html">User Management</a></strong>: Add, edit, and manage user accounts, including assigning roles and permissions.</li>
+<li><strong><a href="profile-management.html">Profile Management</a></strong>: Define profile fields for user accounts, ensuring necessary information is captured.</li>
+<li><strong><a href="role-management.html">Role Management</a></strong>: Create and manage security roles, defining user permissions across the site.</li>
+<li><strong><a href="file-management.html">File Management</a></strong>: Upload and manage files like images and documents for use throughout the website.</li>
+<li><strong><a href="recycle-bin.html">Recycle Bin</a></strong>: Restore or permanently delete items that have been removed from the site.</li>
+<li><strong><a href="url-mappings.html">URL Mappings</a></strong>: Manage URL redirects, handle broken links, and configure custom mappings.</li>
+<li><strong><a href="visitor-management.html">Visitor Management</a></strong>: Track visitor activity, manage session durations, and configure visitor tracking.</li>
+<li><strong><a href="search-settings.html">Search Settings</a></strong>: Configure the search index and parameters to improve search functionality.</li>
+<li><strong><a href="language-management.html">Language Management</a></strong>: Add and manage site languages, enabling multilingual support.</li>
 </ul>
+<hr>
+<h2 id="extending-the-admin-dashboard">Extending the Admin Dashboard</h2>
+<p>The Admin Dashboard in Oqtane is customizable, allowing administrators to add new pages or tools to extend site management capabilities. To add a custom page to the Admin Dashboard:</p>
+<ol>
+<li><p><strong>Access the Control Panel</strong>: Log in as an administrator and click the <strong>gear icon</strong> at the top right to open the Control Panel.</p>
+</li>
+<li><p><strong>Navigate to Page Management</strong>: In the Control Panel, select the <strong>Page Management</strong> section to access page configuration options.</p>
+</li>
+<li><p><strong>Create a New Admin Page</strong>:</p>
+<ul>
+<li>Click on the <strong>Add</strong> button within the <strong>Page Management</strong> section.</li>
+<li>In the page creation dialog, set the <strong>Parent Page</strong> to <strong>Admin</strong>. This action will designate the new page as part of the Admin Dashboard, making it accessible to administrators.</li>
+<li>Customize additional settings for the new page as needed, such as specifying a page title and assigning permissions.</li>
+</ul>
+</li>
+<li><p><strong>Save and Verify</strong>: Once saved, the new page will appear in the Admin Dashboard, providing additional functionality to administrators.</p>
+</li>
+</ol>
+<p>For further information on managing and organizing pages, visit the <a href="../content-management/page-management.html">Content Management - Page Management</a> documentation.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/admin-dashboard-new-admin-page.png" alt="Admin Dashboard Create Admin Page"></p>
+<p>With this process, administrators can extend the Admin Dashboard by adding custom management tools, offering enhanced control over site content, settings, and features.</p>
+<hr>
+<h2 id="quick-links-to-additional-documentation">Quick Links to Additional Documentation</h2>
+<p>For more in-depth information on installation and troubleshooting, refer to the following resources:</p>
+<ul>
+<li><strong><a href="../../../guides/installation/index.html">Installation Guides</a></strong>: Detailed instructions for initial setup, including environment-specific configurations.</li>
+<li><strong><a href="../troubleshooting.md">Troubleshooting Installation Issues</a></strong>: Solutions for common setup issues.</li>
+<li><strong><a href="https://github.com/oqtane/oqtane.framework/discussions">GitHub Discussions</a></strong>: Join the Oqtane community for support and to discuss ideas.</li>
+<li><strong><a href="https://github.com/oqtane/oqtane.framework/issues">GitHub Issues</a></strong>: Report and view issues, or search for existing solutions.</li>
+</ul>
+<hr>
+<p>This updated <strong>Admin Management Introduction</strong> page consolidates all Admin Dashboard features, provides an overview for each tool, and directs users to specific guides for additional information. This setup ensures administrators can efficiently find and use the tools they need to manage their site.</p>
 
 </article>
 

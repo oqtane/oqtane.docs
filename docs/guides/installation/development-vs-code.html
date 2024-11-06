@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Install Oqtane for Development using Visual Studio Code (VS Code) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Install Oqtane for Development using Visual Studio Code (VS Code) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/development-vs-code.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="install-oqtane-for-development-using-visual-studio-code-vs-code">Install Oqtane for Development using Visual Studio Code (VS Code)</h1>
+
+<h2 id="overview">Overview</h2>
+<p>Developing Oqtane applications with Visual Studio Code (VS Code) offers a lightweight yet powerful environment for coding, debugging, and managing project resources. While VS Code may not provide the full IDE experience of Visual Studio, it offers extensive support for web development tasks, including CSS editing, theme development, and module creation.</p>
+<hr>
+<h2 id="development">Development</h2>
+<p>For general development and keeping up with the latest features, you can use the development branch of the Oqtane Framework. However, for module development, it is recommended to target a <a href="https://github.com/oqtane/oqtane.framework/releases">stable release version</a> of the Oqtane Framework.</p>
+<ol>
+<li><p><strong>Install Latest .NET SDK Release</strong>: Ensure you have the latest .NET SDK installed on your system. You can download it from the <a href="https://dotnet.microsoft.com/download/dotnet">official .NET website</a>.</p>
+</li>
+<li><p><strong>Install Visual Studio Code</strong>: Download and install the latest edition of <a href="https://code.visualstudio.com/download">Visual Studio Code</a>. Ensure that the <strong>ASP.NET and web development</strong> workload is enabled during installation. Oqtane works with all editions of Visual Studio Code, from Community to Enterprise.</p>
+</li>
+<li><p><strong>Optional: Install Data Storage and Processing Extensions</strong>: If you prefer to use LocalDB for development (although not required, as Oqtane supports SQLite, MySQL, and PostgreSQL), you must install the necessary <strong>Data storage and processing</strong> extensions in VS Code.</p>
+</li>
+<li><p><strong>Clone Oqtane Dev Branch</strong>: Visit the <a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub Repository</a> and clone the Oqtane dev branch source code to your local system using Git Bash with the following command:</p>
+<pre><code class="lang-bash">git clone -b dev https://github.com/oqtane/oqtane.framework.git
+</code></pre>
+</li>
+<li><p><strong>Open Oqtane Solution</strong>&quot;: Navigate to the cloned directory and open the <strong>Oqtane.sln</strong> solution file in Visual Studio Code.</p>
+</li>
+<li><p>Copy Files to Hosted Folder Location: Copy the necessary files to the hosted folder location, which could be IIS or Apache root directory. This typically includes the compiled binaries and any static assets required for the application to run.</p>
+</li>
+<li><p><strong>Build the solution</strong>: Build the solution using the built-in terminal or the .NET CLI by running the following command:</p>
+<pre><code class="lang-bash">dotnet build
+</code></pre>
+</li>
+<li><p><strong>Run Application</strong>: After building the solution, you can run the Oqtane application locally using IIS or Apache. Ensure to stop/start the app pool or services related to the Oqtane app on the web server when updating file changes.</p>
+</li>
+</ol>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases/latest">Official Oqtane Latest Release</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework/releases">All Official Oqtane Releases</a></li>
+<li><a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub Repository</a></li>
+<li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+<li><a href="https://dotnet.microsoft.com">.NET Core</a></li>
+</ul>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="databases.html">Oqtane Supported Databases</a></li>
+<li><a href="resources.html">Oqtane Installation Resources</a></li>
+<li><a href="development-vs-code-linux.html">Oqtane Development Using Visual Studio Code with Linux</a></li>
+<li><a href="development.html">Oqtane Framework Development Using Visual Studio with Windows</a></li>
+</ul>
+<p><a href="index.html">← Back to Installation Home</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/installation/development-vs-code.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

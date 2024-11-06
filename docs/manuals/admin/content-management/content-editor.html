@@ -86,35 +86,101 @@
         <article data-uid="">
 <h1 id="content-editor">Content Editor</h1>
 
-<p>The content editor is what allows you to edit the modules on the page in a variety of ways. You access the content editor by clicking on the pencil on the top right side of the page which then shows the borders of the content pane which the modules are put inside of, as well as a small downward pointing arrow beside each module that allows you to open a menu to interact with the modules.</p>
-<p><img src="./assets/pencil-edit.png" alt="pencil-edit"></p>
-<p><img src="../../../pages/manuals/admin/content-management/assets/content-arrow.png" alt="content-arrow"></p>
-<p>The options for the module's menu are:</p>
+<p>The <strong>Content Editor</strong> allows you to edit the modules on the page in various ways. You can access the Content Editor by clicking on the pencil icon located at the top right side of the page. This action will display the borders of the content panes where the modules are placed and a small downward-pointing arrow next to each module, enabling you to open a menu for module interaction.</p>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-button.png" alt="Pencil Edit Icon"><br>
+<em>Click on this icon button to enable the Content Editor.</em></p>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-enabled-button.png" alt="Pencil Edit Enabled Icon"><br>
+<em>Click on this button again to disable the Content Editor. Notice how the appearance of the pencil icon changes between enabled and disabled states.</em></p>
+<p>When the Content Editor is enabled, borders around each content pane are displayed, indicating the layout of the theme.</p>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-pane-border.png" alt="Content Pane Border"><br>
+<em>The visible borders help you understand the layout of the page when in edit mode.</em></p>
+<h2 id="pane-header">Pane Header</h2>
+<p>When the Content Editor is activated, the top header of the pane is displayed, showing the name of the pane:</p>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-pane.png" alt="Pane Header">
+<img src="../../../pages/manuals/admin/content-management/assets/content-editor-pane-name.png" alt="Pane Name Display"></p>
+<h2 id="module-menu-options">Module Menu Options</h2>
+<p>When you click the downward-pointing &quot;caret-bottom&quot; arrow next to a module, you have access to the following options:</p>
+<p><img src="./assets/content-editor-module-options-caret-bottom-button.png" alt="Unpublish/Publish Module Menu Options Button"></p>
 <ul>
-<li>Manage Settings: Brings up the module's settings and permissions which allow you to change the:
+<li><p><strong>Manage Settings</strong>: Opens the module's settings and permissions, allowing you to change the:</p>
 <ul>
-<li>Title: The title displayed above the module.</li>
-<li>Container: Specify if you want the title to be displayed for the module.</li>
-<li>Display on All Pages: Choose whether you want this module to be on every page on the site.</li>
-<li>Page: Change the page that the module is displayed on.</li>
-<li>Permissions: Specify either what <a href="../admin-dashboard/role-management.md">roles</a> or individual users should be able to view or edit the page.</li>
+<li><strong>Title</strong>: The title displayed above the module.</li>
+<li><strong>Container</strong>: Specify whether you want the title to be displayed for the module.</li>
+<li><strong>Display on All Pages</strong>: Choose whether this module should appear on every page of the site.</li>
+<li><strong>Page</strong>: Change the page on which the module is displayed.</li>
+<li><strong>Permissions</strong>: Specify which <a href="../admin-management/role-management.html">roles</a> or individual users can view or edit the module.</li>
 </ul>
 </li>
-<li>Unpublish Module: Hides the module from everyone, but the site administrators for instances where you want to edit modules.</li>
-<li>Delete Module: Deletes the module from the page.</li>
-<li>Import Content: Enter a file's address to import it into the module, such as a image address to include it.</li>
-<li>Export Content: Enter a file address to select where to export data from a module.</li>
-<li>Move to Top: Moves the modules to the top of the page to be the first module displayed.</li>
-<li>Move Up: Moves the module up to be above the module above it.</li>
-<li>Move Down: Move the module down below the module beneath it.</li>
-<li>Move to Bottom: Moves the module to the bottom of the page, below all other modules.
-If the page has the layout for multiple panes, which will allows for three center rows and a top and bottom row that can have content inserted into them, then there will be additional options available which are:</li>
-<li>Move to Top Pane: Moves the module to the content pane at the top of the page.</li>
-<li>Move to Left Pane: Moves the module to the left-most column.</li>
-<li>Move to Right Pane: Moves the module to the right-most column.</li>
-<li>Move to Content Pane: Moves the module to the central column.</li>
-<li>Move to Bottom Pane: Moves the module to the pane at the bottom of the page.</li>
+<li><p><strong>Unpublish Module</strong>: Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.</p>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-module-options-unpublish-module.png" alt="Unpublish/Publish Module Option"></p>
+</li>
+<li><p><strong>Delete Module</strong>: Permanently removes the module from the page.</p>
+</li>
+<li><p><strong>Import Content</strong>: Enter a file's address (e.g., an image URL) to import it into the module.</p>
+</li>
+<li><p><strong>Export Content</strong>: Specify a file address to determine where to export data from the module.</p>
+</li>
+<li><p><strong>Move to Top</strong>: Moves the module to the top of the page, making it the first displayed module.</p>
+</li>
+<li><p><strong>Move Up</strong>: Moves the module up one position, placing it above the module currently above it.</p>
+</li>
+<li><p><strong>Move Down</strong>: Moves the module down one position, placing it below the module currently below it.</p>
+</li>
+<li><p><strong>Move to Bottom</strong>: Moves the module to the bottom of the page, below all other modules.</p>
+</li>
+<li><p><strong>Move Options</strong>: When you select &quot;Move to,&quot; additional options will be available, allowing you to choose a specific pane for the module.</p>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-module-options-move.png" alt="Move Options"></p>
+</li>
 </ul>
+<p>If the page layout includes multiple panes (e.g., three center rows, a top row, and a bottom row), you can select from various options to reposition your module across these panes:</p>
+<ul>
+<li><strong>Move to Top Pane</strong>: Moves the module to the content pane at the top of the page.</li>
+<li><strong>Move to Left Pane</strong>: Moves the module to the left-most column.</li>
+<li><strong>Move to Right Pane</strong>: Moves the module to the right-most column.</li>
+<li><strong>Move to Content Pane</strong>: Moves the module to the central column.</li>
+<li><strong>Move to Bottom Pane</strong>: Moves the module to the content pane at the bottom of the page.</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/content-management/assets/content-editor-module-options-move-to-pane.png" alt="Move to Pane Options"></p>
+<p>The <strong>Move to Pane</strong> feature is adaptable to different themes, and the available panes vary depending on the layout provided by the theme. In the example shown in the image, you’ll see a variety of pane options that a more complex theme might offer, giving administrators greater flexibility in organizing modules.</p>
+<p>For instance, the default Oqtane theme includes not only standard rows and columns but also numerous additional panes, which allow for a wide range of layout possibilities. While simpler themes may only display a few basic options, the default theme might provide over 20 panes, including:</p>
+<ul>
+<li><p><strong>Full-Width Panes</strong>: These panes span the entire width of the page. Examples include:</p>
+<ul>
+<li><strong>Top Full Width Pane</strong>: A full-width pane at the top of the page.</li>
+<li><strong>Bottom Full Width Pane</strong>: A full-width pane at the bottom of the page.</li>
+</ul>
+</li>
+<li><p><strong>100% Width Panes</strong>: These also span the full width, but are distinct from other full-width panes in terms of placement:</p>
+<ul>
+<li><strong>Top 100% Pane</strong>: Positioned below the top full-width pane, occupying the full page width.</li>
+<li><strong>Bottom 100% Pane</strong>: Positioned above the bottom full-width pane, also spanning the entire page width.</li>
+</ul>
+</li>
+<li><p><strong>50%/50% Split Panes</strong>: Divide the page into two equal sections:</p>
+<ul>
+<li><strong>Left 50% Pane</strong> and <strong>Right 50% Pane</strong>.</li>
+</ul>
+</li>
+<li><p><strong>33%/33%/33% Split Panes</strong>: For a balanced three-column layout:</p>
+<ul>
+<li><strong>Left 33% Pane</strong>, <strong>Center 33% Pane</strong>, and <strong>Right 33% Pane</strong>.</li>
+</ul>
+</li>
+<li><p><strong>25%/25%/25%/25% Split Panes</strong>: For a four-column layout:</p>
+<ul>
+<li><strong>Left Outer 25% Pane</strong>, <strong>Left Inner 25% Pane</strong>, <strong>Right Inner 25% Pane</strong>, and <strong>Right Outer 25% Pane</strong>.</li>
+</ul>
+</li>
+<li><p><strong>Asymmetrical Ratios</strong>: Options like:</p>
+<ul>
+<li><strong>Left 66% Pane</strong> and <strong>Right 33% Pane</strong>.</li>
+<li><strong>Left 33% Pane</strong> and <strong>Right 66% Pane</strong>.</li>
+</ul>
+</li>
+<li><p><strong>Footer Pane</strong>: An additional pane often reserved for footer content.</p>
+</li>
+</ul>
+<p>These pane options let administrators place modules precisely within the layout structure, which is divided into sections adding up to 100% of the layout width. The image shows this range of options, giving a visual reference of the <strong>Move To &gt;</strong> menu options when working with themes that support complex layouts. This flexibility enables customized content presentation to best suit each page’s design.</p>
 
 </article>
 
