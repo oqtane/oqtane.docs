@@ -85,9 +85,21 @@ Click the **Browse** button to view the site.
 ![Site Management Browse Button](./assets/site-management-browse-button.png)
 
 ---
-
 ## Deleting a Site
 
-Be very careful when deleting a site, as this action is permanent and cannot be undone.
+Be very careful when deleting a site, as this action is permanent and cannot be undone. Once a site is deleted, all data associated with it, including pages, content, and settings, will be permanently removed.
+
+To delete a site, follow these steps:
+
+1. **Access Site Settings**: Navigate to the **Site Management** page from the Admin Dashboard by clicking the **Edit** button next to the site you wish to delete.
+
+   ![Edit Site Button](./assets/site-management-edit-button.png)
+
+2. **Delete the Site**: In the **Site Settings** page, scroll down to the bottom and find the **Delete** option. Confirm your decision to delete the site when prompted.
+
+> **Warning**: Deleting a site is irreversible. Ensure that you have backed up any important data before proceeding.
+
+Once the site is deleted, the action cannot be undone. The site and all of its content will be permanently erased from the system.
+
 
 ---
