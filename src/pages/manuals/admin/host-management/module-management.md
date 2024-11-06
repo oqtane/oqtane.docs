@@ -111,3 +111,5 @@ The **Translations** tab allows you to manage localization for the module, ensur
 Click the **Create Module** button to develop a new custom module for your site.
 
 ![Module Management Create Module Button](./assets/module-management-create-module-button.png)
+
+> Note: A notification will be shown if you attempt to create modules in an instance of the application running in a production environment.
