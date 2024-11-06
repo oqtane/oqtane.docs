@@ -75,7 +75,7 @@ With this process, administrators can extend the Admin Dashboard by adding custo
 For more in-depth information on installation and troubleshooting, refer to the following resources:
 
 - **[Installation Guides](../../../guides/installation/index.md)**: Detailed instructions for initial setup, including environment-specific configurations.
-- **[Troubleshooting Installation Issues](../troubleshooting.md)**: Solutions for common setup issues.
+- **[Troubleshooting Installation Issues](../../../guides/troubleshooting/troubleshooting-installations.md)**: Solutions for common setup issues.
 - **[GitHub Discussions](https://github.com/oqtane/oqtane.framework/discussions)**: Join the Oqtane community for support and to discuss ideas.
 - **[GitHub Issues](https://github.com/oqtane/oqtane.framework/issues)**: Report and view issues, or search for existing solutions.
 

@@ -35,8 +35,8 @@ Oqtane.Maui is a hybrid .NET MAUI application that integrates with the Oqtane fr
 
 ### 3. Edit the `MauiConstants.cs` File (Option #1)
 
-1. Open your Oqtane.Maui project in Visual Studio. ![Oqtane.Maui Project Solution](maui-solution.png)
-2. Locate the `MauiConstants.cs` file in your project directory. ![Oqtane.Maui Set MauiConstants.cs Url](maui-solution.png)
+1. Open your Oqtane.Maui project in Visual Studio. ![Oqtane.Maui Project Solution](./assets/maui-solution.png)
+2. Locate the `MauiConstants.cs` file in your project directory. ![Oqtane.Maui Set MauiConstants.cs Url](./assets/maui-set-url.png)
 3. Modify the file to point to your Oqtane web application:
 
 ```csharp
