@@ -32,7 +32,7 @@ The Oqtane Installation Wizard simplifies the setup process, guiding you through
 
     > **Note:** The current web address used to access the install wizard will be set as the default base URL or alias for your Oqtane site.
 
-   ![Site Settings Screen](./assets/installation-wizard-application-configuration.png)
+   ![Site Settings Screen](./assets/installation-wizard-application-administration.png)
 
 4. **Complete Installation**:
    - Review your configuration and click **Install**. The wizard will apply your settings, configure the database, and prepare your Oqtane instance for use. (Optionally, you can select a checkbox to receive product updates and security bulletins.)
