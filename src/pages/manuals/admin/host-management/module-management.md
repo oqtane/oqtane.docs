@@ -108,13 +108,45 @@ The **Translations** tab allows you to manage localization for the module, ensur
 
 ## Creating a Module
 
-Click the **Create Module** button to develop a new custom module for your site.
+The **Create Module** button allows you to develop custom modules for your site, enhancing its functionality.
 
-![Module Management Create Module Button](./assets/module-management-create-module-button.png)
+   ![Module Management Create Module Button](./assets/module-management-create-module-button.png)
+
+When creating a module, you will be prompted to configure several settings:
+
+   ![Module Management Create Module Setting Description](./assets/module-management-create-module-settings-window.png)
+
+1. **Owner Name**: Enter the name of the organization creating the module (e.g., "YourCompanyName"). Avoid spaces, punctuation, and the term "oqtane."
+
+   ![Module Management Create Module Setting Owner Name](./assets/module-management-create-module-settings-owner-name.png)
+
+2. **Module Name**: Specify a unique name for the module, following similar naming guidelines as for the owner name.
+
+   ![Module Management Create Module Setting Module Name](./assets/module-management-create-module-settings-module-name.png)
+
+3. **Description**: Provide a brief description of the module's purpose and functionality.
+
+   ![Module Management Create Module Setting Description](./assets/module-management-create-module-settings-description.png)
+
+4. **Template**: Select a module template from the list. Templates are stored in the server directory at `wwwroot/Modules/Templates`.
+
+   ![Module Management Create Module Setting Template](./assets/module-management-create-module-settings-template.png)
+
+5. **Framework Reference**: Choose the desired framework reference version. The default is "Installed Version," but previous framework versions are also available.
+
+   ![Module Management Create Module Setting Framework Reference](./assets/module-management-create-module-settings-framework-reference.png)
+
+After completing the settings, finalize the module creation by clicking **Create Module**.
+
+   ![Module Management Create Module Window Buttons](./assets/module-management-create-module-settings-window-buttons.png)
+
+Upon success, a notification confirms that the module was created.
+
+   ![Module Management Create Module Notification](./assets/module-management-create-module-notification.png)
 
 ### **Warning**: Module Creation in Production Environments
 
-**Module creation** should be performed in a **development environment** only. Creating or developing modules directly in a **production environment** can lead to performance issues, instability, or security risks. It's best to develop and test your modules in a safe environment before deploying them to your live site. This ensures that the module functions as expected without affecting the user experience on your production site.
+**Module creation** should be reserved for **development environments**. Avoid creating or developing modules directly in a **production environment** as it can impact performance, stability, and security. Developing and testing modules in a controlled setting first helps ensure they work as expected when deployed on a live site.
 
 ---
 
