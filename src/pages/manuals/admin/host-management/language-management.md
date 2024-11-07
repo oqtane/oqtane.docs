@@ -59,6 +59,8 @@ When you click the **Add Language** button, a new **Upload** tab is available sp
 
 2. Use the **Upload** feature to add one or more translation packages. This allows you to quickly expand language options by uploading pre-configured translation files.
 
+3. If you decide not to proceed, select the **Cancel** or **Close** button to exit the upload window without making changes.
+
    ![Upload Window](./assets/language-management-upload-window.png)
 
 ---
