@@ -13,8 +13,6 @@
       href: module-configuration.md
     - name: Customizing Module Appearance
       href: customizing-module-appearance.md
-    - name: Troubleshooting Modules
-      href: troubleshooting-modules.md
 
 - name: Developing Modules
   items:
@@ -24,5 +22,6 @@
       href: module-development.md
     - name: Module Deployment
       href: module-deployment.md
-    - name: Troubleshooting Module Development
-      href: troubleshooting-module-development.md
+    
+- name: Troubleshooting
+  href: troubleshooting.mg

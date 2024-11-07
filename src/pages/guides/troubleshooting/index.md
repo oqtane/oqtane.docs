@@ -14,18 +14,44 @@ The Oqtane Troubleshooting Guide aims to assist users in resolving common proble
 
 ## Next Steps
 
-Read about:
+Read about the following troubleshooting sections to resolve specific issues:
+  
+### User Management Troubleshooting
 
-- [Troubleshooting Login Issues](troubleshooting-login-issues.md)
--  [Troubleshooting User Registration Email Verification](troubleshooting-user-registration-email-verification.md)
+- [Troubleshooting Login Issues](troubleshooting-login-issues.md)  
+  Find solutions for common login problems, including expired certificates and session management.
+
+- [Troubleshooting User Registration Email Verification](troubleshooting-user-registration-email-verification.md)  
+  Guidance on resolving issues with user registration, email verification, and account activation.
+
+### Installation, Upgrades, and Migration Troubleshooting
+
 - [Installation Troubleshooting](troubleshooting-installation.md)  
-   Instructions for resolving installation problems and verifying system requirements.
-- [Marketplace Troubleshooting](troubleshooting-marketplace.md)  
-  Solutions for common challenges encountered in the Oqtane Marketplace.
+  Instructions for resolving installation problems and verifying system requirements.
+
+- [Migration Troubleshooting](troubleshooting-migrations.md)  
+  Steps for troubleshooting environment migrations, such as moving from development to production or server-to-server.
+
+### Module Troubleshooting
+
 - [Modules Troubleshooting](troubleshooting-modules.md)  
-   Guidance on resolving issues with module installation, compatibility, and functionality.
+  Help for resolving issues with module installation, compatibility, and functionality.
+
+- [Troubleshooting Developing Modules](troubleshooting-developing-modules.md)  
+  Guidance for developers working with modules, addressing common issues during the development process such as dependencies, installation, and functionality problems.
+
+### Themes Troubleshooting
+
 - [Themes Troubleshooting](troubleshooting-themes.md)  
-   Tips for addressing layout, styling, and rendering issues in Oqtane themes.
+  Tips for addressing layout, styling, and rendering issues in Oqtane themes.
+
+- [Troubleshooting Developing Themes](troubleshooting-developing-themes.md)  
+  Solutions for developers facing layout, styling, or rendering issues while working with Oqtane themes, including common CSS and JavaScript problems.
+
+### Marketplace Troubleshooting
+
+- [Marketplace Troubleshooting](troubleshooting-marketplace.md)  
+  Solutions for challenges faced within the Oqtane Marketplace, such as module installation and compatibility.
 
 ## Tasks to Complete
 

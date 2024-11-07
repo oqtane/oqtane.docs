@@ -10,7 +10,7 @@ Encountering issues during the installation process can be frustrating, but with
 
 ## Windows Installation Troubleshooting
 
-![Windows Logo](assets/windows-logo.png)
+![Windows Logo](../installation/assets/windows-logo.png)
 
 - **Check Prerequisites**: Ensure that all prerequisites, such as .NET Framework, IIS, or SQL Server, are installed correctly and meet the minimum version requirements specified in the [Oqtane documentation](https://docs.oqtane.org/manuals/installation).
 
@@ -24,7 +24,7 @@ Encountering issues during the installation process can be frustrating, but with
 
 ## Linux Installation Troubleshooting
 
-![Linux Logo](assets/linux-logo.png)
+![Linux Logo](../installation/assets/linux-logo.png)
 
 - **Package Dependencies**: Ensure that all required dependencies, such as Mono, Apache, MySQL, or PostgreSQL, are installed and configured correctly on your Linux system. Use package managers like `apt` or `yum` to install missing dependencies.
 
@@ -40,7 +40,7 @@ Encountering issues during the installation process can be frustrating, but with
 
 For further assistance and discussions on installation troubleshooting, you can explore the [Oqtane Framework GitHub repository](https://github.com/oqtane/oqtane.framework) and review [existing issues](https://github.com/oqtane/oqtane.framework/issues) and [discussions](https://github.com/oqtane/oqtane.framework/discussions) related to installation problems. Engaging with the community and seeking help from experienced users and developers can often provide valuable insights and solutions to resolve installation issues.
 
-- [Oqtane Supported Databases](databases.md)
-- [Oqtane Installation Resources](resources.md)
+- [Oqtane Supported Databases](../installation/databases.md)
+- [Oqtane Installation Resources](../installation/resources.md)
 
 [← Back to Installation Home](index.md)
