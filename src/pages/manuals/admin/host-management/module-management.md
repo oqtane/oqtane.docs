@@ -136,17 +136,23 @@ When creating a module, you will be prompted to configure several settings:
 
    ![Module Management Create Module Setting Framework Reference](./assets/module-management-create-module-settings-framework-reference.png)
 
-After completing the settings, finalize the module creation by clicking **Create Module**.
+After entering in the information Location text field shows up in the window displaying where the module will be created prior to clicking create module.
+  
+   ![Module Management Create Module Notification](./assets/module-management-create-module-settings-location.png)
+
+After completing the settings, finalize the module creation by clicking **Create Module**.  To exit the window click the **Cancel** button or the **X** icon located on the top right of the window.
 
    ![Module Management Create Module Window Buttons](./assets/module-management-create-module-settings-window-buttons.png)
 
-Upon success, a notification confirms that the module was created.
+Upon success, a notification confirms that the module was created and you will be asked to compile the module project and then restart to start working with your module in the application framework.
 
-   ![Module Management Create Module Notification](./assets/module-management-create-module-notification.png)
+   ![Module Management Create Module Notification](./assets/module-management-create-module-success-notification.png)
 
 ### **Warning**: Module Creation in Production Environments
 
 **Module creation** should be reserved for **development environments**. Avoid creating or developing modules directly in a **production environment** as it can impact performance, stability, and security. Developing and testing modules in a controlled setting first helps ensure they work as expected when deployed on a live site.
+
+   ![Module Management Create Module Notification](./assets/module-management-create-module-notification.png)
 
 ---
 
