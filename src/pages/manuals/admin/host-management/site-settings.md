@@ -54,24 +54,33 @@ The **URLs** section lets you manage the URLs associated with your site, includi
 
 - **Add a URL**:
   - Click the **Add** button.
+ 
+   ![Edit Edit Button](./assets/site-settings-site-urls-edit-button.png)
+
   - Enter the **URL** in the provided field.
   - Choose **Yes** or **No** for **Default** to set it as the primary URL.
   - Click **Save** to add the URL or **Cancel** to discard changes.
 
-   ![Add URL Window](./assets/site-settings-urls-add-window.png)
+   ![Add URL Window](./assets/site-settings-site-urls-add-window.png)
 
 - **Edit a URL**:
   - Click the **Edit** button next to an existing URL.
+ 
+   ![Edit Edit Button](./assets/site-settings-site-urls-edit-button.png)
+
   - Modify the URL or adjust the **Default** setting.
   - Click **Save** to save changes or **Cancel** to discard them.
 
-   ![Edit URL Window](./assets/site-settings-urls-edit-window.png)
+   ![Edit URL Window](./assets/site-settings-site-urls-edit-window.png)
 
 - **Delete a URL**:
   - Click the **Delete** button next to a URL.
+ 
+   ![Edit Delete Button](./assets/site-settings-site-urls-delete-button.png)
+
   - Confirm deletion in the prompt window.
 
-   ![Delete URL Confirmation](./assets/site-settings-urls-delete-confirmation-window.png)
+   ![Delete URL Confirmation](./assets/site-settings-site-urls-delete-confirmation-window.png)
 
 ---
 
