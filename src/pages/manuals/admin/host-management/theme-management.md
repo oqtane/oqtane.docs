@@ -75,12 +75,24 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
 
    ![Theme Management Create Theme Button](./assets/theme-management-create-theme-button.png)
 
-2. In the create theme window, provide the necessary details:
+2. In the create theme window, provide the following details:
+
    - **Owner Name**: Enter the owner or creator of the theme.
-     ![Theme Management Create Theme Setting Owner Name](./assets/theme-management-create-theme-settings-owner-name.png)
+
+     ![Owner Name Setting](./assets/theme-management-create-theme-settings-owner-name.png)
 
    - **Theme Name**: Give your theme a name.
-     ![Theme Management Create Theme Setting Theme Name](./assets/theme-management-create-theme-settings-theme-name.png)
+
+     ![Theme Name Setting](./assets/theme-management-create-theme-settings-theme-name.png)
+
+   - **Template**: Select a theme template. Templates are located in the `wwwroot/Themes/Templates` folder on the server.
+
+     ![Template Setting](./assets/theme-management-create-theme-settings-template.png)
+
+   - **Framework Reference**: Choose a framework version to ensure compatibility with your environment.
+
+     ![Framework Reference Setting](./assets/theme-management-create-theme-settings-framework-reference.png)
+
 
 3. Once all settings are configured, click the **Create Theme** button to save the new theme.
 
