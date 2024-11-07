@@ -101,7 +101,7 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
 
    ![Theme Management Create Theme Settings Create Theme Button](./assets/theme-management-create-theme-settings-create-theme-button.png)
 
-4. After successfully creating the theme, you will see a notification confirming the creation.
+4. After successfully creating the theme, you will see a notification confirming the creation and instructing you to compile the new theme project and restart the application.
 
    ![Theme Management Create Theme Notification](./assets/theme-management-create-theme-created-success-notification.png)
 
