@@ -28,7 +28,7 @@ Explore the guides listed below to get started with Oqtane. These will walk you 
 - **[Installation](installation/index.md)**  
   Step-by-step guide to getting Oqtane set up in your environment. Covers system requirements, installation procedures, and first-time setup.
 
-- **[Migration](migration/index.md)**  
+- **[Migration](migrations/index.md)**  
   Instructions for migrating your Oqtane environment from development to production or between servers.
 
 - **[Modules](modules/index.md)**  

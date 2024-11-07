@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Troubleshooting File Manager | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Troubleshooting File Manager | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-file-manager.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="troubleshooting-file-manager">Troubleshooting File Manager</h1>
+
+<p>The File Manager in Oqtane provides a way to manage files and assets within the application. However, like any system, it may encounter issues related to file uploads, permissions, and other operational aspects. This guide will help you identify and resolve common problems that may arise while using the File Manager.</p>
+<h2 id="common-issues-and-solutions">Common Issues and Solutions</h2>
+<h3 id="1-file-upload-failures">1. File Upload Failures</h3>
+<p><strong>Symptom:</strong><br>
+Files are not uploading successfully, and you receive an error message such as &quot;File upload failed.&quot;</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Check the file size limits. Oqtane may have size restrictions on file uploads, which can be configured in the settings or web.config. Ensure that the file being uploaded does not exceed these limits.</li>
+<li>Review the permissions of the directory where files are being uploaded. The File Manager needs appropriate read/write permissions to function correctly.</li>
+<li>If the error persists, check the application logs for more specific error messages related to file handling or permissions.</li>
+</ul>
+<h3 id="2-file-type-restrictions">2. File Type Restrictions</h3>
+<p><strong>Symptom:</strong><br>
+Certain file types are not being uploaded or are being rejected by the system.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Verify that the file type is allowed in the Oqtane File Manager configuration. You may need to modify the allowed file types list if certain types are restricted.</li>
+<li>If the file type should be allowed, check the server’s MIME type configuration to ensure that the file type is registered correctly for upload.</li>
+</ul>
+<h3 id="3-missing-files-after-upload">3. Missing Files After Upload</h3>
+<p><strong>Symptom:</strong><br>
+Files appear to upload successfully, but they are not visible in the File Manager afterward.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Check the destination folder in the File Manager to confirm that the file was uploaded to the correct directory.</li>
+<li>Ensure that the correct file path is set in the system configuration, and check for any issues with the server’s file system.</li>
+<li>Verify that the File Manager is correctly displaying files from the uploaded directory. If necessary, refresh the view to load the updated list of files.</li>
+</ul>
+<h3 id="4-permissions-issues-with-files-and-folders">4. Permissions Issues with Files and Folders</h3>
+<p><strong>Symptom:</strong><br>
+Users are unable to access or modify files within the File Manager due to permission issues.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Check the file and folder permissions to ensure that the appropriate users or roles have the necessary access to read, write, or delete files.</li>
+<li>If running on a Linux/Unix server, make sure that the file permissions are correctly set (<code>chmod</code> command) and that the file ownership is correct (<code>chown</code> command).</li>
+<li>On Windows, check the file/folder permissions in the File Explorer and ensure the IIS user or web app pool identity has the correct rights.</li>
+</ul>
+<h3 id="5-file-manager-interface-not-loading-or-crashing">5. File Manager Interface Not Loading or Crashing</h3>
+<p><strong>Symptom:</strong><br>
+The File Manager interface fails to load or crashes during usage.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Check for any JavaScript errors in the browser's developer console that could be preventing the File Manager from functioning properly.</li>
+<li>Verify that all necessary JavaScript and CSS files for the File Manager are loaded properly. If files are missing or not being served, they may need to be re-deployed.</li>
+<li>Clear your browser’s cache and cookies to resolve any residual issues related to outdated files.</li>
+<li>Ensure that your Oqtane application is running the latest version, as issues with the File Manager could have been addressed in recent updates.</li>
+</ul>
+<h3 id="6-error-messages-on-file-deletion">6. Error Messages on File Deletion</h3>
+<p><strong>Symptom:</strong><br>
+An error message appears when attempting to delete a file from the File Manager.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Check if the file is currently in use or locked by another process. Ensure that no other application or user has the file open when attempting to delete it.</li>
+<li>Review the file permissions to ensure that the user attempting the deletion has the necessary rights to remove the file.</li>
+<li>If the file deletion fails, check the Oqtane logs for more details about the error or any file system-related issues.</li>
+</ul>
+<hr>
+<h2 id="general-troubleshooting-steps">General Troubleshooting Steps</h2>
+<p>If you're encountering an issue not specifically addressed here, follow these general troubleshooting steps:</p>
+<ol>
+<li><p><strong>Clear Browser Cache:</strong><br>
+Clear your browser’s cache to rule out issues caused by outdated resources or settings.</p>
+</li>
+<li><p><strong>Check Logs:</strong><br>
+Review the Oqtane application logs or the web server’s logs for any error messages or warnings that could indicate issues with the File Manager.</p>
+</li>
+<li><p><strong>Check File Paths:</strong><br>
+Ensure that the file paths configured in Oqtane (either through settings or web.config) are correct and accessible by the server.</p>
+</li>
+<li><p><strong>Verify Server Permissions:</strong><br>
+Double-check server-level file permissions for the directory used by the File Manager. Ensure that the web application has read/write access to this directory.</p>
+</li>
+</ol>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>The File Manager in Oqtane is a vital part of the system for managing assets and files. If you experience issues, it's usually related to permissions, file size/type restrictions, or misconfigurations. By following the troubleshooting steps provided, you should be able to resolve most issues related to the File Manager.</p>
+<p>For further assistance or specific use cases reach out to the Oqtane community.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-file-manager.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

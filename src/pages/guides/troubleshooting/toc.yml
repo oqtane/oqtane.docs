@@ -2,7 +2,10 @@
 - name: Introduction
   href: index.md
 
-# User Management Troubleshooting
+# System Troubleshooting
+- name: Troubleshooting File Manager
+  href: troubleshooting-file-manager.md
+
 - name: Troubleshooting Login Issues
   href: troubleshooting-login-issues.md
 

@@ -64,3 +64,5 @@ Your Theme or Control could be
 ## Flow of a Click - Event
 
 1. SSR: Click....tbd
+
+[← Back to Documentation Guides Home Page](../index.md)

@@ -1,0 +1,17 @@
+- name: Introduction
+  href: index.md
+
+- name: Installation
+  href: ../installation/databases.md
+
+- name: Database Schema
+  href: database-schema.md
+
+- name: Database Migration
+  href: ../migrations/database-migration.md
+
+- name: Best Practices
+  href: best-practices.md
+
+- name: Troubleshooting
+  href: troubleshooting.md
