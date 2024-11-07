@@ -5,11 +5,14 @@
 - name: Troubleshooting Installations
   href: troubleshooting-installations.md
 
+- name: Troubleshooting Migrations
+  href: troubleshooting-migrations.md
+
 - name: Troubleshooting Modules
   href: troubleshooting-modules.md
 
 - name: Troubleshooting Developing Modules
-  href: troubleshooting-developing-Modules.md
+  href: troubleshooting-developing-modules.md
 
 - name: Troubleshooting Themes
   href: troubleshooting-themes.md
@@ -18,7 +21,7 @@
   href: troubleshooting-developing-themes.md
 
 - name: Troubleshooting Marketplace
-  href: troubleshooting-modules.md
+  href: troubleshooting-marketplace.md
 
 - name: Troubleshooting Login Issues
   href: troubleshooting-login-issues.md
