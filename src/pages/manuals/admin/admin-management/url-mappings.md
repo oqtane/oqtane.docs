@@ -16,15 +16,15 @@ The **URL Mappings** feature allows administrators to define mappings from one U
 
 1. Click the control panel icon to access additional settings.
 
-   ![Control Panel Icon](assets/control-panel-button.jpg)
+   ![Control Panel Icon](assets/control-panel-button.png)
 
 1. In the control panel, select the button to open the admin dashboard.
 
-   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.jpg)
+   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
 
 1. In the admin dashboard, click on the URL Mappings icon to configure your URL mappings.
 
-   ![Admin Dashboard URL Mappings](assets/admin-dashboard-url-mappings.jpg)
+   ![Admin Dashboard URL Mappings](assets/admin-dashboard-url-mappings.png)
 
 ---
 
