@@ -2,15 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Troubleshooting Developing Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Troubleshooting Developing Themes | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Troubleshooting Developing Modules | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Troubleshooting Developing Themes | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
       <link rel="stylesheet" href="../../public/main.css">
       <meta name="docfx:navrel" content="../../toc.html">
-      <meta name="docfx:tocrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
       
       <meta name="docfx:rel" content="../../">
       
@@ -84,9 +84,89 @@
         </div>
 
         <article data-uid="">
-<h1 id="troubleshooting-developing-modules">Troubleshooting Developing Modules</h1>
+<h1 id="troubleshooting-developing-themes">Troubleshooting Developing Themes</h1>
 
-<p>TODO</p>
+<h2 id="overview">Overview</h2>
+<p>This guide provides troubleshooting steps for common issues developers may encounter when creating, modifying, or debugging themes in the Oqtane Framework. Themes control the look and feel of the site, and issues related to theme development can affect the user experience and functionality. The troubleshooting steps below address some of the most common problems faced by theme developers.</p>
+<hr>
+<h2 id="1-theme-not-displaying-correctly">1. Theme Not Displaying Correctly</h2>
+<p><strong>Symptoms</strong>: After activating the theme, the site displays with default styles or fails to load the theme correctly.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check Theme Files</strong>: Ensure that the theme files (CSS, JavaScript, images, etc.) are correctly located in the theme directory and are properly referenced in the theme's <code>.cshtml</code> files. Any missing or misreferenced files can cause the theme to load incorrectly.</li>
+<li><strong>Clear Cache</strong>: Sometimes, changes may not appear due to cached assets. Clear both the browser cache and the Oqtane cache by going to the control panel and refreshing the page.</li>
+<li><strong>Validate Theme Settings</strong>: Ensure the correct theme is set in the Oqtane control panel. If a different theme is activated, it may override your changes.</li>
+<li><strong>Check for Errors</strong>: Review the browser console and server logs for any errors that might indicate missing files or issues with theme-related scripts or styles.</li>
+</ul>
+<hr>
+<h2 id="2-theme-styles-not-applied">2. Theme Styles Not Applied</h2>
+<p><strong>Symptoms</strong>: The theme loads but the styles do not apply as expected.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check CSS References</strong>: Verify that the CSS files are correctly linked in the layout files (e.g., <code>_Host.cshtml</code>). Ensure the paths to the CSS files are correct, and check that they are being loaded in the page's <code>&lt;head&gt;</code> section.</li>
+<li><strong>Validate CSS Rules</strong>: Ensure there are no conflicting or overridden styles. Use browser developer tools to inspect the page and check whether the CSS rules are being applied to elements as intended.</li>
+<li><strong>Check for Specificity Issues</strong>: If your styles are not being applied, it could be due to CSS specificity. Review the order of CSS rules and make sure that your custom styles are more specific than the default styles or are being loaded after them.</li>
+</ul>
+<hr>
+<h2 id="3-javascript-not-working">3. JavaScript Not Working</h2>
+<p><strong>Symptoms</strong>: JavaScript functionality (e.g., interactive elements) does not work after applying the theme.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check Console for Errors</strong>: Open the browser’s developer console and look for any JavaScript errors. These could provide clues about why the script isn't running, such as missing files or syntax issues.</li>
+<li><strong>Check Script References</strong>: Ensure JavaScript files are correctly linked in the layout (<code>_Host.cshtml</code>). Verify that they are loaded in the right order, as some libraries may depend on others (e.g., jQuery needs to be loaded before Bootstrap).</li>
+<li><strong>Check for jQuery Conflicts</strong>: If you're using jQuery, ensure there are no conflicts with other JavaScript libraries. For example, a newer version of jQuery might conflict with older plugins or vice versa.</li>
+</ul>
+<hr>
+<h2 id="4-theme-layout-issues">4. Theme Layout Issues</h2>
+<p><strong>Symptoms</strong>: The theme layout breaks on different screen sizes, or the content does not appear as expected.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Responsive Design</strong>: Ensure that your theme's CSS includes responsive design rules (e.g., media queries). This ensures that the layout adapts to different screen sizes and devices.</li>
+<li><strong>Check Layout Files</strong>: Review your theme’s layout files (e.g., <code>_Layout.cshtml</code>) for issues with the grid system, container elements, or view sections that could be causing layout issues.</li>
+<li><strong>Browser Compatibility</strong>: Test your theme in different browsers to ensure cross-browser compatibility. Some CSS or JavaScript features may not be supported in older versions of certain browsers.</li>
+<li><strong>Use Browser Developer Tools</strong>: Use developer tools in the browser to test different screen sizes and identify issues with the layout or design.</li>
+</ul>
+<hr>
+<h2 id="5-theme-assets-not-loading">5. Theme Assets Not Loading</h2>
+<p><strong>Symptoms</strong>: Images, fonts, or other assets are missing or not loading after activating the theme.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check File Paths</strong>: Ensure that the paths to images, fonts, and other assets are correct. If you're using relative paths, verify they are correct based on the folder structure.</li>
+<li><strong>Permissions</strong>: Check that the server has the proper permissions to serve static assets (e.g., images, fonts, JS files).</li>
+<li><strong>Browser Console Errors</strong>: Review the browser console for errors related to missing assets. These errors can provide the exact paths that are broken, allowing you to correct them.</li>
+<li><strong>Check for CORS Issues</strong>: If your theme uses assets hosted on a different domain (e.g., CDNs), ensure that cross-origin resource sharing (CORS) is configured correctly on the server.</li>
+</ul>
+<hr>
+<h2 id="6-performance-issues">6. Performance Issues</h2>
+<p><strong>Symptoms</strong>: The theme causes the site to load slowly or have performance issues.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Optimize Images</strong>: Ensure that images are optimized for web use. Large, unoptimized images can significantly slow down the page load time.</li>
+<li><strong>Minify CSS and JavaScript</strong>: Minify and bundle your CSS and JavaScript files to reduce the number of HTTP requests and the size of each file.</li>
+<li><strong>Lazy Load Images</strong>: For images that are below the fold or not immediately visible, consider implementing lazy loading to defer their loading until they are needed.</li>
+<li><strong>Check for Heavy Scripts</strong>: Review your JavaScript files to ensure they are efficient and don't contain any blocking or resource-heavy operations that might impact performance.</li>
+</ul>
+<hr>
+<h2 id="7-custom-theme-components-not-rendering">7. Custom Theme Components Not Rendering</h2>
+<p><strong>Symptoms</strong>: Custom components (e.g., widgets or dynamic content) do not appear or render incorrectly within the theme.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check for Rendering Errors</strong>: Inspect the browser console for any rendering errors. Missing or incorrectly configured components will usually throw errors that can guide you to the root cause.</li>
+<li><strong>Verify Component Registration</strong>: Ensure your custom components are correctly registered in the Oqtane module or layout file.</li>
+<li><strong>Ensure Correct Model Binding</strong>: If your custom component requires data binding, ensure the model is being correctly passed from the controller or view.</li>
+</ul>
+<hr>
+<h2 id="8-theme-compatibility-with-oqtane-updates">8. Theme Compatibility with Oqtane Updates</h2>
+<p><strong>Symptoms</strong>: The theme breaks or doesn't work as expected after updating Oqtane.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check Release Notes</strong>: Review the Oqtane release notes for any breaking changes or updates to the theme framework that might affect your theme. Pay attention to changes in the layout or module system.</li>
+<li><strong>Update Theme Files</strong>: If necessary, update your theme to be compatible with the new Oqtane version. This could involve adjusting CSS, JavaScript, or layout files to align with changes introduced in newer Oqtane versions.</li>
+<li><strong>Test in Development</strong>: Before applying updates in production, test your theme in a development environment to ensure everything works as expected with the latest version of Oqtane.</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>By following the troubleshooting steps outlined in this guide, you should be able to resolve most common issues encountered when developing or maintaining themes in Oqtane Framework. For issues that persist, consider seeking help from the Oqtane community or support channels for further assistance.</p>
 
 </article>
 

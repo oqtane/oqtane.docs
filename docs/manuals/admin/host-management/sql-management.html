@@ -86,8 +86,98 @@
         <article data-uid="">
 <h1 id="sql-management">SQL Management</h1>
 
-<p>The SQL console permits database access directly from inside Oqtane. So the host, even if it's not near an instance of SQL Server Management Studio, still has access to a powerful database tool. This allows for SQL statements to be run directly from the Oqtane application onto the tenants which are also called databases. The results of any SQL query that is run will be returned directly below the execute button.</p>
-<p><img src="../../../pages/manuals/admin/host-management/assets/sql-management.png" alt="sql-management"></p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/sql-management.png" alt="SQL Management"></p>
+<h2 id="overview">Overview</h2>
+<p>The SQL Management feature provides direct access to the database through the Oqtane interface, allowing administrators to execute SQL queries on the tenant databases (also called sites). This feature enables quick database management and troubleshooting without requiring a separate SQL Server Management Studio instance.</p>
+<p>By using the SQL console, you can run SQL queries directly from the Oqtane application. The results of any executed SQL statements will be displayed below the execute button, providing immediate feedback. This feature is particularly useful for administrators who need to interact with the database quickly.</p>
+<h3 id="accessing-the-sql-management-feature">Accessing the SQL Management Feature</h3>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>Control Panel</strong> icon to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Navigate to Admin Dashboard</strong>: In the Control Panel, select the button to open the <strong>Admin Dashboard</strong>.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p><strong>Open SQL Management</strong>: In the Admin Dashboard, click on the <strong>SQL Management</strong> icon to access the SQL console.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/admin-dashboard-sql-management.png" alt="Admin Dashboard SQL Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="adding-a-connection">Adding a Connection</h2>
+<p>To add a new database connection:</p>
+<ol>
+<li><p>Click the <strong>Add Connection</strong> button in the SQL Management interface.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/sql-management-add-connection-button.png" alt="Add Connection Button"></p>
+</li>
+<li><p>The <strong>Add Connection Settings</strong> window will appear, where you can configure the connection settings such as the server name, credentials, and database name.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/sql-management-add-connection.png" alt="Add Connection Window"></p>
+</li>
+</ol>
+<hr>
+<h2 id="default-connection">Default Connection</h2>
+<p>Once you've set up your connection, the default connection will be displayed for easy reference.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/sql-management-default-connection.png" alt="Default Connection"></p>
+<hr>
+<h2 id="executing-queries">Executing Queries</h2>
+<p>After setting up the connection, you can begin writing your SQL queries. To execute a query, click the <strong>Execute</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/sql-management-execute-button.png" alt="Execute Button"></p>
+<hr>
+<h2 id="using-the-sql-management-console">Using the SQL Management Console</h2>
+<p>Once inside the SQL Management page, you can interact with the SQL console to execute queries on the tenant databases.</p>
+<h3 id="sql-console-interface">SQL Console Interface</h3>
+<ul>
+<li><strong>Query Input Field</strong>: This is where you type your SQL query.</li>
+<li><strong>Execute Button</strong>: After entering your SQL statement, click the <strong>Execute</strong> button to run the query on the selected tenant database.</li>
+<li><strong>Results Display</strong>: The results of the executed query will be displayed directly below the <strong>Execute</strong> button, showing either the returned data or any error messages.</li>
+</ul>
+<h3 id="sql-query-example">SQL Query Example</h3>
+<pre><code class="lang-sql">SELECT * FROM Users WHERE IsActive = 1;
+</code></pre>
+<p>This example SQL query will return all active users from the Users table.</p>
+<h3 id="error-handling">Error Handling</h3>
+<p>If there is an issue with your SQL query, an error message will be shown in the results section, providing helpful feedback to correct the query. Common issues could include:</p>
+<ul>
+<li><strong>Syntax errors</strong>: Ensure your SQL syntax is correct.</li>
+<li><strong>Incorrect table or column names</strong>: Double-check your database schema to ensure the table and column names match.</li>
+<li><strong>Access permissions issues</strong>: Verify that your user account has sufficient privileges to execute SQL queries on the selected tenant database.</li>
+</ul>
+<blockquote>
+<p><strong>Warning</strong>: Running SQL queries directly on the database can modify data and schema. It is advised to back up your database before making significant changes.</p>
+</blockquote>
+<h3 id="best-practices">Best Practices</h3>
+<ul>
+<li><strong>Avoid Deleting Data</strong>: Be cautious when running <code>DELETE</code> statements or performing operations that alter the database schema. Always double-check the <code>WHERE</code> clause before executing a <code>DELETE</code> query.</li>
+<li><strong>Test Queries</strong>: Test queries in a development or staging environment before running them on a production database to prevent unintended consequences.</li>
+<li><strong>Backup</strong>: Always ensure that you have a recent backup of your database before executing potentially destructive queries, such as <code>DELETE</code> or <code>UPDATE</code> operations that affect large sets of data.</li>
+</ul>
+<h3 id="common-sql-queries">Common SQL Queries</h3>
+<h4 id="retrieving-all-records">Retrieving All Records</h4>
+<pre><code class="lang-sql">SELECT * FROM [TableName];
+</code></pre>
+<h3 id="retrieving-all-records-1">Retrieving All Records</h3>
+<pre><code class="lang-sql">SELECT * FROM [TableName];
+</code></pre>
+<p>This query retrieves all records from the specified table. It is useful for getting an overview of the data in any table.</p>
+<h3 id="updating-records">Updating Records</h3>
+<pre><code class="lang-sql">UPDATE [TableName] 
+SET [ColumnName] = 'NewValue'
+WHERE [Condition];
+</code></pre>
+<p>This query updates existing records in the specified table based on the given condition. Use this to modify data for specific records in a table.</p>
+<h3 id="deleting-records">Deleting Records</h3>
+<pre><code class="lang-sql">DELETE FROM [TableName]
+WHERE [Condition];
+</code></pre>
+<h3 id="deleting-records-1">Deleting Records</h3>
+<p>Be cautious when using the <code>DELETE</code> statement, as it permanently removes records from the database. Make sure your <code>WHERE</code> clause is accurate before executing the query.</p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<ul>
+<li><strong>Query Doesn't Execute</strong>: If your query doesn't run, verify that the syntax is correct. Ensure that you are connected to the right tenant database.</li>
+<li><strong>No Results Displayed</strong>: If your query returns no data, check the conditions in your SQL query, or verify that the data exists in the database. Ensure the table and columns are properly named and populated.</li>
+<li><strong>Permissions Issues</strong>: If you encounter permission-related errors, verify that your user account has the appropriate access rights for executing SQL queries.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>The SQL Management console is a powerful tool for managing your tenant databases directly from within Oqtane. While it simplifies database interactions for administrators, it should be used with caution, especially when modifying or deleting data. Always double-check your queries and test them in a safe environment to avoid unintentional changes to your databases.</p>
 
 </article>
 

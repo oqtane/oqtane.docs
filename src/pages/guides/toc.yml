@@ -17,8 +17,8 @@
   # href: installation/index.md
 
 - name: Migration
-  href: migration/toc.yml
-  topicHref: migration/index.md
+  href: migrations/toc.yml
+  topicHref: migrations/index.md
   # href: migration/index.md
 
 - name: Modules

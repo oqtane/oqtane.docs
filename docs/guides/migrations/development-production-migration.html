@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Migrating Oqtane Framework from Development to Production | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Migrating Oqtane Framework from Development to Production | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/migrations/development-production-migration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="migrating-oqtane-framework-from-development-to-production">Migrating Oqtane Framework from Development to Production</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This guide provides step-by-step instructions for migrating an Oqtane Framework instance from a development environment to a production environment. It covers preparation steps, configuration adjustments, and troubleshooting tips to ensure a smooth migration and deployment.</p>
+<h3 id="steps-for-migrating-oqtane-from-development-to-production">Steps for Migrating Oqtane from Development to Production</h3>
+<p>Follow the steps below to successfully migrate your Oqtane instance to a production environment:</p>
+<h4 id="1-prepare-the-development-environment-for-migration">1. <strong>Prepare the Development Environment for Migration</strong></h4>
+<ul>
+<li><strong>Ensure All Features Are Tested</strong>: Before migrating, thoroughly test all modules, features, and configurations in your development environment to ensure everything works as expected.</li>
+<li><strong>Backup Data and Configuration</strong>: Take a backup of your development database, configuration files, and any custom content or themes you’ve created.</li>
+<li><strong>Check Version Compatibility</strong>: Ensure that the Oqtane Framework version you're using in development is the same or compatible with the version you're installing in production.</li>
+</ul>
+<h4 id="2-prepare-the-production-environment">2. <strong>Prepare the Production Environment</strong></h4>
+<ul>
+<li><strong>Set Up the Production Server</strong>: Install and configure all necessary components (e.g., web server, database, application server) in your production environment.</li>
+<li><strong>Set Appropriate File Permissions</strong>: Ensure that your production environment has the correct file permissions, especially for uploads, logs, and configuration files.</li>
+<li><strong>Configure Security Settings</strong>: Set up SSL certificates, configure firewalls, and ensure that production security best practices are in place.</li>
+<li><strong>Set Database Connection Strings</strong>: Adjust the connection strings in your production environment to point to your production database server.</li>
+</ul>
+<h4 id="3-deploy-the-oqtane-framework-to-production">3. <strong>Deploy the Oqtane Framework to Production</strong></h4>
+<ul>
+<li><strong>Deploy Files</strong>: Copy all files from your development environment (including modules, themes, and content) to your production server.</li>
+<li><strong>Update Database</strong>: If necessary, run any database migrations or schema updates required to bring the database in sync with the production environment.</li>
+<li><strong>Update Configuration Settings</strong>: Modify any configuration settings (such as <code>appsettings.json</code>) to match the production environment, including things like logging levels, email settings, and application-specific parameters.</li>
+</ul>
+<h4 id="4-testing-in-the-production-environment">4. <strong>Testing in the Production Environment</strong></h4>
+<ul>
+<li><strong>Verify the Application</strong>: Once the migration is complete, thoroughly test the application in the production environment to ensure all features and functionalities work correctly.</li>
+<li><strong>Test Performance</strong>: Ensure that performance is optimal by testing load times, page responses, and checking for bottlenecks.</li>
+<li><strong>Check Security Configurations</strong>: Verify that SSL is enabled, authentication methods are working, and access control is enforced.</li>
+</ul>
+<h4 id="5-go-live">5. <strong>Go Live</strong></h4>
+<ul>
+<li><strong>DNS Configuration</strong>: Update your DNS settings to point to your production server.</li>
+<li><strong>Monitor the Application</strong>: Use monitoring tools to track server performance, logs, and errors in the production environment.</li>
+</ul>
+<h3 id="troubleshooting-migration-issues">Troubleshooting Migration Issues</h3>
+<p>If you encounter issues during the migration, here are some common troubleshooting steps:</p>
+<ul>
+<li><strong>Configuration Mismatches</strong>: Ensure that all environment-specific settings (such as database connection strings, file paths, and email settings) are updated in the production environment.</li>
+<li><strong>Missing Files</strong>: Check that all necessary files from development (such as themes, modules, and content) were copied to the production server.</li>
+<li><strong>Permission Issues</strong>: Ensure that your production environment has the correct file permissions for writing logs, caching, and other necessary operations.</li>
+<li><strong>Database Connectivity Issues</strong>: Ensure the production server can connect to the production database and that the schema is up to date.</li>
+<li><strong>Broken Links or URLs</strong>: Double-check any hardcoded URLs or references in configuration files that might be pointing to the development environment.</li>
+</ul>
+<h3 id="best-practices-for-production-environments">Best Practices for Production Environments</h3>
+<ul>
+<li><strong>Regular Backups</strong>: Set up regular backups for your production database and files.</li>
+<li><strong>Logging and Monitoring</strong>: Implement comprehensive logging and monitoring solutions for error tracking and performance metrics.</li>
+<li><strong>Scaling</strong>: Ensure your production server is capable of handling the anticipated traffic, with the option to scale resources as needed.</li>
+</ul>
+<p>This guide helps ensure that your Oqtane Framework instance is ready for production and that any migration issues can be efficiently resolved.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/migrations/development-production-migration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

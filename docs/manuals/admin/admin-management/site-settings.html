@@ -86,39 +86,84 @@
         <article data-uid="">
 <h1 id="site-settings">Site Settings</h1>
 
-<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings.png" alt="smtp-settings"></p>
-<p>The Site Settings feature contains a large number of settings that you can use to perform high-level administrative configuration for your site. The Settings mostly contains set-it-and-forget it options that should be managed once when you build your site. Some of these settings include the default look and feel for new pages created on your site, your site logo, and default metadata for pages. The main parts of the settings are basic settings, SMTP configuration, and progressive web app configuration.</p>
-<h3 id="basic-settings">Basic Settings</h3>
-<p>Basic Settings mostly contains set-it-and-forget it options that should be managed once when you build your site.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings.png" alt="site-settings"></p>
+<h2 id="overview">Overview</h2>
+<p>The Site Settings feature allows you to perform high-level administrative configurations for your site. This includes basic settings, SMTP configuration, and progressive web app (PWA) settings. Most options are set-it-and-forget-it and should be configured once when building your site.</p>
+<h2 id="control-panel-walk-through">Control Panel Walk-through</h2>
+<h3 id="accessing-the-site-settings-feature">Accessing the Site Settings Feature</h3>
+<ol>
+<li><p>Click the control panel icon to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, select the button to open the admin dashboard.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, click on the <strong>Site Settings</strong> icon to configure visitor tracking.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/admin-dashboard-site-settings.png" alt="Admin Dashboard Search Settings"></p>
+</li>
+</ol>
+<hr>
+<h2 id="site-settings-1">Site Settings</h2>
+<p>The <strong>Site Settings</strong> management feature includes foundational settings for your site.</p>
 <ul>
-<li>Name: What you want to call the website.</li>
-<li>Tenant: The name of the database you wan the site to use.</li>
-<li>Aliases: The name that will appear for the sites URL.</li>
-<li>Logo: The logo that will appear in the navigation bar.</li>
-<li>Favicon: Enter a favicon address or another icon address to have a default icon to appear beside each page in the navigation bar.</li>
-<li>Default Theme: Choose a default theme tht will give a different color scheme and structure.</li>
-<li>Default Layout: Choose how many columns a page has by default.</li>
-<li>Default Container: Choose if you want titles to appear about each module by default.</li>
-<li>Allow User Registration: Should users be able to create their own accounts or should only administrators be able to create accounts.</li>
-<li>Is Deleted: Select whether you want to delete this site.</li>
+<li><strong>Name</strong>: Enter the site name.</li>
+<li><strong>Home Page</strong>: Select the home page for the site (to be used if there is no page with a path of '/').</li>
+<li><strong>Deleted?</strong>: Indicates whether the site is deleted.</li>
+<li><strong>Site Map</strong>: The site map URL for this site, which can be submitted to search engines for indexing.</li>
+<li><strong>ID</strong>: The unique identifier for the site.</li>
+<li><strong>Version</strong>: Site version for content migrations.</li>
 </ul>
-<h3 id="smtp-server-secure-mail-transfer-protocol">SMTP Server (Secure Mail Transfer Protocol)</h3>
-<p>The Oqtane instance sends outbound email for a variety of reasons, from the host or site admin or in the form of password reminders, event notifications, newsletters, or other business-specific use cases. A valid SMTP server is required for this to work; you should consult your network administrator for the appropriate credentials to use in a production configuration. Most non-Exchange Server SMTP hosts will require “Basic” authentication and a valid username/password combination. Some will also require that SSL be enabled.</p>
+<h3 id="appearance">Appearance</h3>
+<p>The Appearance section includes options related to the visual representation of your site.</p>
 <ul>
-<li>Host: Enter the host name for the server.</li>
-<li>Port: Enter the port number that the server is on.</li>
-<li>SSL Enabled: Specify yes or no if the SMTP server has an SSL certificate.</li>
-<li>Username: Enter the username for the SMTP server you are accessing.</li>
-<li>Password: Enter the password for the SMTP server you are accessing.
-<img src="../../../pages/manuals/admin/admin-management/assets/site-settings-smtp-settings.png" alt="smtp-settings"></li>
+<li><strong>Logo</strong>: Specify a site logo using the file manager for easy selection, upload, and deletion.</li>
+<li><strong>Favicon</strong>: Specify a favicon with the same file manager options as the logo.</li>
+<li><strong>Default Theme</strong>: Select the site’s default theme.</li>
+<li><strong>Default Container</strong>: Choose the default container for the site.</li>
+<li><strong>Default Admin Container</strong>: Select the default admin container for the site.</li>
 </ul>
-<h3 id="progressive-web-application-settings">Progressive Web Application Settings</h3>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings-appearance.png" alt="appearance-settings"></p>
+<h3 id="functionality">Functionality</h3>
+<p>The Functionality section allows you to configure essential site functionalities.</p>
 <ul>
-<li>Is Enabled: Choose whether or not you want the site to be set up as a progressive web application.</li>
-<li>App Icon: Select a PNG image that is 192 X 192 pixels which will be the app icon for your application.</li>
-<li>Splash Icon: Select a PNG image that is 512 X 512 pixels which will appear on the screen while the application is loading.
-<img src="../../../pages/manuals/admin/admin-management/assets/site-settings-pwa-settings.png" alt="pwa-settings"></li>
+<li><strong>Text Editor</strong>: Select the text editor for the site (default is the QuillJS editor). For more information, see the <a href="../content-management/html-text-editor.html">HTML Text Editor Documentation</a>.</li>
+<li><strong>Image Extensions</strong>: Enter a comma-separated list of allowed image extensions.</li>
+<li><strong>Uploadable File Extensions</strong>: Enter a comma-separated list of allowed uploadable file extensions.</li>
 </ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings-functionality.png" alt="functionality-settings"></p>
+<h3 id="page-content">Page Content</h3>
+<p>The Page Content section lets you define additional content that can be included in your pages.</p>
+<ul>
+<li><strong>Head Content</strong>: Optionally enter content to be included in the page head (e.g., meta, link, or script tags).</li>
+<li><strong>Body Content</strong>: Optionally enter content to be included in the page body (e.g., script tags).</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings-page-content.png" alt="page-content-settings"></p>
+<h3 id="smtp-settings">SMTP Settings</h3>
+<p><strong>Please Note That SMTP Requires The Notification Job To Be Enabled In Scheduled Jobs</strong></p>
+<ul>
+<li><strong>Host</strong>: Enter the hostname of the SMTP server.</li>
+<li><strong>Port</strong>: Enter the port number for the SMTP server. This field is required if you provide a host name.</li>
+<li><strong>SSL Enabled</strong>: Specify yes or no.</li>
+<li><strong>Username</strong>: Enter the SMTP server username.</li>
+<li><strong>Password</strong>: Enter the SMTP server password.</li>
+<li><strong>Email Sender</strong>: Enter the email address from which emails will be sent. This email address may need to be authorized with the SMTP server.</li>
+<li><strong>Relay Configured?</strong>: Only specify this option if you have properly configured an SMTP Relay Service to route your outgoing mail. This will send notifications from the user's email rather than from the Email Sender specified above.</li>
+<li><strong>Enabled?</strong>: Specify yes or no to enable SMTP.</li>
+<li><strong>Retention (Days)</strong>: Enter the number of days to retain notifications.</li>
+<li><strong>Test SMTP Configuration</strong>: Button to test the SMTP configuration.</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings-smtp-settings.png" alt="smtp-settings"></p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings-smtp-settings-test-smtp-configuration-button.png" alt="smtp-settings"></p>
+<h3 id="pwa-settings">PWA Settings</h3>
+<p>The PWA Settings section allows you to configure the Progressive Web Application capabilities of your site.</p>
+<ul>
+<li><strong>Is Enabled?</strong>: Choose whether the site will be available as a Progressive Web Application (PWA).</li>
+<li><strong>App Icon</strong>: Upload an application icon for your PWA (PNG, 192 x 192 pixels).</li>
+<li><strong>Splash Icon</strong>: Upload a splash icon for your PWA (PNG, 512 x 512 pixels).</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/site-settings-pwa-settings.png" alt="pwa-settings"></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Configuring the Site Settings correctly is crucial for the proper functioning and appearance of your site. Ensure all options are set according to your site's requirements, especially the SMTP settings for email functionality and PWA settings if you wish to enable a progressive web application experience. For further assistance, refer to other sections of the Oqtane documentation.</p>
 
 </article>
 

@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/bug/4360/apiSpec/new?filename=Oqtane_Controllers_UserController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.UserController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_UserController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.UserController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -91,7 +91,7 @@
 
   <h1 id="Oqtane_Controllers_UserController" data-uid="Oqtane.Controllers.UserController" class="text-break">
     Class UserController
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -134,16 +134,16 @@ public class UserController : Controller</code></pre>
 
   <a id="Oqtane_Controllers_UserController__ctor_" data-uid="Oqtane.Controllers.UserController.#ctor*"></a>
 
-  <h3 id="Oqtane_Controllers_UserController__ctor_Oqtane_Repository_IUserRepository_Oqtane_Infrastructure_ITenantManager_Oqtane_Managers_IUserManager_Oqtane_Repository_ISiteRepository_Oqtane_Security_IUserPermissions_Oqtane_Repository_ISettingRepository_Oqtane_Security_IJwtManager_Oqtane_Repository_IFileRepository_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.UserController.#ctor(Oqtane.Repository.IUserRepository,Oqtane.Infrastructure.ITenantManager,Oqtane.Managers.IUserManager,Oqtane.Repository.ISiteRepository,Oqtane.Security.IUserPermissions,Oqtane.Repository.ISettingRepository,Oqtane.Security.IJwtManager,Oqtane.Repository.IFileRepository,Oqtane.Infrastructure.ILogManager)">
-  UserController(IUserRepository, ITenantManager, IUserManager, ISiteRepository, IUserPermissions, ISettingRepository, IJwtManager, IFileRepository, ILogManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_UserController__ctor_Oqtane_Repository_IUserRepository_Oqtane_Infrastructure_ITenantManager_Oqtane_Managers_IUserManager_Oqtane_Repository_ISiteRepository_Oqtane_Security_IUserPermissions_Oqtane_Security_IJwtManager_Oqtane_Repository_IFileRepository_Oqtane_Repository_ISettingRepository_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.UserController.#ctor(Oqtane.Repository.IUserRepository,Oqtane.Infrastructure.ITenantManager,Oqtane.Managers.IUserManager,Oqtane.Repository.ISiteRepository,Oqtane.Security.IUserPermissions,Oqtane.Security.IJwtManager,Oqtane.Repository.IFileRepository,Oqtane.Repository.ISettingRepository,Oqtane.Infrastructure.ILogManager)">
+  UserController(IUserRepository, ITenantManager, IUserManager, ISiteRepository, IUserPermissions, IJwtManager, IFileRepository, ISettingRepository, ILogManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserController(IUserRepository users, ITenantManager tenantManager, IUserManager userManager, ISiteRepository sites, IUserPermissions userPermissions, ISettingRepository settings, IJwtManager jwtManager, IFileRepository files, ILogManager logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public UserController(IUserRepository users, ITenantManager tenantManager, IUserManager userManager, ISiteRepository sites, IUserPermissions userPermissions, IJwtManager jwtManager, IFileRepository files, ISettingRepository settings, ILogManager logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -158,11 +158,11 @@ public class UserController : Controller</code></pre>
     <dd></dd>
     <dt><code>userPermissions</code> <a class="xref" href="Oqtane.Security.IUserPermissions.html">IUserPermissions</a></dt>
     <dd></dd>
-    <dt><code>settings</code> <a class="xref" href="Oqtane.Repository.ISettingRepository.html">ISettingRepository</a></dt>
-    <dd></dd>
     <dt><code>jwtManager</code> <a class="xref" href="Oqtane.Security.IJwtManager.html">IJwtManager</a></dt>
     <dd></dd>
     <dt><code>files</code> <a class="xref" href="Oqtane.Repository.IFileRepository.html">IFileRepository</a></dt>
+    <dd></dd>
+    <dt><code>settings</code> <a class="xref" href="Oqtane.Repository.ISettingRepository.html">ISettingRepository</a></dt>
     <dd></dd>
     <dt><code>logger</code> <a class="xref" href="Oqtane.Infrastructure.ILogManager.html">ILogManager</a></dt>
     <dd></dd>
@@ -187,7 +187,7 @@ public class UserController : Controller</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Authenticate" data-uid="Oqtane.Controllers.UserController.Authenticate">
   Authenticate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L389"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -219,7 +219,7 @@ public User Authenticate()</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Delete_System_Int32_System_String_" data-uid="Oqtane.Controllers.UserController.Delete(System.Int32,System.String)">
   Delete(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L230"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -259,7 +259,7 @@ public Task Delete(int id, string siteid)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Forgot_Oqtane_Models_User_" data-uid="Oqtane.Controllers.UserController.Forgot(Oqtane.Models.User)">
   Forgot(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L298"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -296,7 +296,7 @@ public Task Forgot(User user)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Get_System_Int32_System_String_" data-uid="Oqtane.Controllers.UserController.Get(System.Int32,System.String)">
   Get(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -334,22 +334,61 @@ public User Get(int id, string siteid)</code></pre>
 
   <a id="Oqtane_Controllers_UserController_Get_" data-uid="Oqtane.Controllers.UserController.Get*"></a>
 
-  <h3 id="Oqtane_Controllers_UserController_Get_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.UserController.Get(System.String,System.String,System.String)">
-  Get(string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_UserController_Get_System_String_System_String_" data-uid="Oqtane.Controllers.UserController.Get(System.String,System.String)">
+  Get(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpGet(&quot;name/{name}/{email}&quot;)]
-public User Get(string name, string email, string siteid)</code></pre>
+    <pre><code class="lang-csharp hljs">[HttpGet(&quot;username/{username}&quot;)]
+public User Get(string username, string siteid)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>siteid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Models.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Controllers_UserController_Get_" data-uid="Oqtane.Controllers.UserController.Get*"></a>
+
+  <h3 id="Oqtane_Controllers_UserController_Get_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.UserController.Get(System.String,System.String,System.String)">
+  Get(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet(&quot;search/{username}/{email}&quot;)]
+public User Get(string username, string email, string siteid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
     <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
@@ -377,7 +416,7 @@ public User Get(string name, string email, string siteid)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Import_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.UserController.Import(System.String,System.String,System.String)">
   Import(string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L428"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -419,7 +458,7 @@ public Task&lt;Dictionary&lt;string, string&gt;&gt; Import(string siteid, string
 
   <h3 id="Oqtane_Controllers_UserController_Link_Oqtane_Models_User_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.UserController.Link(Oqtane.Models.User,System.String,System.String,System.String,System.String)">
   Link(User, string, string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L335"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -464,7 +503,7 @@ public Task&lt;User&gt; Link(User user, string token, string type, string key, s
 
   <h3 id="Oqtane_Controllers_UserController_Login_Oqtane_Models_User_System_Boolean_System_Boolean_" data-uid="Oqtane.Controllers.UserController.Login(Oqtane.Models.User,System.Boolean,System.Boolean)">
   Login(User, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L247"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -505,7 +544,7 @@ public Task&lt;User&gt; Login(User user, bool setCookie, bool isPersistent)</cod
 
   <h3 id="Oqtane_Controllers_UserController_Logout_Oqtane_Models_User_" data-uid="Oqtane.Controllers.UserController.Logout(Oqtane.Models.User)">
   Logout(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L262"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -539,11 +578,49 @@ public Task Logout(User user)</code></pre>
 
 
 
+  <a id="Oqtane_Controllers_UserController_LogoutEverywhere_" data-uid="Oqtane.Controllers.UserController.LogoutEverywhere*"></a>
+
+  <h3 id="Oqtane_Controllers_UserController_LogoutEverywhere_Oqtane_Models_User_" data-uid="Oqtane.Controllers.UserController.LogoutEverywhere(Oqtane.Models.User)">
+  LogoutEverywhere(User)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpPost(&quot;logouteverywhere&quot;)]
+[Authorize]
+public Task LogoutEverywhere(User user)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_UserController_PasswordRequirements_" data-uid="Oqtane.Controllers.UserController.PasswordRequirements*"></a>
 
   <h3 id="Oqtane_Controllers_UserController_PasswordRequirements_System_Int32_" data-uid="Oqtane.Controllers.UserController.PasswordRequirements(System.Int32)">
   PasswordRequirements(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L410"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -580,7 +657,7 @@ public Dictionary&lt;string, string&gt; PasswordRequirements(int siteid)</code><
 
   <h3 id="Oqtane_Controllers_UserController_PersonalAccessToken" data-uid="Oqtane.Controllers.UserController.PersonalAccessToken">
   PersonalAccessToken()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L373"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -613,7 +690,7 @@ public string PersonalAccessToken()</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Post_Oqtane_Models_User_" data-uid="Oqtane.Controllers.UserController.Post(Oqtane.Models.User)">
   Post(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -650,7 +727,7 @@ public Task&lt;User&gt; Post(User user)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Put_System_Int32_Oqtane_Models_User_" data-uid="Oqtane.Controllers.UserController.Put(System.Int32,Oqtane.Models.User)">
   Put(int, User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -690,7 +767,7 @@ public Task&lt;User&gt; Put(int id, User user)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Reset_Oqtane_Models_User_System_String_" data-uid="Oqtane.Controllers.UserController.Reset(Oqtane.Models.User,System.String)">
   Reset(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L308"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -729,7 +806,7 @@ public Task&lt;User&gt; Reset(User user, string token)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Token" data-uid="Oqtane.Controllers.UserController.Token">
   Token()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L358"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -762,7 +839,7 @@ public string Token()</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_TwoFactor_Oqtane_Models_User_System_String_" data-uid="Oqtane.Controllers.UserController.TwoFactor(Oqtane.Models.User,System.String)">
   TwoFactor(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L319"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -801,7 +878,7 @@ public User TwoFactor(User user, string token)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Validate_System_String_" data-uid="Oqtane.Controllers.UserController.Validate(System.String)">
   Validate(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L351"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -838,7 +915,7 @@ public Task&lt;bool&gt; Validate(string password)</code></pre>
 
   <h3 id="Oqtane_Controllers_UserController_Verify_Oqtane_Models_User_System_String_" data-uid="Oqtane.Controllers.UserController.Verify(Oqtane.Models.User,System.String)">
   Verify(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L287"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -877,7 +954,7 @@ public Task&lt;User&gt; Verify(User user, string token)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Controllers/UserController.cs/#L21" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/UserController.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
 

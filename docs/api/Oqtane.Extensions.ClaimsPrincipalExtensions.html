@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/bug/4360/apiSpec/new?filename=Oqtane_Extensions_ClaimsPrincipalExtensions.md&amp;value=---%0Auid%3A%20Oqtane.Extensions.ClaimsPrincipalExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Extensions_ClaimsPrincipalExtensions.md&amp;value=---%0Auid%3A%20Oqtane.Extensions.ClaimsPrincipalExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -91,7 +91,7 @@
 
   <h1 id="Oqtane_Extensions_ClaimsPrincipalExtensions" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions" class="text-break">
     Class ClaimsPrincipalExtensions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -133,7 +133,7 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_IsOnlyInRole_System_Security_Claims_ClaimsPrincipal_System_String_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.IsOnlyInRole(System.Security.Claims.ClaimsPrincipal,System.String)">
   IsOnlyInRole(ClaimsPrincipal, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -171,14 +171,50 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_Roles_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.Roles(System.Security.Claims.ClaimsPrincipal)">
   Roles(ClaimsPrincipal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Roles(this ClaimsPrincipal claimsPrincipal)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string[] Roles(this ClaimsPrincipal claimsPrincipal)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>claimsPrincipal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.claims.claimsprincipal">ClaimsPrincipal</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Extensions_ClaimsPrincipalExtensions_SecurityStamp_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.SecurityStamp*"></a>
+
+  <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_SecurityStamp_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.SecurityStamp(System.Security.Claims.ClaimsPrincipal)">
+  SecurityStamp(ClaimsPrincipal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SecurityStamp(this ClaimsPrincipal claimsPrincipal)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -207,7 +243,7 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_SiteId_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.SiteId(System.Security.Claims.ClaimsPrincipal)">
   SiteId(ClaimsPrincipal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -243,7 +279,7 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_SiteKey_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.SiteKey(System.Security.Claims.ClaimsPrincipal)">
   SiteKey(ClaimsPrincipal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -279,7 +315,7 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_TenantId_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.TenantId(System.Security.Claims.ClaimsPrincipal)">
   TenantId(ClaimsPrincipal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -315,7 +351,7 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_UserId_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.UserId(System.Security.Claims.ClaimsPrincipal)">
   UserId(ClaimsPrincipal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -351,7 +387,7 @@
 
   <h3 id="Oqtane_Extensions_ClaimsPrincipalExtensions_Username_System_Security_Claims_ClaimsPrincipal_" data-uid="Oqtane.Extensions.ClaimsPrincipalExtensions.Username(System.Security.Claims.ClaimsPrincipal)">
   Username(ClaimsPrincipal)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -387,7 +423,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/bug/4360/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ClaimsPrincipalExtensions.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 

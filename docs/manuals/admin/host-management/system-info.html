@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>System Info | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>System Update | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="System Info | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="System Update | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../../public/docfx.min.css">
@@ -84,11 +84,68 @@
         </div>
 
         <article data-uid="">
-<h1 id="system-info">System Info</h1>
+<h1 id="system-update">System Update</h1>
 
-<p>All of the general information that you need to know about the Oqtane framework is available in the system information feature, which includes things like the Oqtane framework version, the blazor runtime, the server path, the CLR version, the OS version, and the server's current time.</p>
-<p>The System Info feature also provides access to Oqtane's API with many of Oqtane's methods and the ability to try them out using the Swagger user interface.
-There is also the option to restart the Oqtane framework on this page if you have made a change to the system that would require a restart such as installing or deleting themes or modules.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/system-update.png" alt="System Update"></p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>System Update</strong> feature in Oqtane allows administrators to keep the framework up to date, ensuring access to the latest capabilities and features. It also enables you to upload a NuGet package to include specific features or updates that are part of newer versions of Oqtane. This is particularly useful when you are unable to update to the latest Oqtane version but want to incorporate certain features or fixes from that newer release.</p>
+<p>When updating, you can select a NuGet file from your local system, upload it to the framework, and then install it to integrate the package into your current Oqtane installation. This process is helpful for applying partial updates or integrating features without a full framework update.</p>
+<hr>
+<h2 id="accessing-the-system-update-feature">Accessing the System Update Feature</h2>
+<p>To access the <strong>System Update</strong> feature, follow these steps:</p>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>Control Panel</strong> icon to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Navigate to Admin Dashboard</strong>: In the Control Panel, click the button to open the <strong>Admin Dashboard</strong>.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p><strong>Select System Update</strong>: In the Admin Dashboard, click on the <strong>System Update</strong> icon to access the update feature.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/admin-dashboard-system-update.png" alt="Admin Dashboard System Update"></p>
+</li>
+</ol>
+<hr>
+<h2 id="downloading-an-update">Downloading An Update</h2>
+<p>To download and apply an update, follow these steps:</p>
+<ol>
+<li><p>Click the <strong>Download</strong> button to initiate the update download.</p>
+</li>
+<li><p>After the download completes successfully, you will see a notification. At this point, click the <strong>Upgrade</strong> button to apply the update.</p>
+<blockquote>
+<p><strong>Note</strong>: Ensure that you are connected to the internet during this process to download the latest update package.</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="system-up-to-date-notification">System Up To Date Notification</h3>
+<p>If the Oqtane framework is already up to date, you will see the following notification:</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/system-update-system-up-to-date-notification.png" alt="System Update Up To Date Notification"></p>
+<p>This indicates that no update is required and you are already using the latest version of the framework.</p>
+<hr>
+<h2 id="uploading-an-update">Uploading An Update</h2>
+<p>In some cases, you may want to upload a NuGet package that includes new features or fixes from a newer version of Oqtane. To upload an update, follow these steps:</p>
+<ol>
+<li><p>Click the <strong>Upload</strong> button to browse and select the NuGet package file on your local system.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/system-update-upload.png" alt="System Update Upload"></p>
+</li>
+<li><p>After selecting the file, click the <strong>Upgrade</strong> button to install the uploaded package into your current version of Oqtane.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/system-update-upload-upgrade-button.png" alt="System Update Upgrade Button"></p>
+<blockquote>
+<p><strong>Tip</strong>: This step is useful if you cannot upgrade to the latest version of Oqtane but still need to integrate newer features or updates provided in a NuGet package.</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 id="development-environment-notification">Development Environment Notification</h2>
+<p>The <strong>System Update</strong> feature is only available in production environments. If you are working in a development environment, you will see a notification message indicating that updates cannot be performed.</p>
+<p>This is a safeguard to prevent accidental updates in environments where it may not be appropriate. The message will appear as shown in the image below:</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/system-update-development-environment.png" alt="System Update Development Environment"></p>
+<blockquote>
+<p><strong>Note</strong>: If you need to perform updates in a development environment, consider switching to a production environment or testing updates locally before applying them to the live system.</p>
+</blockquote>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>The <strong>System Update</strong> feature in Oqtane ensures that your system is running the latest framework version, incorporating important features, bug fixes, and updates. You can either download updates directly from the Oqtane servers or upload NuGet packages to install specific updates. Always verify your environment type (production vs development) and follow the steps carefully to maintain system integrity.</p>
+<p>If you encounter any issues or have questions about updating, consult the logs or seek assistance from the community or support channels.</p>
 
 </article>
 

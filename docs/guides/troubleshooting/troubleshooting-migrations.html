@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Troubleshooting Migrations | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Troubleshooting Migrations | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-migrations.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="troubleshooting-migrations">Troubleshooting Migrations</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This guide provides troubleshooting steps for common issues encountered during the migration of Oqtane Framework instances, including both migration-related problems and post-migration issues. Whether you're migrating between servers, upgrading versions, or moving from a development to production environment, this guide will help you address common challenges throughout the entire migration process.</p>
+<hr>
+<h2 id="migration-troubleshooting">Migration Troubleshooting</h2>
+<h3 id="1-migration-failures">1. Migration Failures</h3>
+<p><strong>Symptoms</strong>: The migration process fails without completing successfully.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check Logs</strong>: Review the error logs on both the source and destination systems. These logs will provide more details about the failure and help you pinpoint the issue.</li>
+<li><strong>Disk Space</strong>: Ensure the destination environment has sufficient disk space to accommodate the migrated files and database.</li>
+<li><strong>Permissions</strong>: Verify that the user executing the migration has the necessary permissions to access both the source and destination systems and perform the migration tasks.</li>
+<li><strong>Dependencies</strong>: Make sure all required services (e.g., database, web server) are running and compatible between the source and destination environments. Double-check version compatibility for Oqtane and its dependencies.</li>
+<li><strong>Retry Migration</strong>: If the migration fails due to a temporary error, retry after resolving any issues found in the logs or environment.</li>
+</ul>
+<hr>
+<h3 id="2-database-migration-problems">2. Database Migration Problems</h3>
+<p><strong>Symptoms</strong>: Missing data, schema mismatches, or errors during data transfer.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check Database Compatibility</strong>: Ensure the destination environment's database version is compatible with the source. If necessary, upgrade or downgrade the database to align with the Oqtane version you're migrating to.</li>
+<li><strong>Run Migration Scripts</strong>: Ensure all required database migration scripts are executed to bring the schema up to date in the destination environment.</li>
+<li><strong>Backup and Restore</strong>: If data is missing or corrupted, restore from a backup and reapply the migration scripts if needed.</li>
+<li><strong>Verify Database Permissions</strong>: Ensure the database user has full access rights to the required tables and schemas. Improper permissions can cause migration failures or incomplete data migration.</li>
+</ul>
+<hr>
+<h3 id="3-configuration-errors">3. Configuration Errors</h3>
+<p><strong>Symptoms</strong>: Issues with configuration files, such as mismatched settings, incorrect paths, or missing configurations.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Update Configuration Files</strong>: Review and update configuration files (<code>appsettings.json</code>, <code>settings.json</code>, etc.) with the correct paths, connection strings, and environment-specific settings.</li>
+<li><strong>Check File Paths</strong>: Verify that file paths are correct and point to valid directories in the new environment, especially for file-based settings or resources.</li>
+<li><strong>Verify Environment Variables</strong>: Double-check any environment-specific variables (e.g., SMTP settings, API keys) to ensure they're set correctly in the new environment.</li>
+</ul>
+<hr>
+<h3 id="4-file-path-and-permission-issues">4. File Path and Permission Issues</h3>
+<p><strong>Symptoms</strong>: Missing files, such as themes, modules, or uploaded content, or files are inaccessible after migration.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check File Permissions</strong>: Ensure that the web server user has the correct permissions to access all necessary files and directories. This includes read and write permissions for files related to themes, modules, and uploaded content.</li>
+<li><strong>Verify File Transfer</strong>: Ensure that all required files were successfully transferred during the migration. If transferring manually, verify the integrity of the files on both the source and destination systems.</li>
+<li><strong>Adjust File Paths</strong>: If file paths were changed in the migration process (e.g., if moving between servers with different file structures), update the paths in the Oqtane configuration to reflect the new locations.</li>
+</ul>
+<hr>
+<h3 id="5-broken-links-or-urls">5. Broken Links or URLs</h3>
+<p><strong>Symptoms</strong>: Internal links or URLs are broken after migration.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Update Hardcoded URLs</strong>: Check for any hardcoded URLs in the application, configuration files, or database that reference the source environment and update them to match the production environment's URLs.</li>
+<li><strong>URL Rewriting</strong>: If you're using URL rewrites or redirects, ensure the necessary rules are applied correctly in the new environment. Check the <code>.htaccess</code> or <code>web.config</code> file for rewrite rules.</li>
+<li><strong>Clear Cache</strong>: Clear any browser cache, server cache, or CDN cache that might be storing outdated URLs. Sometimes, browsers or CDNs hold onto old links after a migration.</li>
+</ul>
+<hr>
+<h3 id="6-performance-issues-after-migration">6. Performance Issues After Migration</h3>
+<p><strong>Symptoms</strong>: The migrated Oqtane instance is performing slower than expected in the new environment.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Optimize Database Queries</strong>: Review the database for slow queries or missing indexes that could affect performance. Consider running database optimization commands (e.g., index rebuilding or query optimization).</li>
+<li><strong>Check Server Resources</strong>: Ensure the destination environment has sufficient CPU, memory, and disk I/O resources. Under-provisioned environments may struggle with performance after migration.</li>
+<li><strong>Enable Caching</strong>: Make sure caching mechanisms (e.g., application cache, object caching, CDN caching) are configured and enabled to improve performance.</li>
+<li><strong>Review Web Server Configurations</strong>: Review web server configurations (e.g., connection limits, thread pool settings) to ensure they are tuned for the expected traffic load.</li>
+</ul>
+<hr>
+<h3 id="7-user-authentication-and-access-issues">7. User Authentication and Access Issues</h3>
+<p><strong>Symptoms</strong>: Users are unable to authenticate, or permissions are incorrectly applied after migration.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check User Roles and Permissions</strong>: Verify that user roles and permissions were correctly migrated and applied in the destination environment. If needed, manually reassign roles.</li>
+<li><strong>Session State</strong>: Ensure that session management is properly configured. If using session state servers or shared caches, verify their configurations.</li>
+<li><strong>Authentication Providers</strong>: Ensure that authentication providers (e.g., OAuth, Active Directory, custom providers) are correctly configured and functional in the new environment. This includes updating any third-party API keys or tokens.</li>
+<li><strong>Test Login Process</strong>: Run tests for different user roles to verify login functionality and ensure authentication works as expected.</li>
+</ul>
+<hr>
+<h2 id="post-migration-troubleshooting">Post-Migration Troubleshooting</h2>
+<h3 id="1-missing-data-or-modules">1. Missing Data or Modules</h3>
+<p><strong>Symptoms</strong>: Certain data or modules are missing after migration.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Rebuild the Database</strong>: Run any necessary commands to rebuild or refresh the database schema to ensure all modules and data are correctly loaded.</li>
+<li><strong>Module Reinstallation</strong>: Check whether the necessary modules are installed in the target environment. Reinstall or re-enable them from the Oqtane control panel if required.</li>
+<li><strong>Verify Data Import</strong>: If data is missing, verify that the data was successfully migrated. You may need to manually re-import certain data sets or configurations.</li>
+</ul>
+<hr>
+<h3 id="2-broken-links-or-urls">2. Broken Links or URLs</h3>
+<p><strong>Symptoms</strong>: Broken links or URLs are occurring post-migration.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check URL Rewrites</strong>: Ensure that any URL rewrites or redirections are correctly configured in the new environment, especially if server paths have changed.</li>
+<li><strong>Review Routing Settings</strong>: Verify that routing settings in Oqtane’s configuration files are correctly set up, including base URLs and other path-related configurations.</li>
+<li><strong>Test Links</strong>: Use a link checker to test for any broken links across the site. Ensure that all internal links are properly pointing to the new location.</li>
+</ul>
+<hr>
+<h3 id="3-performance-degradation">3. Performance Degradation</h3>
+<p><strong>Symptoms</strong>: Performance issues arise after migration, such as slow page loads or delayed responses.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check Server Resources</strong>: Verify that the new environment has adequate resources (CPU, memory, disk space) for running Oqtane smoothly.</li>
+<li><strong>Optimize Database</strong>: After migration, run database optimization commands (e.g., index rebuilding) to ensure optimal performance.</li>
+<li><strong>Enable Caching</strong>: Ensure caching mechanisms are enabled and configured properly, including output caching and object caching, to speed up page loads and reduce server load.</li>
+<li><strong>Profile the Application</strong>: Use profiling tools to analyze performance bottlenecks, such as slow queries, high CPU usage, or memory leaks.</li>
+</ul>
+<hr>
+<h3 id="4-user-authentication-problems">4. User Authentication Problems</h3>
+<p><strong>Symptoms</strong>: Users experience authentication issues or incorrect permissions after migration.</p>
+<p><strong>Solution</strong>:</p>
+<ul>
+<li><strong>Check User Credentials</strong>: Verify that user data (e.g., usernames, passwords) was migrated successfully and is intact in the new environment.</li>
+<li><strong>Review Authentication Settings</strong>: Ensure that authentication settings (e.g., authentication provider, SMTP settings) are correctly configured in the new environment.</li>
+<li><strong>Test Login Process</strong>: Run tests for different user roles and permissions to ensure that authentication works as expected.</li>
+<li><strong>Clear Session Data</strong>: If users are having trouble logging in after migration, clear session data or cookies, as stale sessions can sometimes block new logins.</li>
+</ul>
+<hr>
+<h2 id="best-practices-for-successful-migrations">Best Practices for Successful Migrations</h2>
+<ul>
+<li><strong>Test the Migration</strong>: Perform a test migration in a staging environment before migrating to production. This will allow you to identify and resolve any issues without impacting live systems.</li>
+<li><strong>Backup Everything</strong>: Always back up your data, files, and configurations before beginning the migration process. Ensure that you have both a database and file system backup.</li>
+<li><strong>Check for Dependencies</strong>: Ensure that all dependencies (e.g., database versions, web server settings, or third-party services) are compatible with the destination environment.</li>
+<li><strong>Use Automation</strong>: Automate the migration process as much as possible, including database updates, file transfers, and configuration changes. This reduces human error and improves consistency.</li>
+<li><strong>Monitor After Migration</strong>: After completing the migration, monitor system logs, error logs, and performance metrics. Address any issues that arise promptly to minimize downtime or performance degradation.</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>By following the steps outlined in this guide, you can effectively troubleshoot common migration issues in Oqtane Framework. Whether you are migrating between servers, upgrading to a new version, or transitioning to a production environment, these solutions will help you address migration challenges and ensure a smooth transition.</p>
+<p>If issues persist, consult the Oqtane community or support channels for additional assistance.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-migrations.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

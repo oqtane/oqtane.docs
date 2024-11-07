@@ -382,6 +382,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Controllers.SearchResultsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Controllers.SearchResultsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Controllers.SettingController.yml",
       "output": {
         ".html": {
@@ -686,6 +696,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Extensions.PermissionExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Extensions.QueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Extensions.QueryableExtensions.html"
         }
       },
       "version": ""
@@ -1092,6 +1112,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Infrastructure.SearchIndexJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.SearchIndexJob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Infrastructure.ServerState.yml",
       "output": {
         ".html": {
@@ -1242,10 +1272,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Interfaces.ISearchable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Interfaces.ISearchable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Interfaces.ISettingsControl.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Interfaces.ISettingsControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Interfaces.ITextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Interfaces.ITextEditor.html"
         }
       },
       "version": ""
@@ -1326,6 +1376,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.ExternalLoginProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.ExternalLoginProvider.html"
         }
       },
       "version": ""
@@ -1586,6 +1646,76 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.Route.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchContent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchContentProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchContentProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchContentWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchContentWord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchResults.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.SearchWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.SearchWord.html"
         }
       },
       "version": ""
@@ -1856,6 +1986,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Modules.Controls.PermissionGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Modules.Controls.QuillEditorInterop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.QuillEditorInterop.html"
         }
       },
       "version": ""
@@ -2142,6 +2282,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Providers.DatabaseSearchProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Providers.DatabaseSearchProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Providers.IdentityAuthenticationStateProvider.yml",
       "output": {
         ".html": {
@@ -2392,6 +2542,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Repository.ISearchContentRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Repository.ISearchContentRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Repository.ISettingRepository.yml",
       "output": {
         ".html": {
@@ -2636,6 +2796,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Repository.RoleRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Repository.SearchContentRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Repository.SearchContentRepository.html"
         }
       },
       "version": ""
@@ -2952,6 +3122,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Services.IImageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.IImageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Services.IInstallationService.yml",
       "output": {
         ".html": {
@@ -3092,6 +3272,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Services.ISearchProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.ISearchProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Services.ISearchService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.ISearchService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Services.ISettingService.yml",
       "output": {
         ".html": {
@@ -3212,10 +3412,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Services.ImageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.ImageService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Services.RemoteServiceBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.RemoteServiceBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Services.SearchService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.SearchService.html"
         }
       },
       "version": ""
@@ -3276,6 +3496,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.EntityNames.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.ExternalLoginProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.ExternalLoginProviders.html"
         }
       },
       "version": ""
@@ -3456,6 +3686,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.Runtimes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.SearchSortField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.SearchSortField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.SearchSortOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.SearchSortOrder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.SearchUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.SearchUtils.html"
         }
       },
       "version": ""
@@ -5450,6 +5710,59 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/guides/migrations/assets/placeholder.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/migrations/assets/placeholder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/migrations/development-production-migration.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/migrations/development-production-migration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/migrations/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/migrations/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/migrations/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/migrations/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/migrations/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/migrations/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/migrations/troubleshooting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/guides/modules/adding-modules.md",
       "output": {
         ".html": {
@@ -5932,6 +6245,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/guides/troubleshooting/troubleshooting-migrations.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/troubleshooting/troubleshooting-migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/guides/troubleshooting/troubleshooting-modules.md",
       "output": {
         ".html": {
@@ -6212,16 +6535,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-folder-permission.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-folder-permission.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-folder-permissions-add-user.png",
       "output": {
         "resource": {
@@ -6296,6 +6609,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/admin-management/assets/file-management-folder-permissions-view-folder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/admin-management/assets/file-management-folder-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/admin-management/assets/file-management-folder-permissions.png"
         }
       },
       "version": ""
@@ -7405,16 +7728,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/content-management/assets/content-edit-module-options-caret-bottom-button.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/content-management/assets/content-edit-module-options-caret-bottom-button.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/content-management/assets/content-editor-button.png",
       "output": {
         "resource": {
@@ -7459,6 +7772,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/content-management/assets/content-editor-module-options-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/content-management/assets/content-editor-module-options-caret-bottom-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/content-management/assets/content-editor-module-options-caret-bottom-button.png"
         }
       },
       "version": ""
@@ -7924,16 +8247,6 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/content-management/image.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/manuals/admin/content-management/image.png"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/content-management/index.md",
       "output": {
@@ -8188,6 +8501,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/language-management-add-language-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/language-management-add-language-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/host-management/assets/language-management-upload-buttons.png",
       "output": {
         "resource": {
@@ -8198,10 +8521,20 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "pages/manuals/admin/host-management/assets/language-management-upload.png",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/language-management-upload-window.png",
       "output": {
         "resource": {
-          "relative_path": "pages/manuals/admin/host-management/assets/language-management-upload.png"
+          "relative_path": "pages/manuals/admin/host-management/assets/language-management-upload-window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/language-management.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/language-management.png"
         }
       },
       "version": ""
@@ -8212,6 +8545,96 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-created-success-notification.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-created-success-notification.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-production-notification.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-production-notification.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-description.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-description.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-location.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-location.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-module-name.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-module-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-owner-name.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-owner-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-template.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-template.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-window-buttons.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-window-buttons.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-window.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/module-management-create-module-settings-window.png"
         }
       },
       "version": ""
@@ -8508,6 +8931,66 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-add-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-add-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-add-window.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-add-window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-delete-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-delete-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-delete-confirmation-window.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-delete-confirmation-window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-edit-window.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls-edit-window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-site-urls.png",
       "output": {
         "resource": {
@@ -8518,10 +9001,30 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-hybrid.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-hybrid.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-interactivity.png",
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-interactivity.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-prerender.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/site-settings-ui-component-settings-prerender.png"
         }
       },
       "version": ""
@@ -8758,10 +9261,30 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-created-success-notification.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-created-success-notification.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-message.png",
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-message.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-production-notification.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-production-notification.png"
         }
       },
       "version": ""
@@ -8778,10 +9301,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-framework-reference.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-framework-reference.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-location.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-location.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-owner-name.png",
       "output": {
         "resource": {
           "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-owner-name.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-template.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/admin/host-management/assets/theme-management-create-theme-settings-template.png"
         }
       },
       "version": ""
@@ -9048,6 +9601,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/language-management.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/language-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "pages/manuals/admin/host-management/module-management.md",
       "output": {
         ".html": {
@@ -9072,6 +9635,16 @@
       "output": {
         ".html": {
           "relative_path": "manuals/admin/host-management/site-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/manuals/admin/host-management/site-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manuals/admin/host-management/site-settings.html"
         }
       },
       "version": ""

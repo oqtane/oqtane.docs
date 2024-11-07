@@ -86,28 +86,88 @@
         <article data-uid="">
 <h1 id="site-management">Site Management</h1>
 
-<p>Oqtane provides the ability to have multiple sites at you disposal within the singular Oqtane application. The Site Management page provides an inventory of all the sites in a Oqtane instance and quick access to the Site Settings functionality for each. Deleting your sites is permanent! So it should not be done unless you are certain you want to delete this site. The options to add and edit the set has a few options:</p>
-<p><img src="../../../pages/manuals/admin/host-management/assets/site-management.png" alt="site-management"></p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management.png" alt="Site Management"></p>
+<h2 id="overview">Overview</h2>
+<p>Oqtane allows you to manage multiple sites within a single instance of the application. The <strong>Site Management</strong> page provides an overview of all sites, with quick access to the site settings for each one. Be cautious when deleting a site, as it is a permanent action and cannot be undone unless you are absolutely certain.</p>
+<hr>
+<h2 id="accessing-the-site-management-feature">Accessing the Site Management Feature</h2>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>control panel icon</strong> to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open the Admin Dashboard</strong>: In the control panel, click the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p><strong>Select Site Management</strong>: In the Admin Dashboard, click the <strong>Site Management</strong> icon to open the site configuration options.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/admin-dashboard-site-management.png" alt="Admin Dashboard Site Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="site-management-options">Site Management Options</h2>
+<p>The <strong>Site Management</strong> page includes options to add and edit sites. The available settings are as follows:</p>
+<h3 id="site-details">Site Details</h3>
+<ol>
+<li><strong>Site Name</strong>: Enter the name for your site.</li>
+<li><strong>Aliases</strong>: Define the address of the site. You can create sub-websites under the main site by using a forward slash (&quot;/&quot;) followed by the desired name (e.g., <code>/subsite</code>).</li>
+<li><strong>Default Theme</strong>: Choose the theme that will be applied to pages on this site, determining the color scheme and style.</li>
+<li><strong>Default Layout</strong>: Select the default layout, which defines how many content panes (columns) will be available on each page.</li>
+<li><strong>Default Container</strong>: Choose whether to include a title header for modules on the site.</li>
+<li><strong>Site Template</strong>: Select a template to use for the site, or choose to have no template.</li>
+<li><strong>Tenant</strong>: Choose the tenant (database) for the site.
 <ul>
-<li>Site Name: This field is what the site will be called.</li>
-<li>Aliases: This is what the address of the site is that is being created and can create websites under the default top level website, by using a / forward slash with the a name you want under the top level website.</li>
-<li>Default Theme: Choose the theme, which is the colors and styles that will be the default for pages created on this website.</li>
-<li>Default Layout: Choose how many content panes you want to have on a page by default.</li>
-<li>Default Container: Choose if you want a title header for your modules on the site by default.</li>
-<li>Site Template: Select if you want a template for your site or no template for your site.</li>
-<li>Tenant: Select the tenant for the site, which is the database that will be used for the site.
+<li>If you need to create a new tenant, select <strong>Create a new tenant</strong>. This will open additional options:
 <ul>
-<li>If you want to create a new tenant or database then you will have to select the &quot;create a new tenant&quot; option which will drop down with another menu that allows for a new tenant to be created, this menu includes:</li>
-<li>Name: This is the name for the new tenant on the site, that you will be creating and what will be displayed when selecting tenants in the future.</li>
-<li>Database Type: Choose if you would like the database to have a local database, which will create a Microsoft SQL database on your local database on your system, and an SQL server which creates a that is linked to an SQL server.</li>
-<li>Server: This is the location of where the server where the database will be located and a default value is provided for a local database.</li>
-<li>Database: This is the name that is initialized for the database inside of the server and a default value is provided for a local database.</li>
-<li>Integrated Security: Choose if you want the host superuser for the site to have the same credentials (username and password) as the database's root account.</li>
-<li>Host Username: This is the username of the super user host account that will be created for the site, it will also be the database's root username if integrated security is set as true.</li>
-<li>Hosts Password: This is the super user host account's password, it will also be the database's root account password if integrated security is set as true.</li>
+<li><strong>Name</strong>: Enter the name for the new tenant.</li>
+<li><strong>Database Type</strong>: Choose between a local database or an SQL Server database.</li>
+<li><strong>Server</strong>: Specify the location of the server where the database will be stored (default is the local database).</li>
+<li><strong>Database</strong>: Enter the database name to initialize on the server (default value for local database).</li>
+<li><strong>Integrated Security</strong>: Choose whether the host superuser credentials should match the database's root account.</li>
+<li><strong>Host Username</strong>: Enter the username for the superuser host account. This will also be the database root username if integrated security is enabled.</li>
+<li><strong>Host Password</strong>: Set the password for the superuser host account. This will also be the database root password if integrated security is enabled.</li>
 </ul>
 </li>
 </ul>
+</li>
+</ol>
+<hr>
+<h2 id="add-site">Add Site</h2>
+<p>To add a new site:</p>
+<ol>
+<li><p>Click on the <strong>Add Site</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management-add-site-button.png" alt="Site Management Add Site Button"></p>
+</li>
+<li><p>Fill out the site details in the form that appears.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management-add-site.png" alt="Site Management Add Site"></p>
+</li>
+</ol>
+<hr>
+<h2 id="search-feature">Search Feature</h2>
+<p>You can search for a specific site by name using the search bar.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management-search.png" alt="Site Management Search"></p>
+<hr>
+<h2 id="edit-site">Edit Site</h2>
+<p>To modify the details of an existing site, click the <strong>Edit</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management-edit-button.png" alt="Site Management Edit Site"></p>
+<hr>
+<h2 id="browse-site">Browse Site</h2>
+<p>Click the <strong>Browse</strong> button to view the site.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management-browse-button.png" alt="Site Management Browse Button"></p>
+<hr>
+<h2 id="deleting-a-site">Deleting a Site</h2>
+<p>Be very careful when deleting a site, as this action is permanent and cannot be undone. Once a site is deleted, all data associated with it, including pages, content, and settings, will be permanently removed.</p>
+<p>To delete a site, follow these steps:</p>
+<ol>
+<li><p><strong>Access Site Settings</strong>: Navigate to the <strong>Site Management</strong> page from the Admin Dashboard by clicking the <strong>Edit</strong> button next to the site you wish to delete.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/site-management-edit-button.png" alt="Edit Site Button"></p>
+</li>
+<li><p><strong>Delete the Site</strong>: In the <strong>Site Settings</strong> page, scroll down to the bottom and find the <strong>Delete</strong> option. Confirm your decision to delete the site when prompted.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Warning</strong>: Deleting a site is irreversible. Ensure that you have backed up any important data before proceeding.</p>
+</blockquote>
+<p>Once the site is deleted, the action cannot be undone. The site and all of its content will be permanently erased from the system.</p>
+<hr>
 
 </article>
 

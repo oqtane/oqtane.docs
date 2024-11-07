@@ -86,42 +86,83 @@
         <article data-uid="">
 <h1 id="event-log">Event Log</h1>
 
-<p>The Event log allows you to know what's happening on your website at all times. On the surface, the Event log may seem very simple and it is. You have a listing of the most recent events immediately visible on page load. This list is going to be any number of pages with 10 events by default on each page of results and the option to see more rows at a time.</p>
-<p>A paging feature at the bottom of the list allows you to move from page to page.
-If you want to filter the events to see more or fewer events, you have three controls at the top of the listing to help you. You can filter by the type of event that you want to see with the event Level and Function:</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log.png" alt="Event Log"></p>
+<h2 id="overview">Overview</h2>
+<p>The Event Log provides a centralized record of events occurring on your website, allowing you to monitor site activity and troubleshoot as needed. It is designed to be both simple and effective for viewing and managing events.</p>
+<h2 id="control-panel-walk-through">Control Panel Walk-through</h2>
+<h3 id="accessing-the-event-log-feature">Accessing the Event Log Feature</h3>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>control panel icon</strong> to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open the Admin Dashboard</strong>: In the control panel, select the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p><strong>Select the Event Log</strong>: In the Admin Dashboard, click on the <strong>Event Log</strong> icon to view and configure event logging.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/admin-dashboard-event-log.png" alt="Admin Dashboard Event Log"></p>
+</li>
+</ol>
+<hr>
+<h2 id="event-log-features">Event Log Features</h2>
+<p>Upon opening the Event Log, you’ll see a list of recent events by default, displayed in pages with 10 entries per page. You can adjust the page size to view more events at a time.</p>
+<h3 id="filtering-events">Filtering Events</h3>
+<p>At the top of the Event Log, three main filters help refine the log view:</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log-options.png" alt="Event Log Options"></p>
 <ul>
-<li>Level: The level specifies the severity of the event and includes options for:
+<li><p><strong>Level</strong>: Filter events by severity level, including:</p>
 <ul>
-<li>Trace</li>
-<li>Debug</li>
-<li>Information</li>
-<li>Warning</li>
-<li>Error</li>
-<li>Critical</li>
+<li><strong>Trace</strong></li>
+<li><strong>Debug</strong></li>
+<li><strong>Information</strong></li>
+<li><strong>Warning</strong></li>
+<li><strong>Error</strong></li>
+<li><strong>Critical</strong></li>
 </ul>
 </li>
-</ul>
-<p><img src="./assets/event-level.png" alt="event-level"></p>
+<li><p><strong>Function</strong>: Filter events by action type, which is color-coded for easier tracking:</p>
 <ul>
-<li>Function: The function is what type of feature is being used and is color-coated for easier viewing. It includes options for:
-<ul>
-<li>Create</li>
-<li>Read</li>
-<li>Update</li>
-<li>Delete</li>
-<li>Security</li>
-<li>Other</li>
+<li><strong>Create</strong></li>
+<li><strong>Read</strong></li>
+<li><strong>Update</strong></li>
+<li><strong>Delete</strong></li>
+<li><strong>Security</strong></li>
+<li><strong>Other</strong></li>
 </ul>
 </li>
+<li><p><strong>Maximum Items</strong>: Choose how many rows you would like displayed per page.</p>
+</li>
 </ul>
-<p><img src="./assets/event-function.png" alt="event-function"></p>
+<p>For example, to view login attempts only, set <strong>Function</strong> to <strong>Security</strong>. For broader viewing, increase <strong>Maximum Items</strong> to display up to 100 events on a single page.</p>
+<h3 id="event-log-pagination">Event Log Pagination</h3>
+<p>Use the paging feature at the bottom of the list to navigate between pages if there are more events than can fit in one view.</p>
+<h3 id="viewing-event-details">Viewing Event Details</h3>
+<p>For a closer look at any event, click the <strong>Details</strong> button next to it.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log-details-button.png" alt="Event Log Details Button"></p>
+<p>This opens a detailed view of the event, including where it occurred and a description of the action.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log-details.png" alt="Event Log Details Window"></p>
+<p>To exit, click the <strong>Cancel</strong> button or the <strong>X</strong> in the top right corner.</p>
+<hr>
+<h2 id="event-log-settings">Event Log Settings</h2>
+<p>The Event Log has configurable settings to manage data retention.</p>
+<h3 id="settings">Settings</h3>
 <ul>
-<li>Rows: Choose how many rows you would like to have displayed on page.
-The feature and date are also shown in the event list but aren't sortable fields, with the feature showing what part of the Oqtane framework is being used.
-For example, you might be interested only in seeing instances of site users attempting to log in. To see this, simply change the Function drop-down list to Security, and only security events like the login event will be shown to you.
-In other cases, you might want to see a larger list of events. There are many reasons for this. One reason might be searching for something specific using built-in features of your web browser, such as using Ctrl+F to “find” something in the page. As an example, you could switch the event log to show 100 events by changing the rows.
-For each event that is displayed you can select the detail button to show more information on where the event happened and a more in-depth description on what the event is.</li>
+<li><strong>Retention (days)</strong>: Specify how many days events should be stored.</li>
 </ul>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log-settings.png" alt="Event Log Settings"></p>
+<p>After configuring, click <strong>Save</strong> to apply your settings.</p>
+<h3 id="clearing-the-event-log">Clearing The Event Log</h3>
+<p>To clear all events from the log:</p>
+<ol>
+<li><p>Click the <strong>Clear Events</strong> button in the settings.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log-settings-clear-events-button.png" alt="Clear Events Button"></p>
+</li>
+<li><p>Confirm by selecting <strong>Clear Events</strong> in the confirmation window.</p>
+<p><img src="../../../pages/manuals/admin/host-management/assets/event-log-settings-clear-events-confirmation.png" alt="Clear Events Confirmation Window"></p>
+</li>
+</ol>
+<hr>
+<h2 id="summary">Summary</h2>
+<p>The Event Log feature enables efficient monitoring of your site’s events. Utilize filters, pagination, and detail views to gain insights, troubleshoot issues, and keep your site secure. Configure settings as needed for optimal event data retention and manage the log by clearing old events when necessary.</p>
 
 </article>
 

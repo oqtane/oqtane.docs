@@ -87,24 +87,64 @@
 <h1 id="profile-management">Profile Management</h1>
 
 <p><img src="../../../pages/manuals/admin/admin-management/assets/profile-management.png" alt="profile-management"></p>
-<p>The profile manager exposes one of the more powerful and under-appreciated features that Oqtane has to offer. The profile manager expose to you a few features, but the primary feature is the profile editor, which allows you to customize completely the profile fields that a user account has in nearly every way possible. This is the backbone of all of the user profile features in Oqtane.
-The Oqtane profile manager allows for a user to specify more things about themselves than the typical information from a basic user account. Fields from the profile can be made to be required upon making an account such as making a name or address a required field.</p>
-<p>The profile page has an add profile button at the top of its page which includes:</p>
+<h1 id="overview">Overview</h1>
+<p>Profile Management in Oqtane provides a flexible and powerful way to customize user profiles. This feature is often underappreciated but is essential for creating tailored user experiences. The Profile Manager enables you to customize the fields of user accounts, from the name and address to custom fields with specific validation, required settings, and more.</p>
+<p>In Oqtane, the Profile Manager is primarily used to define profile fields, set field properties, and organize them into categories. Administrators can configure profile fields that users will interact with during account creation or editing.</p>
+<h2 id="control-panel-walk-through">Control Panel Walk-through</h2>
+<h3 id="accessing-the-profile-management-feature">Accessing the Profile Management Feature</h3>
+<ol>
+<li><p>Click the control panel icon to access additional settings.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, select the button to open the admin dashboard.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, click on the <strong>Profile Management</strong> icon to configure visitor tracking.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/admin-dashboard-profile-management.png" alt="Admin Dashboard Profile Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="adding-a-profile-item">Adding a Profile Item</h2>
+<p>At the top of the Profile Management page, you will see an <strong>Add Profile</strong> button. Clicking this button brings up the settings for adding a new profile item.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/profile-management-add-button.png" alt="profile-management-add-button"></p>
+<h3 id="profile-item-settings">Profile Item Settings</h3>
+<p>When adding a profile, the following settings are available:</p>
+<ol>
+<li><strong>Name</strong>: The internal name of the profile item, used for database access.</li>
+<li><strong>Title</strong>: The label displayed to users for this profile item (e.g., &quot;Full Name&quot;).</li>
+<li><strong>Description</strong>: Help text displayed next to the field for user guidance.</li>
+<li><strong>Category</strong>: The grouping name for the profile item (e.g., &quot;Personal Information&quot;).</li>
+<li><strong>Order</strong>: The index position where this item will appear in the profile form. <code>0</code> is the first position.</li>
+<li><strong>Length</strong>: The maximum number of characters allowed for this profile field. Set to <code>0</code> for unlimited length.</li>
+<li><strong>Rows</strong>: The number of rows for text input. If set to more than one row, the input changes from a single-line text field to a multi-line text area.</li>
+<li><strong>Default Value</strong>: The pre-filled value for the profile item if the user does not provide one.</li>
+<li><strong>Options</strong>: A comma-separated list of selectable options (e.g., &quot;Male,Female,Other&quot;).</li>
+<li><strong>Required?</strong>: Whether this field is required for the user to complete when creating their account.</li>
+<li><strong>Validation</strong>: Optionally, provide a regular expression (RegEx) for validating the entered value (e.g., for email addresses).</li>
+<li><strong>Autocomplete</strong>: The HTML <code>autocomplete</code> attribute for browser assistance with autofilling the field. Options include blank (default), 'on', 'off', or any value from the standardized taxonomy.</li>
+<li><strong>Private?</strong>: Whether this profile field is visible to all users or only administrators.</li>
+</ol>
+<p>Once these settings are configured, click <strong>Save</strong> to create the profile item. You can also cancel the action or close the window by clicking the <strong>X</strong> in the top-right corner.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/profile-management-add-settings-window.png" alt="Profile Management Add Settings Window"></p>
+<h2 id="searching-profiles">Searching Profiles</h2>
+<p>Below the <strong>Add Profile</strong> button, there is a <strong>Search</strong> input field. This allows you to search for profile items based on their <strong>Title</strong> or <strong>Category</strong>. You can enter a search term and click <strong>Search</strong> to filter the list of profile items. To reset the search results, click the <strong>Reset</strong> button.</p>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/profile-management-search.png" alt="profile-management-search"></p>
+<h2 id="profile-list">Profile List</h2>
+<p>Below the search field, a list of existing profile items is displayed. For each profile item, the following properties are shown:</p>
 <ul>
-<li>Name: The name of the profile item as it would be accessible in the <a href="../host-administration/sql-management.md">database</a>.</li>
-<li>Title: The title of the field displayed to the user.</li>
-<li>Description: Enter a description for the profile that will be what shows up for the help icon for the field.</li>
-<li>Category: The name for a grouping of fields such as the name or address headings that are by default included in the profile tab above their respective groupings of fields.</li>
-<li>Order: Choose the spot where in the list of profile fields that this one will appear with 0 being the first position.</li>
-<li>Lenth: The maximum length that can be input into this field, with a 0 for unlimited length.</li>
-<li>Default Value: The value that will be put into this field if the user doesn't enter anything into it.</li>
-<li>Options: Has the ability to create a list of items that can be selected and is enter by a list with commas in between the items (a,b,c).</li>
-<li>Required?: Specify whether or not the field is required upon the creation of a new account.</li>
-<li>Private: Specify whether it should be seen by regular user or should just been seen by administrators.
-<img src="./assets/add-profile.png" alt="add-profile"></li>
+<li><strong>Name</strong>: The internal name.</li>
+<li><strong>Title</strong>: The displayed label for the profile item.</li>
+<li><strong>Category</strong>: The group/category the profile item belongs to.</li>
+<li><strong>Order</strong>: The position of the profile item in the list.</li>
 </ul>
-<p>There is also the option to edit or delete any of the fields that have already been created with edit and delete buttons on each item in the list of profile fields.
-<img src="./assets/edit-profile.png" alt="edit-profile"></p>
+<p>Each profile item has two buttons:</p>
+<ul>
+<li><strong>Edit</strong>: Clicking this button opens the profile settings in an editable form where you can change any of the properties. After editing, click <strong>Save</strong> to apply changes, or <strong>Cancel</strong> to discard them. You can also close the settings window by clicking the <strong>X</strong> at the top-right.</li>
+<li><strong>Delete</strong>: Clicking the delete button opens a confirmation window asking you to confirm the deletion of the profile item. Once confirmed, the profile item is permanently deleted.</li>
+</ul>
+<p><img src="../../../pages/manuals/admin/admin-management/assets/profile-management-edit-settings-window.png" alt="Profile Management Edit Settings Window"></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Profile Management feature in Oqtane provides administrators with powerful tools to customize and manage user profiles. Whether you're creating new profile fields or setting validation rules, this feature is essential for tailoring the user experience on your site. Be sure to explore all options to make the most of your site’s profile management capabilities.</p>
 
 </article>
 
