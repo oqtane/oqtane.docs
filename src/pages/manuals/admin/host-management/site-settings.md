@@ -55,7 +55,7 @@ The **URLs** section lets you manage the URLs associated with your site, includi
 - **Add a URL**:
   - Click the **Add** button.
  
-   ![Edit Edit Button](./assets/site-settings-site-urls-edit-button.png)
+   ![Edit Edit Button](./assets/site-settings-site-urls-add-button.png)
 
   - Enter the **URL** in the provided field.
   - Choose **Yes** or **No** for **Default** to set it as the primary URL.
