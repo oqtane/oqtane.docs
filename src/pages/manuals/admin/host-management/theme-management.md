@@ -92,20 +92,25 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
    - **Framework Reference**: Choose a framework version to ensure compatibility with your environment.
 
      ![Framework Reference Setting](./assets/theme-management-create-theme-settings-framework-reference.png)
+     
+   - After setting the above settings **Location** will appear showing the location of where the theme files will be created.
 
+     ![Framework Reference Setting](./assets/theme-management-create-theme-settings-location.png)
 
-3. Once all settings are configured, click the **Create Theme** button to save the new theme.
+3. Once all settings are configured, click the **Create Theme** button to save the new theme.  To exit without creating a theme click the **Cancel** button next to the **Create Theme** button or by clicking the **X** in the top right corner.
 
    ![Theme Management Create Theme Settings Create Theme Button](./assets/theme-management-create-theme-settings-create-theme-button.png)
 
 4. After successfully creating the theme, you will see a notification confirming the creation.
 
-   ![Theme Management Create Theme Notification](./assets/theme-management-create-theme-message.png)
+   ![Theme Management Create Theme Notification](./assets/theme-management-create-theme-created-success-notification.png)
 
    
 ### **Warning**: Theme Creation in Production Environments
 
 **Theme creation** is recommended for **development environments** only. It is not advisable to develop or create themes directly in a **production environment** as it can lead to performance issues, security concerns, or disruptions to the live user experience. For production sites, it is best to pre-build and test themes in a controlled environment before deploying them to your live site.
+
+   ![Theme Management Create Theme Notification](./assets/theme-management-create-theme-message.png)
 
 ---
 
