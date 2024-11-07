@@ -24,18 +24,18 @@ To access **Site Settings** in the Oqtane admin dashboard:
 
 ## Admin Management Site Settings
 
-For the **Admin Management** features in **Site Settings**, see the following sections in the [Admin Management Site Settings](../../admin-management/site-settings.md) documentation:
+For the **Admin Management** features in **Site Settings**, see the following sections in the [Admin Management Site Settings](../admin-management/site-settings.md) documentation:
 
-- **General Settings**: [General Settings Section](../../admin-management/site-settings.md#general-settings)
+- **General Settings**: [General Settings Section](../admin-management/site-settings.md#general-settings)
   - Configure the basic site settings such as site name, description, and default language.
 
-- **Security Settings**: [Security Settings Section](../../admin-management/site-settings.md#security-settings)
+- **Security Settings**: [Security Settings Section](../admin-management/site-settings.md#security-settings)
   - Adjust site security settings, including registration, password policies, and allowed roles.
 
-- **Performance Settings**: [Performance Settings Section](../../admin-management/site-settings.md#performance-settings)
+- **Performance Settings**: [Performance Settings Section](../admin-management/site-settings.md#performance-settings)
   - Control caching, logging, and other performance-related settings.
 
-- **Localization Settings**: [Localization Settings Section](../../admin-management/site-settings.md#localization-settings)
+- **Localization Settings**: [Localization Settings Section](../admin-management/site-settings.md#localization-settings)
   - Manage language preferences and regional settings.
 
 Each of these links provides in-depth details on configuring the corresponding settings.
@@ -126,5 +126,5 @@ The **Database** section provides essential database information for the site.
 
 The **Site Settings** for Host users offer advanced options for managing URLs, UI components, and database configurations, in addition to the standard settings accessible to Admin users. Use these settings to customize your site further and optimize performance, security, and interactivity.
 
-For more detailed information on Admin features, refer to the [Admin Management Site Settings documentation](../../admin-management/site-settings.md).
+For more detailed information on Admin features, refer to the [Admin Management Site Settings documentation](../admin-management/site-settings.md).
 
