@@ -1,6 +1,9 @@
 - name: Introduction
   href: index.md
 
+- name: Site Settings
+  href: site-settings.md
+
 - name: Event Log
   href: event-log.md
 
@@ -24,3 +27,6 @@
   
 - name: Theme Management
   href: theme-management.md
+
+- name: Langauge Management
+  href: language-management.md

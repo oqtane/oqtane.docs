@@ -27,7 +27,7 @@ For different deployment environments, such as production or development, consul
 
 > **Note**: Oqtane is optimized for Windows Server with IIS but also supports deployment on Linux (e.g., with NGINX or Apache).
 
-- [Installation Manuals](../../../manuals/installation/index.md): Detailed setup instructions for deploying Oqtane in different environments.
+- [Installation Guides](../../../guides/installation/index.md): Detailed setup instructions for deploying Oqtane in different environments.
 
 markdown
 
@@ -41,4 +41,4 @@ For further insights on Oqtane installation and configuration, consider explorin
 
 ## See Also
 
-For more comprehensive setup guidance, see the [Installation Manuals](../../../manuals/installation/index.md).
+For more comprehensive setup guidance, see the [Installation Guides(../../../guides/installation/index.md).
