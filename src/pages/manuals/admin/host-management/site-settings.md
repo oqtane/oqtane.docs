@@ -18,7 +18,7 @@ To access **Site Settings** in the Oqtane admin dashboard:
 
 3. **Select Site Settings**: In the Admin Dashboard, click on the **Site Settings** icon to configure your site settings.
 
-   ![Admin Dashboard Site Settings](./assets/site-settings.png)
+   ![Admin Dashboard Site Settings](./assets/admin-dashboard-site-settings.png)
 
 ---
 
