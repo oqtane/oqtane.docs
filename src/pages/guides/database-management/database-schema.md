@@ -50,8 +50,8 @@
  
 ## See Also
 
-- [**Related Enums API Documentation**](https://docs.oqtane.org/api/Oqtane.Enums.html)
-- [**Related Models API Documentation**](https://docs.oqtane.org/api/Oqtane.Models.html)
+- [**Enums API Documentation**](https://docs.oqtane.org/api/Oqtane.Enums.html)
+- [**Models API Documentation**](https://docs.oqtane.org/api/Oqtane.Models.html)
 
 ## Enums
 
