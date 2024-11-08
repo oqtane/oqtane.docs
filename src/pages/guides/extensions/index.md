@@ -70,4 +70,8 @@ Read about:
 1. [Themes](xref:Guides.Themes.Index)
 1. Modules
 
+## Additional Resources
+
+[Oqtane Module Development Series](https://www.youtube.com/playlist?list=PLYhXmd7yV0elLNLfQwZBUlM7ZSMYPTZ_f)
+
 [← Back to Documentation Guides Home Page](../index.md)
