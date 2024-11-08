@@ -19,4 +19,8 @@ Below are the key migration guides that will help you with various migration tas
 
 For further details on specific migration scenarios, follow the guides above based on your needs.
 
+## Additional Resources
+
+- [Migrating from DNN to Oqtane (YouTube Video)](https://www.youtube.com/watch?v=3DnIAAD8I5s)
+
 [← Back to Documentation Guides Home Page](../index.md)
