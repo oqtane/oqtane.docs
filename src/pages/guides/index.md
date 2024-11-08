@@ -60,10 +60,15 @@ For help, discussions, or questions, reach out to our community:
 
 ---
 
-## 🔗 External Guides & Articles
+## 🔗 External Links, Videos & Articles
 
 Here are some external resources and articles that provide additional insights and advanced information for Oqtane developers:
 
+### Videos
+- **[Oqtane Official YouTube Channel](https://www.youtube.com/@oqtane6402)** – Watch tutorials, demos, and more.
+- **[Devessence YouTube Channel](https://www.youtube.com/@Devessence)** – Videos covering Blazor, Oqtane, and other development topics.
+
+### Articles & Blog Posts
 - **[Oqtane Official Blog](https://www.oqtane.org/Blog)** – Stay updated with Oqtane announcements, news, and tips.
 - **[Configuring the Blazor Oqtane Blog Module](https://blazorhelpwebsite.com/ViewBlogPost/15)** – A comprehensive guide to configuring and using the Blog module.
 - **[Creating a Custom Distribution of Blazor Oqtane Using Site Templates](https://blazorhelpwebsite.com/ViewBlogPost/41)** – Learn how to create custom Blazor Oqtane distributions with site templates.
@@ -71,6 +76,9 @@ Here are some external resources and articles that provide additional insights a
 - **[Installing Blazor Oqtane](https://blazorhelpwebsite.com/ViewBlogPost/1)** – A step-by-step guide on installing Oqtane in a Blazor environment.
 - **[Oqtane Module Creator](https://blazorhelpwebsite.com/ViewBlogPost/4)** – Learn how to create and manage custom modules in Oqtane.
 - **[What is Blazor Oqtane?](https://blazorhelpwebsite.com/ViewBlogPost/16)** – An introduction to Blazor Oqtane and its features.
+
+### Community Resources
+- **[TrailBlazor](https://trailblazor.net/)** – Explore articles, tutorials, and resources related to Blazor and Oqtane.
 
 ---
 
