@@ -26,19 +26,25 @@ To access **Site Settings** in the Oqtane admin dashboard:
 
 For the **Admin Management** features in **Site Settings**, see the following sections in the [Admin Management Site Settings](../admin-management/site-settings.md) documentation:
 
-- **General Settings**: [General Settings Section](../admin-management/site-settings.md#general-settings)
-  - Configure the basic site settings such as site name, description, and default language.
+- **Site Settings (Basic Settings)**: [Basic Settings Section](../admin-management/site-settings.md#site-settings)
+  - Configure the foundational settings for your site, including site name, homepage, and site map.
 
-- **Security Settings**: [Security Settings Section](../admin-management/site-settings.md#security-settings)
-  - Adjust site security settings, including registration, password policies, and allowed roles.
+- **Appearance**: [Appearance Section](../admin-management/site-settings.md#appearance)
+  - Manage visual settings, including logo, favicon, and theme options.
 
-- **Performance Settings**: [Performance Settings Section](../admin-management/site-settings.md#performance-settings)
-  - Control caching, logging, and other performance-related settings.
+- **Functionality**: [Functionality Section](../admin-management/site-settings.md#functionality)
+  - Define essential functionalities like the text editor, allowed image extensions, and uploadable file types.
 
-- **Localization Settings**: [Localization Settings Section](../admin-management/site-settings.md#localization-settings)
-  - Manage language preferences and regional settings.
+- **Page Content**: [Page Content Section](../admin-management/site-settings.md#page-content)
+  - Customize additional content for pages, including head and body content.
 
-Each of these links provides in-depth details on configuring the corresponding settings.
+- **SMTP Settings**: [SMTP Settings Section](../admin-management/site-settings.md#smtp-settings)
+  - Set up the SMTP server configurations required for email notifications.
+
+- **PWA Settings**: [PWA Settings Section](../admin-management/site-settings.md#pwa-settings)
+  - Configure Progressive Web App capabilities, including icons and splash screens.
+
+Each of these links provides detailed instructions for configuring the corresponding settings. Ensure all options are set according to your site's requirements for optimal functionality.
 
 ---
 
@@ -88,23 +94,23 @@ The **URLs** section lets you manage the URLs associated with your site, includi
 
 The **UI Component Settings** section allows you to control render modes and interactivity options for UI components.
 
-![UI Component Settings](./assets/site-settings-ui-components-settings.png)
+![UI Component Settings](./assets/site-settings-ui-component-settings.png)
 
 - **Render Mode**: The default render mode for the site, defining how components are rendered on the page.
   
-   ![Render Mode](./assets/site-settings-ui-components-settings-render-mode.png)
+   ![Render Mode](./assets/site-settings-ui-component-settings-render-mode.png)
 
 - **Interactivity**: Specifies the render mode for components requiring interactive features.
 
-   ![Interactivity](./assets/site-settings-ui-components-settings-interactivity.png)
+   ![Interactivity](./assets/site-settings-ui-component-settings-interactivity.png)
 
 - **Prerender**: Indicates if interactive components should prerender their output on the server.
 
-   ![Prerender](./assets/site-settings-ui-components-settings-prerender.png)
+   ![Prerender](./assets/site-settings-ui-component-settings-prerender.png)
 
 - **Hybrid**: Determines if the site can integrate with an external .NET MAUI hybrid application.
 
-   ![Hybrid](./assets/site-settings-ui-components-settings-hybrid.png)
+   ![Hybrid](./assets/site-settings-ui-component-settings-hybrid.png)
 
 ---
 

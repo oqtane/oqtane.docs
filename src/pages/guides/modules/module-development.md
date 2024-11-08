@@ -28,3 +28,7 @@ To begin developing modules for Oqtane, you'll need:
 - Follow the Oqtane module development guidelines and coding standards.
 - Test your modules thoroughly in different environments to ensure compatibility and stability.
 - Document your code and provide clear instructions for module installation and usage.
+
+## Additional Resources
+
+- [Oqtane Module Development Series](https://www.youtube.com/playlist?list=PLYhXmd7yV0elLNLfQwZBUlM7ZSMYPTZ_f)

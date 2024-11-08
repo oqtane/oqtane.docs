@@ -152,7 +152,7 @@ Upon success, a notification confirms that the module was created and you will b
 
 **Module creation** should be reserved for **development environments**. Avoid creating or developing modules directly in a **production environment** as it can impact performance, stability, and security. Developing and testing modules in a controlled setting first helps ensure they work as expected when deployed on a live site.
 
-   ![Module Management Create Module Production Notification](./assets/module-management-production-notification.png)
+   ![Module Management Create Module Production Notification](./assets/module-management-create-module-created-success-notification.png)
 
 ---
 

@@ -71,7 +71,11 @@ This guide will walk you through each section, detailing how to utilize the User
 3. Click **Upload** to load the file, then click **Import** to add users in bulk.
 4. If you don’t have a template, you can download one by clicking the **Template** button.
 
-   ![User Import Window](assets/user-management-import.png)
+   ![User Import Users Template Button](assets/user-management-import-users-template-button.png)
+
+   Below is an example of what the text file will look like:
+
+      ![User Import Users Template Button](assets/user-management-import-users-template-text-file.png)
 
 ---
 

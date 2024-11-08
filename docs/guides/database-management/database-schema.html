@@ -1,0 +1,2306 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Oqtane Schema Documentation - Version 6.0.0 | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Oqtane Schema Documentation - Version 6.0.0 | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/database-management/database-schema.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="oqtane-schema-documentation---version-600">Oqtane Schema Documentation - Version 6.0.0</h1>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#enums">Enums</a>
+<ul>
+<li><a href="#logfunction-enum">LogFunction Enum</a></li>
+<li><a href="#loglevel-enum">LogLevel Enum</a></li>
+<li><a href="#migrationtype-enum">MigrationType Enum</a></li>
+<li><a href="#resourcedeclaration-enum-deprecated">ResourceDeclaration Enum (Deprecated)</a></li>
+<li><a href="#resourcelevel-enum">ResourceLevel Enum</a></li>
+<li><a href="#resourcelocation-enum">ResourceLocation Enum</a></li>
+<li><a href="#resourcetype-enum">ResourceType Enum</a></li>
+<li><a href="#runtime-enum">Runtime Enum</a></li>
+<li><a href="#searchsortfield-enum">SearchSortField Enum</a></li>
+<li><a href="#searchsortorder-enum">SearchSortOrder Enum</a></li>
+<li><a href="#securityaccesslevel-enum">SecurityAccessLevel Enum</a></li>
+</ul>
+</li>
+<li><a href="#models">Models</a>
+<ul>
+<li><a href="#alias-model">Alias Model</a></li>
+<li><a href="#culture-model">Culture Model</a></li>
+<li><a href="#database-model">Database Model</a></li>
+<li><a href="#externalloginprovider-model">ExternalLoginProvider Model</a></li>
+<li><a href="#installation-model">Installation Model</a></li>
+<li><a href="#joblog-model">JobLog Model</a></li>
+<li><a href="#log-model">Log Model</a></li>
+<li><a href="#migrationhistorytable-model">MigrationHistoryTable Model</a></li>
+<li><a href="#modulecontent-model">ModuleContent Model</a></li>
+<li><a href="#package-model">Package Model</a></li>
+<li><a href="#requestculture-model">RequestCulture Model</a></li>
+<li><a href="#resource-model">Resource Model</a></li>
+<li><a href="#result-model">Result Model</a></li>
+<li><a href="#route-model">Route Model</a></li>
+<li><a href="#searchcontent-model">SearchContent Model</a></li>
+<li><a href="#searchcontentproperty-model">SearchContentProperty Model</a></li>
+<li><a href="#searchcontentword-model">SearchContentWord Model</a></li>
+<li><a href="#searchquery-model">SearchQuery Model</a></li>
+<li><a href="#searchresults-model">SearchResults Model</a></li>
+<li><a href="#searchword-model">SearchWord Model</a></li>
+<li><a href="#sitemap-model">Sitemap Model</a></li>
+<li><a href="#sitetemplate-model">SiteTemplate Model</a></li>
+<li><a href="#pagetemplate-model">PageTemplate Model</a></li>
+<li><a href="#pagetemplatemodule-model">PageTemplateModule Model</a></li>
+<li><a href="#sqlquery-model">SqlQuery Model</a></li>
+<li><a href="#sync-model">Sync Model</a></li>
+<li><a href="#template-model">Template Model</a></li>
+<li><a href="#themecontrol-model">ThemeControl Model</a></li>
+<li><a href="#urlmapping-model">UrlMapping Model</a></li>
+<li><a href="#uservalidateresult-model">UserValidateResult Model</a></li>
+<li><a href="#visitor-model">Visitor Model</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="enums">Enums</h2>
+<h3 id="logfunction-enum"><strong>LogFunction Enum</strong></h3>
+<p>The <code>LogFunction</code> enum categorizes log entries based on the type of operation being performed.</p>
+<ul>
+<li><strong>Create</strong>: Logs when a new entity is created.</li>
+<li><strong>Read</strong>: Logs when an entity is read.</li>
+<li><strong>Update</strong>: Logs when an entity is updated.</li>
+<li><strong>Delete</strong>: Logs when an entity is deleted.</li>
+<li><strong>Security</strong>: Logs security-related activities.</li>
+<li><strong>Other</strong>: Logs other activities not covered by the above.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">LogFunction logFunction = LogFunction.Create;
+</code></pre>
+<hr>
+<h3 id="loglevel-enum">LogLevel Enum</h3>
+<p>The <code>LogLevel</code> enum sets the verbosity level for log entries. Higher levels indicate more severe messages.</p>
+<ul>
+<li><strong>Trace</strong>: Detailed information for troubleshooting.</li>
+<li><strong>Debug</strong>: Debugging information for development purposes.</li>
+<li><strong>Information</strong>: Standard informational logs.</li>
+<li><strong>Warning</strong>: Warnings about potential issues.</li>
+<li><strong>Error</strong>: Logs errors that indicate a problem.</li>
+<li><strong>Critical</strong>: Critical errors requiring immediate attention.</li>
+<li><strong>None</strong>: No logging.
+<strong>Description:</strong> This enum is used to set the level of verbosity for log entries. The higher the level, the more severe the message.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">LogLevel logLevel = LogLevel.Error;
+</code></pre>
+<hr>
+<h3 id="migrationtype-enum">MigrationType Enum</h3>
+<p>The <code>MigrationType</code> enum specifies whether to apply or roll back database changes during migration.</p>
+<ul>
+<li><strong>Up</strong>: Migrating database schema upwards (applying changes).</li>
+<li><strong>Down</strong>: Rolling back database schema changes.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">MigrationType migrationType = MigrationType.Up;
+</code></pre>
+<hr>
+<h3 id="resourcedeclaration-enum-deprecated">ResourceDeclaration Enum (Deprecated)</h3>
+<p><strong>Description:</strong> This enum was used to define whether a resource (like a script or stylesheet) is declared at a local or global level. It is now deprecated and should not be used.</p>
+<ul>
+<li><strong>Local</strong>: Resource is declared at the local level (specific to the current scope).</li>
+<li><strong>Global</strong>: Resource is available globally across the application.</li>
+</ul>
+<p><strong>Note:</strong> Use <code>ResourceLevel</code> enum instead for specifying resource scope.</p>
+<hr>
+<h3 id="resourcelevel-enum">ResourceLevel Enum</h3>
+<p>The <code>ResourceLevel</code> enum specifies the scope of a resource's availability, determining the context in which a resource is accessible.</p>
+<ul>
+<li><strong>Undefined</strong>: Resource level is not specified.</li>
+<li><strong>Site</strong>: Resource is associated with a specific site.</li>
+<li><strong>Page</strong>: Resource is associated with a specific page.</li>
+<li><strong>Module</strong>: Resource is associated with a specific module.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">ResourceLevel resourceLevel = ResourceLevel.Page;
+</code></pre>
+<hr>
+<h3 id="resourcelocation-enum">ResourceLocation Enum</h3>
+<p>The <code>ResourceLocation</code> enum specifies whether a resource (such as a script or CSS file) should be loaded in the <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> of an HTML document.</p>
+<ul>
+<li><strong>Head</strong>: Resource is placed in the <code>&lt;head&gt;</code> section.</li>
+<li><strong>Body</strong>: Resource is placed just before the closing <code>&lt;/body&gt;</code> tag.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">ResourceLocation resourceLocation = ResourceLocation.Head;
+</code></pre>
+<hr>
+<h3 id="resourcetype-enum">ResourceType Enum</h3>
+<p>The <code>ResourceType</code> enum defines the type of resource, which can either be a CSS file or a JavaScript file.</p>
+<ul>
+<li><strong>Stylesheet</strong>: Resource is a CSS stylesheet.</li>
+<li><strong>Script</strong>: Resource is a JavaScript script.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">ResourceType resourceType = ResourceType.Stylesheet;
+</code></pre>
+<hr>
+<h3 id="runtime-enum">Runtime Enum</h3>
+<p>The <code>Runtime</code> enum specifies the runtime environment of the application, helping determine the appropriate execution context.</p>
+<ul>
+<li><strong>Server</strong>: Application is running on the server.</li>
+<li><strong>WebAssembly</strong>: Application is running in the WebAssembly environment (browser).</li>
+<li><strong>Auto</strong>: Automatically detects the runtime environment.</li>
+<li><strong>Hybrid</strong>: Supports both server and WebAssembly environments.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">Runtime runtime = Runtime.Server;
+</code></pre>
+<hr>
+<h3 id="searchsortfield-enum">SearchSortField Enum</h3>
+<p>The <code>SearchSortField</code> enum specifies the sorting order for search results, allowing control based on relevance, title, or last modified timestamp.</p>
+<ul>
+<li><strong>Relevance</strong>: Sort results by relevance to the search query.</li>
+<li><strong>Title</strong>: Sort results by the resource title.</li>
+<li><strong>LastModified</strong>: Sort results by the last modified date.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">SearchSortField sortField = SearchSortField.Relevance;
+</code></pre>
+<hr>
+<h3 id="searchsortorder-enum">SearchSortOrder Enum</h3>
+<p>The <code>SearchSortOrder</code> enum defines whether the search results should be sorted in ascending or descending order.</p>
+<ul>
+<li><strong>Ascending</strong>: Sort in ascending order.</li>
+<li><strong>Descending</strong>: Sort in descending order.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">SearchSortOrder sortOrder = SearchSortOrder.Ascending;
+</code></pre>
+<hr>
+<h3 id="securityaccesslevel-enum">SecurityAccessLevel Enum</h3>
+<p>The <code>SecurityAccessLevel</code> enum controls the level of access a user has in the system, ranging from no access (Anonymous) to full administrative or host access.</p>
+<ul>
+<li><strong>Anonymous</strong>: No authentication required; accessible by everyone.</li>
+<li><strong>View</strong>: Users can view content.</li>
+<li><strong>Edit</strong>: Users can edit content.</li>
+<li><strong>Admin</strong>: Users have administrative privileges.</li>
+<li><strong>Host</strong>: Users have host-level access (highest privilege).</li>
+</ul>
+<p><strong>Example:</strong></p>
+<pre><code class="lang-csharp">SecurityAccessLevel accessLevel = SecurityAccessLevel.Admin;
+</code></pre>
+<hr>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>These enums are critical for managing various functionalities in the Oqtane framework, such as logging, resource management, security, and search sorting.</li>
+<li>The <code>ResourceDeclaration</code> enum is marked as obsolete and should no longer be used in new development.</li>
+</ul>
+<hr>
+<h2 id="models">Models</h2>
+<hr>
+<h3 id="alias-model"><strong>Alias Model</strong></h3>
+<p>The <code>Alias</code> model represents an alias for a site within the Oqtane framework.</p>
+<h4 id="properties">Properties:</h4>
+<ul>
+<li><strong>AliasId</strong>: Primary key used for internal site identification.</li>
+<li><strong>Name</strong>: The alias name, representing the URL (e.g., <code>oqtane.me</code> or <code>oqtane.me/products</code>).</li>
+<li><strong>TenantId</strong>: Foreign key referencing the Tenant to which the alias belongs.</li>
+<li><strong>SiteId</strong>: Foreign key referencing the Site to which the alias belongs.</li>
+<li><strong>IsDefault</strong>: Indicates whether this alias is the default for the Tenant/Site.</li>
+<li><strong>Path</strong>: Extracted from the URL to provide the part after the first slash, used for routing.</li>
+<li><strong>SiteKey</strong>: Combines <code>TenantId</code> and <code>SiteId</code> to create a unique identifier for the site.</li>
+<li><strong>Protocol</strong>: Defines the protocol (e.g., <code>http://</code> or <code>https://</code>) for accessing the alias.</li>
+<li><strong>BaseUrl</strong>: Base URL for static resources, typically for remote clients.</li>
+</ul>
+<h4 id="example-usage">Example Usage:</h4>
+<pre><code class="lang-csharp">var alias = new Alias
+{
+    AliasId = 1,
+    Name = &quot;oqtane.me&quot;,
+    TenantId = 1,
+    SiteId = 1,
+    IsDefault = true
+};
+
+// Access the Path property
+string path = alias.Path; // returns &quot;&quot;
+</code></pre>
+<h4 id="change-log">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>AliasId</code>, <code>Name</code>, <code>TenantId</code>, <code>SiteId</code>, and <code>IsDefault</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Path</code> property to extract the URL part after the first slash.</li>
+<li><strong>Update</strong>: Introduced <code>SiteKey</code> and <code>Protocol</code> properties for better identification and request handling.</li>
+<li><strong>Refinement</strong>: Added <code>BaseUrl</code> property for accessing static resources.</li>
+</ul>
+<hr>
+<h3 id="culture-model"><strong>Culture Model</strong></h3>
+<p>The <code>Culture</code> model represents a culture used within the Oqtane framework.</p>
+<h4 id="properties-1">Properties:</h4>
+<ul>
+<li><strong>Name</strong>: The culture's short code (e.g., <code>en</code> or <code>en-US</code>).</li>
+<li><strong>DisplayName</strong>: The friendly display name of the culture (e.g., <code>English (United States)</code>).</li>
+<li><strong>IsDefault</strong>: Indicates if this culture is the default for the system (currently unverified).</li>
+</ul>
+<h4 id="example-usage-1">Example Usage:</h4>
+<pre><code class="lang-csharp">var culture = new Culture
+{
+    Name = &quot;en-US&quot;,
+    DisplayName = &quot;English (United States)&quot;,
+    IsDefault = true
+};
+</code></pre>
+<h4 id="change-log-1">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Defined primary properties for <code>Name</code>, <code>DisplayName</code>, and <code>IsDefault</code>.</li>
+</ul>
+<hr>
+<h3 id="database-model"><strong>Database Model</strong></h3>
+<p>The <code>Database</code> model represents a database configuration within the Oqtane framework.</p>
+<h4 id="properties-2">Properties:</h4>
+<ul>
+<li><strong>Name</strong>: The name of the database.</li>
+<li><strong>ControlType</strong>: The UI control used to configure the database (e.g., <code>SqlServerConfig</code>).</li>
+<li><strong>DBType</strong>: The full namespace of the database type (e.g., <code>SqlServerDatabase</code>).</li>
+<li><strong>IsDefault</strong>: A flag indicating whether this database is the default database provider.</li>
+</ul>
+<h4 id="example-usage-2">Example Usage:</h4>
+<pre><code class="lang-csharp">var database = new Database
+{
+    Name = &quot;OqtaneDB&quot;,
+    ControlType = &quot;Oqtane.Installer.Controls.SqlServerConfig, Oqtane.Client&quot;,
+    DBType = &quot;Oqtane.Database.SqlServer.SqlServerDatabase, Oqtane.Database.SqlServer&quot;,
+    IsDefault = true
+};
+</code></pre>
+<h4 id="change-log-2">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Name</code>, <code>ControlType</code>, <code>DBType</code>, and <code>IsDefault</code>.</li>
+</ul>
+<hr>
+<h3 id="externalloginprovider-model"><strong>ExternalLoginProvider Model</strong></h3>
+<p>The <code>ExternalLoginProvider</code> model represents an external login provider within the Oqtane framework.</p>
+<h4 id="properties-3">Properties:</h4>
+<ul>
+<li><strong>Name</strong>: The name of the external login provider (e.g., <code>Google</code>, <code>Facebook</code>).</li>
+<li><strong>Settings</strong>: A dictionary of key-value pairs for the provider's configuration settings.</li>
+</ul>
+<h4 id="example-usage-3">Example Usage:</h4>
+<pre><code class="lang-csharp">var externalLoginProvider = new ExternalLoginProvider
+{
+    Name = &quot;Google&quot;,
+    Settings = new Dictionary&lt;string, string&gt;
+    {
+        {&quot;ClientId&quot;, &quot;your-client-id&quot;},
+        {&quot;ClientSecret&quot;, &quot;your-client-secret&quot;}
+    }
+};
+</code></pre>
+<h4 id="change-log-3">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Defined properties for <code>Name</code> and <code>Settings</code>.</li>
+</ul>
+<hr>
+<h3 id="file-model"><strong>File Model</strong></h3>
+<p>The <code>File</code> model represents a file within the Oqtane framework.</p>
+<h4 id="properties-4">Properties:</h4>
+<ul>
+<li><strong>FileId</strong>: Primary identifier for the file.</li>
+<li><strong>FolderId</strong>: Foreign key referencing the folder the file belongs to.</li>
+<li><strong>Name</strong>: The name of the file.</li>
+<li><strong>Extension</strong>: File extension (e.g., 'jpg'), lowercase and without the dot.</li>
+<li><strong>Size</strong>: File size in bytes.</li>
+<li><strong>ImageHeight</strong>: Height of the image in pixels.</li>
+<li><strong>ImageWidth</strong>: Width of the image in pixels.</li>
+<li><strong>Description</strong>: Description of the file.</li>
+<li><strong>IsDeleted</strong>: Flag indicating if the file is marked as deleted (deprecated, not used).</li>
+<li><strong>Folder</strong>: Reference to the <code>Folder</code> object, used to determine the site the file belongs to.</li>
+<li><strong>Url</strong>: URL for accessing the file.</li>
+</ul>
+<h4 id="example-usage-4">Example Usage:</h4>
+<pre><code class="lang-csharp">var file = new File
+{
+    FileId = 1,
+    FolderId = 10,
+    Name = &quot;example.jpg&quot;,
+    Extension = &quot;jpg&quot;,
+    Size = 2048,
+    ImageHeight = 1080,
+    ImageWidth = 1920,
+    Description = &quot;An example image file&quot;,
+    IsDeleted = false,
+    Url = &quot;/files/example.jpg&quot;
+};
+</code></pre>
+<h4 id="change-log-4">Change Log:</h4>
+<ul>
+<li>Initial creation of File model.</li>
+<li>Added properties for image dimensions.</li>
+<li>Deprecated <code>IsDeleted</code> property.</li>
+</ul>
+<hr>
+<h3 id="folder-model"><strong>Folder Model</strong></h3>
+<p>The <code>Folder</code> model represents a folder within the Oqtane framework.</p>
+<h4 id="properties-5">Properties:</h4>
+<ul>
+<li><strong>FolderId</strong>: Primary identifier for the folder.</li>
+<li><strong>SiteId</strong>: Foreign key referencing the site the folder belongs to.</li>
+<li><strong>ParentId</strong>: Foreign key referencing the parent folder, if any.</li>
+<li><strong>Type</strong>: Type of the folder based on predefined folder types.</li>
+<li><strong>Name</strong>: The name of the folder.</li>
+<li><strong>Path</strong>: Path to the folder.</li>
+<li><strong>Order</strong>: Sorting order of the folder.</li>
+<li><strong>ImageSizes</strong>: List of image sizes that can be generated from uploaded images.</li>
+<li><strong>Capacity</strong>: Maximum capacity of the folder in bytes.</li>
+<li><strong>IsSystem</strong>: Indicates if the folder is a system folder.</li>
+<li><strong>IsDeleted</strong>: Deprecated flag indicating if the folder is marked as deleted.</li>
+<li><strong>PermissionList</strong>: List of permissions for the folder.</li>
+<li><strong>Level</strong>: Depth level of the folder in the hierarchy.</li>
+<li><strong>HasChildren</strong>: Indicates if the folder has sub-items.</li>
+<li><strong>Permissions</strong>: Deprecated property for folder permissions (use <code>PermissionList</code> instead).</li>
+</ul>
+<p><strong>Example Usage:</strong></p>
+<pre><code class="lang-csharp">var folder = new Folder
+{
+    FolderId = 1,
+    SiteId = 1,
+    ParentId = null,
+    Type = &quot;Documents&quot;,
+    Name = &quot;Project Files&quot;,
+    Path = &quot;/project-files&quot;,
+    Order = 1,
+    ImageSizes = &quot;200x200,x200,200x&quot;,
+    Capacity = 10485760,
+    IsSystem = false,
+    IsDeleted = false,
+    PermissionList = new List&lt;Permission&gt;(),
+    Level = 0,
+    HasChildren = true
+};
+
+// Accessing properties
+string folderName = folder.Name; // returns &quot;Project Files&quot;
+int folderCapacity = folder.Capacity; // returns 10485760 (10 MB)
+</code></pre>
+<p><strong>Change Log:</strong></p>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>FolderId</code>, <code>SiteId</code>, <code>ParentId</code>, <code>Type</code>, <code>Name</code>, <code>Path</code>, <code>Order</code>, <code>ImageSizes</code>, <code>Capacity</code>, <code>IsSystem</code>, and <code>IsDeleted</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>PermissionList</code>, <code>Level</code>, and <code>HasChildren</code> properties.</li>
+<li><strong>Update</strong>: Deprecated the <code>Permissions</code> property and provided a replacement with <code>PermissionList</code>.</li>
+</ul>
+<hr>
+<h3 id="installation-model"><strong>Installation Model</strong></h3>
+<p>The <code>Installation</code> model represents the result of an installation attempt within the Oqtane framework.</p>
+<ul>
+<li><strong>Success</strong>: Boolean flag indicating whether the installation was successful.</li>
+<li><strong>Message</strong>: Message or error description in case something failed.</li>
+<li><strong>Alias</strong>: Current alias value retrieved from the server during installation.</li>
+</ul>
+<p><strong>Example Usage:</strong></p>
+<pre><code class="lang-csharp">var installation = new Installation
+{
+    Success = true,
+    Message = &quot;Installation completed successfully.&quot;,
+    Alias = new Alias { AliasId = 1, Name = &quot;oqtane.me&quot;, TenantId = 1, SiteId = 1 }
+};
+
+// Accessing properties
+bool isSuccess = installation.Success; // returns true
+string installMessage = installation.Message; // returns &quot;Installation completed successfully.&quot;
+Alias installAlias = installation.Alias; // returns Alias object
+</code></pre>
+<p><strong>Change Log:</strong></p>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>Success</code>, <code>Message</code>, and <code>Alias</code>.</li>
+</ul>
+<hr>
+<h3 id="job-model"><strong>Job Model</strong></h3>
+<p>The <code>Job</code> model represents a scheduled task within the Oqtane framework.</p>
+<ul>
+<li><strong>JobId</strong>: Internal ID of the job.</li>
+<li><strong>Name</strong>: Name for simple identification.</li>
+<li><strong>JobType</strong>: Type of job.</li>
+<li><strong>Frequency</strong>: Unit used to define how often the job should run (e.g., 'm' for minutes, 'H' for hours).</li>
+<li><strong>Interval</strong>: How often the job should run, in conjunction with <code>Frequency</code>.</li>
+<li><strong>StartDate</strong>: When the job is to be run for the first time.</li>
+<li><strong>EndDate</strong>: When the job is to be run for the last time.</li>
+<li><strong>IsEnabled</strong>: Indicates if the job is activated/enabled.</li>
+<li><strong>IsStarted</strong>: Indicates if the job has ever started running.</li>
+<li><strong>IsExecuting</strong>: Indicates if the job is currently executing.</li>
+<li><strong>NextExecution</strong>: When the job will run next.</li>
+<li><strong>RetentionHistory</strong>: (Todo: Document the purpose of this property).</li>
+</ul>
+<p><strong>Example Usage:</strong></p>
+<pre><code class="lang-csharp">var job = new Job
+{
+    JobId = 1,
+    Name = &quot;Daily Backup&quot;,
+    JobType = &quot;Backup&quot;,
+    Frequency = &quot;H&quot;,
+    Interval = 24,
+    StartDate = DateTime.Now,
+    EndDate = DateTime.Now.AddYears(1),
+    IsEnabled = true,
+    IsStarted = false,
+    IsExecuting = false,
+    NextExecution = DateTime.Now.AddHours(24),
+    RetentionHistory = 30
+};
+
+// Accessing properties
+bool isEnabled = job.IsEnabled; // returns true
+DateTime? nextExecution = job.NextExecution; // returns the next execution time
+</code></pre>
+<p><strong>Change Log:</strong></p>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>JobId</code>, <code>Name</code>, <code>JobType</code>, <code>Frequency</code>, <code>Interval</code>, <code>StartDate</code>, <code>EndDate</code>, <code>IsEnabled</code>, <code>IsStarted</code>, <code>IsExecuting</code>, and <code>NextExecution</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>RetentionHistory</code> property.</li>
+</ul>
+<hr>
+<h3 id="joblog-model"><strong>JobLog Model</strong></h3>
+<p>The <code>JobLog</code> model represents a record of a job execution within the Oqtane framework.</p>
+<ul>
+<li><strong>JobLogId</strong>: Internal ID of the job log.</li>
+<li><strong>JobId</strong>: Reference to the job that was run.</li>
+<li><strong>StartDate</strong>: Timestamp when the job started.</li>
+<li><strong>FinishDate</strong>: Timestamp when the job ended.</li>
+<li><strong>Succeeded</strong>: Indicates whether the job succeeded.</li>
+<li><strong>Notes</strong>: Additional protocol information left after the job ran.</li>
+<li><strong>Job</strong>: Reference to the job, though it's not clear if this is always populated.</li>
+</ul>
+<p><strong>Example Usage:</strong></p>
+<pre><code class="lang-csharp">var jobLog = new JobLog
+{
+    JobLogId = 1,
+    JobId = 100,
+    StartDate = DateTime.Now,
+    FinishDate = DateTime.Now.AddMinutes(30),
+    Succeeded = true,
+    Notes = &quot;Backup completed successfully.&quot;,
+    Job = new Job { JobId = 100, Name = &quot;Daily Backup&quot; }
+};
+
+// Accessing properties
+bool? succeeded = jobLog.Succeeded; // returns true
+string logNotes = jobLog.Notes; // returns &quot;Backup completed successfully.&quot;
+</code></pre>
+<p><strong>Change Log:</strong></p>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>JobLogId</code>, <code>JobId</code>, <code>StartDate</code>, <code>FinishDate</code>, <code>Succeeded</code>, <code>Notes</code>, and <code>Job</code>.</li>
+</ul>
+<hr>
+<p>For the <code>database-schema.md</code> file, you can simplify the documentation to make it concise and focused on essential details. Here’s an example of how you might document the <strong>Language</strong> model without the full class definition:</p>
+<hr>
+<h3 id="language-model"><strong>Language Model</strong></h3>
+<p>The <code>Language</code> model provides information about languages used on different sites within the Oqtane framework.</p>
+<h4 id="properties-6">Properties:</h4>
+<ul>
+<li><strong>LanguageId</strong>: Internal ID for the language.</li>
+<li><strong>SiteId</strong>: Nullable reference to a <code>Site</code>. Not all languages need to be linked to a specific site, hence the property is nullable.</li>
+<li><strong>Code</strong>: Language/Culture code (e.g., 'en-US') corresponding to <code>Culture.Name</code>.</li>
+<li><strong>IsDefault</strong>: Indicates if this is the default language for a site.</li>
+<li><strong>Name</strong>: (Not Mapped) Language name corresponding to <code>Culture.DisplayName</code>, not <code>Culture.Name</code>.</li>
+<li><strong>Version</strong>: (Not Mapped) Version of the satellite assembly.</li>
+</ul>
+<h4 id="example-usage-5">Example Usage:</h4>
+<pre><code class="lang-csharp">var language = new Language
+{
+    LanguageId = 1,
+    SiteId = 100,
+    Code = &quot;en-US&quot;,
+    IsDefault = true,
+    Name = &quot;English (United States)&quot;,
+    Version = &quot;1.0.0&quot;
+};
+
+// Cloning the language object
+var clonedLanguage = language.Clone();
+</code></pre>
+<h4 id="change-log-5">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>LanguageId</code>, <code>SiteId</code>, <code>Code</code>, <code>IsDefault</code>, <code>Name</code>, and <code>Version</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Language</code> object.</li>
+</ul>
+<hr>
+<h3 id="log-model"><strong>Log Model</strong></h3>
+<p>The <code>Log</code> model represents an entry in the events log within the Oqtane framework.</p>
+<h4 id="properties-7">Properties:</h4>
+<ul>
+<li><strong>LogId</strong>: Internal ID of the log entry.</li>
+<li><strong>SiteId</strong>: Nullable reference to the <code>Site</code> related to this log entry.</li>
+<li><strong>LogDate</strong>: Timestamp when the log entry was created.</li>
+<li><strong>PageId</strong>: Nullable reference to the <code>Page</code> related to this log entry.</li>
+<li><strong>ModuleId</strong>: Nullable reference to the <code>Module</code> related to this log entry.</li>
+<li><strong>UserId</strong>: Nullable reference to the <code>User</code> related to this log entry.</li>
+<li><strong>Url</strong>: URL relevant to this log entry, if applicable.</li>
+<li><strong>Server</strong>: Name of the server that created this entry.</li>
+<li><strong>Category</strong>: Usually the full type name related to the log entry.</li>
+<li><strong>Feature</strong>: Feature associated with this log entry.</li>
+<li><strong>Function</strong>: Function or method associated with this log entry.</li>
+<li><strong>Level</strong>: Log level or severity of the log entry.</li>
+<li><strong>Message</strong>: Log message.</li>
+<li><strong>MessageTemplate</strong>: Template used for the log message.</li>
+<li><strong>Exception</strong>: Information about any exceptions raised.</li>
+<li><strong>Properties</strong>: Additional properties or metadata related to the log entry.</li>
+</ul>
+<h4 id="example-usage-6">Example Usage:</h4>
+<pre><code class="lang-csharp">var log = new Log
+{
+    LogId = 1,
+    SiteId = 10,
+    LogDate = DateTime.Now,
+    PageId = 20,
+    ModuleId = 30,
+    UserId = 40,
+    Url = &quot;https://example.com&quot;,
+    Server = &quot;Server1&quot;,
+    Category = &quot;Oqtane.Pages.PageController&quot;,
+    Feature = &quot;PageLoad&quot;,
+    Function = &quot;GetPage&quot;,
+    Level = &quot;Error&quot;,
+    Message = &quot;An error occurred while loading the page.&quot;,
+    MessageTemplate = &quot;Error loading page {PageId}&quot;,
+    Exception = &quot;NullReferenceException&quot;,
+    Properties = &quot;Additional context or metadata&quot;
+};
+</code></pre>
+<h4 id="change-log-6">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>LogId</code>, <code>SiteId</code>, <code>LogDate</code>, <code>PageId</code>, <code>ModuleId</code>, <code>UserId</code>, <code>Url</code>, <code>Server</code>, <code>Category</code>, <code>Feature</code>, <code>Function</code>, <code>Level</code>, <code>Message</code>, <code>MessageTemplate</code>, <code>Exception</code>, and <code>Properties</code>.</li>
+</ul>
+<hr>
+<h3 id="migrationhistorytable-model"><strong>MigrationHistoryTable Model</strong></h3>
+<p>The <code>MigrationHistoryTable</code> model provides information about the migration history table used for tracking database migrations within the Oqtane framework.</p>
+<h4 id="properties-8">Properties:</h4>
+<ul>
+<li><strong>TableName</strong>: Name of the migration history table.</li>
+<li><strong>TableSchema</strong>: Schema of the migration history table.</li>
+<li><strong>MigrationIdColumnName</strong>: Column name for the migration ID.</li>
+<li><strong>ProductVersionColumnName</strong>: Column name for the product version.</li>
+<li><strong>AppliedVersionColumnName</strong>: Column name for the applied version.</li>
+<li><strong>AppliedDateColumnName</strong>: Column name for the date when the migration was applied.</li>
+</ul>
+<h4 id="example-usage-7">Example Usage:</h4>
+<pre><code class="lang-csharp">var migrationHistoryTable = new MigrationHistoryTable
+{
+    TableName = &quot;MigrationHistory&quot;,
+    TableSchema = &quot;dbo&quot;,
+    MigrationIdColumnName = &quot;MigrationId&quot;,
+    ProductVersionColumnName = &quot;ProductVersion&quot;,
+    AppliedVersionColumnName = &quot;AppliedVersion&quot;,
+    AppliedDateColumnName = &quot;AppliedDate&quot;
+};
+</code></pre>
+<h4 id="change-log-7">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>TableName</code>, <code>TableSchema</code>, <code>MigrationIdColumnName</code>, <code>ProductVersionColumnName</code>, <code>AppliedVersionColumnName</code>, and <code>AppliedDateColumnName</code>.</li>
+</ul>
+<hr>
+<h3 id="modelbase-class"><strong>ModelBase Class</strong></h3>
+<p>The <code>ModelBase</code> class is a base class for other models, providing common auditing properties.</p>
+<h4 id="properties-9">Properties:</h4>
+<ul>
+<li><strong>CreatedBy</strong>: The username or identifier of the user who created the record.</li>
+<li><strong>CreatedOn</strong>: The timestamp when the record was created.</li>
+<li><strong>ModifiedBy</strong>: The username or identifier of the user who last modified the record.</li>
+<li><strong>ModifiedOn</strong>: The timestamp when the record was last modified.</li>
+</ul>
+<h4 id="example-usage-8">Example Usage:</h4>
+<pre><code class="lang-csharp">public class ExampleModel : ModelBase
+{
+    public int ExampleModelId { get; set; }
+    public string Name { get; set; }
+}
+
+var example = new ExampleModel
+{
+    ExampleModelId = 1,
+    Name = &quot;Sample&quot;,
+    CreatedBy = &quot;admin&quot;,
+    CreatedOn = DateTime.UtcNow,
+    ModifiedBy = &quot;admin&quot;,
+    ModifiedOn = DateTime.UtcNow
+};
+</code></pre>
+<h4 id="change-log-8">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>CreatedBy</code>, <code>CreatedOn</code>, <code>ModifiedBy</code>, and <code>ModifiedOn</code>.</li>
+</ul>
+<hr>
+<h3 id="module-model"><strong>Module Model</strong></h3>
+<p>The <code>Module</code> model describes a module instance that will be shown on a page. This is different from a <code>ModuleDefinition</code> which describes the module itself.</p>
+<h4 id="properties-10">Properties:</h4>
+<ul>
+<li><strong>ModuleId</strong>: The ID of this instance.</li>
+<li><strong>SiteId</strong>: Reference to the <code>Site</code>.</li>
+<li><strong>ModuleDefinitionName</strong>: Reference to the <code>ModuleDefinition</code>.</li>
+<li><strong>AllPages</strong>: Determines if this module should be shown on all pages of the current <code>Site</code>.</li>
+<li><strong>ModuleDefinition</strong>: (Not Mapped) Reference to the <code>ModuleDefinition</code> used for this module.</li>
+<li><strong>DeletedBy</strong>: (Not Mapped) The user who deleted this module (if applicable).</li>
+<li><strong>DeletedOn</strong>: (Not Mapped) The timestamp when the module was deleted (if applicable).</li>
+<li><strong>IsDeleted</strong>: (Not Mapped) Indicates if the module is deleted.</li>
+<li><strong>PermissionList</strong>: (Not Mapped) List of permissions for this module.</li>
+<li><strong>Settings</strong>: (Not Mapped) List of settings for this module.</li>
+<li><strong>PageModuleId</strong>: (Not Mapped) The ID of the <code>PageModule</code> instance.</li>
+<li><strong>PageId</strong>: (Not Mapped) Reference to the <code>Page</code> this module is on.</li>
+<li><strong>Title</strong>: (Not Mapped) Title of the <code>PageModule</code> instance.</li>
+<li><strong>Pane</strong>: (Not Mapped) The pane where this <code>PageModule</code> instance will be injected on the page.</li>
+<li><strong>Order</strong>: (Not Mapped) The order of the <code>PageModule</code> instance within the pane.</li>
+<li><strong>ContainerType</strong>: (Not Mapped) The container for the <code>PageModule</code> instance.</li>
+<li><strong>EffectiveDate</strong>: (Not Mapped) Start of when this module is visible.</li>
+<li><strong>ExpiryDate</strong>: (Not Mapped) End of when this module is visible.</li>
+<li><strong>ModuleType</strong>: (Not Mapped) Stores the type name for the module component being rendered.</li>
+<li><strong>PaneModuleIndex</strong>: (Not Mapped) The position of the module instance in a pane.</li>
+<li><strong>PaneModuleCount</strong>: (Not Mapped) The number of modules in a pane.</li>
+<li><strong>RenderId</strong>: (Not Mapped) A unique ID to help determine if a component should be rendered.</li>
+<li><strong>SecurityAccessLevel</strong>: (Not Mapped) The minimum access level to view the component being rendered.</li>
+<li><strong>ControlTitle</strong>: (Not Mapped) An optional title for the component.</li>
+<li><strong>Actions</strong>: (Not Mapped) Optional mapping of URL actions to a component.</li>
+<li><strong>UseAdminContainer</strong>: (Not Mapped) Indicates if a component should not be rendered with the default modal admin container.</li>
+<li><strong>RenderMode</strong>: (Not Mapped) Optionally specify the render mode for the component (overrides the site setting).</li>
+<li><strong>Prerender</strong>: (Not Mapped) Optionally specify if the component should be prerendered (overrides the site setting).</li>
+<li><strong>Permissions</strong>: (Deprecated, Not Mapped) Use <code>PermissionList</code> instead.</li>
+</ul>
+<h4 id="example-usage-9">Example Usage:</h4>
+<pre><code class="lang-csharp">var module = new Module
+{
+    ModuleId = 1,
+    SiteId = 2,
+    ModuleDefinitionName = &quot;TextModule&quot;,
+    AllPages = false,
+    PageModuleId = 10,
+    PageId = 20,
+    Title = &quot;Sample Module&quot;,
+    Pane = &quot;ContentPane&quot;,
+    Order = 1,
+    ContainerType = &quot;Default&quot;,
+    EffectiveDate = DateTime.Now,
+    ExpiryDate = DateTime.Now.AddYears(1),
+    DeletedBy = null,
+    DeletedOn = null,
+    IsDeleted = false,
+    ModuleType = &quot;Oqtane.Modules.Text.TextModule&quot;,
+    PaneModuleIndex = 0,
+    PaneModuleCount = 1,
+    RenderId = Guid.NewGuid(),
+    SecurityAccessLevel = SecurityAccessLevel.View,
+    ControlTitle = &quot;Text Module&quot;,
+    Actions = &quot;View;Edit&quot;,
+    UseAdminContainer = true,
+    RenderMode = &quot;Server&quot;,
+    Prerender = false,
+    PermissionList = new List&lt;Permission&gt;(),
+    Settings = new Dictionary&lt;string, string&gt;()
+};
+
+// Cloning the module object
+var clonedModule = module.Clone();
+</code></pre>
+<h4 id="change-log-9">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>ModuleId</code>, <code>SiteId</code>, <code>ModuleDefinitionName</code>, <code>AllPages</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>PermissionList</code>, <code>Settings</code>, <code>PageModuleId</code>, <code>PageId</code>, <code>Title</code>, <code>Pane</code>, <code>Order</code>, <code>ContainerType</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>ModuleType</code>, <code>PaneModuleIndex</code>, <code>PaneModuleCount</code>, <code>RenderId</code>, <code>SecurityAccessLevel</code>, <code>ControlTitle</code>, <code>Actions</code>, <code>UseAdminContainer</code>, <code>RenderMode</code>, and <code>Prerender</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Module</code> object.</li>
+</ul>
+<hr>
+<h3 id="modulecontent-model"><strong>ModuleContent Model</strong></h3>
+<p>The <code>ModuleContent</code> model is used for enabling import/export of module data within the Oqtane framework.</p>
+<h4 id="properties-11">Properties:</h4>
+<ul>
+<li><strong>ModuleDefinitionName</strong>: Reference to the <code>ModuleDefinition</code> for which this content is relevant.</li>
+<li><strong>Version</strong>: Version of the <code>ModuleDefinition</code> used, not the version of the content.</li>
+<li><strong>Content</strong>: Serialized content of the module for import/export.</li>
+</ul>
+<h4 id="example-usage-10">Example Usage:</h4>
+<pre><code class="lang-csharp">var moduleContent = new ModuleContent
+{
+    ModuleDefinitionName = &quot;TextModule&quot;,
+    Version = &quot;1.0.0&quot;,
+    Content = &quot;{\&quot;Text\&quot;:\&quot;Hello, world!\&quot;}&quot;
+};
+</code></pre>
+<h4 id="change-log-10">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>ModuleDefinitionName</code>, <code>Version</code>, and <code>Content</code>.</li>
+</ul>
+<hr>
+<h3 id="moduledefinition-model"><strong>ModuleDefinition Model</strong></h3>
+<p>The <code>ModuleDefinition</code> model describes a module type in Oqtane. The available modules are determined at startup.</p>
+<h4 id="properties-12">Properties:</h4>
+<ul>
+<li><strong>ModuleDefinitionId</strong>: Reference to the <code>ModuleDefinition</code>.</li>
+<li><strong>ModuleDefinitionName</strong>: Name of the <code>ModuleDefinition</code>.</li>
+<li><strong>Name</strong>: Friendly name to show in the UI.</li>
+<li><strong>Description</strong>: Module description for admin dialogs.</li>
+<li><strong>Categories</strong>: Categories this module will be shown in (in the admin dialogs).</li>
+<li><strong>Version</strong>: Version information of this module based on the DLL / NuGet package.</li>
+<li><strong>Owner</strong>: (Not Mapped) Owner of the module.</li>
+<li><strong>Url</strong>: (Not Mapped) URL for more information about the module.</li>
+<li><strong>Contact</strong>: (Not Mapped) Contact information for the module.</li>
+<li><strong>License</strong>: (Not Mapped) License information for the module.</li>
+<li><strong>Runtimes</strong>: (Not Mapped) Supported runtimes for the module.</li>
+<li><strong>Dependencies</strong>: (Not Mapped) Dependencies required for the module.</li>
+<li><strong>PermissionNames</strong>: (Not Mapped) Names of permissions associated with the module.</li>
+<li><strong>ServerManagerType</strong>: (Not Mapped) Type of the server manager for the module.</li>
+<li><strong>ControlTypeRoutes</strong>: (Not Mapped) Routes for the control types used by the module.</li>
+<li><strong>ReleaseVersions</strong>: (Not Mapped) Comma-delimited list of all official release versions of the module (e.g., &quot;1.0.0,1.0.1&quot;).</li>
+<li><strong>DefaultAction</strong>: (Not Mapped) Default action for the module.</li>
+<li><strong>SettingsType</strong>: (Not Mapped) Type of settings used by the module (added in 2.0.2).</li>
+<li><strong>PackageName</strong>: (Not Mapped) Package name of the module (added in 2.1.0).</li>
+<li><strong>Resources</strong>: (Not Mapped) List of resources used by the module (added in 4.0.0).</li>
+<li><strong>IsAutoEnabled</strong>: (Not Mapped) Indicates if the module is auto-enabled (added in 4.0.0).</li>
+<li><strong>PageTemplates</strong>: (Not Mapped) List of page templates associated with the module (added in 4.0.0).</li>
+<li><strong>SiteId</strong>: (Not Mapped) Internal property for the site ID.</li>
+<li><strong>IsEnabled</strong>: (Not Mapped) Indicates if the module is enabled.</li>
+<li><strong>ControlTypeTemplate</strong>: (Not Mapped) Template for the control type.</li>
+<li><strong>AssemblyName</strong>: (Not Mapped) Assembly name of the module.</li>
+<li><strong>PermissionList</strong>: (Not Mapped) List of permissions associated with the module.</li>
+<li><strong>Template</strong>: (Not Mapped) Template used by the module.</li>
+<li><strong>IsPortable</strong>: (Not Mapped) Indicates if the module is portable.</li>
+<li><strong>Permissions</strong>: (Deprecated, Not Mapped) Use <code>PermissionList</code> instead.</li>
+</ul>
+<h4 id="example-usage-11">Example Usage:</h4>
+<pre><code class="lang-csharp">var moduleDefinition = new ModuleDefinition
+{
+    ModuleDefinitionId = 1,
+    ModuleDefinitionName = &quot;TextModule&quot;,
+    Name = &quot;Text Module&quot;,
+    Description = &quot;A module for displaying text content.&quot;,
+    Categories = &quot;Content&quot;,
+    Version = &quot;1.0.0&quot;,
+    Owner = &quot;Oqtane&quot;,
+    Url = &quot;https://oqtane.org&quot;,
+    Contact = &quot;support@oqtane.org&quot;,
+    License = &quot;MIT&quot;,
+    Runtimes = &quot;netcoreapp3.1&quot;,
+    Dependencies = &quot;Oqtane.Modules.Text&quot;,
+    PermissionNames = &quot;View;Edit&quot;,
+    ServerManagerType = &quot;Oqtane.Modules.Text.ServerManager&quot;,
+    ControlTypeRoutes = &quot;View;Edit&quot;,
+    ReleaseVersions = &quot;1.0.0&quot;,
+    DefaultAction = &quot;View&quot;,
+    SettingsType = &quot;Oqtane.Modules.Text.Settings&quot;,
+    PackageName = &quot;Oqtane.Modules.Text&quot;,
+    Resources = new List&lt;Resource&gt;(),
+    IsAutoEnabled = true,
+    PageTemplates = new List&lt;PageTemplate&gt;(),
+    SiteId = 1,
+    IsEnabled = true,
+    ControlTypeTemplate = &quot;Oqtane.Modules.Text.Template&quot;,
+    AssemblyName = &quot;Oqtane.Modules.Text&quot;,
+    PermissionList = new List&lt;Permission&gt;(),
+    Template = &quot;Default&quot;,
+    IsPortable = true
+};
+</code></pre>
+<h4 id="change-log-11">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added primary properties for <code>ModuleDefinitionId</code>, <code>ModuleDefinitionName</code>, <code>Name</code>, <code>Description</code>, <code>Categories</code>, <code>Version</code>, <code>Owner</code>, <code>Url</code>, <code>Contact</code>, <code>License</code>, <code>Runtimes</code>, <code>Dependencies</code>, <code>PermissionNames</code>, <code>ServerManagerType</code>, <code>ControlTypeRoutes</code>, <code>ReleaseVersions</code>, <code>DefaultAction</code>, <code>SettingsType</code>, <code>PackageName</code>, <code>Resources</code>, <code>IsAutoEnabled</code>, <code>PageTemplates</code>, <code>SiteId</code>, <code>IsEnabled</code>, <code>ControlTypeTemplate</code>, <code>AssemblyName</code>, <code>PermissionList</code>, <code>Template</code>, and <code>IsPortable</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Permissions</code> property as deprecated and provided <code>PermissionList</code> as a replacement.</li>
+</ul>
+<hr>
+<h3 id="notification-model"><strong>Notification Model</strong></h3>
+<p>The <code>Notification</code> model represents a notification for a user, usually meant to be sent as an email.</p>
+<h4 id="properties-13">Properties:</h4>
+<ul>
+<li><strong>NotificationId</strong>: Internal ID.</li>
+<li><strong>SiteId</strong>: Reference to the <code>Site</code> on which the notification was created.</li>
+<li><strong>FromUserId</strong>: Nullable ID of the user who created the notification.</li>
+<li><strong>FromDisplayName</strong>: Display name of the creator.</li>
+<li><strong>FromEmail</strong>: Email address of the creator.</li>
+<li><strong>ToUserId</strong>: Nullable ID of the recipient user (can be null if the recipient is not a user).</li>
+<li><strong>ToDisplayName</strong>: Display name of the recipient.</li>
+<li><strong>ToEmail</strong>: Email address of the recipient.</li>
+<li><strong>ParentId</strong>: Nullable reference to an optional parent <code>Notification</code> in case of a thread with reply messages.</li>
+<li><strong>Subject</strong>: Subject of the notification.</li>
+<li><strong>Body</strong>: Body/content of the notification.</li>
+<li><strong>CreatedOn</strong>: Timestamp when the notification was created.</li>
+<li><strong>IsDelivered</strong>: Indicates whether the notification has been delivered.</li>
+<li><strong>DeliveredOn</strong>: Nullable timestamp when the notification was delivered.</li>
+<li><strong>DeletedBy</strong>: User who deleted the notification (if applicable).</li>
+<li><strong>DeletedOn</strong>: Nullable timestamp when the notification was deleted.</li>
+<li><strong>IsDeleted</strong>: Indicates whether the notification is deleted.</li>
+<li><strong>SendOn</strong>: Nullable timestamp when the notification should be sent.</li>
+<li><strong>IsRead</strong>: Indicates whether the notification has been read.</li>
+</ul>
+<h4 id="example-usage-12">Example Usage:</h4>
+<pre><code class="lang-csharp">var notification = new Notification
+{
+    NotificationId = 1,
+    SiteId = 1,
+    FromUserId = 2,
+    FromDisplayName = &quot;Admin&quot;,
+    FromEmail = &quot;admin@example.com&quot;,
+    ToUserId = 3,
+    ToDisplayName = &quot;User&quot;,
+    ToEmail = &quot;user@example.com&quot;,
+    Subject = &quot;Welcome to Oqtane&quot;,
+    Body = &quot;Hello, welcome to Oqtane!&quot;,
+    CreatedOn = DateTime.UtcNow,
+    IsDelivered = false,
+    SendOn = DateTime.UtcNow.AddHours(1)
+};
+</code></pre>
+<h4 id="change-log-12">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>NotificationId</code>, <code>SiteId</code>, <code>FromUserId</code>, <code>FromDisplayName</code>, <code>FromEmail</code>, <code>ToUserId</code>, <code>ToDisplayName</code>, <code>ToEmail</code>, <code>ParentId</code>, <code>Subject</code>, <code>Body</code>, <code>CreatedOn</code>, <code>IsDelivered</code>, <code>DeliveredOn</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>SendOn</code>, and <code>IsRead</code>.</li>
+</ul>
+<hr>
+<h3 id="package-model"><strong>Package Model</strong></h3>
+<p>The <code>Package</code> model represents a software package for installation within the Oqtane framework.</p>
+<h4 id="properties-14">Properties:</h4>
+<ul>
+<li><strong>PackageId</strong>: ID of the package, usually constructed from the namespace.</li>
+<li><strong>Owner</strong>: Owner of the package.</li>
+<li><strong>OwnerUrl</strong>: URL for the owner of the package.</li>
+<li><strong>Name</strong>: Friendly name of the package.</li>
+<li><strong>Description</strong>: Description of the package.</li>
+<li><strong>LogoFileId</strong>: Nullable ID for the logo file.</li>
+<li><strong>LogoUrl</strong>: URL for the logo image.</li>
+<li><strong>License</strong>: License for the package.</li>
+<li><strong>ProductUrl</strong>: URL for the product.</li>
+<li><strong>Version</strong>: Version as defined in the NuGet package.</li>
+<li><strong>Downloads</strong>: Download count to show how popular the package is.</li>
+<li><strong>ReleaseDate</strong>: Date the package was released.</li>
+<li><strong>PackageUrl</strong>: Direct URL for downloading the package.</li>
+<li><strong>SupportUrl</strong>: Direct URL for getting support for the package.</li>
+<li><strong>Vulnerabilities</strong>: Indicates if any known security vulnerabilities exist.</li>
+<li><strong>Price</strong>: (Commercial) Nullable price of the package.</li>
+<li><strong>PaymentUrl</strong>: (Commercial) URL for purchasing the package.</li>
+<li><strong>TrialPeriod</strong>: (Commercial) Trial period in days.</li>
+<li><strong>ExpiryDate</strong>: (Commercial) Nullable expiry date of the package.</li>
+</ul>
+<h4 id="example-usage-13">Example Usage:</h4>
+<pre><code class="lang-csharp">var package = new Package
+{
+    PackageId = &quot;Oqtane.Modules.Text&quot;,
+    Owner = &quot;Oqtane&quot;,
+    OwnerUrl = &quot;https://oqtane.org&quot;,
+    Name = &quot;Text Module&quot;,
+    Description = &quot;A module for displaying text content.&quot;,
+    LogoFileId = null,
+    LogoUrl = &quot;https://oqtane.org/images/logo.png&quot;,
+    License = &quot;MIT&quot;,
+    ProductUrl = &quot;https://oqtane.org&quot;,
+    Version = &quot;1.0.0&quot;,
+    Downloads = 1000,
+    ReleaseDate = DateTime.UtcNow,
+    PackageUrl = &quot;https://oqtane.org/downloads/textmodule.zip&quot;,
+    SupportUrl = &quot;https://oqtane.org/support&quot;,
+    Vulnerabilities = 0,
+    Price = 0.0m,
+    PaymentUrl = &quot;https://oqtane.org/payment&quot;,
+    TrialPeriod = 30,
+    ExpiryDate = null
+};
+</code></pre>
+<h4 id="change-log-13">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>PackageId</code>, <code>Owner</code>, <code>OwnerUrl</code>, <code>Name</code>, <code>Description</code>, <code>LogoFileId</code>, <code>LogoUrl</code>, <code>License</code>, <code>ProductUrl</code>, <code>Version</code>, <code>Downloads</code>, <code>ReleaseDate</code>, <code>PackageUrl</code>, <code>SupportUrl</code>, <code>Vulnerabilities</code>, <code>Price</code>, <code>PaymentUrl</code>, <code>TrialPeriod</code>, and <code>ExpiryDate</code>.</li>
+</ul>
+<hr>
+<h3 id="page-model"><strong>Page Model</strong></h3>
+<p>The <code>Page</code> model describes a page in Oqtane.</p>
+<h4 id="properties-15">Properties:</h4>
+<ul>
+<li><strong>PageId</strong>: ID of the page.</li>
+<li><strong>SiteId</strong>: Reference to the <code>Site</code>.</li>
+<li><strong>Path</strong>: Path of the page.</li>
+<li><strong>ParentId</strong>: Nullable reference to the parent <code>Page</code>, if it has one.</li>
+<li><strong>Name</strong>: Name of the page.</li>
+<li><strong>Title</strong>: Page title shown in the browser tab.</li>
+<li><strong>Order</strong>: Sort order in the list of sibling pages.</li>
+<li><strong>Url</strong>: Full URL to this page.</li>
+<li><strong>ThemeType</strong>: Reference to the <code>Theme</code> used to display this page.</li>
+<li><strong>DefaultContainerType</strong>: Reference to the container used for modules on this page.</li>
+<li><strong>HeadContent</strong>: Content to be included in the head of the page.</li>
+<li><strong>BodyContent</strong>: Content to be included in the body of the page.</li>
+<li><strong>Icon</strong>: Icon class name for this page.</li>
+<li><strong>IsNavigation</strong>: Indicates if this page should be included in the navigation menu.</li>
+<li><strong>IsClickable</strong>: Indicates if this page should be clickable in the navigation menu.</li>
+<li><strong>IsPersonalizable</strong>: Indicates if the page is personalizable, allowing users to create custom versions.</li>
+<li><strong>UserId</strong>: Nullable reference to the user who owns the personalized page.</li>
+<li><strong>EffectiveDate</strong>: Nullable start date of when this page is visible.</li>
+<li><strong>ExpiryDate</strong>: Nullable end date of when this page is visible.</li>
+<li><strong>Level</strong>: (Not Mapped) The hierarchical level of the page.</li>
+<li><strong>HasChildren</strong>: (Not Mapped) Indicates if the page has sub-pages.</li>
+<li><strong>PermissionList</strong>: (Not Mapped) List of permissions for this page.</li>
+<li><strong>Settings</strong>: (Not Mapped) List of settings for this page.</li>
+<li><strong>Panes</strong>: (Not Mapped) List of pane names for the theme assigned to this page.</li>
+<li><strong>Resources</strong>: (Not Mapped) List of resources (CSS, JS) needed to render this page properly.</li>
+<li><strong>DeletedBy</strong>: User who deleted the page (if applicable).</li>
+<li><strong>DeletedOn</strong>: Nullable timestamp when the page was deleted.</li>
+<li><strong>IsDeleted</strong>: Indicates if the page is deleted.</li>
+<li><strong>EditMode</strong>: (Deprecated, Not Mapped) Indicates if the page is in edit mode.</li>
+<li><strong>LayoutType</strong>: (Deprecated, Not Mapped) Layout type of the page.</li>
+<li><strong>Permissions</strong>: (Deprecated, Not Mapped) Use <code>PermissionList</code> instead.</li>
+</ul>
+<h4 id="example-usage-14">Example Usage:</h4>
+<pre><code class="lang-csharp">var page = new Page
+{
+    PageId = 1,
+    SiteId = 1,
+    Path = &quot;home&quot;,
+    ParentId = null,
+    Name = &quot;Home&quot;,
+    Title = &quot;Home Page&quot;,
+    Order = 1,
+    Url = &quot;/home&quot;,
+    ThemeType = &quot;DefaultTheme&quot;,
+    DefaultContainerType = &quot;DefaultContainer&quot;,
+    HeadContent = &quot;&lt;meta name=\&quot;description\&quot; content=\&quot;Home page\&quot;&gt;&quot;,
+    BodyContent = &quot;&lt;div&gt;Welcome to the home page!&lt;/div&gt;&quot;,
+    Icon = &quot;home&quot;,
+    IsNavigation = true,
+    IsClickable = true,
+    IsPersonalizable = false,
+    UserId = null,
+    EffectiveDate = DateTime.UtcNow,
+    ExpiryDate = null,
+    Level = 0,
+    HasChildren = false,
+    PermissionList = new List&lt;Permission&gt;(),
+    Settings = new Dictionary&lt;string, string&gt;()
+};
+
+// Cloning the page object
+var clonedPage = page.Clone();
+</code></pre>
+<h4 id="change-log-14">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>PageId</code>, <code>SiteId</code>, <code>Path</code>, <code>ParentId</code>, <code>Name</code>, <code>Title</code>, <code>Order</code>, <code>Url</code>, <code>ThemeType</code>, <code>DefaultContainerType</code>, <code>HeadContent</code>, <code>BodyContent</code>, <code>Icon</code>, <code>IsNavigation</code>, <code>IsClickable</code>, <code>IsPersonalizable</code>, <code>UserId</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>Level</code>, <code>HasChildren</code>, <code>PermissionList</code>, <code>Settings</code>, <code>Panes</code>, <code>Resources</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>EditMode</code>, <code>LayoutType</code>, and <code>Permissions</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Page</code> object.</li>
+</ul>
+<hr>
+<h3 id="pagemodule-model"><strong>PageModule Model</strong></h3>
+<p>The <code>PageModule</code> model provides information about a <code>Module</code> instance on a <code>Page</code>.</p>
+<h4 id="properties-16">Properties:</h4>
+<ul>
+<li><strong>PageModuleId</strong>: Internal ID to identify this instance.</li>
+<li><strong>PageId</strong>: Reference to the <code>Page</code>.</li>
+<li><strong>ModuleId</strong>: Reference to the <code>Module</code>.</li>
+<li><strong>Title</strong>: Module title shown in the container if the container shows titles.</li>
+<li><strong>Pane</strong>: The pane in which this module instance appears.</li>
+<li><strong>Order</strong>: The sorting order or position in the pane where this module appears.</li>
+<li><strong>ContainerType</strong>: Reference to a Razor container that wraps this module instance.</li>
+<li><strong>EffectiveDate</strong>: Nullable start date of when this assignment is valid.</li>
+<li><strong>ExpiryDate</strong>: Nullable end date of when this assignment is valid.</li>
+<li><strong>DeletedBy</strong>: User who deleted the instance (if applicable).</li>
+<li><strong>DeletedOn</strong>: Nullable timestamp when the instance was deleted.</li>
+<li><strong>IsDeleted</strong>: Indicates if the instance is deleted.</li>
+<li><strong>Module</strong>: The <code>Module</code> itself.</li>
+<li><strong>Page</strong>: The <code>Page</code> itself.</li>
+</ul>
+<h4 id="example-usage-15">Example Usage:</h4>
+<pre><code class="lang-csharp">var pageModule = new PageModule
+{
+    PageModuleId = 1,
+    PageId = 2,
+    ModuleId = 3,
+    Title = &quot;Sample Module&quot;,
+    Pane = &quot;ContentPane&quot;,
+    Order = 1,
+    ContainerType = &quot;DefaultContainer&quot;,
+    EffectiveDate = DateTime.UtcNow,
+    ExpiryDate = DateTime.UtcNow.AddYears(1),
+    DeletedBy = null,
+    DeletedOn = null,
+    IsDeleted = false,
+    Module = new Module { ModuleId = 3, SiteId = 1, ModuleDefinitionName = &quot;TextModule&quot; },
+    Page = new Page { PageId = 2, SiteId = 1, Path = &quot;home&quot; }
+};
+</code></pre>
+<h4 id="change-log-15">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>PageModuleId</code>, <code>PageId</code>, <code>ModuleId</code>, <code>Title</code>, <code>Pane</code>, <code>Order</code>, <code>ContainerType</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>Module</code>, and <code>Page</code>.</li>
+</ul>
+<hr>
+<h3 id="permission-model"><strong>Permission Model</strong></h3>
+<p>The <code>Permission</code> model provides information about permissions for entities in Oqtane. Entities in Oqtane can be identified and described using this model.</p>
+<h4 id="properties-17">Properties:</h4>
+<ul>
+<li><strong>PermissionId</strong>: Internal ID storing this information.</li>
+<li><strong>SiteId</strong>: Reference to the <code>Site</code> which contains both the target entity and permissions.</li>
+<li><strong>EntityName</strong>: Name of the entity these permissions apply to (e.g., Module).</li>
+<li><strong>EntityId</strong>: ID of the entity these permissions apply to (e.g., a ModuleId). A value of -1 indicates the permission applies to all entity names regardless of ID (e.g., API permissions).</li>
+<li><strong>PermissionName</strong>: Name of the permission (e.g., View).</li>
+<li><strong>RoleId</strong>: Nullable ID of the <code>Role</code> this permission applies to. If null, then this is a user permission.</li>
+<li><strong>RoleName</strong>: (Not Mapped) The role name associated with the RoleId.</li>
+<li><strong>UserId</strong>: Nullable ID of the <code>User</code> this permission applies to. If null, then this is a role permission.</li>
+<li><strong>IsAuthorized</strong>: Indicates the type of permission (grant = true, deny = false).</li>
+</ul>
+<h4 id="example-usage-16">Example Usage:</h4>
+<pre><code class="lang-csharp">var permission = new Permission
+{
+    PermissionId = 1,
+    SiteId = 1,
+    EntityName = &quot;Module&quot;,
+    EntityId = 10,
+    PermissionName = &quot;View&quot;,
+    RoleId = null,
+    RoleName = &quot;Administrator&quot;,
+    UserId = null,
+    IsAuthorized = true
+};
+
+// Cloning the permission object
+var clonedPermission = permission.Clone();
+</code></pre>
+<h4 id="change-log-16">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>PermissionId</code>, <code>SiteId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>PermissionName</code>, <code>RoleId</code>, <code>RoleName</code>, <code>UserId</code>, and <code>IsAuthorized</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Permission</code> object.</li>
+</ul>
+<hr>
+<h3 id="profile-model"><strong>Profile Model</strong></h3>
+<p>The <code>Profile</code> model represents a single profile property information of a <code>User</code>. A user will have multiple profile properties to fully describe their profile.</p>
+<h4 id="properties-18">Properties:</h4>
+<ul>
+<li><strong>ProfileId</strong>: Internal ID.</li>
+<li><strong>SiteId</strong>: Nullable reference to the <code>Site</code>. Certain users, like super-users, may not belong to any specific site.</li>
+<li><strong>Name</strong>: Name of the profile property (not the user name).</li>
+<li><strong>Title</strong>: Label of the profile property.</li>
+<li><strong>Description</strong>: Description of the property for the UI.</li>
+<li><strong>Category</strong>: Category of the profile property for grouping, etc.</li>
+<li><strong>ViewOrder</strong>: Order of the property in the list of profile properties.</li>
+<li><strong>MaxLength</strong>: Limits the input length of the property.</li>
+<li><strong>DefaultValue</strong>: Initial or default value of the property.</li>
+<li><strong>IsRequired</strong>: Indicates if the profile property is required.</li>
+<li><strong>IsPrivate</strong>: Indicates if the profile property is private, meaning other users won't see them.</li>
+<li><strong>Options</strong>: Possible values for dropdown input fields.</li>
+<li><strong>Validation</strong>: Optional regular expression validation.</li>
+<li><strong>Rows</strong>: Optional number of rows for textarea input.</li>
+<li><strong>Autocomplete</strong>: Autocomplete setting for the property, enabling autocomplete for the corresponding input field if set.</li>
+</ul>
+<h4 id="example-usage-17">Example Usage:</h4>
+<pre><code class="lang-csharp">var profile = new Profile
+{
+    ProfileId = 1,
+    SiteId = 2,
+    Name = &quot;FirstName&quot;,
+    Title = &quot;First Name&quot;,
+    Description = &quot;User's first name&quot;,
+    Category = &quot;Personal Information&quot;,
+    ViewOrder = 1,
+    MaxLength = 50,
+    DefaultValue = &quot;&quot;,
+    IsRequired = true,
+    IsPrivate = false,
+    Options = null,
+    Validation = &quot;^[A-Za-z]+$&quot;,
+    Rows = 1,
+    Autocomplete = &quot;given-name&quot;
+};
+</code></pre>
+<h4 id="change-log-17">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>ProfileId</code>, <code>SiteId</code>, <code>Name</code>, <code>Title</code>, <code>Description</code>, <code>Category</code>, <code>ViewOrder</code>, <code>MaxLength</code>, <code>DefaultValue</code>, <code>IsRequired</code>, <code>IsPrivate</code>, <code>Options</code>, <code>Validation</code>, <code>Rows</code>, and <code>Autocomplete</code>.</li>
+</ul>
+<hr>
+<h3 id="requestculture-model"><strong>RequestCulture Model</strong></h3>
+<p>The <code>RequestCulture</code> model describes culture information for a request, including both formatting and UI cultures.</p>
+<h4 id="properties-19">Properties:</h4>
+<ul>
+<li><strong>Culture</strong>: Gets the <code>CultureInfo</code> for the request to be used for formatting.</li>
+<li><strong>UICulture</strong>: Gets the <code>CultureInfo</code> for the request to be used for text, i.e., language.</li>
+</ul>
+<h4 id="example-usage-18">Example Usage:</h4>
+<pre><code class="lang-csharp">var requestCulture = new RequestCulture(&quot;en-US&quot;);
+
+// Accessing properties
+CultureInfo culture = requestCulture.Culture; // returns CultureInfo for &quot;en-US&quot;
+CultureInfo uiCulture = requestCulture.UICulture; // returns CultureInfo for &quot;en-US&quot;
+</code></pre>
+<h4 id="constructors">Constructors:</h4>
+<ul>
+<li><strong>RequestCulture(CultureInfo culture)</strong>: Creates a new <code>RequestCulture</code> object with both <code>Culture</code> and <code>UICulture</code> properties set to the same <code>CultureInfo</code> value.</li>
+<li><strong>RequestCulture(string culture)</strong>: Creates a new <code>RequestCulture</code> object with both <code>Culture</code> and <code>UICulture</code> properties set to the same <code>CultureInfo</code> value.</li>
+<li><strong>RequestCulture(string culture, string uiCulture)</strong>: Creates a new <code>RequestCulture</code> object with <code>Culture</code> and <code>UICulture</code> properties set to the respective <code>CultureInfo</code> values provided as strings.</li>
+<li><strong>RequestCulture(CultureInfo culture, CultureInfo uiCulture)</strong>: Creates a new <code>RequestCulture</code> object with <code>Culture</code> and <code>UICulture</code> properties set to the respective <code>CultureInfo</code> values provided.</li>
+</ul>
+<h4 id="change-log-18">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Culture</code> and <code>UICulture</code>, and various constructors for initializing these properties.</li>
+</ul>
+<hr>
+<h3 id="resource-model"><strong>Resource Model</strong></h3>
+<p>The <code>Resource</code> model describes a JavaScript or CSS file which is needed by the module to work.</p>
+<h4 id="properties-20">Properties:</h4>
+<ul>
+<li><strong>ResourceType</strong>: A <code>ResourceType</code> so the interop can properly create <code>script</code> or <code>link</code> tags.</li>
+<li><strong>Url</strong>: Path to the resource (query string parameters can be included for cache busting, e.g., <code>?v=#</code>).</li>
+<li><strong>Integrity</strong>: Integrity checks to increase the security of resources accessed, especially common in CDN resources.</li>
+<li><strong>CrossOrigin</strong>: Cross-origin rules for this resource, usually <code>anonymous</code>.</li>
+<li><strong>Bundle</strong>: For scripts, a bundle can be used to identify dependencies and ordering in the script loading process.</li>
+<li><strong>Level</strong>: For stylesheets, this defines the relative position for cascading purposes.</li>
+<li><strong>Location</strong>: For scripts, this defines if the resource should be included in the head or body.</li>
+<li><strong>ES6Module</strong>: For scripts, allows <code>type=&quot;module&quot;</code> registrations (not applicable to stylesheets).</li>
+<li><strong>Content</strong>: Allows specification of inline script (not applicable to stylesheets).</li>
+<li><strong>RenderMode</strong>: For scripts, this defines the render mode (default is all render modes) - not applicable to stylesheets.</li>
+<li><strong>Reload</strong>: Indicates that a script should be reloaded on every page transition - not applicable to stylesheets.</li>
+<li><strong>Namespace</strong>: The namespace of the component that declared the resource, used only in <code>SiteRouter</code>.</li>
+<li><strong>Declaration</strong>: (Deprecated) Use <code>ResourceDeclaration</code> instead.</li>
+</ul>
+<h4 id="example-usage-19">Example Usage:</h4>
+<pre><code class="lang-csharp">var resource = new Resource
+{
+    ResourceType = ResourceType.Script,
+    Url = &quot;/scripts/myscript.js?v=1.0.0&quot;,
+    Integrity = &quot;sha384-abc123&quot;,
+    CrossOrigin = &quot;anonymous&quot;,
+    Bundle = &quot;main&quot;,
+    Level = ResourceLevel.Page,
+    Location = ResourceLocation.Body,
+    ES6Module = true,
+    Content = &quot;console.log('Hello, world!');&quot;,
+    RenderMode = &quot;Server&quot;,
+    Reload = true,
+    Namespace = &quot;Oqtane.Modules&quot;
+};
+
+// Cloning the resource object
+var clonedResource = resource.Clone(ResourceLevel.Page, &quot;Oqtane.Modules&quot;);
+</code></pre>
+<h4 id="change-log-19">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>ResourceType</code>, <code>Url</code>, <code>Integrity</code>, <code>CrossOrigin</code>, <code>Bundle</code>, <code>Level</code>, <code>Location</code>, <code>ES6Module</code>, <code>Content</code>, <code>RenderMode</code>, <code>Reload</code>, <code>Namespace</code>, and <code>Declaration</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Resource</code> object.</li>
+</ul>
+<hr>
+<h3 id="result-model"><strong>Result Model</strong></h3>
+<p>The <code>Result</code> model represents the outcome of an operation, including a success flag and an optional message.</p>
+<h4 id="properties-21">Properties:</h4>
+<ul>
+<li><strong>Success</strong>: Indicates whether the operation was successful.</li>
+<li><strong>Message</strong>: An optional message providing additional information about the result.</li>
+</ul>
+<h4 id="example-usage-20">Example Usage:</h4>
+<pre><code class="lang-csharp">var result1 = new Result(true);
+var result2 = new Result(false, &quot;An error occurred&quot;);
+
+// Accessing properties
+bool isSuccess = result1.Success; // returns true
+string message = result2.Message; // returns &quot;An error occurred&quot;
+</code></pre>
+<h4 id="constructors-1">Constructors:</h4>
+<ul>
+<li><strong>Result(bool success)</strong>: Initializes a new instance of the <code>Result</code> class with a success flag.</li>
+<li><strong>Result(bool success, string message)</strong>: Initializes a new instance of the <code>Result</code> class with a success flag and a message.</li>
+</ul>
+<h4 id="change-log-20">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Success</code> and <code>Message</code>, along with constructors for initializing these properties.</li>
+</ul>
+<hr>
+<h3 id="role-model"><strong>Role Model</strong></h3>
+<p>The <code>Role</code> model describes a security role in Oqtane.</p>
+<h4 id="properties-22">Properties:</h4>
+<ul>
+<li><strong>RoleId</strong>: Primary ID.</li>
+<li><strong>SiteId</strong>: Nullable reference to a <code>Site</code>, if applicable.</li>
+<li><strong>Name</strong>: Role name to show in admin dialogs.</li>
+<li><strong>Description</strong>: Brief description for admin dialogs.</li>
+<li><strong>IsAutoAssigned</strong>: Determines if users automatically get assigned to this role.</li>
+<li><strong>IsSystem</strong>: Indicates if the role is a system role.</li>
+</ul>
+<h4 id="example-usage-21">Example Usage:</h4>
+<pre><code class="lang-csharp">var role = new Role
+{
+    RoleId = 1,
+    SiteId = 2,
+    Name = &quot;Administrator&quot;,
+    Description = &quot;Admin role with full permissions&quot;,
+    IsAutoAssigned = false,
+    IsSystem = true
+};
+</code></pre>
+<h4 id="change-log-21">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>RoleId</code>, <code>SiteId</code>, <code>Name</code>, <code>Description</code>, <code>IsAutoAssigned</code>, and <code>IsSystem</code>.</li>
+</ul>
+<hr>
+<h3 id="route-model"><strong>Route Model</strong></h3>
+<p>The <code>Route</code> model describes a route comprising multiple components. The structure is <code>{scheme}://{hostname}/{aliaspath}/{pagepath}/*/{moduleid}/{action}/!/{urlparameters}?{query}#{fragment}</code>.</p>
+<h4 id="properties-23">Properties:</h4>
+<ul>
+<li><strong>Authority</strong>: The host name or IP address and port number (does not include scheme or trailing slash).</li>
+<li><strong>Scheme</strong>: A fully qualified route contains a scheme (e.g., http, https).</li>
+<li><strong>Host</strong>: A fully qualified route contains a host name, which may include a port number.</li>
+<li><strong>Port</strong>: A host name may contain a port number.</li>
+<li><strong>AbsolutePath</strong>: The absolute path for the route.</li>
+<li><strong>PathAndQuery</strong>: The absolute path for the route including the query string.</li>
+<li><strong>AliasPath</strong>: An absolute path may contain an alias path.</li>
+<li><strong>PagePath</strong>: An absolute path may contain a page path.</li>
+<li><strong>ModuleId</strong>: A route may contain a module ID, located after the module delimiter segment (/*/).</li>
+<li><strong>Action</strong>: A route may contain an action, located after the module ID.</li>
+<li><strong>UrlParameters</strong>: A route may contain parameters located after the URL parameter delimiter segment (/!/).</li>
+<li><strong>Query</strong>: All query string parameters (prefixed with a ? delimiter).</li>
+<li><strong>Fragment</strong>: A route may contain a fragment located after the # delimiter.</li>
+<li><strong>RootUrl</strong>: Contains the resource identifier for the root of an Oqtane installation (including scheme).</li>
+<li><strong>SiteUrl</strong>: Contains the resource identifier for the home page of a specific Oqtane site (including scheme and possibly an alias path).</li>
+</ul>
+<h4 id="example-usage-22">Example Usage:</h4>
+<pre><code class="lang-csharp">var route = new Route(&quot;https://example.com/oqtane/home/*/10/View/!/param1?query=value#fragment&quot;, &quot;oqtane&quot;);
+
+// Accessing properties
+string authority = route.Authority; // returns &quot;example.com&quot;
+string scheme = route.Scheme; // returns &quot;https&quot;
+string host = route.Host; // returns &quot;example.com&quot;
+string port = route.Port; // returns &quot;443&quot;
+string absolutePath = route.AbsolutePath; // returns &quot;/oqtane/home/*/10/View/!/param1&quot;
+string pathAndQuery = route.PathAndQuery; // returns &quot;/oqtane/home/*/10/View/!/param1?query=value&quot;
+string aliasPath = route.AliasPath; // returns &quot;oqtane&quot;
+string pagePath = route.PagePath; // returns &quot;home&quot;
+string moduleId = route.ModuleId; // returns &quot;10&quot;
+string action = route.Action; // returns &quot;View&quot;
+string urlParameters = route.UrlParameters; // returns &quot;param1&quot;
+string query = route.Query; // returns &quot;?query=value&quot;
+string fragment = route.Fragment; // returns &quot;#fragment&quot;
+string rootUrl = route.RootUrl; // returns &quot;https://example.com&quot;
+string siteUrl = route.SiteUrl; // returns &quot;https://example.com/oqtane&quot;
+</code></pre>
+<h4 id="constructors-2">Constructors:</h4>
+<ul>
+<li><strong>Route()</strong>: Parameterless constructor to prevent deserialization exceptions.</li>
+<li><strong>Route(string route, string aliaspath)</strong>: Initializes a new instance of the <code>Route</code> class using the provided route and alias path.</li>
+</ul>
+<h4 id="change-log-22">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Authority</code>, <code>Scheme</code>, <code>Host</code>, <code>Port</code>, <code>AbsolutePath</code>, <code>PathAndQuery</code>, <code>AliasPath</code>, <code>PagePath</code>, <code>ModuleId</code>, <code>Action</code>, <code>UrlParameters</code>, <code>Query</code>, <code>Fragment</code>, <code>RootUrl</code>, and <code>SiteUrl</code>.</li>
+<li><strong>Enhancement</strong>: Added constructors for initializing these properties.</li>
+</ul>
+<hr>
+<h3 id="searchcontent-model"><strong>SearchContent Model</strong></h3>
+<p>The <code>SearchContent</code> model provides information about searchable content within a site in the Oqtane framework.</p>
+<h4 id="properties-24">Properties:</h4>
+<ul>
+<li><strong>SearchContentId</strong>: Internal ID of the searchable content.</li>
+<li><strong>SiteId</strong>: ID of the site containing this content.</li>
+<li><strong>EntityName</strong>: Name of the entity that this content pertains to.</li>
+<li><strong>EntityId</strong>: ID of the entity that this content pertains to.</li>
+<li><strong>Title</strong>: Title of the content.</li>
+<li><strong>Description</strong>: Description of the content.</li>
+<li><strong>Body</strong>: Body text of the content.</li>
+<li><strong>Url</strong>: URL where the content can be accessed.</li>
+<li><strong>Permissions</strong>: Comma-delimited string of permissions in the format <code>EntityName:EntityId</code>.</li>
+<li><strong>ContentModifiedBy</strong>: Username or identifier of the user who last modified the content.</li>
+<li><strong>ContentModifiedOn</strong>: Timestamp when the content was last modified.</li>
+<li><strong>AdditionalContent</strong>: Additional content or metadata.</li>
+<li><strong>CreatedOn</strong>: Timestamp when the content was created.</li>
+<li><strong>SearchContentProperties</strong>: (Not Mapped) List of properties related to the search content, used only during updates.</li>
+<li><strong>Count</strong>: (Not Mapped) Count of matching records, populated only for queries.</li>
+<li><strong>IsDeleted</strong>: (Not Mapped) Indicates if the content is deleted, used only during updates.</li>
+<li><strong>TenantId</strong>: (Not Mapped) ID of the tenant, used only during updates.</li>
+<li><strong>UniqueKey</strong>: (Not Mapped) Unique key for the content in the format <code>TenantId:SiteId:EntityName:EntityId</code>.</li>
+</ul>
+<h4 id="example-usage-23">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchContent = new SearchContent
+{
+    SearchContentId = 1,
+    SiteId = 1,
+    EntityName = &quot;Page&quot;,
+    EntityId = &quot;10&quot;,
+    Title = &quot;Home Page&quot;,
+    Description = &quot;This is the home page.&quot;,
+    Body = &quot;&lt;p&gt;Welcome to the home page!&lt;/p&gt;&quot;,
+    Url = &quot;/home&quot;,
+    Permissions = &quot;Page:10,Module:20&quot;,
+    ContentModifiedBy = &quot;admin&quot;,
+    ContentModifiedOn = DateTime.UtcNow,
+    AdditionalContent = &quot;&quot;,
+    CreatedOn = DateTime.UtcNow,
+    SearchContentProperties = new List&lt;SearchContentProperty&gt;(),
+    Count = 0,
+    IsDeleted = false,
+    TenantId = 1
+};
+
+// Accessing the unique key
+string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
+</code></pre>
+<h4 id="change-log-23">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SearchContentId</code>, <code>SiteId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>Title</code>, <code>Description</code>, <code>Body</code>, <code>Url</code>, <code>Permissions</code>, <code>ContentModifiedBy</code>, <code>ContentModifiedOn</code>, <code>AdditionalContent</code>, <code>CreatedOn</code>, <code>SearchContentProperties</code>, <code>Count</code>, <code>IsDeleted</code>, <code>TenantId</code>, and <code>UniqueKey</code>.</li>
+</ul>
+<hr>
+<h3 id="searchcontentproperty-model"><strong>SearchContentProperty Model</strong></h3>
+<p>The <code>SearchContentProperty</code> model represents a property related to search content within a site in the Oqtane framework.</p>
+<h4 id="properties-25">Properties:</h4>
+<ul>
+<li><strong>PropertyId</strong>: Internal ID of the search content property.</li>
+<li><strong>SearchContentId</strong>: ID of the associated search content.</li>
+<li><strong>Name</strong>: Name of the property.</li>
+<li><strong>Value</strong>: Value of the property.</li>
+</ul>
+<h4 id="example-usage-24">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchContentProperty = new SearchContentProperty
+{
+    PropertyId = 1,
+    SearchContentId = 10,
+    Name = &quot;Author&quot;,
+    Value = &quot;John Doe&quot;
+};
+</code></pre>
+<h4 id="change-log-24">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>PropertyId</code>, <code>SearchContentId</code>, <code>Name</code>, and <code>Value</code>.</li>
+</ul>
+<hr>
+<h3 id="searchcontentword-model"><strong>SearchContentWord Model</strong></h3>
+<p>The <code>SearchContentWord</code> model represents the relationship between search content and search words, tracking occurrences of specific words within the content.</p>
+<h4 id="properties-26">Properties:</h4>
+<ul>
+<li><strong>SearchContentWordId</strong>: Internal ID of the search content word relationship.</li>
+<li><strong>SearchContentId</strong>: ID of the associated search content.</li>
+<li><strong>SearchWordId</strong>: ID of the associated search word.</li>
+<li><strong>Count</strong>: Number of times the word appears in the content.</li>
+<li><strong>CreatedOn</strong>: Timestamp when the relationship was created.</li>
+<li><strong>ModifiedOn</strong>: Timestamp when the relationship was last modified.</li>
+<li><strong>SearchWord</strong>: The associated <code>SearchWord</code> object.</li>
+<li><strong>SearchContent</strong>: The associated <code>SearchContent</code> object.</li>
+</ul>
+<h4 id="example-usage-25">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchContentWord = new SearchContentWord
+{
+    SearchContentWordId = 1,
+    SearchContentId = 10,
+    SearchWordId = 5,
+    Count = 3,
+    CreatedOn = DateTime.UtcNow,
+    ModifiedOn = DateTime.UtcNow,
+    SearchWord = new SearchWord { SearchWordId = 5, Word = &quot;example&quot; },
+    SearchContent = new SearchContent { SearchContentId = 10, Title = &quot;Example Content&quot; }
+};
+</code></pre>
+<h4 id="change-log-25">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SearchContentWordId</code>, <code>SearchContentId</code>, <code>SearchWordId</code>, <code>Count</code>, <code>CreatedOn</code>, <code>ModifiedOn</code>, <code>SearchWord</code>, and <code>SearchContent</code>.</li>
+</ul>
+<hr>
+<h3 id="searchquery-model"><strong>SearchQuery Model</strong></h3>
+<p>The <code>SearchQuery</code> model represents the parameters used to perform a search within a site in the Oqtane framework.</p>
+<h4 id="properties-27">Properties:</h4>
+<ul>
+<li><strong>SiteId</strong>: ID of the site in which the search is performed.</li>
+<li><strong>Alias</strong>: The <code>Alias</code> associated with the site.</li>
+<li><strong>Keywords</strong>: Keywords used for the search.</li>
+<li><strong>IncludeEntities</strong>: Comma-delimited entities to include in the search.</li>
+<li><strong>ExcludeEntities</strong>: Comma-delimited entities to exclude from the search.</li>
+<li><strong>FromDate</strong>: Start date for the search range.</li>
+<li><strong>ToDate</strong>: End date for the search range.</li>
+<li><strong>Properties</strong>: Additional properties or filters for the search, represented as a dictionary.</li>
+<li><strong>PageIndex</strong>: Index of the current page of results.</li>
+<li><strong>PageSize</strong>: Number of results per page.</li>
+<li><strong>SortField</strong>: Field by which to sort the search results.</li>
+<li><strong>SortOrder</strong>: Order in which to sort the search results (ascending or descending).</li>
+<li><strong>BodyLength</strong>: Length of the body text to return in the search results, defaulting to 255 characters.</li>
+</ul>
+<h4 id="example-usage-26">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchQuery = new SearchQuery
+{
+    SiteId = 1,
+    Alias = new Alias { AliasId = 1, Name = &quot;Default&quot; },
+    Keywords = &quot;Oqtane&quot;,
+    IncludeEntities = &quot;Page,Module&quot;,
+    ExcludeEntities = &quot;User&quot;,
+    FromDate = DateTime.UtcNow.AddMonths(-1),
+    ToDate = DateTime.UtcNow,
+    Properties = new Dictionary&lt;string, string&gt; { { &quot;Category&quot;, &quot;Documentation&quot; } },
+    PageIndex = 0,
+    PageSize = 10,
+    SortField = SearchSortField.Title,
+    SortOrder = SearchSortOrder.Ascending,
+    BodyLength = 255
+};
+</code></pre>
+<h4 id="change-log-26">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SiteId</code>, <code>Alias</code>, <code>Keywords</code>, <code>IncludeEntities</code>, <code>ExcludeEntities</code>, <code>FromDate</code>, <code>ToDate</code>, <code>Properties</code>, <code>PageIndex</code>, <code>PageSize</code>, <code>SortField</code>, <code>SortOrder</code>, and <code>BodyLength</code>.</li>
+</ul>
+<hr>
+<h3 id="searchresult-model"><strong>SearchResult Model</strong></h3>
+<p>The <code>SearchResult</code> model extends the <code>SearchContent</code> model to include additional properties related to search results, such as score and snippet.</p>
+<h4 id="properties-28">Properties:</h4>
+<ul>
+<li><p><strong>SearchContentId</strong>: Inherited from <code>SearchContent</code> - Internal ID of the searchable content.</p>
+</li>
+<li><p><strong>SiteId</strong>: Inherited from <code>SearchContent</code> - ID of the site containing this content.</p>
+</li>
+<li><p><strong>EntityName</strong>: Inherited from <code>SearchContent</code> - Name of the entity that this content pertains to.</p>
+</li>
+<li><p><strong>EntityId</strong>: Inherited from <code>SearchContent</code> - ID of the entity that this content pertains to.</p>
+</li>
+<li><p><strong>Title</strong>: Inherited from <code>SearchContent</code> - Title of the content.</p>
+</li>
+<li><p><strong>Description</strong>: Inherited from <code>SearchContent</code> - Description of the content.</p>
+</li>
+<li><p><strong>Body</strong>: Inherited from <code>SearchContent</code> - Body text of the content.</p>
+</li>
+<li><p><strong>Url</strong>: Inherited from <code>SearchContent</code> - URL where the content can be accessed.</p>
+</li>
+<li><p><strong>Permissions</strong>: Inherited from <code>SearchContent</code> - Comma-delimited string of permissions in the format <code>EntityName:EntityId</code>.</p>
+</li>
+<li><p><strong>ContentModifiedBy</strong>: Inherited from <code>SearchContent</code> - Username or identifier of the user who last modified the content.</p>
+</li>
+<li><p><strong>ContentModifiedOn</strong>: Inherited from <code>SearchContent</code> - Timestamp when the content was last modified.</p>
+</li>
+<li><p><strong>AdditionalContent</strong>: Inherited from <code>SearchContent</code> - Additional content or metadata.</p>
+</li>
+<li><p><strong>CreatedOn</strong>: Inherited from <code>SearchContent</code> - Timestamp when the content was created.</p>
+</li>
+<li><p><strong>SearchContentProperties</strong>: Inherited from <code>SearchContent</code> - List of properties related to the search content, used only during updates.</p>
+</li>
+<li><p><strong>Count</strong>: Inherited from <code>SearchContent</code> - Count of matching records, populated only for queries.</p>
+</li>
+<li><p><strong>IsDeleted</strong>: Inherited from <code>SearchContent</code> - Indicates if the content is deleted, used only during updates.</p>
+</li>
+<li><p><strong>TenantId</strong>: Inherited from <code>SearchContent</code> - ID of the tenant, used only during updates.</p>
+</li>
+<li><p><strong>UniqueKey</strong>: Inherited from <code>SearchContent</code> - Unique key for the content in the format <code>TenantId:SiteId:EntityName:EntityId</code>.</p>
+</li>
+<li><p><strong>Score</strong>: Score of the search result.</p>
+</li>
+<li><p><strong>DisplayScore</strong>: Display score of the search result, formatted as a string.</p>
+</li>
+<li><p><strong>Snippet</strong>: Snippet of the content to display in the search result.</p>
+</li>
+</ul>
+<h4 id="example-usage-27">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchResult = new SearchResult
+{
+    SearchContentId = 1,
+    SiteId = 1,
+    EntityName = &quot;Page&quot;,
+    EntityId = &quot;10&quot;,
+    Title = &quot;Home Page&quot;,
+    Description = &quot;This is the home page.&quot;,
+    Body = &quot;&lt;p&gt;Welcome to the home page!&lt;/p&gt;&quot;,
+    Url = &quot;/home&quot;,
+    Permissions = &quot;Page:10,Module:20&quot;,
+    ContentModifiedBy = &quot;admin&quot;,
+    ContentModifiedOn = DateTime.UtcNow,
+    AdditionalContent = &quot;&quot;,
+    CreatedOn = DateTime.UtcNow,
+    SearchContentProperties = new List&lt;SearchContentProperty&gt;(),
+    Count = 0,
+    IsDeleted = false,
+    TenantId = 1,
+    Score = 0.95f,
+    DisplayScore = &quot;95%&quot;,
+    Snippet = &quot;Welcome to the home page!&quot;
+};
+</code></pre>
+<h4 id="change-log-27">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Score</code>, <code>DisplayScore</code>, and <code>Snippet</code>.</li>
+</ul>
+<hr>
+<h3 id="searchresults-model"><strong>SearchResults Model</strong></h3>
+<p>The <code>SearchResults</code> model represents the outcome of a search query, containing the list of search results and the total number of results.</p>
+<h4 id="properties-29">Properties:</h4>
+<ul>
+<li><strong>Results</strong>: List of search results (<code>List&lt;SearchResult&gt;</code>).</li>
+<li><strong>TotalResults</strong>: Total number of results returned by the search query.</li>
+</ul>
+<h4 id="example-usage-28">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchResults = new SearchResults
+{
+    Results = new List&lt;SearchResult&gt;
+    {
+        new SearchResult
+        {
+            SearchContentId = 1,
+            SiteId = 1,
+            EntityName = &quot;Page&quot;,
+            EntityId = &quot;10&quot;,
+            Title = &quot;Home Page&quot;,
+            Description = &quot;This is the home page.&quot;,
+            Body = &quot;&lt;p&gt;Welcome to the home page!&lt;/p&gt;&quot;,
+            Url = &quot;/home&quot;,
+            Permissions = &quot;Page:10,Module:20&quot;,
+            ContentModifiedBy = &quot;admin&quot;,
+            ContentModifiedOn = DateTime.UtcNow,
+            AdditionalContent = &quot;&quot;,
+            CreatedOn = DateTime.UtcNow,
+            SearchContentProperties = new List&lt;SearchContentProperty&gt;(),
+            Count = 0,
+            IsDeleted = false,
+            TenantId = 1,
+            Score = 0.95f,
+            DisplayScore = &quot;95%&quot;,
+            Snippet = &quot;Welcome to the home page!&quot;
+        }
+    },
+    TotalResults = 1
+};
+</code></pre>
+<h4 id="change-log-28">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Results</code> and <code>TotalResults</code>.</li>
+</ul>
+<hr>
+<h3 id="searchword-model"><strong>SearchWord Model</strong></h3>
+<p>The <code>SearchWord</code> model represents a word that has been indexed for search purposes within a site in the Oqtane framework.</p>
+<h4 id="properties-30">Properties:</h4>
+<ul>
+<li><strong>SearchWordId</strong>: Internal ID of the search word.</li>
+<li><strong>Word</strong>: The word that has been indexed.</li>
+<li><strong>CreatedOn</strong>: Timestamp when the word was indexed.</li>
+</ul>
+<h4 id="example-usage-29">Example Usage:</h4>
+<pre><code class="lang-csharp">var searchWord = new SearchWord
+{
+    SearchWordId = 1,
+    Word = &quot;example&quot;,
+    CreatedOn = DateTime.UtcNow
+};
+</code></pre>
+<h4 id="change-log-29">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SearchWordId</code>, <code>Word</code>, and <code>CreatedOn</code>.</li>
+</ul>
+<hr>
+<h3 id="setting-model"><strong>Setting Model</strong></h3>
+<p>The <code>Setting</code> model represents a setting for various objects such as <code>Tenant</code>, <code>Site</code>, <code>Page</code>, <code>Module</code>, etc., within the Oqtane framework.</p>
+<h4 id="properties-31">Properties:</h4>
+<ul>
+<li><strong>SettingId</strong>: ID in the database, mainly used to later update an existing setting.</li>
+<li><strong>EntityName</strong>: Name of the entity the setting is for (e.g., <code>Page</code>, <code>Site</code>).</li>
+<li><strong>EntityId</strong>: ID of the entity being described (e.g., <code>Site</code> number 2).</li>
+<li><strong>SettingName</strong>: Name of the setting.</li>
+<li><strong>SettingValue</strong>: The value of the setting. It is always a string, so ensure to convert or cast as needed.</li>
+<li><strong>IsPrivate</strong>: Indicates if this setting is private, meaning it should be maintained on the server and not sent to the client.</li>
+</ul>
+<h4 id="example-usage-30">Example Usage:</h4>
+<pre><code class="lang-csharp">var setting = new Setting
+{
+    SettingId = 1,
+    EntityName = &quot;Site&quot;,
+    EntityId = 2,
+    SettingName = &quot;Theme&quot;,
+    SettingValue = &quot;Default&quot;,
+    IsPrivate = false
+};
+</code></pre>
+<h4 id="change-log-30">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SettingId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>SettingName</code>, <code>SettingValue</code>, and <code>IsPrivate</code>.</li>
+</ul>
+<hr>
+<h3 id="site-model"><strong>Site Model</strong></h3>
+<p>The <code>Site</code> model describes a site in a <code>Tenant</code> within an Oqtane installation. Sites can have multiple <code>Alias</code>es.</p>
+<h4 id="properties-32">Properties:</h4>
+<ul>
+<li><strong>SiteId</strong>: The ID of the site.</li>
+<li><strong>TenantId</strong>: Reference to the <code>Tenant</code> the site is in.</li>
+<li><strong>Name</strong>: The site name.</li>
+<li><strong>LogoFileId</strong>: Reference to a <code>File</code> that has the logo for this site. Should be an image.</li>
+<li><strong>FaviconFileId</strong>: Reference to a <code>File</code> that has the favicon for this site. Should be an image.</li>
+<li><strong>DefaultThemeType</strong>: Default theme for the site.</li>
+<li><strong>DefaultContainerType</strong>: Default container for the site.</li>
+<li><strong>AdminContainerType</strong>: Default admin container.</li>
+<li><strong>PwaIsEnabled</strong>: Indicates if the site is a progressive web application (PWA).</li>
+<li><strong>PwaAppIconFileId</strong>: The app icon for the PWA.</li>
+<li><strong>PwaSplashIconFileId</strong>: The splash icon for the PWA.</li>
+<li><strong>AllowRegistration</strong>: Determines if visitors may register or create user accounts.</li>
+<li><strong>VisitorTracking</strong>: Determines if site visitors will be recorded.</li>
+<li><strong>CaptureBrokenUrls</strong>: Determines if broken URLs (404s) will be captured automatically.</li>
+<li><strong>SiteGuid</strong>: Unique GUID to identify the site.</li>
+<li><strong>RenderMode</strong>: The default render mode for the site (e.g., Static, Interactive, Headless).</li>
+<li><strong>Runtime</strong>: The render mode for UI components requiring interactivity (e.g., Server, WebAssembly, Auto).</li>
+<li><strong>Prerender</strong>: Indicates if the site supports prerendering (only applies to Interactive render mode).</li>
+<li><strong>Hybrid</strong>: Indicates if a site can be integrated with an external .NET MAUI hybrid application.</li>
+<li><strong>Version</strong>: Keeps track of site configuration changes and is used by the ISiteMigration interface.</li>
+<li><strong>HomePageId</strong>: The home page of the site. The &quot;/&quot; path will be used by default if no home page is specified.</li>
+<li><strong>HeadContent</strong>: Content to be included in the head of the page.</li>
+<li><strong>BodyContent</strong>: Content to be included in the body of the page.</li>
+<li><strong>IsDeleted</strong>: Indicates if the site is deleted.</li>
+<li><strong>DeletedBy</strong>: The user who deleted the site.</li>
+<li><strong>DeletedOn</strong>: The date the site was deleted.</li>
+<li><strong>ImageFiles</strong>: (Not Mapped) The allowable image file extensions.</li>
+<li><strong>UploadableFiles</strong>: (Not Mapped) The allowable file extensions which can be uploaded.</li>
+<li><strong>SiteTemplateType</strong>: (Not Mapped) Used when provisioning a site from a site template.</li>
+<li><strong>Settings</strong>: (Not Mapped) The settings for the site.</li>
+<li><strong>Pages</strong>: (Not Mapped) List of pages for the site.</li>
+<li><strong>Languages</strong>: (Not Mapped) List of languages for the site.</li>
+<li><strong>Themes</strong>: (Not Mapped) List of themes for the site.</li>
+</ul>
+<h4 id="example-usage-31">Example Usage:</h4>
+<pre><code class="lang-csharp">var site = new Site
+{
+    SiteId = 1,
+    TenantId = 1,
+    Name = &quot;Example Site&quot;,
+    LogoFileId = null,
+    FaviconFileId = null,
+    DefaultThemeType = &quot;DefaultTheme&quot;,
+    DefaultContainerType = &quot;DefaultContainer&quot;,
+    AdminContainerType = &quot;AdminContainer&quot;,
+    PwaIsEnabled = false,
+    PwaAppIconFileId = null,
+    PwaSplashIconFileId = null,
+    AllowRegistration = true,
+    VisitorTracking = true,
+    CaptureBrokenUrls = true,
+    SiteGuid = Guid.NewGuid().ToString(),
+    RenderMode = &quot;Static&quot;,
+    Runtime = &quot;Server&quot;,
+    Prerender = false,
+    Hybrid = false,
+    Version = &quot;1.0.0&quot;,
+    HomePageId = 1,
+    HeadContent = &quot;&lt;meta name=\&quot;description\&quot; content=\&quot;Example site\&quot;&gt;&quot;,
+    BodyContent = &quot;&lt;div&gt;Welcome to the example site!&lt;/div&gt;&quot;,
+    IsDeleted = false,
+    DeletedBy = null,
+    DeletedOn = null,
+    ImageFiles = &quot;.jpg,.png,.gif&quot;,
+    UploadableFiles = &quot;.jpg,.png,.gif,.pdf,.docx&quot;,
+    SiteTemplateType = &quot;DefaultTemplate&quot;,
+    Settings = new Dictionary&lt;string, string&gt;(),
+    Pages = new List&lt;Page&gt;(),
+    Languages = new List&lt;Language&gt;(),
+    Themes = new List&lt;Theme&gt;()
+};
+
+// Cloning the site object
+var clonedSite = site.Clone();
+</code></pre>
+<h4 id="change-log-31">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SiteId</code>, <code>TenantId</code>, <code>Name</code>, <code>LogoFileId</code>, <code>FaviconFileId</code>, <code>DefaultThemeType</code>, <code>DefaultContainerType</code>, <code>AdminContainerType</code>, <code>PwaIsEnabled</code>, <code>PwaAppIconFileId</code>, <code>PwaSplashIconFileId</code>, <code>AllowRegistration</code>, <code>VisitorTracking</code>, <code>CaptureBrokenUrls</code>, <code>SiteGuid</code>, <code>RenderMode</code>, <code>Runtime</code>, <code>Prerender</code>, <code>Hybrid</code>, <code>Version</code>, <code>HomePageId</code>, <code>HeadContent</code>, <code>BodyContent</code>, <code>IsDeleted</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>ImageFiles</code>, <code>UploadableFiles</code>, <code>SiteTemplateType</code>, <code>Settings</code>, <code>Pages</code>, <code>Languages</code>, and <code>Themes</code>.</li>
+<li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Site</code> object.</li>
+</ul>
+<hr>
+<h3 id="sitemap-model"><strong>Sitemap Model</strong></h3>
+<p>The <code>Sitemap</code> model describes a sitemap within the Oqtane framework.</p>
+<h4 id="properties-33">Properties:</h4>
+<ul>
+<li><strong>Url</strong>: URL of the sitemap.</li>
+<li><strong>ModifiedOn</strong>: Timestamp indicating when the sitemap was last modified.</li>
+</ul>
+<h4 id="example-usage-32">Example Usage:</h4>
+<pre><code class="lang-csharp">var sitemap = new Sitemap
+{
+    Url = &quot;https://example.com/sitemap.xml&quot;,
+    ModifiedOn = DateTime.UtcNow
+};
+</code></pre>
+<h4 id="change-log-32">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Url</code> and <code>ModifiedOn</code>.</li>
+</ul>
+<hr>
+<h3 id="sitetemplate-model"><strong>SiteTemplate Model</strong></h3>
+<p>The <code>SiteTemplate</code> model represents a template for creating a new site within the Oqtane framework.</p>
+<h4 id="properties-34">Properties:</h4>
+<ul>
+<li><strong>Name</strong>: Name of the site template.</li>
+<li><strong>TypeName</strong>: Type name of the site template.</li>
+</ul>
+<h4 id="example-usage-33">Example Usage:</h4>
+<pre><code class="lang-csharp">var siteTemplate = new SiteTemplate
+{
+    Name = &quot;Default Site Template&quot;,
+    TypeName = &quot;Oqtane.SiteTemplates.Default&quot;
+};
+</code></pre>
+<h4 id="change-log-33">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Name</code> and <code>TypeName</code>.</li>
+</ul>
+<hr>
+<h3 id="pagetemplate-model"><strong>PageTemplate Model</strong></h3>
+<p>The <code>PageTemplate</code> model represents a template for creating a new page within the Oqtane framework.</p>
+<h4 id="properties-35">Properties:</h4>
+<ul>
+<li><strong>Path</strong>: The path of the page.</li>
+<li><strong>Parent</strong>: The parent path of the page.</li>
+<li><strong>Name</strong>: The name of the page.</li>
+<li><strong>Title</strong>: The title of the page.</li>
+<li><strong>Order</strong>: The order of the page.</li>
+<li><strong>Url</strong>: The URL of the page.</li>
+<li><strong>ThemeType</strong>: The theme type of the page.</li>
+<li><strong>DefaultContainerType</strong>: The default container type of the page.</li>
+<li><strong>HeadContent</strong>: The content to be included in the head of the page.</li>
+<li><strong>BodyContent</strong>: The content to be included in the body of the page.</li>
+<li><strong>Icon</strong>: The icon of the page.</li>
+<li><strong>IsNavigation</strong>: Indicates if the page should be included in the navigation menu.</li>
+<li><strong>IsClickable</strong>: Indicates if the page should be clickable in the navigation menu.</li>
+<li><strong>IsPersonalizable</strong>: Indicates if the page is personalizable.</li>
+<li><strong>IsDeleted</strong>: Indicates if the page is deleted.</li>
+<li><strong>PermissionList</strong>: List of permissions for the page.</li>
+<li><strong>PageTemplateModules</strong>: List of modules for the page.</li>
+<li><strong>AliasName</strong>: The alias name of the page.</li>
+<li><strong>Version</strong>: The version of the page.</li>
+<li><strong>Update</strong>: Indicates if the page should be updated.</li>
+<li><strong>EditMode</strong>: (Obsolete) Indicates if the page is in edit mode.</li>
+<li><strong>PagePermissions</strong>: (Obsolete) Use <code>PermissionList</code> instead.</li>
+</ul>
+<h4 id="example-usage-34">Example Usage:</h4>
+<pre><code class="lang-csharp">var pageTemplate = new PageTemplate
+{
+    Path = &quot;/example&quot;,
+    Parent = &quot;/&quot;,
+    Name = &quot;Example Page&quot;,
+    Title = &quot;Example Page Title&quot;,
+    Order = 1,
+    Url = &quot;/example&quot;,
+    ThemeType = &quot;DefaultTheme&quot;,
+    DefaultContainerType = &quot;DefaultContainer&quot;,
+    HeadContent = &quot;&lt;meta name=\&quot;description\&quot; content=\&quot;Example page\&quot;&gt;&quot;,
+    BodyContent = &quot;&lt;div&gt;Welcome to the example page!&lt;/div&gt;&quot;,
+    Icon = &quot;example-icon&quot;,
+    IsNavigation = true,
+    IsClickable = true,
+    IsPersonalizable = false,
+    IsDeleted = false,
+    PermissionList = new List&lt;Permission&gt;
+    {
+        new Permission(PermissionNames.View, RoleNames.Admin, true),
+        new Permission(PermissionNames.Edit, RoleNames.Admin, true)
+    },
+    PageTemplateModules = new List&lt;PageTemplateModule&gt;(),
+    AliasName = &quot;default&quot;,
+    Version = &quot;1.0.0&quot;,
+    Update = false
+};
+</code></pre>
+<h4 id="change-log-34">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Path</code>, <code>Parent</code>, <code>Name</code>, <code>Title</code>, <code>Order</code>, <code>Url</code>, <code>ThemeType</code>, <code>DefaultContainerType</code>, <code>HeadContent</code>, <code>BodyContent</code>, <code>Icon</code>, <code>IsNavigation</code>, <code>IsClickable</code>, <code>IsPersonalizable</code>, <code>IsDeleted</code>, <code>PermissionList</code>, <code>PageTemplateModules</code>, <code>AliasName</code>, <code>Version</code>, <code>Update</code>, <code>EditMode</code>, and <code>PagePermissions</code>.</li>
+</ul>
+<hr>
+<h3 id="pagetemplatemodule-model"><strong>PageTemplateModule Model</strong></h3>
+<p>The <code>PageTemplateModule</code> model represents a module within a page template in the Oqtane framework.</p>
+<h4 id="properties-36">Properties:</h4>
+<ul>
+<li><strong>ModuleDefinitionName</strong>: The name of the module definition.</li>
+<li><strong>Title</strong>: The title of the module.</li>
+<li><strong>Pane</strong>: The pane in which the module is placed.</li>
+<li><strong>Order</strong>: The order of the module within the pane.</li>
+<li><strong>ContainerType</strong>: The container type of the module.</li>
+<li><strong>IsDeleted</strong>: Indicates if the module is deleted.</li>
+<li><strong>PermissionList</strong>: List of permissions for the module.</li>
+<li><strong>Content</strong>: The content of the module.</li>
+<li><strong>ModulePermissions</strong>: (Obsolete) Use <code>PermissionList</code> instead.</li>
+</ul>
+<h4 id="example-usage-35">Example Usage:</h4>
+<pre><code class="lang-csharp">var pageTemplateModule = new PageTemplateModule
+{
+    ModuleDefinitionName = &quot;TextModule&quot;,
+    Title = &quot;Text Module&quot;,
+    Pane = &quot;ContentPane&quot;,
+    Order = 1,
+    ContainerType = &quot;DefaultContainer&quot;,
+    IsDeleted = false,
+    PermissionList = new List&lt;Permission&gt;
+    {
+        new Permission(PermissionNames.View, RoleNames.Admin, true),
+        new Permission(PermissionNames.Edit, RoleNames.Admin, true)
+    },
+    Content = &quot;Sample text content&quot;
+};
+</code></pre>
+<h4 id="change-log-35">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>ModuleDefinitionName</code>, <code>Title</code>, <code>Pane</code>, <code>Order</code>, <code>ContainerType</code>, <code>IsDeleted</code>, <code>PermissionList</code>, <code>Content</code>, and <code>ModulePermissions</code>.</li>
+</ul>
+<hr>
+<h3 id="sqlquery-model"><strong>SqlQuery Model</strong></h3>
+<p>The <code>SqlQuery</code> model represents a SQL query that belongs to a specific <code>Tenant</code> within the Oqtane framework.</p>
+<h4 id="properties-37">Properties:</h4>
+<ul>
+<li><strong>TenantId</strong>: Reference to the <code>Tenant</code> this query belongs to.</li>
+<li><strong>DBType</strong>: Type of the database.</li>
+<li><strong>DBConnectionString</strong>: Connection string for the database.</li>
+<li><strong>Query</strong>: The SQL query to be executed.</li>
+<li><strong>Results</strong>: List of results returned by the query, represented as a list of dictionaries.</li>
+</ul>
+<h4 id="example-usage-36">Example Usage:</h4>
+<pre><code class="lang-csharp">var sqlQuery = new SqlQuery
+{
+    TenantId = 1,
+    DBType = &quot;SQLServer&quot;,
+    DBConnectionString = &quot;Server=myServer;Database=myDB;User Id=myUser;Password=myPassword;&quot;,
+    Query = &quot;SELECT * FROM Users&quot;,
+    Results = new List&lt;Dictionary&lt;string, string&gt;&gt;()
+};
+</code></pre>
+<h4 id="change-log-36">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>TenantId</code>, <code>DBType</code>, <code>DBConnectionString</code>, <code>Query</code>, and <code>Results</code>.</li>
+</ul>
+<hr>
+<h3 id="sync-model"><strong>Sync Model</strong></h3>
+<p>The <code>Sync</code> model represents a synchronization event within the Oqtane framework, containing the synchronization date and a list of synchronization events.</p>
+<h4 id="properties-38">Properties:</h4>
+<ul>
+<li><strong>SyncDate</strong>: The date and time when the synchronization occurred.</li>
+<li><strong>SyncEvents</strong>: List of synchronization events (<code>List&lt;SyncEvent&gt;</code>).</li>
+</ul>
+<h4 id="example-usage-37">Example Usage:</h4>
+<pre><code class="lang-csharp">var sync = new Sync
+{
+    SyncDate = DateTime.UtcNow,
+    SyncEvents = new List&lt;SyncEvent&gt;
+    {
+        new SyncEvent
+        {
+            TenantId = 1,
+            SiteId = 1,
+            EntityName = &quot;Page&quot;,
+            EntityId = 10,
+            Action = &quot;Update&quot;,
+            ModifiedOn = DateTime.UtcNow
+        }
+    }
+};
+</code></pre>
+<hr>
+<h3 id="syncevent-model"><strong>SyncEvent Model</strong></h3>
+<p>The <code>SyncEvent</code> model represents an individual synchronization event within the Oqtane framework.</p>
+<h4 id="properties-39">Properties:</h4>
+<ul>
+<li><strong>TenantId</strong>: ID of the tenant involved in the synchronization event.</li>
+<li><strong>SiteId</strong>: ID of the site involved in the synchronization event.</li>
+<li><strong>EntityName</strong>: Name of the entity involved in the synchronization event.</li>
+<li><strong>EntityId</strong>: ID of the entity involved in the synchronization event.</li>
+<li><strong>Action</strong>: Action performed in the synchronization event (e.g., &quot;Update&quot;, &quot;Delete&quot;).</li>
+<li><strong>ModifiedOn</strong>: Timestamp when the event occurred.</li>
+</ul>
+<h4 id="example-usage-38">Example Usage:</h4>
+<pre><code class="lang-csharp">var syncEvent = new SyncEvent
+{
+    TenantId = 1,
+    SiteId = 1,
+    EntityName = &quot;Page&quot;,
+    EntityId = 10,
+    Action = &quot;Update&quot;,
+    ModifiedOn = DateTime.UtcNow
+};
+</code></pre>
+<h4 id="change-log-37">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>SyncDate</code> and <code>SyncEvents</code> to the <code>Sync</code> model.</li>
+<li><strong>Initial Creation</strong>: Added properties for <code>TenantId</code>, <code>SiteId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>Action</code>, and <code>ModifiedOn</code> to the <code>SyncEvent</code> model.</li>
+</ul>
+<hr>
+<h3 id="template-model"><strong>Template Model</strong></h3>
+<p>The <code>Template</code> model defines metadata for a module or theme template within the Oqtane framework.</p>
+<h4 id="properties-40">Properties:</h4>
+<ul>
+<li><strong>Name</strong>: Name of the template (folder name).</li>
+<li><strong>Title</strong>: Title of the template.</li>
+<li><strong>Type</strong>: Type of template (Internal or External).</li>
+<li><strong>Version</strong>: Minimum framework version dependency.</li>
+<li><strong>Namespace</strong>: Namespace of the template, which uses tokens.</li>
+<li><strong>Location</strong>: Location where the template will be created (dynamically set).</li>
+</ul>
+<h4 id="example-usage-39">Example Usage:</h4>
+<pre><code class="lang-csharp">var template = new Template
+{
+    Name = &quot;MyModuleTemplate&quot;,
+    Title = &quot;My Module Template&quot;,
+    Type = &quot;Internal&quot;,
+    Version = &quot;1.0.0&quot;,
+    Namespace = &quot;Oqtane.Modules.MyModule&quot;,
+    Location = &quot;/path/to/template&quot;
+};
+</code></pre>
+<h4 id="change-log-38">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Name</code>, <code>Title</code>, <code>Type</code>, <code>Version</code>, <code>Namespace</code>, and <code>Location</code>.</li>
+</ul>
+<hr>
+<h3 id="tenant-model"><strong>Tenant Model</strong></h3>
+<p>The <code>Tenant</code> model describes a tenant in Oqtane. Tenants can contain multiple <code>Site</code>s and have all their data in a separate database.</p>
+<h4 id="properties-41">Properties:</h4>
+<ul>
+<li><strong>TenantId</strong>: ID of the tenant.</li>
+<li><strong>Name</strong>: Name of the tenant to show in tenant lists.</li>
+<li><strong>DBConnectionString</strong>: Connection string to access this tenant's database.</li>
+<li><strong>DBType</strong>: Type of database used by this tenant (new in v2.1.0).</li>
+<li><strong>Version</strong>: Version of the tenant.</li>
+</ul>
+<h4 id="example-usage-40">Example Usage:</h4>
+<pre><code class="lang-csharp">var tenant = new Tenant
+{
+    TenantId = 1,
+    Name = &quot;Default Tenant&quot;,
+    DBConnectionString = &quot;Server=myServer;Database=myTenantDB;User Id=myUser;Password=myPassword;&quot;,
+    DBType = &quot;SQLServer&quot;,
+    Version = &quot;1.0.0&quot;
+};
+</code></pre>
+<h4 id="change-log-39">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>TenantId</code>, <code>Name</code>, <code>DBConnectionString</code>, <code>DBType</code>, and <code>Version</code>.</li>
+</ul>
+<hr>
+<h3 id="theme-model"><strong>Theme Model</strong></h3>
+<p>The <code>Theme</code> model provides information about a theme in Oqtane.</p>
+<h4 id="properties-42">Properties:</h4>
+<ul>
+<li><strong>ThemeId</strong>: Reference ID of the theme.</li>
+<li><strong>ThemeName</strong>: Full namespace/identifier of the theme.</li>
+<li><strong>Name</strong>: Friendly name to show in the UI.</li>
+<li><strong>Version</strong>: (Not Mapped) Version of the theme.</li>
+<li><strong>Owner</strong>: (Not Mapped) Owner of the theme.</li>
+<li><strong>Url</strong>: (Not Mapped) URL associated with the theme.</li>
+<li><strong>Contact</strong>: (Not Mapped) Contact information for the theme owner.</li>
+<li><strong>License</strong>: (Not Mapped) License of the theme.</li>
+<li><strong>Dependencies</strong>: (Not Mapped) Dependencies required by the theme.</li>
+<li><strong>ThemeSettingsType</strong>: (Not Mapped) Type of settings for the theme (added in v2.0.2).</li>
+<li><strong>ContainerSettingsType</strong>: (Not Mapped) Type of settings for the container (added in v2.0.2).</li>
+<li><strong>PackageName</strong>: (Not Mapped) Name of the package (added in v2.1.0).</li>
+<li><strong>Resources</strong>: (Not Mapped) List of resources associated with the theme (added in v4.0.0).</li>
+<li><strong>IsAutoEnabled</strong>: (Not Mapped) Indicates if the theme is auto-enabled (added in v4.0.0).</li>
+<li><strong>SiteId</strong>: (Not Mapped) Internal site ID.</li>
+<li><strong>IsEnabled</strong>: (Not Mapped) Indicates if the theme is enabled.</li>
+<li><strong>AssemblyName</strong>: (Not Mapped) Assembly name of the theme.</li>
+<li><strong>Themes</strong>: (Not Mapped) List of theme controls.</li>
+<li><strong>Containers</strong>: (Not Mapped) List of container controls.</li>
+<li><strong>Template</strong>: (Not Mapped) Template associated with the theme.</li>
+<li><strong>ThemeControls</strong>: (Obsolete, Not Mapped) Use <code>Themes</code> instead.</li>
+<li><strong>PaneLayouts</strong>: (Obsolete, Not Mapped) Use <code>Layouts</code> instead.</li>
+<li><strong>ContainerControls</strong>: (Obsolete, Not Mapped) Use <code>Containers</code> instead.</li>
+<li><strong>Layouts</strong>: (Obsolete, Not Mapped) List of theme layouts.</li>
+</ul>
+<h4 id="example-usage-41">Example Usage:</h4>
+<pre><code class="lang-csharp">var theme = new Theme
+{
+    ThemeId = 1,
+    ThemeName = &quot;Oqtane.Themes.Default&quot;,
+    Name = &quot;Default Theme&quot;,
+    Version = &quot;1.0.0&quot;,
+    Owner = &quot;Oqtane Community&quot;,
+    Url = &quot;https://oqtane.org&quot;,
+    Contact = &quot;support@oqtane.org&quot;,
+    License = &quot;MIT&quot;,
+    Dependencies = &quot;&quot;,
+    ThemeSettingsType = &quot;DefaultSettings&quot;,
+    ContainerSettingsType = &quot;DefaultContainerSettings&quot;,
+    PackageName = &quot;Oqtane.DefaultTheme&quot;,
+    Resources = new List&lt;Resource&gt;(),
+    IsAutoEnabled = true,
+    SiteId = 1,
+    IsEnabled = true,
+    AssemblyName = &quot;Oqtane.DefaultTheme&quot;,
+    Themes = new List&lt;ThemeControl&gt;(),
+    Containers = new List&lt;ThemeControl&gt;(),
+    Template = &quot;DefaultTemplate&quot;
+};
+</code></pre>
+<h4 id="change-log-40">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>ThemeId</code>, <code>ThemeName</code>, <code>Name</code>, <code>Version</code>, <code>Owner</code>, <code>Url</code>, <code>Contact</code>, <code>License</code>, <code>Dependencies</code>, <code>ThemeSettingsType</code>, <code>ContainerSettingsType</code>, <code>PackageName</code>, <code>Resources</code>, <code>IsAutoEnabled</code>, <code>SiteId</code>, <code>IsEnabled</code>, <code>AssemblyName</code>, <code>Themes</code>, <code>Containers</code>, <code>Template</code>, <code>ThemeControls</code>, <code>PaneLayouts</code>, <code>ContainerControls</code>, and <code>Layouts</code>.</li>
+</ul>
+<hr>
+<h3 id="themecontrol-model"><strong>ThemeControl Model</strong></h3>
+<p>The <code>ThemeControl</code> model provides information about a theme control within the Oqtane framework.</p>
+<h4 id="properties-43">Properties:</h4>
+<ul>
+<li><strong>TypeName</strong>: Type name of the theme control.</li>
+<li><strong>Name</strong>: Friendly name of the theme control.</li>
+<li><strong>Thumbnail</strong>: URL or path to the thumbnail image of the theme control.</li>
+<li><strong>Panes</strong>: Information about the panes in the theme control.</li>
+</ul>
+<h4 id="example-usage-42">Example Usage:</h4>
+<pre><code class="lang-csharp">var themeControl = new ThemeControl
+{
+    TypeName = &quot;Oqtane.Themes.Default.DefaultTheme&quot;,
+    Name = &quot;Default Theme&quot;,
+    Thumbnail = &quot;/images/default-theme-thumbnail.png&quot;,
+    Panes = &quot;ContentPane, SidePane&quot;
+};
+</code></pre>
+<h4 id="change-log-41">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>TypeName</code>, <code>Name</code>, <code>Thumbnail</code>, and <code>Panes</code>.</li>
+</ul>
+<hr>
+<h3 id="urlmapping-model"><strong>UrlMapping Model</strong></h3>
+<p>The <code>UrlMapping</code> model describes a URL mapping in Oqtane.</p>
+<h4 id="properties-44">Properties:</h4>
+<ul>
+<li><strong>UrlMappingId</strong>: ID of this URL mapping.</li>
+<li><strong>SiteId</strong>: Reference to a <code>Site</code>.</li>
+<li><strong>Url</strong>: A fully qualified URL.</li>
+<li><strong>MappedUrl</strong>: A URL to which the visitor will be redirected.</li>
+<li><strong>Requests</strong>: Number of requests all time for the URL.</li>
+<li><strong>CreatedOn</strong>: Date when the URL was first requested for the site.</li>
+<li><strong>RequestedOn</strong>: Date when the URL was last requested for the site.</li>
+</ul>
+<h4 id="example-usage-43">Example Usage:</h4>
+<pre><code class="lang-csharp">var urlMapping = new UrlMapping
+{
+    UrlMappingId = 1,
+    SiteId = 1,
+    Url = &quot;https://example.com/old-url&quot;,
+    MappedUrl = &quot;https://example.com/new-url&quot;,
+    Requests = 100,
+    CreatedOn = DateTime.UtcNow.AddMonths(-6),
+    RequestedOn = DateTime.UtcNow
+};
+</code></pre>
+<h4 id="change-log-42">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>UrlMappingId</code>, <code>SiteId</code>, <code>Url</code>, <code>MappedUrl</code>, <code>Requests</code>, <code>CreatedOn</code>, and <code>RequestedOn</code>.</li>
+</ul>
+<hr>
+<h3 id="user-model"><strong>User Model</strong></h3>
+<p>The <code>User</code> model describes a user in Oqtane.</p>
+<h4 id="properties-45">Properties:</h4>
+<ul>
+<li><strong>UserId</strong>: ID of the user.</li>
+<li><strong>Username</strong>: Username used for login.</li>
+<li><strong>DisplayName</strong>: Name shown in menus and dialogs.</li>
+<li><strong>Email</strong>: User's email address.</li>
+<li><strong>PhotoFileId</strong>: Reference to a <code>File</code> containing the user's photo.</li>
+<li><strong>LastLoginOn</strong>: Timestamp of the user's last login.</li>
+<li><strong>LastIPAddress</strong>: IP address when the user last logged in.</li>
+<li><strong>TwoFactorRequired</strong>: Indicates if the user requires 2-factor authentication to sign in.</li>
+<li><strong>TwoFactorCode</strong>: Stores the 2-factor verification code.</li>
+<li><strong>TwoFactorExpiry</strong>: Expiry date and time for the 2-factor verification code.</li>
+<li><strong>SecurityStamp</strong>: (Not Mapped) A token indicating if a user's security properties have been modified.</li>
+<li><strong>SiteId</strong>: (Not Mapped) Reference to the <code>Site</code> this user belongs to.</li>
+<li><strong>Roles</strong>: (Not Mapped) Semi-colon delimited list of role names for the user.</li>
+<li><strong>DeletedBy</strong>: (IDeletable) The user who deleted this user.</li>
+<li><strong>DeletedOn</strong>: (IDeletable) Date when the user was deleted.</li>
+<li><strong>IsDeleted</strong>: (IDeletable) Indicates if the user is deleted.</li>
+<li><strong>Password</strong>: (Not Mapped) The user's password (not plaintext).</li>
+<li><strong>IsAuthenticated</strong>: (Not Mapped) Indicates if the user is authenticated.</li>
+<li><strong>FolderPath</strong>: (Not Mapped) Path name of the user's personal folder.</li>
+<li><strong>EmailConfirmed</strong>: (Not Mapped) Indicates if the user's email address is confirmed.</li>
+<li><strong>SuppressNotification</strong>: (Not Mapped) Indicates if new user should be notified by email.</li>
+<li><strong>Settings</strong>: (Not Mapped) Public user settings.</li>
+</ul>
+<h4 id="example-usage-44">Example Usage:</h4>
+<pre><code class="lang-csharp">var user = new User
+{
+    UserId = 1,
+    Username = &quot;john.doe&quot;,
+    DisplayName = &quot;John Doe&quot;,
+    Email = &quot;john.doe@example.com&quot;,
+    PhotoFileId = null,
+    LastLoginOn = DateTime.UtcNow,
+    LastIPAddress = &quot;192.168.1.1&quot;,
+    TwoFactorRequired = true,
+    TwoFactorCode = &quot;123456&quot;,
+    TwoFactorExpiry = DateTime.UtcNow.AddMinutes(10),
+    SecurityStamp = &quot;XYZ&quot;,
+    SiteId = 1,
+    Roles = &quot;Admin;User&quot;,
+    DeletedBy = null,
+    DeletedOn = null,
+    IsDeleted = false,
+    Password = null,
+    IsAuthenticated = true,
+    EmailConfirmed = true,
+    SuppressNotification = false,
+    Settings = new Dictionary&lt;string, string&gt; { { &quot;Theme&quot;, &quot;Dark&quot; } }
+};
+
+// Accessing FolderPath
+string folderPath = user.FolderPath; // returns &quot;Users/1/&quot;
+</code></pre>
+<h4 id="change-log-43">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>UserId</code>, <code>Username</code>, <code>DisplayName</code>, <code>Email</code>, <code>PhotoFileId</code>, <code>LastLoginOn</code>, <code>LastIPAddress</code>, <code>TwoFactorRequired</code>, <code>TwoFactorCode</code>, <code>TwoFactorExpiry</code>, <code>SecurityStamp</code>, <code>SiteId</code>, <code>Roles</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>Password</code>, <code>IsAuthenticated</code>, <code>FolderPath</code>, <code>EmailConfirmed</code>, <code>SuppressNotification</code>, and <code>Settings</code>.</li>
+</ul>
+<hr>
+<h3 id="userrole-model"><strong>UserRole Model</strong></h3>
+<p>The <code>UserRole</code> model assigns a <code>Role</code> to a <code>User</code>.</p>
+<h4 id="properties-46">Properties:</h4>
+<ul>
+<li><strong>UserRoleId</strong>: ID of this assignment.</li>
+<li><strong>UserId</strong>: Reference to the <code>User</code> who receives this <code>Role</code> assignment.</li>
+<li><strong>RoleId</strong>: Reference to the <code>Role</code> which the <code>User</code> receives.</li>
+<li><strong>EffectiveDate</strong>: Start date of when this assignment is valid.</li>
+<li><strong>ExpiryDate</strong>: End date of when this assignment is valid.</li>
+<li><strong>IgnoreSecurityStamp</strong>: (Not Mapped) Indicates that the User Security Stamp should not be updated when this user role is added or updated.</li>
+<li><strong>Role</strong>: Direct reference to the <code>Role</code> object.</li>
+<li><strong>User</strong>: Direct reference to the <code>User</code> object.</li>
+</ul>
+<h4 id="example-usage-45">Example Usage:</h4>
+<pre><code class="lang-csharp">var userRole = new UserRole
+{
+    UserRoleId = 1,
+    UserId = 10,
+    RoleId = 2,
+    EffectiveDate = DateTime.UtcNow,
+    ExpiryDate = DateTime.UtcNow.AddYears(1),
+    IgnoreSecurityStamp = false,
+    Role = new Role { RoleId = 2, Name = &quot;Admin&quot; },
+    User = new User { UserId = 10, Username = &quot;john.doe&quot; }
+};
+</code></pre>
+<h4 id="change-log-44">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>UserRoleId</code>, <code>UserId</code>, <code>RoleId</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>IgnoreSecurityStamp</code>, <code>Role</code>, and <code>User</code>.</li>
+</ul>
+<hr>
+<h3 id="uservalidateresult-model"><strong>UserValidateResult Model</strong></h3>
+<p>The <code>UserValidateResult</code> model represents the result of validating a user within the Oqtane framework.</p>
+<h4 id="properties-47">Properties:</h4>
+<ul>
+<li><strong>Succeeded</strong>: Indicates whether the validation succeeded.</li>
+<li><strong>Errors</strong>: Dictionary containing error messages, if any, with the key as the error field and the value as the error message.</li>
+</ul>
+<h4 id="example-usage-46">Example Usage:</h4>
+<pre><code class="lang-csharp">var userValidateResult = new UserValidateResult
+{
+    Succeeded = true,
+    Errors = new Dictionary&lt;string, string&gt;
+    {
+        { &quot;Email&quot;, &quot;Invalid email format&quot; },
+        { &quot;Password&quot;, &quot;Password must be at least 6 characters long&quot; }
+    }
+};
+</code></pre>
+<h4 id="change-log-45">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>Succeeded</code> and <code>Errors</code>.</li>
+</ul>
+<hr>
+<h3 id="visitor-model"><strong>Visitor Model</strong></h3>
+<p>The <code>Visitor</code> model describes a visitor in Oqtane.</p>
+<h4 id="properties-48">Properties:</h4>
+<ul>
+<li><strong>VisitorId</strong>: ID of this visitor.</li>
+<li><strong>SiteId</strong>: Reference to a <code>Site</code>.</li>
+<li><strong>UserId</strong>: Reference to a <code>User</code>, if applicable.</li>
+<li><strong>Visits</strong>: Number of times a visitor has visited the site.</li>
+<li><strong>IPAddress</strong>: Last recorded IP address of the visitor.</li>
+<li><strong>UserAgent</strong>: Last recorded user agent of the visitor.</li>
+<li><strong>Language</strong>: Last recorded language of the visitor.</li>
+<li><strong>Url</strong>: Last recorded URL of the visitor.</li>
+<li><strong>Referrer</strong>: Last recorded referrer of the visitor.</li>
+<li><strong>CreatedOn</strong>: Date the visitor first visited the site.</li>
+<li><strong>VisitedOn</strong>: Date the visitor last visited the site.</li>
+<li><strong>User</strong>: Direct reference to the <code>User</code> object, if applicable.</li>
+</ul>
+<h4 id="example-usage-47">Example Usage:</h4>
+<pre><code class="lang-csharp">var visitor = new Visitor
+{
+    VisitorId = 1,
+    SiteId = 1,
+    UserId = 10,
+    Visits = 5,
+    IPAddress = &quot;192.168.1.1&quot;,
+    UserAgent = &quot;Mozilla/5.0&quot;,
+    Language = &quot;en-US&quot;,
+    Url = &quot;https://example.com&quot;,
+    Referrer = &quot;https://google.com&quot;,
+    CreatedOn = DateTime.UtcNow.AddMonths(-3),
+    VisitedOn = DateTime.UtcNow,
+    User = new User { UserId = 10, Username = &quot;john.doe&quot; }
+};
+</code></pre>
+<h4 id="change-log-46">Change Log:</h4>
+<ul>
+<li><strong>Initial Creation</strong>: Added properties for <code>VisitorId</code>, <code>SiteId</code>, <code>UserId</code>, <code>Visits</code>, <code>IPAddress</code>, <code>UserAgent</code>, <code>Language</code>, <code>Url</code>, <code>Referrer</code>, <code>CreatedOn</code>, <code>VisitedOn</code>, and <code>User</code>.</li>
+</ul>
+<hr>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/database-management/database-schema.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

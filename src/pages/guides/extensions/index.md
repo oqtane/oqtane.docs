@@ -47,11 +47,11 @@ The following skills are also useful, or will need to be developed as you go:
 1. Blazor programming skills
 1. HTML / CSS / JavaScript / Bootstrap5 skills
 1. Git / GitHub skills
-1. [Oqtane installation](xref:Manuals.Installation.Index)
+1. [Oqtane installation](xref:Guides.Installation.Index)
 
 ## Basic Setup
 
-You will need to [install Oqtane](xref:Manuals.Installation.Index)
+You will need to [install Oqtane](xref:Guides.Installation.Index)
 on your development machine to get started.
 For this you have 2 options:
 
@@ -69,3 +69,11 @@ Read about:
 1. Best Practices
 1. [Themes](xref:Guides.Themes.Index)
 1. Modules
+
+## Additional Resources
+
+- [Oqtane Module Development Series](https://www.youtube.com/playlist?list=PLYhXmd7yV0elLNLfQwZBUlM7ZSMYPTZ_f)
+
+---
+
+[← Back to Documentation Guides Home Page](../index.md)

@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Troubleshooting Database Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Troubleshooting Database Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-database.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="troubleshooting-database-management">Troubleshooting Database Management</h1>
+
+<h2 id="overview">Overview</h2>
+<p>This guide provides comprehensive troubleshooting information for addressing common issues with the database in Oqtane. Whether you're dealing with setup problems, migration issues, performance concerns, or security challenges, this document will guide you through diagnosing and resolving issues.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#database-setup-issues">Database Setup Issues</a></li>
+<li><a href="#database-migrations">Database Migrations</a></li>
+<li><a href="#performance-problems">Performance Problems</a></li>
+<li><a href="#database-integrity-and-security">Database Integrity and Security</a></li>
+<li><a href="#general-tips">General Tips</a></li>
+</ol>
+<hr>
+<h2 id="database-setup-issues">Database Setup Issues</h2>
+<p>If you're having trouble setting up your database or connecting it to Oqtane, check the following:</p>
+<h3 id="11-database-connection-problems">1.1. <strong>Database Connection Problems</strong></h3>
+<ul>
+<li><strong>Check Connection Strings</strong>: Verify the connection strings in your configuration files are correct and point to the right database server.</li>
+<li><strong>Firewall Settings</strong>: Ensure the database port is open and accessible from your Oqtane server.</li>
+<li><strong>Database Server Availability</strong>: Ensure the database server is running and accessible. If using a remote database, check network connectivity.</li>
+</ul>
+<h3 id="12-missing-or-incorrect-database-schema">1.2. <strong>Missing or Incorrect Database Schema</strong></h3>
+<ul>
+<li><strong>Schema Migration</strong>: Ensure that your database schema is up-to-date by running the necessary migrations (check the <strong><a href="../migrations/database-migration.html">Migrations Guide</a></strong>).</li>
+<li><strong>Database Permissions</strong>: Ensure the database user has sufficient permissions to create tables, views, and procedures.</li>
+</ul>
+<hr>
+<h2 id="database-migrations">Database Migrations</h2>
+<p>Database migrations are a critical part of setting up and maintaining Oqtane's database. Here’s how to troubleshoot migration issues:</p>
+<h3 id="21-failed-migrations">2.1. <strong>Failed Migrations</strong></h3>
+<ul>
+<li><strong>Check Logs</strong>: Look for any error messages in your Oqtane logs related to database migrations.</li>
+<li><strong>Verify Migration Version</strong>: Ensure the database schema version matches the version specified in your Oqtane installation.</li>
+<li><strong>Re-run Migrations</strong>: If a migration fails, try rerunning it manually or resetting the migration state.</li>
+</ul>
+<h3 id="22-version-conflicts">2.2. <strong>Version Conflicts</strong></h3>
+<ul>
+<li><strong>Database Compatibility</strong>: Ensure the Oqtane version you're using is compatible with your database schema version. Upgrading Oqtane may require additional migration steps.</li>
+<li><strong>Revert to Backup</strong>: If a migration causes severe issues, consider restoring from a database backup and reapplying migrations step by step.</li>
+</ul>
+<p>For more details on performing migrations, check the <a href="../migrations/database-migration.html">Database Migration Guide</a>.</p>
+<hr>
+<h2 id="performance-problems">Performance Problems</h2>
+<p>Performance issues can often be traced back to database queries or configuration settings. Here’s how to troubleshoot them:</p>
+<h3 id="31-slow-queries">3.1. <strong>Slow Queries</strong></h3>
+<ul>
+<li><strong>Enable Query Logging</strong>: Enable query logging in your database to identify slow or resource-intensive queries.</li>
+<li><strong>Optimize Queries</strong>: Review the slow queries and optimize them using indexing or refactoring.</li>
+<li><strong>Database Caching</strong>: Implement caching strategies to reduce load on the database, particularly for frequently accessed data.</li>
+</ul>
+<h3 id="32-database-load">3.2. <strong>Database Load</strong></h3>
+<ul>
+<li><strong>Database Scaling</strong>: Consider scaling your database horizontally (replication) or vertically (increasing resources).</li>
+<li><strong>Connection Pooling</strong>: Implement connection pooling to manage multiple database connections efficiently.</li>
+</ul>
+<hr>
+<h2 id="database-integrity-and-security">Database Integrity and Security</h2>
+<p>Ensuring the integrity and security of your database is crucial. Here’s how to address common database issues:</p>
+<h3 id="41-data-corruption">4.1. <strong>Data Corruption</strong></h3>
+<ul>
+<li><strong>Check Logs for Corruption</strong>: Look for errors indicating data corruption in the database logs.</li>
+<li><strong>Restore from Backup</strong>: If data corruption occurs, restore the affected tables or the entire database from a backup.</li>
+<li><strong>Integrity Checks</strong>: Use your database's built-in integrity checking tools (e.g., <code>DBCC CHECKDB</code> for SQL Server) to identify corruption.</li>
+</ul>
+<h3 id="42-database-security">4.2. <strong>Database Security</strong></h3>
+<ul>
+<li><strong>Database Access Control</strong>: Ensure only authorized users can access the database. Review and tighten user permissions.</li>
+<li><strong>Encrypt Data</strong>: Implement encryption for sensitive data at rest and in transit.</li>
+<li><strong>Regular Backups</strong>: Schedule regular backups and store them in a secure location.</li>
+</ul>
+<hr>
+<h2 id="general-tips">General Tips</h2>
+<p>Here are a few general tips for maintaining and troubleshooting your database:</p>
+<ul>
+<li><strong>Backup Regularly</strong>: Always keep backups of your database. Schedule daily backups for production environments.</li>
+<li><strong>Monitor Performance</strong>: Use database monitoring tools to keep an eye on performance metrics like query time, CPU load, and memory usage.</li>
+<li><strong>Keep Software Updated</strong>: Ensure both your database and Oqtane are kept up-to-date to avoid compatibility issues and benefit from security patches.</li>
+</ul>
+<hr>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><strong><a href="../migrations/database-migration.html">Oqtane Migrations Guide</a></strong><br>
+For in-depth instructions on running and troubleshooting database migrations.</li>
+<li><strong><a href="../database-management/database-schema.html">Oqtane Database Schema Documentation</a></strong><br>
+Detailed reference for understanding the Oqtane database schema structure.</li>
+<li><strong><a href="../installation/index.html">Oqtane Installation Guide</a></strong><br>
+For troubleshooting database setup during Oqtane installation.</li>
+</ul>
+<hr>
+<p>By following the steps and tips provided in this document, you should be able to diagnose and resolve most database-related issues in Oqtane. If you continue to encounter problems, consider reaching out to the Oqtane community or reviewing the related guides for more advanced troubleshooting.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-database.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

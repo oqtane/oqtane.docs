@@ -29,7 +29,9 @@ This is an example of a content pane.
 - [Creating Modules](creating-a-module.md): Resources and guidelines for creating custom modules for Oqtane.
 - [Developing Modules](module-development.md): Resources and guidelines for developing custom modules for Oqtane.
 - [Module Deployment](module-deployment.md): Resources and guidelines for deploying custom modules for Oqtane.
-- [Troubleshooting Module Development](../troubleshooting/troubleshooting-working-with-modules.md): Troubleshooting tips and solutions for common issues encountered with developing modules.
+- [Troubleshooting Module Development](../../guides/troubleshooting/troubleshooting-developing-modules.md): Troubleshooting tips and solutions for common issues encountered with developing modules.
 
 
 Feel free to explore each topic to find the information you need to effectively work with modules in your Oqtane applications.
+
+[← Back to Documentation Guides Home Page](../index.md)
