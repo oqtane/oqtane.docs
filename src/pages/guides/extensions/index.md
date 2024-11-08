@@ -72,6 +72,8 @@ Read about:
 
 ## Additional Resources
 
-[Oqtane Module Development Series](https://www.youtube.com/playlist?list=PLYhXmd7yV0elLNLfQwZBUlM7ZSMYPTZ_f)
+- [Oqtane Module Development Series](https://www.youtube.com/playlist?list=PLYhXmd7yV0elLNLfQwZBUlM7ZSMYPTZ_f)
+
+---
 
 [← Back to Documentation Guides Home Page](../index.md)
