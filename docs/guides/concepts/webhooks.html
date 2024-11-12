@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Oqtane Framework - Server Events (Webhooks) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Oqtane Framework - Server Events (Webhooks) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/webhooks.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="oqtane-framework---server-events-webhooks">Oqtane Framework - Server Events (Webhooks)</h1>
+
+<h2 id="overview">Overview</h2>
+<p>Webhooks allow the Oqtane Framework to notify consumers of the API when data changes occur. This guide provides an overview of how to implement and use webhooks in Oqtane.</p>
+<h2 id="community-suggestions">Community Suggestions</h2>
+<h3 id="module-creation">Module Creation</h3>
+<p>One suggestion is to create a module with a configuration page where users can supply a URL. A job can be registered to fire when needed to notify users of data changes.</p>
+<h3 id="ieventsubscriber">IEventSubscriber</h3>
+<p>Another suggestion is to utilize <code>IEventSubscriber</code>. Oqtane raises events for all major actions, allowing you to create a subscriber to consume these events and POST them to a webhook.</p>
+<h2 id="server-side-events">Server-Side Events</h2>
+<h3 id="introduction">Introduction</h3>
+<p>Oqtane 3.1 introduced the <code>INotifyPropertyChanged</code> concept for raising events within client-side Razor components. This method works well for creating rich, dynamic user interfaces. However, server-side events required a different approach.</p>
+<h3 id="syncmanager">SyncManager</h3>
+<p>Oqtane includes a <code>SyncManager</code> on the server, traditionally used to synchronize specific server-side events with client-side state. This ensures that client-side caches remain consistent in a multi-user environment.</p>
+<h3 id="event-handling-in-oqtane-321">Event Handling in Oqtane 3.2.1</h3>
+<p>In Oqtane 3.2.1, the ability to consume server-side events raised by the core framework was introduced using the standard .NET <code>EventHandler</code> in conjunction with the <code>SyncManager</code> to raise <code>SyncEvents</code>.</p>
+<h3 id="ihostedservices">IHostedServices</h3>
+<p>Server-side event handling can be challenging due to the short-lived nature of most services (scoped or transient). <code>IHostedServices</code> are ideal for this purpose as they run in the background for the lifetime of the application. However, they do not support standard dependency injection for scoped services, requiring additional effort for instantiation.</p>
+<h3 id="eventdistributorhostedservice-in-oqtane-40">EventDistributorHostedService in Oqtane 4.0</h3>
+<p>In Oqtane 4.0, a new interface, <code>IEventSubscriber</code>, was introduced, containing the <code>EntityChanged(SyncEvent syncEvent)</code> method. The <code>EventDistributorHostedService</code> captures all server events raised by the framework, calling every known implementation of <code>IEventSubscriber</code> and passing the <code>SyncEvent</code>.</p>
+<h3 id="example-capturing-file-download-event">Example: Capturing File Download Event</h3>
+<pre><code class="lang-csharp">public class FileDownloadEventSubscriber : IEventSubscriber
+{
+    private readonly IServiceScopeFactory _serviceScopeFactory;
+
+    public FileDownloadEventSubscriber(IServiceScopeFactory serviceScopeFactory)
+    {
+        _serviceScopeFactory = serviceScopeFactory;
+    }
+
+    public void EntityChanged(SyncEvent syncEvent)
+    {
+        if (syncEvent.EntityName == EntityNames.File &amp;&amp; syncEvent.Action == &quot;Download&quot;)
+        {
+            using (var scope = _serviceScopeFactory.CreateScope())
+            {
+                // create scoped services
+                var tenantManager = scope.ServiceProvider.GetRequiredService&lt;TenantManager&gt;();
+                var fileRepository = scope.ServiceProvider.GetRequiredService&lt;FileRepository&gt;();
+
+                // set tenant
+                tenantManager.SetTenant(syncEvent.TenantId);
+
+                // get file and perform actions
+                var file = fileRepository.GetFile(syncEvent.EntityId);
+            }
+        }
+    }
+}
+</code></pre>
+<h3 id="core-framework-enhancements">Core Framework Enhancements</h3>
+<p>All core framework entities raise Add, Update, and Delete events, providing new opportunities for developers to extend the framework server-side.</p>
+<h2 id="oqtane-events-summary">Oqtane Events Summary</h2>
+<ol>
+<li><strong>INotifyPropertyChanged</strong>: Communication between Razor UI components.</li>
+<li><strong>SyncEvents</strong>: Communication between server and client to signal UI refresh/reload.</li>
+<li><strong>EntityChanged</strong>: Communication between server workloads.</li>
+</ol>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://www.oqtane.org/blog/!/53/oqtane-server-events">Oqtane Server Events Blog Post</a></li>
+<li><a href="https://learn.microsoft.com/en-us/aspnet/webhooks/">ASP.NET WebHooks Overview</a></li>
+<li><a href="https://code-maze.com/aspnetcore-using-server-sent-events-for-realtime-updates/">Using Server-Sent Events for Realtime Updates in ASP.NET Core</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/modern-events">The Updated .NET Core Event Pattern</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/webhooks.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-installations.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-installations.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -43,7 +43,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../index.html">
-            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,7 +116,43 @@
 </li>
 </ul>
 <hr>
+<h2 id="webdav-issues">WebDAV Issues</h2>
+<h3 id="disabling-webdav-in-control-panels">Disabling WebDAV in Control Panels</h3>
+<p>WebDAV is not supported by Oqtane Framework. To ensure a smooth installation and operation of Oqtane, it is important to disable WebDAV in your control panel hosting environment. Below are the steps to disable WebDAV in common control panels.</p>
+<h4 id="plesk">Plesk</h4>
+<ol>
+<li><strong>Login to Plesk Control Panel.</strong></li>
+<li>Navigate to <strong><code>Websites &amp; Domains</code></strong>.</li>
+<li>Click on the domain name you are working with.</li>
+<li>Click on <strong><code>Hosting Settings</code></strong>.</li>
+<li>Scroll down to <strong><code>Web Scripting and Security</code></strong> section.</li>
+<li>Uncheck <strong><code>WebDAV</code></strong>.</li>
+<li>Click <strong><code>OK</code></strong> to save changes.</li>
+</ol>
+<h4 id="cpanel">cPanel</h4>
+<ol>
+<li><strong>Login to cPanel.</strong></li>
+<li>Go to <strong><code>File Manager</code></strong>.</li>
+<li>Click on the <strong><code>Settings</code></strong> icon at the top right corner.</li>
+<li>Select <strong><code>WebDAV</code></strong> tab.</li>
+<li>Uncheck <strong><code>Enable WebDAV</code></strong>.</li>
+<li>Click <strong><code>Save</code></strong> to apply the changes.</li>
+</ol>
+<h4 id="directadmin">DirectAdmin</h4>
+<ol>
+<li><strong>Login to DirectAdmin.</strong></li>
+<li>Navigate to <strong><code>Advanced Features</code></strong>.</li>
+<li>Click on <strong><code>WebDAV</code></strong>.</li>
+<li>Uncheck <strong><code>Enable WebDAV</code></strong>.</li>
+<li>Click <strong><code>Save</code></strong> to apply the changes.</li>
+</ol>
+<h4 id="additional-notes">Additional Notes</h4>
+<ul>
+<li>It is recommended to contact your hosting provider’s support if you encounter difficulties disabling WebDAV.</li>
+<li>Ensure all changes are properly saved and applied before proceeding with the Oqtane installation.</li>
+</ul>
 <h2 id="additional-resources">Additional Resources</h2>
+<hr>
 <p>For further assistance and discussions on installation troubleshooting, you can explore the <a href="https://github.com/oqtane/oqtane.framework">Oqtane Framework GitHub repository</a> and review <a href="https://github.com/oqtane/oqtane.framework/issues">existing issues</a> and <a href="https://github.com/oqtane/oqtane.framework/discussions">discussions</a> related to installation problems. Engaging with the community and seeking help from experienced users and developers can often provide valuable insights and solutions to resolve installation issues.</p>
 <ul>
 <li><a href="../installation/databases.html">Oqtane Supported Databases</a></li>
@@ -127,7 +163,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-installations.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/troubleshooting/troubleshooting-installations.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
