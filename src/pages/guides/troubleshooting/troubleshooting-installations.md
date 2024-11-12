@@ -36,7 +36,47 @@ Encountering issues during the installation process can be frustrating, but with
 
 ---
 
+## WebDAV Issues
+
+### Disabling WebDAV in Control Panels
+
+WebDAV is not supported by Oqtane Framework. To ensure a smooth installation and operation of Oqtane, it is important to disable WebDAV in your control panel hosting environment. Below are the steps to disable WebDAV in common control panels.
+
+#### Plesk
+
+1. **Login to Plesk Control Panel.**
+2. Navigate to **`Websites & Domains`**.
+3. Click on the domain name you are working with.
+4. Click on **`Hosting Settings`**.
+5. Scroll down to **`Web Scripting and Security`** section.
+6. Uncheck **`WebDAV`**.
+7. Click **`OK`** to save changes.
+
+#### cPanel
+
+1. **Login to cPanel.**
+2. Go to **`File Manager`**.
+3. Click on the **`Settings`** icon at the top right corner.
+4. Select **`WebDAV`** tab.
+5. Uncheck **`Enable WebDAV`**.
+6. Click **`Save`** to apply the changes.
+
+#### DirectAdmin
+
+1. **Login to DirectAdmin.**
+2. Navigate to **`Advanced Features`**.
+3. Click on **`WebDAV`**.
+4. Uncheck **`Enable WebDAV`**.
+5. Click **`Save`** to apply the changes.
+
+#### Additional Notes
+
+- It is recommended to contact your hosting provider’s support if you encounter difficulties disabling WebDAV.
+- Ensure all changes are properly saved and applied before proceeding with the Oqtane installation.
+
 ## Additional Resources
+
+---
 
 For further assistance and discussions on installation troubleshooting, you can explore the [Oqtane Framework GitHub repository](https://github.com/oqtane/oqtane.framework) and review [existing issues](https://github.com/oqtane/oqtane.framework/issues) and [discussions](https://github.com/oqtane/oqtane.framework/discussions) related to installation problems. Engaging with the community and seeking help from experienced users and developers can often provide valuable insights and solutions to resolve installation issues.
 

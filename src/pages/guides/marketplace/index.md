@@ -36,3 +36,5 @@ the Marketplace provides a convenient platform to meet your needs.
 
 Explore the Oqtane Marketplace and unleash the full potential
 of your Oqtane-based applications today!
+
+[← Back to Documentation Guides Home Page](../index.md)

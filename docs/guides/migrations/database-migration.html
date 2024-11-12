@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Database Migrations | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Database Migrations | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/migrations/database-migration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-white-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="database-migrations">Database Migrations</h1>
+
+<p>Database migrations are essential in Oqtane to ensure that the database schema aligns with the application's version. These migrations help to safely apply changes to the database structure, such as adding new tables, modifying columns, or altering indexes, and are executed as part of the upgrade process.</p>
+<p>This guide explains how to use the migration scripts, troubleshoot common issues, and resolve database-related problems during upgrades.</p>
+<h2 id="overview">Overview</h2>
+<p>Oqtane uses migration scripts to handle changes to the database schema between versions. When upgrading from one version to another, migration scripts are applied to bring the database up to date with the new code changes.</p>
+<p>The migration process typically involves:</p>
+<ul>
+<li>Running pre-defined SQL scripts that modify the database structure.</li>
+<li>Ensuring that database schema changes are consistent with the code's expectations.</li>
+<li>Handling version-specific database changes (i.e., adding, altering, or removing columns or tables).</li>
+</ul>
+<h2 id="running-database-migrations">Running Database Migrations</h2>
+<p>To apply migrations, follow these steps:</p>
+<ol>
+<li><p><strong>Backup the Database:</strong><br>
+Before applying any migrations, ensure that you have a recent backup of your database to prevent data loss in case of errors.</p>
+</li>
+<li><p><strong>Verify the Database Version:</strong><br>
+Ensure that you are upgrading from a compatible database version. Check your current database schema version and compare it with the version you're upgrading to.</p>
+</li>
+<li><p><strong>Run Migration Scripts:</strong><br>
+Oqtane provides migration scripts that can be executed on your database to bring it up to date. These scripts can typically be run using the Oqtane Admin interface or manually using SQL tools like SQL Server Management Studio (SSMS) for SQL Server or MySQL Workbench for MySQL.</p>
+</li>
+<li><p><strong>Check for Errors:</strong><br>
+If the migration fails, check the error messages for specific details. Look for issues such as:</p>
+<ul>
+<li>Missing columns or tables</li>
+<li>Foreign key constraints</li>
+<li>Compatibility issues between the database version and the schema</li>
+<li>Scripts that were not executed properly</li>
+</ul>
+<p>For most issues, detailed error messages will help guide you to the specific cause of the failure.</p>
+</li>
+<li><p><strong>Confirm Successful Migration:</strong><br>
+After the migration scripts are successfully executed, verify that the database schema matches the expected version. You may need to check specific tables or views to ensure that all changes were applied.</p>
+</li>
+</ol>
+<h2 id="common-migration-issues-and-solutions">Common Migration Issues and Solutions</h2>
+<h3 id="1-migration-fails-due-to-missing-or-incompatible-columns">1. Migration Fails Due to Missing or Incompatible Columns</h3>
+<p><strong>Symptom:</strong><br>
+The migration fails with an error message stating that certain columns or tables are missing.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Verify that the migration script is correctly applied. Sometimes, manual changes to the database schema (e.g., column removals or modifications) can cause incompatibilities.</li>
+<li>Review the SQL script that was supposed to add the missing columns or tables and try to apply it manually.</li>
+<li>If a column or table was removed intentionally, ensure that your migration script accounts for these changes.</li>
+</ul>
+<h3 id="2-error-during-database-schema-comparison">2. Error During Database Schema Comparison</h3>
+<p><strong>Symptom:</strong><br>
+There is a mismatch between the current database schema and the new version after running migration scripts.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Check if the database schema was altered manually before applying migrations. If manual changes were made, you may need to reverse them to allow the migration script to apply properly.</li>
+<li>Compare the expected schema version with the current one and make necessary adjustments. Refer to the <a href="../database-management/database-schema.html">Database Schema Documentation</a> for more details.</li>
+</ul>
+<h3 id="3-migration-script-fails-to-run-on-production-database">3. Migration Script Fails to Run on Production Database</h3>
+<p><strong>Symptom:</strong><br>
+Migration scripts run successfully in the development environment but fail in the production environment.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>Double-check that the correct database (development vs. production) is being used for the migration.</li>
+<li>Ensure that the production database has the necessary permissions for applying migrations.</li>
+<li>Review any environment-specific configurations that might be preventing the migration from executing properly on the production system.</li>
+</ul>
+<h3 id="4-rollback-migration-script">4. Rollback Migration Script</h3>
+<p><strong>Symptom:</strong><br>
+The migration caused unintended changes to the database, and you need to revert to the previous version.</p>
+<p><strong>Solution:</strong></p>
+<ul>
+<li>If the migration supports rollback, use the <code>rollback</code> or <code>revert</code> command provided by Oqtane.</li>
+<li>If rollback is not supported, you will need to manually revert the database schema using backup files or reverse-engineer the changes made during the migration.</li>
+</ul>
+<h2 id="best-practices-for-database-migrations">Best Practices for Database Migrations</h2>
+<ol>
+<li><p><strong>Test in Development First:</strong><br>
+Always test the migration on a development or staging environment before applying it to production. This ensures that any issues with the migration scripts are caught early.</p>
+</li>
+<li><p><strong>Backup Your Database:</strong><br>
+Always take a full backup of the database before running any migrations. This protects your data in case something goes wrong.</p>
+</li>
+<li><p><strong>Review Release Notes:</strong><br>
+Check the release notes for the specific Oqtane version you're upgrading to. There may be migration-specific instructions or known issues that need to be addressed.</p>
+</li>
+<li><p><strong>Ensure Database Compatibility:</strong><br>
+Make sure the database server you're using is compatible with the version of Oqtane you're upgrading to. Database version upgrades may be required to fully support new schema changes.</p>
+</li>
+</ol>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>Database migrations are an essential part of maintaining an up-to-date Oqtane application. While they help automate database updates, it is important to monitor the migration process closely for any errors and follow best practices to ensure a smooth transition.</p>
+<p>For additional information or troubleshooting, refer to the <a href="../troubleshooting/troubleshooting-migrations.html">Migration Troubleshooting Guide</a> or consult the Oqtane documentation for more details.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/thabaum/oqtane.docs/blob/master/src/pages/guides/migrations/database-migration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -16,7 +16,10 @@ The Oqtane Troubleshooting Guide aims to assist users in resolving common proble
 
 Read about the following troubleshooting sections to resolve specific issues:
   
-### User Management Troubleshooting
+### System Management Troubleshooting
+
+- [Troubleshooting File Manager](troubleshooting-file-manager.md)  
+  Solutions for addressing issues with uploading, file access, and permissions in the File Manager.
 
 - [Troubleshooting Login Issues](troubleshooting-login-issues.md)  
   Find solutions for common login problems, including expired certificates and session management.
@@ -26,7 +29,7 @@ Read about the following troubleshooting sections to resolve specific issues:
 
 ### Installation, Upgrades, and Migration Troubleshooting
 
-- [Installation Troubleshooting](troubleshooting-installation.md)  
+- [Installation Troubleshooting](troubleshooting-installations.md)  
   Instructions for resolving installation problems and verifying system requirements.
 
 - [Migration Troubleshooting](troubleshooting-migrations.md)  
@@ -71,3 +74,5 @@ The following topics should be covered to enhance the troubleshooting guide:
 12. Troubleshooting user permissions and role management.
 13. Common database-related problems and recovery steps.
 14. Enabling and configuring logging for troubleshooting.
+
+[← Back to Documentation Guides Home Page](../index.md)

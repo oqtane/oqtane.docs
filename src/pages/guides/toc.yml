@@ -41,6 +41,11 @@
   topicHref: troubleshooting/index.md
   # href: troubleshooting/index.md
 
+- name: Database Management
+  href: database-management/toc.yml
+  topicHref: database-management/index.md
+  # href: database-management/index.md
+
 - name: Roadmap & History
   topicUid: Guides.Roadmap.Index
 

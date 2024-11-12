@@ -7,7 +7,7 @@ The HTML/Text Editor module in Oqtane enables you to create, edit, and restore c
 **To access the HTML/Text Editor:**  
 1. Enter Content Editor mode by clicking the pencil icon.
 
-   ![HTML/Text Editor Edit Content Mode](./assets/content-editor-edit-content-button.png)
+   ![HTML/Text Editor Edit Content Mode](./assets/content-editor-html-editor-edit-content-button.png)
 
 2. Click the **Edit Content** button on the module to open the HTML/Text Editor.
 
@@ -60,7 +60,7 @@ Once an image file is selected, click the **Insert Image** button.
 
 - **Upload File** – Upload new images to the selected folder by using **Choose File** and **Upload** buttons.
 
-   ![HTML/Text Editor Upload File Button](./assets/html-text-editor-upload-file-button.png)
+   ![HTML/Text Editor Upload File Button](./assets/html-text-editor-image-upload-button.png)
 
 If you encounter issues with uploading files, see the [Troubleshooting File Manager](../../../guides/troubleshooting/troubleshooting-file-manager.md) guide.
 

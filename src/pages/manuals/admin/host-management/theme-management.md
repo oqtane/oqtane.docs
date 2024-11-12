@@ -103,7 +103,7 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
 
 4. After successfully creating the theme, you will see a notification confirming the creation and instructing you to compile the new theme project and restart the application.
 
-   ![Theme Management Create Theme Success Notification](./assets/theme-management-create-theme-created-succes-notification.png)
+   ![Theme Management Create Theme Success Notification](./assets/theme-management-create-theme-created-success-notification.png)
 
    
 ### **Warning**: Theme Creation in Production Environments

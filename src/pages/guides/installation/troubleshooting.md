@@ -22,4 +22,12 @@ Below are two detailed guides for troubleshooting installations, tailored to the
   - **Data Migration Problems**: Solutions for handling issues related to data migration during an upgrade.
   - **Post-Upgrade Issues**: Resolving issues that arise after the upgrade is complete, such as broken links or missing data.
 
+- **[Database Troubleshooting](../troubleshooting/troubleshooting-database.md)**  
+  This guide addresses common database-related issues during both installation and upgrade. It includes:
+  - **Database Connection Problems**: Steps to resolve issues where the application cannot connect to the database.
+  - **Database Migration Issues**: Guidance on troubleshooting issues that occur when migrating databases.
+  - **Data Integrity Problems**: How to identify and resolve data corruption or missing data issues.
+  - **Permissions and Access Control**: Solutions for issues related to database access permissions and user roles.
+
+
 These guides are designed to provide practical solutions and best practices to help you install and upgrade Oqtane smoothly.

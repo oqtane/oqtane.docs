@@ -279,3 +279,5 @@ This project is open source, and therefore is a work in progress...
 
 - ✅ Initial public release on GitHub
 - ✅ .NET Core 3.0
+
+[← Back to Documentation Guides Home Page](../index.md)
