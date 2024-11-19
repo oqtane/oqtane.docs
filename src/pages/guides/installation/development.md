@@ -145,7 +145,7 @@ Oqtane works with ALL editions of Visual Studio from Community to Enterprise.
 
 - [Oqtane Supported Databases](databases.md)
 - [Oqtane Installation Resources](resources.md)
-- [Oqtane Development Using Visual Studio Code](development-vs-code.md)
+- [Oqtane Development Using Visual Studio Code](./windows-vs-code/index.md)
 - [Oqtane Development Using Linux and Visual Studio Code](development-vs-code-linux.md)
 
 [← Back to Installation Home](index.md)

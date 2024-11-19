@@ -45,7 +45,7 @@ and use Visual Studio or Visual Studio Code as your IDE.
 ### Windows
 
 - [Windows Visual Studio Development](development.md): Install Oqtane quickly for development, primarily for Visual Studio and Windows development.
-- [Windows Visual Studio Code Development](development-vs-code.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development.
+- [Windows Visual Studio Code Development](./windows-vs-code/index.md): Install Oqtane quickly for development, primarily for Visual Studio Code and Windows development.
 
 ### Linux
 
