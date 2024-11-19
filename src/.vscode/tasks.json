@@ -4,6 +4,23 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "restore tools (docfx)",
+      "type": "shell",
+      "command": "dotnet tool restore",
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "docfx: build docs (skip building API, faster for documentation)",
+      "type": "shell",
+      "command": "docfx build",
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
       "label": "build",
       "command": "dotnet",
       "type": "shell",
