@@ -84,6 +84,17 @@
         ],
       },
       {
+        // Authors files in shared
+        "cwd": "shared",
+        "files": [
+          "**.jpg",
+          "**.png",
+          "**.jpeg",
+          "**.svg",
+          "**.gif"
+        ],
+      },
+      {
         "files": [
           "layout/**",
           "admin/**.png",
