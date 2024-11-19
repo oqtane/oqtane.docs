@@ -8,6 +8,8 @@
   href: ./windows-vs-code/index.md
 - name: VS Code (Linux), Apache, MySQL
   href: ./development-vs-code-linux.md
+- name: Issue with IIS Timeouts in Dev
+  href: ./iis-debug/timeout.md
 
 - name: Azure Deployment
 - name: Deploy To Azure
