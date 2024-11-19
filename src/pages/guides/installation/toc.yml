@@ -5,7 +5,7 @@
 - name: Visual Studio, IIS Express, SQL Express LocalDb
   href: ./development.md
 - name: VS Code, IIS Express, SQL Express LocalDb
-  href: ./development-vs-code.md
+  href: ./windows-vs-code/index.md
 - name: VS Code (Linux), Apache, MySQL
   href: ./development-vs-code-linux.md
 
