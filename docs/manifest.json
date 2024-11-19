@@ -5237,20 +5237,30 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/guides/installation/development-vs-code.md",
+      "source_relative_path": "pages/guides/installation/development.md",
       "output": {
         ".html": {
-          "relative_path": "guides/installation/development-vs-code.html"
+          "relative_path": "guides/installation/development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/installation/iis-debug/assets/visual-studio-iis-timeout.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/installation/iis-debug/assets/visual-studio-iis-timeout.png"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/guides/installation/development.md",
+      "source_relative_path": "pages/guides/installation/iis-debug/timeout.md",
       "output": {
         ".html": {
-          "relative_path": "guides/installation/development.html"
+          "relative_path": "guides/installation/iis-debug/timeout.html"
         }
       },
       "version": ""
@@ -5734,6 +5744,16 @@
       "output": {
         ".html": {
           "relative_path": "guides/installation/windows-iis-sql.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/installation/windows-vs-code/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/installation/windows-vs-code/index.html"
         }
       },
       "version": ""
@@ -10077,6 +10097,16 @@
       "output": {
         ".html": {
           "relative_path": "readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "shared/authors/leigh-pointer/assets/leigh-pointer.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "shared/authors/leigh-pointer/assets/leigh-pointer.jpg"
         }
       },
       "version": ""
