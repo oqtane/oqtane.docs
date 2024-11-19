@@ -6,5 +6,5 @@
   href: pages/manuals/admin/
 
 - name: API Documentation
-  href: api/
-  # topicHref: api/index.md
+  href: obj/api/
+  topicHref: api/index.md
