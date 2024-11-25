@@ -152,10 +152,60 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "layout/oqtane/build-toc-specs.js",
+      "output": {
+        "resource": {
+          "relative_path": "layout/oqtane/build-toc-specs.js"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "layout/oqtane/build-toc/polyfill-object.assign.js",
+      "output": {
+        "resource": {
+          "relative_path": "layout/oqtane/build-toc/polyfill-object.assign.js"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "layout/oqtane/build-toc/readme.md",
+      "output": {
+        "resource": {
+          "relative_path": "layout/oqtane/build-toc/readme.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "layout/oqtane/build-toc/toc-tools-new.js",
+      "output": {
+        "resource": {
+          "relative_path": "layout/oqtane/build-toc/toc-tools-new.js"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "layout/oqtane/public/main.css",
       "output": {
         "resource": {
           "relative_path": "layout/oqtane/public/main.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "layout/oqtane/toc.json.js",
+      "output": {
+        "resource": {
+          "relative_path": "layout/oqtane/toc.json.js"
         }
       },
       "version": ""
