@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ModuleBase
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class ModuleBase | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ModuleBase
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class ModuleBase | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
       
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_Modules_ModuleBase" data-uid="Oqtane.Modules.ModuleBase" class="text-break">
-    Class ModuleBase
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Modules/ModuleBase.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class ModuleBase  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Modules/ModuleBase.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,8 +110,8 @@
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase">ComponentBase</a></div>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ComponentBase</span></div>
       <div><span class="xref">ModuleBase</span></div>
     </dd>
   </dl>
@@ -163,7 +161,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -195,7 +193,7 @@ protected IJSRuntime JSRuntime { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.jsinterop.ijsruntime">IJSRuntime</a></dt>
+    <dt><span class="xref">IJSRuntime</span></dt>
     <dd></dd>
   </dl>
 
@@ -354,7 +352,7 @@ protected PageState PageState { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dt><span class="xref">bool</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -386,7 +384,7 @@ protected PageState PageState { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -450,7 +448,7 @@ public RenderModeBoundary RenderModeBoundary { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Oqtane.Models.Resource.html">Resource</a>&gt;</dt>
+    <dt><span class="xref">List</span>&lt;<a class="xref" href="Oqtane.Models.Resource.html">Resource</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -546,7 +544,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -577,7 +575,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -608,7 +606,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -640,7 +638,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -702,7 +700,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>content</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -733,7 +731,7 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>message</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>type</code> <a class="xref" href="Oqtane.Modules.MessageType.html">MessageType</a></dt>
     <dd></dd>
@@ -766,11 +764,11 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>message</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>type</code> <a class="xref" href="Oqtane.Modules.MessageType.html">MessageType</a></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>position</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -832,13 +830,13 @@ protected SiteState SiteState { get; set; }</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dt><code>parameters</code> <span class="xref">object</span>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -895,13 +893,13 @@ public string ContentUrl(int fileid)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -932,15 +930,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>asAttachment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>asAttachment</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -970,15 +968,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1008,17 +1006,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>querystring</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1048,17 +1046,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>querystring</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1088,13 +1086,13 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1124,15 +1122,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>querystring</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1162,19 +1160,19 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>moduleid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>querystring</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1204,19 +1202,19 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>moduleid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>querystring</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1246,15 +1244,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>querystring</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1284,13 +1282,13 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1320,15 +1318,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>download</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>download</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1358,15 +1356,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>folderpath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>folderpath</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>filename</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1396,17 +1394,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>folderpath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>folderpath</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>filename</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>download</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>download</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1436,13 +1434,13 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>template</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>template</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -1498,17 +1496,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>width</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>height</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1538,19 +1536,19 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>width</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>height</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>mode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>mode</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1580,27 +1578,27 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>fileid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>width</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>height</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>mode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>mode</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>position</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>background</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>background</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>rotate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>rotate</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>recreate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>recreate</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1636,17 +1634,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
     <dd></dd>
     <dt><code>function</code> <a class="xref" href="Oqtane.Enums.LogFunction.html">LogFunction</a></dt>
     <dd></dd>
-    <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dt><code>exception</code> <span class="xref">Exception</span></dt>
     <dd></dd>
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>message</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dt><code>args</code> <span class="xref">object</span>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1680,19 +1678,19 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
     <dd></dd>
     <dt><code>level</code> <a class="xref" href="Oqtane.Shared.LogLevel.html">LogLevel</a></dt>
     <dd></dd>
-    <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>function</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+    <dt><code>exception</code> <span class="xref">Exception</span></dt>
     <dd></dd>
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>message</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dt><code>args</code> <span class="xref">object</span>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1723,7 +1721,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1754,7 +1752,7 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1784,13 +1782,13 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>refresh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>refresh</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1820,15 +1818,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1858,17 +1856,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>querystring</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1898,17 +1896,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>querystring</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1938,13 +1936,13 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1974,15 +1972,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>refresh</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>refresh</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2012,15 +2010,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>querystring</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2050,17 +2048,17 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2090,19 +2088,19 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>querystring</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2132,19 +2130,19 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>action</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>querystring</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2174,15 +2172,15 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>querystring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>querystring</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2204,11 +2202,11 @@ public string ContentUrl(int fileid, bool asAttachment)</code></pre>
   </h3>
 
   <div class="markdown level1 summary"><p>Method invoked after each time the component has been rendered interactively and the UI has finished
-updating (for example, after elements have been added to the browser DOM). Any <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.elementreference">ElementReference</a>
+updating (for example, after elements have been added to the browser DOM). Any <span class="xref">Microsoft.AspNetCore.Components.ElementReference</span>
 fields will be populated by the time this runs.</p>
 <p>This method is not invoked during prerendering or server-side rendering, because those processes
 are not attached to any live browser DOM and are already complete before the DOM is updated.</p>
-<p>Note that the component does not automatically re-render after the completion of any returned <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>,
+<p>Note that the component does not automatically re-render after the completion of any returned <span class="xref">System.Threading.Tasks.Task</span>,
 because that would cause an infinite render loop.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2219,16 +2217,16 @@ because that would cause an infinite render loop.</p>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>firstRender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Set to <code>true</code> if this is the first time <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrender">OnAfterRender(bool)</a> has been invoked
+    <dt><code>firstRender</code> <span class="xref">bool</span></dt>
+    <dd><p>Set to <code>true</code> if this is the first time <span class="xref">Microsoft.AspNetCore.Components.ComponentBase.OnAfterRender(bool)</span> has been invoked
 on this component instance; otherwise <code>false</code>.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a> representing any asynchronous operation.</p>
+    <dt><span class="xref">Task</span></dt>
+    <dd><p>A <span class="xref">System.Threading.Tasks.Task</span> representing any asynchronous operation.</p>
 </dd>
   </dl>
 
@@ -2239,7 +2237,7 @@ on this component instance; otherwise <code>false</code>.</p>
 
 
   <h4 class="section" id="Oqtane_Modules_ModuleBase_OnAfterRenderAsync_System_Boolean__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrender">OnAfterRender(bool)</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.componentbase.onafterrenderasync">OnAfterRenderAsync(bool)</a> lifecycle methods
+  <div class="markdown level1 remarks"><p>The <span class="xref">Microsoft.AspNetCore.Components.ComponentBase.OnAfterRender(bool)</span> and <span class="xref">Microsoft.AspNetCore.Components.ComponentBase.OnAfterRenderAsync(bool)</span> lifecycle methods
 are useful for performing interop, or interacting with values received from <code>@ref</code>.
 Use the <code class="paramref">firstRender</code> parameter to ensure that initialization work is only performed
 once.</p>
@@ -2265,7 +2263,7 @@ once.</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -2295,7 +2293,7 @@ once.</p>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>title</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2326,7 +2324,7 @@ once.</p>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>visible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>visible</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -2357,7 +2355,7 @@ once.</p>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>title</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -2390,7 +2388,7 @@ once.</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 

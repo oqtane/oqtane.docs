@@ -15366,6 +15366,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.ActionDialog.IconName
   nameWithType: ActionDialog.IconName
+- uid: Oqtane.Modules.Controls.ActionDialog.IconOnly
+  name: IconOnly
+  href: api/Oqtane.Modules.Controls.ActionDialog.html#Oqtane_Modules_Controls_ActionDialog_IconOnly
+  commentId: P:Oqtane.Modules.Controls.ActionDialog.IconOnly
+  fullName: Oqtane.Modules.Controls.ActionDialog.IconOnly
+  nameWithType: ActionDialog.IconOnly
+- uid: Oqtane.Modules.Controls.ActionDialog.IconOnly*
+  name: IconOnly
+  href: api/Oqtane.Modules.Controls.ActionDialog.html#Oqtane_Modules_Controls_ActionDialog_IconOnly_
+  commentId: Overload:Oqtane.Modules.Controls.ActionDialog.IconOnly
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.ActionDialog.IconOnly
+  nameWithType: ActionDialog.IconOnly
 - uid: Oqtane.Modules.Controls.ActionDialog.Id
   name: Id
   href: api/Oqtane.Modules.Controls.ActionDialog.html#Oqtane_Modules_Controls_ActionDialog_Id
@@ -16618,19 +16631,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.ModuleMessage.Message
   nameWithType: ModuleMessage.Message
-- uid: Oqtane.Modules.Controls.ModuleMessage.OnInitialized
-  name: OnInitialized()
-  href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_OnInitialized
-  commentId: M:Oqtane.Modules.Controls.ModuleMessage.OnInitialized
-  fullName: Oqtane.Modules.Controls.ModuleMessage.OnInitialized()
-  nameWithType: ModuleMessage.OnInitialized()
-- uid: Oqtane.Modules.Controls.ModuleMessage.OnInitialized*
-  name: OnInitialized
-  href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_OnInitialized_
-  commentId: Overload:Oqtane.Modules.Controls.ModuleMessage.OnInitialized
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.ModuleMessage.OnInitialized
-  nameWithType: ModuleMessage.OnInitialized
 - uid: Oqtane.Modules.Controls.ModuleMessage.OnParametersSet
   name: OnParametersSet()
   href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_OnParametersSet
@@ -16644,22 +16644,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.ModuleMessage.OnParametersSet
   nameWithType: ModuleMessage.OnParametersSet
-- uid: Oqtane.Modules.Controls.ModuleMessage.RefreshMessage(System.String,Oqtane.Modules.MessageType)
-  name: RefreshMessage(string, MessageType)
-  href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_RefreshMessage_System_String_Oqtane_Modules_MessageType_
-  commentId: M:Oqtane.Modules.Controls.ModuleMessage.RefreshMessage(System.String,Oqtane.Modules.MessageType)
-  name.vb: RefreshMessage(String, MessageType)
-  fullName: Oqtane.Modules.Controls.ModuleMessage.RefreshMessage(string, Oqtane.Modules.MessageType)
-  fullName.vb: Oqtane.Modules.Controls.ModuleMessage.RefreshMessage(String, Oqtane.Modules.MessageType)
-  nameWithType: ModuleMessage.RefreshMessage(string, MessageType)
-  nameWithType.vb: ModuleMessage.RefreshMessage(String, MessageType)
-- uid: Oqtane.Modules.Controls.ModuleMessage.RefreshMessage*
-  name: RefreshMessage
-  href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_RefreshMessage_
-  commentId: Overload:Oqtane.Modules.Controls.ModuleMessage.RefreshMessage
+- uid: Oqtane.Modules.Controls.ModuleMessage.Parent
+  name: Parent
+  href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_Parent
+  commentId: P:Oqtane.Modules.Controls.ModuleMessage.Parent
+  fullName: Oqtane.Modules.Controls.ModuleMessage.Parent
+  nameWithType: ModuleMessage.Parent
+- uid: Oqtane.Modules.Controls.ModuleMessage.Parent*
+  name: Parent
+  href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_Parent_
+  commentId: Overload:Oqtane.Modules.Controls.ModuleMessage.Parent
   isSpec: "True"
-  fullName: Oqtane.Modules.Controls.ModuleMessage.RefreshMessage
-  nameWithType: ModuleMessage.RefreshMessage
+  fullName: Oqtane.Modules.Controls.ModuleMessage.Parent
+  nameWithType: ModuleMessage.Parent
 - uid: Oqtane.Modules.Controls.ModuleMessage.Type
   name: Type
   href: api/Oqtane.Modules.Controls.ModuleMessage.html#Oqtane_Modules_Controls_ModuleMessage_Type
@@ -17040,6 +17037,23 @@ references:
   fullName.vb: Oqtane.Modules.Controls.Pager(Of TableItem).Search
   nameWithType: Pager<TableItem>.Search
   nameWithType.vb: Pager(Of TableItem).Search
+- uid: Oqtane.Modules.Controls.Pager`1.SearchBoxClass
+  name: SearchBoxClass
+  href: api/Oqtane.Modules.Controls.Pager-1.html#Oqtane_Modules_Controls_Pager_1_SearchBoxClass
+  commentId: P:Oqtane.Modules.Controls.Pager`1.SearchBoxClass
+  fullName: Oqtane.Modules.Controls.Pager<TableItem>.SearchBoxClass
+  fullName.vb: Oqtane.Modules.Controls.Pager(Of TableItem).SearchBoxClass
+  nameWithType: Pager<TableItem>.SearchBoxClass
+  nameWithType.vb: Pager(Of TableItem).SearchBoxClass
+- uid: Oqtane.Modules.Controls.Pager`1.SearchBoxClass*
+  name: SearchBoxClass
+  href: api/Oqtane.Modules.Controls.Pager-1.html#Oqtane_Modules_Controls_Pager_1_SearchBoxClass_
+  commentId: Overload:Oqtane.Modules.Controls.Pager`1.SearchBoxClass
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.Pager<TableItem>.SearchBoxClass
+  fullName.vb: Oqtane.Modules.Controls.Pager(Of TableItem).SearchBoxClass
+  nameWithType: Pager<TableItem>.SearchBoxClass
+  nameWithType.vb: Pager(Of TableItem).SearchBoxClass
 - uid: Oqtane.Modules.Controls.Pager`1.SearchProperties
   name: SearchProperties
   href: api/Oqtane.Modules.Controls.Pager-1.html#Oqtane_Modules_Controls_Pager_1_SearchProperties
@@ -17395,51 +17409,297 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.QuillEditorInterop.LoadEditorContent
   nameWithType: QuillEditorInterop.LoadEditorContent
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor
+  name: QuillJSTextEditor
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html
+  commentId: T:Oqtane.Modules.Controls.QuillJSTextEditor
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor
+  nameWithType: QuillJSTextEditor
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.AllowFileManagement
+  name: AllowFileManagement
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_AllowFileManagement
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.AllowFileManagement
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.AllowFileManagement
+  nameWithType: QuillJSTextEditor.AllowFileManagement
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.AllowFileManagement*
+  name: AllowFileManagement
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_AllowFileManagement_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.AllowFileManagement
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.AllowFileManagement
+  nameWithType: QuillJSTextEditor.AllowFileManagement
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRawHtml
+  name: AllowRawHtml
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_AllowRawHtml
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.AllowRawHtml
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRawHtml
+  nameWithType: QuillJSTextEditor.AllowRawHtml
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRawHtml*
+  name: AllowRawHtml
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_AllowRawHtml_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.AllowRawHtml
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRawHtml
+  nameWithType: QuillJSTextEditor.AllowRawHtml
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRichText
+  name: AllowRichText
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_AllowRichText
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.AllowRichText
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRichText
+  nameWithType: QuillJSTextEditor.AllowRichText
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRichText*
+  name: AllowRichText
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_AllowRichText_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.AllowRichText
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.AllowRichText
+  nameWithType: QuillJSTextEditor.AllowRichText
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: QuillJSTextEditor.BuildRenderTree(RenderTreeBuilder)
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.BuildRenderTree*
+  name: BuildRenderTree
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_BuildRenderTree_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.BuildRenderTree
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.BuildRenderTree
+  nameWithType: QuillJSTextEditor.BuildRenderTree
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRawFileManager
+  name: CloseRawFileManager()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_CloseRawFileManager
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.CloseRawFileManager
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRawFileManager()
+  nameWithType: QuillJSTextEditor.CloseRawFileManager()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRawFileManager*
+  name: CloseRawFileManager
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_CloseRawFileManager_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.CloseRawFileManager
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRawFileManager
+  nameWithType: QuillJSTextEditor.CloseRawFileManager
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRichFileManager
+  name: CloseRichFileManager()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_CloseRichFileManager
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.CloseRichFileManager
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRichFileManager()
+  nameWithType: QuillJSTextEditor.CloseRichFileManager()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRichFileManager*
+  name: CloseRichFileManager
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_CloseRichFileManager_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.CloseRichFileManager
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.CloseRichFileManager
+  nameWithType: QuillJSTextEditor.CloseRichFileManager
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.DebugLevel
+  name: DebugLevel
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_DebugLevel
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.DebugLevel
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.DebugLevel
+  nameWithType: QuillJSTextEditor.DebugLevel
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.DebugLevel*
+  name: DebugLevel
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_DebugLevel_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.DebugLevel
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.DebugLevel
+  nameWithType: QuillJSTextEditor.DebugLevel
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.GetContent
+  name: GetContent()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_GetContent
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.GetContent
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.GetContent()
+  nameWithType: QuillJSTextEditor.GetContent()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.GetContent*
+  name: GetContent
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_GetContent_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.GetContent
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.GetContent
+  nameWithType: QuillJSTextEditor.GetContent
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.GetHtml
+  name: GetHtml()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_GetHtml
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.GetHtml
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.GetHtml()
+  nameWithType: QuillJSTextEditor.GetHtml()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.GetHtml*
+  name: GetHtml
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_GetHtml_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.GetHtml
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.GetHtml
+  nameWithType: QuillJSTextEditor.GetHtml
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Initialize(System.String)
+  name: Initialize(string)
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Initialize_System_String_
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.Initialize(System.String)
+  name.vb: Initialize(String)
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Initialize(string)
+  fullName.vb: Oqtane.Modules.Controls.QuillJSTextEditor.Initialize(String)
+  nameWithType: QuillJSTextEditor.Initialize(string)
+  nameWithType.vb: QuillJSTextEditor.Initialize(String)
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Initialize*
+  name: Initialize
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Initialize_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.Initialize
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Initialize
+  nameWithType: QuillJSTextEditor.Initialize
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRawImage
+  name: InsertRawImage()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_InsertRawImage
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.InsertRawImage
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRawImage()
+  nameWithType: QuillJSTextEditor.InsertRawImage()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRawImage*
+  name: InsertRawImage
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_InsertRawImage_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.InsertRawImage
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRawImage
+  nameWithType: QuillJSTextEditor.InsertRawImage
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRichImage
+  name: InsertRichImage()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_InsertRichImage
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.InsertRichImage
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRichImage()
+  nameWithType: QuillJSTextEditor.InsertRichImage()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRichImage*
+  name: InsertRichImage
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_InsertRichImage_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.InsertRichImage
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.InsertRichImage
+  nameWithType: QuillJSTextEditor.InsertRichImage
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Name
+  name: Name
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Name
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.Name
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Name
+  nameWithType: QuillJSTextEditor.Name
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Name*
+  name: Name
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Name_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.Name
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Name
+  nameWithType: QuillJSTextEditor.Name
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync(System.Boolean)
+  name: OnAfterRenderAsync(bool)
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_OnAfterRenderAsync_System_Boolean_
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync(System.Boolean)
+  name.vb: OnAfterRenderAsync(Boolean)
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync(bool)
+  fullName.vb: Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync(Boolean)
+  nameWithType: QuillJSTextEditor.OnAfterRenderAsync(bool)
+  nameWithType.vb: QuillJSTextEditor.OnAfterRenderAsync(Boolean)
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync*
+  name: OnAfterRenderAsync
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_OnAfterRenderAsync_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.OnAfterRenderAsync
+  nameWithType: QuillJSTextEditor.OnAfterRenderAsync
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.OnInitialized
+  name: OnInitialized()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_OnInitialized
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.OnInitialized
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.OnInitialized()
+  nameWithType: QuillJSTextEditor.OnInitialized()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.OnInitialized*
+  name: OnInitialized
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_OnInitialized_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.OnInitialized
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.OnInitialized
+  nameWithType: QuillJSTextEditor.OnInitialized
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.OnParametersSet
+  name: OnParametersSet()
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_OnParametersSet
+  commentId: M:Oqtane.Modules.Controls.QuillJSTextEditor.OnParametersSet
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.OnParametersSet()
+  nameWithType: QuillJSTextEditor.OnParametersSet()
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.OnParametersSet*
+  name: OnParametersSet
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_OnParametersSet_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.OnParametersSet
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.OnParametersSet
+  nameWithType: QuillJSTextEditor.OnParametersSet
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Placeholder
+  name: Placeholder
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Placeholder
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.Placeholder
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Placeholder
+  nameWithType: QuillJSTextEditor.Placeholder
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Placeholder*
+  name: Placeholder
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Placeholder_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.Placeholder
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Placeholder
+  nameWithType: QuillJSTextEditor.Placeholder
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.ReadOnly
+  name: ReadOnly
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_ReadOnly
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.ReadOnly
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.ReadOnly
+  nameWithType: QuillJSTextEditor.ReadOnly
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.ReadOnly*
+  name: ReadOnly
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_ReadOnly_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.ReadOnly
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.ReadOnly
+  nameWithType: QuillJSTextEditor.ReadOnly
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Resources
+  name: Resources
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Resources
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.Resources
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Resources
+  nameWithType: QuillJSTextEditor.Resources
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Resources*
+  name: Resources
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Resources_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.Resources
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Resources
+  nameWithType: QuillJSTextEditor.Resources
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Theme
+  name: Theme
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Theme
+  commentId: P:Oqtane.Modules.Controls.QuillJSTextEditor.Theme
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Theme
+  nameWithType: QuillJSTextEditor.Theme
+- uid: Oqtane.Modules.Controls.QuillJSTextEditor.Theme*
+  name: Theme
+  href: api/Oqtane.Modules.Controls.QuillJSTextEditor.html#Oqtane_Modules_Controls_QuillJSTextEditor_Theme_
+  commentId: Overload:Oqtane.Modules.Controls.QuillJSTextEditor.Theme
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.QuillJSTextEditor.Theme
+  nameWithType: QuillJSTextEditor.Theme
 - uid: Oqtane.Modules.Controls.RichTextEditor
   name: RichTextEditor
   href: api/Oqtane.Modules.Controls.RichTextEditor.html
   commentId: T:Oqtane.Modules.Controls.RichTextEditor
   fullName: Oqtane.Modules.Controls.RichTextEditor
   nameWithType: RichTextEditor
-- uid: Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement
-  name: AllowFileManagement
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AllowFileManagement
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement
-  fullName: Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement
-  nameWithType: RichTextEditor.AllowFileManagement
-- uid: Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement*
-  name: AllowFileManagement
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AllowFileManagement_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement
+- uid: Oqtane.Modules.Controls.RichTextEditor.AdditionalAttributes
+  name: AdditionalAttributes
+  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AdditionalAttributes
+  commentId: P:Oqtane.Modules.Controls.RichTextEditor.AdditionalAttributes
+  fullName: Oqtane.Modules.Controls.RichTextEditor.AdditionalAttributes
+  nameWithType: RichTextEditor.AdditionalAttributes
+- uid: Oqtane.Modules.Controls.RichTextEditor.AdditionalAttributes*
+  name: AdditionalAttributes
+  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AdditionalAttributes_
+  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.AdditionalAttributes
   isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.AllowFileManagement
-  nameWithType: RichTextEditor.AllowFileManagement
-- uid: Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml
-  name: AllowRawHtml
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AllowRawHtml
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml
-  fullName: Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml
-  nameWithType: RichTextEditor.AllowRawHtml
-- uid: Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml*
-  name: AllowRawHtml
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AllowRawHtml_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.AllowRawHtml
-  nameWithType: RichTextEditor.AllowRawHtml
-- uid: Oqtane.Modules.Controls.RichTextEditor.AllowRichText
-  name: AllowRichText
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AllowRichText
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.AllowRichText
-  fullName: Oqtane.Modules.Controls.RichTextEditor.AllowRichText
-  nameWithType: RichTextEditor.AllowRichText
-- uid: Oqtane.Modules.Controls.RichTextEditor.AllowRichText*
-  name: AllowRichText
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_AllowRichText_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.AllowRichText
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.AllowRichText
-  nameWithType: RichTextEditor.AllowRichText
+  fullName: Oqtane.Modules.Controls.RichTextEditor.AdditionalAttributes
+  nameWithType: RichTextEditor.AdditionalAttributes
 - uid: Oqtane.Modules.Controls.RichTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
   name: BuildRenderTree(RenderTreeBuilder)
   href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
@@ -17453,32 +17713,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditor.BuildRenderTree
   nameWithType: RichTextEditor.BuildRenderTree
-- uid: Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager
-  name: CloseRawFileManager()
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_CloseRawFileManager
-  commentId: M:Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager
-  fullName: Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager()
-  nameWithType: RichTextEditor.CloseRawFileManager()
-- uid: Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager*
-  name: CloseRawFileManager
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_CloseRawFileManager_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.CloseRawFileManager
-  nameWithType: RichTextEditor.CloseRawFileManager
-- uid: Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager
-  name: CloseRichFileManager()
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_CloseRichFileManager
-  commentId: M:Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager
-  fullName: Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager()
-  nameWithType: RichTextEditor.CloseRichFileManager()
-- uid: Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager*
-  name: CloseRichFileManager
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_CloseRichFileManager_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.CloseRichFileManager
-  nameWithType: RichTextEditor.CloseRichFileManager
 - uid: Oqtane.Modules.Controls.RichTextEditor.Content
   name: Content
   href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Content
@@ -17492,19 +17726,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditor.Content
   nameWithType: RichTextEditor.Content
-- uid: Oqtane.Modules.Controls.RichTextEditor.DebugLevel
-  name: DebugLevel
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_DebugLevel
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.DebugLevel
-  fullName: Oqtane.Modules.Controls.RichTextEditor.DebugLevel
-  nameWithType: RichTextEditor.DebugLevel
-- uid: Oqtane.Modules.Controls.RichTextEditor.DebugLevel*
-  name: DebugLevel
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_DebugLevel_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.DebugLevel
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.DebugLevel
-  nameWithType: RichTextEditor.DebugLevel
 - uid: Oqtane.Modules.Controls.RichTextEditor.GetHtml
   name: GetHtml()
   href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_GetHtml
@@ -17518,32 +17739,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditor.GetHtml
   nameWithType: RichTextEditor.GetHtml
-- uid: Oqtane.Modules.Controls.RichTextEditor.InsertRawImage
-  name: InsertRawImage()
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_InsertRawImage
-  commentId: M:Oqtane.Modules.Controls.RichTextEditor.InsertRawImage
-  fullName: Oqtane.Modules.Controls.RichTextEditor.InsertRawImage()
-  nameWithType: RichTextEditor.InsertRawImage()
-- uid: Oqtane.Modules.Controls.RichTextEditor.InsertRawImage*
-  name: InsertRawImage
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_InsertRawImage_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.InsertRawImage
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.InsertRawImage
-  nameWithType: RichTextEditor.InsertRawImage
-- uid: Oqtane.Modules.Controls.RichTextEditor.InsertRichImage
-  name: InsertRichImage()
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_InsertRichImage
-  commentId: M:Oqtane.Modules.Controls.RichTextEditor.InsertRichImage
-  fullName: Oqtane.Modules.Controls.RichTextEditor.InsertRichImage()
-  nameWithType: RichTextEditor.InsertRichImage()
-- uid: Oqtane.Modules.Controls.RichTextEditor.InsertRichImage*
-  name: InsertRichImage
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_InsertRichImage_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.InsertRichImage
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.InsertRichImage
-  nameWithType: RichTextEditor.InsertRichImage
 - uid: Oqtane.Modules.Controls.RichTextEditor.OnAfterRenderAsync(System.Boolean)
   name: OnAfterRenderAsync(bool)
   href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_OnAfterRenderAsync_System_Boolean_
@@ -17599,6 +17794,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditor.Placeholder
   nameWithType: RichTextEditor.Placeholder
+- uid: Oqtane.Modules.Controls.RichTextEditor.Provider
+  name: Provider
+  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Provider
+  commentId: P:Oqtane.Modules.Controls.RichTextEditor.Provider
+  fullName: Oqtane.Modules.Controls.RichTextEditor.Provider
+  nameWithType: RichTextEditor.Provider
+- uid: Oqtane.Modules.Controls.RichTextEditor.Provider*
+  name: Provider
+  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Provider_
+  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.Provider
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.RichTextEditor.Provider
+  nameWithType: RichTextEditor.Provider
 - uid: Oqtane.Modules.Controls.RichTextEditor.ReadOnly
   name: ReadOnly
   href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_ReadOnly
@@ -17612,45 +17820,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.RichTextEditor.ReadOnly
   nameWithType: RichTextEditor.ReadOnly
-- uid: Oqtane.Modules.Controls.RichTextEditor.Resources
-  name: Resources
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Resources
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.Resources
-  fullName: Oqtane.Modules.Controls.RichTextEditor.Resources
-  nameWithType: RichTextEditor.Resources
-- uid: Oqtane.Modules.Controls.RichTextEditor.Resources*
-  name: Resources
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Resources_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.Resources
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.Resources
-  nameWithType: RichTextEditor.Resources
-- uid: Oqtane.Modules.Controls.RichTextEditor.Theme
-  name: Theme
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Theme
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.Theme
-  fullName: Oqtane.Modules.Controls.RichTextEditor.Theme
-  nameWithType: RichTextEditor.Theme
-- uid: Oqtane.Modules.Controls.RichTextEditor.Theme*
-  name: Theme
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_Theme_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.Theme
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.Theme
-  nameWithType: RichTextEditor.Theme
-- uid: Oqtane.Modules.Controls.RichTextEditor.ToolbarContent
-  name: ToolbarContent
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_ToolbarContent
-  commentId: P:Oqtane.Modules.Controls.RichTextEditor.ToolbarContent
-  fullName: Oqtane.Modules.Controls.RichTextEditor.ToolbarContent
-  nameWithType: RichTextEditor.ToolbarContent
-- uid: Oqtane.Modules.Controls.RichTextEditor.ToolbarContent*
-  name: ToolbarContent
-  href: api/Oqtane.Modules.Controls.RichTextEditor.html#Oqtane_Modules_Controls_RichTextEditor_ToolbarContent_
-  commentId: Overload:Oqtane.Modules.Controls.RichTextEditor.ToolbarContent
-  isSpec: "True"
-  fullName: Oqtane.Modules.Controls.RichTextEditor.ToolbarContent
-  nameWithType: RichTextEditor.ToolbarContent
 - uid: Oqtane.Modules.Controls.RichTextEditorInterop
   name: RichTextEditorInterop
   href: api/Oqtane.Modules.Controls.RichTextEditorInterop.html
@@ -18083,6 +18252,106 @@ references:
   isSpec: "True"
   fullName: Oqtane.Modules.Controls.TabStrip.Refresh
   nameWithType: TabStrip.Refresh
+- uid: Oqtane.Modules.Controls.TabStrip.TabContentClass
+  name: TabContentClass
+  href: api/Oqtane.Modules.Controls.TabStrip.html#Oqtane_Modules_Controls_TabStrip_TabContentClass
+  commentId: P:Oqtane.Modules.Controls.TabStrip.TabContentClass
+  fullName: Oqtane.Modules.Controls.TabStrip.TabContentClass
+  nameWithType: TabStrip.TabContentClass
+- uid: Oqtane.Modules.Controls.TabStrip.TabContentClass*
+  name: TabContentClass
+  href: api/Oqtane.Modules.Controls.TabStrip.html#Oqtane_Modules_Controls_TabStrip_TabContentClass_
+  commentId: Overload:Oqtane.Modules.Controls.TabStrip.TabContentClass
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TabStrip.TabContentClass
+  nameWithType: TabStrip.TabContentClass
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor
+  name: TextAreaTextEditor
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html
+  commentId: T:Oqtane.Modules.Controls.TextAreaTextEditor
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor
+  nameWithType: TextAreaTextEditor
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Oqtane.Modules.Controls.TextAreaTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: TextAreaTextEditor.BuildRenderTree(RenderTreeBuilder)
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.BuildRenderTree*
+  name: BuildRenderTree
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_BuildRenderTree_
+  commentId: Overload:Oqtane.Modules.Controls.TextAreaTextEditor.BuildRenderTree
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.BuildRenderTree
+  nameWithType: TextAreaTextEditor.BuildRenderTree
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.GetContent
+  name: GetContent()
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_GetContent
+  commentId: M:Oqtane.Modules.Controls.TextAreaTextEditor.GetContent
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.GetContent()
+  nameWithType: TextAreaTextEditor.GetContent()
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.GetContent*
+  name: GetContent
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_GetContent_
+  commentId: Overload:Oqtane.Modules.Controls.TextAreaTextEditor.GetContent
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.GetContent
+  nameWithType: TextAreaTextEditor.GetContent
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.Initialize(System.String)
+  name: Initialize(string)
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_Initialize_System_String_
+  commentId: M:Oqtane.Modules.Controls.TextAreaTextEditor.Initialize(System.String)
+  name.vb: Initialize(String)
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.Initialize(string)
+  fullName.vb: Oqtane.Modules.Controls.TextAreaTextEditor.Initialize(String)
+  nameWithType: TextAreaTextEditor.Initialize(string)
+  nameWithType.vb: TextAreaTextEditor.Initialize(String)
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.Initialize*
+  name: Initialize
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_Initialize_
+  commentId: Overload:Oqtane.Modules.Controls.TextAreaTextEditor.Initialize
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.Initialize
+  nameWithType: TextAreaTextEditor.Initialize
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.Name
+  name: Name
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_Name
+  commentId: P:Oqtane.Modules.Controls.TextAreaTextEditor.Name
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.Name
+  nameWithType: TextAreaTextEditor.Name
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.Name*
+  name: Name
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_Name_
+  commentId: Overload:Oqtane.Modules.Controls.TextAreaTextEditor.Name
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.Name
+  nameWithType: TextAreaTextEditor.Name
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.Placeholder
+  name: Placeholder
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_Placeholder
+  commentId: P:Oqtane.Modules.Controls.TextAreaTextEditor.Placeholder
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.Placeholder
+  nameWithType: TextAreaTextEditor.Placeholder
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.Placeholder*
+  name: Placeholder
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_Placeholder_
+  commentId: Overload:Oqtane.Modules.Controls.TextAreaTextEditor.Placeholder
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.Placeholder
+  nameWithType: TextAreaTextEditor.Placeholder
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.ReadOnly
+  name: ReadOnly
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_ReadOnly
+  commentId: P:Oqtane.Modules.Controls.TextAreaTextEditor.ReadOnly
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.ReadOnly
+  nameWithType: TextAreaTextEditor.ReadOnly
+- uid: Oqtane.Modules.Controls.TextAreaTextEditor.ReadOnly*
+  name: ReadOnly
+  href: api/Oqtane.Modules.Controls.TextAreaTextEditor.html#Oqtane_Modules_Controls_TextAreaTextEditor_ReadOnly_
+  commentId: Overload:Oqtane.Modules.Controls.TextAreaTextEditor.ReadOnly
+  isSpec: "True"
+  fullName: Oqtane.Modules.Controls.TextAreaTextEditor.ReadOnly
+  nameWithType: TextAreaTextEditor.ReadOnly
 - uid: Oqtane.Modules.Controls.TriStateCheckBox
   name: TriStateCheckBox
   href: api/Oqtane.Modules.Controls.TriStateCheckBox.html
@@ -35238,6 +35507,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.ControlPanelInteractive.ButtonClass
   nameWithType: ControlPanelInteractive.ButtonClass
+- uid: Oqtane.Themes.Controls.ControlPanelInteractive.CanViewAdminDashboard
+  name: CanViewAdminDashboard
+  href: api/Oqtane.Themes.Controls.ControlPanelInteractive.html#Oqtane_Themes_Controls_ControlPanelInteractive_CanViewAdminDashboard
+  commentId: P:Oqtane.Themes.Controls.ControlPanelInteractive.CanViewAdminDashboard
+  fullName: Oqtane.Themes.Controls.ControlPanelInteractive.CanViewAdminDashboard
+  nameWithType: ControlPanelInteractive.CanViewAdminDashboard
+- uid: Oqtane.Themes.Controls.ControlPanelInteractive.CanViewAdminDashboard*
+  name: CanViewAdminDashboard
+  href: api/Oqtane.Themes.Controls.ControlPanelInteractive.html#Oqtane_Themes_Controls_ControlPanelInteractive_CanViewAdminDashboard_
+  commentId: Overload:Oqtane.Themes.Controls.ControlPanelInteractive.CanViewAdminDashboard
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.ControlPanelInteractive.CanViewAdminDashboard
+  nameWithType: ControlPanelInteractive.CanViewAdminDashboard
 - uid: Oqtane.Themes.Controls.ControlPanelInteractive.ContainerClass
   name: ContainerClass
   href: api/Oqtane.Themes.Controls.ControlPanelInteractive.html#Oqtane_Themes_Controls_ControlPanelInteractive_ContainerClass
@@ -35683,6 +35965,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.Logo.BuildRenderTree
   nameWithType: Logo.BuildRenderTree
+- uid: Oqtane.Themes.Controls.Logo.UseSiteNameAsFallback
+  name: UseSiteNameAsFallback
+  href: api/Oqtane.Themes.Controls.Logo.html#Oqtane_Themes_Controls_Logo_UseSiteNameAsFallback
+  commentId: P:Oqtane.Themes.Controls.Logo.UseSiteNameAsFallback
+  fullName: Oqtane.Themes.Controls.Logo.UseSiteNameAsFallback
+  nameWithType: Logo.UseSiteNameAsFallback
+- uid: Oqtane.Themes.Controls.Logo.UseSiteNameAsFallback*
+  name: UseSiteNameAsFallback
+  href: api/Oqtane.Themes.Controls.Logo.html#Oqtane_Themes_Controls_Logo_UseSiteNameAsFallback_
+  commentId: Overload:Oqtane.Themes.Controls.Logo.UseSiteNameAsFallback
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Logo.UseSiteNameAsFallback
+  nameWithType: Logo.UseSiteNameAsFallback
 - uid: Oqtane.Themes.Controls.Menu
   name: Menu
   href: api/Oqtane.Themes.Controls.Menu.html
@@ -35900,6 +36195,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.ModuleActions.BuildRenderTree
   nameWithType: ModuleActions.BuildRenderTree
+- uid: Oqtane.Themes.Controls.ModuleActions.OnParametersSet
+  name: OnParametersSet()
+  href: api/Oqtane.Themes.Controls.ModuleActions.html#Oqtane_Themes_Controls_ModuleActions_OnParametersSet
+  commentId: M:Oqtane.Themes.Controls.ModuleActions.OnParametersSet
+  fullName: Oqtane.Themes.Controls.ModuleActions.OnParametersSet()
+  nameWithType: ModuleActions.OnParametersSet()
+- uid: Oqtane.Themes.Controls.ModuleActions.OnParametersSet*
+  name: OnParametersSet
+  href: api/Oqtane.Themes.Controls.ModuleActions.html#Oqtane_Themes_Controls_ModuleActions_OnParametersSet_
+  commentId: Overload:Oqtane.Themes.Controls.ModuleActions.OnParametersSet
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.ModuleActions.OnParametersSet
+  nameWithType: ModuleActions.OnParametersSet
 - uid: Oqtane.Themes.Controls.ModuleActionsBase
   name: ModuleActionsBase
   href: api/Oqtane.Themes.Controls.ModuleActionsBase.html
@@ -36151,6 +36459,90 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.ModuleTitle.OnParametersSet
   nameWithType: ModuleTitle.OnParametersSet
+- uid: Oqtane.Themes.Controls.Search
+  name: Search
+  href: api/Oqtane.Themes.Controls.Search.html
+  commentId: T:Oqtane.Themes.Controls.Search
+  fullName: Oqtane.Themes.Controls.Search
+  nameWithType: Search
+- uid: Oqtane.Themes.Controls.Search.AllowTextInput
+  name: AllowTextInput
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_AllowTextInput
+  commentId: P:Oqtane.Themes.Controls.Search.AllowTextInput
+  fullName: Oqtane.Themes.Controls.Search.AllowTextInput
+  nameWithType: Search.AllowTextInput
+- uid: Oqtane.Themes.Controls.Search.AllowTextInput*
+  name: AllowTextInput
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_AllowTextInput_
+  commentId: Overload:Oqtane.Themes.Controls.Search.AllowTextInput
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Search.AllowTextInput
+  nameWithType: Search.AllowTextInput
+- uid: Oqtane.Themes.Controls.Search.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Oqtane.Themes.Controls.Search.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Oqtane.Themes.Controls.Search.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: Search.BuildRenderTree(RenderTreeBuilder)
+- uid: Oqtane.Themes.Controls.Search.BuildRenderTree*
+  name: BuildRenderTree
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_BuildRenderTree_
+  commentId: Overload:Oqtane.Themes.Controls.Search.BuildRenderTree
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Search.BuildRenderTree
+  nameWithType: Search.BuildRenderTree
+- uid: Oqtane.Themes.Controls.Search.CssClass
+  name: CssClass
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_CssClass
+  commentId: P:Oqtane.Themes.Controls.Search.CssClass
+  fullName: Oqtane.Themes.Controls.Search.CssClass
+  nameWithType: Search.CssClass
+- uid: Oqtane.Themes.Controls.Search.CssClass*
+  name: CssClass
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_CssClass_
+  commentId: Overload:Oqtane.Themes.Controls.Search.CssClass
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Search.CssClass
+  nameWithType: Search.CssClass
+- uid: Oqtane.Themes.Controls.Search.KeyWords
+  name: KeyWords
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_KeyWords
+  commentId: P:Oqtane.Themes.Controls.Search.KeyWords
+  fullName: Oqtane.Themes.Controls.Search.KeyWords
+  nameWithType: Search.KeyWords
+- uid: Oqtane.Themes.Controls.Search.KeyWords*
+  name: KeyWords
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_KeyWords_
+  commentId: Overload:Oqtane.Themes.Controls.Search.KeyWords
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Search.KeyWords
+  nameWithType: Search.KeyWords
+- uid: Oqtane.Themes.Controls.Search.OnInitialized
+  name: OnInitialized()
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_OnInitialized
+  commentId: M:Oqtane.Themes.Controls.Search.OnInitialized
+  fullName: Oqtane.Themes.Controls.Search.OnInitialized()
+  nameWithType: Search.OnInitialized()
+- uid: Oqtane.Themes.Controls.Search.OnInitialized*
+  name: OnInitialized
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_OnInitialized_
+  commentId: Overload:Oqtane.Themes.Controls.Search.OnInitialized
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Search.OnInitialized
+  nameWithType: Search.OnInitialized
+- uid: Oqtane.Themes.Controls.Search.SearchResultPagePath
+  name: SearchResultPagePath
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_SearchResultPagePath
+  commentId: P:Oqtane.Themes.Controls.Search.SearchResultPagePath
+  fullName: Oqtane.Themes.Controls.Search.SearchResultPagePath
+  nameWithType: Search.SearchResultPagePath
+- uid: Oqtane.Themes.Controls.Search.SearchResultPagePath*
+  name: SearchResultPagePath
+  href: api/Oqtane.Themes.Controls.Search.html#Oqtane_Themes_Controls_Search_SearchResultPagePath_
+  commentId: Overload:Oqtane.Themes.Controls.Search.SearchResultPagePath
+  isSpec: "True"
+  fullName: Oqtane.Themes.Controls.Search.SearchResultPagePath
+  nameWithType: Search.SearchResultPagePath
 - uid: Oqtane.Themes.Controls.UserProfile
   name: UserProfile
   href: api/Oqtane.Themes.Controls.UserProfile.html
@@ -37678,6 +38070,96 @@ references:
   commentId: T:Oqtane.UI.ModuleInstance
   fullName: Oqtane.UI.ModuleInstance
   nameWithType: ModuleInstance
+- uid: Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
+  name: AddModuleMessage(string, MessageType)
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_AddModuleMessage_System_String_Oqtane_Modules_MessageType_
+  commentId: M:Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
+  name.vb: AddModuleMessage(String, MessageType)
+  fullName: Oqtane.UI.ModuleInstance.AddModuleMessage(string, Oqtane.Modules.MessageType)
+  fullName.vb: Oqtane.UI.ModuleInstance.AddModuleMessage(String, Oqtane.Modules.MessageType)
+  nameWithType: ModuleInstance.AddModuleMessage(string, MessageType)
+  nameWithType.vb: ModuleInstance.AddModuleMessage(String, MessageType)
+- uid: Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
+  name: AddModuleMessage(string, MessageType, string)
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_
+  commentId: M:Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
+  name.vb: AddModuleMessage(String, MessageType, String)
+  fullName: Oqtane.UI.ModuleInstance.AddModuleMessage(string, Oqtane.Modules.MessageType, string)
+  fullName.vb: Oqtane.UI.ModuleInstance.AddModuleMessage(String, Oqtane.Modules.MessageType, String)
+  nameWithType: ModuleInstance.AddModuleMessage(string, MessageType, string)
+  nameWithType.vb: ModuleInstance.AddModuleMessage(String, MessageType, String)
+- uid: Oqtane.UI.ModuleInstance.AddModuleMessage*
+  name: AddModuleMessage
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_AddModuleMessage_
+  commentId: Overload:Oqtane.UI.ModuleInstance.AddModuleMessage
+  isSpec: "True"
+  fullName: Oqtane.UI.ModuleInstance.AddModuleMessage
+  nameWithType: ModuleInstance.AddModuleMessage
+- uid: Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: ModuleInstance.BuildRenderTree(RenderTreeBuilder)
+- uid: Oqtane.UI.ModuleInstance.BuildRenderTree*
+  name: BuildRenderTree
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_BuildRenderTree_
+  commentId: Overload:Oqtane.UI.ModuleInstance.BuildRenderTree
+  isSpec: "True"
+  fullName: Oqtane.UI.ModuleInstance.BuildRenderTree
+  nameWithType: ModuleInstance.BuildRenderTree
+- uid: Oqtane.UI.ModuleInstance.HideProgressIndicator
+  name: HideProgressIndicator()
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_HideProgressIndicator
+  commentId: M:Oqtane.UI.ModuleInstance.HideProgressIndicator
+  fullName: Oqtane.UI.ModuleInstance.HideProgressIndicator()
+  nameWithType: ModuleInstance.HideProgressIndicator()
+- uid: Oqtane.UI.ModuleInstance.HideProgressIndicator*
+  name: HideProgressIndicator
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_HideProgressIndicator_
+  commentId: Overload:Oqtane.UI.ModuleInstance.HideProgressIndicator
+  isSpec: "True"
+  fullName: Oqtane.UI.ModuleInstance.HideProgressIndicator
+  nameWithType: ModuleInstance.HideProgressIndicator
+- uid: Oqtane.UI.ModuleInstance.OnParametersSet
+  name: OnParametersSet()
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_OnParametersSet
+  commentId: M:Oqtane.UI.ModuleInstance.OnParametersSet
+  fullName: Oqtane.UI.ModuleInstance.OnParametersSet()
+  nameWithType: ModuleInstance.OnParametersSet()
+- uid: Oqtane.UI.ModuleInstance.OnParametersSet*
+  name: OnParametersSet
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_OnParametersSet_
+  commentId: Overload:Oqtane.UI.ModuleInstance.OnParametersSet
+  isSpec: "True"
+  fullName: Oqtane.UI.ModuleInstance.OnParametersSet
+  nameWithType: ModuleInstance.OnParametersSet
+- uid: Oqtane.UI.ModuleInstance.PageState
+  name: PageState
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_PageState
+  commentId: P:Oqtane.UI.ModuleInstance.PageState
+  fullName: Oqtane.UI.ModuleInstance.PageState
+  nameWithType: ModuleInstance.PageState
+- uid: Oqtane.UI.ModuleInstance.PageState*
+  name: PageState
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_PageState_
+  commentId: Overload:Oqtane.UI.ModuleInstance.PageState
+  isSpec: "True"
+  fullName: Oqtane.UI.ModuleInstance.PageState
+  nameWithType: ModuleInstance.PageState
+- uid: Oqtane.UI.ModuleInstance.ShowProgressIndicator
+  name: ShowProgressIndicator()
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_ShowProgressIndicator
+  commentId: M:Oqtane.UI.ModuleInstance.ShowProgressIndicator
+  fullName: Oqtane.UI.ModuleInstance.ShowProgressIndicator()
+  nameWithType: ModuleInstance.ShowProgressIndicator()
+- uid: Oqtane.UI.ModuleInstance.ShowProgressIndicator*
+  name: ShowProgressIndicator
+  href: api/Oqtane.UI.ModuleInstance.html#Oqtane_UI_ModuleInstance_ShowProgressIndicator_
+  commentId: Overload:Oqtane.UI.ModuleInstance.ShowProgressIndicator
+  isSpec: "True"
+  fullName: Oqtane.UI.ModuleInstance.ShowProgressIndicator
+  nameWithType: ModuleInstance.ShowProgressIndicator
 - uid: Oqtane.UI.PageState
   name: PageState
   href: api/Oqtane.UI.PageState.html
@@ -38066,6 +38548,174 @@ references:
   commentId: T:Oqtane.UI.RenderModeBoundary
   fullName: Oqtane.UI.RenderModeBoundary
   nameWithType: RenderModeBoundary
+- uid: Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
+  name: AddModuleMessage(string, MessageType)
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_AddModuleMessage_System_String_Oqtane_Modules_MessageType_
+  commentId: M:Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType)
+  name.vb: AddModuleMessage(String, MessageType)
+  fullName: Oqtane.UI.RenderModeBoundary.AddModuleMessage(string, Oqtane.Modules.MessageType)
+  fullName.vb: Oqtane.UI.RenderModeBoundary.AddModuleMessage(String, Oqtane.Modules.MessageType)
+  nameWithType: RenderModeBoundary.AddModuleMessage(string, MessageType)
+  nameWithType.vb: RenderModeBoundary.AddModuleMessage(String, MessageType)
+- uid: Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
+  name: AddModuleMessage(string, MessageType, string)
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_
+  commentId: M:Oqtane.UI.RenderModeBoundary.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)
+  name.vb: AddModuleMessage(String, MessageType, String)
+  fullName: Oqtane.UI.RenderModeBoundary.AddModuleMessage(string, Oqtane.Modules.MessageType, string)
+  fullName.vb: Oqtane.UI.RenderModeBoundary.AddModuleMessage(String, Oqtane.Modules.MessageType, String)
+  nameWithType: RenderModeBoundary.AddModuleMessage(string, MessageType, string)
+  nameWithType.vb: RenderModeBoundary.AddModuleMessage(String, MessageType, String)
+- uid: Oqtane.UI.RenderModeBoundary.AddModuleMessage*
+  name: AddModuleMessage
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_AddModuleMessage_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.AddModuleMessage
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.AddModuleMessage
+  nameWithType: RenderModeBoundary.AddModuleMessage
+- uid: Oqtane.UI.RenderModeBoundary.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  name: BuildRenderTree(RenderTreeBuilder)
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_
+  commentId: M:Oqtane.UI.RenderModeBoundary.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  fullName: Oqtane.UI.RenderModeBoundary.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)
+  nameWithType: RenderModeBoundary.BuildRenderTree(RenderTreeBuilder)
+- uid: Oqtane.UI.RenderModeBoundary.BuildRenderTree*
+  name: BuildRenderTree
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_BuildRenderTree_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.BuildRenderTree
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.BuildRenderTree
+  nameWithType: RenderModeBoundary.BuildRenderTree
+- uid: Oqtane.UI.RenderModeBoundary.DismissMessage
+  name: DismissMessage()
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_DismissMessage
+  commentId: M:Oqtane.UI.RenderModeBoundary.DismissMessage
+  fullName: Oqtane.UI.RenderModeBoundary.DismissMessage()
+  nameWithType: RenderModeBoundary.DismissMessage()
+- uid: Oqtane.UI.RenderModeBoundary.DismissMessage*
+  name: DismissMessage
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_DismissMessage_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.DismissMessage
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.DismissMessage
+  nameWithType: RenderModeBoundary.DismissMessage
+- uid: Oqtane.UI.RenderModeBoundary.HideProgressIndicator
+  name: HideProgressIndicator()
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_HideProgressIndicator
+  commentId: M:Oqtane.UI.RenderModeBoundary.HideProgressIndicator
+  fullName: Oqtane.UI.RenderModeBoundary.HideProgressIndicator()
+  nameWithType: RenderModeBoundary.HideProgressIndicator()
+- uid: Oqtane.UI.RenderModeBoundary.HideProgressIndicator*
+  name: HideProgressIndicator
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_HideProgressIndicator_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.HideProgressIndicator
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.HideProgressIndicator
+  nameWithType: RenderModeBoundary.HideProgressIndicator
+- uid: Oqtane.UI.RenderModeBoundary.ModuleState
+  name: ModuleState
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ModuleState
+  commentId: P:Oqtane.UI.RenderModeBoundary.ModuleState
+  fullName: Oqtane.UI.RenderModeBoundary.ModuleState
+  nameWithType: RenderModeBoundary.ModuleState
+- uid: Oqtane.UI.RenderModeBoundary.ModuleState*
+  name: ModuleState
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ModuleState_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.ModuleState
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.ModuleState
+  nameWithType: RenderModeBoundary.ModuleState
+- uid: Oqtane.UI.RenderModeBoundary.OnErrorAsync(System.Exception)
+  name: OnErrorAsync(Exception)
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnErrorAsync_System_Exception_
+  commentId: M:Oqtane.UI.RenderModeBoundary.OnErrorAsync(System.Exception)
+  fullName: Oqtane.UI.RenderModeBoundary.OnErrorAsync(System.Exception)
+  nameWithType: RenderModeBoundary.OnErrorAsync(Exception)
+- uid: Oqtane.UI.RenderModeBoundary.OnErrorAsync*
+  name: OnErrorAsync
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnErrorAsync_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.OnErrorAsync
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.OnErrorAsync
+  nameWithType: RenderModeBoundary.OnErrorAsync
+- uid: Oqtane.UI.RenderModeBoundary.OnParametersSet
+  name: OnParametersSet()
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnParametersSet
+  commentId: M:Oqtane.UI.RenderModeBoundary.OnParametersSet
+  fullName: Oqtane.UI.RenderModeBoundary.OnParametersSet()
+  nameWithType: RenderModeBoundary.OnParametersSet()
+- uid: Oqtane.UI.RenderModeBoundary.OnParametersSet*
+  name: OnParametersSet
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_OnParametersSet_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.OnParametersSet
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.OnParametersSet
+  nameWithType: RenderModeBoundary.OnParametersSet
+- uid: Oqtane.UI.RenderModeBoundary.PageState
+  name: PageState
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_PageState
+  commentId: P:Oqtane.UI.RenderModeBoundary.PageState
+  fullName: Oqtane.UI.RenderModeBoundary.PageState
+  nameWithType: RenderModeBoundary.PageState
+- uid: Oqtane.UI.RenderModeBoundary.PageState*
+  name: PageState
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_PageState_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.PageState
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.PageState
+  nameWithType: RenderModeBoundary.PageState
+- uid: Oqtane.UI.RenderModeBoundary.Recover
+  name: Recover()
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_Recover
+  commentId: M:Oqtane.UI.RenderModeBoundary.Recover
+  fullName: Oqtane.UI.RenderModeBoundary.Recover()
+  nameWithType: RenderModeBoundary.Recover()
+- uid: Oqtane.UI.RenderModeBoundary.Recover*
+  name: Recover
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_Recover_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.Recover
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.Recover
+  nameWithType: RenderModeBoundary.Recover
+- uid: Oqtane.UI.RenderModeBoundary.ShouldRender
+  name: ShouldRender()
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShouldRender
+  commentId: M:Oqtane.UI.RenderModeBoundary.ShouldRender
+  fullName: Oqtane.UI.RenderModeBoundary.ShouldRender()
+  nameWithType: RenderModeBoundary.ShouldRender()
+- uid: Oqtane.UI.RenderModeBoundary.ShouldRender*
+  name: ShouldRender
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShouldRender_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.ShouldRender
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.ShouldRender
+  nameWithType: RenderModeBoundary.ShouldRender
+- uid: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
+  name: ShowProgressIndicator()
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShowProgressIndicator
+  commentId: M:Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
+  fullName: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator()
+  nameWithType: RenderModeBoundary.ShowProgressIndicator()
+- uid: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator*
+  name: ShowProgressIndicator
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_ShowProgressIndicator_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.ShowProgressIndicator
+  nameWithType: RenderModeBoundary.ShowProgressIndicator
+- uid: Oqtane.UI.RenderModeBoundary.SiteState
+  name: SiteState
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_SiteState
+  commentId: P:Oqtane.UI.RenderModeBoundary.SiteState
+  fullName: Oqtane.UI.RenderModeBoundary.SiteState
+  nameWithType: RenderModeBoundary.SiteState
+- uid: Oqtane.UI.RenderModeBoundary.SiteState*
+  name: SiteState
+  href: api/Oqtane.UI.RenderModeBoundary.html#Oqtane_UI_RenderModeBoundary_SiteState_
+  commentId: Overload:Oqtane.UI.RenderModeBoundary.SiteState
+  isSpec: "True"
+  fullName: Oqtane.UI.RenderModeBoundary.SiteState
+  nameWithType: RenderModeBoundary.SiteState
 - uid: Oqtane.UI.Routes
   name: Routes
   href: api/Oqtane.UI.Routes.html

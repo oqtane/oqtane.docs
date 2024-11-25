@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AutoValidateAntiforgeryTokenAttribute
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class AutoValidateAntiforgeryTokenAttribute | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AutoValidateAntiforgeryTokenAttribute
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class AutoValidateAntiforgeryTokenAttribute | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
       
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_Security_AutoValidateAntiforgeryTokenAttribute" data-uid="Oqtane.Security.AutoValidateAntiforgeryTokenAttribute" class="text-break">
-    Class AutoValidateAntiforgeryTokenAttribute
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Security/AutoValidateAntiforgeryTokenAttribute.cs/#L7"><i class="bi bi-code-slash"></i></a>
+Class AutoValidateAntiforgeryTokenAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Security/AutoValidateAntiforgeryTokenAttribute.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -113,8 +111,8 @@ public class AutoValidateAntiforgeryTokenAttribute : Attribute</code></pre>
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">Attribute</span></div>
       <div><span class="xref">AutoValidateAntiforgeryTokenAttribute</span></div>
     </dd>
   </dl>
@@ -138,7 +136,7 @@ public class AutoValidateAntiforgeryTokenAttribute : Attribute</code></pre>
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Security/AutoValidateAntiforgeryTokenAttribute.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets a value that indicates if the result of <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.ifilterfactory.createinstance">CreateInstance(IServiceProvider)</a>
+  <div class="markdown level1 summary"><p>Gets a value that indicates if the result of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IFilterFactory.CreateInstance(System.IServiceProvider)</span>
 can be reused across requests.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -153,7 +151,7 @@ can be reused across requests.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -172,7 +170,7 @@ can be reused across requests.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the order value for determining the order of execution of filters. Filters execute in
-ascending numeric value of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a> property.</p>
+ascending numeric value of the <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -186,7 +184,7 @@ ascending numeric value of the <a class="xref" href="https://learn.microsoft.com
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -195,27 +193,27 @@ ascending numeric value of the <a class="xref" href="https://learn.microsoft.com
 
   <h4 class="section" id="Oqtane_Security_AutoValidateAntiforgeryTokenAttribute_Order_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>
-            Filters are executed in an ordering determined by an ascending sort of the <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a> property.
-            </p>
+        Filters are executed in an ordering determined by an ascending sort of the <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> property.
+        </p>
 <p>
-            Asynchronous filters, such as <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iasyncactionfilter">IAsyncActionFilter</a>, surround the execution of subsequent
-            filters of the same filter kind. An asynchronous filter with a lower numeric <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a>
-            value will have its filter method, such as <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iasyncactionfilter.onactionexecutionasync">OnActionExecutionAsync(ActionExecutingContext, ActionExecutionDelegate)</a>,
-            executed before that of a filter with a higher value of <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a>.
-            </p>
+        Asynchronous filters, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter</span>, surround the execution of subsequent
+        filters of the same filter kind. An asynchronous filter with a lower numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>
+        value will have its filter method, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)</span>,
+        executed before that of a filter with a higher value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>.
+        </p>
 <p>
-            Synchronous filters, such as <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iactionfilter">IActionFilter</a>, have a before-method, such as
-            <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iactionfilter.onactionexecuting">OnActionExecuting(ActionExecutingContext)</a>, and an after-method, such as
-            <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iactionfilter.onactionexecuted">OnActionExecuted(ActionExecutedContext)</a>. A synchronous filter with a lower numeric <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a>
-            value will have its before-method executed before that of a filter with a higher value of
-            <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a>. During the after-stage of the filter, a synchronous filter with a lower
-            numeric <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a> value will have its after-method executed after that of a filter with a higher
-            value of <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a>.
-            </p>
+        Synchronous filters, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter</span>, have a before-method, such as
+        <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)</span>, and an after-method, such as
+        <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)</span>. A synchronous filter with a lower numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>
+        value will have its before-method executed before that of a filter with a higher value of
+        <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>. During the after-stage of the filter, a synchronous filter with a lower
+        numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> value will have its after-method executed after that of a filter with a higher
+        value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>.
+        </p>
 <p>
-            If two filters have the same numeric value of <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.iorderedfilter.order">Order</a>, then their relative execution order
-            is determined by the filter scope.
-            </p>
+        If two filters have the same numeric value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>, then their relative execution order
+        is determined by the filter scope.
+        </p>
 </div>
 
 
@@ -242,14 +240,14 @@ ascending numeric value of the <a class="xref" href="https://learn.microsoft.com
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>serviceProvider</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
-    <dd><p>The request <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>.</p>
+    <dt><code>serviceProvider</code> <span class="xref">IServiceProvider</span></dt>
+    <dd><p>The request <span class="xref">System.IServiceProvider</span>.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.filters.ifiltermetadata">IFilterMetadata</a></dt>
+    <dt><span class="xref">IFilterMetadata</span></dt>
     <dd><p>An instance of the executable filter.</p>
 </dd>
   </dl>

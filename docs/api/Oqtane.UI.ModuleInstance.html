@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ModuleInstance
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class ModuleInstance | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ModuleInstance
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class ModuleInstance | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
       
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -17,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_UI_ModuleInstance.md&amp;value=---%0Auid%3A%20Oqtane.UI.ModuleInstance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_UI_ModuleInstance" data-uid="Oqtane.UI.ModuleInstance" class="text-break">
-    Class ModuleInstance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/UI/ModuleInstance.placeholder.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class ModuleInstance  
   </h1>
 
   <div class="facts text-secondary">
@@ -103,7 +101,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ModuleInstance</code></pre>
+    <pre><code class="lang-csharp hljs">public class ModuleInstance : ComponentBase</code></pre>
   </div>
 
 
@@ -112,10 +110,235 @@
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
+      <div><span class="xref">ComponentBase</span></div>
       <div><span class="xref">ModuleInstance</span></div>
     </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Oqtane_UI_ModuleInstance_PageState_" data-uid="Oqtane.UI.ModuleInstance.PageState*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_PageState" data-uid="Oqtane.UI.ModuleInstance.PageState">
+  PageState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CascadingParameter]
+protected PageState PageState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.UI.PageState.html">PageState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Oqtane_UI_ModuleInstance_AddModuleMessage_" data-uid="Oqtane.UI.ModuleInstance.AddModuleMessage*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_AddModuleMessage_System_String_Oqtane_Modules_MessageType_" data-uid="Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType)">
+  AddModuleMessage(string, MessageType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AddModuleMessage is deprecated. Use AddModuleMessage in ModuleBase instead.&quot;, false)]
+public void AddModuleMessage(string message, MessageType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="Oqtane.Modules.MessageType.html">MessageType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_UI_ModuleInstance_AddModuleMessage_" data-uid="Oqtane.UI.ModuleInstance.AddModuleMessage*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_AddModuleMessage_System_String_Oqtane_Modules_MessageType_System_String_" data-uid="Oqtane.UI.ModuleInstance.AddModuleMessage(System.String,Oqtane.Modules.MessageType,System.String)">
+  AddModuleMessage(string, MessageType, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AddModuleMessage is deprecated. Use ModuleBase.AddModuleMessage instead.&quot;, false)]
+public void AddModuleMessage(string message, MessageType type, string position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="Oqtane.Modules.MessageType.html">MessageType</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_UI_ModuleInstance_BuildRenderTree_" data-uid="Oqtane.UI.ModuleInstance.BuildRenderTree*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_BuildRenderTree_Microsoft_AspNetCore_Components_Rendering_RenderTreeBuilder_" data-uid="Oqtane.UI.ModuleInstance.BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)">
+  BuildRenderTree(RenderTreeBuilder)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Renders the component to the supplied <span class="xref">Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void BuildRenderTree(RenderTreeBuilder __builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>__builder</code> <span class="xref">RenderTreeBuilder</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_UI_ModuleInstance_HideProgressIndicator_" data-uid="Oqtane.UI.ModuleInstance.HideProgressIndicator*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_HideProgressIndicator" data-uid="Oqtane.UI.ModuleInstance.HideProgressIndicator">
+  HideProgressIndicator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;HideProgressIndicator is deprecated. Use HideProgressIndicator in ModuleBase instead.&quot;, false)]
+public void HideProgressIndicator()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_UI_ModuleInstance_OnParametersSet_" data-uid="Oqtane.UI.ModuleInstance.OnParametersSet*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_OnParametersSet" data-uid="Oqtane.UI.ModuleInstance.OnParametersSet">
+  OnParametersSet()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method invoked when the component has received parameters from its parent in
+the render tree, and the incoming values have been assigned to properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnParametersSet()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_UI_ModuleInstance_ShowProgressIndicator_" data-uid="Oqtane.UI.ModuleInstance.ShowProgressIndicator*"></a>
+
+  <h3 id="Oqtane_UI_ModuleInstance_ShowProgressIndicator" data-uid="Oqtane.UI.ModuleInstance.ShowProgressIndicator">
+  ShowProgressIndicator()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;ShowProgressIndicator is deprecated. Use ShowProgressIndicator in ModuleBase instead.&quot;, false)]
+public void ShowProgressIndicator()</code></pre>
+  </div>
+
+
+
+
 
 
 
@@ -129,7 +352,6 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/UI/ModuleInstance.placeholder.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

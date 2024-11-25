@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Interop
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class Interop | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Interop
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class Interop | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
       
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_UI_Interop" data-uid="Oqtane.UI.Interop" class="text-break">
-    Class Interop
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/UI/Interop.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class Interop  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/UI/Interop.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +110,7 @@
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">Interop</span></div>
     </dd>
   </dl>
@@ -145,7 +143,7 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>jsRuntime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.jsinterop.ijsruntime">IJSRuntime</a></dt>
+    <dt><code>jsRuntime</code> <span class="xref">IJSRuntime</span></dt>
     <dd></dd>
   </dl>
 
@@ -180,13 +178,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>form</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.components.elementreference">ElementReference</a></dt>
+    <dt><code>form</code> <span class="xref">ElementReference</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dt><span class="xref">ValueTask</span>&lt;<span class="xref">bool</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -216,13 +214,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dt><span class="xref">ValueTask</span>&lt;<span class="xref">int</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -252,13 +250,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>name</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">ValueTask</span>&lt;<span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -288,13 +286,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>name</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">ValueTask</span>&lt;<span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -324,13 +322,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]&gt;</dt>
+    <dt><span class="xref">ValueTask</span>&lt;<span class="xref">string</span>[]&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -360,13 +358,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>key</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -402,7 +400,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -432,13 +430,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>contains</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>contains</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -468,25 +466,25 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>rel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>rel</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>href</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>href</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>type</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>integrity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>integrity</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>crossorigin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>crossorigin</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>includebefore</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>includebefore</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -516,13 +514,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>links</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dt><code>links</code> <span class="xref">object</span>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -552,19 +550,19 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>attribute</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>attribute</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>name</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>content</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -594,23 +592,23 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>src</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>src</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>integrity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>integrity</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>crossorigin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>crossorigin</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>content</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>location</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -640,25 +638,25 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>src</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>src</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>integrity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>integrity</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>crossorigin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>crossorigin</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>type</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>content</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>location</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>location</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -688,13 +686,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>scripts</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dt><code>scripts</code> <span class="xref">object</span>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -724,15 +722,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>url</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>wait</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>wait</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -762,15 +760,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>force</code> <span class="xref">bool</span></dt>
     <dd></dd>
-    <dt><code>wait</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>wait</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -800,17 +798,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>prefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>prefix</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>first</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>first</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>last</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>last</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -840,13 +838,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>key</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -876,17 +874,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>top</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>top</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>left</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>left</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>behavior</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>behavior</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -916,13 +914,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -952,17 +950,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>name</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>value</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>days</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>days</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -992,21 +990,21 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>name</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>value</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>days</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>days</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>secure</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>secure</code> <span class="xref">bool</span></dt>
     <dd></dd>
-    <dt><code>sameSite</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>sameSite</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1036,17 +1034,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>attribute</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>attribute</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>value</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1076,15 +1074,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>key</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><code>value</code> <span class="xref">object</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1114,15 +1112,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>path</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>fields</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><code>fields</code> <span class="xref">object</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1152,13 +1150,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>title</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1188,21 +1186,21 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>posturl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>posturl</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>folder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>folder</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>id</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>antiforgerytoken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>antiforgerytoken</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>jwt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>jwt</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 

@@ -2022,6 +2022,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Modules.Controls.QuillJSTextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.QuillJSTextEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Modules.Controls.RichTextEditor.yml",
       "output": {
         ".html": {
@@ -2066,6 +2076,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Modules.Controls.TabStrip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Modules.Controls.TextAreaTextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.TextAreaTextEditor.html"
         }
       },
       "version": ""
@@ -4056,6 +4076,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Themes.Controls.ModuleTitle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Themes.Controls.Search.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Themes.Controls.Search.html"
         }
       },
       "version": ""

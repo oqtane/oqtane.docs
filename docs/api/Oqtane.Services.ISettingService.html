@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface ISettingService
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Interface ISettingService | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ISettingService
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Interface ISettingService | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
+      <meta name="description" content="Service to manage s">
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_Services_ISettingService" data-uid="Oqtane.Services.ISettingService" class="text-break">
-    Interface ISettingService
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/ISettingService.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Interface ISettingService  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/ISettingService.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -140,21 +138,21 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>settingName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>settingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingValue</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>isPrivate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>isPrivate</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -191,7 +189,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -223,7 +221,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -254,13 +252,13 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settingId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>settingId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -291,15 +289,15 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>settingId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>settingId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -330,17 +328,17 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>settingName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingName</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -371,13 +369,13 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>folderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>folderId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -409,7 +407,7 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -440,13 +438,13 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleDefinitionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleDefinitionId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -477,13 +475,13 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -514,13 +512,13 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pageModuleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>pageModuleId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -551,13 +549,13 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>pageId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -588,17 +586,17 @@ Task DeleteSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>settings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>settingName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>defaultValue</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -629,13 +627,13 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settingId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>settingId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -666,15 +664,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>settingId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>settingId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -705,15 +703,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -744,17 +742,17 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>settingName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingName</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -785,13 +783,13 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -823,7 +821,7 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -854,13 +852,13 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>userId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -891,13 +889,13 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>visitorId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>visitorId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -927,15 +925,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>settings1</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>settings2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>settings2</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -966,17 +964,17 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>settings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>settingName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>settingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingValue</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -1006,19 +1004,19 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>settings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>settingName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>settingValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>settingValue</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>isPrivate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>isPrivate</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -1049,15 +1047,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>folderSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>folderSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>folderId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>folderId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1088,13 +1086,13 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>hostSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>hostSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1125,15 +1123,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleDefinitionSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>moduleDefinitionSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>moduleDefinitionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleDefinitionId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1164,15 +1162,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>moduleSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>moduleSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>moduleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1203,15 +1201,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pageModuleSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>pageModuleSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>pageModuleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>pageModuleId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1242,15 +1240,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>pageSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>pageSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>pageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>pageId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1287,7 +1285,7 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.Setting.html">Setting</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -1318,17 +1316,17 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>settings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>settings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1359,15 +1357,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>siteSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1398,13 +1396,13 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>tenantSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>tenantSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1435,15 +1433,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>userSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>userSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>userId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -1474,15 +1472,15 @@ Task&lt;Setting&gt; GetSettingAsync(int settingId)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>visitorSettings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><code>visitorSettings</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
     <dd></dd>
-    <dt><code>visitorId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>visitorId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 

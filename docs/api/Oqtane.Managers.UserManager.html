@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class UserManager
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class UserManager | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class UserManager
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class UserManager | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
       
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_Managers_UserManager" data-uid="Oqtane.Managers.UserManager" class="text-break">
-    Class UserManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class UserManager  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +110,7 @@
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">UserManager</span></div>
     </dd>
   </dl>
@@ -157,9 +155,9 @@
     <dd></dd>
     <dt><code>userRoles</code> <a class="xref" href="Oqtane.Repository.IUserRoleRepository.html">IUserRoleRepository</a></dt>
     <dd></dd>
-    <dt><code>identityUserManager</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.usermanager-1">UserManager</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityuser">IdentityUser</a>&gt;</dt>
+    <dt><code>identityUserManager</code> <span class="xref">UserManager</span>&lt;<span class="xref">IdentityUser</span>&gt;</dt>
     <dd></dd>
-    <dt><code>identitySignInManager</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.signinmanager-1">SignInManager</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.identity.identityuser">IdentityUser</a>&gt;</dt>
+    <dt><code>identitySignInManager</code> <span class="xref">SignInManager</span>&lt;<span class="xref">IdentityUser</span>&gt;</dt>
     <dd></dd>
     <dt><code>tenantManager</code> <a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></dt>
     <dd></dd>
@@ -177,9 +175,9 @@
     <dd></dd>
     <dt><code>logger</code> <a class="xref" href="Oqtane.Infrastructure.ILogManager.html">ILogManager</a></dt>
     <dd></dd>
-    <dt><code>cache</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.caching.memory.imemorycache">IMemoryCache</a></dt>
+    <dt><code>cache</code> <span class="xref">IMemoryCache</span></dt>
     <dd></dd>
-    <dt><code>localizer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.localization.istringlocalizer-1">IStringLocalizer</a>&lt;<a class="xref" href="Oqtane.Managers.UserManager.html">UserManager</a>&gt;</dt>
+    <dt><code>localizer</code> <span class="xref">IStringLocalizer</span>&lt;<a class="xref" href="Oqtane.Managers.UserManager.html">UserManager</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -220,7 +218,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -250,15 +248,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>userid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>userid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>siteid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -294,7 +292,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -324,9 +322,9 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>userid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>userid</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>siteid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -362,9 +360,9 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>username</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>siteid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -400,11 +398,11 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>username</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>username</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>email</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>email</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>siteid</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -440,17 +438,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>filePath</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>notify</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>notify</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -482,19 +480,19 @@
   <dl class="parameters">
     <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>token</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>type</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>key</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>key</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>name</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -526,15 +524,15 @@
   <dl class="parameters">
     <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>setCookie</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>setCookie</code> <span class="xref">bool</span></dt>
     <dd></dd>
-    <dt><code>isPersistent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><code>isPersistent</code> <span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -570,7 +568,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -602,13 +600,13 @@
   <dl class="parameters">
     <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>token</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -644,7 +642,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -674,13 +672,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>password</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -712,13 +710,13 @@
   <dl class="parameters">
     <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>token</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -750,7 +748,7 @@
   <dl class="parameters">
     <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>token</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>token</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 

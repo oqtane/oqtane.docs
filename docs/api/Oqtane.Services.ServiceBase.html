@@ -1,12 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ServiceBase
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class ServiceBase | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ServiceBase
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class ServiceBase | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
       
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_Services_ServiceBase" data-uid="Oqtane.Services.ServiceBase" class="text-break">
-    Class ServiceBase
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ServiceBase.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class ServiceBase  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ServiceBase.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -112,7 +110,7 @@
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">ServiceBase</span></div>
     </dd>
   </dl>
@@ -145,7 +143,7 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>client</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dt><code>client</code> <span class="xref">HttpClient</span></dt>
     <dd></dd>
   </dl>
 
@@ -176,7 +174,7 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>httpClient</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dt><code>httpClient</code> <span class="xref">HttpClient</span></dt>
     <dd></dd>
     <dt><code>siteState</code> <a class="xref" href="Oqtane.Shared.SiteState.html">SiteState</a></dt>
     <dd></dd>
@@ -209,7 +207,7 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>factory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.ihttpclientfactory">IHttpClientFactory</a></dt>
+    <dt><code>factory</code> <span class="xref">IHttpClientFactory</span></dt>
     <dd></dd>
     <dt><code>siteState</code> <a class="xref" href="Oqtane.Shared.SiteState.html">SiteState</a></dt>
     <dd></dd>
@@ -285,13 +283,13 @@ public string CreateApiUrl(Alias alias, string serviceName)</code></pre>
   <dl class="parameters">
     <dt><code>alias</code> <a class="xref" href="Oqtane.Models.Alias.html">Alias</a></dt>
     <dd></dd>
-    <dt><code>serviceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>serviceName</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -321,13 +319,13 @@ public string CreateApiUrl(Alias alias, string serviceName)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>serviceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>serviceName</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -357,7 +355,7 @@ public string CreateApiUrl(Alias alias, string serviceName)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>serviceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>serviceName</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>alias</code> <a class="xref" href="Oqtane.Models.Alias.html">Alias</a></dt>
     <dd></dd>
@@ -365,7 +363,7 @@ public string CreateApiUrl(Alias alias, string serviceName)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -395,17 +393,17 @@ public string CreateApiUrl(Alias alias, string serviceName)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>serviceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>serviceName</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>alias</code> <a class="xref" href="Oqtane.Models.Alias.html">Alias</a></dt>
     <dd></dd>
-    <dt><code>routeTemplate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>routeTemplate</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -435,15 +433,15 @@ public string CreateApiUrl(Alias alias, string serviceName)</code></pre>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>url</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>authEntityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dt><code>authEntityId</code> <span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">int</span>&gt;</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -474,15 +472,15 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>url</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -512,17 +510,17 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>url</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>entityName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>entityId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>entityId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -552,13 +550,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -588,13 +586,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -624,13 +622,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">byte</span>[]&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -661,7 +659,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dt><span class="xref">HttpClient</span></dt>
     <dd></dd>
   </dl>
 
@@ -691,13 +689,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -732,7 +730,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>defaultResult</code> <span class="xref">T</span></dt>
     <dd></dd>
@@ -740,7 +738,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -775,13 +773,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">string</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -811,13 +809,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -847,7 +845,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>value</code> <span class="xref">T</span></dt>
     <dd></dd>
@@ -855,7 +853,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -890,7 +888,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>value</code> <span class="xref">TValue</span></dt>
     <dd></dd>
@@ -898,7 +896,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TResult&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;TResult&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -935,13 +933,13 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -971,7 +969,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>value</code> <span class="xref">T</span></dt>
     <dd></dd>
@@ -979,7 +977,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;T&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -1014,7 +1012,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>uri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>uri</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>value</code> <span class="xref">TValue</span></dt>
     <dd></dd>
@@ -1022,7 +1020,7 @@ public string CreateAuthorizationPolicyUrl(string url, int entityId)</code></pre
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TResult&gt;</dt>
+    <dt><span class="xref">Task</span>&lt;TResult&gt;</dt>
     <dd></dd>
   </dl>
 

@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Notification
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class Notification | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Notification
- | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class Notification | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
+      <meta name="description" content="Notification for a User - usually meant to be sent as an E-Mail.">
       <link rel="icon" href="../layout/images/favicon.png">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -30,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -55,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -78,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -90,8 +89,7 @@
 
 
   <h1 id="Oqtane_Models_Notification" data-uid="Oqtane.Models.Notification" class="text-break">
-    Class Notification
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Notification.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class Notification  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Notification.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -113,7 +111,7 @@
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">object</span></div>
       <div><span class="xref">Notification</span></div>
     </dd>
   </dl>
@@ -178,15 +176,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
     <dt><code>from</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
     <dt><code>to</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -217,17 +215,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
     <dt><code>from</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
     <dt><code>to</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>parentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dt><code>parentId</code> <span class="xref">int</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -258,13 +256,13 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
     <dt><code>to</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -295,15 +293,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
     <dt><code>to</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>sendOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><code>sendOn</code> <span class="xref">DateTime</span></dt>
     <dd></dd>
   </dl>
 
@@ -334,15 +332,15 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>toDisplayName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>toDisplayName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>toEmail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>toEmail</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -373,17 +371,17 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>toDisplayName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>toDisplayName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>toEmail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>toEmail</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>sendOn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><code>sendOn</code> <span class="xref">DateTime</span></dt>
     <dd></dd>
   </dl>
 
@@ -414,19 +412,19 @@
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>siteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
-    <dt><code>fromDisplayName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>fromDisplayName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>fromEmail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>fromEmail</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>toDisplayName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>toDisplayName</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>toEmail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>toEmail</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>subject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>subject</code> <span class="xref">string</span></dt>
     <dd></dd>
-    <dt><code>body</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><code>body</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -466,7 +464,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -498,7 +496,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><span class="xref">DateTime</span></dt>
     <dd></dd>
   </dl>
 
@@ -530,7 +528,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -562,7 +560,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dt><span class="xref">DateTime</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -594,7 +592,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dt><span class="xref">DateTime</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -626,7 +624,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -658,7 +656,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -690,7 +688,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dt><span class="xref">int</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -722,7 +720,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -754,7 +752,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -786,7 +784,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><span class="xref">bool</span></dt>
     <dd></dd>
   </dl>
 
@@ -818,7 +816,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -850,7 +848,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dt><span class="xref">int</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -882,7 +880,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dt><span class="xref">DateTime</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -914,7 +912,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -946,7 +944,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -978,7 +976,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1010,7 +1008,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -1042,7 +1040,7 @@
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dt><span class="xref">int</span>?</dt>
     <dd></dd>
   </dl>
 
