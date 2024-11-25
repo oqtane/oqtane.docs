@@ -61,3 +61,7 @@ When pushed back to Github, Github will automatically build and deploy to <https
 ## Setup
 
 👉 continue with [Setup, Build, Test and Deploy](./build.md)
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

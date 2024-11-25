@@ -92,3 +92,7 @@ to
 
 > [!TIP]
 > Don't forget to undo this change before committing your changes.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

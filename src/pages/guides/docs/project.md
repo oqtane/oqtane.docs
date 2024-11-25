@@ -59,3 +59,7 @@ Questions
 1. how can we make it easy to contribute?
 1. can we provide benefits or visibility to contributors?
 
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

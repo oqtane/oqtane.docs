@@ -1,7 +1,7 @@
 
 <img src="~/shared/authors/leigh-pointer/assets/leigh-pointer.jpg" style="width: 100px; float: right">
 
-#### Leigh Pointer [Microsoft MVP]
+#### Leigh Pointer \[Microsoft MVP, Oqtane Core Team\]
 
 Oqtane Innovator, Engineer and Evangelist
 

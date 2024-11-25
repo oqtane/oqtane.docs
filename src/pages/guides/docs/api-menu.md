@@ -9,3 +9,7 @@ Here's what it does
 1. The prefix `Oqtane.` is removed by default (unless that's all there is)
 1. If the remaining namespace has more than 2 parts, it will be truncated with a prefix `...` to make it fit better 😎
 1. In addition, it looks up if the namespace has metadata (in the `namespace-metadata.js`) to give it better colors and icons.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

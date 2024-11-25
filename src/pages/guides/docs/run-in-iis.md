@@ -1,9 +1,9 @@
 ﻿
 # Run Oqtane Docs Locally
 
-The generated docs are static pages and contain various JavaScripts to provide menu and search functionality. 
-These do not work, if you just open the `index.html` in a browser. 
-So you need to run it in a local IIS to fully test it. 
+The generated docs are static pages and contain various JavaScripts to provide menu and search functionality.
+These do not work, if you just open the `index.html` in a browser.
+So you need to run it in a local IIS to fully test it.
 
 This is how you can set it up:
 
@@ -11,4 +11,10 @@ This is how you can set it up:
 
 ## Warning about Caching
 
-The navigation / menus in docfx use JavaScript, so you'll sometimes see an old cached menu on your local system. Just activate F12 and disable cache to ensure that you're always viewing the latest build. 
+The navigation / menus in docfx use JavaScript,
+so you'll sometimes see an old cached menu on your local system.
+Just activate F12 and disable cache to ensure that you're always viewing the latest build.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

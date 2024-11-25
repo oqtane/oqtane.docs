@@ -103,3 +103,7 @@ GitHub will automatically publish the updated documentation to <https://docs.oqt
 For further discussions, feedback, or questions, head over
 to [GitHub Discussions](https://github.com/oqtane/oqtane.docs/discussions)
 or [GitHub Issues](https://github.com/oqtane/oqtane.docs/issues).
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

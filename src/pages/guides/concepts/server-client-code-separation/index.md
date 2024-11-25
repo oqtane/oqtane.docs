@@ -77,3 +77,7 @@ The UI/Client Code can run on the server for a few reasons:
 
 ➡️ To choose where the UI/Client Code runs, you can set the **Render Mode** and **Runtime** in Oqtane.
 See [Render Modes](xref:Oqtane.Concepts.RenderModes.Index).
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

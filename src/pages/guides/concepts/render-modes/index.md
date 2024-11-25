@@ -237,3 +237,8 @@ much more similar to the classic web model and scaled much better.
 See also:
 
 * [Blog: Oqtane: Demystifying Render Modes for CMS Administrators](https://www.linkedin.com/pulse/oqtane-demystifying-render-modes-cms-administrators-leigh-tjzoe/)
+* [Microsoft Docs Blazor Render Modes](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-9.0)
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

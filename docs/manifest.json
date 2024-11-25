@@ -10146,6 +10146,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "shared/authors/ijungleboy/assets/ijungleboy.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "shared/authors/ijungleboy/assets/ijungleboy.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "shared/authors/leigh-pointer/assets/leigh-pointer.jpg",
       "output": {
         "resource": {

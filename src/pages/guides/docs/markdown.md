@@ -38,3 +38,7 @@ If you want to add checklists like this example, just use this checklist 😎
 ## Videos
 
 Todo
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]

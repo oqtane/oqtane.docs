@@ -58,3 +58,7 @@ Using the same mechanism with the `uid:` you can
 create markdown files which will show extensive instructions.
 
 Check out the `apidoc\Documentation\index.md` file for an example.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_attribution.md)]
