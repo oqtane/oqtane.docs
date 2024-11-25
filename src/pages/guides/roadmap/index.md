@@ -16,6 +16,7 @@ This project is open source, and therefore is a work in progress...
 - 🔳 Azure Autoscale support (ie. web farm)
 - 🔳 Folder Providers
 - 🔳 Generative AI Integration
+- 🔳 Multi-Language Pages / Content
 
 ## Current Priorities
 
@@ -25,7 +26,47 @@ This project is open source, and therefore is a work in progress...
 
 ## Release History
 
+
+### Oqtane 6 (.net 9)
+
+#### [Oqtane 6.0.0](https://github.com/oqtane/oqtane.framework/releases/tag/v6.0.0) (Nov 14, 2024)
+
+- ✅ Migration to .NET 9
+- ✅ Stabilization improvements
+- ✅ Stabilize SSR
+
+
 ### Oqtane 5 (.net 8, SSR)
+
+#### [Oqtane 5.2.4](https://github.com/oqtane/oqtane.framework/releases/tag/v5.2.4) (Oct 17, 2024)
+
+- ✅ Stabilization improvements
+
+#### [Oqtane 5.2.3](https://github.com/oqtane/oqtane.framework/releases/tag/v5.2.3) (Sep 23, 2024)
+
+- ✅ Stabilization improvements
+
+#### [Oqtane 5.2.2](https://github.com/oqtane/oqtane.framework/releases/tag/v5.2.2) (Sep 23, 2024)
+
+- ✅ Stabilization improvements
+- ✅ Support for Security Stamp to faciliate Logout Everywhere
+- ✅ Role synchronization from External Login identity providers
+
+#### [Oqtane 5.2.1](https://github.com/oqtane/oqtane.framework/releases/tag/v5.2.1) (Aug 22, 2024)
+
+- ✅ Stabilization improvements
+- ✅ Unzip support in File Management
+
+#### [Oqtane 5.2.0](https://github.com/oqtane/oqtane.framework/releases/tag/v5.2.0) (Jul 25, 2024)
+
+- ✅ Site Content Search
+- ✅ RichTextEditor extensibility
+- ✅ Scalability and performance improvements
+
+#### [Oqtane 5.1.2](https://github.com/oqtane/oqtane.framework/releases/tag/v5.1.2) (May 28, 2024)
+
+- ✅ Stabilization improvements
+
 
 #### [Oqtane 5.1.1](https://github.com/oqtane/oqtane.framework/releases/tag/v5.1.1) (Apr 16, 2024)
 
