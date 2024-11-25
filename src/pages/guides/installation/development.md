@@ -28,7 +28,7 @@ However, for module development, it is recommended to target a stable release ve
 
 ## Release and Legacy Development
 
-Below is a list of current and prior releases for module development targeting different frameworks.  
+Below is a list of current and prior releases for module development targeting different frameworks.
 Check the official release page for any newer versions not listed.
 
 ### Oqtane Version 5 (.net 8)
