@@ -182,6 +182,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "layout/oqtane/build-toc/toc-flatten-namespaces.js",
+      "output": {
+        "resource": {
+          "relative_path": "layout/oqtane/build-toc/toc-flatten-namespaces.js"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "layout/oqtane/build-toc/toc-tools-new.js",
       "output": {
         "resource": {

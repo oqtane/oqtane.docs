@@ -6,7 +6,7 @@ const flattenNamespacesFor = [
 
 const highlights = {
   "Oqtane.Components": "⭐🎁",
-  "Oqtane.Controllers": "🌐",
+  "Oqtane.Controllers": "🌐 ➡️",
   "Oqtane.Modules": "🎁",
   "Oqtane.Services": "⭐🎁",
   "Oqtane.UI": "🌟🎁",
