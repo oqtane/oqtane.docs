@@ -232,6 +232,15 @@ references:
   isSpec: "True"
   fullName: Oqtane.Components._Imports.BuildRenderTree
   nameWithType: _Imports.BuildRenderTree
+- uid: Oqtane.Concepts.Index
+  name: Oqtane Concepts
+  href: guides/concepts/index.html
+- uid: Oqtane.Concepts.RenderModes.Index
+  name: Oqtane Render Modes
+  href: guides/concepts/render-modes/index.html
+- uid: Oqtane.Concepts.ServerClientCodeSeparation.Index
+  name: Oqtane & Blazor Server and UI/Client Code Separation
+  href: guides/concepts/server-client-code-separation/index.html
 - uid: Oqtane.Controllers
   name: Oqtane.Controllers
   href: api/Oqtane.Controllers.html
@@ -19946,6 +19955,9 @@ references:
   isSpec: "True"
   fullName: Oqtane.Providers.IdentityRevalidatingAuthenticationStateProvider.ValidateAuthenticationStateAsync
   nameWithType: IdentityRevalidatingAuthenticationStateProvider.ValidateAuthenticationStateAsync
+- uid: Oqtane.Random.Index
+  name: 'Oqtane Docs: Random'
+  href: guides/random/index.html
 - uid: Oqtane.Repository
   name: Oqtane.Repository
   href: api/Oqtane.Repository.html

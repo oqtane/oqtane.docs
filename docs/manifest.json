@@ -4375,36 +4375,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/guides/concepts/404-page-behavior.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/concepts/404-page-behavior.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "pages/guides/concepts/assets/404-not-found.png",
-      "output": {
-        "resource": {
-          "relative_path": "pages/guides/concepts/assets/404-not-found.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/concepts/dll-handling.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/concepts/dll-handling.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "pages/guides/concepts/index.md",
       "output": {
         ".html": {
@@ -4415,10 +4385,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/guides/concepts/load-testing.md",
+      "source_relative_path": "pages/guides/concepts/render-modes/index.md",
       "output": {
         ".html": {
-          "relative_path": "guides/concepts/load-testing.html"
+          "relative_path": "guides/concepts/render-modes/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/concepts/server-client-code-separation/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/concepts/server-client-code-separation/index.html"
         }
       },
       "version": ""
@@ -4432,16 +4412,6 @@
         },
         ".json": {
           "relative_path": "pages/guides/concepts/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/concepts/webhooks.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/concepts/webhooks.html"
         }
       },
       "version": ""
@@ -6023,6 +5993,79 @@
       "output": {
         ".html": {
           "relative_path": "guides/modules/working-with-modules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/random/404-page-behavior.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/random/404-page-behavior.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/guides/random/assets/404-not-found.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/guides/random/assets/404-not-found.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/random/dll-handling.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/random/dll-handling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/random/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/random/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/random/load-testing.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/random/load-testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/guides/random/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pages/guides/random/toc.html"
+        },
+        ".json": {
+          "relative_path": "pages/guides/random/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/guides/random/webhooks.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/random/webhooks.html"
         }
       },
       "version": ""

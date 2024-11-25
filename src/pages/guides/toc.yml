@@ -46,6 +46,10 @@
   topicHref: database-management/index.md
   # href: database-management/index.md
 
+- name: Random Topics
+  href: random/toc.yml
+  topicHref: random/index.md
+
 - name: Roadmap & History
   topicUid: Guides.Roadmap.Index
 

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Concepts | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Concepts: DLL Handling | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Concepts | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Concepts: DLL Handling | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/random/dll-handling.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,21 +83,28 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Oqtane.Concepts.Index">
-<h1 id="oqtane-concepts">Oqtane Concepts</h1>
+        <article data-uid="">
+<h1 id="oqtane-concepts-dll-handling">Oqtane Concepts: DLL Handling</h1>
 
-<p>Here, we explain why Oqtane works the way it does.
-Explore the following concepts:</p>
+<p>How / Why DLLs are loaded into memory:</p>
 <ul>
-<li><a class="xref" href="server-client-code-separation/index.html">Server Code and UI/Client Code Separation</a></li>
-<li><a class="xref" href="render-modes/index.html">Render Modes</a></li>
+<li>the .NET Core philosophy is to only load the specific assemblies an app needs ( to reduce startup time and memory )</li>
+<li>by default .NET Core will only load assemblies statically linked to the main app - it will not load every DLL in the /bin</li>
+<li>it will not load Oqtane module/theme DLLs as these are dynamically linked</li>
+<li>therefore Oqtane needs to manually load its modules/themes</li>
+<li>in order to do this it needs to be able to quickly identify the DLLs</li>
+<li>the only option available is via filename, as any other approach requires reflection which consumes startup time/processing and memory</li>
+<li>the convention is that the filename must contain <code>oqtane</code></li>
+<li>once the required DLLs are loaded into the AppDomain, subsequent operations for assemblies can use the AppDomain rather than the file system</li>
+<li>the majority of assemblies in the AppDomain are not relevant to Oqtane</li>
+<li>reflection is expensive so we should only use reflection on assemblies which are actually relevant to Oqtane</li>
+<li>assembly fullname is same as DLL filename, so we can look for the <code>oqtane</code> qualifier to identify Oqtane assemblies</li>
 </ul>
-<p>Note: some topics which may interest you but we couldn't quite categorize are in <a class="xref" href="../random/index.html">Random</a>.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/random/dll-handling.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

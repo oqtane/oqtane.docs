@@ -1,12 +1,13 @@
+---
+uid: Oqtane.Concepts.Index
+---
+
 # Oqtane Concepts
 
-Here, we explain why Oqtane works the way it does. Explore the following concepts:
+Here, we explain why Oqtane works the way it does.
+Explore the following concepts:
 
-* [DLL Handling](./dll-handling.md)
-* [404 Page Behavior](./404-page-behavior.md)
-* [Load Testing](./load-testing.md)
-* [Webhooks](./webhooks.md)
+* [Server Code and UI/Client Code Separation](xref:Oqtane.Concepts.ServerClientCodeSeparation.Index)
+* [Render Modes](xref:Oqtane.Concepts.RenderModes.Index)
 
-Feel free to dive deeper into these topics by following the provided links!
-
-[← Back to Documentation Guides Home Page](../index.md)
+Note: some topics which may interest you but we couldn't quite categorize are in [Random](xref:Oqtane.Random.Index).

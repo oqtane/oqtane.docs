@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Concepts | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>404 Page Behavior | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Concepts | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="404 Page Behavior | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       <link rel="icon" href="../../layout/images/favicon.png">
       <link rel="stylesheet" href="../../public/docfx.min.css">
@@ -15,7 +15,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/random/404-page-behavior.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -83,21 +83,34 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Oqtane.Concepts.Index">
-<h1 id="oqtane-concepts">Oqtane Concepts</h1>
+        <article data-uid="">
+<h1 id="404-page-behavior">404 Page Behavior</h1>
 
-<p>Here, we explain why Oqtane works the way it does.
-Explore the following concepts:</p>
-<ul>
-<li><a class="xref" href="server-client-code-separation/index.html">Server Code and UI/Client Code Separation</a></li>
-<li><a class="xref" href="render-modes/index.html">Render Modes</a></li>
-</ul>
-<p>Note: some topics which may interest you but we couldn't quite categorize are in <a class="xref" href="../random/index.html">Random</a>.</p>
+<p><img src="../../pages/guides/random/assets/404-not-found.png" alt="404 Page Example"></p>
+<h2 id="issue-description">Issue Description</h2>
+<p>This document aims to provide clarity on the behavior of the 404 page in the Oqtane Framework. It includes information on various scenarios where the 404 page is encountered and how it is handled within the framework.</p>
+<h2 id="use-cases">Use Cases</h2>
+<p>The 404 page is utilized in multiple scenarios within the Oqtane Framework:</p>
+<ol>
+<li><p><strong>Page Not Found</strong>: When a user requests a URL that does not correspond to any existing page in the site, and it has not been mapped using URL Mapping, the user is redirected to the 404 page.</p>
+</li>
+<li><p><strong>Unauthorized Access</strong>: If a user attempts to access a page for which they do not have permission, they are redirected to the 404 page instead of revealing the existence of the page.</p>
+</li>
+<li><p><strong>Effective Date and Expiry Date</strong>: If a page exists but the current date is outside the range specified by the Effective Date and Expiry Date, the user is directed to the 404 page.</p>
+</li>
+</ol>
+<h2 id="framework-behavior">Framework Behavior</h2>
+<p>In the Oqtane Framework, the term &quot;404&quot; refers to the friendly page that users are redirected to when the framework is unable to navigate them to the requested URL. This page has a path of &quot;/404&quot;.</p>
+<p>Regarding permissions, there has been debate about whether to strictly adhere to HTTP status codes or to prioritize security by not revealing the existence of pages to unauthorized users. As of now, Oqtane has opted for a single &quot;friendly&quot; page for handling these scenarios.</p>
+<h2 id="reference">Reference</h2>
+<p>For more details and discussions on this topic, refer to <a href="https://github.com/oqtane/oqtane.framework/issues/4088">issue #4088</a> in the Oqtane Framework repository.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>By understanding the behavior of the 404 page in the Oqtane Framework, administrators can better manage and customize the user experience when encountering non-existent or unauthorized URLs.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/index.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/random/404-page-behavior.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

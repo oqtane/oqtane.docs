@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Oqtane Render Modes | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Oqtane Render Modes | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/render-modes/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Oqtane.Concepts.RenderModes.Index">
+<h1 id="oqtane-render-modes">Oqtane Render Modes</h1>
+
+<p>Oqtane supports multiple render modes to provide flexibility and performance optimization.
+Each render mode has its own characteristics and use cases.
+Here we'll give you some background, explain the differences and provide recommendations.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Render Modes are strongly related to the separation of <strong>Server Code</strong> and <strong>UI/Client Code</strong>.</p>
+<p>So before you continue, make sure you understand the
+<a class="xref" href="../server-client-code-separation/index.html">Server Code and UI/Client Code Separation</a>.</p>
+</div>
+<h2 id="tldr-recommendations">TL;DR: Recommendations</h2>
+<p>In case you just want a quick answer and don't want to read the entire article, here are some recommendations:</p>
+<h3 id="for-web-sites">For Web Sites</h3>
+<ul>
+<li>Render Mode: <code>Static</code></li>
+<li>Runtime: <code>Server (SignalR)</code></li>
+<li>Prerender: <code>Yes</code></li>
+<li>Hybrid: <code>No</code> (unless you're creating MAUI apps)</li>
+</ul>
+<h3 id="for-web-applications">For Web Applications</h3>
+<ul>
+<li>Render Mode: <code>Interactive</code></li>
+<li>Runtime: <code>Server (SignalR)</code></li>
+<li>Prerender: <code>Yes</code></li>
+<li>Hybrid: <code>No</code> (unless you're creating MAUI apps)</li>
+</ul>
+<h3 id="general-recommendations">General Recommendations</h3>
+<ul>
+<li>Avoid the <strong>Runtime</strong>: <code>Auto</code> for now, as many features will not work correctly.</li>
+<li>Only use <strong>Hybrid</strong>: <code>Yes</code> if you're creating MAUI apps.</li>
+</ul>
+<h2 id="background-where-does-ui-code--client-code-run">Background: Where Does UI Code / Client Code Run?</h2>
+<p>There are quite a few reasons why the UI Code should <strong>not run in the browser</strong>.
+The UI Code / Client Code is the part of code which is responsible for rendering the UI.
+This is basically just:</p>
+<ol>
+<li>Generate HTML</li>
+<li>Render UI, do some animations / transitions</li>
+<li>Respond to user input (like transition no elsewhere; show other input fields)</li>
+<li>Make network requests</li>
+</ol>
+<p>This is quite simple and historically (e.g. with ASP.NET, PHP, etc.)
+all of this was done on the server, with some JavaScript sprinkled in.
+So it's quite natural to have the UI Code run on the server.</p>
+<p>Blazor introduced the ability to run the UI Code in the browser,
+which brings some of the benefits of a native app or SPAs
+(Single Page Applications) to C# developers.
+But it also introduced many new challenges.
+For example, search crawlers are not able to run WebAssembly,
+so they can't index the site.</p>
+<p>Note that this problem is not unique to Blazor.
+Any SPA (Single Page Application) has these problems.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Because of these challenges, Blazor supports running the UI Code on the server.</p>
+<p>The developer or the site administrator can choose where the UI Code runs - and when.</p>
+</div>
+<p>These are the typical options in Oqtane:</p>
+<ol>
+<li>Run the UI Code in the browser only (Render: <strong>Interactive</strong>; Runtime: <strong>Client WebAssembly</strong>)</li>
+<li>Run the UI Code on the server only (Render: <strong>Static</strong>; Runtime: <strong>SignalR</strong>)</li>
+</ol>
+<p>Especially when doing <strong>Interactive</strong>, you may still want to provide HTML
+to search crawlers or improve startup experience for the user.
+This is why there is also the option to <strong>Prerender</strong> the site.</p>
+<h2 id="oqtane-difference-between-render-modes-and-runtime-options">Oqtane: Difference between Render Modes and Runtime Options</h2>
+<p>The <strong>Render Mode</strong> determines how the browser receives new HTML and updates the page.</p>
+<p>The <strong>Runtime</strong> options determine where the UI Code for the Blazor Components is executed.</p>
+<h2 id="oqtane-render-modes-settings">Oqtane Render Modes Settings</h2>
+<h3 id="oqtane-render-mode-interactive">Oqtane Render Mode: Interactive</h3>
+<p>In this mode the HTML is modified/updated in the browser,
+through code which does DOM-Tree diffs and updates the parts as needed.</p>
+<p>How it does this depends on the <strong>Runtime</strong> option.
+But the essence is: code in the browser will continuously modify the DOM
+and give the user a SPA experience, without the entire page reloading on every click.</p>
+<h3 id="oqtane-render-mode-static">Oqtane Render Mode: Static</h3>
+<p>In this mode the HTML is generated on the server,
+and provided as a complete page to the browser.
+This is the classic web model, where the entire page is reloaded on every click.</p>
+<h3 id="oqtane-render-mode-headless">Oqtane Render Mode: Headless</h3>
+<p>In this mode the site operates as a backend API,
+suitable for mobile apps, custom frontends or external applications.</p>
+<p>It is not really meant to provide UIs.</p>
+<h2 id="oqtane-runtime-options-settings">Oqtane Runtime Options Settings</h2>
+<h3 id="oqtane-runtime-server-signalr">Oqtane Runtime: Server (SignalR)</h3>
+<p>In this mode the UI Code runs on the server,
+and the browser receives updates through a SignalR connection.</p>
+<p>SignalR is a fast communications technology to provide real-time updates to the browser.
+It uses WebSockets, Server-Sent Events, or Long Polling to provide a fast and reliable connection.</p>
+<p>In the background, the UI will tell the server about a click or other user interaction,
+and the server will then figure out what parts of the HTML needs updating.</p>
+<p>It will then send the updated parts to the browser.
+The browser will then do a DOM-Tree diff and update the parts as needed.</p>
+<h3 id="oqtane-runtime-client-webassembly">Oqtane Runtime: Client WebAssembly</h3>
+<p>In this mode the UI Code runs directly in the browser using WebAssembly.
+This means that the .net code for the Blazor Components is...</p>
+<ol>
+<li>compiled to WebAssembly (WASM)</li>
+<li>stored as compressed <a href="https://en.wikipedia.org/wiki/Brotli">Brotli</a> or Zip files</li>
+<li>sent to the browser according to it's preferences</li>
+<li>started by a small js library which is included in the initial page</li>
+<li>run in the browser</li>
+</ol>
+<p>This code will then do the same as the server code in the SignalR mode,
+and apply the changes to the DOM.</p>
+<h3 id="oqtane-runtime-auto">Oqtane Runtime: Auto</h3>
+<p>This mode was introduced with .net 8 and Oqtane 6.
+The idea is that the server will start with static - to give a fast initial load,
+and then transition to interactive to give a SPA experience.</p>
+<p>So in theory, it would do this:</p>
+<ol>
+<li>Provide the browser/client with HTML</li>
+<li>Then start loading the WebAssembly parts</li>
+<li>Then switch to interactive mode</li>
+</ol>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>As of now (November 2024) this does not work as expected.
+So we recommend to avoid this mode for now.</p>
+</div>
+<h2 id="runtime-differences-between-server-and-client">Runtime: Differences between Server and Client</h2>
+<p>To really understand the differences between the two render modes,
+let's look at the responsibilities of the client code:</p>
+<ol>
+<li>🔃 Get data from...
+<ol>
+<li>...state (like what page is currently shown or the current user)</li>
+<li>...database</li>
+<li>...a REST API</li>
+</ol>
+</li>
+<li>Construct the HTML</li>
+<li>✍🏽 Update the HTML in the DOM</li>
+<li>React to events (like clicks)
+<ol>
+<li>Attach event listeners</li>
+<li>React to events when triggered</li>
+<li>Perform some action, 🔃 possibly needing more data</li>
+<li>Constructed updated HTML (show a new warning on an input; change the table of results)</li>
+<li>✍🏽 Update the HTML in the DOM</li>
+</ol>
+</li>
+</ol>
+<p>In the <strong>Server</strong> mode, the server does all of this,
+<em>except for ✍🏽 the last step modifying the DOM.</em></p>
+<p>In the <strong>Client</strong> mode, the client does all of this,
+<em>except for 🔃 the steps of getting data which use backend calls.</em></p>
+<h2 id="pre-rendering">Pre-Rendering</h2>
+<p>Pre-rendering is a technique to provide the browser with HTML,
+independent of the client code.</p>
+<ul>
+<li><strong>Yes</strong>: Interactive components render their initial output on the server, improving perceived load times.</li>
+<li><strong>No</strong>: Components are rendered entirely on the client side.</li>
+</ul>
+<h2 id="hybrid-mode-maui-support">Hybrid Mode (MAUI Support)</h2>
+<p>The <strong>Hybrid</strong> mode is a special mode which enables integration with .NET MAUI,
+meaning you're using Oqtane to create mobile Apps.</p>
+<ul>
+<li><strong>No</strong>: The site operates as a standard web application1</li>
+<li><strong>Yes</strong>: Enables integration with .NET MAUI, allowing the site to be used in cross-platform desktop and mobile applications.
+These settings provide granular control over how Oqtane sites are rendered and hosted, allowing developers to optimize for performance, interactivity, and platform compatibility.</li>
+</ul>
+<hr>
+<h2 id="some-history-for-context">Some History for Context</h2>
+<p>If some of the options may seem confusing, it helps to understand the history of Blazor.
+So we wanted to give you these insights, to make it easier to make choices,
+especially if you find conflicting (and possibly old) information.</p>
+<h3 id="blazor-net-core-3---run-net-code-in-a-browser">Blazor .net Core 3 - Run .net Code in a Browser</h3>
+<p>Blazor originally started on .net core 3, as a &quot;you can run .net code inside a browser&quot; project.
+As such, it's roots started as a &quot;.net DLL to WebAssembly&quot; converter.
+In the first few versions this was it's purpose.</p>
+<p>🩸 This is also when Oqtane was first started and built upon this paradigm.</p>
+<h3 id="blazor-net-6---server-prerender">Blazor .net 6 - Server Prerender</h3>
+<p>When it started to become popular, the Blazor team realized that there were some limitations.
+to running .net code in the browser.
+For example, a search crawler didn't have any HTML to index.
+So, they added a <strong>Server Prerender</strong> option where <strong>UI/Client Code runs on the server <em>once</em></strong>
+on the first page load, and then the <strong>WebAssembly</strong> takes over.
+In reality the client had to re-run the code again, so the UX was not great.</p>
+<p>🩸 This was also supported by Oqtane, mainly for search crawlers.</p>
+<h3 id="blazor-net-8---static-mode">Blazor .net 8 - Static Mode</h3>
+<p>By the time .net 8 came around, the Blazor team realized that there were some limitations
+to this model as well.
+For example, the performance hit on the server was big, making it hard to scale up.
+The search crawlers still had a lot of issues as well.
+So they added a <strong>Static</strong> mode where the HTML is always generated on the server,
+much more similar to the classic web model and scaled much better.</p>
+<hr>
+<p>See also:</p>
+<ul>
+<li><a href="https://www.linkedin.com/pulse/oqtane-demystifying-render-modes-cms-administrators-leigh-tjzoe/">Blog: Oqtane: Demystifying Render Modes for CMS Administrators</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/render-modes/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

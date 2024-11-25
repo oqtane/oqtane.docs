@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Oqtane &amp; Blazor Server and UI/Client Code Separation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Oqtane &amp; Blazor Server and UI/Client Code Separation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../pages/guides/toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/server-client-code-separation/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Oqtane.Concepts.ServerClientCodeSeparation.Index">
+<h1 id="oqtane--blazor-server-and-uiclient-code-separation">Oqtane &amp; Blazor Server and UI/Client Code Separation</h1>
+
+<div class="TIP">
+<h5>Tip</h5>
+<p>It is general best-practice to separate code according to its responsibilities.</p>
+<p>In Blazor, this has a more specific meaning,
+as it refers to the <em>required</em> separation of <strong>Server Code</strong> and <strong>UI/Client Code</strong>.</p>
+</div>
+<p>Blazor originally started as a &quot;you can run .net code inside a browser&quot; project.
+As such, it's roots started as a &quot;.net DLL to WebAssembly&quot; converter.</p>
+<p>Now obviously not all code is suitable for running in a browser.
+For example, direct database access is something which still requires a server.</p>
+<p>So as at the heart of the entire architecture lies the separation
+of <strong>Server Code</strong> and <strong>UI Code aka Client Code</strong>.</p>
+<h2 id="standard-code-separation-in-oqtane--blazor">Standard Code Separation in Oqtane &amp; Blazor</h2>
+<ul>
+<li><p><strong>UI Code / Client Code</strong> is the part of code which is responsible for rendering the UI.</p>
+<ul>
+<li>It usually runs in the browser, and it can respond to user input.</li>
+<li>It can also make network requests to the server.</li>
+<li>It can't do things like database access.</li>
+<li><em>UI/Client Code can run in the browser, but it can also run on the server - see below.</em></li>
+</ul>
+</li>
+<li><p><strong>Server Code</strong> is the code which runs on the server.</p>
+<ul>
+<li>It can do things like database access, provide APIs, etc.</li>
+<li>It is also better protected and in charge of security checks as well as limiting access.</li>
+<li><em>Server Code can only on the server.</em></li>
+</ul>
+</li>
+<li><p><strong>Shared Code</strong> is code which is used by both the <strong>Server Code</strong> and <strong>UI/Client Code</strong>.</p>
+<ul>
+<li>This is usually things like common objects, enums, etc.</li>
+<li>Also typical is certain interfaces, which may then be implemented differently on each layer.</li>
+</ul>
+</li>
+</ul>
+<p>Other code such as business logic could run on either the server or the client.
+The choice of where this is located is up to the developer.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Client Code</strong> describes the <strong>UI responsibility</strong> of the code which <em>could</em> run in the browser.</p>
+<p><strong>Server Code</strong> describes the responsibility of the code which <em>must</em> run on the server.</p>
+</div>
+<h2 id="running-uiclient-code-on-the-server">Running UI/Client-Code on the Server</h2>
+<p>There are quite a few reasons why the UI Code should <strong>not run in the browser</strong>.
+So let's quickly recap what the UI Code actually does:</p>
+<ol>
+<li>Generate HTML</li>
+<li>Render UI, do some animations / transitions</li>
+<li>Respond to user input (like transition no elsewhere; show other input fields)</li>
+<li>Make network requests</li>
+</ol>
+<p>But we can't stop there.</p>
+<p>This separation of code is what allows Blazor to run on the server, in the browser, or both.
+The UI/Client Code can run on the server for a few reasons:</p>
+<ol>
+<li><p><strong>Search Engine Optimization (SEO)</strong>: Search engines like Google can't run WebAssembly.
+So if your site is entirely JavaScript/WebAssembly, then it won't be indexed.
+By running the UI/Client Code on the server, you can generate the HTML for the search engines.</p>
+</li>
+<li><p><strong>Perceived Load Time</strong>: If the UI/Client Code is running on the server,
+then the user can see the page before the UI/Client Code has even started.
+This makes the site feel faster.</p>
+</li>
+<li><p><strong>Simpler State Management</strong>: If the UI/Client Code is running on the server,
+then the server must manage &amp; remember a lot of client state.
+When running the client on the browser, the server must still do a lot of work
+and manage a lot of state.</p>
+</li>
+</ol>
+<p>➡️ To choose where the UI/Client Code runs, you can set the <strong>Render Mode</strong> and <strong>Runtime</strong> in Oqtane.
+See <a class="xref" href="../render-modes/index.html">Render Modes</a>.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/concepts/server-client-code-separation/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
