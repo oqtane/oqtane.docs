@@ -39,6 +39,10 @@ apiRules:
     uidRegex: ^Oqtane.Themes.BlazorTheme
 - exclude:
     uidRegex: ^Oqtane.Themes.OqtaneTheme
+
+# exclude a strange namespace which should probably not be there
+- exclude:
+    uidRegex: ^OqtaneSSR.Extensions
     
 # Exclude anything marked as PrivateApi
 # In future, we may change this to only show things which are PublicApi (recommendation of iJungleboy)
