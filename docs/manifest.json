@@ -21,16 +21,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "layout/images/favicon.png",
       "output": {
@@ -4538,10 +4528,10 @@
       "source_relative_path": "pages/guides/concepts/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/concepts/toc.html"
+          "relative_path": "guides/concepts/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/concepts/toc.json"
+          "relative_path": "guides/concepts/toc.json"
         }
       },
       "version": ""
@@ -4591,10 +4581,10 @@
       "source_relative_path": "pages/guides/database-management/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/database-management/toc.html"
+          "relative_path": "guides/database-management/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/database-management/toc.json"
+          "relative_path": "guides/database-management/toc.json"
         }
       },
       "version": ""
@@ -4874,10 +4864,10 @@
       "source_relative_path": "pages/guides/docs/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/docs/toc.html"
+          "relative_path": "guides/docs/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/docs/toc.json"
+          "relative_path": "guides/docs/toc.json"
         }
       },
       "version": ""
@@ -5027,10 +5017,10 @@
       "source_relative_path": "pages/guides/extensions/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/extensions/toc.html"
+          "relative_path": "guides/extensions/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/extensions/toc.json"
+          "relative_path": "guides/extensions/toc.json"
         }
       },
       "version": ""
@@ -5420,10 +5410,10 @@
       "source_relative_path": "pages/guides/installation/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/installation/toc.html"
+          "relative_path": "guides/installation/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/installation/toc.json"
+          "relative_path": "guides/installation/toc.json"
         }
       },
       "version": ""
@@ -5903,10 +5893,10 @@
       "source_relative_path": "pages/guides/marketplace/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/marketplace/toc.html"
+          "relative_path": "guides/marketplace/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/marketplace/toc.json"
+          "relative_path": "guides/marketplace/toc.json"
         }
       },
       "version": ""
@@ -5976,10 +5966,10 @@
       "source_relative_path": "pages/guides/migrations/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/migrations/toc.html"
+          "relative_path": "guides/migrations/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/migrations/toc.json"
+          "relative_path": "guides/migrations/toc.json"
         }
       },
       "version": ""
@@ -6099,10 +6089,10 @@
       "source_relative_path": "pages/guides/modules/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/modules/toc.html"
+          "relative_path": "guides/modules/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/modules/toc.json"
+          "relative_path": "guides/modules/toc.json"
         }
       },
       "version": ""
@@ -6182,10 +6172,10 @@
       "source_relative_path": "pages/guides/random/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/random/toc.html"
+          "relative_path": "guides/random/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/random/toc.json"
+          "relative_path": "guides/random/toc.json"
         }
       },
       "version": ""
@@ -6435,10 +6425,10 @@
       "source_relative_path": "pages/guides/themes/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/themes/toc.html"
+          "relative_path": "guides/themes/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/themes/toc.json"
+          "relative_path": "guides/themes/toc.json"
         }
       },
       "version": ""
@@ -6458,10 +6448,10 @@
       "source_relative_path": "pages/guides/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/toc.html"
+          "relative_path": "guides/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/toc.json"
+          "relative_path": "guides/toc.json"
         }
       },
       "version": ""
@@ -6491,10 +6481,10 @@
       "source_relative_path": "pages/guides/troubleshooting/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/guides/troubleshooting/toc.html"
+          "relative_path": "guides/troubleshooting/toc.html"
         },
         ".json": {
-          "relative_path": "pages/guides/troubleshooting/toc.json"
+          "relative_path": "guides/troubleshooting/toc.json"
         }
       },
       "version": ""
@@ -6615,6 +6605,16 @@
       "output": {
         ".html": {
           "relative_path": "guides/troubleshooting/troubleshooting-user-registration-email-verification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
         }
       },
       "version": ""
@@ -7174,10 +7174,10 @@
       "source_relative_path": "pages/manuals/content/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/content/toc.html"
+          "relative_path": "manuals/content/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/content/toc.json"
+          "relative_path": "manuals/content/toc.json"
         }
       },
       "version": ""
@@ -7367,10 +7367,10 @@
       "source_relative_path": "pages/manuals/installation/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/installation/toc.html"
+          "relative_path": "manuals/installation/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/installation/toc.json"
+          "relative_path": "manuals/installation/toc.json"
         }
       },
       "version": ""
@@ -8790,10 +8790,10 @@
       "source_relative_path": "pages/manuals/site/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/site/toc.html"
+          "relative_path": "manuals/site/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/site/toc.json"
+          "relative_path": "manuals/site/toc.json"
         }
       },
       "version": ""
@@ -10243,10 +10243,10 @@
       "source_relative_path": "pages/manuals/system/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/system/toc.html"
+          "relative_path": "manuals/system/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/system/toc.json"
+          "relative_path": "manuals/system/toc.json"
         }
       },
       "version": ""
@@ -10256,10 +10256,10 @@
       "source_relative_path": "pages/manuals/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "pages/manuals/toc.html"
+          "relative_path": "manuals/toc.html"
         },
         ".json": {
-          "relative_path": "pages/manuals/toc.json"
+          "relative_path": "manuals/toc.json"
         }
       },
       "version": ""
@@ -10270,6 +10270,19 @@
       "output": {
         ".html": {
           "relative_path": "system/module-management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
@@ -10300,19 +10313,6 @@
       "output": {
         "resource": {
           "relative_path": "shared/authors/leigh-pointer/assets/leigh-pointer.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
-        ".json": {
-          "relative_path": "toc.json"
         }
       },
       "version": ""

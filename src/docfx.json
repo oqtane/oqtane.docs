@@ -1,10 +1,6 @@
 {
   "metadata": [
     {
-      // Blank src sample
-      // This should be used when making changes to the theme and wanting to see changes quickly, as it skips parsing the source code
-      // To use, rename this to "src" and rename the real src to "dummy-src" while developing, then revert when done
-      "x-src": [],
       // Oqtane Source Code - where it will extract the API docs from
       "src": [
         {
@@ -35,16 +31,17 @@
   "build": {
     "content": [
       {
+        "src": "obj",
         "files": [
           "api/**.yml"
         ],
-        "src": "obj",
       },
       {
         // Note: new docfx convention places things in /pages
         "src": "pages",
         "files": [
           "**.md",
+          "**toc.yml",
         ],
         "exclude": [
           // exclude _*.md files, as they are used for includes
@@ -56,9 +53,7 @@
       {
         "files": [
           "api/**.md",
-          "admin/**.md",
-          "articles/**.md",
-          "**toc.yml",
+          "api/**toc.yml",
           "*.md"
         ],
         "exclude": [

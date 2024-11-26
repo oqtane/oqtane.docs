@@ -1,0 +1,10 @@
+
+- name: Guides
+  href: ./guides/
+
+- name: User Manuals
+  href: ./manuals/
+
+- name: API Documentation
+  href: ../obj/api/
+  topicHref: ../api/index.md
