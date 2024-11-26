@@ -6,7 +6,7 @@ The Oqtane framework is a modular application framework for Blazor that allows y
 
 ## Prerequisites
 
-- An Azure account. If you don’t have one, you can [create one for free here](https://azure.microsoft.com/en-in/free/).
+- An Azure account. If you don't have one, you can [create one for free here](https://azure.microsoft.com/en-in/free/).
 - The Oqtane GitHub repository. You can [access it here](https://www.github.com/oqtane/oqtane.framework).
 
 ## Steps

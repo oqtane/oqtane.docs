@@ -34,7 +34,7 @@ This guide provides troubleshooting steps for common issues developers may encou
 **Symptoms**: JavaScript functionality (e.g., interactive elements) does not work after applying the theme.
 
 **Solution**:
-- **Check Console for Errors**: Open the browser’s developer console and look for any JavaScript errors. These could provide clues about why the script isn't running, such as missing files or syntax issues.
+- **Check Console for Errors**: Open the browser's developer console and look for any JavaScript errors. These could provide clues about why the script isn't running, such as missing files or syntax issues.
 - **Check Script References**: Ensure JavaScript files are correctly linked in the layout (`_Host.cshtml`). Verify that they are loaded in the right order, as some libraries may depend on others (e.g., jQuery needs to be loaded before Bootstrap).
 - **Check for jQuery Conflicts**: If you're using jQuery, ensure there are no conflicts with other JavaScript libraries. For example, a newer version of jQuery might conflict with older plugins or vice versa.
 
@@ -46,7 +46,7 @@ This guide provides troubleshooting steps for common issues developers may encou
 
 **Solution**:
 - **Responsive Design**: Ensure that your theme's CSS includes responsive design rules (e.g., media queries). This ensures that the layout adapts to different screen sizes and devices.
-- **Check Layout Files**: Review your theme’s layout files (e.g., `_Layout.cshtml`) for issues with the grid system, container elements, or view sections that could be causing layout issues.
+- **Check Layout Files**: Review your theme's layout files (e.g., `_Layout.cshtml`) for issues with the grid system, container elements, or view sections that could be causing layout issues.
 - **Browser Compatibility**: Test your theme in different browsers to ensure cross-browser compatibility. Some CSS or JavaScript features may not be supported in older versions of certain browsers.
 - **Use Browser Developer Tools**: Use developer tools in the browser to test different screen sizes and identify issues with the layout or design.
 

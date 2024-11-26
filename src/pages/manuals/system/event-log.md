@@ -26,7 +26,7 @@ The Event Log provides a centralized record of events occurring on your website,
 
 ## Event Log Features
 
-Upon opening the Event Log, you’ll see a list of recent events by default, displayed in pages with 10 entries per page. You can adjust the page size to view more events at a time.
+Upon opening the Event Log, you'll see a list of recent events by default, displayed in pages with 10 entries per page. You can adjust the page size to view more events at a time.
 
 ### Filtering Events
 
@@ -100,4 +100,4 @@ To clear all events from the log:
 
 ## Summary
 
-The Event Log feature enables efficient monitoring of your site’s events. Utilize filters, pagination, and detail views to gain insights, troubleshoot issues, and keep your site secure. Configure settings as needed for optimal event data retention and manage the log by clearing old events when necessary.
+The Event Log feature enables efficient monitoring of your site's events. Utilize filters, pagination, and detail views to gain insights, troubleshoot issues, and keep your site secure. Configure settings as needed for optimal event data retention and manage the log by clearing old events when necessary.

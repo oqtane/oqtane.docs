@@ -69,7 +69,7 @@ This guide will walk you through each section, detailing how to utilize the User
    ![User Import Window](assets/user-management-import-users.png)
 
 3. Click **Upload** to load the file, then click **Import** to add users in bulk.
-4. If you don’t have a template, you can download one by clicking the **Template** button.
+4. If you don't have a template, you can download one by clicking the **Template** button.
 
    ![User Import Users Template Button](assets/user-management-import-users-template-button.png)
 
@@ -90,7 +90,7 @@ This guide will walk you through each section, detailing how to utilize the User
 
 ### Editing Users
 
-1. To modify a user’s information, locate the user in the list and click **Edit**.
+1. To modify a user's information, locate the user in the list and click **Edit**.
    
    ![Edit User Button](assets/user-management-edit-button.png)
 
@@ -119,7 +119,7 @@ This guide will walk you through each section, detailing how to utilize the User
    ![User Roles Button](assets/user-management-roles-button.png)
 
 2. In the **User Roles** window:
-   - **User**: Displays the user’s name.
+   - **User**: Displays the user's name.
    - **Role**: Select a role to assign from a dropdown list.
    - **Effective Date**: Choose a start date for the role.
    - **Expiry Date**: Set an expiration date for the role (optional).

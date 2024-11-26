@@ -6,6 +6,11 @@
   href: ./extensions/toc.yml
   topicUid: Dev.Extensions.Index
 
+- name: Modules (WIP)
+  href: ./modules/toc.yml
+  topicUid: Dev.Modules.Index
+
 - name: Themes
   href: ./themes/toc.yml
   topicUid: Dev.Themes.Index
+

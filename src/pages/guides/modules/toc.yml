@@ -14,14 +14,5 @@
     - name: Customizing Module Appearance
       href: customizing-module-appearance.md
 
-- name: Developing Modules
-  items:
-    - name: Creating Modules
-      href: creating-a-module.md
-    - name: Developing Modules
-      href: module-development.md
-    - name: Module Deployment
-      href: module-deployment.md
-    
-- name: Troubleshooting
-  href: troubleshooting.md
+- name: Develop Modules
+  topicUid: Dev.Modules.Index

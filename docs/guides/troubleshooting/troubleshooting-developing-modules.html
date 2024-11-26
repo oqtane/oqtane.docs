@@ -105,7 +105,7 @@
 <p><strong>Solution</strong>:</p>
 <ul>
 <li><strong>Check Layout Files</strong>: Review the <code>.cshtml</code> or <code>.razor</code> layout files for the module. Ensure they are correctly structured, with proper references to CSS, JavaScript, and component elements.</li>
-<li><strong>Check Styles and Scripts</strong>: Verify that the module’s required stylesheets and scripts are included and properly referenced. Missing or incorrect references may result in layout issues.</li>
+<li><strong>Check Styles and Scripts</strong>: Verify that the module's required stylesheets and scripts are included and properly referenced. Missing or incorrect references may result in layout issues.</li>
 <li><strong>Responsive Design</strong>: Ensure that the module is responsive, especially if it uses a grid layout. Verify that CSS media queries are in place to adapt the module's layout for different screen sizes.</li>
 </ul>
 <hr>
@@ -113,8 +113,8 @@
 <p><strong>Symptoms</strong>: JavaScript functionality (such as interactivity) doesn't work or fails to trigger in the module.</p>
 <p><strong>Solution</strong>:</p>
 <ul>
-<li><strong>Inspect Browser Console</strong>: Open the browser’s developer console and check for JavaScript errors. Missing files, syntax errors, or issues with dependencies could prevent the script from running.</li>
-<li><strong>Check Script References</strong>: Make sure JavaScript files are correctly linked in the module’s layout file. Verify that the JavaScript files are loaded in the right order, as some modules may require specific libraries (e.g., jQuery or Bootstrap).</li>
+<li><strong>Inspect Browser Console</strong>: Open the browser's developer console and check for JavaScript errors. Missing files, syntax errors, or issues with dependencies could prevent the script from running.</li>
+<li><strong>Check Script References</strong>: Make sure JavaScript files are correctly linked in the module's layout file. Verify that the JavaScript files are loaded in the right order, as some modules may require specific libraries (e.g., jQuery or Bootstrap).</li>
 <li><strong>Check for jQuery Conflicts</strong>: If using jQuery, ensure no conflicts with other JavaScript libraries. For instance, ensure jQuery is loaded before any jQuery-dependent scripts.</li>
 <li><strong>Debug JavaScript Code</strong>: Use debugging tools to step through the JavaScript code and confirm if all functions are being executed as expected.</li>
 </ul>
@@ -132,7 +132,7 @@
 <p><strong>Symptoms</strong>: The module fails to load, and exceptions or errors are thrown during its operation.</p>
 <p><strong>Solution</strong>:</p>
 <ul>
-<li><strong>Check Logs for Exceptions</strong>: Review the server logs for exceptions that are being thrown. The logs can provide detailed information about the specific error and the module’s behavior at runtime.</li>
+<li><strong>Check Logs for Exceptions</strong>: Review the server logs for exceptions that are being thrown. The logs can provide detailed information about the specific error and the module's behavior at runtime.</li>
 <li><strong>Verify Database Connections</strong>: If your module interacts with a database, ensure that database connections are correctly configured. Incorrect connection strings or missing database tables can cause runtime errors.</li>
 <li><strong>Check for Missing Dependencies</strong>: Ensure all dependencies required by the module are properly included. Missing DLLs or dependencies can cause the module to fail.</li>
 <li><strong>Debug in Development Mode</strong>: Enable detailed error messages in the development environment to get a more granular view of the issues and track down the root cause.</li>
@@ -142,18 +142,18 @@
 <p><strong>Symptoms</strong>: The module functions incorrectly, or some features do not work as intended.</p>
 <p><strong>Solution</strong>:</p>
 <ul>
-<li><strong>Check Business Logic</strong>: Review the module’s business logic to ensure it performs the intended actions. Validate that all the necessary conditions are being met within the code.</li>
+<li><strong>Check Business Logic</strong>: Review the module's business logic to ensure it performs the intended actions. Validate that all the necessary conditions are being met within the code.</li>
 <li><strong>Test Module Inputs</strong>: Verify that the inputs (e.g., user input or data from the database) are being processed correctly by the module.</li>
-<li><strong>Check Configuration Settings</strong>: Ensure the module’s settings and configuration are correct. Misconfigured settings can lead to unexpected behavior.</li>
+<li><strong>Check Configuration Settings</strong>: Ensure the module's settings and configuration are correct. Misconfigured settings can lead to unexpected behavior.</li>
 <li><strong>Use Debugging</strong>: If needed, debug the module step-by-step to observe the internal state and pinpoint where the behavior diverges from expectations.</li>
 </ul>
 <hr>
 <h2 id="7-module-permissions-not-working">7. Module Permissions Not Working</h2>
-<p><strong>Symptoms</strong>: The module is not visible or accessible based on the user’s permissions.</p>
+<p><strong>Symptoms</strong>: The module is not visible or accessible based on the user's permissions.</p>
 <p><strong>Solution</strong>:</p>
 <ul>
 <li><strong>Verify Permission Settings</strong>: Check the permissions set for the module in the Oqtane control panel. Ensure that the user role has the correct permissions for viewing or interacting with the module.</li>
-<li><strong>Check Role Assignment</strong>: Make sure the user’s role is properly assigned and that the permissions for the module are aligned with the role’s capabilities.</li>
+<li><strong>Check Role Assignment</strong>: Make sure the user's role is properly assigned and that the permissions for the module are aligned with the role's capabilities.</li>
 <li><strong>Review Module Visibility Logic</strong>: Some modules may have additional logic in place that controls visibility based on user roles. Verify that the logic is functioning as intended.</li>
 </ul>
 <hr>
@@ -170,7 +170,7 @@
 <p><strong>Symptoms</strong>: After updating Oqtane, the module behaves incorrectly or fails to load.</p>
 <p><strong>Solution</strong>:</p>
 <ul>
-<li><strong>Review Release Notes</strong>: Check the Oqtane release notes for any breaking changes or updates to the module system that may affect your module. Pay attention to any updates in the API or core framework that may impact your module’s functionality.</li>
+<li><strong>Review Release Notes</strong>: Check the Oqtane release notes for any breaking changes or updates to the module system that may affect your module. Pay attention to any updates in the API or core framework that may impact your module's functionality.</li>
 <li><strong>Update Module Code</strong>: If necessary, modify your module to ensure compatibility with the latest version of Oqtane. This could involve changing APIs, adjusting for new features, or removing deprecated functionality.</li>
 <li><strong>Test in Development</strong>: Test the updated module in a development environment before deploying it to production to ensure it behaves as expected with the latest Oqtane version.</li>
 </ul>

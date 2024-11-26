@@ -12,7 +12,7 @@ Users with the **Administrators** role can access the Control Panel by logging i
 
 To open the Control Panel:
 1. **Log in to Oqtane**: Ensure that you're logged in with a user account assigned to the Administrators role.
-2. **Click the Control Panel Icon**: Once logged in, you’ll see the Control Panel icon.
+2. **Click the Control Panel Icon**: Once logged in, you'll see the Control Panel icon.
 ![Control Panel Icon](./assets/control-panel-icon-button.png) 
 Click this icon to open the Control Panel menu. This will expand the menu and provide access to various management features within the Control Panel.
 

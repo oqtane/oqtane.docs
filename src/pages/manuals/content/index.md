@@ -10,6 +10,6 @@ When managing your Oqtane site as an administrator, most of your daily tasks wil
 * [Content Editor](content-editor.md)
 * [HTML/Text Editor](html-text-editor.md)
 
-In Oqtane, users with content management permissions, defined by their roles, are referred to as “content editors.” Content editors typically access only the necessary sections of the Control Panel to perform tasks like adding or editing a module on a page.
+In Oqtane, users with content management permissions, defined by their roles, are referred to as "content editors." Content editors typically access only the necessary sections of the Control Panel to perform tasks like adding or editing a module on a page.
 
 The Control Panel provided with Oqtane is the default, but it can be replaced with a custom or third-party option, like other extensions in Oqtane such as modules, themes, and more.

@@ -1,6 +1,6 @@
 # HTML/Text Editor
 
-The HTML/Text Editor module in Oqtane enables you to create, edit, and restore content using a rich text editor (WYSIWYG) and a raw HTML editor. This module is ideal for exploring Oqtane’s editing and content management features, including moving modules between panes, configuring settings, and managing roles.
+The HTML/Text Editor module in Oqtane enables you to create, edit, and restore content using a rich text editor (WYSIWYG) and a raw HTML editor. This module is ideal for exploring Oqtane's editing and content management features, including moving modules between panes, configuring settings, and managing roles.
 
 ![HTML/Text Editor](./assets/html-text-editor.png)
 
@@ -30,7 +30,7 @@ The Edit tab provides three sub-tabs for different editing options:
 
    ![HTML/Text Editor Raw HTML Editor](./assets/html-text-editor-raw-html-editor.png)
 
-* **Settings** – Provides configuration options for the editor’s features.
+* **Settings** – Provides configuration options for the editor's features.
 
 #### Rich Text Editor Settings
 
@@ -41,7 +41,7 @@ In the **Settings** sub-tab, you can customize the editor with the following opt
 - **Insert Images?** - Yes
 - **Theme**: Options like "snow" theme
 - **Debug Level**: Example setting "info"
-- **Toolbar Content**: Define the editor’s toolbar
+- **Toolbar Content**: Define the editor's toolbar
 
    ![HTML/Text Editor Settings Tab](./assets/html-text-editor-settings.png)
 
@@ -85,7 +85,7 @@ The Versions tab displays a list of previous content versions, along with:
 
 Each version offers the following actions:
 
-- **View** – Shows the selected version’s content.
+- **View** – Shows the selected version's content.
 
    ![HTML/Text Editor Versions View Button](./assets/html-text-editor-versions-view-button.png)
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section provides resources and guidance for troubleshooting various aspects of working with themes in Oqtane. Whether you’re applying pre-built themes or developing custom ones, these guides will help you navigate common issues.
+This section provides resources and guidance for troubleshooting various aspects of working with themes in Oqtane. Whether you're applying pre-built themes or developing custom ones, these guides will help you navigate common issues.
 
 ### Theme Troubleshooting Guides
 

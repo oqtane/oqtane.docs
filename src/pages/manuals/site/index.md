@@ -18,7 +18,7 @@ The Control Panel provides quick access to additional site settings and tools:
 
    ![Admin Dashboard Button](./assets/control-panel-admin-dashboard-button.png)
 
-3. **Navigate to Desired Feature**: In the Admin Dashboard, you’ll find icons for each feature available. Select the feature you wish to manage.
+3. **Navigate to Desired Feature**: In the Admin Dashboard, you'll find icons for each feature available. Select the feature you wish to manage.
 
 ---
 

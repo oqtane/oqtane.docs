@@ -22,7 +22,9 @@ More modules can also be downloaded for use or modules that you can created can 
 Modules are placed onto pages in locations called "panes".
 These panes are defined by the theme's designer.
 These themes dictates the overall look and feel of your site and is usually created by a front-end designer.
-Panes can span the full width of the page or be positioned in a column fashion. It may be helpful to think of panes as windows in the design of the site where you can drop in modules. You can move modules around the panes by using the [content editor](../../manuals/content/content-editor.md).
+Panes can span the full width of the page or be positioned in a column fashion.
+It may be helpful to think of panes as windows in the design of the site where you can drop in modules.
+You can move modules around the panes by using the [content editor](../../manuals/content/content-editor.md).
 
 This is an example of a content pane.
 
@@ -35,6 +37,6 @@ This is an example of a content pane.
 - [Installing Modules](module-installation.md): Step-by-step instructions for installing modules on your Oqtane site.
 - [Configurating Modules](module-configuration.md): Customize and configure module settings to suit your specific requirements.
 - [Troubleshooting Modules](../../guides/troubleshooting/troubleshooting-modules.md): Troubleshooting tips and solutions for common issues encountered with modules.
-- [Developing Modules](module-development.md): Resources and guidelines for developing custom modules for Oqtane.
+- [Developing Modules](xref:Dev.Modules.Index): Resources and guidelines for developing custom modules for Oqtane.
 
 Feel free to explore each topic to find the information you need to effectively work with modules in your Oqtane applications.

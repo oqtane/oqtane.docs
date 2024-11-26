@@ -599,7 +599,7 @@ string logNotes = jobLog.Notes; // returns "Backup completed successfully."
 
 ---
 
-For the `database-schema.md` file, you can simplify the documentation to make it concise and focused on essential details. Here’s an example of how you might document the **Language** model without the full class definition:
+For the `database-schema.md` file, you can simplify the documentation to make it concise and focused on essential details. Here's an example of how you might document the **Language** model without the full class definition:
 
 ---
 

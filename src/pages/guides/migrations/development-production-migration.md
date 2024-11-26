@@ -10,7 +10,7 @@ Follow the steps below to successfully migrate your Oqtane instance to a product
 
 #### 1. **Prepare the Development Environment for Migration**
    - **Ensure All Features Are Tested**: Before migrating, thoroughly test all modules, features, and configurations in your development environment to ensure everything works as expected.
-   - **Backup Data and Configuration**: Take a backup of your development database, configuration files, and any custom content or themes you’ve created.
+   - **Backup Data and Configuration**: Take a backup of your development database, configuration files, and any custom content or themes you've created.
    - **Check Version Compatibility**: Ensure that the Oqtane Framework version you're using in development is the same or compatible with the version you're installing in production.
 
 #### 2. **Prepare the Production Environment**

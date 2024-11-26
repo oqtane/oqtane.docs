@@ -71,7 +71,7 @@ WebDAV is not supported by Oqtane Framework. To ensure a smooth installation and
 
 #### Additional Notes
 
-- It is recommended to contact your hosting provider’s support if you encounter difficulties disabling WebDAV.
+- It is recommended to contact your hosting provider's support if you encounter difficulties disabling WebDAV.
 - Ensure all changes are properly saved and applied before proceeding with the Oqtane installation.
 
 ## Additional Resources

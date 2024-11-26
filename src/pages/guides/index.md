@@ -88,7 +88,7 @@ Here are some external resources and articles that provide additional insights a
 ## 🚀 Next Steps
 
 - Explore our **[Roadmap & History](roadmap/index.md)** for insights into the ongoing development of Oqtane.
-- **Need help with documentation or contributing?** Visit our **[Documentation Page](docs/index.md)** to learn how you can get involved with contributing to Oqtane’s documentation and improving the guides.
+- **Need help with documentation or contributing?** Visit our **[Documentation Page](docs/index.md)** to learn how you can get involved with contributing to Oqtane's documentation and improving the guides.
 
 ---
 

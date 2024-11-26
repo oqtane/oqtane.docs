@@ -18,7 +18,7 @@ To access the Module Management feature in the Control Panel:
 
 ## Module Management Options
 
-In the Control Panel’s Module Management section, you have the following options:
+In the Control Panel's Module Management section, you have the following options:
 
 ### Add New Module
 
@@ -31,7 +31,7 @@ This option allows you to place a new module of your choice onto the page:
 2. **Select Module**: Choose a module from the selected category.
 
 3. **Enter Module Details**:
-   - **Title**: The title displayed above the module. If left blank, the module’s name will serve as the title.
+   - **Title**: The title displayed above the module. If left blank, the module's name will serve as the title.
    - **Pane**: Select the content pane where the module will be placed, organized by modules in the pane.
    - **Location**: Set the location of the module as "Top" or "Bottom" inside the pane .
    - **Container**: Choose a theme container for the pane.

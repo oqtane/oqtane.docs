@@ -78,4 +78,4 @@ Each profile item has two buttons:
 
 ## Conclusion
 
-The Profile Management feature in Oqtane provides administrators with powerful tools to customize and manage user profiles. Whether you're creating new profile fields or setting validation rules, this feature is essential for tailoring the user experience on your site. Be sure to explore all options to make the most of your site’s profile management capabilities.
+The Profile Management feature in Oqtane provides administrators with powerful tools to customize and manage user profiles. Whether you're creating new profile fields or setting validation rules, this feature is essential for tailoring the user experience on your site. Be sure to explore all options to make the most of your site's profile management capabilities.

@@ -1,4 +1,4 @@
-# Creating a Module
+# Create a Module
 
 Learn how to create custom modules for Oqtane to extend its functionality and add new features to your applications.
 

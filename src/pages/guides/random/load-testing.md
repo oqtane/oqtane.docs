@@ -8,7 +8,7 @@ Load testing is a crucial process in ensuring that your Oqtane application can h
 
 - **Performance Optimization**: Identify performance bottlenecks.
 - **Scalability**: Ensure the application can scale with increased user load.
-- **Stability**: Verify the application’s stability under peak load conditions.
+- **Stability**: Verify the application's stability under peak load conditions.
 - **Reliability**: Confirm the application behaves reliably under varied conditions.
 
 ## Preparing for Load Testing

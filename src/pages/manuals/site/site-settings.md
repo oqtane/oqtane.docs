@@ -45,7 +45,7 @@ The Appearance section includes options related to the visual representation of 
 
 - **Logo**: Specify a site logo using the file manager for easy selection, upload, and deletion.
 - **Favicon**: Specify a favicon with the same file manager options as the logo.
-- **Default Theme**: Select the site’s default theme.
+- **Default Theme**: Select the site's default theme.
 - **Default Container**: Choose the default container for the site.
 - **Default Admin Container**: Select the default admin container for the site.
 

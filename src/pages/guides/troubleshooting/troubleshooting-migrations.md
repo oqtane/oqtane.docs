@@ -109,7 +109,7 @@ This guide provides troubleshooting steps for common issues encountered during t
 
 **Solution**:
 - **Check URL Rewrites**: Ensure that any URL rewrites or redirections are correctly configured in the new environment, especially if server paths have changed.
-- **Review Routing Settings**: Verify that routing settings in Oqtane’s configuration files are correctly set up, including base URLs and other path-related configurations.
+- **Review Routing Settings**: Verify that routing settings in Oqtane's configuration files are correctly set up, including base URLs and other path-related configurations.
 - **Test Links**: Use a link checker to test for any broken links across the site. Ensure that all internal links are properly pointing to the new location.
 
 ---

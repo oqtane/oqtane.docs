@@ -2,7 +2,7 @@
 uid: Dev.Themes.Index
 ---
 
-# Oqtane Themes Guide
+# Oqtane Themes Developer Guide
 
 > Oqtane Themes are extensions to customize the look and feel of your Oqtane website.
 > This guide will help you get started with creating and using themes in Oqtane.

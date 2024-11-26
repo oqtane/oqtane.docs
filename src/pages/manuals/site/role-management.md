@@ -89,7 +89,7 @@ Clicking the **Delete** button will delete a role. Deleting a role removes its p
 
 The **Users** button allows you to add or remove users from a specific role. Clicking **Users** for a role opens a window where you can:
 
-- **User:** Enter the user’s name to add them to the role.
+- **User:** Enter the user's name to add them to the role.
 - **Effective Date:** Set the date when the role assignment starts.
 - **Expiry Date:** Set the date when the role assignment ends (optional).
   

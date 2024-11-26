@@ -4,7 +4,7 @@
 
 The **Host Dashboard** in Oqtane provides hosts with an extensive set of tools to oversee, configure, and support the entire Oqtane instance. Host users possess the highest level of permissions, allowing them to manage global settings, monitor system performance, and maintain the instance across all sites. 
 
-Hosts log in just as other users do, using the designated host account created during the initial launch of Oqtane. However, hosts have access to exclusive features within the **Admin Dashboard** that provide additional control over Oqtane’s configuration and functionality.
+Hosts log in just as other users do, using the designated host account created during the initial launch of Oqtane. However, hosts have access to exclusive features within the **Admin Dashboard** that provide additional control over Oqtane's configuration and functionality.
 
 ## Control Panel **Admin Dashboard** Feature Walk-through
 
@@ -18,7 +18,7 @@ The Control Panel offers streamlined access to host settings and features:
 
    ![Admin Dashboard Button](./assets/control-panel-admin-dashboard-button.png)
 
-3. **Navigate to Desired Feature**: Within the **Admin Dashboard**, you’ll find icons for each available feature. Click on the desired feature to begin management.
+3. **Navigate to Desired Feature**: Within the **Admin Dashboard**, you'll find icons for each available feature. Click on the desired feature to begin management.
 
    ![Host Management](./assets/admin-dashboard.png)
 

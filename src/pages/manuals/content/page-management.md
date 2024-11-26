@@ -25,7 +25,7 @@ ___
 - **Insert**: Specifies the position of the page among its siblings under the selected parent.
 - **Navigation**: Determines if the page should be visible to users with appropriate permissions or hidden from everyone but administrators.
 - **URL Path**: Sets the URL for the page. If no path is specified, it defaults to the name.
-- **Redirect**: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard’s [page management feature](../site/page-management.md) to manage this page further.
+- **Redirect**: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard's [page management feature](../site/page-management.md) to manage this page further.
 
 #### Appearance
 
@@ -47,7 +47,7 @@ ___
 
 ### Permissions
 
-- **View**: Controls which user roles can see the page, based on settings in the admin dashboard’s [role management feature](../site/role-management.md).
+- **View**: Controls which user roles can see the page, based on settings in the admin dashboard's [role management feature](../site/role-management.md).
 - **Edit**: Grants specified roles permission to edit pages using the [content editor](content-editor.md).
 - **Specific Users**: Custom permissions can be assigned to individual users.
 
@@ -85,14 +85,14 @@ Permissions work the same as in the **Add** feature, allowing you to control whi
 
 This tab allows you to manage the modules on the page, giving you the ability to modify or reorder existing modules. This provides a more granular control over the content displayed on your page.
 
-- **Edit**: Access the module’s configuration to modify settings, permissions, and layout.
+- **Edit**: Access the module's configuration to modify settings, permissions, and layout.
 - **Delete**: Remove the module from the page.
 
 ![page-management-edit-modules](./assets/page-management-edit-modules.png)
 
 ### Theme Settings
 
-In the Theme Settings tab, you can adjust the theme and layout of the page. This includes options for the page’s appearance, such as selecting a different theme or changing layout configurations.
+In the Theme Settings tab, you can adjust the theme and layout of the page. This includes options for the page's appearance, such as selecting a different theme or changing layout configurations.
 
 - **Setting Scope**: Choose between **Site** or **Page** for theme application scope.
 - **Show Login?**: Toggle login visibility (options: **Not Specified/Yes/No**).

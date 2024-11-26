@@ -22,11 +22,14 @@ references:
 - uid: Dev.Extensions.Package
   name: Oqtane Extension - Nuget Package
   href: dev/extensions/build/package.html
+- uid: Dev.Modules.Index
+  name: Oqtane Modules Developer Guide
+  href: dev/modules/index.html
 - uid: Dev.Themes.Generator.Index
   name: Oqtane Themes Generator
   href: dev/themes/generator/index.html
 - uid: Dev.Themes.Index
-  name: Oqtane Themes Guide
+  name: Oqtane Themes Developer Guide
   href: dev/themes/index.html
 - uid: Guides.Dev.Index
   name: Oqtane Development Guides (WIP)

@@ -67,7 +67,7 @@ If the page layout includes multiple panes (e.g., three center rows, a top row, 
 
 ![Move to Pane Options](./assets/content-editor-module-options-move-to-pane.png)
 
-The **Move to Pane** feature is adaptable to different themes, and the available panes vary depending on the layout provided by the theme. In the example shown in the image, you’ll see a variety of pane options that a more complex theme might offer, giving administrators greater flexibility in organizing modules. 
+The **Move to Pane** feature is adaptable to different themes, and the available panes vary depending on the layout provided by the theme. In the example shown in the image, you'll see a variety of pane options that a more complex theme might offer, giving administrators greater flexibility in organizing modules. 
 
 For instance, the default Oqtane theme includes not only standard rows and columns but also numerous additional panes, which allow for a wide range of layout possibilities. While simpler themes may only display a few basic options, the default theme might provide over 20 panes, including:
 
@@ -94,4 +94,4 @@ For instance, the default Oqtane theme includes not only standard rows and colum
 
 - **Footer Pane**: An additional pane often reserved for footer content.
 
-These pane options let administrators place modules precisely within the layout structure, which is divided into sections adding up to 100% of the layout width. The image shows this range of options, giving a visual reference of the **Move To >** menu options when working with themes that support complex layouts. This flexibility enables customized content presentation to best suit each page’s design.
+These pane options let administrators place modules precisely within the layout structure, which is divided into sections adding up to 100% of the layout width. The image shows this range of options, giving a visual reference of the **Move To >** menu options when working with themes that support complex layouts. This flexibility enables customized content presentation to best suit each page's design.

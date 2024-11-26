@@ -33,7 +33,7 @@ If you're having trouble setting up your database or connecting it to Oqtane, ch
 
 ## Database Migrations
 
-Database migrations are a critical part of setting up and maintaining Oqtane's database. Here’s how to troubleshoot migration issues:
+Database migrations are a critical part of setting up and maintaining Oqtane's database. Here's how to troubleshoot migration issues:
 
 ### 2.1. **Failed Migrations**
 
@@ -52,7 +52,7 @@ For more details on performing migrations, check the [Database Migration Guide](
 
 ## Performance Problems
 
-Performance issues can often be traced back to database queries or configuration settings. Here’s how to troubleshoot them:
+Performance issues can often be traced back to database queries or configuration settings. Here's how to troubleshoot them:
 
 ### 3.1. **Slow Queries**
 
@@ -69,7 +69,7 @@ Performance issues can often be traced back to database queries or configuration
 
 ## Database Integrity and Security
 
-Ensuring the integrity and security of your database is crucial. Here’s how to address common database issues:
+Ensuring the integrity and security of your database is crucial. Here's how to address common database issues:
 
 ### 4.1. **Data Corruption**
 

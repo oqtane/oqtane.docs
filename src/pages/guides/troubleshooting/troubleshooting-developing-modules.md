@@ -24,7 +24,7 @@ This guide offers troubleshooting steps for common issues encountered when devel
 
 **Solution**:
 - **Check Layout Files**: Review the `.cshtml` or `.razor` layout files for the module. Ensure they are correctly structured, with proper references to CSS, JavaScript, and component elements.
-- **Check Styles and Scripts**: Verify that the module’s required stylesheets and scripts are included and properly referenced. Missing or incorrect references may result in layout issues.
+- **Check Styles and Scripts**: Verify that the module's required stylesheets and scripts are included and properly referenced. Missing or incorrect references may result in layout issues.
 - **Responsive Design**: Ensure that the module is responsive, especially if it uses a grid layout. Verify that CSS media queries are in place to adapt the module's layout for different screen sizes.
 
 ---
@@ -34,8 +34,8 @@ This guide offers troubleshooting steps for common issues encountered when devel
 **Symptoms**: JavaScript functionality (such as interactivity) doesn't work or fails to trigger in the module.
 
 **Solution**:
-- **Inspect Browser Console**: Open the browser’s developer console and check for JavaScript errors. Missing files, syntax errors, or issues with dependencies could prevent the script from running.
-- **Check Script References**: Make sure JavaScript files are correctly linked in the module’s layout file. Verify that the JavaScript files are loaded in the right order, as some modules may require specific libraries (e.g., jQuery or Bootstrap).
+- **Inspect Browser Console**: Open the browser's developer console and check for JavaScript errors. Missing files, syntax errors, or issues with dependencies could prevent the script from running.
+- **Check Script References**: Make sure JavaScript files are correctly linked in the module's layout file. Verify that the JavaScript files are loaded in the right order, as some modules may require specific libraries (e.g., jQuery or Bootstrap).
 - **Check for jQuery Conflicts**: If using jQuery, ensure no conflicts with other JavaScript libraries. For instance, ensure jQuery is loaded before any jQuery-dependent scripts.
 - **Debug JavaScript Code**: Use debugging tools to step through the JavaScript code and confirm if all functions are being executed as expected.
 
@@ -57,7 +57,7 @@ This guide offers troubleshooting steps for common issues encountered when devel
 **Symptoms**: The module fails to load, and exceptions or errors are thrown during its operation.
 
 **Solution**:
-- **Check Logs for Exceptions**: Review the server logs for exceptions that are being thrown. The logs can provide detailed information about the specific error and the module’s behavior at runtime.
+- **Check Logs for Exceptions**: Review the server logs for exceptions that are being thrown. The logs can provide detailed information about the specific error and the module's behavior at runtime.
 - **Verify Database Connections**: If your module interacts with a database, ensure that database connections are correctly configured. Incorrect connection strings or missing database tables can cause runtime errors.
 - **Check for Missing Dependencies**: Ensure all dependencies required by the module are properly included. Missing DLLs or dependencies can cause the module to fail.
 - **Debug in Development Mode**: Enable detailed error messages in the development environment to get a more granular view of the issues and track down the root cause.
@@ -69,20 +69,20 @@ This guide offers troubleshooting steps for common issues encountered when devel
 **Symptoms**: The module functions incorrectly, or some features do not work as intended.
 
 **Solution**:
-- **Check Business Logic**: Review the module’s business logic to ensure it performs the intended actions. Validate that all the necessary conditions are being met within the code.
+- **Check Business Logic**: Review the module's business logic to ensure it performs the intended actions. Validate that all the necessary conditions are being met within the code.
 - **Test Module Inputs**: Verify that the inputs (e.g., user input or data from the database) are being processed correctly by the module.
-- **Check Configuration Settings**: Ensure the module’s settings and configuration are correct. Misconfigured settings can lead to unexpected behavior.
+- **Check Configuration Settings**: Ensure the module's settings and configuration are correct. Misconfigured settings can lead to unexpected behavior.
 - **Use Debugging**: If needed, debug the module step-by-step to observe the internal state and pinpoint where the behavior diverges from expectations.
 
 ---
 
 ## 7. Module Permissions Not Working
 
-**Symptoms**: The module is not visible or accessible based on the user’s permissions.
+**Symptoms**: The module is not visible or accessible based on the user's permissions.
 
 **Solution**:
 - **Verify Permission Settings**: Check the permissions set for the module in the Oqtane control panel. Ensure that the user role has the correct permissions for viewing or interacting with the module.
-- **Check Role Assignment**: Make sure the user’s role is properly assigned and that the permissions for the module are aligned with the role’s capabilities.
+- **Check Role Assignment**: Make sure the user's role is properly assigned and that the permissions for the module are aligned with the role's capabilities.
 - **Review Module Visibility Logic**: Some modules may have additional logic in place that controls visibility based on user roles. Verify that the logic is functioning as intended.
 
 ---
@@ -103,7 +103,7 @@ This guide offers troubleshooting steps for common issues encountered when devel
 **Symptoms**: After updating Oqtane, the module behaves incorrectly or fails to load.
 
 **Solution**:
-- **Review Release Notes**: Check the Oqtane release notes for any breaking changes or updates to the module system that may affect your module. Pay attention to any updates in the API or core framework that may impact your module’s functionality.
+- **Review Release Notes**: Check the Oqtane release notes for any breaking changes or updates to the module system that may affect your module. Pay attention to any updates in the API or core framework that may impact your module's functionality.
 - **Update Module Code**: If necessary, modify your module to ensure compatibility with the latest version of Oqtane. This could involve changing APIs, adjusting for new features, or removing deprecated functionality.
 - **Test in Development**: Test the updated module in a development environment before deploying it to production to ensure it behaves as expected with the latest Oqtane version.
 

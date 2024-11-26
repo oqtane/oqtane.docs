@@ -8,7 +8,7 @@ The Module Management feature lists all the modules currently installed in your 
 
 At the top of the Module Management page, there is an **Install** button that lets you add new modules. Modules can be installed either from a pre-configured list or by uploading a NuGet package, allowing it to be included among the available modules for your site.
 
-Within the list of modules, you’ll find options to **Edit** modules, which displays module details and provides options to delete non-default Oqtane modules.
+Within the list of modules, you'll find options to **Edit** modules, which displays module details and provides options to delete non-default Oqtane modules.
 
 ---
 
@@ -70,13 +70,13 @@ You can filter the list of modules by category to simplify navigation.
 
 ## Editing Modules
 
-To modify a module’s settings, click the **Edit** button next to the module you want to adjust.
+To modify a module's settings, click the **Edit** button next to the module you want to adjust.
 
 ![Module Management Edit Button](./assets/module-management-edit-button.png)
 
 ### Definition Tab
 
-The **Definition** tab shows the module’s core details, including its description and version information.
+The **Definition** tab shows the module's core details, including its description and version information.
 
 ![Module Management Edit Definition](./assets/module-management-edit-definition.png)
 
@@ -100,7 +100,7 @@ Use the **Pages** tab to view and link to a specific page on your site with the 
 
 ### Translations Tab
 
-The **Translations** tab allows you to manage localization for the module, ensuring it’s accessible in multiple languages if necessary.
+The **Translations** tab allows you to manage localization for the module, ensuring it's accessible in multiple languages if necessary.
 
 ![Module Management Edit Translations](./assets/module-management-edit-translations.png)
 

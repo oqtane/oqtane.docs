@@ -36,7 +36,7 @@ Put all files in the `assets` folder below the page where they are used.
 
 ### 4. Creativity and Contribution
 
-There’s no hard and fast rule about how you create or edit images and videos. Any contribution is welcome.
+There's no hard and fast rule about how you create or edit images and videos. Any contribution is welcome.
 Feel free to use tools that you're comfortable with.
 For instance, Windows Screen Snippet is a fast and easy tool for creating and saving files.
 Remember, the goal is to make the documentation as clear and helpful as possible.

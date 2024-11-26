@@ -4657,6 +4657,69 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "pages/dev/modules/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/modules/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/dev/modules/module-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/modules/module-create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/dev/modules/module-deployment.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/modules/module-deployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/dev/modules/module-development.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/modules/module-development.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pages/dev/modules/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "dev/modules/toc.html"
+        },
+        ".json": {
+          "relative_path": "dev/modules/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "pages/dev/modules/troubleshooting.md",
+      "output": {
+        ".html": {
+          "relative_path": "dev/modules/troubleshooting.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "pages/dev/themes/assets/oqtane-theme-blazor-cms.org.jpg",
       "output": {
@@ -6262,16 +6325,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "pages/guides/modules/creating-a-module.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/modules/creating-a-module.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "pages/guides/modules/customizing-module-appearance.md",
       "output": {
         ".html": {
@@ -6296,26 +6349,6 @@
       "output": {
         ".html": {
           "relative_path": "guides/modules/module-configuration.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/modules/module-deployment.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/modules/module-deployment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/modules/module-development.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/modules/module-development.html"
         }
       },
       "version": ""
@@ -6349,16 +6382,6 @@
         },
         ".json": {
           "relative_path": "guides/modules/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "pages/guides/modules/troubleshooting.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/modules/troubleshooting.html"
         }
       },
       "version": ""

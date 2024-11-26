@@ -30,7 +30,7 @@ The **Language Management** feature enables administrators to manage translation
 
 ## Configuring Language Management
 
-For most **Language Management** features, refer to the [Admin Management Language Management](../site/language-management.md) documentation. Here’s an overview of the key areas covered there:
+For most **Language Management** features, refer to the [Admin Management Language Management](../site/language-management.md) documentation. Here's an overview of the key areas covered there:
 
 - **Main Index Page**: Lists all installed languages, allowing users to edit or delete (except for the default English language).
 - **Adding a Language**: Provides a modal to add a new language by name and set it as the default.

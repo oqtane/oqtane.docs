@@ -23,7 +23,7 @@ The Oqtane Installation Wizard simplifies the setup process, guiding you through
      - Database: `OqtaneDB`
      - Authentication: SQL Server Authentication with a valid username and password
    - **SQLite**: 
-     - File Path: Specify a file path on the server where SQLite can create a new database file if it doesn’t exist.
+     - File Path: Specify a file path on the server where SQLite can create a new database file if it doesn't exist.
 
 3. **Application Settings**:
    - Define key site settings, including:
@@ -39,7 +39,7 @@ The Oqtane Installation Wizard simplifies the setup process, guiding you through
 
     ![Installation Button](./assets/installation-wizard-install-button.png)
 
-   - Upon completion, you’ll be redirected to the Oqtane homepage, where you can log in with the admin account created during setup.
+   - Upon completion, you'll be redirected to the Oqtane homepage, where you can log in with the admin account created during setup.
 
    ![Installation Complete](./assets/installation-wizard-install-spinner.png)
    

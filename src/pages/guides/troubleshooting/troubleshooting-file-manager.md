@@ -21,7 +21,7 @@ Certain file types are not being uploaded or are being rejected by the system.
 
 **Solution:**  
 - Verify that the file type is allowed in the Oqtane File Manager configuration. You may need to modify the allowed file types list if certain types are restricted.
-- If the file type should be allowed, check the server’s MIME type configuration to ensure that the file type is registered correctly for upload.
+- If the file type should be allowed, check the server's MIME type configuration to ensure that the file type is registered correctly for upload.
 
 ### 3. Missing Files After Upload
 
@@ -30,7 +30,7 @@ Files appear to upload successfully, but they are not visible in the File Manage
 
 **Solution:**  
 - Check the destination folder in the File Manager to confirm that the file was uploaded to the correct directory.
-- Ensure that the correct file path is set in the system configuration, and check for any issues with the server’s file system.
+- Ensure that the correct file path is set in the system configuration, and check for any issues with the server's file system.
 - Verify that the File Manager is correctly displaying files from the uploaded directory. If necessary, refresh the view to load the updated list of files.
 
 ### 4. Permissions Issues with Files and Folders
@@ -51,7 +51,7 @@ The File Manager interface fails to load or crashes during usage.
 **Solution:**  
 - Check for any JavaScript errors in the browser's developer console that could be preventing the File Manager from functioning properly.
 - Verify that all necessary JavaScript and CSS files for the File Manager are loaded properly. If files are missing or not being served, they may need to be re-deployed.
-- Clear your browser’s cache and cookies to resolve any residual issues related to outdated files.
+- Clear your browser's cache and cookies to resolve any residual issues related to outdated files.
 - Ensure that your Oqtane application is running the latest version, as issues with the File Manager could have been addressed in recent updates.
 
 ### 6. Error Messages on File Deletion
@@ -71,10 +71,10 @@ An error message appears when attempting to delete a file from the File Manager.
 If you're encountering an issue not specifically addressed here, follow these general troubleshooting steps:
 
 1. **Clear Browser Cache:**  
-   Clear your browser’s cache to rule out issues caused by outdated resources or settings.
+   Clear your browser's cache to rule out issues caused by outdated resources or settings.
 
 2. **Check Logs:**  
-   Review the Oqtane application logs or the web server’s logs for any error messages or warnings that could indicate issues with the File Manager.
+   Review the Oqtane application logs or the web server's logs for any error messages or warnings that could indicate issues with the File Manager.
 
 3. **Check File Paths:**  
    Ensure that the file paths configured in Oqtane (either through settings or web.config) are correct and accessible by the server.
