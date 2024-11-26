@@ -26,3 +26,7 @@ in debug mode. In this case, the `debug.cmd` will just
 copy all the files to the correct places.
 
 When doing this, remember to restart Oqtane after copying the files.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

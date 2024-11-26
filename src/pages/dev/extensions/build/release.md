@@ -120,3 +120,7 @@ You can also use wildcards, like `**\*.*` to include all files in a folder.
 Just replace the `icon.png` in the same folder as the `.nuspec` file.
 
 Make sure your file is really a png, and not a jpg or other format.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

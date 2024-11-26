@@ -40,3 +40,7 @@ As you can see, it will **deploy** your work to the Oqtane.Server project:
 After you have deployed your work, you **must** restart your Oqtane solution.
 This is because the DLLs are loaded into memory and will not be reloaded
 until the application is restarted.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

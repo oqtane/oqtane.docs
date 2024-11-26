@@ -98,3 +98,6 @@ As you may have noticed, it doesn't have a **WebPack** or other **JavaScript** b
 > [!TIP]
 > As of now, the default templates/modules don't include examples for TypeScript or SASS.
 
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

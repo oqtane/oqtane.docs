@@ -39,3 +39,7 @@ so it can be run in the Oqtane after every build.
 
 In this setup, most Oqtane Modules/Themes will also reference
 the Oqtane framework project - but only to make it easier to run and debug directly from Visual Studio.
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

@@ -10,3 +10,7 @@ Instead, you should use Nuget packages to reference
 the Oqtane framework in the version you currently target.
 
 <img src="./assets/visual-studio-showing-oqtane-nuget-packages.jpg" class="full-width">
+
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

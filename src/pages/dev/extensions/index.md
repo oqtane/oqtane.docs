@@ -76,4 +76,4 @@ Read about:
 
 ---
 
-[← Back to Documentation Guides Home Page](../index.md)
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

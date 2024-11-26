@@ -19,3 +19,6 @@ It contains:
 
 <img src="./assets/oqtane-theme-nuget-file-unzipped.jpg" class="full-width">
 
+---
+
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]
