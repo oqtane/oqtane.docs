@@ -5,6 +5,9 @@
 - name: User Manuals
   href: ./manuals/
 
+- name: Develop
+  href: ./dev/
+
 - name: API Documentation
   href: ../obj/api/
   topicHref: ../api/index.md

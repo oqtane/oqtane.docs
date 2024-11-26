@@ -19,10 +19,13 @@ Explore the guides listed below to get started with Oqtane. These will walk you 
 
 👉 **Select a guide from the menu** to dive in:
 
-- **[Concepts](concepts/index.md)**  
+- **[Concepts](./concepts/index.md)**  
   Learn the foundational concepts behind Oqtane's framework and architecture.
 
-- **[Extensions Development](extensions/index.md)**  
+- **[Develop on or for Oqtane](../dev/index.md)**  
+  Develop your own extensions and modules for Oqtane. This guide provides everything from basics to advanced techniques.
+
+- **[Extensions Development](../dev/extensions/index.md)**  
   Develop your own extensions and modules for Oqtane. This guide provides everything from basics to advanced techniques.
 
 - **[Installation](installation/index.md)**  

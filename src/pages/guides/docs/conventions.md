@@ -43,4 +43,4 @@ Remember, the goal is to make the documentation as clear and helpful as possible
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

@@ -1,3 +1,7 @@
+---
+uid: Manuals.System.ThemeManagement
+---
+
 # Theme Management
 
 ![theme-management](./assets/theme-management.png)
@@ -7,6 +11,7 @@
 The **Theme Management** feature in Oqtane is primarily used during the development phase of a site or when launching a new site brand. It allows you to manage the themes and containers installed on your site and set the default theme for pages and modules. Themes define the overall look and feel of your site, including colors, styles, and layouts.
 
 Oqtane provides two default themes:
+
 - **Blazor Theme**: A minimalistic theme ideal for simple pages.
 - **Oqtane Theme**: A more advanced theme offering a variety of styling options.
 
@@ -92,7 +97,7 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
    - **Framework Reference**: Choose a framework version to ensure compatibility with your environment.
 
      ![Framework Reference Setting](./assets/theme-management-create-theme-settings-framework-reference.png)
-     
+
    - After setting the above settings **Location** will appear showing the location of where the theme files will be created.
 
      ![Framework Reference Setting](./assets/theme-management-create-theme-settings-location.png)
@@ -105,7 +110,7 @@ If you want to create a completely new theme, Oqtane allows you to do so from th
 
    ![Theme Management Create Theme Success Notification](./assets/theme-management-create-theme-created-success-notification.png)
 
-   
+
 ### **Warning**: Theme Creation in Production Environments
 
 **Theme creation** is recommended for **development environments** only. It is not advisable to develop or create themes directly in a **production environment** as it can lead to performance issues, security concerns, or disruptions to the live user experience. For production sites, it is best to pre-build and test themes in a controlled environment before deploying them to your live site.

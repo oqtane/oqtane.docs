@@ -1,3 +1,6 @@
+---
+uid: Manuals.Site.SiteSettings
+---
 # Site Settings
 
 ![site-settings](./assets/site-settings.png)

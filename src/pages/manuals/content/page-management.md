@@ -1,3 +1,7 @@
+---
+uid: Manuals.Content.PageManagement
+---
+
 # Control Panel Page Management
 
 The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../site/page-management.md), but is limited to changing the page you are currently managing.
@@ -10,9 +14,12 @@ The **Add** feature allows you to create a new page on your website. When you se
 
 ![Page Management Add Button](./assets/control-panel-page-management-add-button.png)
 
-### Add Page Configration
+### Add Page Configuration
+
 ___
+
 #### Settings
+
 - **Name**: The name displayed in the navigation bar.
 - **Parent**: The page that this new page will fall under in the navigation structure.
 - **Insert**: Specifies the position of the page among its siblings under the selected parent.
@@ -21,6 +28,7 @@ ___
 - **Redirect**: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard’s [page management feature](../site/page-management.md) to manage this page further.
 
 #### Appearance
+
 - **Title**: Name displayed on the web browser tab.
 - **Theme**: Select a theme from those available in the [theme management](../system/theme-management.md).
 - **Layout**: Number of content panes (columns) available on the page.
@@ -29,6 +37,7 @@ ___
 - **Personalizable**: Allows users to customize the page uniquely for themselves.
 
 #### Page Content
+
 - **Head Content**: Optionally enter content to be included in the page head (ie. meta, link, or script tags)
 - **Body Content**: Optionally enter content to be included in the page body (ie. script tags)
 
@@ -37,6 +46,7 @@ ___
 ___
 
 ### Permissions
+
 - **View**: Controls which user roles can see the page, based on settings in the admin dashboard’s [role management feature](../site/role-management.md).
 - **Edit**: Grants specified roles permission to edit pages using the [content editor](content-editor.md).
 - **Specific Users**: Custom permissions can be assigned to individual users.
@@ -60,16 +70,19 @@ To edit the page:
 2. Modify the settings, permissions, modules, and theme settings.
 
 ### Settings
+
 As described in the **Add** section, you can modify the page's name, parent, navigation visibility, URL path, and redirect options. The only difference is that the **Insert** field is replaced by a **Move** feature for adjusting the page's position in the navigation.
 
 ![page-management-edit-settings](./assets/page-management-edit-settings.png)
 
 ### Permissions
+
 Permissions work the same as in the **Add** feature, allowing you to control which users can view or edit the page.
 
 ![page-management-edit-permissions](./assets/page-management-edit-permissions.png)
 
 ### Modules
+
 This tab allows you to manage the modules on the page, giving you the ability to modify or reorder existing modules. This provides a more granular control over the content displayed on your page.
 
 - **Edit**: Access the module’s configuration to modify settings, permissions, and layout.
@@ -78,6 +91,7 @@ This tab allows you to manage the modules on the page, giving you the ability to
 ![page-management-edit-modules](./assets/page-management-edit-modules.png)
 
 ### Theme Settings
+
 In the Theme Settings tab, you can adjust the theme and layout of the page. This includes options for the page’s appearance, such as selecting a different theme or changing layout configurations.
 
 - **Setting Scope**: Choose between **Site** or **Page** for theme application scope.

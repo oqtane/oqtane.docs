@@ -110,7 +110,7 @@ Happy coding, and may your breakpoints always hit on time!
 
 ---
 
-[!include[](~/shared/authors/leigh-pointer/_leigh-pointer.md)]
+[!include[](~/shared/authors/leigh-pointer/_main-author.md)]
 
 ---
 

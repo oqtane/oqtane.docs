@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Oqtane Development Guides (WIP) | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      
+      <link rel="icon" href="../layout/images/favicon.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/dev/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides.Dev.Index">
+<h1 id="oqtane-development-guides-wip">Oqtane Development Guides (WIP)</h1>
+
+<p>Oqtane is a .net 9.0 Blazor application that is designed to be modular and extensible.
+This means that you can create your own modules, themes, and other extensions
+to customize your Oqtane solution.</p>
+<p>You are here because you want to develop on Oqtane or improve Oqtane itself.</p>
+<h2 id="main-topics">Main Topics</h2>
+<ol>
+<li><p><a href="extensions/index.html">Extensions in General</a><br>
+Themes, Modules, Language Packs, and other extensions.</p>
+</li>
+<li><p><a href="extensions/best-practices/create-solutions-for-each-extension.html">Extension Best Practices</a><br>
+How to write good code and make your life easier.</p>
+</li>
+<li><p>Themes (TODO: @thabaum :)</p>
+</li>
+<li><p>Modules (TODO: @thabaum :)</p>
+</li>
+<li><p>Build and Improve Oqtane (TODO: @thabaum :)</p>
+</li>
+</ol>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>To develop on Oqtane, you will typically need the following skills / tools:</p>
+<ol>
+<li>Visual Studio 2022 with the latest .net 8.0 SDK</li>
+<li>SQL Server (alternatives are possible, but this is the easiest to get started)</li>
+<li>C# programming skills</li>
+</ol>
+<p>The following skills are also useful, or will need to be developed as you go:</p>
+<ol>
+<li>Blazor programming skills</li>
+<li>HTML / CSS / JavaScript / Bootstrap5 skills</li>
+<li>Git / GitHub skills</li>
+<li><a class="xref" href="../guides/installation/index.html">Oqtane installation</a></li>
+</ol>
+<h2 id="basic-setup">Basic Setup</h2>
+<p>You will need to <a class="xref" href="../guides/installation/index.html">install Oqtane</a>
+on your development machine to get started.
+For this you have 2 options:</p>
+<ol>
+<li>Clone/Fork the <a class="xref" href="https://github.com/oqtane/oqtane.framework">Oqtane Source Code</a> to your local machine
+and run using Visual Studio<br>
+This is the most common option, and the best way to also track down any issues.</li>
+<li>Install a runtime version of Oqtane in your web server<br>
+This is the method you'll use when you create many Oqtane solutions,
+since it will run faster and allow you to focus on only the code you write.</li>
+</ol>
+<h2 id="next-steps">Next Steps</h2>
+<p>Read about:</p>
+<ol>
+<li>Best Practices</li>
+<li><a class="xref" href="themes/index.html">Themes</a></li>
+<li>Modules</li>
+</ol>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLYhXmd7yV0elLNLfQwZBUlM7ZSMYPTZ_f">Oqtane Module Development Series</a></li>
+</ul>
+<hr>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/dev/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

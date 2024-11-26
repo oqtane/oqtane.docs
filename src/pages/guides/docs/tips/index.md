@@ -95,4 +95,4 @@ to
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

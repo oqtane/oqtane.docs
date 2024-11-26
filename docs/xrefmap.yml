@@ -1,27 +1,36 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Guides.Extensions.BestPractice.SeparateSolutions.Index
+- uid: Dev.Extensions.BestPractice.SeparateSolutions.Index
   name: 'Oqtane Dev Best Practices: Separate Solutions for Each Extension'
-  href: guides/extensions/best-practices/create-solutions-for-each-extension.html
-- uid: Guides.Extensions.Build.Dev
+  href: dev/extensions/best-practices/create-solutions-for-each-extension.html
+- uid: Dev.Extensions.Build.Dev
   name: Oqtane Extension - Dev Build and Deployment
-  href: guides/extensions/build/dev.html
-- uid: Guides.Extensions.Build.Index
+  href: dev/extensions/build/dev.html
+- uid: Dev.Extensions.Build.Index
   name: Oqtane Extension - Build and Distribution (WIP)
-  href: guides/extensions/build/index.html
-- uid: Guides.Extensions.Build.Release
+  href: dev/extensions/build/index.html
+- uid: Dev.Extensions.Build.Release
   name: Oqtane Extension - Release Build (WIP)
-  href: guides/extensions/build/release.html
-- uid: Guides.Extensions.Index
+  href: dev/extensions/build/release.html
+- uid: Dev.Extensions.Index
   name: Oqtane Extensions Development Guides (WIP)
-  href: guides/extensions/index.html
-- uid: Guides.Extensions.Installation
+  href: dev/extensions/index.html
+- uid: Dev.Extensions.Installation
   name: Oqtane Extension - Installation
-  href: guides/extensions/build/installation.html
-- uid: Guides.Extensions.Package
+  href: dev/extensions/build/installation.html
+- uid: Dev.Extensions.Package
   name: Oqtane Extension - Nuget Package
-  href: guides/extensions/build/package.html
+  href: dev/extensions/build/package.html
+- uid: Dev.Themes.Generator.Index
+  name: Oqtane Themes Generator
+  href: dev/themes/generator/index.html
+- uid: Dev.Themes.Index
+  name: Oqtane Themes Guide
+  href: dev/themes/index.html
+- uid: Guides.Dev.Index
+  name: Oqtane Development Guides (WIP)
+  href: dev/index.html
 - uid: Guides.Index
   name: Welcome to the Oqtane Guides
   href: guides/index.html
@@ -31,18 +40,24 @@ references:
 - uid: Guides.Roadmap.Index
   name: Oqtane Roadmap and History
   href: guides/roadmap/index.html
-- uid: Guides.Themes.Generator.Index
-  name: Oqtane Themes Generator
-  href: guides/themes/generator/index.html
 - uid: Guides.Themes.Index
   name: Oqtane Themes Guide
   href: guides/themes/index.html
 - uid: Guides.Troubleshooting.Index
   name: Troubleshooting Guide
   href: guides/troubleshooting/index.html
+- uid: Manuals.Content.PageManagement
+  name: Control Panel Page Management
+  href: manuals/content/page-management.html
 - uid: Manuals.HowTo.Restart.Index
   name: How To Restart Oqtane
   href: manuals/how-to/restart/index.html
+- uid: Manuals.Site.SiteSettings
+  name: Site Settings
+  href: manuals/site/site-settings.html
+- uid: Manuals.System.ThemeManagement
+  name: Theme Management
+  href: manuals/system/theme-management.html
 - uid: Oqtane
   name: Oqtane
   href: api/Oqtane.html

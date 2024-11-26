@@ -64,4 +64,4 @@ When pushed back to Github, Github will automatically build and deploy to <https
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

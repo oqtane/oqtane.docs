@@ -80,4 +80,4 @@ See [Render Modes](xref:Oqtane.Concepts.RenderModes.Index).
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

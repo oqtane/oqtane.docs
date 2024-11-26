@@ -61,4 +61,4 @@ Check out the `apidoc\Documentation\index.md` file for an example.
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

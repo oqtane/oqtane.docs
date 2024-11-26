@@ -106,4 +106,4 @@ or [GitHub Issues](https://github.com/oqtane/oqtane.docs/issues).
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]

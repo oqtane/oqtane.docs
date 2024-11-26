@@ -17,4 +17,4 @@ Just activate F12 and disable cache to ensure that you're always viewing the lat
 
 ---
 
-[!include[](~/shared/authors/iJungleboy/_attribution.md)]
+[!include[](~/shared/authors/iJungleboy/_main-author.md)]
