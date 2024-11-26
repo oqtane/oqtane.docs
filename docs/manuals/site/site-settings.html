@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Site Settings | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Site Settings | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/site-settings.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="site-settings">Site Settings</h1>
+
+<p><img src="../../pages/manuals/site/assets/site-settings.png" alt="site-settings"></p>
+<h2 id="overview">Overview</h2>
+<p>The Site Settings feature allows you to perform high-level administrative configurations for your site. This includes basic settings, SMTP configuration, and progressive web app (PWA) settings. Most options are set-it-and-forget-it and should be configured once when building your site.</p>
+<h2 id="control-panel-walk-through">Control Panel Walk-through</h2>
+<h3 id="accessing-the-site-settings-feature">Accessing the Site Settings Feature</h3>
+<ol>
+<li><p>Click the control panel icon to access additional settings.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, select the button to open the admin dashboard.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, click on the <strong>Site Settings</strong> icon to configure visitor tracking.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard-site-settings.png" alt="Admin Dashboard Search Settings"></p>
+</li>
+</ol>
+<hr>
+<h2 id="site-settings-1">Site Settings</h2>
+<p>The <strong>Site Settings</strong> management feature includes foundational settings for your site.</p>
+<ul>
+<li><strong>Name</strong>: Enter the site name.</li>
+<li><strong>Home Page</strong>: Select the home page for the site (to be used if there is no page with a path of '/').</li>
+<li><strong>Deleted?</strong>: Indicates whether the site is deleted.</li>
+<li><strong>Site Map</strong>: The site map URL for this site, which can be submitted to search engines for indexing.</li>
+<li><strong>ID</strong>: The unique identifier for the site.</li>
+<li><strong>Version</strong>: Site version for content migrations.</li>
+</ul>
+<h3 id="appearance">Appearance</h3>
+<p>The Appearance section includes options related to the visual representation of your site.</p>
+<ul>
+<li><strong>Logo</strong>: Specify a site logo using the file manager for easy selection, upload, and deletion.</li>
+<li><strong>Favicon</strong>: Specify a favicon with the same file manager options as the logo.</li>
+<li><strong>Default Theme</strong>: Select the site’s default theme.</li>
+<li><strong>Default Container</strong>: Choose the default container for the site.</li>
+<li><strong>Default Admin Container</strong>: Select the default admin container for the site.</li>
+</ul>
+<p><img src="../../pages/manuals/site/assets/site-settings-appearance.png" alt="appearance-settings"></p>
+<h3 id="functionality">Functionality</h3>
+<p>The Functionality section allows you to configure essential site functionalities.</p>
+<ul>
+<li><strong>Text Editor</strong>: Select the text editor for the site (default is the QuillJS editor). For more information, see the <a href="../content/html-text-editor.html">HTML Text Editor Documentation</a>.</li>
+<li><strong>Image Extensions</strong>: Enter a comma-separated list of allowed image extensions.</li>
+<li><strong>Uploadable File Extensions</strong>: Enter a comma-separated list of allowed uploadable file extensions.</li>
+</ul>
+<p><img src="../../pages/manuals/site/assets/site-settings-functionality.png" alt="functionality-settings"></p>
+<h3 id="page-content">Page Content</h3>
+<p>The Page Content section lets you define additional content that can be included in your pages.</p>
+<ul>
+<li><strong>Head Content</strong>: Optionally enter content to be included in the page head (e.g., meta, link, or script tags).</li>
+<li><strong>Body Content</strong>: Optionally enter content to be included in the page body (e.g., script tags).</li>
+</ul>
+<p><img src="../../pages/manuals/site/assets/site-settings-page-content.png" alt="page-content-settings"></p>
+<h3 id="smtp-settings">SMTP Settings</h3>
+<p><strong>Please Note That SMTP Requires The Notification Job To Be Enabled In Scheduled Jobs</strong></p>
+<ul>
+<li><strong>Host</strong>: Enter the hostname of the SMTP server.</li>
+<li><strong>Port</strong>: Enter the port number for the SMTP server. This field is required if you provide a host name.</li>
+<li><strong>SSL Enabled</strong>: Specify yes or no.</li>
+<li><strong>Username</strong>: Enter the SMTP server username.</li>
+<li><strong>Password</strong>: Enter the SMTP server password.</li>
+<li><strong>Email Sender</strong>: Enter the email address from which emails will be sent. This email address may need to be authorized with the SMTP server.</li>
+<li><strong>Relay Configured?</strong>: Only specify this option if you have properly configured an SMTP Relay Service to route your outgoing mail. This will send notifications from the user's email rather than from the Email Sender specified above.</li>
+<li><strong>Enabled?</strong>: Specify yes or no to enable SMTP.</li>
+<li><strong>Retention (Days)</strong>: Enter the number of days to retain notifications.</li>
+<li><strong>Test SMTP Configuration</strong>: Button to test the SMTP configuration.</li>
+</ul>
+<p><img src="../../pages/manuals/site/assets/site-settings-smtp-settings.png" alt="smtp-settings"></p>
+<p><img src="../../pages/manuals/site/assets/site-settings-smtp-settings-test-smtp-configuration-button.png" alt="smtp-settings"></p>
+<h3 id="pwa-settings">PWA Settings</h3>
+<p>The PWA Settings section allows you to configure the Progressive Web Application capabilities of your site.</p>
+<ul>
+<li><strong>Is Enabled?</strong>: Choose whether the site will be available as a Progressive Web Application (PWA).</li>
+<li><strong>App Icon</strong>: Upload an application icon for your PWA (PNG, 192 x 192 pixels).</li>
+<li><strong>Splash Icon</strong>: Upload a splash icon for your PWA (PNG, 512 x 512 pixels).</li>
+</ul>
+<p><img src="../../pages/manuals/site/assets/site-settings-pwa-settings.png" alt="pwa-settings"></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Configuring the Site Settings correctly is crucial for the proper functioning and appearance of your site. Ensure all options are set according to your site's requirements, especially the SMTP settings for email functionality and PWA settings if you wish to enable a progressive web application experience. For further assistance, refer to other sections of the Oqtane documentation.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/site-settings.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

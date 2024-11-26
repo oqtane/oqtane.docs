@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Host Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Host Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/system/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="host-management">Host Management</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>The <strong>Host Dashboard</strong> in Oqtane provides hosts with an extensive set of tools to oversee, configure, and support the entire Oqtane instance. Host users possess the highest level of permissions, allowing them to manage global settings, monitor system performance, and maintain the instance across all sites.</p>
+<p>Hosts log in just as other users do, using the designated host account created during the initial launch of Oqtane. However, hosts have access to exclusive features within the <strong>Admin Dashboard</strong> that provide additional control over Oqtane’s configuration and functionality.</p>
+<h2 id="control-panel-admin-dashboard-feature-walk-through">Control Panel <strong>Admin Dashboard</strong> Feature Walk-through</h2>
+<p>The Control Panel offers streamlined access to host settings and features:</p>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>gear icon</strong> in the top-right corner of the page.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open Admin Dashboard</strong>: Select the <strong>Admin Dashboard</strong> button to access host tools.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-admin-dashboard-button.png" alt="Admin Dashboard Button"></p>
+</li>
+<li><p><strong>Navigate to Desired Feature</strong>: Within the <strong>Admin Dashboard</strong>, you’ll find icons for each available feature. Click on the desired feature to begin management.</p>
+<p><img src="../../pages/manuals/system/assets/admin-dashboard.png" alt="Host Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="host-exclusive-admin-dashboard-features">Host-Exclusive <strong>Admin Dashboard</strong> Features</h2>
+<p>The following tools are available only to host users and provide advanced control and oversight of the Oqtane instance. Each link below directs to detailed documentation for that feature.</p>
+<h3 id="host-dashboard-features">Host Dashboard Features</h3>
+<ul>
+<li><strong><a href="event-log.html">Event Log</a></strong>: Review records of all events within the Oqtane instance, including errors, updates, and deletions, aiding in troubleshooting and system monitoring.</li>
+<li><strong><a href="site-management.html">Site Management</a></strong>: Create and manage multiple sites within the Oqtane instance, setting defaults for new site creation.</li>
+<li><strong><a href="module-management.html">Module Management</a></strong>: Install, edit, and manage modules across all sites, ensuring modular control of site functionality.</li>
+<li><strong><a href="theme-management.html">Theme Management</a></strong>: Install and manage themes to maintain a consistent visual style across sites.</li>
+<li><strong><a href="scheduled-jobs.html">Scheduled Jobs</a></strong>: Configure jobs to run at specified intervals, automating recurring tasks and maintenance actions.</li>
+<li><strong><a href="sql-management.html">SQL Management</a></strong>: Execute SQL queries directly in the Oqtane database for advanced data manipulation and reporting.</li>
+<li><strong><a href="system-info.html">System Info</a></strong>: Access detailed information on the Oqtane instance, including framework versions, environment details, and API methods.</li>
+<li><strong><a href="system-update.html">System Update</a></strong>: Update the Oqtane framework to the latest version, integrating new features and security patches from NuGet packages.</li>
+</ul>
+<hr>
+<h2 id="extending-host-capabilities">Extending Host Capabilities</h2>
+<p>The Host Dashboard is customizable, allowing hosts to add new tools or features to support site-wide administration. To add custom pages for host use:</p>
+<ol>
+<li><p><strong>Access the Control Panel</strong>: Log in as the host, click the <strong>gear icon</strong>, and navigate to <strong>Page Management</strong>.</p>
+</li>
+<li><p><strong>Create a New Host Page</strong>:</p>
+<ul>
+<li>Click <strong>Add</strong> in the Page Management section.</li>
+<li>Set the <strong>Parent Page</strong> to <strong>Admin</strong> to make the new page accessible in the Host Dashboard.</li>
+<li>Configure other page settings, such as title and permissions, to tailor the page to host needs.</li>
+</ul>
+</li>
+<li><p><strong>Save and Confirm</strong>: Once saved, the new page will be available in the Host Dashboard.</p>
+</li>
+</ol>
+<p>For more details on page configuration, see the <a href="../content/page-management.html">Content Management - Page Management</a> documentation.</p>
+<hr>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><strong><a href="../../guides/installation/index.html">Installation Guides</a></strong>: Step-by-step instructions for initial Oqtane setup, including configuration specifics.</li>
+<li><strong><a href="../../guides/troubleshooting/index.html">Troubleshooting Issues</a></strong>: Solutions for common issues encountered during setup and maintenance.</li>
+</ul>
+<p>For community discussions, support, and feature requests, visit:</p>
+<ul>
+<li><strong><a href="https://github.com/oqtane/oqtane.framework/discussions">GitHub Discussions</a></strong></li>
+<li><strong><a href="https://github.com/oqtane/oqtane.framework/issues">GitHub Issues</a></strong></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/system/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

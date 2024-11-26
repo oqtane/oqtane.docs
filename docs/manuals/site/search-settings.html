@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Search Manual | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Search Manual | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/search-settings.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="search-manual">Search Manual</h1>
+
+<p><img src="../../pages/manuals/site/assets/search-settings.png" alt="Search Settings"></p>
+<p>This document describes the Search module, settings, and configuration for administrators to set up effective search functionality across their Oqtane site.</p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>Search</strong> feature allows users to locate relevant content quickly across the site. Through scheduled indexing, the Search service keeps the content index updated. The following sections cover search settings, scheduling, and customization options for the administrator.</p>
+<hr>
+<h2 id="search-settings">Search Settings</h2>
+<p>Administrators can configure the Search module through <strong>Host &gt; Search Settings</strong>. Below are explanations for each setting:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Setting</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Search Provider</strong></td>
+<td>Specifies the provider responsible for indexing and retrieving search results. Example: <code>DatabaseSearchProvider</code>.</td>
+</tr>
+<tr>
+<td><strong>Enabled</strong></td>
+<td>Toggles the search feature on or off. When set to <code>Yes</code>, the site content is regularly indexed, and search queries return up-to-date results.</td>
+</tr>
+<tr>
+<td><strong>Last Indexed</strong></td>
+<td>Displays the last date and time the site was indexed. This helps administrators know the freshness of indexed data in search results.</td>
+</tr>
+<tr>
+<td><strong>Ignore Pages</strong></td>
+<td>A list of pages excluded from indexing. Prevents certain content from appearing in search results, e.g., pages with sensitive or irrelevant content.</td>
+</tr>
+<tr>
+<td><strong>Ignore Entities</strong></td>
+<td>Specifies types of entities to exclude from indexing, such as <code>Modules</code> or <code>Users</code>.</td>
+</tr>
+<tr>
+<td><strong>Word Length</strong></td>
+<td>Defines the minimum character length for words indexed in search results. Only words meeting or exceeding this length will be indexed.</td>
+</tr>
+<tr>
+<td><strong>Ignore Words</strong></td>
+<td>Commonly ignored words in search queries (e.g., &quot;and,&quot; &quot;the&quot;). This list helps refine search results by avoiding indexing or returning results for these words.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="search-components">Search Components</h2>
+<h3 id="searchresx-file">Search.resx File</h3>
+<p>The <code>.resx</code> file includes localization data for search terms and placeholders in the search UI. Examples include:</p>
+<pre><code class="lang-xml">&lt;data name=&quot;Search&quot; xml:space=&quot;preserve&quot;&gt;
+    &lt;value&gt;Search&lt;/value&gt;
+&lt;/data&gt;
+&lt;data name=&quot;SearchPlaceHolder&quot; xml:space=&quot;preserve&quot;&gt;
+    &lt;value&gt;Search&lt;/value&gt;
+&lt;/data&gt;
+</code></pre>
+<hr>
+<h1 id="configuring-search-in-oqtane">Configuring Search in Oqtane</h1>
+<p>This guide provides a step-by-step walkthrough for configuring the search functionality in Oqtane.</p>
+<hr>
+<h2 id="1-accessing-the-search-feature-in-the-default-theme">1. Accessing the Search Feature in the Default Theme</h2>
+<p>To get started, locate the search feature in the navigation bar of the default theme.</p>
+<p><img src="../../pages/manuals/site/assets/search-navigation-menu.png" alt="Search Feature in Navigation"></p>
+<hr>
+<h2 id="2-opening-the-control-panel">2. Opening the Control Panel</h2>
+<p>Next, click the control panel icon to access additional settings.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+<hr>
+<h2 id="3-navigating-to-the-admin-dashboard">3. Navigating to the Admin Dashboard</h2>
+<p>In the control panel, select the button to open the admin dashboard, where you can manage various site settings.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+<hr>
+<h2 id="4-accessing-search-settings">4. Accessing Search Settings</h2>
+<p>Finally, in the admin dashboard, click on the search settings icon to configure your search options.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard-search-settings.png" alt="Admin Dashboard Search Settings"></p>
+<hr>
+<h2 id="configuring-search-settings">Configuring Search Settings</h2>
+<p>Once in the search settings, you can adjust various parameters to customize how the search operates on your site.</p>
+<p><img src="../../pages/manuals/site/assets/search-settings.png" alt="Admininstration Search Settings"></p>
+<h2 id="using-the-reindex-button">Using the Reindex Button</h2>
+<p>After configuring your search settings, you may need to reindex your content to ensure that the latest changes take effect.</p>
+<h3 id="reindex-button-description">Reindex Button Description</h3>
+<p>The <strong>Reindex</strong> button initiates the process of scanning your site's content and updating the search index accordingly. This is essential after making changes to your site's content, structure, or search settings.</p>
+<p><img src="../../pages/manuals/site/assets/search-settings-reindex-button.png" alt="Search Reindex Button"></p>
+<h3 id="how-to-use-the-reindex-button">How to Use the Reindex Button</h3>
+<ol>
+<li>Navigate to the search settings page as described in the previous sections.</li>
+<li>Locate the <strong>Reindex</strong> button on the settings page.</li>
+<li>Click the <strong>Reindex</strong> button to start the indexing process.</li>
+</ol>
+<p><strong>Note:</strong> Depending on the amount of content on your site, the reindexing process may take some time. You will receive a notification once the process is complete.</p>
+<hr>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/search-settings.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

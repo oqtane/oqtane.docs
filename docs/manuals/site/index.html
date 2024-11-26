@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Admin Management Introduction | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Admin Management Introduction | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="admin-management-introduction">Admin Management Introduction</h1>
+
+<p>The Admin Dashboard in Oqtane provides administrators with a powerful suite of tools to manage, customize, and control various aspects of the site. These tools enable efficient management of content, users, site settings, and other features, helping administrators maintain and personalize the site effectively.</p>
+<p>Administrators can access the Admin Dashboard by logging in with an administrator account, clicking on the <strong>gear icon</strong> in the top-right corner to open the Control Panel, and selecting the <strong>Admin Dashboard</strong> option. This displays a menu of options that offer a variety of functionalities to manage the website.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard.png" alt="Admin Dashboard"></p>
+<h2 id="control-panel-walkthrough">Control Panel Walkthrough</h2>
+<p>The Control Panel provides quick access to additional site settings and tools:</p>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>gear icon</strong> at the top right.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open Admin Dashboard</strong>: Click the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Admin Dashboard Button"></p>
+</li>
+<li><p><strong>Navigate to Desired Feature</strong>: In the Admin Dashboard, you’ll find icons for each feature available. Select the feature you wish to manage.</p>
+</li>
+</ol>
+<hr>
+<h2 id="access-permissions">Access Permissions</h2>
+<p>To access the Admin Dashboard, users must be assigned to the <strong>Administrator role</strong>. This can be done within the <strong>User Management</strong> feature by selecting the user and assigning them to the Administrator role.</p>
+<hr>
+<h2 id="admin-dashboard-features">Admin Dashboard Features</h2>
+<p>The following tools are available by default within the Admin Dashboard. Each link below will direct you to detailed documentation for that specific feature.</p>
+<h3 id="administrator-role-admin-dashboard-features">Administrator Role Admin Dashboard Features</h3>
+<ul>
+<li><strong><a href="site-settings.html">Site Settings</a></strong>: Configure site-wide settings, including site name, logo, language, and time zone.</li>
+<li><strong><a href="page-management.html">Page Management</a></strong>: Manage website pages—create, edit, arrange, and delete pages within the site hierarchy.</li>
+<li><strong><a href="user-management.html">User Management</a></strong>: Add, edit, and manage user accounts, including assigning roles and permissions.</li>
+<li><strong><a href="profile-management.html">Profile Management</a></strong>: Define profile fields for user accounts, ensuring necessary information is captured.</li>
+<li><strong><a href="role-management.html">Role Management</a></strong>: Create and manage security roles, defining user permissions across the site.</li>
+<li><strong><a href="file-management.html">File Management</a></strong>: Upload and manage files like images and documents for use throughout the website.</li>
+<li><strong><a href="recycle-bin.html">Recycle Bin</a></strong>: Restore or permanently delete items that have been removed from the site.</li>
+<li><strong><a href="url-mappings.html">URL Mappings</a></strong>: Manage URL redirects, handle broken links, and configure custom mappings.</li>
+<li><strong><a href="visitor-management.html">Visitor Management</a></strong>: Track visitor activity, manage session durations, and configure visitor tracking.</li>
+<li><strong><a href="search-settings.html">Search Settings</a></strong>: Configure the search index and parameters to improve search functionality.</li>
+<li><strong><a href="language-management.html">Language Management</a></strong>: Add and manage site languages, enabling multilingual support.</li>
+</ul>
+<hr>
+<h2 id="extending-the-admin-dashboard">Extending the Admin Dashboard</h2>
+<p>The Admin Dashboard in Oqtane is customizable, allowing administrators to add new pages or tools to extend site management capabilities. To add a custom page to the Admin Dashboard:</p>
+<ol>
+<li><p><strong>Access the Control Panel</strong>: Log in as an administrator and click the <strong>gear icon</strong> at the top right to open the Control Panel.</p>
+</li>
+<li><p><strong>Navigate to Page Management</strong>: In the Control Panel, select the <strong>Page Management</strong> section to access page configuration options.</p>
+</li>
+<li><p><strong>Create a New Admin Page</strong>:</p>
+<ul>
+<li>Click on the <strong>Add</strong> button within the <strong>Page Management</strong> section.</li>
+<li>In the page creation dialog, set the <strong>Parent Page</strong> to <strong>Admin</strong>. This action will designate the new page as part of the Admin Dashboard, making it accessible to administrators.</li>
+<li>Customize additional settings for the new page as needed, such as specifying a page title and assigning permissions.</li>
+</ul>
+</li>
+<li><p><strong>Save and Verify</strong>: Once saved, the new page will appear in the Admin Dashboard, providing additional functionality to administrators.</p>
+</li>
+</ol>
+<p>For further information on managing and organizing pages, visit the <a href="../content/page-management.html">Content Management - Page Management</a> documentation.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard-new-admin-page.png" alt="Admin Dashboard Create Admin Page"></p>
+<p>With this process, administrators can extend the Admin Dashboard by adding custom management tools, offering enhanced control over site content, settings, and features.</p>
+<hr>
+<h2 id="quick-links-to-additional-documentation">Quick Links to Additional Documentation</h2>
+<p>For more in-depth information on installation and troubleshooting, refer to the following resources:</p>
+<ul>
+<li><strong><a href="../../guides/installation/index.html">Installation Guides</a></strong>: Detailed instructions for initial setup, including environment-specific configurations.</li>
+<li><strong><a href="../../guides/troubleshooting/troubleshooting-installations.html">Troubleshooting Installation Issues</a></strong>: Solutions for common setup issues.</li>
+<li><strong><a href="https://github.com/oqtane/oqtane.framework/discussions">GitHub Discussions</a></strong>: Join the Oqtane community for support and to discuss ideas.</li>
+<li><strong><a href="https://github.com/oqtane/oqtane.framework/issues">GitHub Issues</a></strong>: Report and view issues, or search for existing solutions.</li>
+</ul>
+<hr>
+<p>This updated <strong>Admin Management Introduction</strong> page consolidates all Admin Dashboard features, provides an overview for each tool, and directs users to specific guides for additional information. This setup ensures administrators can efficiently find and use the tools they need to manage their site.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

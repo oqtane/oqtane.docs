@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Control Panel Page Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Control Panel Page Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/content/page-management.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="control-panel-page-management">Control Panel Page Management</h1>
+
+<p>The <strong>Page Management</strong> feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's <a href="../site/page-management.html">Page Management feature</a>, but is limited to changing the page you are currently managing.</p>
+<p><img src="../../pages/manuals/content/assets/control-panel-page-management.png" alt="Control Panel Page Management"></p>
+<h2 id="add">Add</h2>
+<p>The <strong>Add</strong> feature allows you to create a new page on your website. When you select this option, a page management window will appear, enabling you to specify the following settings:</p>
+<p><img src="../../pages/manuals/content/assets/control-panel-page-management-add-button.png" alt="Page Management Add Button"></p>
+<h3 id="add-page-configration">Add Page Configration</h3>
+<hr>
+<h4 id="settings">Settings</h4>
+<ul>
+<li><strong>Name</strong>: The name displayed in the navigation bar.</li>
+<li><strong>Parent</strong>: The page that this new page will fall under in the navigation structure.</li>
+<li><strong>Insert</strong>: Specifies the position of the page among its siblings under the selected parent.</li>
+<li><strong>Navigation</strong>: Determines if the page should be visible to users with appropriate permissions or hidden from everyone but administrators.</li>
+<li><strong>URL Path</strong>: Sets the URL for the page. If no path is specified, it defaults to the name.</li>
+<li><strong>Redirect</strong>: URL to redirect users if this page is accessed. If set, you will need to use the admin dashboard’s <a href="../site/page-management.html">page management feature</a> to manage this page further.</li>
+</ul>
+<h4 id="appearance">Appearance</h4>
+<ul>
+<li><strong>Title</strong>: Name displayed on the web browser tab.</li>
+<li><strong>Theme</strong>: Select a theme from those available in the <a href="../system/theme-management.html">theme management</a>.</li>
+<li><strong>Layout</strong>: Number of content panes (columns) available on the page.</li>
+<li><strong>Default Container</strong>: Layout style for module titles above the content.</li>
+<li><strong>Icon</strong>: URL for a favicon or other icon associated with the page.</li>
+<li><strong>Personalizable</strong>: Allows users to customize the page uniquely for themselves.</li>
+</ul>
+<h4 id="page-content">Page Content</h4>
+<ul>
+<li><strong>Head Content</strong>: Optionally enter content to be included in the page head (ie. meta, link, or script tags)</li>
+<li><strong>Body Content</strong>: Optionally enter content to be included in the page body (ie. script tags)</li>
+</ul>
+<p><img src="../../pages/manuals/content/assets/page-management-add-settings.png" alt="Add Page Settings"></p>
+<hr>
+<h3 id="permissions">Permissions</h3>
+<ul>
+<li><strong>View</strong>: Controls which user roles can see the page, based on settings in the admin dashboard’s <a href="../site/role-management.html">role management feature</a>.</li>
+<li><strong>Edit</strong>: Grants specified roles permission to edit pages using the <a href="content-editor.html">content editor</a>.</li>
+<li><strong>Specific Users</strong>: Custom permissions can be assigned to individual users.</li>
+</ul>
+<p><img src="../../pages/manuals/content/assets/page-management-add-permissions.png" alt="page management permissions"></p>
+<hr>
+<h2 id="edit">Edit</h2>
+<p>The <strong>Edit</strong> feature provides similar functionality to the <strong>Add</strong> feature but modifies the current existing page instead of creating a new one. This section allows you to update the settings, including the appearance, permissions, modules, and theme settings of the current page. The settings configuration has the <strong>Insert</strong> field replaced by a <strong>Move</strong> feature to adjust the page's position in the navigation.</p>
+<p>Additionally, the edit panel displays the creation date and last edited date for the page at the bottom.</p>
+<p>To edit the page:</p>
+<ol>
+<li>Click on the <strong>Edit</strong> button located in the <strong>control panel</strong>.</li>
+</ol>
+<p><img src="../../pages/manuals/content/assets/control-panel-page-management-edit-button.png" alt="edit page button"></p>
+<ol start="2">
+<li>Modify the settings, permissions, modules, and theme settings.</li>
+</ol>
+<h3 id="settings-1">Settings</h3>
+<p>As described in the <strong>Add</strong> section, you can modify the page's name, parent, navigation visibility, URL path, and redirect options. The only difference is that the <strong>Insert</strong> field is replaced by a <strong>Move</strong> feature for adjusting the page's position in the navigation.</p>
+<p><img src="../../pages/manuals/content/assets/page-management-edit-settings.png" alt="page-management-edit-settings"></p>
+<h3 id="permissions-1">Permissions</h3>
+<p>Permissions work the same as in the <strong>Add</strong> feature, allowing you to control which users can view or edit the page.</p>
+<p><img src="../../pages/manuals/content/assets/page-management-edit-permissions.png" alt="page-management-edit-permissions"></p>
+<h3 id="modules">Modules</h3>
+<p>This tab allows you to manage the modules on the page, giving you the ability to modify or reorder existing modules. This provides a more granular control over the content displayed on your page.</p>
+<ul>
+<li><strong>Edit</strong>: Access the module’s configuration to modify settings, permissions, and layout.</li>
+<li><strong>Delete</strong>: Remove the module from the page.</li>
+</ul>
+<p><img src="../../pages/manuals/content/assets/page-management-edit-modules.png" alt="page-management-edit-modules"></p>
+<h3 id="theme-settings">Theme Settings</h3>
+<p>In the Theme Settings tab, you can adjust the theme and layout of the page. This includes options for the page’s appearance, such as selecting a different theme or changing layout configurations.</p>
+<ul>
+<li><strong>Setting Scope</strong>: Choose between <strong>Site</strong> or <strong>Page</strong> for theme application scope.</li>
+<li><strong>Show Login?</strong>: Toggle login visibility (options: <strong>Not Specified/Yes/No</strong>).</li>
+<li><strong>Show Register?</strong>: Toggle registration visibility (options: <strong>Not Specified/Yes/No</strong>).</li>
+<li><strong>Display Fixed Footer?</strong>: Toggle a fixed footer (options: <strong>Not Specified/Yes/No</strong>).</li>
+</ul>
+<p><img src="../../pages/manuals/content/assets/page-management-edit-theme-settings.png" alt="page-management-edit-theme-settings"></p>
+<p>By using the <strong>Edit</strong> feature, you can effectively customize the current page, ensuring that it meets your requirements and reflects any necessary changes.</p>
+<hr>
+<h2 id="delete">Delete</h2>
+<p>The <strong>Delete</strong> feature allows you to permanently remove the page you are currently managing. To delete the page, simply click the <strong>Delete</strong> button.</p>
+<p><img src="../../pages/manuals/content/assets/control-panel-page-management-delete-button.png" alt="Control Panel Delete Button"></p>
+<blockquote>
+<p><strong>Warning:</strong> This action is irreversible. Ensure that the page is no longer needed before proceeding.</p>
+</blockquote>
+<hr>
+<h2 id="publishunpublish">Publish/Unpublish</h2>
+<p>The <strong>Publish</strong> feature enables you to make a page public if it was previously marked as hidden. This is particularly useful for working on a page that you want to keep inaccessible to regular users until it is fully prepared for release.</p>
+<p>To toggle the publish status, click the <strong>Publish</strong> button, which will switch between publishing and unpublishing the page.</p>
+<p><img src="../../pages/manuals/content/assets/control-panel-page-management-publish-button.png" alt="Control Panel Delete Button"></p>
+<hr>
+<hr>
+<h2 id="creating-an-admin-dashboard-page">Creating an Admin Dashboard Page</h2>
+<p>If you wish to add a custom page to the <strong>Admin Dashboard</strong>, you can do so through <strong>Page Management</strong> by setting the <strong>Parent</strong> page to &quot;Admin&quot; when adding a new page. This action designates the new page as part of the Admin Dashboard, making it accessible only to administrators. Creating admin-specific pages expands the available tools for site management and customizes the Admin Dashboard.</p>
+<p>For more information on extending the Admin Dashboard, refer to the <a href="../site/index.html#extending-the-admin-dashboard">Admin Management documentation</a>.</p>
+<p>This detailed overview of the <strong>Page Management</strong> feature provides administrators with the essential tools to manage individual pages effectively. Each button feature is clearly defined to enhance user understanding and facilitate efficient page management.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/content/page-management.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

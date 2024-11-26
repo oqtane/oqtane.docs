@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>URL Mappings Manual | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="URL Mappings Manual | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/url-mappings.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="url-mappings-manual">URL Mappings Manual</h1>
+
+<p><img src="../../pages/manuals/site/assets/url-mappings.png" alt="URL Mappings Feature"></p>
+<p>This document describes the URL Mappings module, settings, and configuration for administrators to manage URL redirections effectively across their Oqtane site.</p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>URL Mappings</strong> feature allows administrators to define mappings from one URL to another, enabling effective redirection strategies. This feature is useful for managing broken links, ensuring users are directed to the correct resources.</p>
+<hr>
+<h2 id="control-panel-walkthrough">Control Panel Walkthrough</h2>
+<h3 id="accessing-the-url-mappings-feature">Accessing the URL Mappings Feature</h3>
+<ol>
+<li><p>Click the control panel icon to access additional settings.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, select the button to open the admin dashboard.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, click on the URL Mappings icon to configure your URL mappings.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard-url-mappings.png" alt="Admin Dashboard URL Mappings"></p>
+</li>
+</ol>
+<hr>
+<h2 id="configuring-url-mappings">Configuring URL Mappings</h2>
+<p>Once in the URL Mappings settings, administrators can view and manage URL mappings.</p>
+<h3 id="managing-mapped-urls">Managing Mapped URLs</h3>
+<ol>
+<li><p>The <strong>Mapped URLs</strong> tab displays all existing URL mappings, including the original URL, the mapped destination, the number of requests, and the last requested date. You can choose to view either mapped URLs or broken URLs using the dropdown select menu.</p>
+<p><img src="../../pages/manuals/site/assets/url-mappings-mapped-urls.png" alt="Mapped URLs"></p>
+</li>
+<li><p>Use the <strong>Add URL Mapping</strong> button to create a new mapping. This will open a popup modal for adding a mapped URL.</p>
+<p><img src="../../pages/manuals/site/assets/url-mappings-add-url.png" alt="Add URL Mapping"></p>
+</li>
+</ol>
+<h3 id="reviewing-and-editing-url-mappings">Reviewing and Editing URL Mappings</h3>
+<ol>
+<li><p>After adding a URL mapping, it will appear in the list below the search feature. You can select an existing URL mapping to edit or delete it if it is no longer needed.</p>
+<p><img src="../../pages/manuals/site/assets/url-mappings-edit-mapped-urls.png" alt="Edit URL Mapping"></p>
+</li>
+</ol>
+<h3 id="managing-broken-urls">Managing Broken URLs</h3>
+<ol>
+<li><p>Switch to the <strong>Broken URLs</strong> tab using the dropdown select menu. This will display all captured broken URLs that require attention.</p>
+<p><img src="../../pages/manuals/site/assets/url-mappings-broken-urls.png" alt="Broken URLs"></p>
+</li>
+<li><p>You can edit or delete broken URLs as necessary to redirect them accordingly.</p>
+<p><img src="../../pages/manuals/site/assets/url-mappings-edit-broken-urls.png" alt="Edit Broken URL"></p>
+</li>
+</ol>
+<h3 id="url-mapping-settings">URL Mapping Settings</h3>
+<p>Administrators can configure the URL Mappings module through <strong>Host &gt; URL Mappings</strong>. The primary setting available is:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Setting</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Capture Broken URLs?</strong></td>
+<td>Toggles the feature to automatically capture and save broken URLs in the URL Mappings. When set to <code>Yes</code>, any broken link encountered will be recorded for further management.</td>
+</tr>
+</tbody>
+</table>
+<p>In the <strong>Settings</strong> tab, administrators can toggle the <strong>Capture Broken URLs</strong> setting.</p>
+<ol>
+<li><p>Set this option to <code>Yes</code> to automatically capture broken URLs when they are accessed.</p>
+</li>
+<li><p>Click the <strong>Save</strong> button to apply changes.</p>
+<p><img src="../../pages/manuals/site/assets/url-mappings-settings.png" alt="Admin URL Mappings Settings"></p>
+</li>
+</ol>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>The URL Mappings module in Oqtane provides an effective way for administrators to manage URL redirection strategies. By leveraging the features outlined in this manual, site administrators can enhance user experience and maintain the integrity of web links across their sites.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/url-mappings.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

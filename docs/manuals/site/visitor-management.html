@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Visitor Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Visitor Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/visitor-management.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="visitor-management">Visitor Management</h1>
+
+<p><img src="../../pages/manuals/site/assets/visitor-management.png" alt="Visitor Management Feature"></p>
+<p>The Visitor Management feature in the Oqtane admin dashboard allows administrators to track and manage site visitors effectively. This feature is accessible via the admin dashboard under <strong>Admin &gt; Visitor Management</strong>.</p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>Visitor Management</strong> feature provides tools for monitoring and managing visitor data on your site, helping administrators understand user interactions and enhance site performance.</p>
+<hr>
+<h2 id="control-panel-walkthrough">Control Panel Walkthrough</h2>
+<h3 id="accessing-the-visitor-management-feature">Accessing the Visitor Management Feature</h3>
+<ol>
+<li><p>Click the control panel icon to access additional settings.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, select the button to open the admin dashboard.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, click on the <strong>Visitor Management</strong> icon to configure visitor tracking.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard-visitor-management.png" alt="Admin Dashboard Visitor Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="tabs-overview">Tabs Overview</h2>
+<p>The Visitor Management module consists of two main tabs: <strong>Visitors</strong> and <strong>Settings</strong>.</p>
+<h3 id="1-visitors-tab">1. Visitors Tab</h3>
+<p>The Visitors tab displays a list of site visitors and provides options to filter the displayed visitors based on type and time period.</p>
+<p><img src="../../pages/manuals/site/assets/visitor-management-visitors-tab.png" alt="Visitors Tab"></p>
+<h4 id="dropdown-selections">Dropdown Selections</h4>
+<ul>
+<li><p><strong>Visitor Type</strong>: Select the type of visitors to display.</p>
+<ul>
+<li><strong>All Visitors</strong>: Shows all visitors to the site.</li>
+<li><strong>Users Only</strong>: Filters to show only registered users.</li>
+</ul>
+</li>
+<li><p><strong>Period</strong>: Choose the time period for which visitors are displayed.</p>
+<ul>
+<li><strong>Past Day</strong>: Shows visitors from the last 24 hours.</li>
+<li><strong>Past Week</strong>: Shows visitors from the last week.</li>
+<li><strong>Past Month</strong>: Shows visitors from the last month.</li>
+</ul>
+</li>
+</ul>
+<h4 id="visitor-list">Visitor List</h4>
+<p>Below the dropdown selections, a list of visitors is displayed, showing the following details:</p>
+<table>
+<thead>
+<tr>
+<th>Detail</th>
+<th>IP Address</th>
+<th>User</th>
+<th>Language</th>
+<th>Visits</th>
+<th>Visited</th>
+<th>Created</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#">Details</a> Button</td>
+<td>Visitor IP Address</td>
+<td>Visitor Username</td>
+<td>Visitor Language</td>
+<td>Number of Visits</td>
+<td>Last Visited Date</td>
+<td>Created Date</td>
+</tr>
+</tbody>
+</table>
+<p>Each entry includes a <strong>Details</strong> button that opens a detailed view of the selected visitor's information.</p>
+<p><img src="../../pages/manuals/site/assets/visitor-management-details.png" alt="Visitor Details"></p>
+<h3 id="2-settings-tab">2. Settings Tab</h3>
+<p>The Settings tab allows administrators to configure visitor tracking settings.</p>
+<p><img src="../../pages/manuals/site/assets/visitor-management-settings-tab.png" alt="Settings Tab"></p>
+<h4 id="settings-fields">Settings Fields</h4>
+<ul>
+<li><strong>Tracking Enabled</strong>: Specify if visitor tracking is enabled (Yes/No).</li>
+<li><strong>Session Duration</strong>: Set the duration (in minutes) that is considered a distinct visit.</li>
+<li><strong>Filter</strong>: Provide a comma-separated list of terms that should not be tracked in visitor data (e.g., specific IP addresses or user agents).</li>
+<li><strong>Retention</strong>: Define the number of days to retain visitor activity data.</li>
+<li><strong>Correlate Visitors</strong>: Specify whether new visitors should be correlated based on their IP address (Yes/No).</li>
+</ul>
+<h4 id="save-changes">Save Changes</h4>
+<p>A <strong>Save</strong> button is provided at the bottom of the Settings tab to apply any changes made to the visitor tracking settings.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Visitor Management feature provides essential tools for monitoring and managing visitor data on your site, helping administrators to understand user interactions and enhance site performance.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/site/visitor-management.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

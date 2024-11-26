@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Scheduled Jobs | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Scheduled Jobs | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/system/scheduled-jobs.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="scheduled-jobs">Scheduled Jobs</h1>
+
+<p><img src="../../pages/manuals/system/assets/scheduled-jobs.png" alt="Scheduled Jobs"></p>
+<h2 id="overview">Overview</h2>
+<p>The <strong>Scheduled Jobs</strong> feature in Oqtane allows you to manage recurring, scheduled tasks that are automatically executed at specified intervals. This is useful for automating tasks such as sending notifications to users or any other batch processing task that should occur on a schedule.</p>
+<hr>
+<h2 id="accessing-the-scheduled-jobs-feature">Accessing the Scheduled Jobs Feature</h2>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>control panel icon</strong> to access additional settings.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open the Admin Dashboard</strong>: In the control panel, select the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p><strong>Select Scheduled Jobs</strong>: In the Admin Dashboard, click on the <strong>Scheduled Jobs</strong> icon to access the configuration settings.</p>
+<p><img src="../../pages/manuals/system/assets/admin-dashboard-scheduled-jobs.png" alt="Admin Dashboard Scheduled Jobs"></p>
+</li>
+</ol>
+<hr>
+<h2 id="scheduled-jobs-options">Scheduled Jobs Options</h2>
+<p>On the Scheduled Jobs page, you have the option to configure and manage jobs with the following fields:</p>
+<h3 id="add-job">Add Job</h3>
+<ol>
+<li><strong>Name</strong>: Enter a name for the scheduled job.</li>
+<li><strong>Type</strong>: Select the type of the job. You can use the pre-configured <code>NotificationJob</code> or create a custom job by specifying the location of your job method, for example, <code>Oqtane.Infrastructure.NotificationJob, Oqtane.Server</code> for a notification job.</li>
+<li><strong>Enabled</strong>: Set this to <strong>Yes</strong> to activate the job or <strong>No</strong> to deactivate it.</li>
+<li><strong>Runs Every</strong>: Choose how often the job should run (e.g., daily, weekly, etc.).</li>
+<li><strong>Starting</strong>: Enter the date and time when the job should begin executing.</li>
+<li><strong>Ending</strong>: Enter the date and time when the job should stop executing.</li>
+<li><strong>Retention Log</strong>: Specify the number of logs to retain for the job. Older logs will be discarded once the retention limit is reached.</li>
+</ol>
+<hr>
+<h2 id="view-logs">View Logs</h2>
+<p>You can view the logs of all scheduled jobs.</p>
+<ol>
+<li><p><strong>View Logs</strong>: Click on <strong>View Logs</strong> to see the logs generated by your jobs. The logs are retained according to the specified retention number.</p>
+<p><img src="../../pages/manuals/system/assets/scheduled-jobs-view-all-logs-button.png" alt="Scheduled Jobs View All Logs Button"></p>
+<p><img src="../../pages/manuals/system/assets/scheduled-jobs-view-all-logs.png" alt="Scheduled Jobs View All Logs"></p>
+</li>
+</ol>
+<h3 id="refresh">Refresh</h3>
+<p>To refresh the page and get the latest logs:</p>
+<ol>
+<li><p><strong>Refresh</strong>: Click the <strong>Refresh</strong> button to reload the page and display any new logs that have been generated.</p>
+<p><img src="../../pages/manuals/system/assets/scheduled-jobs-refresh-button.png" alt="Scheduled Jobs Refresh Button"></p>
+</li>
+</ol>
+<hr>
+<h2 id="options-for-existing-jobs">Options for Existing Jobs</h2>
+<p>The scheduled jobs are listed below, with options to manage them:</p>
+<ol>
+<li><p><strong>Edit</strong>: Modify job settings, including the next execution date.</p>
+<ul>
+<li>The fields available when editing are the same as those when adding a new job, but with an additional field for <strong>Next Execution</strong>.</li>
+<li><strong>Next Execution</strong>: Specify the date and time for the next job run after stopping the job.</li>
+</ul>
+</li>
+<li><p><strong>Delete</strong>: Remove the job, preventing it from executing again.</p>
+</li>
+<li><p><strong>Log</strong>: View the logs generated by a specific job.</p>
+</li>
+<li><p><strong>Stop</strong>: Temporarily stop a job. It will not run again until the <strong>Next Execution</strong> date is specified in the <strong>Edit</strong> window.</p>
+</li>
+</ol>
+<hr>
+<h2 id="search-jobs">Search Jobs</h2>
+<p>You can search for a specific job by name using the search feature.</p>
+<p><img src="../../pages/manuals/system/assets/scheduled-jobs-search.png" alt="Scheduled Jobs Search"></p>
+<hr>
+<h2 id="restart-after-installation-to-activate">Restart After Installation to Activate</h2>
+<p>After installing or modifying jobs, a notification may appear prompting you to restart the application to activate changes.</p>
+<p><img src="../../pages/manuals/system/assets/scheduled-jobs-restart.png" alt="Scheduled Jobs Restart Notification Message"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/system/scheduled-jobs.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

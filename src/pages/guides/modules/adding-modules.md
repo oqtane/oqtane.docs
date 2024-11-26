@@ -1,6 +1,6 @@
 # Adding Modules to a Page
 
-In order to add a module to a page, simply open the control panel with the gear icon in the top right of a page and in the [control panel module management feature](../../manuals/admin/content-management/control-panel.md) there is the ability to select a new module from the options of:
+In order to add a module to a page, simply open the control panel with the gear icon in the top right of a page and in the [control panel module management feature](../../manuals/content/control-panel.md) there is the ability to select a new module from the options of:
 
 * Admin Module: These are only available to people within the administrator role and there are many more default modules available to put onto your webpages.
 * Common Module: These are available both to administrators and to registered users to be able to use on pages that are specified as personalizable, meaning users can modify them as they see fit and they are unique and only viewable to registered users.
@@ -9,7 +9,7 @@ In order to add a module to a page, simply open the control panel with the gear 
 There are also features after selecting the module that you would like which are the:
 
 * Title: Which is what will be displayed directly above the module as its title, if nothing is selected then the module's name will be put as the title.
-* Pane: Select which content pane you want the module to go inside of. Panes are made visible with the [content editor](../../manuals/admin/content-management/content-editor.md).
+* Pane: Select which content pane you want the module to go inside of. Panes are made visible with the [content editor](../../manuals/content/content-editor.md).
 * Container: Select if you would like to have a title displayed above the module or not have one.
 
 ### Adding One Module Across Multiple Pages

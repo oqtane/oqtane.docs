@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Module Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Module Management | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      
+      <link rel="icon" href="../../layout/images/favicon.png">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../pages/manuals/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/system/module-management.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../layout/images/logo-50.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="module-management">Module Management</h1>
+
+<p><img src="../../pages/manuals/system/assets/module-management.png" alt="Module Management"></p>
+<h2 id="overview">Overview</h2>
+<p>The Module Management feature lists all the modules currently installed in your Oqtane framework. Modules provide essential functionality and allow various features to be added to your pages.</p>
+<p>At the top of the Module Management page, there is an <strong>Install</strong> button that lets you add new modules. Modules can be installed either from a pre-configured list or by uploading a NuGet package, allowing it to be included among the available modules for your site.</p>
+<p>Within the list of modules, you’ll find options to <strong>Edit</strong> modules, which displays module details and provides options to delete non-default Oqtane modules.</p>
+<hr>
+<h2 id="accessing-the-module-management-feature">Accessing the Module Management Feature</h2>
+<ol>
+<li><p><strong>Open the Control Panel</strong>: Click the <strong>control panel icon</strong> to access additional settings.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p><strong>Open the Admin Dashboard</strong>: In the control panel, select the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p><strong>Select Module Management</strong>: In the Admin Dashboard, click on the <strong>Module Management</strong> icon.</p>
+<p><img src="../../pages/manuals/system/assets/admin-dashboard-module-management.png" alt="Admin Dashboard Module Management"></p>
+</li>
+</ol>
+<hr>
+<h2 id="installing-modules">Installing Modules</h2>
+<h3 id="using-the-marketplace">Using the Marketplace</h3>
+<p>Click the <strong>Install Module</strong> button to open the module installation options.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-install-module-button.png" alt="Module Management Install Module Button"></p>
+<ol>
+<li><p><strong>Browse Marketplace</strong>: Select the <strong>Marketplace</strong> tab to explore available modules, which may include both open-source and commercial options.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-install-marketplace.png" alt="Module Management Install Modules Marketplace"></p>
+</li>
+<li><p><strong>Choose Open Source or Commercial Modules</strong>: The marketplace allows you to filter between <strong>Open Source</strong> and <strong>Commercial</strong> modules, streamlining your search.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-install-marketplace-open-source-commercial-options.png" alt="Module Management Install Marketplace Open Source or Commercial Modules"></p>
+</li>
+<li><p><strong>Search Feature</strong>: Use the search box to quickly locate specific modules by name.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-install-search.png" alt="Module Management Install Modules Marketplace Search Feature"></p>
+</li>
+<li><p><strong>Sort Feature</strong>: Sort available modules by various options to find exactly what you need.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-install-sort-options.png" alt="Module Management Install Modules Marketplace Sort Feature"></p>
+</li>
+</ol>
+<h3 id="uploading-a-module">Uploading a Module</h3>
+<p>Alternatively, upload a module directly by using the <strong>Upload</strong> tab. This option allows you to add a NuGet package as a new module to your site.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-install-upload.png" alt="Module Management Install Module Upload Button"></p>
+<hr>
+<h2 id="module-management-filter-list">Module Management Filter List</h2>
+<p>You can filter the list of modules by category to simplify navigation.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-module-category.png" alt="Module Management Modules Category Filter"></p>
+<hr>
+<h2 id="editing-modules">Editing Modules</h2>
+<p>To modify a module’s settings, click the <strong>Edit</strong> button next to the module you want to adjust.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-edit-button.png" alt="Module Management Edit Button"></p>
+<h3 id="definition-tab">Definition Tab</h3>
+<p>The <strong>Definition</strong> tab shows the module’s core details, including its description and version information.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-edit-definition.png" alt="Module Management Edit Definition"></p>
+<h3 id="permissions-tab">Permissions Tab</h3>
+<p>The <strong>Permissions</strong> tab lets you configure user access for the module, including options to add users with specific permissions.</p>
+<ul>
+<li><p><strong>Add User Permission</strong>: Assign roles and permissions for accessing or managing the module.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-edit-permissions-add-user.png" alt="Module Management Edit Permissions Add User"></p>
+</li>
+<li><p><strong>View/Edit Permissions</strong>: Adjust existing permissions as needed for your module.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-edit-permissions.png" alt="Module Management Edit Permissions"></p>
+</li>
+</ul>
+<h3 id="pages-tab">Pages Tab</h3>
+<p>Use the <strong>Pages</strong> tab to view and link to a specific page on your site with the module using the <strong>Browse</strong> button .</p>
+<p><img src="../../pages/manuals/system/assets/module-management-edit-pages-browse-button.png" alt="Module Management Edit Pages Browse Button"></p>
+<h3 id="translations-tab">Translations Tab</h3>
+<p>The <strong>Translations</strong> tab allows you to manage localization for the module, ensuring it’s accessible in multiple languages if necessary.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-edit-translations.png" alt="Module Management Edit Translations"></p>
+<hr>
+<h2 id="creating-a-module">Creating a Module</h2>
+<p>The <strong>Create Module</strong> button allows you to develop custom modules for your site, enhancing its functionality.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-button.png" alt="Module Management Create Module Button"></p>
+<p>When creating a module, you will be prompted to configure several settings:</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-window.png" alt="Module Management Create Module Setting Description"></p>
+<ol>
+<li><p><strong>Owner Name</strong>: Enter the name of the organization creating the module (e.g., &quot;YourCompanyName&quot;). Avoid spaces, punctuation, and the term &quot;oqtane.&quot;</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-owner-name.png" alt="Module Management Create Module Setting Owner Name"></p>
+</li>
+<li><p><strong>Module Name</strong>: Specify a unique name for the module, following similar naming guidelines as for the owner name.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-module-name.png" alt="Module Management Create Module Setting Module Name"></p>
+</li>
+<li><p><strong>Description</strong>: Provide a brief description of the module's purpose and functionality.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-description.png" alt="Module Management Create Module Setting Description"></p>
+</li>
+<li><p><strong>Template</strong>: Select a module template from the list. Templates are stored in the server directory at <code>wwwroot/Modules/Templates</code>.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-template.png" alt="Module Management Create Module Setting Template"></p>
+</li>
+<li><p><strong>Framework Reference</strong>: Choose the desired framework reference version. The default is &quot;Installed Version,&quot; but previous framework versions are also available.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-framework-reference.png" alt="Module Management Create Module Setting Framework Reference"></p>
+</li>
+</ol>
+<p>After entering in the information Location text field shows up in the window displaying where the module will be created prior to clicking create module.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-location.png" alt="Module Management Create Module Notification"></p>
+<p>After completing the settings, finalize the module creation by clicking <strong>Create Module</strong>.  To exit the window click the <strong>Cancel</strong> button or the <strong>X</strong> icon located on the top right of the window.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-settings-window-buttons.png" alt="Module Management Create Module Window Buttons"></p>
+<p>Upon success, a notification confirms that the module was created and you will be asked to compile the module project and then restart to start working with your module in the application framework.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-created-success-notification.png" alt="Module Management Create Module Created Success Notification"></p>
+<h3 id="warning-module-creation-in-production-environments"><strong>Warning</strong>: Module Creation in Production Environments</h3>
+<p><strong>Module creation</strong> should be reserved for <strong>development environments</strong>. Avoid creating or developing modules directly in a <strong>production environment</strong> as it can impact performance, stability, and security. Developing and testing modules in a controlled setting first helps ensure they work as expected when deployed on a live site.</p>
+<p><img src="../../pages/manuals/system/assets/module-management-create-module-created-success-notification.png" alt="Module Management Create Module Production Notification"></p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>The <strong>Module Management</strong> feature provides a straightforward way to manage, install, and create modules to enhance your Oqtane site's functionality. Whether you're installing modules from the marketplace, uploading custom modules, or creating your own, this feature helps you add powerful tools and features to your site. Use the editing tools to fine-tune existing modules or start from scratch with a new module to meet your needs.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/manuals/system/module-management.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
