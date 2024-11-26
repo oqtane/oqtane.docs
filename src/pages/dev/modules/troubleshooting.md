@@ -25,3 +25,7 @@ Below are two detailed guides for troubleshooting modules, tailored to the speci
   - **Performance Optimization**: Tips for improving module load times and responsiveness.
 
 These guides are designed to provide practical solutions and best practices, helping you create or apply modules that function smoothly and meet user needs.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

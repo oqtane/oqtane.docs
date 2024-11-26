@@ -10382,6 +10382,16 @@
         }
       },
       "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "shared/authors/thabaum/assets/thabaum.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "shared/authors/thabaum/assets/thabaum.jpg"
+        }
+      },
+      "version": ""
     }
   ],
   "groups": [

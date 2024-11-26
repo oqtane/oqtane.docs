@@ -34,3 +34,7 @@ The module development process typically involves:
 - Use dependency injection for managing dependencies and promoting modularity.
 - Utilize Oqtane services and APIs for interacting with the platform and accessing data.
 - Test your module in different environments to ensure compatibility and stability.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

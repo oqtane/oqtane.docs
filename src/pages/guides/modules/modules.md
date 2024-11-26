@@ -40,3 +40,7 @@ This is an example of a content pane.
 - [Developing Modules](xref:Dev.Modules.Index): Resources and guidelines for developing custom modules for Oqtane.
 
 Feel free to explore each topic to find the information you need to effectively work with modules in your Oqtane applications.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

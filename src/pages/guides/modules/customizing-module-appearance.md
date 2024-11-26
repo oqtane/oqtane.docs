@@ -28,3 +28,7 @@ To implement custom styling for modules in Oqtane, follow these steps:
 - Use modular CSS styles to facilitate maintenance and scalability.
 - Leverage Oqtane's theming capabilities to ensure consistent design across modules and pages.
 - Test custom styles in various scenarios to identify potential issues and ensure a seamless user experience.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

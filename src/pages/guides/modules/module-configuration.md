@@ -28,3 +28,7 @@ Depending on the module, configuration options may include:
 
 - Regularly review and update module configurations to ensure optimal performance and functionality.
 - Test module configurations in a development environment before deploying them to production.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

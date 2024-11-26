@@ -9,4 +9,7 @@
 Content Management Expert, Chief Architect of [2sxc](https://2sxc.org) and cre8magic.  
 Forged in the jungles of Indonesia, lives in Switzerland , loves Oqtane 🩸 & 2sxc 💜.
 
-[LinkedIn](https://www.linkedin.com/in/danielmettler/) | Discord: @iJungleboy | Twitter: @iJungleboy
+[LinkedIn](https://www.linkedin.com/in/danielmettler/)
+| Discord: @iJungleboy
+| Twitter: @iJungleboy
+| Github: [@iJungleboy](https://github.com/ijungleboy)

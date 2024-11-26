@@ -18,3 +18,7 @@ To install modules on your Oqtane site, follow these steps:
 3. Browse your local system and select the module package file (.nupkg).
 4. Click "Upload" to initiate the installation process.
 5. Once the module is successfully installed, you'll see it listed in the Module Management section.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

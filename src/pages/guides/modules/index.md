@@ -48,4 +48,6 @@ This is an example of a content pane.
 
 Feel free to explore each topic to find the information you need to effectively work with modules in your Oqtane applications.
 
-[← Back to Documentation Guides Home Page](../index.md)
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

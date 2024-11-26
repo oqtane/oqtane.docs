@@ -19,3 +19,7 @@ If the page has the layout for multiple panes, which will allows for three cente
 * Move to Right Pane: Moves the module to the right-most column.
 * Move to Content Pane: Moves the module to the central column.
 * Move to Bottom Pane: Moves the module to the pane at the bottom of the page.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]

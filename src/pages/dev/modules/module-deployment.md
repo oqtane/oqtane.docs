@@ -31,3 +31,7 @@ After installation, you may need to configure the module settings to suit your s
 - **Version Control:** Use version control systems like Git to manage the development and deployment of your module, allowing for easy tracking of changes and collaboration with other developers.
 
 By following these best practices, you can effectively deploy modules to your Oqtane site and enhance its functionality with custom features and capabilities.
+
+---
+
+[!include[](~/shared/authors/thabaum/_main-author.md)]
