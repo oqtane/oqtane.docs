@@ -1,8 +1,8 @@
-# Oqtane Documentation 5.2.4
+# Oqtane Documentation 6.0.0
 
 > Oqtane is _the_ **Modular Application Framework for Blazor**
 >
-> Modern, Flexible, and Open Source - running on .net 8.0!
+> Modern, Flexible, and Open Source - running on .net 9.0!
 
 ## Documentation Contents
 

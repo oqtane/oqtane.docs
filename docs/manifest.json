@@ -1692,6 +1692,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.RequestCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.RequestCulture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Models.Resource.yml",
       "output": {
         ".html": {
@@ -1936,6 +1946,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.UserRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Models.UserValidateResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.UserValidateResult.html"
         }
       },
       "version": ""
@@ -3272,6 +3292,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Services.ILocalizationCookieService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.ILocalizationCookieService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/Oqtane.Services.ILocalizationService.yml",
       "output": {
         ".html": {
@@ -3586,6 +3616,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.ControllerRoutes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Oqtane.Shared.CookieRequestCultureProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.CookieRequestCultureProvider.html"
         }
       },
       "version": ""

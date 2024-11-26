@@ -3185,6 +3185,22 @@ references:
   isSpec: "True"
   fullName: Oqtane.Controllers.UserController.Validate
   nameWithType: UserController.Validate
+- uid: Oqtane.Controllers.UserController.ValidateUser(System.String,System.String,System.String)
+  name: ValidateUser(string, string, string)
+  href: api/Oqtane.Controllers.UserController.html#Oqtane_Controllers_UserController_ValidateUser_System_String_System_String_System_String_
+  commentId: M:Oqtane.Controllers.UserController.ValidateUser(System.String,System.String,System.String)
+  name.vb: ValidateUser(String, String, String)
+  fullName: Oqtane.Controllers.UserController.ValidateUser(string, string, string)
+  fullName.vb: Oqtane.Controllers.UserController.ValidateUser(String, String, String)
+  nameWithType: UserController.ValidateUser(string, string, string)
+  nameWithType.vb: UserController.ValidateUser(String, String, String)
+- uid: Oqtane.Controllers.UserController.ValidateUser*
+  name: ValidateUser
+  href: api/Oqtane.Controllers.UserController.html#Oqtane_Controllers_UserController_ValidateUser_
+  commentId: Overload:Oqtane.Controllers.UserController.ValidateUser
+  isSpec: "True"
+  fullName: Oqtane.Controllers.UserController.ValidateUser
+  nameWithType: UserController.ValidateUser
 - uid: Oqtane.Controllers.UserController.Verify(Oqtane.Models.User,System.String)
   name: Verify(User, string)
   href: api/Oqtane.Controllers.UserController.html#Oqtane_Controllers_UserController_Verify_Oqtane_Models_User_System_String_
@@ -7302,6 +7318,22 @@ references:
   isSpec: "True"
   fullName: Oqtane.Managers.IUserManager.ValidatePassword
   nameWithType: IUserManager.ValidatePassword
+- uid: Oqtane.Managers.IUserManager.ValidateUser(System.String,System.String,System.String)
+  name: ValidateUser(string, string, string)
+  href: api/Oqtane.Managers.IUserManager.html#Oqtane_Managers_IUserManager_ValidateUser_System_String_System_String_System_String_
+  commentId: M:Oqtane.Managers.IUserManager.ValidateUser(System.String,System.String,System.String)
+  name.vb: ValidateUser(String, String, String)
+  fullName: Oqtane.Managers.IUserManager.ValidateUser(string, string, string)
+  fullName.vb: Oqtane.Managers.IUserManager.ValidateUser(String, String, String)
+  nameWithType: IUserManager.ValidateUser(string, string, string)
+  nameWithType.vb: IUserManager.ValidateUser(String, String, String)
+- uid: Oqtane.Managers.IUserManager.ValidateUser*
+  name: ValidateUser
+  href: api/Oqtane.Managers.IUserManager.html#Oqtane_Managers_IUserManager_ValidateUser_
+  commentId: Overload:Oqtane.Managers.IUserManager.ValidateUser
+  isSpec: "True"
+  fullName: Oqtane.Managers.IUserManager.ValidateUser
+  nameWithType: IUserManager.ValidateUser
 - uid: Oqtane.Managers.IUserManager.VerifyEmail(Oqtane.Models.User,System.String)
   name: VerifyEmail(User, string)
   href: api/Oqtane.Managers.IUserManager.html#Oqtane_Managers_IUserManager_VerifyEmail_Oqtane_Models_User_System_String_
@@ -7541,6 +7573,22 @@ references:
   isSpec: "True"
   fullName: Oqtane.Managers.UserManager.ValidatePassword
   nameWithType: UserManager.ValidatePassword
+- uid: Oqtane.Managers.UserManager.ValidateUser(System.String,System.String,System.String)
+  name: ValidateUser(string, string, string)
+  href: api/Oqtane.Managers.UserManager.html#Oqtane_Managers_UserManager_ValidateUser_System_String_System_String_System_String_
+  commentId: M:Oqtane.Managers.UserManager.ValidateUser(System.String,System.String,System.String)
+  name.vb: ValidateUser(String, String, String)
+  fullName: Oqtane.Managers.UserManager.ValidateUser(string, string, string)
+  fullName.vb: Oqtane.Managers.UserManager.ValidateUser(String, String, String)
+  nameWithType: UserManager.ValidateUser(string, string, string)
+  nameWithType.vb: UserManager.ValidateUser(String, String, String)
+- uid: Oqtane.Managers.UserManager.ValidateUser*
+  name: ValidateUser
+  href: api/Oqtane.Managers.UserManager.html#Oqtane_Managers_UserManager_ValidateUser_
+  commentId: Overload:Oqtane.Managers.UserManager.ValidateUser
+  isSpec: "True"
+  fullName: Oqtane.Managers.UserManager.ValidateUser
+  nameWithType: UserManager.ValidateUser
 - uid: Oqtane.Managers.UserManager.VerifyEmail(Oqtane.Models.User,System.String)
   name: VerifyEmail(User, string)
   href: api/Oqtane.Managers.UserManager.html#Oqtane_Managers_UserManager_VerifyEmail_Oqtane_Models_User_System_String_
@@ -11940,6 +11988,84 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.Profile.ViewOrder
   nameWithType: Profile.ViewOrder
+- uid: Oqtane.Models.RequestCulture
+  name: RequestCulture
+  href: api/Oqtane.Models.RequestCulture.html
+  commentId: T:Oqtane.Models.RequestCulture
+  fullName: Oqtane.Models.RequestCulture
+  nameWithType: RequestCulture
+- uid: Oqtane.Models.RequestCulture.#ctor(System.Globalization.CultureInfo)
+  name: RequestCulture(CultureInfo)
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture__ctor_System_Globalization_CultureInfo_
+  commentId: M:Oqtane.Models.RequestCulture.#ctor(System.Globalization.CultureInfo)
+  name.vb: New(CultureInfo)
+  fullName: Oqtane.Models.RequestCulture.RequestCulture(System.Globalization.CultureInfo)
+  fullName.vb: Oqtane.Models.RequestCulture.New(System.Globalization.CultureInfo)
+  nameWithType: RequestCulture.RequestCulture(CultureInfo)
+  nameWithType.vb: RequestCulture.New(CultureInfo)
+- uid: Oqtane.Models.RequestCulture.#ctor(System.Globalization.CultureInfo,System.Globalization.CultureInfo)
+  name: RequestCulture(CultureInfo, CultureInfo)
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture__ctor_System_Globalization_CultureInfo_System_Globalization_CultureInfo_
+  commentId: M:Oqtane.Models.RequestCulture.#ctor(System.Globalization.CultureInfo,System.Globalization.CultureInfo)
+  name.vb: New(CultureInfo, CultureInfo)
+  fullName: Oqtane.Models.RequestCulture.RequestCulture(System.Globalization.CultureInfo, System.Globalization.CultureInfo)
+  fullName.vb: Oqtane.Models.RequestCulture.New(System.Globalization.CultureInfo, System.Globalization.CultureInfo)
+  nameWithType: RequestCulture.RequestCulture(CultureInfo, CultureInfo)
+  nameWithType.vb: RequestCulture.New(CultureInfo, CultureInfo)
+- uid: Oqtane.Models.RequestCulture.#ctor(System.String)
+  name: RequestCulture(string)
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture__ctor_System_String_
+  commentId: M:Oqtane.Models.RequestCulture.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Oqtane.Models.RequestCulture.RequestCulture(string)
+  fullName.vb: Oqtane.Models.RequestCulture.New(String)
+  nameWithType: RequestCulture.RequestCulture(string)
+  nameWithType.vb: RequestCulture.New(String)
+- uid: Oqtane.Models.RequestCulture.#ctor(System.String,System.String)
+  name: RequestCulture(string, string)
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture__ctor_System_String_System_String_
+  commentId: M:Oqtane.Models.RequestCulture.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: Oqtane.Models.RequestCulture.RequestCulture(string, string)
+  fullName.vb: Oqtane.Models.RequestCulture.New(String, String)
+  nameWithType: RequestCulture.RequestCulture(string, string)
+  nameWithType.vb: RequestCulture.New(String, String)
+- uid: Oqtane.Models.RequestCulture.#ctor*
+  name: RequestCulture
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture__ctor_
+  commentId: Overload:Oqtane.Models.RequestCulture.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Oqtane.Models.RequestCulture.RequestCulture
+  fullName.vb: Oqtane.Models.RequestCulture.New
+  nameWithType: RequestCulture.RequestCulture
+  nameWithType.vb: RequestCulture.New
+- uid: Oqtane.Models.RequestCulture.Culture
+  name: Culture
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture_Culture
+  commentId: P:Oqtane.Models.RequestCulture.Culture
+  fullName: Oqtane.Models.RequestCulture.Culture
+  nameWithType: RequestCulture.Culture
+- uid: Oqtane.Models.RequestCulture.Culture*
+  name: Culture
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture_Culture_
+  commentId: Overload:Oqtane.Models.RequestCulture.Culture
+  isSpec: "True"
+  fullName: Oqtane.Models.RequestCulture.Culture
+  nameWithType: RequestCulture.Culture
+- uid: Oqtane.Models.RequestCulture.UICulture
+  name: UICulture
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture_UICulture
+  commentId: P:Oqtane.Models.RequestCulture.UICulture
+  fullName: Oqtane.Models.RequestCulture.UICulture
+  nameWithType: RequestCulture.UICulture
+- uid: Oqtane.Models.RequestCulture.UICulture*
+  name: UICulture
+  href: api/Oqtane.Models.RequestCulture.html#Oqtane_Models_RequestCulture_UICulture_
+  commentId: Overload:Oqtane.Models.RequestCulture.UICulture
+  isSpec: "True"
+  fullName: Oqtane.Models.RequestCulture.UICulture
+  nameWithType: RequestCulture.UICulture
 - uid: Oqtane.Models.Resource
   name: Resource
   href: api/Oqtane.Models.Resource.html
@@ -15095,6 +15221,38 @@ references:
   isSpec: "True"
   fullName: Oqtane.Models.UserRole.UserRoleId
   nameWithType: UserRole.UserRoleId
+- uid: Oqtane.Models.UserValidateResult
+  name: UserValidateResult
+  href: api/Oqtane.Models.UserValidateResult.html
+  commentId: T:Oqtane.Models.UserValidateResult
+  fullName: Oqtane.Models.UserValidateResult
+  nameWithType: UserValidateResult
+- uid: Oqtane.Models.UserValidateResult.Errors
+  name: Errors
+  href: api/Oqtane.Models.UserValidateResult.html#Oqtane_Models_UserValidateResult_Errors
+  commentId: P:Oqtane.Models.UserValidateResult.Errors
+  fullName: Oqtane.Models.UserValidateResult.Errors
+  nameWithType: UserValidateResult.Errors
+- uid: Oqtane.Models.UserValidateResult.Errors*
+  name: Errors
+  href: api/Oqtane.Models.UserValidateResult.html#Oqtane_Models_UserValidateResult_Errors_
+  commentId: Overload:Oqtane.Models.UserValidateResult.Errors
+  isSpec: "True"
+  fullName: Oqtane.Models.UserValidateResult.Errors
+  nameWithType: UserValidateResult.Errors
+- uid: Oqtane.Models.UserValidateResult.Succeeded
+  name: Succeeded
+  href: api/Oqtane.Models.UserValidateResult.html#Oqtane_Models_UserValidateResult_Succeeded
+  commentId: P:Oqtane.Models.UserValidateResult.Succeeded
+  fullName: Oqtane.Models.UserValidateResult.Succeeded
+  nameWithType: UserValidateResult.Succeeded
+- uid: Oqtane.Models.UserValidateResult.Succeeded*
+  name: Succeeded
+  href: api/Oqtane.Models.UserValidateResult.html#Oqtane_Models_UserValidateResult_Succeeded_
+  commentId: Overload:Oqtane.Models.UserValidateResult.Succeeded
+  isSpec: "True"
+  fullName: Oqtane.Models.UserValidateResult.Succeeded
+  nameWithType: UserValidateResult.Succeeded
 - uid: Oqtane.Models.Visitor
   name: Visitor
   href: api/Oqtane.Models.Visitor.html
@@ -20067,6 +20225,22 @@ references:
   fullName.vb: Oqtane.Providers.DatabaseSearchProvider.New
   nameWithType: DatabaseSearchProvider.DatabaseSearchProvider
   nameWithType.vb: DatabaseSearchProvider.New
+- uid: Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent(System.Int32)
+  name: DeleteSearchContent(int)
+  href: api/Oqtane.Providers.DatabaseSearchProvider.html#Oqtane_Providers_DatabaseSearchProvider_DeleteSearchContent_System_Int32_
+  commentId: M:Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent(System.Int32)
+  name.vb: DeleteSearchContent(Integer)
+  fullName: Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent(int)
+  fullName.vb: Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent(Integer)
+  nameWithType: DatabaseSearchProvider.DeleteSearchContent(int)
+  nameWithType.vb: DatabaseSearchProvider.DeleteSearchContent(Integer)
+- uid: Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent*
+  name: DeleteSearchContent
+  href: api/Oqtane.Providers.DatabaseSearchProvider.html#Oqtane_Providers_DatabaseSearchProvider_DeleteSearchContent_
+  commentId: Overload:Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent
+  isSpec: "True"
+  fullName: Oqtane.Providers.DatabaseSearchProvider.DeleteSearchContent
+  nameWithType: DatabaseSearchProvider.DeleteSearchContent
 - uid: Oqtane.Providers.DatabaseSearchProvider.GetSearchResultsAsync(Oqtane.Models.SearchQuery)
   name: GetSearchResultsAsync(SearchQuery)
   href: api/Oqtane.Providers.DatabaseSearchProvider.html#Oqtane_Providers_DatabaseSearchProvider_GetSearchResultsAsync_Oqtane_Models_SearchQuery_
@@ -20093,19 +20267,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Providers.DatabaseSearchProvider.Name
   nameWithType: DatabaseSearchProvider.Name
-- uid: Oqtane.Providers.DatabaseSearchProvider.ResetIndex
-  name: ResetIndex()
-  href: api/Oqtane.Providers.DatabaseSearchProvider.html#Oqtane_Providers_DatabaseSearchProvider_ResetIndex
-  commentId: M:Oqtane.Providers.DatabaseSearchProvider.ResetIndex
-  fullName: Oqtane.Providers.DatabaseSearchProvider.ResetIndex()
-  nameWithType: DatabaseSearchProvider.ResetIndex()
-- uid: Oqtane.Providers.DatabaseSearchProvider.ResetIndex*
-  name: ResetIndex
-  href: api/Oqtane.Providers.DatabaseSearchProvider.html#Oqtane_Providers_DatabaseSearchProvider_ResetIndex_
-  commentId: Overload:Oqtane.Providers.DatabaseSearchProvider.ResetIndex
-  isSpec: "True"
-  fullName: Oqtane.Providers.DatabaseSearchProvider.ResetIndex
-  nameWithType: DatabaseSearchProvider.ResetIndex
 - uid: Oqtane.Providers.DatabaseSearchProvider.SaveSearchContent(Oqtane.Models.SearchContent,System.Collections.Generic.Dictionary{System.String,System.String})
   name: SaveSearchContent(SearchContent, Dictionary<string, string>)
   href: api/Oqtane.Providers.DatabaseSearchProvider.html#Oqtane_Providers_DatabaseSearchProvider_SaveSearchContent_Oqtane_Models_SearchContent_System_Collections_Generic_Dictionary_System_String_System_String__
@@ -22437,12 +22598,15 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.ISearchContentRepository.AddSearchWord
   nameWithType: ISearchContentRepository.AddSearchWord
-- uid: Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent
-  name: DeleteAllSearchContent()
-  href: api/Oqtane.Repository.ISearchContentRepository.html#Oqtane_Repository_ISearchContentRepository_DeleteAllSearchContent
-  commentId: M:Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent
-  fullName: Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent()
-  nameWithType: ISearchContentRepository.DeleteAllSearchContent()
+- uid: Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent(System.Int32)
+  name: DeleteAllSearchContent(int)
+  href: api/Oqtane.Repository.ISearchContentRepository.html#Oqtane_Repository_ISearchContentRepository_DeleteAllSearchContent_System_Int32_
+  commentId: M:Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent(System.Int32)
+  name.vb: DeleteAllSearchContent(Integer)
+  fullName: Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent(int)
+  fullName.vb: Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent(Integer)
+  nameWithType: ISearchContentRepository.DeleteAllSearchContent(int)
+  nameWithType.vb: ISearchContentRepository.DeleteAllSearchContent(Integer)
 - uid: Oqtane.Repository.ISearchContentRepository.DeleteAllSearchContent*
   name: DeleteAllSearchContent
   href: api/Oqtane.Repository.ISearchContentRepository.html#Oqtane_Repository_ISearchContentRepository_DeleteAllSearchContent_
@@ -25281,12 +25445,15 @@ references:
   isSpec: "True"
   fullName: Oqtane.Repository.SearchContentRepository.AddSearchWord
   nameWithType: SearchContentRepository.AddSearchWord
-- uid: Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent
-  name: DeleteAllSearchContent()
-  href: api/Oqtane.Repository.SearchContentRepository.html#Oqtane_Repository_SearchContentRepository_DeleteAllSearchContent
-  commentId: M:Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent
-  fullName: Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent()
-  nameWithType: SearchContentRepository.DeleteAllSearchContent()
+- uid: Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent(System.Int32)
+  name: DeleteAllSearchContent(int)
+  href: api/Oqtane.Repository.SearchContentRepository.html#Oqtane_Repository_SearchContentRepository_DeleteAllSearchContent_System_Int32_
+  commentId: M:Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent(System.Int32)
+  name.vb: DeleteAllSearchContent(Integer)
+  fullName: Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent(int)
+  fullName.vb: Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent(Integer)
+  nameWithType: SearchContentRepository.DeleteAllSearchContent(int)
+  nameWithType.vb: SearchContentRepository.DeleteAllSearchContent(Integer)
 - uid: Oqtane.Repository.SearchContentRepository.DeleteAllSearchContent*
   name: DeleteAllSearchContent
   href: api/Oqtane.Repository.SearchContentRepository.html#Oqtane_Repository_SearchContentRepository_DeleteAllSearchContent_
@@ -28268,6 +28435,28 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.ILanguageService.GetLanguagesAsync
   nameWithType: ILanguageService.GetLanguagesAsync
+- uid: Oqtane.Services.ILocalizationCookieService
+  name: ILocalizationCookieService
+  href: api/Oqtane.Services.ILocalizationCookieService.html
+  commentId: T:Oqtane.Services.ILocalizationCookieService
+  fullName: Oqtane.Services.ILocalizationCookieService
+  nameWithType: ILocalizationCookieService
+- uid: Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync(System.String)
+  name: SetLocalizationCookieAsync(string)
+  href: api/Oqtane.Services.ILocalizationCookieService.html#Oqtane_Services_ILocalizationCookieService_SetLocalizationCookieAsync_System_String_
+  commentId: M:Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync(System.String)
+  name.vb: SetLocalizationCookieAsync(String)
+  fullName: Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync(string)
+  fullName.vb: Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync(String)
+  nameWithType: ILocalizationCookieService.SetLocalizationCookieAsync(string)
+  nameWithType.vb: ILocalizationCookieService.SetLocalizationCookieAsync(String)
+- uid: Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync*
+  name: SetLocalizationCookieAsync
+  href: api/Oqtane.Services.ILocalizationCookieService.html#Oqtane_Services_ILocalizationCookieService_SetLocalizationCookieAsync_
+  commentId: Overload:Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ILocalizationCookieService.SetLocalizationCookieAsync
+  nameWithType: ILocalizationCookieService.SetLocalizationCookieAsync
 - uid: Oqtane.Services.ILocalizationService
   name: ILocalizationService
   href: api/Oqtane.Services.ILocalizationService.html
@@ -29158,6 +29347,22 @@ references:
   commentId: T:Oqtane.Services.ISearchProvider
   fullName: Oqtane.Services.ISearchProvider
   nameWithType: ISearchProvider
+- uid: Oqtane.Services.ISearchProvider.DeleteSearchContent(System.Int32)
+  name: DeleteSearchContent(int)
+  href: api/Oqtane.Services.ISearchProvider.html#Oqtane_Services_ISearchProvider_DeleteSearchContent_System_Int32_
+  commentId: M:Oqtane.Services.ISearchProvider.DeleteSearchContent(System.Int32)
+  name.vb: DeleteSearchContent(Integer)
+  fullName: Oqtane.Services.ISearchProvider.DeleteSearchContent(int)
+  fullName.vb: Oqtane.Services.ISearchProvider.DeleteSearchContent(Integer)
+  nameWithType: ISearchProvider.DeleteSearchContent(int)
+  nameWithType.vb: ISearchProvider.DeleteSearchContent(Integer)
+- uid: Oqtane.Services.ISearchProvider.DeleteSearchContent*
+  name: DeleteSearchContent
+  href: api/Oqtane.Services.ISearchProvider.html#Oqtane_Services_ISearchProvider_DeleteSearchContent_
+  commentId: Overload:Oqtane.Services.ISearchProvider.DeleteSearchContent
+  isSpec: "True"
+  fullName: Oqtane.Services.ISearchProvider.DeleteSearchContent
+  nameWithType: ISearchProvider.DeleteSearchContent
 - uid: Oqtane.Services.ISearchProvider.GetSearchResultsAsync(Oqtane.Models.SearchQuery)
   name: GetSearchResultsAsync(SearchQuery)
   href: api/Oqtane.Services.ISearchProvider.html#Oqtane_Services_ISearchProvider_GetSearchResultsAsync_Oqtane_Models_SearchQuery_
@@ -29184,19 +29389,6 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.ISearchProvider.Name
   nameWithType: ISearchProvider.Name
-- uid: Oqtane.Services.ISearchProvider.ResetIndex
-  name: ResetIndex()
-  href: api/Oqtane.Services.ISearchProvider.html#Oqtane_Services_ISearchProvider_ResetIndex
-  commentId: M:Oqtane.Services.ISearchProvider.ResetIndex
-  fullName: Oqtane.Services.ISearchProvider.ResetIndex()
-  nameWithType: ISearchProvider.ResetIndex()
-- uid: Oqtane.Services.ISearchProvider.ResetIndex*
-  name: ResetIndex
-  href: api/Oqtane.Services.ISearchProvider.html#Oqtane_Services_ISearchProvider_ResetIndex_
-  commentId: Overload:Oqtane.Services.ISearchProvider.ResetIndex
-  isSpec: "True"
-  fullName: Oqtane.Services.ISearchProvider.ResetIndex
-  nameWithType: ISearchProvider.ResetIndex
 - uid: Oqtane.Services.ISearchProvider.SaveSearchContent(Oqtane.Models.SearchContent,System.Collections.Generic.Dictionary{System.String,System.String})
   name: SaveSearchContent(SearchContent, Dictionary<string, string>)
   href: api/Oqtane.Services.ISearchProvider.html#Oqtane_Services_ISearchProvider_SaveSearchContent_Oqtane_Models_SearchContent_System_Collections_Generic_Dictionary_System_String_System_String__
@@ -29219,6 +29411,22 @@ references:
   commentId: T:Oqtane.Services.ISearchService
   fullName: Oqtane.Services.ISearchService
   nameWithType: ISearchService
+- uid: Oqtane.Services.ISearchService.DeleteSearchContentsAsync(System.Int32)
+  name: DeleteSearchContentsAsync(int)
+  href: api/Oqtane.Services.ISearchService.html#Oqtane_Services_ISearchService_DeleteSearchContentsAsync_System_Int32_
+  commentId: M:Oqtane.Services.ISearchService.DeleteSearchContentsAsync(System.Int32)
+  name.vb: DeleteSearchContentsAsync(Integer)
+  fullName: Oqtane.Services.ISearchService.DeleteSearchContentsAsync(int)
+  fullName.vb: Oqtane.Services.ISearchService.DeleteSearchContentsAsync(Integer)
+  nameWithType: ISearchService.DeleteSearchContentsAsync(int)
+  nameWithType.vb: ISearchService.DeleteSearchContentsAsync(Integer)
+- uid: Oqtane.Services.ISearchService.DeleteSearchContentsAsync*
+  name: DeleteSearchContentsAsync
+  href: api/Oqtane.Services.ISearchService.html#Oqtane_Services_ISearchService_DeleteSearchContentsAsync_
+  commentId: Overload:Oqtane.Services.ISearchService.DeleteSearchContentsAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.ISearchService.DeleteSearchContentsAsync
+  nameWithType: ISearchService.DeleteSearchContentsAsync
 - uid: Oqtane.Services.ISearchService.GetSearchResultsAsync(Oqtane.Models.SearchQuery)
   name: GetSearchResultsAsync(SearchQuery)
   href: api/Oqtane.Services.ISearchService.html#Oqtane_Services_ISearchService_GetSearchResultsAsync_Oqtane_Models_SearchQuery_
@@ -30636,6 +30844,22 @@ references:
   isSpec: "True"
   fullName: Oqtane.Services.IUserService.ValidatePasswordAsync
   nameWithType: IUserService.ValidatePasswordAsync
+- uid: Oqtane.Services.IUserService.ValidateUserAsync(System.String,System.String,System.String)
+  name: ValidateUserAsync(string, string, string)
+  href: api/Oqtane.Services.IUserService.html#Oqtane_Services_IUserService_ValidateUserAsync_System_String_System_String_System_String_
+  commentId: M:Oqtane.Services.IUserService.ValidateUserAsync(System.String,System.String,System.String)
+  name.vb: ValidateUserAsync(String, String, String)
+  fullName: Oqtane.Services.IUserService.ValidateUserAsync(string, string, string)
+  fullName.vb: Oqtane.Services.IUserService.ValidateUserAsync(String, String, String)
+  nameWithType: IUserService.ValidateUserAsync(string, string, string)
+  nameWithType.vb: IUserService.ValidateUserAsync(String, String, String)
+- uid: Oqtane.Services.IUserService.ValidateUserAsync*
+  name: ValidateUserAsync
+  href: api/Oqtane.Services.IUserService.html#Oqtane_Services_IUserService_ValidateUserAsync_
+  commentId: Overload:Oqtane.Services.IUserService.ValidateUserAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.IUserService.ValidateUserAsync
+  nameWithType: IUserService.ValidateUserAsync
 - uid: Oqtane.Services.IUserService.VerifyEmailAsync(Oqtane.Models.User,System.String)
   name: VerifyEmailAsync(User, string)
   href: api/Oqtane.Services.IUserService.html#Oqtane_Services_IUserService_VerifyEmailAsync_Oqtane_Models_User_System_String_
@@ -30972,6 +31196,22 @@ references:
   fullName.vb: Oqtane.Services.SearchService.New
   nameWithType: SearchService.SearchService
   nameWithType.vb: SearchService.New
+- uid: Oqtane.Services.SearchService.DeleteSearchContentsAsync(System.Int32)
+  name: DeleteSearchContentsAsync(int)
+  href: api/Oqtane.Services.SearchService.html#Oqtane_Services_SearchService_DeleteSearchContentsAsync_System_Int32_
+  commentId: M:Oqtane.Services.SearchService.DeleteSearchContentsAsync(System.Int32)
+  name.vb: DeleteSearchContentsAsync(Integer)
+  fullName: Oqtane.Services.SearchService.DeleteSearchContentsAsync(int)
+  fullName.vb: Oqtane.Services.SearchService.DeleteSearchContentsAsync(Integer)
+  nameWithType: SearchService.DeleteSearchContentsAsync(int)
+  nameWithType.vb: SearchService.DeleteSearchContentsAsync(Integer)
+- uid: Oqtane.Services.SearchService.DeleteSearchContentsAsync*
+  name: DeleteSearchContentsAsync
+  href: api/Oqtane.Services.SearchService.html#Oqtane_Services_SearchService_DeleteSearchContentsAsync_
+  commentId: Overload:Oqtane.Services.SearchService.DeleteSearchContentsAsync
+  isSpec: "True"
+  fullName: Oqtane.Services.SearchService.DeleteSearchContentsAsync
+  nameWithType: SearchService.DeleteSearchContentsAsync
 - uid: Oqtane.Services.SearchService.GetSearchResultsAsync(Oqtane.Models.SearchQuery)
   name: GetSearchResultsAsync(SearchQuery)
   href: api/Oqtane.Services.SearchService.html#Oqtane_Services_SearchService_GetSearchResultsAsync_Oqtane_Models_SearchQuery_
@@ -31756,6 +31996,60 @@ references:
   commentId: F:Oqtane.Shared.ControllerRoutes.Default
   fullName: Oqtane.Shared.ControllerRoutes.Default
   nameWithType: ControllerRoutes.Default
+- uid: Oqtane.Shared.CookieRequestCultureProvider
+  name: CookieRequestCultureProvider
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html
+  commentId: T:Oqtane.Shared.CookieRequestCultureProvider
+  fullName: Oqtane.Shared.CookieRequestCultureProvider
+  nameWithType: CookieRequestCultureProvider
+- uid: Oqtane.Shared.CookieRequestCultureProvider.CookieName
+  name: CookieName
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_CookieName
+  commentId: P:Oqtane.Shared.CookieRequestCultureProvider.CookieName
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.CookieName
+  nameWithType: CookieRequestCultureProvider.CookieName
+- uid: Oqtane.Shared.CookieRequestCultureProvider.CookieName*
+  name: CookieName
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_CookieName_
+  commentId: Overload:Oqtane.Shared.CookieRequestCultureProvider.CookieName
+  isSpec: "True"
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.CookieName
+  nameWithType: CookieRequestCultureProvider.CookieName
+- uid: Oqtane.Shared.CookieRequestCultureProvider.DefaultCookieName
+  name: DefaultCookieName
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_DefaultCookieName
+  commentId: F:Oqtane.Shared.CookieRequestCultureProvider.DefaultCookieName
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.DefaultCookieName
+  nameWithType: CookieRequestCultureProvider.DefaultCookieName
+- uid: Oqtane.Shared.CookieRequestCultureProvider.MakeCookieValue(Oqtane.Models.RequestCulture)
+  name: MakeCookieValue(RequestCulture)
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_MakeCookieValue_Oqtane_Models_RequestCulture_
+  commentId: M:Oqtane.Shared.CookieRequestCultureProvider.MakeCookieValue(Oqtane.Models.RequestCulture)
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.MakeCookieValue(Oqtane.Models.RequestCulture)
+  nameWithType: CookieRequestCultureProvider.MakeCookieValue(RequestCulture)
+- uid: Oqtane.Shared.CookieRequestCultureProvider.MakeCookieValue*
+  name: MakeCookieValue
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_MakeCookieValue_
+  commentId: Overload:Oqtane.Shared.CookieRequestCultureProvider.MakeCookieValue
+  isSpec: "True"
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.MakeCookieValue
+  nameWithType: CookieRequestCultureProvider.MakeCookieValue
+- uid: Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue(System.String)
+  name: ParseCookieValue(string)
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_ParseCookieValue_System_String_
+  commentId: M:Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue(System.String)
+  name.vb: ParseCookieValue(String)
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue(string)
+  fullName.vb: Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue(String)
+  nameWithType: CookieRequestCultureProvider.ParseCookieValue(string)
+  nameWithType.vb: CookieRequestCultureProvider.ParseCookieValue(String)
+- uid: Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue*
+  name: ParseCookieValue
+  href: api/Oqtane.Shared.CookieRequestCultureProvider.html#Oqtane_Shared_CookieRequestCultureProvider_ParseCookieValue_
+  commentId: Overload:Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue
+  isSpec: "True"
+  fullName: Oqtane.Shared.CookieRequestCultureProvider.ParseCookieValue
+  nameWithType: CookieRequestCultureProvider.ParseCookieValue
 - uid: Oqtane.Shared.EntityNames
   name: EntityNames
   href: api/Oqtane.Shared.EntityNames.html
@@ -35773,19 +36067,19 @@ references:
   isSpec: "True"
   fullName: Oqtane.Themes.Controls.LanguageSwitcher.DropdownAlignment
   nameWithType: LanguageSwitcher.DropdownAlignment
-- uid: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSet
-  name: OnParametersSet()
-  href: api/Oqtane.Themes.Controls.LanguageSwitcher.html#Oqtane_Themes_Controls_LanguageSwitcher_OnParametersSet
-  commentId: M:Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSet
-  fullName: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSet()
-  nameWithType: LanguageSwitcher.OnParametersSet()
-- uid: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSet*
-  name: OnParametersSet
-  href: api/Oqtane.Themes.Controls.LanguageSwitcher.html#Oqtane_Themes_Controls_LanguageSwitcher_OnParametersSet_
-  commentId: Overload:Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSet
+- uid: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSetAsync
+  name: OnParametersSetAsync()
+  href: api/Oqtane.Themes.Controls.LanguageSwitcher.html#Oqtane_Themes_Controls_LanguageSwitcher_OnParametersSetAsync
+  commentId: M:Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSetAsync
+  fullName: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSetAsync()
+  nameWithType: LanguageSwitcher.OnParametersSetAsync()
+- uid: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSetAsync*
+  name: OnParametersSetAsync
+  href: api/Oqtane.Themes.Controls.LanguageSwitcher.html#Oqtane_Themes_Controls_LanguageSwitcher_OnParametersSetAsync_
+  commentId: Overload:Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSetAsync
   isSpec: "True"
-  fullName: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSet
-  nameWithType: LanguageSwitcher.OnParametersSet
+  fullName: Oqtane.Themes.Controls.LanguageSwitcher.OnParametersSetAsync
+  nameWithType: LanguageSwitcher.OnParametersSetAsync
 - uid: Oqtane.Themes.Controls.Login
   name: Login
   href: api/Oqtane.Themes.Controls.Login.html

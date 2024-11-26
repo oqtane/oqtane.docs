@@ -27,7 +27,7 @@
       "dest": "obj/api",
       "filter": "filterConfig.yml",
       "properties": {
-        "TargetFramework": "net8.0"
+        // "TargetFramework": "net8.0"
       },
       "namespaceLayout": "nested", // make APIs use a tree
     }
