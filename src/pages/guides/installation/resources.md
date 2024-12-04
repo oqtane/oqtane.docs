@@ -24,6 +24,7 @@ _Note: The links in this section are external and may lead to websites that are 
 - [IIS URL Rewrite Module](https://www.iis.net/downloads/microsoft/url-rewrite): Download and install URL Rewrite Module for configuring URL rewriting rules in IIS.
 - [WebSocket Support on IIS](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/websockets?#enabling-websockets-on-iis): Instructions for enabling WebSockets on IIS.
 - [Publish an ASP.NET Core app to IIS](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-iis): This tutorial demonstrates how to host an ASP.NET Core app on an IIS server.
+- [Linux with Nginx](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx): Microsoft documentation guide for hosting ASP.NET Core on Linux with Nginx.
 - [ASP.NET Core security topics](https://learn.microsoft.com/en-us/aspnet/core/security): This article provides an overview of ASP.NET Core security features, including authentication, authorization, data protection, HTTPS enforcement, safe storage of app secrets, XSRF/CSRF prevention, CORS, and XSS attack prevention.
 
 ## Databases
@@ -95,6 +96,11 @@ _Note: The links in this section are external and may lead to websites that are 
 - [Host ASP.NET Core on Linux with Apache](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache): This article explains how to set up Apache as a reverse proxy server on CentOS 7 to redirect HTTP traffic to an ASP.NET Core web app running on the Kestrel server.
 
 ---
+
+## Nginx
+
+- [Nginx Documentation Home](https://nginx.org/en/docs/)
+- [Linux with Nginx](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx): Microsoft documentation guide for hosting ASP.NET Core on Linux with Nginx.
 
 ## Resources
 
