@@ -1,57 +1,5 @@
-# Oqtane Schema Documentation
+# Oqtane Database Schema Documentation
 #### Version 6.0.0
-
-## Table of Contents
-
-- [Enums](#enums)
-  - [LogFunction Enum](#logfunction-enum)
-  - [LogLevel Enum](#loglevel-enum)
-  - [MigrationType Enum](#migrationtype-enum)
-  - [ResourceDeclaration Enum (Deprecated)](#resourcedeclaration-enum-deprecated)
-  - [ResourceLevel Enum](#resourcelevel-enum)
-  - [ResourceLocation Enum](#resourcelocation-enum)
-  - [ResourceType Enum](#resourcetype-enum)
-  - [Runtime Enum](#runtime-enum)
-  - [SearchSortField Enum](#searchsortfield-enum)
-  - [SearchSortOrder Enum](#searchsortorder-enum)
-  - [SecurityAccessLevel Enum](#securityaccesslevel-enum)
-- [Models](#models)
-  - [Alias Model](#alias-model)
-  - [Culture Model](#culture-model)
-  - [Database Model](#database-model)
-  - [ExternalLoginProvider Model](#externalloginprovider-model)
-  - [Installation Model](#installation-model)
-  - [JobLog Model](#joblog-model)
-  - [Log Model](#log-model)
-  - [MigrationHistoryTable Model](#migrationhistorytable-model)
-  - [ModuleContent Model](#modulecontent-model)
-  - [Package Model](#package-model)
-  - [RequestCulture Model](#requestculture-model)
-  - [Resource Model](#resource-model)
-  - [Result Model](#result-model)
-  - [Route Model](#route-model)
-  - [SearchContent Model](#searchcontent-model)
-  - [SearchContentProperty Model](#searchcontentproperty-model)
-  - [SearchContentWord Model](#searchcontentword-model)
-  - [SearchQuery Model](#searchquery-model)
-  - [SearchResults Model](#searchresults-model)
-  - [SearchWord Model](#searchword-model)
-  - [Sitemap Model](#sitemap-model)
-  - [SiteTemplate Model](#sitetemplate-model)
-  - [PageTemplate Model](#pagetemplate-model)
-  - [PageTemplateModule Model](#pagetemplatemodule-model)
-  - [SqlQuery Model](#sqlquery-model)
-  - [Sync Model](#sync-model)
-  - [Template Model](#template-model)
-  - [ThemeControl Model](#themecontrol-model)
-  - [UrlMapping Model](#urlmapping-model)
-  - [UserValidateResult Model](#uservalidateresult-model)
-  - [Visitor Model](#visitor-model)
- 
-### See Also
-
-- [**Enums API Documentation**](https://docs.oqtane.org/api/Oqtane.Enums.html)
-- [**Models API Documentation**](https://docs.oqtane.org/api/Oqtane.Models.html)
 
 ## Enums
 
@@ -70,8 +18,6 @@ The `LogFunction` enum categorizes log entries based on the type of operation be
 ```csharp
 LogFunction logFunction = LogFunction.Create;
 ```
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -93,8 +39,6 @@ The `LogLevel` enum sets the verbosity level for log entries. Higher levels indi
 LogLevel logLevel = LogLevel.Error;
 ```
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### MigrationType Enum
@@ -109,8 +53,6 @@ The `MigrationType` enum specifies whether to apply or roll back database change
 MigrationType migrationType = MigrationType.Up;
 ```
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### ResourceDeclaration Enum (Deprecated)
@@ -122,8 +64,6 @@ MigrationType migrationType = MigrationType.Up;
 
 
 **Note:** Use `ResourceLevel` enum instead for specifying resource scope.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -142,8 +82,6 @@ The `ResourceLevel` enum specifies the scope of a resource's availability, deter
 ResourceLevel resourceLevel = ResourceLevel.Page;
 ```
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### ResourceLocation Enum
@@ -158,8 +96,6 @@ The `ResourceLocation` enum specifies whether a resource (such as a script or CS
 ResourceLocation resourceLocation = ResourceLocation.Head;
 ```
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### ResourceType Enum
@@ -173,8 +109,6 @@ The `ResourceType` enum defines the type of resource, which can either be a CSS 
 ```csharp
 ResourceType resourceType = ResourceType.Stylesheet;
 ```
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -192,8 +126,6 @@ The `Runtime` enum specifies the runtime environment of the application, helping
 Runtime runtime = Runtime.Server;
 ```
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### SearchSortField Enum
@@ -209,8 +141,6 @@ The `SearchSortField` enum specifies the sorting order for search results, allow
 SearchSortField sortField = SearchSortField.Relevance;
 ```
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### SearchSortOrder Enum
@@ -224,8 +154,6 @@ The `SearchSortOrder` enum defines whether the search results should be sorted i
 ```csharp
 SearchSortOrder sortOrder = SearchSortOrder.Ascending;
 ```
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -243,8 +171,6 @@ The `SecurityAccessLevel` enum controls the level of access a user has in the sy
 ```csharp
 SecurityAccessLevel accessLevel = SecurityAccessLevel.Admin;
 ```
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -295,8 +221,6 @@ string path = alias.Path; // returns ""
 - **Update**: Introduced `SiteKey` and `Protocol` properties for better identification and request handling.
 - **Refinement**: Added `BaseUrl` property for accessing static resources.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Culture Model**
@@ -321,8 +245,6 @@ var culture = new Culture
 
 #### Change Log:
 - **Initial Creation**: Defined primary properties for `Name`, `DisplayName`, and `IsDefault`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -351,8 +273,6 @@ var database = new Database
 #### Change Log:
 - **Initial Creation**: Added properties for `Name`, `ControlType`, `DBType`, and `IsDefault`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **ExternalLoginProvider Model**
@@ -379,8 +299,6 @@ var externalLoginProvider = new ExternalLoginProvider
 
 #### Change Log:
 - **Initial Creation**: Defined properties for `Name` and `Settings`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -423,8 +341,6 @@ var file = new File
 - Initial creation of File model.
 - Added properties for image dimensions.
 - Deprecated `IsDeleted` property.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -480,8 +396,6 @@ int folderCapacity = folder.Capacity; // returns 10485760 (10 MB)
 - **Enhancement**: Added `PermissionList`, `Level`, and `HasChildren` properties.
 - **Update**: Deprecated the `Permissions` property and provided a replacement with `PermissionList`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Installation Model**
@@ -509,8 +423,6 @@ Alias installAlias = installation.Alias; // returns Alias object
 
 **Change Log:**
 - **Initial Creation**: Added primary properties for `Success`, `Message`, and `Alias`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -558,8 +470,6 @@ DateTime? nextExecution = job.NextExecution; // returns the next execution time
 - **Initial Creation**: Added primary properties for `JobId`, `Name`, `JobType`, `Frequency`, `Interval`, `StartDate`, `EndDate`, `IsEnabled`, `IsStarted`, `IsExecuting`, and `NextExecution`.
 - **Enhancement**: Added `RetentionHistory` property.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **JobLog Model**
@@ -594,8 +504,6 @@ string logNotes = jobLog.Notes; // returns "Backup completed successfully."
 
 **Change Log:**
 - **Initial Creation**: Added primary properties for `JobLogId`, `JobId`, `StartDate`, `FinishDate`, `Succeeded`, `Notes`, and `Job`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -637,8 +545,6 @@ var clonedLanguage = language.Clone();
 
 - **Initial Creation**: Added primary properties for `LanguageId`, `SiteId`, `Code`, `IsDefault`, `Name`, and `Version`.
 - **Enhancement**: Added `Clone` method for creating copies of the `Language` object.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -693,8 +599,6 @@ var log = new Log
 
 - **Initial Creation**: Added primary properties for `LogId`, `SiteId`, `LogDate`, `PageId`, `ModuleId`, `UserId`, `Url`, `Server`, `Category`, `Feature`, `Function`, `Level`, `Message`, `MessageTemplate`, `Exception`, and `Properties`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **MigrationHistoryTable Model**
@@ -727,8 +631,6 @@ var migrationHistoryTable = new MigrationHistoryTable
 #### Change Log:
 
 - **Initial Creation**: Added properties for `TableName`, `TableSchema`, `MigrationIdColumnName`, `ProductVersionColumnName`, `AppliedVersionColumnName`, and `AppliedDateColumnName`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -766,8 +668,6 @@ var example = new ExampleModel
 #### Change Log:
 
 - **Initial Creation**: Added properties for `CreatedBy`, `CreatedOn`, `ModifiedBy`, and `ModifiedOn`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -850,8 +750,6 @@ var clonedModule = module.Clone();
 - **Initial Creation**: Added primary properties for `ModuleId`, `SiteId`, `ModuleDefinitionName`, `AllPages`, `DeletedBy`, `DeletedOn`, `IsDeleted`, `PermissionList`, `Settings`, `PageModuleId`, `PageId`, `Title`, `Pane`, `Order`, `ContainerType`, `EffectiveDate`, `ExpiryDate`, `ModuleType`, `PaneModuleIndex`, `PaneModuleCount`, `RenderId`, `SecurityAccessLevel`, `ControlTitle`, `Actions`, `UseAdminContainer`, `RenderMode`, and `Prerender`.
 - **Enhancement**: Added `Clone` method for creating copies of the `Module` object.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **ModuleContent Model**
@@ -878,8 +776,6 @@ var moduleContent = new ModuleContent
 #### Change Log:
 
 - **Initial Creation**: Added properties for `ModuleDefinitionName`, `Version`, and `Content`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -962,8 +858,6 @@ var moduleDefinition = new ModuleDefinition
 - **Initial Creation**: Added primary properties for `ModuleDefinitionId`, `ModuleDefinitionName`, `Name`, `Description`, `Categories`, `Version`, `Owner`, `Url`, `Contact`, `License`, `Runtimes`, `Dependencies`, `PermissionNames`, `ServerManagerType`, `ControlTypeRoutes`, `ReleaseVersions`, `DefaultAction`, `SettingsType`, `PackageName`, `Resources`, `IsAutoEnabled`, `PageTemplates`, `SiteId`, `IsEnabled`, `ControlTypeTemplate`, `AssemblyName`, `PermissionList`, `Template`, and `IsPortable`.
 - **Enhancement**: Added `Permissions` property as deprecated and provided `PermissionList` as a replacement.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Notification Model**
@@ -1016,8 +910,6 @@ var notification = new Notification
 #### Change Log:
 
 - **Initial Creation**: Added properties for `NotificationId`, `SiteId`, `FromUserId`, `FromDisplayName`, `FromEmail`, `ToUserId`, `ToDisplayName`, `ToEmail`, `ParentId`, `Subject`, `Body`, `CreatedOn`, `IsDelivered`, `DeliveredOn`, `DeletedBy`, `DeletedOn`, `IsDeleted`, `SendOn`, and `IsRead`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1077,8 +969,6 @@ var package = new Package
 #### Change Log:
 
 - **Initial Creation**: Added properties for `PackageId`, `Owner`, `OwnerUrl`, `Name`, `Description`, `LogoFileId`, `LogoUrl`, `License`, `ProductUrl`, `Version`, `Downloads`, `ReleaseDate`, `PackageUrl`, `SupportUrl`, `Vulnerabilities`, `Price`, `PaymentUrl`, `TrialPeriod`, and `ExpiryDate`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1159,8 +1049,6 @@ var clonedPage = page.Clone();
 - **Initial Creation**: Added properties for `PageId`, `SiteId`, `Path`, `ParentId`, `Name`, `Title`, `Order`, `Url`, `ThemeType`, `DefaultContainerType`, `HeadContent`, `BodyContent`, `Icon`, `IsNavigation`, `IsClickable`, `IsPersonalizable`, `UserId`, `EffectiveDate`, `ExpiryDate`, `Level`, `HasChildren`, `PermissionList`, `Settings`, `Panes`, `Resources`, `DeletedBy`, `DeletedOn`, `IsDeleted`, `EditMode`, `LayoutType`, and `Permissions`.
 - **Enhancement**: Added `Clone` method for creating copies of the `Page` object.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **PageModule Model**
@@ -1210,8 +1098,6 @@ var pageModule = new PageModule
 
 - **Initial Creation**: Added properties for `PageModuleId`, `PageId`, `ModuleId`, `Title`, `Pane`, `Order`, `ContainerType`, `EffectiveDate`, `ExpiryDate`, `DeletedBy`, `DeletedOn`, `IsDeleted`, `Module`, and `Page`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Permission Model**
@@ -1254,8 +1140,6 @@ var clonedPermission = permission.Clone();
 
 - **Initial Creation**: Added properties for `PermissionId`, `SiteId`, `EntityName`, `EntityId`, `PermissionName`, `RoleId`, `RoleName`, `UserId`, and `IsAuthorized`.
 - **Enhancement**: Added `Clone` method for creating copies of the `Permission` object.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1308,8 +1192,6 @@ var profile = new Profile
 
 - **Initial Creation**: Added properties for `ProfileId`, `SiteId`, `Name`, `Title`, `Description`, `Category`, `ViewOrder`, `MaxLength`, `DefaultValue`, `IsRequired`, `IsPrivate`, `Options`, `Validation`, `Rows`, and `Autocomplete`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **RequestCulture Model**
@@ -1341,8 +1223,6 @@ CultureInfo uiCulture = requestCulture.UICulture; // returns CultureInfo for "en
 #### Change Log:
 
 - **Initial Creation**: Added properties for `Culture` and `UICulture`, and various constructors for initializing these properties.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1394,8 +1274,6 @@ var clonedResource = resource.Clone(ResourceLevel.Page, "Oqtane.Modules");
 - **Initial Creation**: Added properties for `ResourceType`, `Url`, `Integrity`, `CrossOrigin`, `Bundle`, `Level`, `Location`, `ES6Module`, `Content`, `RenderMode`, `Reload`, `Namespace`, and `Declaration`.
 - **Enhancement**: Added `Clone` method for creating copies of the `Resource` object.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Result Model**
@@ -1426,8 +1304,6 @@ string message = result2.Message; // returns "An error occurred"
 #### Change Log:
 
 - **Initial Creation**: Added properties for `Success` and `Message`, along with constructors for initializing these properties.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1461,8 +1337,6 @@ var role = new Role
 #### Change Log:
 
 - **Initial Creation**: Added properties for `RoleId`, `SiteId`, `Name`, `Description`, `IsAutoAssigned`, and `IsSystem`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1520,8 +1394,6 @@ string siteUrl = route.SiteUrl; // returns "https://example.com/oqtane"
 
 - **Initial Creation**: Added properties for `Authority`, `Scheme`, `Host`, `Port`, `AbsolutePath`, `PathAndQuery`, `AliasPath`, `PagePath`, `ModuleId`, `Action`, `UrlParameters`, `Query`, `Fragment`, `RootUrl`, and `SiteUrl`.
 - **Enhancement**: Added constructors for initializing these properties.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1582,8 +1454,6 @@ string uniqueKey = searchContent.UniqueKey; // returns "1:1:Page:10"
 
 - **Initial Creation**: Added properties for `SearchContentId`, `SiteId`, `EntityName`, `EntityId`, `Title`, `Description`, `Body`, `Url`, `Permissions`, `ContentModifiedBy`, `ContentModifiedOn`, `AdditionalContent`, `CreatedOn`, `SearchContentProperties`, `Count`, `IsDeleted`, `TenantId`, and `UniqueKey`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **SearchContentProperty Model**
@@ -1612,8 +1482,6 @@ var searchContentProperty = new SearchContentProperty
 #### Change Log:
 
 - **Initial Creation**: Added properties for `PropertyId`, `SearchContentId`, `Name`, and `Value`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1651,8 +1519,6 @@ var searchContentWord = new SearchContentWord
 #### Change Log:
 
 - **Initial Creation**: Added properties for `SearchContentWordId`, `SearchContentId`, `SearchWordId`, `Count`, `CreatedOn`, `ModifiedOn`, `SearchWord`, and `SearchContent`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1700,8 +1566,6 @@ var searchQuery = new SearchQuery
 #### Change Log:
 
 - **Initial Creation**: Added properties for `SiteId`, `Alias`, `Keywords`, `IncludeEntities`, `ExcludeEntities`, `FromDate`, `ToDate`, `Properties`, `PageIndex`, `PageSize`, `SortField`, `SortOrder`, and `BodyLength`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1766,8 +1630,6 @@ var searchResult = new SearchResult
 
 - **Initial Creation**: Added properties for `Score`, `DisplayScore`, and `Snippet`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **SearchResults Model**
@@ -1818,8 +1680,6 @@ var searchResults = new SearchResults
 
 - **Initial Creation**: Added properties for `Results` and `TotalResults`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **SearchWord Model**
@@ -1846,8 +1706,6 @@ var searchWord = new SearchWord
 #### Change Log:
 
 - **Initial Creation**: Added properties for `SearchWordId`, `Word`, and `CreatedOn`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1881,8 +1739,6 @@ var setting = new Setting
 #### Change Log:
 
 - **Initial Creation**: Added properties for `SettingId`, `EntityName`, `EntityId`, `SettingName`, `SettingValue`, and `IsPrivate`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -1975,8 +1831,6 @@ var clonedSite = site.Clone();
 - **Initial Creation**: Added properties for `SiteId`, `TenantId`, `Name`, `LogoFileId`, `FaviconFileId`, `DefaultThemeType`, `DefaultContainerType`, `AdminContainerType`, `PwaIsEnabled`, `PwaAppIconFileId`, `PwaSplashIconFileId`, `AllowRegistration`, `VisitorTracking`, `CaptureBrokenUrls`, `SiteGuid`, `RenderMode`, `Runtime`, `Prerender`, `Hybrid`, `Version`, `HomePageId`, `HeadContent`, `BodyContent`, `IsDeleted`, `DeletedBy`, `DeletedOn`, `ImageFiles`, `UploadableFiles`, `SiteTemplateType`, `Settings`, `Pages`, `Languages`, and `Themes`.
 - **Enhancement**: Added `Clone` method for creating copies of the `Site` object.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Sitemap Model**
@@ -2002,8 +1856,6 @@ var sitemap = new Sitemap
 
 - **Initial Creation**: Added properties for `Url` and `ModifiedOn`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **SiteTemplate Model**
@@ -2028,8 +1880,6 @@ var siteTemplate = new SiteTemplate
 #### Change Log:
 
 - **Initial Creation**: Added properties for `Name` and `TypeName`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2098,8 +1948,6 @@ var pageTemplate = new PageTemplate
 
 - **Initial Creation**: Added properties for `Path`, `Parent`, `Name`, `Title`, `Order`, `Url`, `ThemeType`, `DefaultContainerType`, `HeadContent`, `BodyContent`, `Icon`, `IsNavigation`, `IsClickable`, `IsPersonalizable`, `IsDeleted`, `PermissionList`, `PageTemplateModules`, `AliasName`, `Version`, `Update`, `EditMode`, and `PagePermissions`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **PageTemplateModule Model**
@@ -2142,8 +1990,6 @@ var pageTemplateModule = new PageTemplateModule
 
 - **Initial Creation**: Added properties for `ModuleDefinitionName`, `Title`, `Pane`, `Order`, `ContainerType`, `IsDeleted`, `PermissionList`, `Content`, and `ModulePermissions`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **SqlQuery Model**
@@ -2174,8 +2020,6 @@ var sqlQuery = new SqlQuery
 #### Change Log:
 
 - **Initial Creation**: Added properties for `TenantId`, `DBType`, `DBConnectionString`, `Query`, and `Results`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2208,8 +2052,6 @@ var sync = new Sync
     }
 };
 ```
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2245,8 +2087,6 @@ var syncEvent = new SyncEvent
 - **Initial Creation**: Added properties for `SyncDate` and `SyncEvents` to the `Sync` model.
 - **Initial Creation**: Added properties for `TenantId`, `SiteId`, `EntityName`, `EntityId`, `Action`, and `ModifiedOn` to the `SyncEvent` model.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Template Model**
@@ -2280,8 +2120,6 @@ var template = new Template
 
 - **Initial Creation**: Added properties for `Name`, `Title`, `Type`, `Version`, `Namespace`, and `Location`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **Tenant Model**
@@ -2312,8 +2150,6 @@ var tenant = new Tenant
 #### Change Log:
 
 - **Initial Creation**: Added properties for `TenantId`, `Name`, `DBConnectionString`, `DBType`, and `Version`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2380,8 +2216,6 @@ var theme = new Theme
 
 - **Initial Creation**: Added properties for `ThemeId`, `ThemeName`, `Name`, `Version`, `Owner`, `Url`, `Contact`, `License`, `Dependencies`, `ThemeSettingsType`, `ContainerSettingsType`, `PackageName`, `Resources`, `IsAutoEnabled`, `SiteId`, `IsEnabled`, `AssemblyName`, `Themes`, `Containers`, `Template`, `ThemeControls`, `PaneLayouts`, `ContainerControls`, and `Layouts`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **ThemeControl Model**
@@ -2410,8 +2244,6 @@ var themeControl = new ThemeControl
 #### Change Log:
 
 - **Initial Creation**: Added properties for `TypeName`, `Name`, `Thumbnail`, and `Panes`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2447,8 +2279,6 @@ var urlMapping = new UrlMapping
 #### Change Log:
 
 - **Initial Creation**: Added properties for `UrlMappingId`, `SiteId`, `Url`, `MappedUrl`, `Requests`, `CreatedOn`, and `RequestedOn`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2517,8 +2347,6 @@ string folderPath = user.FolderPath; // returns "Users/1/"
 
 - **Initial Creation**: Added properties for `UserId`, `Username`, `DisplayName`, `Email`, `PhotoFileId`, `LastLoginOn`, `LastIPAddress`, `TwoFactorRequired`, `TwoFactorCode`, `TwoFactorExpiry`, `SecurityStamp`, `SiteId`, `Roles`, `DeletedBy`, `DeletedOn`, `IsDeleted`, `Password`, `IsAuthenticated`, `FolderPath`, `EmailConfirmed`, `SuppressNotification`, and `Settings`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **UserRole Model**
@@ -2556,8 +2384,6 @@ var userRole = new UserRole
 
 - **Initial Creation**: Added properties for `UserRoleId`, `UserId`, `RoleId`, `EffectiveDate`, `ExpiryDate`, `IgnoreSecurityStamp`, `Role`, and `User`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
 
 ### **UserValidateResult Model**
@@ -2586,8 +2412,6 @@ var userValidateResult = new UserValidateResult
 #### Change Log:
 
 - **Initial Creation**: Added properties for `Succeeded` and `Errors`.
-
-**[Back to TOC](#table-of-contents)**
 
 ---
 
@@ -2634,6 +2458,11 @@ var visitor = new Visitor
 
 - **Initial Creation**: Added properties for `VisitorId`, `SiteId`, `UserId`, `Visits`, `IPAddress`, `UserAgent`, `Language`, `Url`, `Referrer`, `CreatedOn`, `VisitedOn`, and `User`.
 
-**[Back to TOC](#table-of-contents)**
-
 ---
+
+### See Also
+
+- [**Enums API Documentation**](https://docs.oqtane.org/api/Oqtane.Enums.html)
+- [**Models API Documentation**](https://docs.oqtane.org/api/Oqtane.Models.html)
+
+
