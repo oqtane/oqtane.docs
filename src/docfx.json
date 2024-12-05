@@ -98,9 +98,9 @@
           "articles/**.png",
           "articles/**.jpg",
           "articles/**.svg",
-          "apidoc/**.png",
-          "apidoc/**.jpg",
-          "apidoc/**.svg"
+          "api-docs/**.png",
+          "api-docs/**.jpg",
+          "api-docs/**.svg"
         ],
         "exclude": [
           "obj/**",
@@ -111,7 +111,7 @@
     "overwrite": [
       {
         "files": [
-          "apidoc/**.md"
+          "api-docs/**.md"
         ],
         "exclude": [
           "obj/**",

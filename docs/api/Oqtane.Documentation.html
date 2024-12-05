@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace Oqtane.Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Documentation Namespace | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace Oqtane.Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Documentation Namespace | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../layout/images/favicon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/apidoc/Documentation/index.md/#L2">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/api-docs/Documentation/index.md/#L2">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -90,36 +90,37 @@
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual">
 <p>This namespace contains attributes like <code>PublicApi</code> which mark code as public, private, internal, etc.
-Depending on what attributes you add to your code it will appear in the generated docs - and possibly have a warning or something attached.</p>
+Depending on what attributes you add to your code it will appear in the generated docs,
+and possibly have a warning or something attached.</p>
 <p>Typical use:</p>
 <pre><code class="lang-cs">[PublicApi]
 public class YourClass {
-	// this will be documented without any special comments
-	// because we're not using the &lt;summary&gt; tag
-	public string Name;
+  // this will be documented without any special comments
+  // because we're not using the &lt;summary&gt; tag
+  public string Name;
 
-    /// &lt;summary&gt;
-    /// This will be documented with this text in the summary
-    /// &lt;/summary&gt;
-	public string Something;
+  /// &lt;summary&gt;
+  /// This will be documented with this text in the summary
+  /// &lt;/summary&gt;
+  public string Something;
 
-    /// &lt;summary&gt;
-	/// This won't appear in the public documentation
-    /// &lt;/summary&gt;
-	[PrivateApi(&quot;Don't publish this - should only be used internally&quot;)]
-	public string InternalSpecialName;
+  /// &lt;summary&gt;
+  /// This won't appear in the public documentation
+  /// &lt;/summary&gt;
+  [PrivateApi(&quot;Don't publish this - should only be used internally&quot;)]
+  public string InternalSpecialName;
 
-    /// &lt;summary&gt;
-	/// This will appear in the docs, but the Work-In-Progress will be clearly visible
-    /// &lt;/summary&gt;
-	[WorkInProgressApi(&quot;We're not done yet, may change&quot;)]
-	public string NotDoneYet;
+  /// &lt;summary&gt;
+  /// This will appear in the docs, but Work-In-Progress is clearly visible
+  /// &lt;/summary&gt;
+  [WorkInProgressApi(&quot;We're not done yet, may change&quot;)]
+  public string NotDoneYet;
 
-    /// &lt;summary&gt;
-	/// This will appear in the docs, but with a warning
-    /// &lt;/summary&gt;
-	[InternalApi_DoNotUse_MayChangeWithoutNotice(&quot;This may help you, but please don't use it&quot;)]
-	public string YouShouldKnowAboutThisButNotUseIt;
+  /// &lt;summary&gt;
+  /// This will appear in the docs, but with a warning
+  /// &lt;/summary&gt;
+  [InternalApi_DoNotUse_MayChangeWithoutNotice(&quot;This may help you, but please don't use it&quot;)]
+  public string YouShouldKnowAboutThisButNotUseIt;
 }
 </code></pre>
 </div>
@@ -158,7 +159,7 @@ You can apply it to anything, but usually you will only need it on classes.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/apidoc/Documentation/index.md/#L2" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/api-docs/Documentation/index.md/#L2" class="edit-link">Edit this page</a>
         </div>
 
 

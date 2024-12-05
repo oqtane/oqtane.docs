@@ -40,6 +40,10 @@ apiRules:
 - exclude:
     uidRegex: ^Oqtane.Themes.OqtaneTheme
 
+# Exclude classes which are just Blazor imports
+- exclude:
+    uidRegex: \._Imports$
+
 # exclude a strange namespace which should probably not be there
 - exclude:
     uidRegex: ^OqtaneSSR.Extensions
