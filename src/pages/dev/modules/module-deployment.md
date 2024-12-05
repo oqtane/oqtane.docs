@@ -6,13 +6,17 @@ Once you've developed and tested your module, it's time to deploy it to your Oqt
 
 To install a module on your Oqtane site, follow these steps:
 
-1. **Access Module Management:** Navigate to the Module Management section in the Administration Dashboard of your Oqtane site.
+1. **Access Module Management:**  
+   Navigate to the **Module Management** section in the **Administration Dashboard** of your Oqtane site. Ensure you have the necessary permissions, such as "Host."
 
-2. **Upload Module Package:** Click on the "Upload Module" button and select the module package file (`*.oqp`) from your local machine.
+2. **Upload Module Package:**  
+   Click on the **"Upload Module"** button and select the module package file with the extension `*.nupkg` from your local machine. The file must be a valid NuGet package for Oqtane.
 
-3. **Install Module:** Once the module package is uploaded, click on the "Install" button to initiate the installation process.
+3. **Install Module:**  
+   Once the module package is uploaded, the module will appear in the list of available modules. Click on the **"Install"** button next to the uploaded module to initiate the installation process.
 
-4. **Confirmation:** After installation, you'll receive a confirmation message indicating that the module was installed successfully.
+4. **Confirmation:**  
+   After the installation is complete, a confirmation message will appear, indicating that the module was installed successfully and is ready for use.
 
 ## Activating the Module
 
