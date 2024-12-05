@@ -1,14 +1,38 @@
-function flattenNamespace(items, ns, specs) {
-  const index = items.findIndex(item => item.topicUid === ns);
-  const nsItem = items[index];
+const debug = false;
+
+function flattenNamespace(parentList, ns, specs) {
+  if (debug)
+    console.log(`Debug flattenNamespace: ${parentList.length}; ns: ${ns}; specs: ${specs}`);
+
+  const index = parentList.findIndex(item => item.topicUid === ns);
+  const child = parentList[index];
 
   // run rename and Highlight on all nsItems
-  const renamed = nsItem.items.map(item => renameWithNamespaceAndHighlight(item, specs.highlights[item.topicUid]));
-  nsItem.items = [];
+  const childItemsOriginal = child.items;
 
-  const before = items.splice(0, index + 1);
-  const after = items.splice(index - 1);
-  const inserted = [...before, ...renamed, ...after];
+  // Determine which of the children are namespaces and which are simply properties
+  // Split all childItems into namespaces and non-namespaces based on the items property
+  const namespaces = childItemsOriginal.filter(item => item.items && item.items.length > 0);
+  const nonNamespaces = childItemsOriginal.filter(item => !item.items || item.items.length === 0);
+
+  const childNamespaces = namespaces.map(item => renameWithNamespaceAndHighlight(item, specs.highlights[item.topicUid]));
+
+  if (debug && childNamespaces.length > 0) {
+    const first = childNamespaces[0];
+    const firstJson = JSON.stringify(first);
+    console.log(`Debug flattenNamespace: ${firstJson}`);
+
+    const last = childNamespaces[childNamespaces.length - 1];
+    const lastJson = JSON.stringify(last);
+    console.log(`Debug flattenNamespace: ${lastJson}`);
+  }
+
+  // Clear all items below this namespace
+  child.items = nonNamespaces;
+
+  const before = parentList.splice(0, index + 1);
+  const after = parentList.splice(index - 1);
+  const inserted = [...before, ...childNamespaces, ...after];
 
   return inserted;
 }
