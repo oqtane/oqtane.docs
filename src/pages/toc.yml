@@ -1,3 +1,4 @@
+ # note: don't add the toc.yml on any of the positions, otherwise the menus will change
 
 - name: Guides
   href: ./guides/
@@ -9,5 +10,6 @@
   href: ./dev/
 
 - name: API Documentation
-  href: ../obj/api/
-  topicHref: ../api/index.md
+  uid: Oqtane.Api.Home
+  href: ../api-generated/api/
+

@@ -1,12 +1,18 @@
+---
+uid: Oqtane.Api.Home
+---
 
 # Oqtane API Documentation
 
 > [!NOTE]
-> The API documentation is still work-in-progress. 
+> The API documentation is still work-in-progress.
+>
+> We need your 🫵🏽 help to make it better 😉.
 
 ## Colors and Icons
 
-APIs can be daunting. Because of this, we've color-coded the menu to the left and added icons to make it easier for you to get around. 
+APIs can be daunting.
+So we color-coded the menu to the left and added icons to make it easier for you to get around.
 
 > [!NOTE]
 > This is what the colors and icons in the TOC mean:

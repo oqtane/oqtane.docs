@@ -20,10 +20,10 @@
           ]
         }
       ],
-      "dest": "obj/api",
+      "dest": "api-generated/api",
       "filter": "filterConfig.yml",
       "properties": {
-        // "TargetFramework": "net8.0"
+        // "TargetFramework": "net9.0"
       },
       "namespaceLayout": "nested", // make APIs use a tree
     }
@@ -31,7 +31,7 @@
   "build": {
     "content": [
       {
-        "src": "obj",
+        "src": "api-generated",
         "files": [
           "api/**.yml"
         ],

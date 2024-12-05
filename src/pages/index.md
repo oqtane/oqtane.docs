@@ -10,7 +10,7 @@
 
 1. The [Administration Manuals](./manuals/index.md) is WIP
 
-1. In the [API Documentation](../api/index.md) you'll find all the APIs
+1. In the [API Documentation](xref:Oqtane.Api.Home) you'll find all the APIs
 
 1. To work on the docs, better read up on [how the docs work](./dev/docs/index.md)
 
