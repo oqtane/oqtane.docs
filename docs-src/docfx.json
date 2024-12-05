@@ -90,22 +90,18 @@
         ],
       },
       {
+        // Global Assets - favicon, logos for reuse etc.
         "files": [
-          "layout/**",
-          "admin/**.png",
-          "admin/**.jpg",
-          "admin/**.svg",
-          "articles/**.png",
-          "articles/**.jpg",
-          "articles/**.svg",
+          "/assets/**",
+        ],
+      },
+      {
+        // Images used in the namespace docs
+        "files": [
           "api-docs/**.png",
           "api-docs/**.jpg",
           "api-docs/**.svg"
         ],
-        "exclude": [
-          "obj/**",
-          "_site/**",
-        ]
       }
     ],
     "overwrite": [
@@ -123,14 +119,12 @@
     "template": [
       "default",
       "modern",
-      // "statictoc",
-      // "layout/oqtane"
-      "layout/oqtane",
+      "templates/oqtane",
     ],
     "globalMetadata": {
       "_appTitle": "Oqtane Docs - APIs and more for the Modular Blazor Application Framework",
-      "_appLogoPath": "layout/images/logo-50.png",
-      "_appFaviconPath": "layout/images/favicon.png",
+      "_appLogoPath": "assets/logos/vcurrent/logo-50.png",
+      "_appFaviconPath": "assets/favicon.png",
       "_enableNewTab": true,
       "_enableSearch": true,
       "_disableContribution": false, // turn off the edit-this

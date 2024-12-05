@@ -4195,190 +4195,60 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/images/favicon.png",
+      "source_relative_path": "assets/favicon.png",
       "output": {
         "resource": {
-          "relative_path": "layout/images/favicon.png"
+          "relative_path": "assets/favicon.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/images/logo-50.png",
+      "source_relative_path": "assets/logos/vcurrent/logo-50.png",
       "output": {
         "resource": {
-          "relative_path": "layout/images/logo-50.png"
+          "relative_path": "assets/logos/vcurrent/logo-50.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/images/logo-black-50.png",
+      "source_relative_path": "assets/logos/vcurrent/logo-black-50.png",
       "output": {
         "resource": {
-          "relative_path": "layout/images/logo-black-50.png"
+          "relative_path": "assets/logos/vcurrent/logo-black-50.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/images/logo-white-50.png",
+      "source_relative_path": "assets/logos/vcurrent/logo-white-50.png",
       "output": {
         "resource": {
-          "relative_path": "layout/images/logo-white-50.png"
+          "relative_path": "assets/logos/vcurrent/logo-white-50.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/images/logo-white.png",
+      "source_relative_path": "assets/logos/vcurrent/logo-white.png",
       "output": {
         "resource": {
-          "relative_path": "layout/images/logo-white.png"
+          "relative_path": "assets/logos/vcurrent/logo-white.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "layout/images/logo.png",
+      "source_relative_path": "assets/logos/vcurrent/logo.png",
       "output": {
         "resource": {
-          "relative_path": "layout/images/logo.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane-wip/namespace-metadata.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane-wip/namespace-metadata.js"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane-wip/partials/head.tmpl.partial",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane-wip/partials/head.tmpl.partial"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane-wip/partials/li.tmpl.partial",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane-wip/partials/li.tmpl.partial"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane-wip/partials/navbar-li.tmpl.partial",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane-wip/partials/navbar-li.tmpl.partial"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane-wip/partials/toc.tmpl.partial",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane-wip/partials/toc.tmpl.partial"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane-wip/toc.extension.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane-wip/toc.extension.js"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/build-toc-specs.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/build-toc-specs.js"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/build-toc/polyfill-object.assign.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/build-toc/polyfill-object.assign.js"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/build-toc/readme.md",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/build-toc/readme.md"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/build-toc/toc-flatten-namespaces.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/build-toc/toc-flatten-namespaces.js"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/build-toc/toc-tools-new.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/build-toc/toc-tools-new.js"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/public/main.css",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/public/main.css"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "layout/oqtane/toc.json.js",
-      "output": {
-        "resource": {
-          "relative_path": "layout/oqtane/toc.json.js"
+          "relative_path": "assets/logos/vcurrent/logo.png"
         }
       },
       "version": ""
