@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Oqtane Schema Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Database Schema Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Oqtane Schema Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Database Schema Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../../layout/images/favicon.png">
@@ -85,67 +85,9 @@
         </div>
 
         <article data-uid="">
-<h1 id="oqtane-schema-documentation">Oqtane Schema Documentation</h1>
+<h1 id="oqtane-database-schema-documentation">Oqtane Database Schema Documentation</h1>
 
 <h4 id="version-600">Version 6.0.0</h4>
-<h2 id="table-of-contents">Table of Contents</h2>
-<ul>
-<li><a href="#enums">Enums</a>
-<ul>
-<li><a href="#logfunction-enum">LogFunction Enum</a></li>
-<li><a href="#loglevel-enum">LogLevel Enum</a></li>
-<li><a href="#migrationtype-enum">MigrationType Enum</a></li>
-<li><a href="#resourcedeclaration-enum-deprecated">ResourceDeclaration Enum (Deprecated)</a></li>
-<li><a href="#resourcelevel-enum">ResourceLevel Enum</a></li>
-<li><a href="#resourcelocation-enum">ResourceLocation Enum</a></li>
-<li><a href="#resourcetype-enum">ResourceType Enum</a></li>
-<li><a href="#runtime-enum">Runtime Enum</a></li>
-<li><a href="#searchsortfield-enum">SearchSortField Enum</a></li>
-<li><a href="#searchsortorder-enum">SearchSortOrder Enum</a></li>
-<li><a href="#securityaccesslevel-enum">SecurityAccessLevel Enum</a></li>
-</ul>
-</li>
-<li><a href="#models">Models</a>
-<ul>
-<li><a href="#alias-model">Alias Model</a></li>
-<li><a href="#culture-model">Culture Model</a></li>
-<li><a href="#database-model">Database Model</a></li>
-<li><a href="#externalloginprovider-model">ExternalLoginProvider Model</a></li>
-<li><a href="#installation-model">Installation Model</a></li>
-<li><a href="#joblog-model">JobLog Model</a></li>
-<li><a href="#log-model">Log Model</a></li>
-<li><a href="#migrationhistorytable-model">MigrationHistoryTable Model</a></li>
-<li><a href="#modulecontent-model">ModuleContent Model</a></li>
-<li><a href="#package-model">Package Model</a></li>
-<li><a href="#requestculture-model">RequestCulture Model</a></li>
-<li><a href="#resource-model">Resource Model</a></li>
-<li><a href="#result-model">Result Model</a></li>
-<li><a href="#route-model">Route Model</a></li>
-<li><a href="#searchcontent-model">SearchContent Model</a></li>
-<li><a href="#searchcontentproperty-model">SearchContentProperty Model</a></li>
-<li><a href="#searchcontentword-model">SearchContentWord Model</a></li>
-<li><a href="#searchquery-model">SearchQuery Model</a></li>
-<li><a href="#searchresults-model">SearchResults Model</a></li>
-<li><a href="#searchword-model">SearchWord Model</a></li>
-<li><a href="#sitemap-model">Sitemap Model</a></li>
-<li><a href="#sitetemplate-model">SiteTemplate Model</a></li>
-<li><a href="#pagetemplate-model">PageTemplate Model</a></li>
-<li><a href="#pagetemplatemodule-model">PageTemplateModule Model</a></li>
-<li><a href="#sqlquery-model">SqlQuery Model</a></li>
-<li><a href="#sync-model">Sync Model</a></li>
-<li><a href="#template-model">Template Model</a></li>
-<li><a href="#themecontrol-model">ThemeControl Model</a></li>
-<li><a href="#urlmapping-model">UrlMapping Model</a></li>
-<li><a href="#uservalidateresult-model">UserValidateResult Model</a></li>
-<li><a href="#visitor-model">Visitor Model</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="see-also">See Also</h3>
-<ul>
-<li><a href="https://docs.oqtane.org/api/Oqtane.Enums.html"><strong>Enums API Documentation</strong></a></li>
-<li><a href="https://docs.oqtane.org/api/Oqtane.Models.html"><strong>Models API Documentation</strong></a></li>
-</ul>
 <h2 id="enums">Enums</h2>
 <h3 id="logfunction-enum"><strong>LogFunction Enum</strong></h3>
 <p>The <code>LogFunction</code> enum categorizes log entries based on the type of operation being performed.</p>
@@ -160,7 +102,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">LogFunction logFunction = LogFunction.Create;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="loglevel-enum">LogLevel Enum</h3>
 <p>The <code>LogLevel</code> enum sets the verbosity level for log entries. Higher levels indicate more severe messages.</p>
@@ -177,7 +118,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">LogLevel logLevel = LogLevel.Error;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="migrationtype-enum">MigrationType Enum</h3>
 <p>The <code>MigrationType</code> enum specifies whether to apply or roll back database changes during migration.</p>
@@ -188,7 +128,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">MigrationType migrationType = MigrationType.Up;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="resourcedeclaration-enum-deprecated">ResourceDeclaration Enum (Deprecated)</h3>
 <p><strong>Description:</strong> This enum was used to define whether a resource (like a script or stylesheet) is declared at a local or global level. It is now deprecated and should not be used.</p>
@@ -197,7 +136,6 @@
 <li><strong>Global</strong>: Resource is available globally across the application.</li>
 </ul>
 <p><strong>Note:</strong> Use <code>ResourceLevel</code> enum instead for specifying resource scope.</p>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="resourcelevel-enum">ResourceLevel Enum</h3>
 <p>The <code>ResourceLevel</code> enum specifies the scope of a resource's availability, determining the context in which a resource is accessible.</p>
@@ -210,7 +148,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">ResourceLevel resourceLevel = ResourceLevel.Page;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="resourcelocation-enum">ResourceLocation Enum</h3>
 <p>The <code>ResourceLocation</code> enum specifies whether a resource (such as a script or CSS file) should be loaded in the <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> of an HTML document.</p>
@@ -221,7 +158,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">ResourceLocation resourceLocation = ResourceLocation.Head;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="resourcetype-enum">ResourceType Enum</h3>
 <p>The <code>ResourceType</code> enum defines the type of resource, which can either be a CSS file or a JavaScript file.</p>
@@ -232,7 +168,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">ResourceType resourceType = ResourceType.Stylesheet;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="runtime-enum">Runtime Enum</h3>
 <p>The <code>Runtime</code> enum specifies the runtime environment of the application, helping determine the appropriate execution context.</p>
@@ -245,7 +180,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">Runtime runtime = Runtime.Server;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchsortfield-enum">SearchSortField Enum</h3>
 <p>The <code>SearchSortField</code> enum specifies the sorting order for search results, allowing control based on relevance, title, or last modified timestamp.</p>
@@ -257,7 +191,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">SearchSortField sortField = SearchSortField.Relevance;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchsortorder-enum">SearchSortOrder Enum</h3>
 <p>The <code>SearchSortOrder</code> enum defines whether the search results should be sorted in ascending or descending order.</p>
@@ -268,7 +201,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">SearchSortOrder sortOrder = SearchSortOrder.Ascending;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="securityaccesslevel-enum">SecurityAccessLevel Enum</h3>
 <p>The <code>SecurityAccessLevel</code> enum controls the level of access a user has in the system, ranging from no access (Anonymous) to full administrative or host access.</p>
@@ -282,7 +214,6 @@
 <p><strong>Example:</strong></p>
 <pre><code class="lang-csharp">SecurityAccessLevel accessLevel = SecurityAccessLevel.Admin;
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <p><strong>Notes:</strong></p>
 <ul>
@@ -326,7 +257,6 @@ string path = alias.Path; // returns &quot;&quot;
 <li><strong>Update</strong>: Introduced <code>SiteKey</code> and <code>Protocol</code> properties for better identification and request handling.</li>
 <li><strong>Refinement</strong>: Added <code>BaseUrl</code> property for accessing static resources.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="culture-model"><strong>Culture Model</strong></h3>
 <p>The <code>Culture</code> model represents a culture used within the Oqtane framework.</p>
@@ -348,7 +278,6 @@ string path = alias.Path; // returns &quot;&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Defined primary properties for <code>Name</code>, <code>DisplayName</code>, and <code>IsDefault</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="database-model"><strong>Database Model</strong></h3>
 <p>The <code>Database</code> model represents a database configuration within the Oqtane framework.</p>
@@ -372,7 +301,6 @@ string path = alias.Path; // returns &quot;&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Name</code>, <code>ControlType</code>, <code>DBType</code>, and <code>IsDefault</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="externalloginprovider-model"><strong>ExternalLoginProvider Model</strong></h3>
 <p>The <code>ExternalLoginProvider</code> model represents an external login provider within the Oqtane framework.</p>
@@ -396,7 +324,6 @@ string path = alias.Path; // returns &quot;&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Defined properties for <code>Name</code> and <code>Settings</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="file-model"><strong>File Model</strong></h3>
 <p>The <code>File</code> model represents a file within the Oqtane framework.</p>
@@ -435,7 +362,6 @@ string path = alias.Path; // returns &quot;&quot;
 <li>Added properties for image dimensions.</li>
 <li>Deprecated <code>IsDeleted</code> property.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="folder-model"><strong>Folder Model</strong></h3>
 <p>The <code>Folder</code> model represents a folder within the Oqtane framework.</p>
@@ -486,7 +412,6 @@ int folderCapacity = folder.Capacity; // returns 10485760 (10 MB)
 <li><strong>Enhancement</strong>: Added <code>PermissionList</code>, <code>Level</code>, and <code>HasChildren</code> properties.</li>
 <li><strong>Update</strong>: Deprecated the <code>Permissions</code> property and provided a replacement with <code>PermissionList</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="installation-model"><strong>Installation Model</strong></h3>
 <p>The <code>Installation</code> model represents the result of an installation attempt within the Oqtane framework.</p>
@@ -512,7 +437,6 @@ Alias installAlias = installation.Alias; // returns Alias object
 <ul>
 <li><strong>Initial Creation</strong>: Added primary properties for <code>Success</code>, <code>Message</code>, and <code>Alias</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="job-model"><strong>Job Model</strong></h3>
 <p>The <code>Job</code> model represents a scheduled task within the Oqtane framework.</p>
@@ -556,7 +480,6 @@ DateTime? nextExecution = job.NextExecution; // returns the next execution time
 <li><strong>Initial Creation</strong>: Added primary properties for <code>JobId</code>, <code>Name</code>, <code>JobType</code>, <code>Frequency</code>, <code>Interval</code>, <code>StartDate</code>, <code>EndDate</code>, <code>IsEnabled</code>, <code>IsStarted</code>, <code>IsExecuting</code>, and <code>NextExecution</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>RetentionHistory</code> property.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="joblog-model"><strong>JobLog Model</strong></h3>
 <p>The <code>JobLog</code> model represents a record of a job execution within the Oqtane framework.</p>
@@ -589,7 +512,6 @@ string logNotes = jobLog.Notes; // returns &quot;Backup completed successfully.&
 <ul>
 <li><strong>Initial Creation</strong>: Added primary properties for <code>JobLogId</code>, <code>JobId</code>, <code>StartDate</code>, <code>FinishDate</code>, <code>Succeeded</code>, <code>Notes</code>, and <code>Job</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <p>For the <code>database-schema.md</code> file, you can simplify the documentation to make it concise and focused on essential details. Here's an example of how you might document the <strong>Language</strong> model without the full class definition:</p>
 <hr>
@@ -623,7 +545,6 @@ var clonedLanguage = language.Clone();
 <li><strong>Initial Creation</strong>: Added primary properties for <code>LanguageId</code>, <code>SiteId</code>, <code>Code</code>, <code>IsDefault</code>, <code>Name</code>, and <code>Version</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Language</code> object.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="log-model"><strong>Log Model</strong></h3>
 <p>The <code>Log</code> model represents an entry in the events log within the Oqtane framework.</p>
@@ -671,7 +592,6 @@ var clonedLanguage = language.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added primary properties for <code>LogId</code>, <code>SiteId</code>, <code>LogDate</code>, <code>PageId</code>, <code>ModuleId</code>, <code>UserId</code>, <code>Url</code>, <code>Server</code>, <code>Category</code>, <code>Feature</code>, <code>Function</code>, <code>Level</code>, <code>Message</code>, <code>MessageTemplate</code>, <code>Exception</code>, and <code>Properties</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="migrationhistorytable-model"><strong>MigrationHistoryTable Model</strong></h3>
 <p>The <code>MigrationHistoryTable</code> model provides information about the migration history table used for tracking database migrations within the Oqtane framework.</p>
@@ -699,7 +619,6 @@ var clonedLanguage = language.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>TableName</code>, <code>TableSchema</code>, <code>MigrationIdColumnName</code>, <code>ProductVersionColumnName</code>, <code>AppliedVersionColumnName</code>, and <code>AppliedDateColumnName</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="modelbase-class"><strong>ModelBase Class</strong></h3>
 <p>The <code>ModelBase</code> class is a base class for other models, providing common auditing properties.</p>
@@ -731,7 +650,6 @@ var example = new ExampleModel
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>CreatedBy</code>, <code>CreatedOn</code>, <code>ModifiedBy</code>, and <code>ModifiedOn</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="module-model"><strong>Module Model</strong></h3>
 <p>The <code>Module</code> model describes a module instance that will be shown on a page. This is different from a <code>ModuleDefinition</code> which describes the module itself.</p>
@@ -807,7 +725,6 @@ var clonedModule = module.Clone();
 <li><strong>Initial Creation</strong>: Added primary properties for <code>ModuleId</code>, <code>SiteId</code>, <code>ModuleDefinitionName</code>, <code>AllPages</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>PermissionList</code>, <code>Settings</code>, <code>PageModuleId</code>, <code>PageId</code>, <code>Title</code>, <code>Pane</code>, <code>Order</code>, <code>ContainerType</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>ModuleType</code>, <code>PaneModuleIndex</code>, <code>PaneModuleCount</code>, <code>RenderId</code>, <code>SecurityAccessLevel</code>, <code>ControlTitle</code>, <code>Actions</code>, <code>UseAdminContainer</code>, <code>RenderMode</code>, and <code>Prerender</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Module</code> object.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="modulecontent-model"><strong>ModuleContent Model</strong></h3>
 <p>The <code>ModuleContent</code> model is used for enabling import/export of module data within the Oqtane framework.</p>
@@ -829,7 +746,6 @@ var clonedModule = module.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>ModuleDefinitionName</code>, <code>Version</code>, and <code>Content</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="moduledefinition-model"><strong>ModuleDefinition Model</strong></h3>
 <p>The <code>ModuleDefinition</code> model describes a module type in Oqtane. The available modules are determined at startup.</p>
@@ -905,7 +821,6 @@ var clonedModule = module.Clone();
 <li><strong>Initial Creation</strong>: Added primary properties for <code>ModuleDefinitionId</code>, <code>ModuleDefinitionName</code>, <code>Name</code>, <code>Description</code>, <code>Categories</code>, <code>Version</code>, <code>Owner</code>, <code>Url</code>, <code>Contact</code>, <code>License</code>, <code>Runtimes</code>, <code>Dependencies</code>, <code>PermissionNames</code>, <code>ServerManagerType</code>, <code>ControlTypeRoutes</code>, <code>ReleaseVersions</code>, <code>DefaultAction</code>, <code>SettingsType</code>, <code>PackageName</code>, <code>Resources</code>, <code>IsAutoEnabled</code>, <code>PageTemplates</code>, <code>SiteId</code>, <code>IsEnabled</code>, <code>ControlTypeTemplate</code>, <code>AssemblyName</code>, <code>PermissionList</code>, <code>Template</code>, and <code>IsPortable</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Permissions</code> property as deprecated and provided <code>PermissionList</code> as a replacement.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="notification-model"><strong>Notification Model</strong></h3>
 <p>The <code>Notification</code> model represents a notification for a user, usually meant to be sent as an email.</p>
@@ -953,7 +868,6 @@ var clonedModule = module.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>NotificationId</code>, <code>SiteId</code>, <code>FromUserId</code>, <code>FromDisplayName</code>, <code>FromEmail</code>, <code>ToUserId</code>, <code>ToDisplayName</code>, <code>ToEmail</code>, <code>ParentId</code>, <code>Subject</code>, <code>Body</code>, <code>CreatedOn</code>, <code>IsDelivered</code>, <code>DeliveredOn</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>SendOn</code>, and <code>IsRead</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="package-model"><strong>Package Model</strong></h3>
 <p>The <code>Package</code> model represents a software package for installation within the Oqtane framework.</p>
@@ -1007,7 +921,6 @@ var clonedModule = module.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>PackageId</code>, <code>Owner</code>, <code>OwnerUrl</code>, <code>Name</code>, <code>Description</code>, <code>LogoFileId</code>, <code>LogoUrl</code>, <code>License</code>, <code>ProductUrl</code>, <code>Version</code>, <code>Downloads</code>, <code>ReleaseDate</code>, <code>PackageUrl</code>, <code>SupportUrl</code>, <code>Vulnerabilities</code>, <code>Price</code>, <code>PaymentUrl</code>, <code>TrialPeriod</code>, and <code>ExpiryDate</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="page-model"><strong>Page Model</strong></h3>
 <p>The <code>Page</code> model describes a page in Oqtane.</p>
@@ -1081,7 +994,6 @@ var clonedPage = page.Clone();
 <li><strong>Initial Creation</strong>: Added properties for <code>PageId</code>, <code>SiteId</code>, <code>Path</code>, <code>ParentId</code>, <code>Name</code>, <code>Title</code>, <code>Order</code>, <code>Url</code>, <code>ThemeType</code>, <code>DefaultContainerType</code>, <code>HeadContent</code>, <code>BodyContent</code>, <code>Icon</code>, <code>IsNavigation</code>, <code>IsClickable</code>, <code>IsPersonalizable</code>, <code>UserId</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>Level</code>, <code>HasChildren</code>, <code>PermissionList</code>, <code>Settings</code>, <code>Panes</code>, <code>Resources</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>EditMode</code>, <code>LayoutType</code>, and <code>Permissions</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Page</code> object.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="pagemodule-model"><strong>PageModule Model</strong></h3>
 <p>The <code>PageModule</code> model provides information about a <code>Module</code> instance on a <code>Page</code>.</p>
@@ -1125,7 +1037,6 @@ var clonedPage = page.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>PageModuleId</code>, <code>PageId</code>, <code>ModuleId</code>, <code>Title</code>, <code>Pane</code>, <code>Order</code>, <code>ContainerType</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>Module</code>, and <code>Page</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="permission-model"><strong>Permission Model</strong></h3>
 <p>The <code>Permission</code> model provides information about permissions for entities in Oqtane. Entities in Oqtane can be identified and described using this model.</p>
@@ -1163,7 +1074,6 @@ var clonedPermission = permission.Clone();
 <li><strong>Initial Creation</strong>: Added properties for <code>PermissionId</code>, <code>SiteId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>PermissionName</code>, <code>RoleId</code>, <code>RoleName</code>, <code>UserId</code>, and <code>IsAuthorized</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Permission</code> object.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="profile-model"><strong>Profile Model</strong></h3>
 <p>The <code>Profile</code> model represents a single profile property information of a <code>User</code>. A user will have multiple profile properties to fully describe their profile.</p>
@@ -1209,7 +1119,6 @@ var clonedPermission = permission.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>ProfileId</code>, <code>SiteId</code>, <code>Name</code>, <code>Title</code>, <code>Description</code>, <code>Category</code>, <code>ViewOrder</code>, <code>MaxLength</code>, <code>DefaultValue</code>, <code>IsRequired</code>, <code>IsPrivate</code>, <code>Options</code>, <code>Validation</code>, <code>Rows</code>, and <code>Autocomplete</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="requestculture-model"><strong>RequestCulture Model</strong></h3>
 <p>The <code>RequestCulture</code> model describes culture information for a request, including both formatting and UI cultures.</p>
@@ -1236,7 +1145,6 @@ CultureInfo uiCulture = requestCulture.UICulture; // returns CultureInfo for &qu
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Culture</code> and <code>UICulture</code>, and various constructors for initializing these properties.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="resource-model"><strong>Resource Model</strong></h3>
 <p>The <code>Resource</code> model describes a JavaScript or CSS file which is needed by the module to work.</p>
@@ -1281,7 +1189,6 @@ var clonedResource = resource.Clone(ResourceLevel.Page, &quot;Oqtane.Modules&quo
 <li><strong>Initial Creation</strong>: Added properties for <code>ResourceType</code>, <code>Url</code>, <code>Integrity</code>, <code>CrossOrigin</code>, <code>Bundle</code>, <code>Level</code>, <code>Location</code>, <code>ES6Module</code>, <code>Content</code>, <code>RenderMode</code>, <code>Reload</code>, <code>Namespace</code>, and <code>Declaration</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Resource</code> object.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="result-model"><strong>Result Model</strong></h3>
 <p>The <code>Result</code> model represents the outcome of an operation, including a success flag and an optional message.</p>
@@ -1307,7 +1214,6 @@ string message = result2.Message; // returns &quot;An error occurred&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Success</code> and <code>Message</code>, along with constructors for initializing these properties.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="role-model"><strong>Role Model</strong></h3>
 <p>The <code>Role</code> model describes a security role in Oqtane.</p>
@@ -1335,7 +1241,6 @@ string message = result2.Message; // returns &quot;An error occurred&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>RoleId</code>, <code>SiteId</code>, <code>Name</code>, <code>Description</code>, <code>IsAutoAssigned</code>, and <code>IsSystem</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="route-model"><strong>Route Model</strong></h3>
 <p>The <code>Route</code> model describes a route comprising multiple components. The structure is <code>{scheme}://{hostname}/{aliaspath}/{pagepath}/*/{moduleid}/{action}/!/{urlparameters}?{query}#{fragment}</code>.</p>
@@ -1387,7 +1292,6 @@ string siteUrl = route.SiteUrl; // returns &quot;https://example.com/oqtane&quot
 <li><strong>Initial Creation</strong>: Added properties for <code>Authority</code>, <code>Scheme</code>, <code>Host</code>, <code>Port</code>, <code>AbsolutePath</code>, <code>PathAndQuery</code>, <code>AliasPath</code>, <code>PagePath</code>, <code>ModuleId</code>, <code>Action</code>, <code>UrlParameters</code>, <code>Query</code>, <code>Fragment</code>, <code>RootUrl</code>, and <code>SiteUrl</code>.</li>
 <li><strong>Enhancement</strong>: Added constructors for initializing these properties.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchcontent-model"><strong>SearchContent Model</strong></h3>
 <p>The <code>SearchContent</code> model provides information about searchable content within a site in the Oqtane framework.</p>
@@ -1441,7 +1345,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>SearchContentId</code>, <code>SiteId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>Title</code>, <code>Description</code>, <code>Body</code>, <code>Url</code>, <code>Permissions</code>, <code>ContentModifiedBy</code>, <code>ContentModifiedOn</code>, <code>AdditionalContent</code>, <code>CreatedOn</code>, <code>SearchContentProperties</code>, <code>Count</code>, <code>IsDeleted</code>, <code>TenantId</code>, and <code>UniqueKey</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchcontentproperty-model"><strong>SearchContentProperty Model</strong></h3>
 <p>The <code>SearchContentProperty</code> model represents a property related to search content within a site in the Oqtane framework.</p>
@@ -1465,7 +1368,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>PropertyId</code>, <code>SearchContentId</code>, <code>Name</code>, and <code>Value</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchcontentword-model"><strong>SearchContentWord Model</strong></h3>
 <p>The <code>SearchContentWord</code> model represents the relationship between search content and search words, tracking occurrences of specific words within the content.</p>
@@ -1497,7 +1399,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>SearchContentWordId</code>, <code>SearchContentId</code>, <code>SearchWordId</code>, <code>Count</code>, <code>CreatedOn</code>, <code>ModifiedOn</code>, <code>SearchWord</code>, and <code>SearchContent</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchquery-model"><strong>SearchQuery Model</strong></h3>
 <p>The <code>SearchQuery</code> model represents the parameters used to perform a search within a site in the Oqtane framework.</p>
@@ -1539,7 +1440,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>SiteId</code>, <code>Alias</code>, <code>Keywords</code>, <code>IncludeEntities</code>, <code>ExcludeEntities</code>, <code>FromDate</code>, <code>ToDate</code>, <code>Properties</code>, <code>PageIndex</code>, <code>PageSize</code>, <code>SortField</code>, <code>SortOrder</code>, and <code>BodyLength</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchresult-model"><strong>SearchResult Model</strong></h3>
 <p>The <code>SearchResult</code> model extends the <code>SearchContent</code> model to include additional properties related to search results, such as score and snippet.</p>
@@ -1617,7 +1517,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Score</code>, <code>DisplayScore</code>, and <code>Snippet</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchresults-model"><strong>SearchResults Model</strong></h3>
 <p>The <code>SearchResults</code> model represents the outcome of a search query, containing the list of search results and the total number of results.</p>
@@ -1662,7 +1561,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Results</code> and <code>TotalResults</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="searchword-model"><strong>SearchWord Model</strong></h3>
 <p>The <code>SearchWord</code> model represents a word that has been indexed for search purposes within a site in the Oqtane framework.</p>
@@ -1684,7 +1582,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>SearchWordId</code>, <code>Word</code>, and <code>CreatedOn</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="setting-model"><strong>Setting Model</strong></h3>
 <p>The <code>Setting</code> model represents a setting for various objects such as <code>Tenant</code>, <code>Site</code>, <code>Page</code>, <code>Module</code>, etc., within the Oqtane framework.</p>
@@ -1712,7 +1609,6 @@ string uniqueKey = searchContent.UniqueKey; // returns &quot;1:1:Page:10&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>SettingId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>SettingName</code>, <code>SettingValue</code>, and <code>IsPrivate</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="site-model"><strong>Site Model</strong></h3>
 <p>The <code>Site</code> model describes a site in a <code>Tenant</code> within an Oqtane installation. Sites can have multiple <code>Alias</code>es.</p>
@@ -1798,7 +1694,6 @@ var clonedSite = site.Clone();
 <li><strong>Initial Creation</strong>: Added properties for <code>SiteId</code>, <code>TenantId</code>, <code>Name</code>, <code>LogoFileId</code>, <code>FaviconFileId</code>, <code>DefaultThemeType</code>, <code>DefaultContainerType</code>, <code>AdminContainerType</code>, <code>PwaIsEnabled</code>, <code>PwaAppIconFileId</code>, <code>PwaSplashIconFileId</code>, <code>AllowRegistration</code>, <code>VisitorTracking</code>, <code>CaptureBrokenUrls</code>, <code>SiteGuid</code>, <code>RenderMode</code>, <code>Runtime</code>, <code>Prerender</code>, <code>Hybrid</code>, <code>Version</code>, <code>HomePageId</code>, <code>HeadContent</code>, <code>BodyContent</code>, <code>IsDeleted</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>ImageFiles</code>, <code>UploadableFiles</code>, <code>SiteTemplateType</code>, <code>Settings</code>, <code>Pages</code>, <code>Languages</code>, and <code>Themes</code>.</li>
 <li><strong>Enhancement</strong>: Added <code>Clone</code> method for creating copies of the <code>Site</code> object.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="sitemap-model"><strong>Sitemap Model</strong></h3>
 <p>The <code>Sitemap</code> model describes a sitemap within the Oqtane framework.</p>
@@ -1818,7 +1713,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Url</code> and <code>ModifiedOn</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="sitetemplate-model"><strong>SiteTemplate Model</strong></h3>
 <p>The <code>SiteTemplate</code> model represents a template for creating a new site within the Oqtane framework.</p>
@@ -1838,7 +1732,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Name</code> and <code>TypeName</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="pagetemplate-model"><strong>PageTemplate Model</strong></h3>
 <p>The <code>PageTemplate</code> model represents a template for creating a new page within the Oqtane framework.</p>
@@ -1900,7 +1793,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Path</code>, <code>Parent</code>, <code>Name</code>, <code>Title</code>, <code>Order</code>, <code>Url</code>, <code>ThemeType</code>, <code>DefaultContainerType</code>, <code>HeadContent</code>, <code>BodyContent</code>, <code>Icon</code>, <code>IsNavigation</code>, <code>IsClickable</code>, <code>IsPersonalizable</code>, <code>IsDeleted</code>, <code>PermissionList</code>, <code>PageTemplateModules</code>, <code>AliasName</code>, <code>Version</code>, <code>Update</code>, <code>EditMode</code>, and <code>PagePermissions</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="pagetemplatemodule-model"><strong>PageTemplateModule Model</strong></h3>
 <p>The <code>PageTemplateModule</code> model represents a module within a page template in the Oqtane framework.</p>
@@ -1937,7 +1829,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>ModuleDefinitionName</code>, <code>Title</code>, <code>Pane</code>, <code>Order</code>, <code>ContainerType</code>, <code>IsDeleted</code>, <code>PermissionList</code>, <code>Content</code>, and <code>ModulePermissions</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="sqlquery-model"><strong>SqlQuery Model</strong></h3>
 <p>The <code>SqlQuery</code> model represents a SQL query that belongs to a specific <code>Tenant</code> within the Oqtane framework.</p>
@@ -1963,7 +1854,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>TenantId</code>, <code>DBType</code>, <code>DBConnectionString</code>, <code>Query</code>, and <code>Results</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="sync-model"><strong>Sync Model</strong></h3>
 <p>The <code>Sync</code> model represents a synchronization event within the Oqtane framework, containing the synchronization date and a list of synchronization events.</p>
@@ -1990,7 +1880,6 @@ var clonedSite = site.Clone();
     }
 };
 </code></pre>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="syncevent-model"><strong>SyncEvent Model</strong></h3>
 <p>The <code>SyncEvent</code> model represents an individual synchronization event within the Oqtane framework.</p>
@@ -2019,7 +1908,6 @@ var clonedSite = site.Clone();
 <li><strong>Initial Creation</strong>: Added properties for <code>SyncDate</code> and <code>SyncEvents</code> to the <code>Sync</code> model.</li>
 <li><strong>Initial Creation</strong>: Added properties for <code>TenantId</code>, <code>SiteId</code>, <code>EntityName</code>, <code>EntityId</code>, <code>Action</code>, and <code>ModifiedOn</code> to the <code>SyncEvent</code> model.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="template-model"><strong>Template Model</strong></h3>
 <p>The <code>Template</code> model defines metadata for a module or theme template within the Oqtane framework.</p>
@@ -2047,7 +1935,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Name</code>, <code>Title</code>, <code>Type</code>, <code>Version</code>, <code>Namespace</code>, and <code>Location</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="tenant-model"><strong>Tenant Model</strong></h3>
 <p>The <code>Tenant</code> model describes a tenant in Oqtane. Tenants can contain multiple <code>Site</code>s and have all their data in a separate database.</p>
@@ -2073,7 +1960,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>TenantId</code>, <code>Name</code>, <code>DBConnectionString</code>, <code>DBType</code>, and <code>Version</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="theme-model"><strong>Theme Model</strong></h3>
 <p>The <code>Theme</code> model provides information about a theme in Oqtane.</p>
@@ -2133,7 +2019,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>ThemeId</code>, <code>ThemeName</code>, <code>Name</code>, <code>Version</code>, <code>Owner</code>, <code>Url</code>, <code>Contact</code>, <code>License</code>, <code>Dependencies</code>, <code>ThemeSettingsType</code>, <code>ContainerSettingsType</code>, <code>PackageName</code>, <code>Resources</code>, <code>IsAutoEnabled</code>, <code>SiteId</code>, <code>IsEnabled</code>, <code>AssemblyName</code>, <code>Themes</code>, <code>Containers</code>, <code>Template</code>, <code>ThemeControls</code>, <code>PaneLayouts</code>, <code>ContainerControls</code>, and <code>Layouts</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="themecontrol-model"><strong>ThemeControl Model</strong></h3>
 <p>The <code>ThemeControl</code> model provides information about a theme control within the Oqtane framework.</p>
@@ -2157,7 +2042,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>TypeName</code>, <code>Name</code>, <code>Thumbnail</code>, and <code>Panes</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="urlmapping-model"><strong>UrlMapping Model</strong></h3>
 <p>The <code>UrlMapping</code> model describes a URL mapping in Oqtane.</p>
@@ -2187,7 +2071,6 @@ var clonedSite = site.Clone();
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>UrlMappingId</code>, <code>SiteId</code>, <code>Url</code>, <code>MappedUrl</code>, <code>Requests</code>, <code>CreatedOn</code>, and <code>RequestedOn</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="user-model"><strong>User Model</strong></h3>
 <p>The <code>User</code> model describes a user in Oqtane.</p>
@@ -2249,7 +2132,6 @@ string folderPath = user.FolderPath; // returns &quot;Users/1/&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>UserId</code>, <code>Username</code>, <code>DisplayName</code>, <code>Email</code>, <code>PhotoFileId</code>, <code>LastLoginOn</code>, <code>LastIPAddress</code>, <code>TwoFactorRequired</code>, <code>TwoFactorCode</code>, <code>TwoFactorExpiry</code>, <code>SecurityStamp</code>, <code>SiteId</code>, <code>Roles</code>, <code>DeletedBy</code>, <code>DeletedOn</code>, <code>IsDeleted</code>, <code>Password</code>, <code>IsAuthenticated</code>, <code>FolderPath</code>, <code>EmailConfirmed</code>, <code>SuppressNotification</code>, and <code>Settings</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="userrole-model"><strong>UserRole Model</strong></h3>
 <p>The <code>UserRole</code> model assigns a <code>Role</code> to a <code>User</code>.</p>
@@ -2281,7 +2163,6 @@ string folderPath = user.FolderPath; // returns &quot;Users/1/&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>UserRoleId</code>, <code>UserId</code>, <code>RoleId</code>, <code>EffectiveDate</code>, <code>ExpiryDate</code>, <code>IgnoreSecurityStamp</code>, <code>Role</code>, and <code>User</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="uservalidateresult-model"><strong>UserValidateResult Model</strong></h3>
 <p>The <code>UserValidateResult</code> model represents the result of validating a user within the Oqtane framework.</p>
@@ -2305,7 +2186,6 @@ string folderPath = user.FolderPath; // returns &quot;Users/1/&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>Succeeded</code> and <code>Errors</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
 <h3 id="visitor-model"><strong>Visitor Model</strong></h3>
 <p>The <code>Visitor</code> model describes a visitor in Oqtane.</p>
@@ -2345,8 +2225,12 @@ string folderPath = user.FolderPath; // returns &quot;Users/1/&quot;
 <ul>
 <li><strong>Initial Creation</strong>: Added properties for <code>VisitorId</code>, <code>SiteId</code>, <code>UserId</code>, <code>Visits</code>, <code>IPAddress</code>, <code>UserAgent</code>, <code>Language</code>, <code>Url</code>, <code>Referrer</code>, <code>CreatedOn</code>, <code>VisitedOn</code>, and <code>User</code>.</li>
 </ul>
-<p><strong><a href="#table-of-contents">Back to TOC</a></strong></p>
 <hr>
+<h3 id="see-also">See Also</h3>
+<ul>
+<li><a href="https://docs.oqtane.org/api/Oqtane.Enums.html"><strong>Enums API Documentation</strong></a></li>
+<li><a href="https://docs.oqtane.org/api/Oqtane.Models.html"><strong>Models API Documentation</strong></a></li>
+</ul>
 
 </article>
 

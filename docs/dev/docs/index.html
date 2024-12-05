@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Folders and Files in the Oqtane Docs Project | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Oqtane Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Folders and Files in the Oqtane Docs Project | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Oqtane Documentation | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../../layout/images/favicon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/folders.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/dev/docs/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,40 +84,96 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="">
-<h1 id="folders-and-files-in-the-oqtane-docs-project" sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="2">Folders and Files in the Oqtane Docs Project</h1>
+        <article data-uid="Docs.Index">
+<h1 id="oqtane-documentation">Oqtane Documentation</h1>
 
-<h2 id="api-documentation-folders" sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="4">API Documentation Folders</h2>
-<ol sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="6">
-<li sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="6">The <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="6">api</code> folder contains the home-page for the API docs.</li>
-<li sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="7">The <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="7">apidoc</code> folder contains markdown <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="7">.md</code> files which are merged with comments in the code.</li>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Help us improve the docs!
+Here you'll learn how.</p>
+</div>
+<h2 id="setup-and-instructions">Setup and Instructions</h2>
+<p>Oqtane documentation is written in Markdown and hosted on GitHub.
+The docs are built using <a href="https://dotnet.github.io/docfx/">DocFX</a>, a static site generator for API documentation.
+This is a very common setup for .NET projects, and it's easy to get started.</p>
+<p>We've worked hard to make sure that these docs are built using best-practices
+similar to other .net projects,
+and our template for this is <a href="https://2sxc.org">2sxc</a> (the CMS plugin for Oqtane).</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Since the docs use the same setup and conventions as the <a href="https://docs.2sxc.org">2sxc docs</a>,
+we can also leverage their instructions for maintaining the docs.</p>
+<p>➡️ <a href="https://docs.2sxc.org/abyss/contribute/docs/index.html">To learn how to improve the Oqtane Docs, visit the Docs-Docs</a>.</p>
+</div>
+<h2 id="docs-team">Docs Team</h2>
+<p>The docs team is responsible for the documentation of Oqtane.
+It currently consists of:</p>
+<ul>
+<li><a href="https://github.com/iJungleboy">@iJungleboy</a> (Team Lead)</li>
+<li><a href="https://github.com/thabaum">@thebaum</a></li>
+<li><a href="https://github.com/GregStevenson">@GregStevenson</a></li>
+<li>YOU - we want you 🫵🏽!</li>
+</ul>
+<h2 id="top-level-view">Top Level View</h2>
+<p>Things to consider for the docs project</p>
+<ul>
+<li><a href="#content">Content</a>: breadth, depth and quality of docs</li>
+<li><a href="#maintenance">Maintenance / Timeliness</a>: keep docs up to date with features &amp; changes</li>
+<li><a href="#use">Use</a>: get people to find use the docs</li>
+<li><a href="#contribute">Contribute</a>: get people to contribute</li>
+</ul>
+<h2 id="content">Content</h2>
+<p>This covers a lot of areas:</p>
+<ol>
+<li>Content Breadth, Depth and Quality</li>
+<li>Code Documentation - volume and quality<br>
+<em>These are the XML comments in the source code which are maintained in the main repo</em></li>
+<li>Backgrounds / Concepts<br>
+<em>These are the &quot;What is Oqtane&quot; and &quot;What is a Module&quot; type of docs</em>
+which both help understand something, and often serve as background for other docs.
+Without these backgrounds, pages will tend to repeat the same information since there's no primary link.</li>
+<li>User Help (what does this dialog / button do)</li>
+<li>Guides / How-To</li>
+<li>Link other resources</li>
 </ol>
-<p sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="10">The merging happens because the unique ID of the <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="10">md</code> files matches the full namespace of the code.</p>
-<h2 id="article-folders" sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="12">Article Folders</h2>
-<ol sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="14">
-<li sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="14">The <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="14">articles</code> folder contains general articles</li>
-<li sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="15">The <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="15">how-to</code> folder</li>
-<li sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="16">The <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="16">specs</code> folder contains specifications, concepts etc.<br>
-IDs of Contents in this folder should start with <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="17">Specs</code></li>
+<h2 id="maintenance">Maintenance</h2>
+<p>Things we should consider for maintenance</p>
+<ol>
+<li>new features</li>
+<li>changes in Oqtane which result in
+<ol>
+<li>different UIs</li>
+<li>different ways to do things as a user</li>
+<li>different ways to develop something</li>
 </ol>
-<h2 id="assets-folders" sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="20">Assets Folders</h2>
-<p sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="22">We recommend placing all assets - mostly images - in <code sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="22">assets</code> subfolders everywhere. This ensures that the image really belongs to that folder and can be deleted again, if not in use.</p>
-<hr sourcefile="pages/guides/docs/folders.md" sourcestartlinenumber="24">
+</li>
+</ol>
+<h2 id="use">Use</h2>
+<p>Bring people to docs
+eg. move &quot;Getting Started&quot; from Github to docs and link from Github/Oqtane</p>
+<h2 id="contribute">Contribute</h2>
+<p>Questions</p>
+<ol>
+<li>what motivates people to contribute to docs?</li>
+<li>how can we make it easy to contribute?</li>
+<li>can we provide benefits or visibility to contributors?</li>
+</ol>
+<hr>
 <br>
 <div style="font-style: italic; font-size: small;">Main Author</div>
 <img src="../../shared/authors/ijungleboy/assets/ijungleboy.jpg" style="width: 100px; float: right">
-<h4 id="daniel-mettler-ijungleboy-ms-mvp-oqtane-core-team" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="7">Daniel Mettler, <code sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="7">@iJungleboy</code> [MS MVP, Oqtane Core Team]</h4>
-<p sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="9">Content Management Expert, Chief Architect of <a href="https://2sxc.org" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="9">2sxc</a> and cre8magic.<br>
+<h4 id="daniel-mettler-ijungleboy-ms-mvp-oqtane-core-team">Daniel Mettler, <code>@iJungleboy</code> [MS MVP, Oqtane Core Team]</h4>
+<p>Content Management Expert, Chief Architect of <a href="https://2sxc.org">2sxc</a> and cre8magic.<br>
 Forged in the jungles of Indonesia, lives in Switzerland , loves Oqtane 🩸 &amp; 2sxc 💜.</p>
-<p sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="12"><a href="https://www.linkedin.com/in/danielmettler/" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="12">LinkedIn</a>
+<p><a href="https://www.linkedin.com/in/danielmettler/">LinkedIn</a>
 | Discord: @iJungleboy
 | Twitter: @iJungleboy
-| Github: <a href="https://github.com/ijungleboy" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="15">@iJungleboy</a></p>
+| Github: <a href="https://github.com/ijungleboy">@iJungleboy</a></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/guides/docs/folders.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/oqtane/oqtane.docs/blob/master/src/pages/dev/docs/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

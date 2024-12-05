@@ -1,7 +1,28 @@
-﻿# Oqtane Documentation Project
+﻿---
+uid: Docs.Index
+---
 
-There are kind of internal notes for the project team.
-It's based on various discussions in the team and the community.
+# Oqtane Documentation
+
+> [!TIP]
+> Help us improve the docs!
+> Here you'll learn how.
+
+## Setup and Instructions
+
+Oqtane documentation is written in Markdown and hosted on GitHub.
+The docs are built using [DocFX](https://dotnet.github.io/docfx/), a static site generator for API documentation.
+This is a very common setup for .NET projects, and it's easy to get started.
+
+We've worked hard to make sure that these docs are built using best-practices
+similar to other .net projects,
+and our template for this is [2sxc](https://2sxc.org) (the CMS plugin for Oqtane).
+
+> [!TIP]
+> Since the docs use the same setup and conventions as the [2sxc docs](https://docs.2sxc.org),
+> we can also leverage their instructions for maintaining the docs.
+>
+> ➡️ [To learn how to improve the Oqtane Docs, visit the Docs-Docs](https://docs.2sxc.org/abyss/contribute/docs/index.html).
 
 ## Docs Team
 
@@ -11,6 +32,7 @@ It currently consists of:
 * [@iJungleboy](https://github.com/iJungleboy) (Team Lead)
 * [@thebaum](https://github.com/thabaum)
 * [@GregStevenson](https://github.com/GregStevenson)
+* YOU - we want you 🫵🏽!
 
 ## Top Level View
 
@@ -20,6 +42,7 @@ Things to consider for the docs project
 * [Maintenance / Timeliness](#maintenance): keep docs up to date with features & changes
 * [Use](#use): get people to find use the docs
 * [Contribute](#contribute): get people to contribute
+
 
 ## Content
 

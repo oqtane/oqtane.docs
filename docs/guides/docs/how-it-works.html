@@ -85,55 +85,55 @@
         </div>
 
         <article data-uid="">
-<h1 id="how-the-documentation-system-works">How the Documentation System Works</h1>
+<h1 id="how-the-documentation-system-works" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="2">How the Documentation System Works</h1>
 
-<p>The initial configuration starts with the <code>docfx.json</code> file.
-Basically this says what code it should pick up, where the <code>.md</code> files are and where to put the output.
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="4">The initial configuration starts with the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="4">docfx.json</code> file.
+Basically this says what code it should pick up, where the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="5">.md</code> files are and where to put the output.
 We've tried to make it very clear where we made relevant changes and smuggled comment-nodes into the file for clarity.</p>
-<h2 id="layout">Layout</h2>
-<p>The layout is configured in the <code>docfx.json</code> where it will
-start with the <code>default</code> template, extend it with <code>statictoc</code> (generate real html menu-structures, not just JS)
-and then apply the layout specified in <code>layout\oqtane</code>.
-It will also include images in <code>layout\images</code> like logos etc. because this was configured in <code>docfx.json</code>.</p>
-<h2 id="site-navigation">Site Navigation</h2>
-<p>The site navigation is cascaded through the <code>toc.yml</code> files in each folder.</p>
-<div class="TIP">
+<h2 id="layout" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="8">Layout</h2>
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="10">The layout is configured in the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="10">docfx.json</code> where it will
+start with the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="11">default</code> template, extend it with <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="11">statictoc</code> (generate real html menu-structures, not just JS)
+and then apply the layout specified in <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="12">layout\oqtane</code>.
+It will also include images in <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="13">layout\images</code> like logos etc. because this was configured in <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="13">docfx.json</code>.</p>
+<h2 id="site-navigation" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="15">Site Navigation</h2>
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="17">The site navigation is cascaded through the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="17">toc.yml</code> files in each folder.</p>
+<div class="TIP" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="19">
 <h5>Tip</h5>
-<p>You may also find examples online which use <code>toc.md</code> files
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="20">You may also find examples online which use <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="20">toc.md</code> files
 but you'll run into requirements that will force you to switch back to YAML.
 So we recommend you stick to the yaml format everywhere.</p>
 </div>
-<h2 id="what-code-is-included-in-the-docs">What Code is included in the Docs</h2>
-<ol>
-<li>The initial set is configured in the <code>docfx.json</code> with the base path <code>cwd</code> and include/filter files.</li>
-<li>Then we have a few basic rules, which are all configured in the <code>filterConfig.yml</code> file.
-<ol>
-<li>Ignore all <code>Microsoft.*</code>, <code>System.*</code> and <code>Oqtane.Test.*</code> namespaces</li>
+<h2 id="what-code-is-included-in-the-docs" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="24">What Code is included in the Docs</h2>
+<ol sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="26">
+<li sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="26">The initial set is configured in the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="26">docfx.json</code> with the base path <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="26">cwd</code> and include/filter files.</li>
+<li sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="27">Then we have a few basic rules, which are all configured in the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="27">filterConfig.yml</code> file.
+<ol sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="28">
+<li sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="28">Ignore all <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="28">Microsoft.*</code>, <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="28">System.*</code> and <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="28">Oqtane.Test.*</code> namespaces</li>
 </ol>
 </li>
 </ol>
-<h2 id="troubleshooting">Troubleshooting</h2>
-<h3 id="problems-with-msbuild-or-net-sdk">Problems with MSBuild or .net SDK</h3>
-<p>DocFX runs MSBuild to compile the projects it finds.
+<h2 id="troubleshooting" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="31">Troubleshooting</h2>
+<h3 id="problems-with-msbuild-or-net-sdk" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="33">Problems with MSBuild or .net SDK</h3>
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="35">DocFX runs MSBuild to compile the projects it finds.
 This can easily cause trouble if your Dev-PC has been through various versions of Visual-Studio.
 If you need to troubleshoot this, best contact iJungleboy on GitHub.</p>
-<h3 id="problems-with-old--unexpected-results">Problems with Old / Unexpected Results</h3>
-<p>MSBuild will compile everything into the <code>obj</code> folder of this docs-project.
-This is used as a cache for the next builds. If you run into unexpected results, always clean out the <code>obj</code> folder first.</p>
-<h3 id="problems-with-github-links">Problems with Github links</h3>
-<p>DocFX automatically links all the auto-generated docs with the git-repo.
-So make sure that the <code>oqtane.framework</code> is pulled from the official location <code>https://github.com/oqtane/oqtane.framework</code> - otherwise the links will point to another repo.</p>
-<hr>
+<h3 id="problems-with-old--unexpected-results" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="39">Problems with Old / Unexpected Results</h3>
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="41">MSBuild will compile everything into the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="41">obj</code> folder of this docs-project.
+This is used as a cache for the next builds. If you run into unexpected results, always clean out the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="42">obj</code> folder first.</p>
+<h3 id="problems-with-github-links" sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="44">Problems with Github links</h3>
+<p sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="46">DocFX automatically links all the auto-generated docs with the git-repo.
+So make sure that the <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="47">oqtane.framework</code> is pulled from the official location <code sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="47">https://github.com/oqtane/oqtane.framework</code> - otherwise the links will point to another repo.</p>
+<hr sourcefile="pages/guides/docs/how-it-works.md" sourcestartlinenumber="49">
 <br>
 <div style="font-style: italic; font-size: small;">Main Author</div>
 <img src="../../shared/authors/ijungleboy/assets/ijungleboy.jpg" style="width: 100px; float: right">
-<h4 id="daniel-mettler-ijungleboy-ms-mvp-oqtane-core-team">Daniel Mettler, <code>@iJungleboy</code> [MS MVP, Oqtane Core Team]</h4>
-<p>Content Management Expert, Chief Architect of <a href="https://2sxc.org">2sxc</a> and cre8magic.<br>
+<h4 id="daniel-mettler-ijungleboy-ms-mvp-oqtane-core-team" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="7">Daniel Mettler, <code sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="7">@iJungleboy</code> [MS MVP, Oqtane Core Team]</h4>
+<p sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="9">Content Management Expert, Chief Architect of <a href="https://2sxc.org" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="9">2sxc</a> and cre8magic.<br>
 Forged in the jungles of Indonesia, lives in Switzerland , loves Oqtane 🩸 &amp; 2sxc 💜.</p>
-<p><a href="https://www.linkedin.com/in/danielmettler/">LinkedIn</a>
+<p sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="12"><a href="https://www.linkedin.com/in/danielmettler/" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="12">LinkedIn</a>
 | Discord: @iJungleboy
 | Twitter: @iJungleboy
-| Github: <a href="https://github.com/ijungleboy">@iJungleboy</a></p>
+| Github: <a href="https://github.com/ijungleboy" sourcefile="shared/authors/iJungleboy/_main-author.md" sourcestartlinenumber="15">@iJungleboy</a></p>
 
 </article>
 

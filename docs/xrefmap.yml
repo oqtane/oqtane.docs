@@ -31,6 +31,9 @@ references:
 - uid: Dev.Themes.Index
   name: Oqtane Themes Developer Guide
   href: dev/themes/index.html
+- uid: Docs.Index
+  name: Oqtane Documentation
+  href: dev/docs/index.html
 - uid: Guides.Dev.Index
   name: Oqtane Development Guides (WIP)
   href: dev/index.html

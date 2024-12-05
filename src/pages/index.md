@@ -7,9 +7,12 @@
 ## Documentation Contents
 
 1. In [Guides](./guides/index.md) you'll find background infos etc.
+
 1. The [Administration Manuals](./manuals/index.md) is WIP
+
 1. In the [API Documentation](../api/index.md) you'll find all the APIs
-1. To work on the docs, better read up on [how the docs work](./guides/docs/index.md)
+
+1. To work on the docs, better read up on [how the docs work](./dev/docs/index.md)
 
 ## Join Our Community
 

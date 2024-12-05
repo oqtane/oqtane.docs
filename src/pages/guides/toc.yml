@@ -21,7 +21,7 @@
   topicHref: modules/index.md
 
 - name: Themes
-  topicUid: Guides.Themes.Index
+  uid: Guides.Themes.Index
   
 - name: Marketplace
   href: marketplace/toc.yml
@@ -43,11 +43,6 @@
   topicHref: random/index.md
 
 - name: Roadmap & History
-  topicUid: Guides.Roadmap.Index
+  uid: Guides.Roadmap.Index
 
-# Spacer
-- name: " "
-- name: Documentation
-  # topicUid: Article.Docs.Index
-  href: docs/toc.yml
-  topicHref: docs/index.md
+
