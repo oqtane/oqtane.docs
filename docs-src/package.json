@@ -1,0 +1,37 @@
+{
+  "name": "oqtane-docs",
+  "version": "6.0.0",
+  "description": "",
+  "projectName": "oqtane",
+  "docsVersion": "6.0.0",
+  "enableDebug": false,
+  "scripts": {
+    "build": "webpack --mode production -c ./templates/shared-global/webpack.config.js",
+    "dev": "webpack --watch --mode development -c ./templates/shared-global/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@2sic.com/2sxc-typings": "^11.0.0",
+    "@types/jquery": "^2.0.33",
+    "@types/node": "^20.10.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "type2docfx": "^0.10.5",
+    "typedoc": "^0.27.3",
+    "typescript": "^5.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.33",
+    "highlightjs-cshtml-razor": "^2.1.1",
+    "js-yaml": "^4.1.0"
+  }
+}
