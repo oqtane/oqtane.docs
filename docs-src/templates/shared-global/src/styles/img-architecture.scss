@@ -1,0 +1,37 @@
+
+/***** Info-SVGs: hide the prepared boxes *****/
+.svg-highlight.prepared {
+  visibility: hidden;
+}
+
+.svg-highlight {
+  stroke: yellow;
+  stroke-width: 25;
+  fill: none;
+  animation: highlight-bounce 3s linear infinite;
+}
+
+svg:hover .svg-highlight {
+  animation: highlight-bounce 5s linear infinite;
+}
+
+.highlight-max .svg-highlight {
+  stroke-width: 25;
+}
+
+@keyframes highlight-bounce {
+
+  0%,
+  100% {
+    stroke: gold
+  }
+
+  20%,
+  80% {
+    stroke: cornsilk
+  }
+
+  50% {
+    stroke: black
+  }
+}

@@ -1,0 +1,30 @@
+
+//*** Layout things ***///
+
+// Layout in General
+@use "./layout.scss";
+
+// Version Picker in Template
+@use "./version-picker.scss";
+
+
+
+
+//*** Images & Galleries ***///
+
+// Image Widths & Floats
+@use "./img.scss";
+
+// Gallery
+@use "./img-gallery.scss";
+
+// Special Feature / Header images
+@use "./img-feature.scss";
+
+// Special Architecture SVG image with highlights which animate
+@use "./img-architecture.scss";
+
+
+///*** Third-Party Dependencies ***///
+// Fancybox
+@import "~@fancyapps/ui/dist/fancybox/fancybox.css";

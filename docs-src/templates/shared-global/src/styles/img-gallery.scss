@@ -1,0 +1,26 @@
+
+
+/*
+  Gallery images, not quite done.
+  To make it perfect, we should
+  - make different thumbnail sizes for mobile
+  - make sure the lightbox knows they should be chained together
+  - find out how to break the css at the last image...
+*/
+
+div[gallery] img {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  /*
+    The number -24 is random, just so 4 fit on a row.
+    this is actually not quite right, the last one shouldn't have a margin-right
+    but I can't get it to work with nth-of-type
+  */
+  width: calc(25% - 24px);
+}
+
+/** The A is automatically wrapped around the image */
+/* NOT working, ignore for now */
+/* div.gallery a img:nth-of-type(4n) {
+  margin-right: 0;
+} */

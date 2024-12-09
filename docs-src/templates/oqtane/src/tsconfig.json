@@ -1,0 +1,7 @@
+{
+  "extends": "../../shared-global/tsconfig.json",
+  "include": [
+    "./**/*",
+    "../../shared-global/src/**/*"
+  ],
+}
