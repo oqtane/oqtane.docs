@@ -4254,6 +4254,26 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "node_modules/@gerrit0/mini-shiki/static/mini-shiki-dependency-tree.svg",
+      "output": {
+        "resource": {
+          "relative_path": "node_modules/@gerrit0/mini-shiki/static/mini-shiki-dependency-tree.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "node_modules/@gerrit0/mini-shiki/static/shiki-dependency-tree.svg",
+      "output": {
+        "resource": {
+          "relative_path": "node_modules/@gerrit0/mini-shiki/static/shiki-dependency-tree.svg"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "pages/api/index.md",
       "output": {

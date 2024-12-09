@@ -53,7 +53,6 @@ public static class MauiConstants
     // specify if you wish to allow users to override the url via appsettings.json in the AppDataDirectory
     public static bool UseAppSettings = true;
 }
-
 ```
 
 For local development you may set this as shown in the image below by commenting/uncommenting lines.

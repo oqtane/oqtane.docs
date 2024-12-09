@@ -95,7 +95,7 @@ Important things to know:
     1. Blazor components such as `<NavMenu />` or `<Login />`
 
 
-```html
+```razor
 @namespace Oqtane.Theme.Arsha
 @inherits ThemeBase
 @inject NavigationManager NavigationManager
@@ -194,7 +194,7 @@ Here's what you should know:
 1. The `@code` block can contain C# code that is executed when the component is rendered
 1. The HTML parts with the same possibilities as the theme above.
 
-```html
+```razor
 @namespace Oqtane.Theme.Arsha
 @inherits ContainerBase
 @inject ISettingService SettingService
@@ -246,7 +246,7 @@ Here's an example of the [NavMenu.razor](https://github.com/oqtane/Oqtane.Theme.
 
 It doesn't do much, but check if the menu should show, and then calls the `NavMenuItems` component.
 
-```html
+```razor
 @namespace Oqtane.Theme.Arsha
 
 @inherits MenuBase
@@ -261,7 +261,7 @@ It doesn't do much, but check if the menu should show, and then calls the `NavMe
 The [NavMenuItems.razor](https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Components/NavMenuItems.razor)
 is way more complex, as it recursively calls itself to render the menu items.
 
-```html
+```razor
 @namespace Oqtane.Theme.Arsha
 @inherits MenuItemsBase
 

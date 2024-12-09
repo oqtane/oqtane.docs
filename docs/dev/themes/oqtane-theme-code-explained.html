@@ -178,7 +178,7 @@ This &quot;html&quot; can be
 </ol>
 </li>
 </ol>
-<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+<pre><code class="lang-razor">@namespace Oqtane.Theme.Arsha
 @inherits ThemeBase
 @inject NavigationManager NavigationManager
 @inject ISettingService SettingService
@@ -274,7 +274,7 @@ Here's what you should know:</p>
 <li>The <code>@code</code> block can contain C# code that is executed when the component is rendered</li>
 <li>The HTML parts with the same possibilities as the theme above.</li>
 </ol>
-<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+<pre><code class="lang-razor">@namespace Oqtane.Theme.Arsha
 @inherits ContainerBase
 @inject ISettingService SettingService
 
@@ -321,7 +321,7 @@ else
 <p>In addition to the required minimum files, you can also include other Blazor components.
 Here's an example of the <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Components/NavMenu.razor">NavMenu.razor</a>.</p>
 <p>It doesn't do much, but check if the menu should show, and then calls the <code>NavMenuItems</code> component.</p>
-<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+<pre><code class="lang-razor">@namespace Oqtane.Theme.Arsha
 
 @inherits MenuBase
 
@@ -333,7 +333,7 @@ Here's an example of the <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/b
 </code></pre>
 <p>The <a href="https://github.com/oqtane/Oqtane.Theme.Arsha/blob/main/Client/Components/NavMenuItems.razor">NavMenuItems.razor</a>
 is way more complex, as it recursively calls itself to render the menu items.</p>
-<pre><code class="lang-html">@namespace Oqtane.Theme.Arsha
+<pre><code class="lang-razor">@namespace Oqtane.Theme.Arsha
 @inherits MenuItemsBase
 
 &lt;ul&gt;
