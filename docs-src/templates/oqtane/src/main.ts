@@ -3,12 +3,12 @@ import { Xref } from '../../shared-global/src/scripts/xref/xref';
 import { docReady } from '../../shared-global/src/scripts/utils/docready';
 import { configureLightboxes } from '../../shared-global/src/scripts/images';
 import { setVersionButtonLink } from '../../shared-global/src/scripts/versions';
-import version from '../../../package.json';
+import packageJson from '../../../package.json';
 import { lightboxForContextIllustration } from '../../shared-global/src/scripts/context-illustrations';
 import "./main.scss";
 
 // Log some version of this file so we see changes are being applied
-console.log('Oqtane main.ts ' + version);
+// console.log('2sxc main.ts ' + packageJson.version);
 
 // Expose some functions to the global scope
 // for the way this file is imported in docfx
@@ -17,7 +17,7 @@ export default {
   // Customize highlightjs
   configureHljs: (hljs: any) => {
     // https://github.com/highlightjs/highlightjs-cshtml-razor
-    console.log('configuring configureHljs to support Razor');
+    // console.log('configuring configureHljs to support Razor');
 
     // Add support for Razor
     hljs.registerLanguage('cshtml-razor', hljsRazor);

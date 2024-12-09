@@ -2,12 +2,11 @@
   "name": "oqtane-docs",
   "version": "6.0.0",
   "description": "",
-  "projectName": "oqtane",
-  "docsVersion": "6.0.0",
+  "templateName": "oqtane",
   "enableDebug": false,
   "scripts": {
-    "build": "webpack --mode production -c ./templates/shared-global/webpack.config.js",
-    "dev": "webpack --watch --mode development -c ./templates/shared-global/webpack.config.js"
+    "webpack-build": "webpack --mode production -c ./templates/shared-global/webpack.config.js",
+    "webpack-dev": "webpack --watch --mode development -c ./templates/shared-global/webpack.config.js"
   },
   "author": "",
   "license": "ISC",

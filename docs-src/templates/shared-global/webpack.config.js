@@ -4,20 +4,21 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const packageJson = require('../../package.json');
-const { config } = require('process');
+// const { config } = require('process');
 
-let project = packageJson.projectName; // project folder name
+const template = packageJson.templateName; // project folder name
 const docsPublicPath = "../../../../docs/public/"; // path to docs/public folder
 
 module.exports = (env, argv) => {
   const isProduction = argv.mode === 'production';
 
   return {
-    entry: `./templates/${project}/src/main.ts`,
+    entry: `./templates/${template}/src/main.ts`,
     experiments: {
       outputModule: true
     },
-    devtool: isProduction ? false : 'source-map', // Enable source maps only in development
+    // Create source maps for both development and production
+    devtool: /* isProduction ? false : */ 'source-map', // Enable source maps only in development
     module: {
       rules: [
         {
@@ -50,7 +51,7 @@ module.exports = (env, argv) => {
     },
     output: {
       filename: 'main.js',
-      path: path.resolve(__dirname, `../${project}/public`),
+      path: path.resolve(__dirname, `../${template}/public`),
       libraryTarget: 'module',
       // clean: true,
     },
@@ -71,7 +72,7 @@ module.exports = (env, argv) => {
       new CopyWebpackPlugin({
         patterns: [
           { 
-            from: path.resolve(__dirname, `../${project}/public`), 
+            from: path.resolve(__dirname, `../${template}/public`), 
             to: docsPublicPath,
             noErrorOnMissing: false // Add this option to prevent the build from failing if the source directory doesn't exist
           }
