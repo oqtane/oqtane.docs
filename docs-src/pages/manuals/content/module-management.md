@@ -61,12 +61,12 @@ When a module is selected, its description will appear in a purple box, providin
 
 Once a module is added to a page, manage it directly in-page using the **Content Editor**. For detailed workflows, jump to the relevant section in the [Content Editor documentation](../content/content-editor.md):
 
-- [Manage Settings](../content/content-editor.md#manage-settings-tab)
+- [Manage Settings](../content/content-editor.md#manage-settings)
 - [Permissions](../content/content-editor.md#permissions-tab)
-- [Module Settings](../content/content-editor.md#module-settings-tab)
+- [Module Settings](../content/content-editor.md#module-settings)
 - [Container Settings](../content/content-editor.md#container-settings-tab)
-- [Import/Export](../content/content-editor.md#import-export-content)
-- [Move Modules](../content/content-editor.md#move-modules)
+- [Import/Export](../content/content-editor.md#other-options)
+- [Move Modules](../content/content-editor.md#other-options)
 
 ### Key Tasks
 
