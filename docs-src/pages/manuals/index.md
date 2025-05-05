@@ -24,25 +24,27 @@ This documentation is organized with your productivity in mind:
 
 Here are just a few of the powerful features you can learn about:
 
-### 🔧 Installation
+### 🔧 [Installation](installation/index.md)
 - **[Installation Wizard](installation/installation-wizard.md)**: Set up your first Oqtane instance with ease.
 - **[Configuration Tips](installation/index.md)**: Troubleshoot database connections, file permissions, and environment variables.
 
-### 🖼️ Content Management
+### 🖼️ [Content Management](content/index.md)
 - **[Control Panel](content/control-panel.md)**: Access site-wide tools from any page.
 - **[Page & Module Management](content/page-management.md)**: Create, edit, and organize your site's content structure.
 - **[Content Editor](content/content-editor.md)**: Inline editing tools to modify layout and styling on the fly.
 
-### 🛠 Site Administration (Admin)
+### 🛠 [Site Administration (Admin)](site/index.md)
 - **[Site Settings](site/site-settings.md)**: Manage site-specific configuration including logos, component settings, smtp settings, cookie consent and more.
 - **[User and Role Management](site/user-management.md)**: Create users, assign permissions, and manage profiles.
 - **[File & Folder Management](site/file-management.md)**: Upload, organize, and serve files across the site.
 - **[Visitor Logs & Recycle Bin](site/recycle-bin.md)**: Maintain site hygiene and recover deleted items.
-
-### 🧑‍💼 System Administration (Host)
+- 
+### 🧑‍💼 [System Administration (Host)](system/index.md)
 - **[Event Log](system/event-log.md)**: View and diagnose system-wide events.
-- **[System Info](system/system-info.md)**: Access detailed diagnostics and environment settings.
+- **[System Info](system/system-info.md)**: Access diagnostics, environment data, and runtime options like logging and Swagger.
+- **[System Update](system/system-update.md)**: Update the platform via direct download or NuGet upload.
 - **[Scheduled Jobs](system/scheduled-jobs.md)**: Automate and monitor background tasks.
+- **[SQL Management](system/sql-management.md)**: Run direct SQL queries securely from the browser.
 
 ---
 
