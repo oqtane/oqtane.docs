@@ -56,3 +56,41 @@ When a module is selected, its description will appear in a purple box, providin
 ![Add Module Button](./assets/control-panel-add-module-to-page-button.png)
 
 ---
+
+## Working with Modules on Pages
+
+Once a module is added to a page, manage it directly in-page using the **Content Editor**. For detailed workflows, jump to the relevant section in the [Content Editor documentation](../content/content-editor.md):
+
+- [Manage Settings](../content/content-editor.md#manage-settings-tab)
+- [Permissions](../content/content-editor.md#permissions-tab)
+- [Module Settings](../content/content-editor.md#module-settings-tab)
+- [Container Settings](../content/content-editor.md#container-settings-tab)
+- [Import/Export](../content/content-editor.md#import-export-content)
+- [Move Modules](../content/content-editor.md#move-modules)
+
+### Key Tasks
+
+- **Open the Content Editor**  
+  Click the pencil icon at the page top to toggle edit mode.
+
+- **Access Module Actions**  
+  Click the caret menu (▾) on any module to select actions such as **Manage Settings**, **Permissions**, **Import Content**, **Export Content**, **Delete Module**, **Move Modules**, and more.
+
+- **Adjust Module Properties**  
+  Via **Manage Settings**, configure title, pane, container, effective/expiry dates, display options, and page assignment.
+
+- **Set Permissions**  
+  Under **Permissions**, grant or revoke **View** and **Edit** rights for roles and users.
+
+- **Configure Module Options**  
+  In **Module Settings**, toggle features like **Dynamic Tokens**. In **Container Settings**, adjust title display, background/text/border colors.
+
+- **Import/Export Content**  
+  Use the **Import Content** and **Export Content** modals to manage module data transfers.
+
+- **Move Modules**  
+  Select **Move to** options to reposition modules across available panes or use **Move Up/Down** and **Top/Bottom** commands.
+
+Refer to the linked sections in the content-editor.md for full screenshots and field details.
+
+---
