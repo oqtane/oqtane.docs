@@ -57,8 +57,12 @@ The **Options** tab lets you configure runtime behaviors and diagnostics:
 - **Package Manager Email**: Email account used for authenticating with the package registry.  
   *(Tooltip: "Specify The Email Address Of The User Account Used For Interacting With The Package Manager Service.")*  
 
-After adjusting options, click **Save** or **Restart Application**. You can also quickly launch the API tools:  
-![Access Swagger & API Endpoints](./assets/system-info-options-access-swagger-api-button.png)
+After adjusting options, click **Save** or **Restart Application**. You can also quickly launch the API tools:
+
+- Swagger UI: Opens the interactive Swagger documentation for exploring and testing the server API.
+![Swagger UI Button](./assets/system-info-options-access-swagger-api-button.png)
+- API Endpoints: Displays a detailed list of all registered API routes, methods, and controller actions in your Oqtane installation.
+![API Endpoints Button](./assets/system-info-options-api-endpoints-button.png)
 
 ---
 
