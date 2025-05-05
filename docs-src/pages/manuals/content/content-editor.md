@@ -109,15 +109,23 @@ Use **Save** to apply changes or **Cancel** to exit without saving.
 
 ---
 
-## Other Options
+## Unpublish Module
 
-- **Unpublish Module**: Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.
+Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.
 
-  ![Unpublish/Publish Module Option](./assets/content-editor-module-options-unpublish-module.png)
+![Unpublish/Publish Module Option](./assets/content-editor-module-options-unpublish-module.png)
 
-- **Delete Module**: Removes the module from the page and moves it to the [Recycle Bin](../site/recycle-bin.md#modules-tab) for possible recovery.
+---
 
-- **Import Content**: Opens an **Import Content** modal where:
+## Delete Module
+
+Removes the module from the page and moves it to the [Recycle Bin](../site/recycle-bin.md#modules-tab) for possible recovery.
+
+---
+
+## Import Content
+
+Opens an **Import Content** modal where:
 
   ![Import Content Modal](./assets/content-editor-import-content.png)
 
@@ -126,7 +134,11 @@ Use **Save** to apply changes or **Cancel** to exit without saving.
   - **Import** button: Click to import the content into the module.  
   - **Cancel** button: Discard changes and close the modal.
 
-- **Export Content**: Opens an **Export Content** modal where:
+---
+
+## Export Content
+
+Opens an **Export Content** modal where:
 
   ![Export Content Modal](./assets/content-editor-export-content.png)
 
@@ -135,14 +147,18 @@ Use **Save** to apply changes or **Cancel** to exit without saving.
   - **Export** button: Click to export the module data to your chosen location.  
   - **Cancel** button: Close the modal without exporting.
 
+---
+
+## Move Modules
+
+Use the **Move Modules** actions to reposition modules dynamically within a page. You can move a module up or down in its current pane, place it at the top or bottom, or use **Move to >** to send it to a different pane.
+
+> **Note:** Use [Manage Settings](#manage-settings) to assign modules to other pages or panes.
+
 - **Move to Top**: Moves the module to the top of the page, making it the first displayed module.
-
 - **Move Up**: Moves the module up one position, placing it above the module currently above it.
-
 - **Move Down**: Moves the module down one position, placing it below the module currently below it.
-
 - **Move to Bottom**: Moves the module to the bottom of the page, below all other modules.
-
 - **Move Options**: When you select "**Move to >**," additional options will be available, allowing you to choose a specific pane for the module.
 
   ![Move Options](./assets/content-editor-module-options-move.png)
