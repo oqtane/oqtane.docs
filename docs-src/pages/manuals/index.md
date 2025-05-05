@@ -62,7 +62,7 @@ To get up and running quickly:
 
 ## 📚 Need More?
 
-- Visit the **[Guides section](../../guides/index.md)** for in-depth tutorials.
+- Visit the **[Guides section](../guides/index.md)** for in-depth tutorials.
 - Join our community via [GitHub Discussions](https://github.com/oqtane/oqtane.framework/discussions).
 
 > Tip: Bookmark this page or your favorite section for quick access during development or administration tasks.
