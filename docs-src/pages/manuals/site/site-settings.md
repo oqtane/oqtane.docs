@@ -1,6 +1,7 @@
 ---
 uid: Manuals.Site.SiteSettings
 ---
+
 # Site Settings
 
 ![site-settings](./assets/site-settings.png)
@@ -30,7 +31,7 @@ The Site Settings feature allows you to perform high-level administrative config
 
 ## Site Settings
 
-The **Site Settings** management feature includes foundational settings for your site.
+The **Site Settings** management feature includes foundational settings for your site:
 
 - **Name**: Enter the site name.
 - **Home Page**: Select the home page for the site (to be used if there is no page with a path of '/').
@@ -39,20 +40,20 @@ The **Site Settings** management feature includes foundational settings for your
 - **ID**: The unique identifier for the site.
 - **Version**: Site version for content migrations.
 
-### Appearance
+### Theme
 
-The Appearance section includes options related to the visual representation of your site.
+The Theme section includes options related to the overall look and feel of your site:
 
 - **Default Theme**: Select the site's default theme.
 - **Default Container**: Choose the default container for the site.
 - **Default Admin Container**: Select the default admin container for the site.
-- **Cookie Consent**Specify if cookie consent is enabled on this site. Please note this option must be used in conjunction with a Theme which supports cookie consent.
+- **Cookie Consent**: Specify if cookie consent is enabled on this site. Please note this option must be used in conjunction with a Theme which supports cookie consent.
 
 ![theme-settings](./assets/site-settings-theme.png)
 
 ### Appearance
 
-The Appearance section includes options related to the visual representation of your site.
+The Appearance section allows you to manage key branding elements for your site:
 
 - **Logo**: Specify a site logo using the file manager for easy selection, upload, and deletion.
 - **Favicon**: Specify a favicon with the same file manager options as the logo.
@@ -61,7 +62,7 @@ The Appearance section includes options related to the visual representation of 
 
 ### Functionality
 
-The Functionality section allows you to configure essential site functionalities.
+The Functionality section allows you to configure essential site functionalities:
 
 - **Text Editor**: Select the text editor for the site (default is the QuillJS editor). For more information, see the [HTML Text Editor Documentation](../content/html-text-editor.md).
 
@@ -69,7 +70,7 @@ The Functionality section allows you to configure essential site functionalities
 
 ### Page Content
 
-The Page Content section lets you define additional content that can be included in your pages.
+The Page Content section lets you define additional content that can be included in your pages:
 
 - **Head Content**: Optionally enter content to be included in the page head (e.g., meta, link, or script tags).
 - **Body Content**: Optionally enter content to be included in the page body (e.g., script tags).
@@ -77,6 +78,8 @@ The Page Content section lets you define additional content that can be included
 ![page-content-settings](./assets/site-settings-page-content.png)
 
 ### SMTP Settings
+
+The SMTP Settings section allows you to configure the email server parameters and notification behaviors for your site. You can define how Oqtane sends outgoing emails, authenticate with your mail server, and manage message retention.
 
 **Please Note That SMTP Requires The Notification Job To Be Enabled In Scheduled Jobs**
 
@@ -97,7 +100,7 @@ The Page Content section lets you define additional content that can be included
 
 ### PWA Settings
 
-The PWA Settings section allows you to configure the Progressive Web Application capabilities of your site.
+The PWA Settings section allows you to configure the Progressive Web Application capabilities of your site:
 
 - **Is Enabled?**: Choose whether the site will be available as a Progressive Web Application (PWA).
 - **App Icon**: Upload an application icon for your PWA (PNG, 192 x 192 pixels).
