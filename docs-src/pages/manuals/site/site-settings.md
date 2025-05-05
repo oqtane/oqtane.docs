@@ -43,11 +43,19 @@ The **Site Settings** management feature includes foundational settings for your
 
 The Appearance section includes options related to the visual representation of your site.
 
-- **Logo**: Specify a site logo using the file manager for easy selection, upload, and deletion.
-- **Favicon**: Specify a favicon with the same file manager options as the logo.
 - **Default Theme**: Select the site's default theme.
 - **Default Container**: Choose the default container for the site.
 - **Default Admin Container**: Select the default admin container for the site.
+- **Cookie Consent**Specify if cookie consent is enabled on this site. Please note this option must be used in conjunction with a Theme which supports cookie consent.
+
+![theme-settings](./assets/site-settings-theme.png)
+
+### Appearance
+
+The Appearance section includes options related to the visual representation of your site.
+
+- **Logo**: Specify a site logo using the file manager for easy selection, upload, and deletion.
+- **Favicon**: Specify a favicon with the same file manager options as the logo.
 
 ![appearance-settings](./assets/site-settings-appearance.png)
 
