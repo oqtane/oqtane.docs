@@ -67,6 +67,3 @@ To get up and running quickly:
 
 > Tip: Bookmark this page or your favorite section for quick access during development or administration tasks.
 
----
-
-Oqtane is modular, modern, and open — and so is this documentation.
