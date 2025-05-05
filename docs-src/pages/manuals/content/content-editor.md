@@ -115,7 +115,7 @@ Use **Save** to apply changes or **Cancel** to exit without saving.
 
   ![Unpublish/Publish Module Option](./assets/content-editor-module-options-unpublish-module.png)
 
-- **Delete Module**: Removes the module from the page and moves it to the [Recycle Bin](./site/recycle-bin.md) for possible recovery.
+- **Delete Module**: Removes the module from the page and moves it to the [Recycle Bin](../site/recycle-bin.md) for possible recovery.
 
 - **Import Content**: Opens an **Import Content** modal where:
 
