@@ -9,9 +9,6 @@ The options provided by the file manager are:
 * Add Folder: Allows you to create a new folder with the ability to choose a name, parent folder, and permissions to access.
 * Upload Files: This is the feature that allows for user to upload files like images from their local system to a folder in Oqtane and allows for files to downloaded from Oqtane to their local system.
 
-
-
-
 # Add/Edit Folder Feature Overview
 
 The **Add/Edit Folder** features allows users to organize content within the application efficiently. By creating folders, users can categorize and manage their files according to their needs. This feature provides options for setting various parameters, such as folder type, image sizes, and capacity, ensuring flexibility in how users store and access their content.
@@ -196,10 +193,10 @@ To edit a file, follow these steps:
 
 2. **View Files**:
    - **Description**: After selecting a folder, you will see a list of files within that folder. The file list includes the following columns:
-     - **Name**: The name of the file (hyperlinked to view the file).
-     - **Modified**: The date the file was last modified.
-     - **Type**: The file type (e.g., image, document).
-     - **Size**: The file size.
+   - **Name**: The name of the file (hyperlinked to view the file).
+   - **Modified**: The date the file was last modified.
+   - **Type**: The file type (e.g., image, document).
+   - **Size**: The file size.
 
    ![File List](./assets/file-management-file-list.png)
 
@@ -252,4 +249,11 @@ If you need to remove a file, you can do so by following these steps:
 
 By utilizing the **Edit Files** feature, users can ensure that their file details remain accurate and relevant, enhancing the organization and management of content within Oqtane.
 
+---
 
+### File Management Settings
+- **Image Extensions**: Specify a comma-separated list of allowed image file extensions (e.g., jpg, png, gif).
+- **Uploadable File Extensions**: List the allowed file extensions for all other uploads (e.g., pdf, docx, xlsx).
+- **Max Upload Chunk Size (MB)**: Files are split into chunks to streamline the upload process. Specify the maximum chunk size in MB (note that higher chunk sizes should only be used on faster networks).
+
+   ![File Management Settings Window](./assets/file-management-settings-window.png)
