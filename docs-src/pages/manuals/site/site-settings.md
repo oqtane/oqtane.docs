@@ -56,8 +56,6 @@ The Appearance section includes options related to the visual representation of 
 The Functionality section allows you to configure essential site functionalities.
 
 - **Text Editor**: Select the text editor for the site (default is the QuillJS editor). For more information, see the [HTML Text Editor Documentation](../content/html-text-editor.md).
-- **Image Extensions**: Enter a comma-separated list of allowed image extensions.
-- **Uploadable File Extensions**: Enter a comma-separated list of allowed uploadable file extensions.
 
 ![functionality-settings](./assets/site-settings-functionality.png)
 
