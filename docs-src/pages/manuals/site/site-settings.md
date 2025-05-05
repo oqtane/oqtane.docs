@@ -36,7 +36,7 @@ The **Site Settings** management feature includes foundational settings for your
 - **Name**: Enter the site name.
 - **Home Page**: Select the home page for the site (to be used if there is no page with a path of '/').
 - **Deleted?**: Indicates whether the site is deleted.
-- **Site Map**: The site map URL for this site, which can be submitted to search engines for indexing.
+- **Site Map**: The site map url for this site which can be submitted to search engines for indexing. The sitemap is cached for 5 minutes and the cache can be manually cleared. Click the **Clear Cache** button to clear the cached sitemap entries and regenerate the sitemap on demand.
 - **ID**: The unique identifier for the site.
 - **Version**: Site version for content migrations.
 
