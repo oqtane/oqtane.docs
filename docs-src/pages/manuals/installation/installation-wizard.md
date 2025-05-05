@@ -49,7 +49,7 @@ The Oqtane Installation Wizard simplifies the setup process, guiding you through
 
    - Log in using the host account credentials you created.
 
-    ![Login Host Account](./assets/installation-wizard-install-spinner.png)
+    ![Login Host Account](./assets/login-host-user.png)
 
     You now have full access to [Content Management](../content/index.md), [Admin Management](../site/index.md), and [Host Management](../system/index.md) features.
 
