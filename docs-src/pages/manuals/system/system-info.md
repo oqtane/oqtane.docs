@@ -1,83 +1,78 @@
-# System Update
+# System Info
 
-![System Update](./assets/system-update.png)
+![System Info](./assets/system-info.png)
 
 ## Overview
 
-The **System Update** feature in Oqtane allows administrators to keep the framework up to date, ensuring access to the latest capabilities and features. It also enables you to upload a NuGet package to include specific features or updates that are part of newer versions of Oqtane. This is particularly useful when you are unable to update to the latest Oqtane version but want to incorporate certain features or fixes from that newer release.
+The **Info** tab displays critical environment and framework details for your Oqtane installation.
 
-When updating, you can select a NuGet file from your local system, upload it to the framework, and then install it to integrate the package into your current Oqtane installation. This process is helpful for applying partial updates or integrating features without a full framework update.
+- **Framework Version**: The current Oqtane framework version.  
+  *(Tooltip: "Framework Version")*  
+- **CLR Version**: The .NET Common Language Runtime version in use.  
+  *(Tooltip: "Common Language Runtime Version")*  
+- **OS Version**: The operating system version of the hosting server.  
+  *(Tooltip: "Operating System Version")*  
+- **Process**: Indicates if the application is running in a 32-bit or 64-bit process.  
+  *(Tooltip: "Indicates if the current process is 32 bit or 64 bit")*  
+- **Machine Name**: The server machine’s host name.  
+  *(Tooltip: "Server Machine Name")*  
+- **IP Address**: The server’s network IP address.  
+  *(Tooltip: "Server IP Address")*  
+- **Environment**: The ASPNETCORE environment name (e.g., Development, Production).  
+  *(Tooltip: "Environment Name")*  
+- **Root Path**: The application’s content root path on disk.  
+  *(Tooltip: "Server Root Path")*  
+- **Web Path**: The application’s web root path on disk.  
+  *(Tooltip: "Server Web Root Path")*  
+- **Server Date/Time**: Current server UTC date and time.  
+  *(Tooltip: "Server Date/Time (in UTC)")*  
+- **Memory Allocation**: Current memory usage of the process (MB).  
+  *(Tooltip: "Memory Allocation Of Service (in MB)")*  
+- **Installation ID**: A unique identifier for this Oqtane installation.  
+  *(Tooltip: "The Unique Identifier For Your Installation")*  
 
----
-
-## Accessing the System Update Feature
-
-To access the **System Update** feature, follow these steps:
-
-1. **Open the Control Panel**: Click the **Control Panel** icon to access additional settings.
-
-   ![Control Panel Icon](./assets/control-panel-button.png)
-
-2. **Navigate to Admin Dashboard**: In the Control Panel, click the button to open the **Admin Dashboard**.
-
-   ![Open Admin Dashboard](./assets/control-panel-admin-dashboard-button.png)
-
-3. **Select System Update**: In the Admin Dashboard, click on the **System Update** icon to access the update feature.
-
-   ![Admin Dashboard System Update](./assets/admin-dashboard-system-update.png)
-
----
-
-## Downloading An Update
-
-To download and apply an update, follow these steps:
-
-1. Click the **Download** button to initiate the update download.
-
-2. After the download completes successfully, you will see a notification. At this point, click the **Upgrade** button to apply the update.
-
-   > **Note**: Ensure that you are connected to the internet during this process to download the latest update package.
-
-### System Up To Date Notification
-
-If the Oqtane framework is already up to date, you will see the following notification:
-
-![System Update Up To Date Notification](./assets/system-update-system-up-to-date-notification.png)
-
-This indicates that no update is required and you are already using the latest version of the framework.
+**Restart Application**: Restarts the application domain to apply configuration changes or clear state.  
+![Restart Application Button](./assets/system-info-restart-application-button.png)
 
 ---
 
-## Uploading An Update
+## Options
 
-In some cases, you may want to upload a NuGet package that includes new features or fixes from a newer version of Oqtane. To upload an update, follow these steps:
+![Options Tab](./assets/system-info-options.png)
 
-1. Click the **Upload** button to browse and select the NuGet package file on your local system.
+The **Options** tab lets you configure runtime behaviors and diagnostics:
 
-   ![System Update Upload](./assets/system-update-upload.png)
+- **Detailed Errors?**: Enable detailed Blazor error messages (do not use in Production).  
+  *(Tooltip: "Specify If Detailed Errors Are Enabled For Blazor. This Option Should Not Be Enabled In Production.")*  
+- **Logging Level**: Set the minimum severity for writing to the event log.  
+  *(Tooltip: "The Minimum Logging Level For The Event Log. This Option Can Be Used To Control The Volume Of Items Stored In Your Event Log.")*  
+- **Notification Level**: Set the minimum severity for sending notifications to Host users.  
+  *(Tooltip: "The Minimum Logging Level For Which Notifications Should Be Sent To Host Users.")*  
+- **Swagger Enabled?**: Toggle the built-in Swagger UI for the server API.  
+  *(Tooltip: "Specify If Swagger Is Enabled For Your Server API")*  
+- **Static Asset Caching**: Provide a Cache-Control directive for static files (e.g., `public, max-age=60`).  
+  *(Tooltip: "Provide a Cache-Control directive for static assets. A blank value disables caching.")*  
+- **Package Manager Url**: URL for the package registry service used by the Package Manager.  
+  *(Tooltip: "Specify The Url Of The Package Manager Service For Installing Modules, Themes, And Translations.")*  
+- **Package Manager Email**: Email account used for authenticating with the package registry.  
+  *(Tooltip: "Specify The Email Address Of The User Account Used For Interacting With The Package Manager Service.")*  
 
-2. After selecting the file, click the **Upgrade** button to install the uploaded package into your current version of Oqtane.
-
-   ![System Update Upgrade Button](./assets/system-update-upload-upgrade-button.png)
-
-   > **Tip**: This step is useful if you cannot upgrade to the latest version of Oqtane but still need to integrate newer features or updates provided in a NuGet package.
-
----
-
-## Development Environment Notification
-
-The **System Update** feature is only available in production environments. If you are working in a development environment, you will see a notification message indicating that updates cannot be performed.
-
-This is a safeguard to prevent accidental updates in environments where it may not be appropriate. The message will appear as shown in the image below:
-
-![System Update Development Environment](./assets/system-update-development-environment.png)
-
-> **Note**: If you need to perform updates in a development environment, consider switching to a production environment or testing updates locally before applying them to the live system.
+After adjusting options, click **Save** or **Restart Application**. You can also quickly launch the API tools:  
+![Access Swagger & API Endpoints](./assets/system-info-options-access-swagger-api-button.png)
 
 ---
 
-## Conclusion
+## Log
 
-The **System Update** feature in Oqtane ensures that your system is running the latest framework version, incorporating important features, bug fixes, and updates. You can either download updates directly from the Oqtane servers or upload NuGet packages to install specific updates. Always verify your environment type (production vs development) and follow the steps carefully to maintain system integrity.
+![Log Tab](./assets/system-info-log.png)
 
-If you encounter any issues or have questions about updating, consult the logs or seek assistance from the community or support channels.
+The **Log** tab shows today’s system log entries for diagnostics:
+
+- **Log**: A read-only textarea displaying real-time system events.  
+  *(Tooltip: "System log information for current day")*  
+
+**Clear**: Purges the log content.  
+![Clear Log Button](./assets/system-info-log-clear-button.png)
+
+After clearing, confirm the action:  
+![Clear Confirmation](./assets/system-info-log-clear-confirmation-message.png)
