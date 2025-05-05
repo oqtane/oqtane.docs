@@ -26,7 +26,7 @@ Here are just a few of the powerful features you can learn about:
 
 ### 🔧 [Installation](installation/index.md)
 - **[Installation Wizard](installation/installation-wizard.md)**: Set up your first Oqtane instance with ease.
-- **[Configuration Tips](installation/index.md)**: Troubleshoot database connections, file permissions, and environment variables.
+- **[Configuration Tips](installation/troubleshooting.md)**: Troubleshoot database connections, file permissions, and environment variables.
 
 ### 🖼️ [Content Management](content/index.md)
 - **[Control Panel](content/control-panel.md)**: Access site-wide tools from any page.
