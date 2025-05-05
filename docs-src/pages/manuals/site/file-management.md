@@ -256,4 +256,4 @@ By utilizing the **Edit Files** feature, users can ensure that their file detail
 - **Uploadable File Extensions**: List the allowed file extensions for all other uploads (e.g., pdf, docx, xlsx).
 - **Max Upload Chunk Size (MB)**: Files are split into chunks to streamline the upload process. Specify the maximum chunk size in MB (note that higher chunk sizes should only be used on faster networks).
 
-   ![File Management Settings Window](./assets/file-management-settings-window.png)
+   ![File Management Settings Window](./assets/file-management-settings.png)
