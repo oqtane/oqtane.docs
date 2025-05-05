@@ -117,9 +117,23 @@ Use **Save** to apply changes or **Cancel** to exit without saving.
 
 - **Delete Module**: Permanently removes the module from the page.
 
-- **Import Content**: Enter a file's address (e.g., an image URL) to import it into the module.
+- **Import Content**: Opens an **Import Content** modal where:
 
-- **Export Content**: Specify a file address to determine where to export data from the module.
+  ![Import Content Modal](./assets/content-editor-import-content.png)
+
+  - **Content**: A required text area to paste or type in the module content you wish to import.  
+    *(Tooltip: “Enter The Module Content To Import”)*
+  - **Import** button: Click to import the content into the module.  
+  - **Cancel** button: Discard changes and close the modal.
+
+- **Export Content**: Opens an **Export Content** modal where:
+
+  ![Export Content Modal](./assets/content-editor-export-content.png)
+
+  - **Content**: A read-only text area displaying the current module data available for export.  
+    *(Tooltip: “The Exported Module Content”)*
+  - **Export** button: Click to export the module data to your chosen location.  
+  - **Cancel** button: Close the modal without exporting.
 
 - **Move to Top**: Moves the module to the top of the page, making it the first displayed module.
 
