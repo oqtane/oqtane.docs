@@ -1,5 +1,7 @@
 # Installation Introduction
 
+## Overview
+
 This manual introduces the **Installation Wizard** for Oqtane, focusing on setting up a core installation. The Installation Wizard streamlines the configuration of essential settings, including database connections and host account setup.
 
 ## Installation Wizard Overview
