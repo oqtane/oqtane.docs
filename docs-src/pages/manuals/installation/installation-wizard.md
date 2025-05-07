@@ -10,10 +10,10 @@ The Oqtane Installation Wizard simplifies the setup process, guiding you through
 
    ![Installation Wizard Start Screen](./assets/installation-wizard.png)
 
-2. **Database Configuration**: 
-   - Select your preferred database type. Oqtane supports several database providers, such as SQL Server and SQLite.
-   - Enter the required database connection information, including the server, database name, and login credentials.
-   - The wizard will attempt to connect to your database to validate the information entered.
+2. **Database Configuration**  
+   - Select your preferred database provider (Azure SQL, SQL Server, MySQL, PostgreSQL, or SQLite).  
+   - Enter your connection details: server address, database name, and credentials.  
+   - The wizard will test the connection and alert you if there’s an issue.
 
    ![Database Configuration Screen](./assets/installation-wizard-database-configuration.png)
 
@@ -49,7 +49,7 @@ The Oqtane Installation Wizard simplifies the setup process, guiding you through
 
    - Log in using the host account credentials you created.
 
-    ![Login Host Account](./assets/installation-wizard-install-spinner.png)
+    ![Login Host Account](./assets/login-host-user.png)
 
     You now have full access to [Content Management](../content/index.md), [Admin Management](../site/index.md), and [Host Management](../system/index.md) features.
 

@@ -14,6 +14,8 @@ When the Content Editor is enabled, borders around each content pane are display
 ![Content Pane Border](./assets/content-editor-pane-border.png)  
 *The visible borders help you understand the layout of the page when in edit mode.*
 
+---
+
 ## Pane Header
 
 When the Content Editor is activated, the top header of the pane is displayed, showing the name of the pane:
@@ -21,39 +23,143 @@ When the Content Editor is activated, the top header of the pane is displayed, s
 ![Pane Header](./assets/content-editor-pane.png)
 ![Pane Name Display](./assets/content-editor-pane-name.png)
 
+---
+
 ## Module Menu Options
 
 When you click the downward-pointing "caret-bottom" arrow next to a module, you have access to the following options:
 
   ![Unpublish/Publish Module Menu Options Button](./assets/content-editor-module-options-caret-bottom-button.png)
 
+---
 
-- **Manage Settings**: Opens the module's settings and permissions, allowing you to change the:
-  - **Title**: The title displayed above the module.
-  - **Container**: Specify whether you want the title to be displayed for the module.
-  - **Display on All Pages**: Choose whether this module should appear on every page of the site.
-  - **Page**: Change the page on which the module is displayed.
-  - **Permissions**: Specify which [roles](../site/role-management.md) or individual users can view or edit the module.
+## Manage Settings
 
-- **Unpublish Module**: Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.
+When you select **Manage Settings** from a module’s caret menu, the following configuration modal appears:
 
-  ![Unpublish/Publish Module Option](./assets/content-editor-module-options-unpublish-module.png)
+![Manage Settings Modal](./assets/content-editor-manage-settings.png)
 
-- **Delete Module**: Permanently removes the module from the page.
+Within this modal, you can adjust the module’s core properties. Hover over each help icon for additional guidance.
 
-- **Import Content**: Enter a file's address (e.g., an image URL) to import it into the module.
+- **Module** (read‑only): Displays the internal name of the module.
+  *(Tooltip: “The name of the module”)*
+- **Title**: Enter the text displayed above the module.
+  *(Tooltip: “Enter the title of the module”)*
+- **Pane**: Choose the content pane where the module will render (e.g., Default Pane, Top Full Width Pane, Left 50% Pane, etc.).
+  *(Tooltip: “The pane where the module will be displayed”)*
+- **Container**: Select the container wrapper for the module’s styling.
+  *(Tooltip: “Select the module's container”)*
+- **Effective Date**: Set the date when this module becomes active.
+  *(Tooltip: “The date that this module is active”)*
+- **Expiry Date**: Set the date when this module is deactivated.
+  *(Tooltip: “The date that this module expires”)*
+- **Display On All Pages?**: Toggle to show this module on every page.
+  *(Tooltip: “Indicate if this module should be displayed on all pages”)*
+- **Page**: Assign the module to a specific page within the site.
+  *(Tooltip: “The page that the module is located on”)*
 
-- **Export Content**: Specify a file address to determine where to export data from the module.
+Use **Save** to apply your changes or **Cancel** to exit without saving.
+
+---
+
+### Permissions Tab
+
+![Permissions Tab](./assets/content-editor-manage-settings-permissions.png)
+
+In the permissions grid, toggle the **View** and **Edit** checkboxes for each role or user:
+
+| Role                    | View | Edit |
+|-------------------------|:----:|:----:|
+| Administrators          | ✔    | ✔    |
+| All Users               | ✔    |      |
+| Registered Users        |      |      |
+| Unauthenticated Users   |      |      |
+
+Use **Save** to apply permission changes or **Cancel** to exit without saving.
+
+### Module Settings
+
+Select the **Module Settings** tab to access module-specific options:
+
+![Module Settings Tab](./assets/content-editor-module-settings.png)
+
+- **Dynamic Tokens?**: Allow placeholder tokens (e.g., `{UserName}`) to be dynamically replaced at render time. Enabling this option may impact site performance.  
+  *(Tooltip: "Do you wish to allow tokens to be dynamically replaced? Please note that this will affect the performance of your site.")*
+  
+Use **Save** to apply changes or **Cancel** to exit without saving.
+
+---
+
+### Container Settings Tab
+
+Select the **Container** tab to customize the module container’s appearance:
+
+![Container Settings Tab](./assets/content-editor-container-settings.png)
+
+- **Display Title?**: Toggle **Yes** or **No** to show or hide the module title above the content.  
+  *(Tooltip: "Specify If The Module Title Should Be Displayed")*
+- **Background Color**: Choose a background CSS class for the container (e.g., `bg-primary`, `bg-secondary`, etc.).  
+  *(Tooltip: "Optionally Specify A Background Color For The Container")*
+- **Text Color**: Choose a text color CSS class (e.g., `text-success`, `text-danger`, etc.).  
+  *(Tooltip: "Optionally Specify A Text Color For The Container")*
+- **Border Color**: Choose a border CSS class (e.g., `border border-primary`, `border border-light`, etc.).  
+  *(Tooltip: "Optionally Specify A Border For The Container")*
+
+Use **Save** to apply changes or **Cancel** to exit without saving.
+
+---
+
+## Unpublish Module
+
+Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.
+
+![Unpublish/Publish Module Option](./assets/content-editor-module-options-unpublish-module.png)
+
+---
+
+## Delete Module
+
+Removes the module from the page and moves it to the [Recycle Bin](../site/recycle-bin.md#modules-tab) for possible recovery.
+
+---
+
+## Import Content
+
+Opens an **Import Content** modal where:
+
+  ![Import Content Modal](./assets/content-editor-import-content.png)
+
+  - **Content**: A required text area to paste or type in the module content you wish to import.  
+    *(Tooltip: “Enter The Module Content To Import”)*
+  - **Import** button: Click to import the content into the module.  
+  - **Cancel** button: Discard changes and close the modal.
+
+---
+
+## Export Content
+
+Opens an **Export Content** modal where:
+
+  ![Export Content Modal](./assets/content-editor-export-content.png)
+
+  - **Content**: A read-only text area displaying the current module data available for export.  
+    *(Tooltip: “The Exported Module Content”)*
+  - **Export** button: Click to export the module data to your chosen location.  
+  - **Cancel** button: Close the modal without exporting.
+
+---
+
+## Move Modules
+
+Use the **Move Modules** actions to reposition modules dynamically within a page. You can move a module up or down in its current pane, place it at the top or bottom, or use **Move to >** to send it to a different pane.
+
+> **Note:** Use [Manage Settings](#manage-settings) to assign modules to other pages or panes.
 
 - **Move to Top**: Moves the module to the top of the page, making it the first displayed module.
-
 - **Move Up**: Moves the module up one position, placing it above the module currently above it.
-
 - **Move Down**: Moves the module down one position, placing it below the module currently below it.
-
 - **Move to Bottom**: Moves the module to the bottom of the page, below all other modules.
-
-- **Move Options**: When you select "Move to," additional options will be available, allowing you to choose a specific pane for the module.
+- **Move Options**: When you select "**Move to >**," additional options will be available, allowing you to choose a specific pane for the module.
 
   ![Move Options](./assets/content-editor-module-options-move.png)
 
