@@ -8,7 +8,7 @@ Pretty much every website starts out as one thing first and foremost: a collecti
 
 As your site continues to become successful and grows to meet the needs of your customers and other visitors, you will undoubtedly begin to have more and more pages on your site. You'll have so many that at some point you will need to manage them from a centralized location. In other cases, you might have pages that are hidden from the menu and are not easily accessible. This is where the Page Management feature comes in to allow for a larger overview of the pages on your website, with all pages on your website viewable in a list format. These pages can be manipulated in the page manager by being able to add, edit, and delete pages.
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the Page Management Feature
 
