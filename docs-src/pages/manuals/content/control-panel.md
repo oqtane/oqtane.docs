@@ -1,5 +1,7 @@
 # Control Panel
 
+## Overview
+
 Site administration in Oqtane involves using features like managing users, security, settings, configurations, and content to effectively run a website. The Control Panel is a primary tool for handling these tasks, providing options to manage pages, modules, and access site settings.
 
 Users with the **Administrators** role can access the Control Panel by logging in with an account that has the appropriate permissions for site administration. This guide provides instructions on accessing the Control Panel, adding and managing pages and modules, and includes logout instructions.
