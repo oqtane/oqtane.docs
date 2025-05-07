@@ -2,11 +2,9 @@
 
 ![Search Settings](assets/search-settings.png)
 
-This document describes the Search module, settings, and configuration for administrators to set up effective search functionality across their Oqtane site.
-
 ## Overview
 
-The **Search** feature allows users to locate relevant content quickly across the site. Through scheduled indexing, the Search service keeps the content index updated. The following sections cover search settings, scheduling, and customization options for the administrator.
+The **Search** feature allows users to locate relevant content quickly across the site. Through scheduled indexing, the Search service keeps the content index updated. The following sections cover search settings, scheduling, and customization options for the administrator.  This document describes the Search module, settings, and configuration for administrators to set up effective search functionality across their Oqtane site.
 
 ---
 
