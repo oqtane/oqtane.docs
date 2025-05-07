@@ -4,6 +4,8 @@
 
 The **Content Editor** allows you to edit the modules on the page in various ways. You can access the Content Editor by clicking on the pencil icon located at the top right side of the page. This action will display the borders of the content panes where the modules are placed and a small downward-pointing arrow next to each module, enabling you to open a menu for module interaction.
 
+## Getting Started
+
 ![Pencil Edit Icon](./assets/content-editor-button.png)  
 *Click on this icon button to enable the Content Editor.*
 
