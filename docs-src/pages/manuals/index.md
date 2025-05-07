@@ -1,5 +1,7 @@
 # Oqtane User Manuals
 
+## Introduction
+
 Welcome to the **Oqtane User Manuals** — your centralized hub for managing and customizing your Oqtane platform.
 
 Whether you're a new user exploring the basics or an experienced administrator managing complex deployments, this guide will walk you through essential features using clear, structured instructions.
