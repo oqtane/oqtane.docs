@@ -1,6 +1,6 @@
 # File Management
 
-![File Management Icon](./assets/admin-dashboard-file-management.png)
+![File Management Icon](./assets/file-management.png)
 
 ## Overview
 
