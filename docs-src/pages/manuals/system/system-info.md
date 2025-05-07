@@ -36,6 +36,8 @@ Key features include:
 
 ## Info Tab (System Environment)
 
+![System Info Tab](./assets/system-info.png)
+
 The **Info** tab displays critical environment and framework details for your Oqtane installation.
 
 - **Framework Version**: The current Oqtane framework version.  
