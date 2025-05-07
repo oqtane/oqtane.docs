@@ -1,5 +1,7 @@
 # HTML/Text Editor
 
+## Overview
+
 The HTML/Text Editor module in Oqtane enables you to create, edit, and restore content using a rich text editor (WYSIWYG) and a raw HTML editor. This module is ideal for exploring Oqtane's editing and content management features, including moving modules between panes, configuring settings, and managing roles.
 
 ![HTML/Text Editor](./assets/html-text-editor.png)
