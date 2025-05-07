@@ -38,7 +38,7 @@ Here are just a few of the powerful features you can learn about:
 - **[User and Role Management](site/user-management.md)**: Create users, assign permissions, and manage profiles.
 - **[File & Folder Management](site/file-management.md)**: Upload, organize, and serve files across the site.
 - **[Visitor Logs & Recycle Bin](site/recycle-bin.md)**: Maintain site hygiene and recover deleted items.
-- 
+
 ### 🧑‍💼 [System Administration (Host)](system/index.md)
 - **[Event Log](system/event-log.md)**: View and diagnose system-wide events.
 - **[System Info](system/system-info.md)**: Access diagnostics, environment data, and runtime options like logging and Swagger.
@@ -66,4 +66,3 @@ To get up and running quickly:
 - Join our community via [GitHub Discussions](https://github.com/oqtane/oqtane.framework/discussions).
 
 > Tip: Bookmark this page or your favorite section for quick access during development or administration tasks.
-
