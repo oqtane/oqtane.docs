@@ -6,6 +6,8 @@ The HTML/Text Editor module in Oqtane enables you to create, edit, and restore c
 
 ![HTML/Text Editor](./assets/html-text-editor.png)
 
+## Getting Started
+
 **To access the HTML/Text Editor:**  
 1. Enter Content Editor mode by clicking the pencil icon.
 
