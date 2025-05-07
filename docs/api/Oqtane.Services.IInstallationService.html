@@ -192,49 +192,11 @@ Interface IInstallationService  <a class="header-action link-secondary" title="V
 
 
 
-  <a id="Oqtane_Services_IInstallationService_RegisterAsync_" data-uid="Oqtane.Services.IInstallationService.RegisterAsync*"></a>
-
-  <h3 id="Oqtane_Services_IInstallationService_RegisterAsync_System_String_" data-uid="Oqtane.Services.IInstallationService.RegisterAsync(System.String)">
-  RegisterAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IInstallationService.cs/#L43"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Registers a new <a class="xref" href="Oqtane.Models.User.html">User</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task RegisterAsync(string email)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>email</code> <span class="xref">string</span></dt>
-    <dd><p>Email of the user to be registered</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Task</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="Oqtane_Services_IInstallationService_RestartAsync_" data-uid="Oqtane.Services.IInstallationService.RestartAsync*"></a>
 
   <h3 id="Oqtane_Services_IInstallationService_RestartAsync" data-uid="Oqtane.Services.IInstallationService.RestartAsync">
   RestartAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IInstallationService.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IInstallationService.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Restarts the installation</p>
@@ -265,9 +227,9 @@ Interface IInstallationService  <a class="header-action link-secondary" title="V
 
   <a id="Oqtane_Services_IInstallationService_Upgrade_" data-uid="Oqtane.Services.IInstallationService.Upgrade*"></a>
 
-  <h3 id="Oqtane_Services_IInstallationService_Upgrade" data-uid="Oqtane.Services.IInstallationService.Upgrade">
-  Upgrade()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IInstallationService.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Services_IInstallationService_Upgrade_System_Boolean_" data-uid="Oqtane.Services.IInstallationService.Upgrade(System.Boolean)">
+  Upgrade(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IInstallationService.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Starts the upgrade process</p>
@@ -275,9 +237,15 @@ Interface IInstallationService  <a class="header-action link-secondary" title="V
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Installation&gt; Upgrade()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;Installation&gt; Upgrade(bool backup)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>backup</code> <span class="xref">bool</span></dt>
+    <dd><p>indicates if files should be backed up during upgrade</p>
+</dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">

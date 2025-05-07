@@ -135,16 +135,16 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <a id="Oqtane_Repository_SiteRepository__ctor_" data-uid="Oqtane.Repository.SiteRepository.#ctor*"></a>
 
-  <h3 id="Oqtane_Repository_SiteRepository__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Oqtane_Repository_TenantDBContext__Oqtane_Repository_IRoleRepository_Oqtane_Repository_IProfileRepository_Oqtane_Repository_IFolderRepository_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_IModuleDefinitionRepository_Oqtane_Repository_IThemeRepository_System_IServiceProvider_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Infrastructure_IServerStateManager_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Repository.SiteRepository.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Oqtane.Repository.TenantDBContext},Oqtane.Repository.IRoleRepository,Oqtane.Repository.IProfileRepository,Oqtane.Repository.IFolderRepository,Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.IThemeRepository,System.IServiceProvider,Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IServerStateManager,Oqtane.Infrastructure.ILogManager)">
-  SiteRepository(IDbContextFactory&lt;TenantDBContext&gt;, IRoleRepository, IProfileRepository, IFolderRepository, IPageRepository, IModuleRepository, IPageModuleRepository, IModuleDefinitionRepository, IThemeRepository, IServiceProvider, IConfigurationRoot, IServerStateManager, ILogManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Repository_SiteRepository__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_Oqtane_Repository_TenantDBContext__Oqtane_Repository_IRoleRepository_Oqtane_Repository_IProfileRepository_Oqtane_Repository_IFolderRepository_Oqtane_Repository_IPageRepository_Oqtane_Repository_IModuleRepository_Oqtane_Repository_IPageModuleRepository_Oqtane_Repository_IModuleDefinitionRepository_Oqtane_Repository_IThemeRepository_Oqtane_Repository_ISettingRepository_System_IServiceProvider_Microsoft_Extensions_Configuration_IConfigurationRoot_Oqtane_Infrastructure_IServerStateManager_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Repository.SiteRepository.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{Oqtane.Repository.TenantDBContext},Oqtane.Repository.IRoleRepository,Oqtane.Repository.IProfileRepository,Oqtane.Repository.IFolderRepository,Oqtane.Repository.IPageRepository,Oqtane.Repository.IModuleRepository,Oqtane.Repository.IPageModuleRepository,Oqtane.Repository.IModuleDefinitionRepository,Oqtane.Repository.IThemeRepository,Oqtane.Repository.ISettingRepository,System.IServiceProvider,Microsoft.Extensions.Configuration.IConfigurationRoot,Oqtane.Infrastructure.IServerStateManager,Oqtane.Infrastructure.ILogManager)">
+  SiteRepository(IDbContextFactory&lt;TenantDBContext&gt;, IRoleRepository, IProfileRepository, IFolderRepository, IPageRepository, IModuleRepository, IPageModuleRepository, IModuleDefinitionRepository, IThemeRepository, ISettingRepository, IServiceProvider, IConfigurationRoot, IServerStateManager, ILogManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SiteRepository(IDbContextFactory&lt;TenantDBContext&gt; factory, IRoleRepository roleRepository, IProfileRepository profileRepository, IFolderRepository folderRepository, IPageRepository pageRepository, IModuleRepository moduleRepository, IPageModuleRepository pageModuleRepository, IModuleDefinitionRepository moduleDefinitionRepository, IThemeRepository themeRepository, IServiceProvider serviceProvider, IConfigurationRoot config, IServerStateManager serverState, ILogManager logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public SiteRepository(IDbContextFactory&lt;TenantDBContext&gt; factory, IRoleRepository roleRepository, IProfileRepository profileRepository, IFolderRepository folderRepository, IPageRepository pageRepository, IModuleRepository moduleRepository, IPageModuleRepository pageModuleRepository, IModuleDefinitionRepository moduleDefinitionRepository, IThemeRepository themeRepository, ISettingRepository settingRepository, IServiceProvider serviceProvider, IConfigurationRoot config, IServerStateManager serverState, ILogManager logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -166,6 +166,8 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
     <dt><code>moduleDefinitionRepository</code> <a class="xref" href="Oqtane.Repository.IModuleDefinitionRepository.html">IModuleDefinitionRepository</a></dt>
     <dd></dd>
     <dt><code>themeRepository</code> <a class="xref" href="Oqtane.Repository.IThemeRepository.html">IThemeRepository</a></dt>
+    <dd></dd>
+    <dt><code>settingRepository</code> <a class="xref" href="Oqtane.Repository.ISettingRepository.html">ISettingRepository</a></dt>
     <dd></dd>
     <dt><code>serviceProvider</code> <span class="xref">IServiceProvider</span></dt>
     <dd></dd>
@@ -196,7 +198,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_AddSite_Oqtane_Models_Site_" data-uid="Oqtane.Repository.SiteRepository.AddSite(Oqtane.Models.Site)">
   AddSite(Site)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -232,7 +234,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_CreatePages_Oqtane_Models_Site_System_Collections_Generic_List_Oqtane_Models_PageTemplate__Oqtane_Models_Alias_" data-uid="Oqtane.Repository.SiteRepository.CreatePages(Oqtane.Models.Site,System.Collections.Generic.List{Oqtane.Models.PageTemplate},Oqtane.Models.Alias)">
   CreatePages(Site, List&lt;PageTemplate&gt;, Alias)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L319"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -267,7 +269,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_DeleteSite_System_Int32_" data-uid="Oqtane.Repository.SiteRepository.DeleteSite(System.Int32)">
   DeleteSite(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -298,7 +300,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_GetSite_System_Int32_" data-uid="Oqtane.Repository.SiteRepository.GetSite(System.Int32)">
   GetSite(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -334,7 +336,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_GetSite_System_Int32_System_Boolean_" data-uid="Oqtane.Repository.SiteRepository.GetSite(System.Int32,System.Boolean)">
   GetSite(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -372,7 +374,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_GetSites" data-uid="Oqtane.Repository.SiteRepository.GetSites">
   GetSites()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -403,7 +405,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_InitializeSite_Oqtane_Models_Alias_" data-uid="Oqtane.Repository.SiteRepository.InitializeSite(Oqtane.Models.Alias)">
   InitializeSite(Alias)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -434,7 +436,7 @@ Class SiteRepository  <a class="header-action link-secondary" title="View source
 
   <h3 id="Oqtane_Repository_SiteRepository_UpdateSite_Oqtane_Models_Site_" data-uid="Oqtane.Repository.SiteRepository.UpdateSite(Oqtane.Models.Site)">
   UpdateSite(Site)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/SiteRepository.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

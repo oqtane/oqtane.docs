@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Pages_LoginModel" data-uid="Oqtane.Pages.LoginModel" class="text-break">
-Class LoginModel  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class LoginModel  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -131,16 +131,16 @@ public class LoginModel : PageModel</code></pre>
 
   <a id="Oqtane_Pages_LoginModel__ctor_" data-uid="Oqtane.Pages.LoginModel.#ctor*"></a>
 
-  <h3 id="Oqtane_Pages_LoginModel__ctor_Microsoft_AspNetCore_Identity_UserManager_Microsoft_AspNetCore_Identity_IdentityUser__Microsoft_AspNetCore_Identity_SignInManager_Microsoft_AspNetCore_Identity_IdentityUser__Oqtane_Managers_IUserManager_" data-uid="Oqtane.Pages.LoginModel.#ctor(Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Oqtane.Managers.IUserManager)">
-  LoginModel(UserManager&lt;IdentityUser&gt;, SignInManager&lt;IdentityUser&gt;, IUserManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Pages_LoginModel__ctor_Microsoft_AspNetCore_Identity_UserManager_Microsoft_AspNetCore_Identity_IdentityUser__Microsoft_AspNetCore_Identity_SignInManager_Microsoft_AspNetCore_Identity_IdentityUser__Oqtane_Managers_IUserManager_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Pages.LoginModel.#ctor(Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Oqtane.Managers.IUserManager,Oqtane.Infrastructure.ILogManager)">
+  LoginModel(UserManager&lt;IdentityUser&gt;, SignInManager&lt;IdentityUser&gt;, IUserManager, ILogManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LoginModel(UserManager&lt;IdentityUser&gt; identityUserManager, SignInManager&lt;IdentityUser&gt; identitySignInManager, IUserManager userManager)</code></pre>
+    <pre><code class="lang-csharp hljs">public LoginModel(UserManager&lt;IdentityUser&gt; identityUserManager, SignInManager&lt;IdentityUser&gt; identitySignInManager, IUserManager userManager, ILogManager logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -150,6 +150,8 @@ public class LoginModel : PageModel</code></pre>
     <dt><code>identitySignInManager</code> <span class="xref">SignInManager</span>&lt;<span class="xref">IdentityUser</span>&gt;</dt>
     <dd></dd>
     <dt><code>userManager</code> <a class="xref" href="Oqtane.Managers.IUserManager.html">IUserManager</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="Oqtane.Infrastructure.ILogManager.html">ILogManager</a></dt>
     <dd></dd>
   </dl>
 
@@ -172,7 +174,7 @@ public class LoginModel : PageModel</code></pre>
 
   <h3 id="Oqtane_Pages_LoginModel_OnPostAsync_System_String_System_String_System_Boolean_System_String_" data-uid="Oqtane.Pages.LoginModel.OnPostAsync(System.String,System.String,System.Boolean,System.String)">
   OnPostAsync(string, string, bool, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -214,7 +216,7 @@ public class LoginModel : PageModel</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Login.cshtml.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class StringWriterWithEncoding | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class ImpersonateModel | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class StringWriterWithEncoding | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class ImpersonateModel | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../assets/favicon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Pages_StringWriterWithEncoding.md&amp;value=---%0Auid%3A%20Oqtane.Pages.StringWriterWithEncoding%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Pages_ImpersonateModel.md&amp;value=---%0Auid%3A%20Oqtane.Pages.ImpersonateModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Oqtane.Pages.StringWriterWithEncoding">
+        <article data-uid="Oqtane.Pages.ImpersonateModel">
 
 
 
-  <h1 id="Oqtane_Pages_StringWriterWithEncoding" data-uid="Oqtane.Pages.StringWriterWithEncoding" class="text-break">
-Class StringWriterWithEncoding  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Oqtane_Pages_ImpersonateModel" data-uid="Oqtane.Pages.ImpersonateModel" class="text-break">
+Class ImpersonateModel  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Impersonate.cshtml.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StringWriterWithEncoding : StringWriter</code></pre>
+    <pre><code class="lang-csharp hljs">public class ImpersonateModel : PageModel</code></pre>
   </div>
 
 
@@ -111,10 +111,8 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
-      <div><span class="xref">MarshalByRefObject</span></div>
-      <div><span class="xref">TextWriter</span></div>
-      <div><span class="xref">StringWriter</span></div>
-      <div><span class="xref">StringWriterWithEncoding</span></div>
+      <div><span class="xref">PageModel</span></div>
+      <div><span class="xref">ImpersonateModel</span></div>
     </dd>
   </dl>
 
@@ -130,25 +128,29 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
 </h2>
 
 
-  <a id="Oqtane_Pages_StringWriterWithEncoding__ctor_" data-uid="Oqtane.Pages.StringWriterWithEncoding.#ctor*"></a>
+  <a id="Oqtane_Pages_ImpersonateModel__ctor_" data-uid="Oqtane.Pages.ImpersonateModel.#ctor*"></a>
 
-  <h3 id="Oqtane_Pages_StringWriterWithEncoding__ctor_System_Text_StringBuilder_System_Text_Encoding_" data-uid="Oqtane.Pages.StringWriterWithEncoding.#ctor(System.Text.StringBuilder,System.Text.Encoding)">
-  StringWriterWithEncoding(StringBuilder, Encoding)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Pages_ImpersonateModel__ctor_Microsoft_AspNetCore_Identity_UserManager_Microsoft_AspNetCore_Identity_IdentityUser__Microsoft_AspNetCore_Identity_SignInManager_Microsoft_AspNetCore_Identity_IdentityUser__Oqtane_Managers_IUserManager_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Pages.ImpersonateModel.#ctor(Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Oqtane.Managers.IUserManager,Oqtane.Infrastructure.ILogManager)">
+  ImpersonateModel(UserManager&lt;IdentityUser&gt;, SignInManager&lt;IdentityUser&gt;, IUserManager, ILogManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Impersonate.cshtml.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StringWriterWithEncoding(StringBuilder builder, Encoding encoding)</code></pre>
+    <pre><code class="lang-csharp hljs">public ImpersonateModel(UserManager&lt;IdentityUser&gt; identityUserManager, SignInManager&lt;IdentityUser&gt; identitySignInManager, IUserManager userManager, ILogManager logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>builder</code> <span class="xref">StringBuilder</span></dt>
+    <dt><code>identityUserManager</code> <span class="xref">UserManager</span>&lt;<span class="xref">IdentityUser</span>&gt;</dt>
     <dd></dd>
-    <dt><code>encoding</code> <span class="xref">Encoding</span></dt>
+    <dt><code>identitySignInManager</code> <span class="xref">SignInManager</span>&lt;<span class="xref">IdentityUser</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>userManager</code> <a class="xref" href="Oqtane.Managers.IUserManager.html">IUserManager</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="Oqtane.Infrastructure.ILogManager.html">ILogManager</a></dt>
     <dd></dd>
   </dl>
 
@@ -163,35 +165,40 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Oqtane_Pages_StringWriterWithEncoding_Encoding_" data-uid="Oqtane.Pages.StringWriterWithEncoding.Encoding*"></a>
+  <a id="Oqtane_Pages_ImpersonateModel_OnPostAsync_" data-uid="Oqtane.Pages.ImpersonateModel.OnPostAsync*"></a>
 
-  <h3 id="Oqtane_Pages_StringWriterWithEncoding_Encoding" data-uid="Oqtane.Pages.StringWriterWithEncoding.Encoding">
-  Encoding
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Pages_ImpersonateModel_OnPostAsync_System_String_System_String_" data-uid="Oqtane.Pages.ImpersonateModel.OnPostAsync(System.String,System.String)">
+  OnPostAsync(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Impersonate.cshtml.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the <span class="xref">System.Text.Encoding</span> in which the output is written.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Encoding Encoding { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IActionResult&gt; OnPostAsync(string username, string returnurl)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><span class="xref">Encoding</span></dt>
-    <dd><p>The <code>Encoding</code> in which the output is written.</p>
-</dd>
+    <dt><code>username</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>returnurl</code> <span class="xref">string</span></dt>
+    <dd></dd>
   </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">IActionResult</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 
@@ -204,7 +211,7 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L132" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Impersonate.cshtml.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Models_Resource" data-uid="Oqtane.Models.Resource" class="text-break">
-Class Resource  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class Resource  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -117,6 +117,13 @@ Class Resource  <a class="header-action link-secondary" title="View source" href
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Oqtane.Models.Script.html">Script</a></div>
+      <div><a class="xref" href="Oqtane.Models.Stylesheet.html">Stylesheet</a></div>
+    </dd>
+  </dl>
 
 
 
@@ -132,10 +139,10 @@ Class Resource  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Oqtane_Models_Resource_Bundle" data-uid="Oqtane.Models.Resource.Bundle">
   Bundle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>For Scripts a Bundle can be used to identify dependencies and ordering in the script loading process</p>
+  <div class="markdown level1 summary"><p>For Scripts a Bundle can be used to identify dependencies and ordering in the script loading process (for Interactive rendering only)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -164,10 +171,10 @@ Class Resource  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Oqtane_Models_Resource_Content" data-uid="Oqtane.Models.Resource.Content">
   Content
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows specification of inline script - not applicable to Stylesheets</p>
+  <div class="markdown level1 summary"><p>For Scripts this allows for the specification of inline script - not applicable to Stylesheets</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -196,7 +203,7 @@ Class Resource  <a class="header-action link-secondary" title="View source" href
 
   <h3 id="Oqtane_Models_Resource_CrossOrigin" data-uid="Oqtane.Models.Resource.CrossOrigin">
   CrossOrigin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Cross-Origin rules for this Resources. Usually <code>anonymous</code></p>
@@ -224,11 +231,43 @@ Class Resource  <a class="header-action link-secondary" title="View source" href
 
 
 
+  <a id="Oqtane_Models_Resource_DataAttributes_" data-uid="Oqtane.Models.Resource.DataAttributes*"></a>
+
+  <h3 id="Oqtane_Models_Resource_DataAttributes" data-uid="Oqtane.Models.Resource.DataAttributes">
+  DataAttributes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cusotm data-* attributes for scripts - not applicable to Stylesheets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; DataAttributes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Dictionary</span>&lt;<span class="xref">string</span>, <span class="xref">string</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Models_Resource_Declaration_" data-uid="Oqtane.Models.Resource.Declaration*"></a>
 
   <h3 id="Oqtane_Models_Resource_Declaration" data-uid="Oqtane.Models.Resource.Declaration">
   Declaration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -260,15 +299,15 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_ES6Module" data-uid="Oqtane.Models.Resource.ES6Module">
   ES6Module
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>For Scripts this allows type=&quot;module&quot; registrations - not applicable to Stylesheets</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ES6Module { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;ES6Module is deprecated. Use Type property instead for scripts.&quot;, false)]
+public bool ES6Module { get; set; }</code></pre>
   </div>
 
 
@@ -288,11 +327,43 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
 
 
+  <a id="Oqtane_Models_Resource_Fingerprint_" data-uid="Oqtane.Models.Resource.Fingerprint*"></a>
+
+  <h3 id="Oqtane_Models_Resource_Fingerprint" data-uid="Oqtane.Models.Resource.Fingerprint">
+  Fingerprint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Unique identifier of the version of the theme or module that declared the resource - for cache busting - only used in SiteRouter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Fingerprint { set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Models_Resource_Integrity_" data-uid="Oqtane.Models.Resource.Integrity*"></a>
 
   <h3 id="Oqtane_Models_Resource_Integrity" data-uid="Oqtane.Models.Resource.Integrity">
   Integrity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Integrity checks to increase the security of resources accessed. Especially common in CDN resources.</p>
@@ -324,7 +395,7 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_Level" data-uid="Oqtane.Models.Resource.Level">
   Level
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>For Stylesheets this defines the relative position for cascading purposes</p>
@@ -352,11 +423,43 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
 
 
+  <a id="Oqtane_Models_Resource_LoadBehavior_" data-uid="Oqtane.Models.Resource.LoadBehavior*"></a>
+
+  <h3 id="Oqtane_Models_Resource_LoadBehavior" data-uid="Oqtane.Models.Resource.LoadBehavior">
+  LoadBehavior
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies how a script should be loaded in Static rendering - not applicable to Stylesheets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ResourceLoadBehavior LoadBehavior { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Oqtane.Shared.ResourceLoadBehavior.html">ResourceLoadBehavior</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Models_Resource_Location_" data-uid="Oqtane.Models.Resource.Location*"></a>
 
   <h3 id="Oqtane_Models_Resource_Location" data-uid="Oqtane.Models.Resource.Location">
   Location
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>For Scripts this defines if the resource should be included in the Head or Body</p>
@@ -388,7 +491,7 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_Namespace" data-uid="Oqtane.Models.Resource.Namespace">
   Namespace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The namespace of the component that declared the resource - only used in SiteRouter</p>
@@ -420,15 +523,15 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_Reload" data-uid="Oqtane.Models.Resource.Reload">
   Reload
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Indicates that a script should be reloaded on every page transition - not applicable to Stylesheets</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Reload { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Reload is deprecated. Use LoadBehavior property instead for scripts.&quot;, false)]
+public bool Reload { get; set; }</code></pre>
   </div>
 
 
@@ -452,7 +555,7 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_RenderMode" data-uid="Oqtane.Models.Resource.RenderMode">
   RenderMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>For Scripts this defines the render mode (default is all render modes) - not applicable to Stylesheets</p>
@@ -484,10 +587,10 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Resource_ResourceType" data-uid="Oqtane.Models.Resource.ResourceType">
   ResourceType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>A <a class="xref" href="Oqtane.Models.Resource.html#Oqtane_Models_Resource_ResourceType">ResourceType</a> so the Interop can properly create <code>script</code> or <code>link</code> tags</p>
+  <div class="markdown level1 summary"><p>A <a class="xref" href="Oqtane.Models.Resource.html#Oqtane_Models_Resource_ResourceType">ResourceType</a> to define the type of resource ie. Script or Stylesheet</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -512,11 +615,43 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
 
 
+  <a id="Oqtane_Models_Resource_Type_" data-uid="Oqtane.Models.Resource.Type*"></a>
+
+  <h3 id="Oqtane_Models_Resource_Type" data-uid="Oqtane.Models.Resource.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>For Scripts this allows type to be specified - not applicable to Stylesheets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Models_Resource_Url_" data-uid="Oqtane.Models.Resource.Url*"></a>
 
   <h3 id="Oqtane_Models_Resource_Url" data-uid="Oqtane.Models.Resource.Url">
   Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Path to the resource (note that querytring parameters can be included for cache busting ie. ?v=#)</p>
@@ -550,16 +685,16 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 
   <a id="Oqtane_Models_Resource_Clone_" data-uid="Oqtane.Models.Resource.Clone*"></a>
 
-  <h3 id="Oqtane_Models_Resource_Clone_Oqtane_Shared_ResourceLevel_System_String_" data-uid="Oqtane.Models.Resource.Clone(Oqtane.Shared.ResourceLevel,System.String)">
-  Clone(ResourceLevel, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Models_Resource_Clone_Oqtane_Shared_ResourceLevel_System_String_System_String_" data-uid="Oqtane.Models.Resource.Clone(Oqtane.Shared.ResourceLevel,System.String,System.String)">
+  Clone(ResourceLevel, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Resource Clone(ResourceLevel level, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public Resource Clone(ResourceLevel level, string name, string fingerprint)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -567,6 +702,8 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
     <dt><code>level</code> <a class="xref" href="Oqtane.Shared.ResourceLevel.html">ResourceLevel</a></dt>
     <dd></dd>
     <dt><code>name</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>fingerprint</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
@@ -590,7 +727,7 @@ public ResourceDeclaration Declaration { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Resource.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

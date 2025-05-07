@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class StringWriterWithEncoding | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Class EndpointController | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class StringWriterWithEncoding | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Class EndpointController | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../assets/favicon.png">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Pages_StringWriterWithEncoding.md&amp;value=---%0Auid%3A%20Oqtane.Pages.StringWriterWithEncoding%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/2sic-forks/oqtane.framework/new/master/apiSpec/new?filename=Oqtane_Controllers_EndpointController.md&amp;value=---%0Auid%3A%20Oqtane.Controllers.EndpointController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,16 +84,16 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Oqtane.Pages.StringWriterWithEncoding">
+        <article data-uid="Oqtane.Controllers.EndpointController">
 
 
 
-  <h1 id="Oqtane_Pages_StringWriterWithEncoding" data-uid="Oqtane.Pages.StringWriterWithEncoding" class="text-break">
-Class StringWriterWithEncoding  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Oqtane_Controllers_EndpointController" data-uid="Oqtane.Controllers.EndpointController" class="text-break">
+Class EndpointController  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/EndpointController.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Pages.html">Pages</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Oqtane.html">Oqtane</a>.<a class="xref" href="Oqtane.Controllers.html">Controllers</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Oqtane.Server.dll</dd></dl>
   </div>
 
@@ -101,7 +101,8 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StringWriterWithEncoding : StringWriter</code></pre>
+    <pre><code class="lang-csharp hljs">[Route(&quot;api/[controller]&quot;)]
+public class EndpointController : Controller</code></pre>
   </div>
 
 
@@ -111,10 +112,9 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
     <dt>Inheritance</dt>
     <dd>
       <div><span class="xref">object</span></div>
-      <div><span class="xref">MarshalByRefObject</span></div>
-      <div><span class="xref">TextWriter</span></div>
-      <div><span class="xref">StringWriter</span></div>
-      <div><span class="xref">StringWriterWithEncoding</span></div>
+      <div><span class="xref">ControllerBase</span></div>
+      <div><span class="xref">Controller</span></div>
+      <div><span class="xref">EndpointController</span></div>
     </dd>
   </dl>
 
@@ -130,25 +130,23 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
 </h2>
 
 
-  <a id="Oqtane_Pages_StringWriterWithEncoding__ctor_" data-uid="Oqtane.Pages.StringWriterWithEncoding.#ctor*"></a>
+  <a id="Oqtane_Controllers_EndpointController__ctor_" data-uid="Oqtane.Controllers.EndpointController.#ctor*"></a>
 
-  <h3 id="Oqtane_Pages_StringWriterWithEncoding__ctor_System_Text_StringBuilder_System_Text_Encoding_" data-uid="Oqtane.Pages.StringWriterWithEncoding.#ctor(System.Text.StringBuilder,System.Text.Encoding)">
-  StringWriterWithEncoding(StringBuilder, Encoding)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_EndpointController__ctor_System_Collections_Generic_IEnumerable_Microsoft_AspNetCore_Routing_EndpointDataSource__" data-uid="Oqtane.Controllers.EndpointController.#ctor(System.Collections.Generic.IEnumerable{Microsoft.AspNetCore.Routing.EndpointDataSource})">
+  EndpointController(IEnumerable&lt;EndpointDataSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/EndpointController.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StringWriterWithEncoding(StringBuilder builder, Encoding encoding)</code></pre>
+    <pre><code class="lang-csharp hljs">public EndpointController(IEnumerable&lt;EndpointDataSource&gt; endpointSources)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>builder</code> <span class="xref">StringBuilder</span></dt>
-    <dd></dd>
-    <dt><code>encoding</code> <span class="xref">Encoding</span></dt>
+    <dt><code>endpointSources</code> <span class="xref">IEnumerable</span>&lt;<span class="xref">EndpointDataSource</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -163,35 +161,35 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
 
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="Oqtane_Pages_StringWriterWithEncoding_Encoding_" data-uid="Oqtane.Pages.StringWriterWithEncoding.Encoding*"></a>
+  <a id="Oqtane_Controllers_EndpointController_Get_" data-uid="Oqtane.Controllers.EndpointController.Get*"></a>
 
-  <h3 id="Oqtane_Pages_StringWriterWithEncoding_Encoding" data-uid="Oqtane.Pages.StringWriterWithEncoding.Encoding">
-  Encoding
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_EndpointController_Get" data-uid="Oqtane.Controllers.EndpointController.Get">
+  Get()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/EndpointController.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the <span class="xref">System.Text.Encoding</span> in which the output is written.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Encoding Encoding { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[Authorize(Roles = &quot;Host Users&quot;)]
+public ActionResult Get()</code></pre>
   </div>
 
 
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">Encoding</span></dt>
-    <dd><p>The <code>Encoding</code> in which the output is written.</p>
-</dd>
+    <dt><span class="xref">ActionResult</span></dt>
+    <dd></dd>
   </dl>
+
+
+
 
 
 
@@ -204,7 +202,7 @@ Class StringWriterWithEncoding  <a class="header-action link-secondary" title="V
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Pages/Sitemap.cshtml.cs/#L132" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/EndpointController.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -158,6 +158,38 @@ Class Folder  <a class="header-action link-secondary" title="View source" href="
 </h2>
 
 
+  <a id="Oqtane_Models_Folder_CacheControl_" data-uid="Oqtane.Models.Folder.CacheControl*"></a>
+
+  <h3 id="Oqtane_Models_Folder_CacheControl" data-uid="Oqtane.Models.Folder.CacheControl">
+  CacheControl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>An HTTP Caching Cache-Control directive</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CacheControl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Models_Folder_Capacity_" data-uid="Oqtane.Models.Folder.Capacity*"></a>
 
   <h3 id="Oqtane_Models_Folder_Capacity" data-uid="Oqtane.Models.Folder.Capacity">
@@ -226,7 +258,7 @@ Class Folder  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="Oqtane_Models_Folder_HasChildren" data-uid="Oqtane.Models.Folder.HasChildren">
   HasChildren
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Information if this folder has sub-items like more <a class="xref" href="Oqtane.Models.Folder.html">Folder</a> or <a class="xref" href="Oqtane.Models.File.html">File</a> objects</p>
@@ -291,10 +323,12 @@ public bool HasChildren { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Folder_IsDeleted" data-uid="Oqtane.Models.Folder.IsDeleted">
   IsDeleted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Deprecated - not used</p>
+  <div class="markdown level1 summary"><p>Deprecated
+Note that this property still exists in the database because columns cannot be dropped in SQLite
+Therefore the property must be retained/mapped even though the framework no longer uses it</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -355,7 +389,7 @@ public bool HasChildren { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Folder_Level" data-uid="Oqtane.Models.Folder.Level">
   Level
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Folder Depth
@@ -518,7 +552,7 @@ TODO: document from where the path starts</p>
 
   <h3 id="Oqtane_Models_Folder_PermissionList" data-uid="Oqtane.Models.Folder.PermissionList">
   PermissionList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>TODO: todoc what would this contain?</p>
@@ -551,7 +585,7 @@ public List&lt;Permission&gt; PermissionList { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Folder_Permissions" data-uid="Oqtane.Models.Folder.Permissions">
   Permissions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Folder.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

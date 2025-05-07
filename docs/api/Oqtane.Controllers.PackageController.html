@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Controllers_PackageController" data-uid="Oqtane.Controllers.PackageController" class="text-break">
-Class PackageController  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L19"><i class="bi bi-code-slash"></i></a>
+Class PackageController  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -132,21 +132,23 @@ public class PackageController : Controller</code></pre>
 
   <a id="Oqtane_Controllers_PackageController__ctor_" data-uid="Oqtane.Controllers.PackageController.#ctor*"></a>
 
-  <h3 id="Oqtane_Controllers_PackageController__ctor_Oqtane_Infrastructure_IInstallationManager_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.PackageController.#ctor(Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.IConfigManager,Oqtane.Infrastructure.ILogManager)">
-  PackageController(IInstallationManager, IWebHostEnvironment, IConfigManager, ILogManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_PackageController__ctor_Oqtane_Infrastructure_IInstallationManager_Oqtane_Managers_IUserManager_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_IConfigManager_Oqtane_Infrastructure_ILogManager_" data-uid="Oqtane.Controllers.PackageController.#ctor(Oqtane.Infrastructure.IInstallationManager,Oqtane.Managers.IUserManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.IConfigManager,Oqtane.Infrastructure.ILogManager)">
+  PackageController(IInstallationManager, IUserManager, IWebHostEnvironment, IConfigManager, ILogManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PackageController(IInstallationManager installationManager, IWebHostEnvironment environment, IConfigManager configManager, ILogManager logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public PackageController(IInstallationManager installationManager, IUserManager userManager, IWebHostEnvironment environment, IConfigManager configManager, ILogManager logger)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>installationManager</code> <a class="xref" href="Oqtane.Infrastructure.IInstallationManager.html">IInstallationManager</a></dt>
+    <dd></dd>
+    <dt><code>userManager</code> <a class="xref" href="Oqtane.Managers.IUserManager.html">IUserManager</a></dt>
     <dd></dd>
     <dt><code>environment</code> <span class="xref">IWebHostEnvironment</span></dt>
     <dd></dd>
@@ -175,7 +177,7 @@ public class PackageController : Controller</code></pre>
 
   <h3 id="Oqtane_Controllers_PackageController_Get_System_String_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.PackageController.Get(System.String,System.String,System.String,System.String,System.String)">
   Get(string, string, string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -220,7 +222,7 @@ public Task&lt;IEnumerable&lt;Package&gt;&gt; Get(string type, string search, st
 
   <h3 id="Oqtane_Controllers_PackageController_GetPackageUpdates_System_String_" data-uid="Oqtane.Controllers.PackageController.GetPackageUpdates(System.String)">
   GetPackageUpdates(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -257,7 +259,7 @@ public Task&lt;IEnumerable&lt;Package&gt;&gt; GetPackageUpdates(string type)</co
 
   <h3 id="Oqtane_Controllers_PackageController_InstallPackages" data-uid="Oqtane.Controllers.PackageController.InstallPackages">
   InstallPackages()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -285,7 +287,7 @@ public void InstallPackages()</code></pre>
 
   <h3 id="Oqtane_Controllers_PackageController_Post_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Controllers.PackageController.Post(System.String,System.String,System.String,System.String)">
   Post(string, string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -329,7 +331,7 @@ public Task&lt;Package&gt; Post(string packageid, string version, string downloa
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L19" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/PackageController.cs/#L21" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -167,39 +167,6 @@ public class JobLogController : Controller</code></pre>
 
   <a id="Oqtane_Controllers_JobLogController_Get_" data-uid="Oqtane.Controllers.JobLogController.Get*"></a>
 
-  <h3 id="Oqtane_Controllers_JobLogController_Get" data-uid="Oqtane.Controllers.JobLogController.Get">
-  Get()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/JobLogController.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpGet]
-[Authorize(Roles = &quot;Host Users&quot;)]
-public IEnumerable&lt;JobLog&gt; Get()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Oqtane_Controllers_JobLogController_Get_" data-uid="Oqtane.Controllers.JobLogController.Get*"></a>
-
   <h3 id="Oqtane_Controllers_JobLogController_Get_System_Int32_" data-uid="Oqtane.Controllers.JobLogController.Get(System.Int32)">
   Get(int)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/JobLogController.cs/#L29"><i class="bi bi-code-slash"></i></a>
@@ -223,6 +190,44 @@ public JobLog Get(int id)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Controllers_JobLogController_Get_" data-uid="Oqtane.Controllers.JobLogController.Get*"></a>
+
+  <h3 id="Oqtane_Controllers_JobLogController_Get_System_String_" data-uid="Oqtane.Controllers.JobLogController.Get(System.String)">
+  Get(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/JobLogController.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[Authorize(Roles = &quot;Host Users&quot;)]
+public IEnumerable&lt;JobLog&gt; Get(string jobid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>jobid</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a>&gt;</dt>
     <dd></dd>
   </dl>
 

@@ -258,7 +258,7 @@ public List&lt;string&gt; List()</code></pre>
 
   <h3 id="Oqtane_Controllers_InstallationController_Load_System_String_" data-uid="Oqtane.Controllers.InstallationController.Load(System.String)">
   Load(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/InstallationController.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/InstallationController.cs/#L179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -328,44 +328,6 @@ public Task&lt;Installation&gt; Post(InstallConfig config)</code></pre>
 
 
 
-  <a id="Oqtane_Controllers_InstallationController_Register_" data-uid="Oqtane.Controllers.InstallationController.Register*"></a>
-
-  <h3 id="Oqtane_Controllers_InstallationController_Register_System_String_" data-uid="Oqtane.Controllers.InstallationController.Register(System.String)">
-  Register(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/InstallationController.cs/#L282"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpPost(&quot;register&quot;)]
-[Authorize(Roles = &quot;Host Users&quot;)]
-public Task Register(string email)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>email</code> <span class="xref">string</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Task</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="Oqtane_Controllers_InstallationController_Restart_" data-uid="Oqtane.Controllers.InstallationController.Restart*"></a>
 
   <h3 id="Oqtane_Controllers_InstallationController_Restart" data-uid="Oqtane.Controllers.InstallationController.Restart">
@@ -396,8 +358,8 @@ public void Restart()</code></pre>
 
   <a id="Oqtane_Controllers_InstallationController_Upgrade_" data-uid="Oqtane.Controllers.InstallationController.Upgrade*"></a>
 
-  <h3 id="Oqtane_Controllers_InstallationController_Upgrade" data-uid="Oqtane.Controllers.InstallationController.Upgrade">
-  Upgrade()
+  <h3 id="Oqtane_Controllers_InstallationController_Upgrade_System_String_" data-uid="Oqtane.Controllers.InstallationController.Upgrade(System.String)">
+  Upgrade(string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/InstallationController.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -407,9 +369,14 @@ public void Restart()</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpGet(&quot;upgrade&quot;)]
 [Authorize(Roles = &quot;Host Users&quot;)]
-public Installation Upgrade()</code></pre>
+public Installation Upgrade(string backup)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>backup</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">

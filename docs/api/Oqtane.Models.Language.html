@@ -252,15 +252,17 @@ TODO: todoc - unclear how this is different from <a class="xref" href="Oqtane.Mo
 
   <h3 id="Oqtane_Models_Language_Name" data-uid="Oqtane.Models.Language.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Language.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Language.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Language Name - corresponds to <a class="xref" href="Oqtane.Models.Culture.html#Oqtane_Models_Culture_DisplayName">DisplayName</a>, <em>not</em> <a class="xref" href="Oqtane.Models.Culture.html#Oqtane_Models_Culture_Name">Name</a>
+Note that this property still exists in the database because columns cannot be dropped in SQLite
+Therefore the property must be retained/mapped even though the framework populates it from the Culture API</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NotMapped]
-public string Name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
 
 
@@ -317,7 +319,7 @@ TODO: todoc - unclear why it's nullable</p>
 
   <h3 id="Oqtane_Models_Language_Version" data-uid="Oqtane.Models.Language.Version">
   Version
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Language.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Language.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -353,7 +355,7 @@ public string Version { get; set; }</code></pre>
 
   <h3 id="Oqtane_Models_Language_Clone" data-uid="Oqtane.Models.Language.Clone">
   Clone()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Language.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Shared/Models/Language.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

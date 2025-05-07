@@ -52,10 +52,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Controllers.CookieConsentController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Controllers.CookieConsentController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Controllers.DatabaseController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.DatabaseController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Controllers.EndpointController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Controllers.EndpointController.html"
         }
       },
       "version": ""
@@ -186,6 +206,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Controllers.NotificationController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Controllers.OutputCacheController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Controllers.OutputCacheController.html"
         }
       },
       "version": ""
@@ -962,6 +992,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Infrastructure.RightToLeftCulture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.RightToLeftCulture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Infrastructure.RightToLeftCultureCalendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.RightToLeftCultureCalendar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Infrastructure.SearchIndexJob.yml",
       "output": {
         ".html": {
@@ -1502,6 +1552,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Models.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.Script.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Models.SearchContent.yml",
       "output": {
         ".html": {
@@ -1616,6 +1676,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Models.SqlQuery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Models.Stylesheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.Stylesheet.html"
         }
       },
       "version": ""
@@ -2086,6 +2156,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Pages.FilesModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Pages.ImpersonateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Pages.ImpersonateModel.html"
         }
       },
       "version": ""
@@ -2952,6 +3032,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Services.ICookieConsentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.ICookieConsentService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Services.IDatabaseService.yml",
       "output": {
         ".html": {
@@ -3086,6 +3176,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Services.INotificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Services.IOutputCacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.IOutputCacheService.html"
         }
       },
       "version": ""
@@ -3516,6 +3616,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Oqtane.Shared.ResourceLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Shared.ResourceLoadBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Shared.ResourceLoadBehavior.html"
         }
       },
       "version": ""

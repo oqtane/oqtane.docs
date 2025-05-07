@@ -125,7 +125,7 @@ Interface IJobLogService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IJobLogService_GetJobLogAsync_System_Int32_" data-uid="Oqtane.Services.IJobLogService.GetJobLogAsync(System.Int32)">
   GetJobLogAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IJobLogService.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IJobLogService.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return a <a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a> entry for the given Id</p>
@@ -160,19 +160,24 @@ Interface IJobLogService  <a class="header-action link-secondary" title="View so
 
   <a id="Oqtane_Services_IJobLogService_GetJobLogsAsync_" data-uid="Oqtane.Services.IJobLogService.GetJobLogsAsync*"></a>
 
-  <h3 id="Oqtane_Services_IJobLogService_GetJobLogsAsync" data-uid="Oqtane.Services.IJobLogService.GetJobLogsAsync">
-  GetJobLogsAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IJobLogService.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Services_IJobLogService_GetJobLogsAsync_System_Int32_" data-uid="Oqtane.Services.IJobLogService.GetJobLogsAsync(System.Int32)">
+  GetJobLogsAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IJobLogService.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Return a list of all <a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a> entries</p>
+  <div class="markdown level1 summary"><p>Return a list of <a class="xref" href="Oqtane.Models.JobLog.html">JobLog</a> entries</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;JobLog&gt;&gt; GetJobLogsAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;JobLog&gt;&gt; GetJobLogsAsync(int jobId)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>jobId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
