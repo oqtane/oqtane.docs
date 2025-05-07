@@ -8,7 +8,9 @@ Oqtane allows you to manage multiple sites within a single instance of the appli
 
 ---
 
-## Accessing the Site Management Feature
+## Control Panel Walkthrough
+
+### Accessing the Site Management Feature
 
 1. **Open the Control Panel**: Click the **control panel icon** to access additional settings.
 

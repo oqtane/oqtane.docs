@@ -2,11 +2,9 @@
 
 ![Visitor Management Feature](assets/visitor-management.png)
 
-The Visitor Management feature in the Oqtane admin dashboard allows administrators to track and manage site visitors effectively. This feature is accessible via the admin dashboard under **Admin > Visitor Management**.
-
 ## Overview
 
-The **Visitor Management** feature provides tools for monitoring and managing visitor data on your site, helping administrators understand user interactions and enhance site performance.
+The **Visitor Management** feature provides tools for monitoring and managing visitor data on your site, helping administrators understand user interactions and enhance site performance. The Visitor Management feature in the Oqtane admin dashboard allows administrators to track and manage site visitors effectively. This feature is accessible via the admin dashboard under **Admin > Visitor Management**.
 
 ---
 

@@ -1,4 +1,6 @@
-# Admin Management Introduction
+# Site Management (Admin)
+
+## Introduction
 
 The Admin Dashboard in Oqtane provides administrators with a powerful suite of tools to manage, customize, and control various aspects of the site. These tools enable efficient management of content, users, site settings, and other features, helping administrators maintain and personalize the site effectively.
 

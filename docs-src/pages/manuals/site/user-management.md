@@ -13,7 +13,7 @@ This guide will walk you through each section, detailing how to utilize the User
 
 ---
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the User Management Feature
 

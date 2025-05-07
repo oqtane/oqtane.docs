@@ -9,7 +9,7 @@ The Recycle Bin is a valuable feature of Oqtane, especially for new users and ad
 
 The Recycle Bin manages two types of objects that can be restored: **Pages** and **Modules**. When you delete a page or a module, it appears in the corresponding list. You can switch between these lists by clicking the tabs at the top of the page.
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the Recycle Bin Feature
 

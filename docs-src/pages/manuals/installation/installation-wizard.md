@@ -1,5 +1,7 @@
 # Installation Wizard
 
+## Overview
+
 The Oqtane Installation Wizard simplifies the setup process, guiding you through essential steps to configure and deploy your Oqtane instance. Follow the instructions in each step to ensure a smooth installation.
 
 ## Getting Started with the Installation Wizard

@@ -11,7 +11,7 @@ uid: Manuals.Site.SiteSettings
 
 The Site Settings feature allows you to perform high-level administrative configurations for your site. This includes basic settings, SMTP configuration, and progressive web app (PWA) settings. Most options are set-it-and-forget-it and should be configured once when building your site.
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the Site Settings Feature
 
