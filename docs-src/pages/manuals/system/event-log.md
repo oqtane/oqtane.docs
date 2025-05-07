@@ -6,7 +6,7 @@
 
 The Event Log provides a centralized record of events occurring on your website, allowing you to monitor site activity and troubleshoot as needed. It is designed to be both simple and effective for viewing and managing events.
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the Event Log Feature
 
