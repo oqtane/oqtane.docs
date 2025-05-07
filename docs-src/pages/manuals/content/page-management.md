@@ -2,9 +2,11 @@
 uid: Manuals.Content.PageManagement
 ---
 
-# Control Panel Page Management
+# Page Management (Control Panel)
 
-The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../site/page-management.md), but is limited to changing the page you are currently managing.
+## Overview
+
+The **Page Management** feature using the [Control Panel](control-panel.md) as shown below allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../site/page-management.md), but is limited to changing the page you are currently managing.
 
 ![Control Panel Page Management](./assets/control-panel-page-management.png)
 
