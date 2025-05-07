@@ -1,6 +1,6 @@
 # File Management
 
-![File Management Icon](./assets/file-management.png)
+![File Management Icon](./assets/admin-dashboard-file-management.png)
 
 ## Overview
 
@@ -14,6 +14,7 @@ Key features include:
 - **File Editing** – Rename files, update descriptions, or move files to different folders.
 - **File Deletion** – Remove unwanted files with confirmation.
 - **Custom Folder Settings** – Set folder type, allowed image sizes, and capacity limits.
+- **Dropdown View Selector** – Choose which folder view to display from a dropdown menu.
 
 ---
 
@@ -39,9 +40,21 @@ Key features include:
 
 The **Add/Edit Folder** modal allows administrators to structure content and configure storage rules.
 
-### Folder Settings Tab
+### Accessing the Add/Edit Folder Feature
 
-![Folder Settings](./assets/file-management-folder-settings.png)
+1. Click the **Add Folder** button to create a new folder.
+
+   ![Add Folder Button](./assets/file-management-add-folder-button.png)
+
+2. To modify an existing folder, click the **Edit Folder** button next to it.
+
+   ![Edit Folder Button](./assets/file-management-edit-folder-button.png)
+
+3. Either option opens the folder configuration modal.
+
+   ![Folder Settings](./assets/file-management-folder-settings.png)
+
+### Folder Settings Tab
 
 - **Parent Folder**: Choose the location within the folder hierarchy.
 - **Folder Name**: Name to be displayed in the file manager.
@@ -58,12 +71,19 @@ Configure access per role or user.
 ![Permissions Tab](./assets/file-management-folder-permissions.png)
 
 - **Role Permissions**: Assign Browse, View, Edit rights.
-- **User Permissions**: Grant access to individual users.
+  ![Role Selection](./assets/file-management-folder-permissions-role.png)
+- **User Permissions**: Add individual user access if needed.
+  ![User Selection](./assets/file-management-folder-permissions-user.png)
 - **Browse Folder**: Toggle folder listing access.
+  ![Browse Folder Permission](./assets/file-management-folder-permissions-browse-folder.png)
 - **View Folder**: Toggle file viewing access.
+  ![View Folder Permission](./assets/file-management-folder-permissions-view-folder.png)
 - **Edit Folder**: Toggle file management rights.
+  ![Edit Folder Permission](./assets/file-management-folder-permissions-edit-folder.png)
 - **Add User**: Search and add users to permission list.
+  ![Add Role Button](./assets/file-management-folder-permissions-add-user.png)
 - **Save**: Apply permission changes.
+  ![Save Button](./assets/file-management-folder-permissions-save.png)
 
 ---
 
@@ -85,7 +105,11 @@ The **Upload Files** tool lets users import content from their local devices int
 
    ![Choose File Button](./assets/file-management-upload-files-choose-file-button.png)
 
-4. Click **Upload** to begin transfer.
+   ![Select File](./assets/file-management-upload-files-choose-file.png)
+
+4. Make sure the file extension is allowed under **Site Settings > Allowed Extensions**.
+
+5. Click **Upload** to begin transfer.
 
    ![Upload Button](./assets/file-management-upload-files-upload-button.png)
 
@@ -98,6 +122,8 @@ Once complete, a notification confirms success.
    ![Success](./assets/file-management-upload-files-success-notification.png)
 
 To close the window, click the **X** icon.
+
+   ![Close Upload](./assets/file-management-upload-files-close-window.png)
 
 ---
 
@@ -138,5 +164,7 @@ Found in **Site Settings**:
    ![File Management Settings Window](./assets/file-management-settings.png)
 
 ---
+
+If you experience an error, please review our troubleshooting guides or start a GitHub issue or discussion to get help.
 
 By following this guide, administrators can fully leverage the File Management capabilities of Oqtane to maintain an organized, secure, and efficient content system.
