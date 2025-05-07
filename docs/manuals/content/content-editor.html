@@ -95,32 +95,132 @@
 <p>When the Content Editor is enabled, borders around each content pane are displayed, indicating the layout of the theme.</p>
 <p><img src="../../pages/manuals/content/assets/content-editor-pane-border.png" alt="Content Pane Border"><br>
 <em>The visible borders help you understand the layout of the page when in edit mode.</em></p>
+<hr>
 <h2 id="pane-header">Pane Header</h2>
 <p>When the Content Editor is activated, the top header of the pane is displayed, showing the name of the pane:</p>
 <p><img src="../../pages/manuals/content/assets/content-editor-pane.png" alt="Pane Header">
 <img src="../../pages/manuals/content/assets/content-editor-pane-name.png" alt="Pane Name Display"></p>
+<hr>
 <h2 id="module-menu-options">Module Menu Options</h2>
 <p>When you click the downward-pointing &quot;caret-bottom&quot; arrow next to a module, you have access to the following options:</p>
 <p><img src="../../pages/manuals/content/assets/content-editor-module-options-caret-bottom-button.png" alt="Unpublish/Publish Module Menu Options Button"></p>
+<hr>
+<h2 id="manage-settings">Manage Settings</h2>
+<p>When you select <strong>Manage Settings</strong> from a module’s caret menu, the following configuration modal appears:</p>
+<p><img src="../../pages/manuals/content/assets/content-editor-manage-settings.png" alt="Manage Settings Modal"></p>
+<p>Within this modal, you can adjust the module’s core properties. Hover over each help icon for additional guidance.</p>
 <ul>
-<li><p><strong>Manage Settings</strong>: Opens the module's settings and permissions, allowing you to change the:</p>
-<ul>
-<li><strong>Title</strong>: The title displayed above the module.</li>
-<li><strong>Container</strong>: Specify whether you want the title to be displayed for the module.</li>
-<li><strong>Display on All Pages</strong>: Choose whether this module should appear on every page of the site.</li>
-<li><strong>Page</strong>: Change the page on which the module is displayed.</li>
-<li><strong>Permissions</strong>: Specify which <a href="../site/role-management.html">roles</a> or individual users can view or edit the module.</li>
+<li><strong>Module</strong> (read‑only): Displays the internal name of the module.
+<em>(Tooltip: “The name of the module”)</em></li>
+<li><strong>Title</strong>: Enter the text displayed above the module.
+<em>(Tooltip: “Enter the title of the module”)</em></li>
+<li><strong>Pane</strong>: Choose the content pane where the module will render (e.g., Default Pane, Top Full Width Pane, Left 50% Pane, etc.).
+<em>(Tooltip: “The pane where the module will be displayed”)</em></li>
+<li><strong>Container</strong>: Select the container wrapper for the module’s styling.
+<em>(Tooltip: “Select the module's container”)</em></li>
+<li><strong>Effective Date</strong>: Set the date when this module becomes active.
+<em>(Tooltip: “The date that this module is active”)</em></li>
+<li><strong>Expiry Date</strong>: Set the date when this module is deactivated.
+<em>(Tooltip: “The date that this module expires”)</em></li>
+<li><strong>Display On All Pages?</strong>: Toggle to show this module on every page.
+<em>(Tooltip: “Indicate if this module should be displayed on all pages”)</em></li>
+<li><strong>Page</strong>: Assign the module to a specific page within the site.
+<em>(Tooltip: “The page that the module is located on”)</em></li>
 </ul>
-</li>
-<li><p><strong>Unpublish Module</strong>: Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.</p>
+<p>Use <strong>Save</strong> to apply your changes or <strong>Cancel</strong> to exit without saving.</p>
+<hr>
+<h3 id="permissions-tab">Permissions Tab</h3>
+<p><img src="../../pages/manuals/content/assets/content-editor-manage-settings-permissions.png" alt="Permissions Tab"></p>
+<p>In the permissions grid, toggle the <strong>View</strong> and <strong>Edit</strong> checkboxes for each role or user:</p>
+<table>
+<thead>
+<tr>
+<th>Role</th>
+<th style="text-align: center;">View</th>
+<th style="text-align: center;">Edit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Administrators</td>
+<td style="text-align: center;">✔</td>
+<td style="text-align: center;">✔</td>
+</tr>
+<tr>
+<td>All Users</td>
+<td style="text-align: center;">✔</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Registered Users</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Unauthenticated Users</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>Use <strong>Save</strong> to apply permission changes or <strong>Cancel</strong> to exit without saving.</p>
+<h3 id="module-settings">Module Settings</h3>
+<p>Select the <strong>Module Settings</strong> tab to access module-specific options:</p>
+<p><img src="../../pages/manuals/content/assets/content-editor-module-settings.png" alt="Module Settings Tab"></p>
+<ul>
+<li><strong>Dynamic Tokens?</strong>: Allow placeholder tokens (e.g., <code>{UserName}</code>) to be dynamically replaced at render time. Enabling this option may impact site performance.<br>
+<em>(Tooltip: &quot;Do you wish to allow tokens to be dynamically replaced? Please note that this will affect the performance of your site.&quot;)</em></li>
+</ul>
+<p>Use <strong>Save</strong> to apply changes or <strong>Cancel</strong> to exit without saving.</p>
+<hr>
+<h3 id="container-settings-tab">Container Settings Tab</h3>
+<p>Select the <strong>Container</strong> tab to customize the module container’s appearance:</p>
+<p><img src="../../pages/manuals/content/assets/content-editor-container-settings.png" alt="Container Settings Tab"></p>
+<ul>
+<li><strong>Display Title?</strong>: Toggle <strong>Yes</strong> or <strong>No</strong> to show or hide the module title above the content.<br>
+<em>(Tooltip: &quot;Specify If The Module Title Should Be Displayed&quot;)</em></li>
+<li><strong>Background Color</strong>: Choose a background CSS class for the container (e.g., <code>bg-primary</code>, <code>bg-secondary</code>, etc.).<br>
+<em>(Tooltip: &quot;Optionally Specify A Background Color For The Container&quot;)</em></li>
+<li><strong>Text Color</strong>: Choose a text color CSS class (e.g., <code>text-success</code>, <code>text-danger</code>, etc.).<br>
+<em>(Tooltip: &quot;Optionally Specify A Text Color For The Container&quot;)</em></li>
+<li><strong>Border Color</strong>: Choose a border CSS class (e.g., <code>border border-primary</code>, <code>border border-light</code>, etc.).<br>
+<em>(Tooltip: &quot;Optionally Specify A Border For The Container&quot;)</em></li>
+</ul>
+<p>Use <strong>Save</strong> to apply changes or <strong>Cancel</strong> to exit without saving.</p>
+<hr>
+<h2 id="unpublish-module">Unpublish Module</h2>
+<p>Hides the module from all users except site administrators, useful for when you want to make edits without public visibility.</p>
 <p><img src="../../pages/manuals/content/assets/content-editor-module-options-unpublish-module.png" alt="Unpublish/Publish Module Option"></p>
-</li>
-<li><p><strong>Delete Module</strong>: Permanently removes the module from the page.</p>
-</li>
-<li><p><strong>Import Content</strong>: Enter a file's address (e.g., an image URL) to import it into the module.</p>
-</li>
-<li><p><strong>Export Content</strong>: Specify a file address to determine where to export data from the module.</p>
-</li>
+<hr>
+<h2 id="delete-module">Delete Module</h2>
+<p>Removes the module from the page and moves it to the <a href="../site/recycle-bin.html#modules-tab">Recycle Bin</a> for possible recovery.</p>
+<hr>
+<h2 id="import-content">Import Content</h2>
+<p>Opens an <strong>Import Content</strong> modal where:</p>
+<p><img src="../../pages/manuals/content/assets/content-editor-import-content.png" alt="Import Content Modal"></p>
+<ul>
+<li><strong>Content</strong>: A required text area to paste or type in the module content you wish to import.<br>
+<em>(Tooltip: “Enter The Module Content To Import”)</em></li>
+<li><strong>Import</strong> button: Click to import the content into the module.</li>
+<li><strong>Cancel</strong> button: Discard changes and close the modal.</li>
+</ul>
+<hr>
+<h2 id="export-content">Export Content</h2>
+<p>Opens an <strong>Export Content</strong> modal where:</p>
+<p><img src="../../pages/manuals/content/assets/content-editor-export-content.png" alt="Export Content Modal"></p>
+<ul>
+<li><strong>Content</strong>: A read-only text area displaying the current module data available for export.<br>
+<em>(Tooltip: “The Exported Module Content”)</em></li>
+<li><strong>Export</strong> button: Click to export the module data to your chosen location.</li>
+<li><strong>Cancel</strong> button: Close the modal without exporting.</li>
+</ul>
+<hr>
+<h2 id="move-modules">Move Modules</h2>
+<p>Use the <strong>Move Modules</strong> actions to reposition modules dynamically within a page. You can move a module up or down in its current pane, place it at the top or bottom, or use <strong>Move to &gt;</strong> to send it to a different pane.</p>
+<blockquote>
+<p><strong>Note:</strong> Use <a href="#manage-settings">Manage Settings</a> to assign modules to other pages or panes.</p>
+</blockquote>
+<ul>
 <li><p><strong>Move to Top</strong>: Moves the module to the top of the page, making it the first displayed module.</p>
 </li>
 <li><p><strong>Move Up</strong>: Moves the module up one position, placing it above the module currently above it.</p>
@@ -129,7 +229,7 @@
 </li>
 <li><p><strong>Move to Bottom</strong>: Moves the module to the bottom of the page, below all other modules.</p>
 </li>
-<li><p><strong>Move Options</strong>: When you select &quot;Move to,&quot; additional options will be available, allowing you to choose a specific pane for the module.</p>
+<li><p><strong>Move Options</strong>: When you select &quot;<strong>Move to &gt;</strong>,&quot; additional options will be available, allowing you to choose a specific pane for the module.</p>
 <p><img src="../../pages/manuals/content/assets/content-editor-module-options-move.png" alt="Move Options"></p>
 </li>
 </ul>

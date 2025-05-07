@@ -6234,6 +6234,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/content/assets/content-editor-container-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/content/assets/content-editor-container-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/content/assets/content-editor-enabled-button.png",
       "output": {
         "resource": {
@@ -6244,10 +6254,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/content/assets/content-editor-export-content.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/content/assets/content-editor-export-content.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/content/assets/content-editor-html-editor-edit-content-button.png",
       "output": {
         "resource": {
           "relative_path": "pages/manuals/content/assets/content-editor-html-editor-edit-content-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/content/assets/content-editor-import-content.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/content/assets/content-editor-import-content.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/content/assets/content-editor-manage-settings-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/content/assets/content-editor-manage-settings-permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/content/assets/content-editor-manage-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/content/assets/content-editor-manage-settings.png"
         }
       },
       "version": ""
@@ -6338,6 +6388,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/content/assets/content-editor-module-options-unpublish-module.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/content/assets/content-editor-module-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/content/assets/content-editor-module-settings.png"
         }
       },
       "version": ""
@@ -7120,6 +7180,46 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings-container-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings-container-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings-module-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings-module-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings-permissions.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings-permissions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/content-editor-module-manage-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "pages/manuals/site/assets/control-panel-admin-dashboard-button.png",
       "output": {
         "resource": {
@@ -7194,6 +7294,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/site/assets/file-management-edit-folder-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/file-management-edit-folder-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/file-management-edit-folder-settings.png"
         }
       },
       "version": ""
@@ -7344,6 +7454,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/site/assets/file-management-select-folder.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/file-management-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/file-management-settings.png"
         }
       },
       "version": ""
@@ -8004,6 +8124,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/site/assets/site-settings-smtp-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/site/assets/site-settings-theme.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/site/assets/site-settings-theme.png"
         }
       },
       "version": ""
@@ -9307,6 +9437,16 @@
       "output": {
         "resource": {
           "relative_path": "pages/manuals/system/assets/system-info-options-access-swagger-api-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/manuals/system/assets/system-info-options-api-endpoints-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "pages/manuals/system/assets/system-info-options-api-endpoints-button.png"
         }
       },
       "version": ""

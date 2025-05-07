@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>System Update | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>System Info | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="System Update | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="System Info | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -85,68 +85,78 @@
         </div>
 
         <article data-uid="">
-<h1 id="system-update">System Update</h1>
+<h1 id="system-info">System Info</h1>
 
-<p><img src="../../pages/manuals/system/assets/system-update.png" alt="System Update"></p>
+<p><img src="../../pages/manuals/system/assets/system-info.png" alt="System Info"></p>
 <h2 id="overview">Overview</h2>
-<p>The <strong>System Update</strong> feature in Oqtane allows administrators to keep the framework up to date, ensuring access to the latest capabilities and features. It also enables you to upload a NuGet package to include specific features or updates that are part of newer versions of Oqtane. This is particularly useful when you are unable to update to the latest Oqtane version but want to incorporate certain features or fixes from that newer release.</p>
-<p>When updating, you can select a NuGet file from your local system, upload it to the framework, and then install it to integrate the package into your current Oqtane installation. This process is helpful for applying partial updates or integrating features without a full framework update.</p>
+<p>The <strong>Info</strong> tab displays critical environment and framework details for your Oqtane installation.</p>
+<ul>
+<li><strong>Framework Version</strong>: The current Oqtane framework version.<br>
+<em>(Tooltip: &quot;Framework Version&quot;)</em></li>
+<li><strong>CLR Version</strong>: The .NET Common Language Runtime version in use.<br>
+<em>(Tooltip: &quot;Common Language Runtime Version&quot;)</em></li>
+<li><strong>OS Version</strong>: The operating system version of the hosting server.<br>
+<em>(Tooltip: &quot;Operating System Version&quot;)</em></li>
+<li><strong>Process</strong>: Indicates if the application is running in a 32-bit or 64-bit process.<br>
+<em>(Tooltip: &quot;Indicates if the current process is 32 bit or 64 bit&quot;)</em></li>
+<li><strong>Machine Name</strong>: The server machine’s host name.<br>
+<em>(Tooltip: &quot;Server Machine Name&quot;)</em></li>
+<li><strong>IP Address</strong>: The server’s network IP address.<br>
+<em>(Tooltip: &quot;Server IP Address&quot;)</em></li>
+<li><strong>Environment</strong>: The ASPNETCORE environment name (e.g., Development, Production).<br>
+<em>(Tooltip: &quot;Environment Name&quot;)</em></li>
+<li><strong>Root Path</strong>: The application’s content root path on disk.<br>
+<em>(Tooltip: &quot;Server Root Path&quot;)</em></li>
+<li><strong>Web Path</strong>: The application’s web root path on disk.<br>
+<em>(Tooltip: &quot;Server Web Root Path&quot;)</em></li>
+<li><strong>Server Date/Time</strong>: Current server UTC date and time.<br>
+<em>(Tooltip: &quot;Server Date/Time (in UTC)&quot;)</em></li>
+<li><strong>Memory Allocation</strong>: Current memory usage of the process (MB).<br>
+<em>(Tooltip: &quot;Memory Allocation Of Service (in MB)&quot;)</em></li>
+<li><strong>Installation ID</strong>: A unique identifier for this Oqtane installation.<br>
+<em>(Tooltip: &quot;The Unique Identifier For Your Installation&quot;)</em></li>
+</ul>
+<p><strong>Restart Application</strong>: Restarts the application domain to apply configuration changes or clear state.<br>
+<img src="../../pages/manuals/system/assets/system-info-restart-application-button.png" alt="Restart Application Button"></p>
 <hr>
-<h2 id="accessing-the-system-update-feature">Accessing the System Update Feature</h2>
-<p>To access the <strong>System Update</strong> feature, follow these steps:</p>
-<ol>
-<li><p><strong>Open the Control Panel</strong>: Click the <strong>Control Panel</strong> icon to access additional settings.</p>
-<p><img src="../../pages/manuals/system/assets/control-panel-button.png" alt="Control Panel Icon"></p>
-</li>
-<li><p><strong>Navigate to Admin Dashboard</strong>: In the Control Panel, click the button to open the <strong>Admin Dashboard</strong>.</p>
-<p><img src="../../pages/manuals/system/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
-</li>
-<li><p><strong>Select System Update</strong>: In the Admin Dashboard, click on the <strong>System Update</strong> icon to access the update feature.</p>
-<p><img src="../../pages/manuals/system/assets/admin-dashboard-system-update.png" alt="Admin Dashboard System Update"></p>
-</li>
-</ol>
+<h2 id="options">Options</h2>
+<p><img src="../../pages/manuals/system/assets/system-info-options.png" alt="Options Tab"></p>
+<p>The <strong>Options</strong> tab lets you configure runtime behaviors and diagnostics:</p>
+<ul>
+<li><strong>Detailed Errors?</strong>: Enable detailed Blazor error messages (do not use in Production).<br>
+<em>(Tooltip: &quot;Specify If Detailed Errors Are Enabled For Blazor. This Option Should Not Be Enabled In Production.&quot;)</em></li>
+<li><strong>Logging Level</strong>: Set the minimum severity for writing to the event log.<br>
+<em>(Tooltip: &quot;The Minimum Logging Level For The Event Log. This Option Can Be Used To Control The Volume Of Items Stored In Your Event Log.&quot;)</em></li>
+<li><strong>Notification Level</strong>: Set the minimum severity for sending notifications to Host users.<br>
+<em>(Tooltip: &quot;The Minimum Logging Level For Which Notifications Should Be Sent To Host Users.&quot;)</em></li>
+<li><strong>Swagger Enabled?</strong>: Toggle the built-in Swagger UI for the server API.<br>
+<em>(Tooltip: &quot;Specify If Swagger Is Enabled For Your Server API&quot;)</em></li>
+<li><strong>Static Asset Caching</strong>: Provide a Cache-Control directive for static files (e.g., <code>public, max-age=60</code>).<br>
+<em>(Tooltip: &quot;Provide a Cache-Control directive for static assets. A blank value disables caching.&quot;)</em></li>
+<li><strong>Package Manager Url</strong>: URL for the package registry service used by the Package Manager.<br>
+<em>(Tooltip: &quot;Specify The Url Of The Package Manager Service For Installing Modules, Themes, And Translations.&quot;)</em></li>
+<li><strong>Package Manager Email</strong>: Email account used for authenticating with the package registry.<br>
+<em>(Tooltip: &quot;Specify The Email Address Of The User Account Used For Interacting With The Package Manager Service.&quot;)</em></li>
+</ul>
+<p>After adjusting options, click <strong>Save</strong> or <strong>Restart Application</strong>. You can also quickly launch the API tools:</p>
+<ul>
+<li>Swagger UI: Opens the interactive Swagger documentation for exploring and testing the server API.
+<img src="../../pages/manuals/system/assets/system-info-options-access-swagger-api-button.png" alt="Swagger UI Button"></li>
+<li>API Endpoints: Displays a detailed list of all registered API routes, methods, and controller actions in your Oqtane installation.
+<img src="../../pages/manuals/system/assets/system-info-options-api-endpoints-button.png" alt="API Endpoints Button"></li>
+</ul>
 <hr>
-<h2 id="downloading-an-update">Downloading An Update</h2>
-<p>To download and apply an update, follow these steps:</p>
-<ol>
-<li><p>Click the <strong>Download</strong> button to initiate the update download.</p>
-</li>
-<li><p>After the download completes successfully, you will see a notification. At this point, click the <strong>Upgrade</strong> button to apply the update.</p>
-<blockquote>
-<p><strong>Note</strong>: Ensure that you are connected to the internet during this process to download the latest update package.</p>
-</blockquote>
-</li>
-</ol>
-<h3 id="system-up-to-date-notification">System Up To Date Notification</h3>
-<p>If the Oqtane framework is already up to date, you will see the following notification:</p>
-<p><img src="../../pages/manuals/system/assets/system-update-system-up-to-date-notification.png" alt="System Update Up To Date Notification"></p>
-<p>This indicates that no update is required and you are already using the latest version of the framework.</p>
-<hr>
-<h2 id="uploading-an-update">Uploading An Update</h2>
-<p>In some cases, you may want to upload a NuGet package that includes new features or fixes from a newer version of Oqtane. To upload an update, follow these steps:</p>
-<ol>
-<li><p>Click the <strong>Upload</strong> button to browse and select the NuGet package file on your local system.</p>
-<p><img src="../../pages/manuals/system/assets/system-update-upload.png" alt="System Update Upload"></p>
-</li>
-<li><p>After selecting the file, click the <strong>Upgrade</strong> button to install the uploaded package into your current version of Oqtane.</p>
-<p><img src="../../pages/manuals/system/assets/system-update-upload-upgrade-button.png" alt="System Update Upgrade Button"></p>
-<blockquote>
-<p><strong>Tip</strong>: This step is useful if you cannot upgrade to the latest version of Oqtane but still need to integrate newer features or updates provided in a NuGet package.</p>
-</blockquote>
-</li>
-</ol>
-<hr>
-<h2 id="development-environment-notification">Development Environment Notification</h2>
-<p>The <strong>System Update</strong> feature is only available in production environments. If you are working in a development environment, you will see a notification message indicating that updates cannot be performed.</p>
-<p>This is a safeguard to prevent accidental updates in environments where it may not be appropriate. The message will appear as shown in the image below:</p>
-<p><img src="../../pages/manuals/system/assets/system-update-development-environment.png" alt="System Update Development Environment"></p>
-<blockquote>
-<p><strong>Note</strong>: If you need to perform updates in a development environment, consider switching to a production environment or testing updates locally before applying them to the live system.</p>
-</blockquote>
-<hr>
-<h2 id="conclusion">Conclusion</h2>
-<p>The <strong>System Update</strong> feature in Oqtane ensures that your system is running the latest framework version, incorporating important features, bug fixes, and updates. You can either download updates directly from the Oqtane servers or upload NuGet packages to install specific updates. Always verify your environment type (production vs development) and follow the steps carefully to maintain system integrity.</p>
-<p>If you encounter any issues or have questions about updating, consult the logs or seek assistance from the community or support channels.</p>
+<h2 id="log">Log</h2>
+<p><img src="../../pages/manuals/system/assets/system-info-log.png" alt="Log Tab"></p>
+<p>The <strong>Log</strong> tab shows today’s system log entries for diagnostics:</p>
+<ul>
+<li><strong>Log</strong>: A read-only textarea displaying real-time system events.<br>
+<em>(Tooltip: &quot;System log information for current day&quot;)</em></li>
+</ul>
+<p><strong>Clear</strong>: Purges the log content.<br>
+<img src="../../pages/manuals/system/assets/system-info-log-clear-button.png" alt="Clear Log Button"></p>
+<p>After clearing, confirm the action:<br>
+<img src="../../pages/manuals/system/assets/system-info-log-clear-confirmation-message.png" alt="Clear Confirmation"></p>
 
 </article>
 
