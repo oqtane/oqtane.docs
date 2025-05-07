@@ -4,8 +4,21 @@
 
 ## Overview
 
-The **Info** tab displays critical environment and framework details for your Oqtane installation.
+The System Info module provides a centralized view into your Oqtane environment’s health, configuration, and diagnostics. From framework versions to runtime memory usage, this tool helps administrators monitor the hosting infrastructure and fine-tune performance or debugging settings.
 
+Key features include:
+
+- **System Environment Details** – Check .NET versions, server OS, memory use, and more.
+- **Runtime Configuration Options** – Toggle diagnostics, error visibility, caching, and logging levels.
+- **Developer Tools Access** – Launch Swagger UI and inspect API endpoints.
+- **System Log Viewer** – Monitor and clear real-time event logs for troubleshooting.
+- **Application Restart** – Instantly restart the app to apply changes or clear server-side state.
+
+---
+
+## Info Tab (System Environment)
+
+The **Info** tab displays critical environment and framework details for your Oqtane installation.
 - **Framework Version**: The current Oqtane framework version.  
   *(Tooltip: "Framework Version")*  
 - **CLR Version**: The .NET Common Language Runtime version in use.  
@@ -36,7 +49,7 @@ The **Info** tab displays critical environment and framework details for your Oq
 
 ---
 
-## Options
+## Options Tab (Runtime Configuration)
 
 ![Options Tab](./assets/system-info-options.png)
 
@@ -66,7 +79,7 @@ After adjusting options, click **Save** or **Restart Application**. You can also
 
 ---
 
-## Log
+## Log Tab (System Log)
 
 ![Log Tab](./assets/system-info-log.png)
 
