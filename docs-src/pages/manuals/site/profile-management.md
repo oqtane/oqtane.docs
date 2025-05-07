@@ -8,7 +8,7 @@ Profile Management in Oqtane provides a flexible and powerful way to customize u
 
 In Oqtane, the Profile Manager is primarily used to define profile fields, set field properties, and organize them into categories. Administrators can configure profile fields that users will interact with during account creation or editing.
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the Profile Management Feature
 
