@@ -9,10 +9,14 @@ The **Content Editor** allows you to edit the modules on the page in various way
 ![Pencil Edit Icon](./assets/content-editor-button.png)  
 *Click on this icon button to enable the Content Editor.*
 
+---
+
 ![Pencil Edit Enabled Icon](./assets/content-editor-enabled-button.png)  
 *Click on this button again to disable the Content Editor. Notice how the appearance of the pencil icon changes between enabled and disabled states.*
 
 When the Content Editor is enabled, borders around each content pane are displayed, indicating the layout of the theme.
+
+---
 
 ![Content Pane Border](./assets/content-editor-pane-border.png)  
 *The visible borders help you understand the layout of the page when in edit mode.*
