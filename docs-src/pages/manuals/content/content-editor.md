@@ -129,10 +129,10 @@ Opens an **Import Content** modal where:
 
   ![Import Content Modal](./assets/content-editor-import-content.png)
 
-  - **Content**: A required text area to paste or type in the module content you wish to import.  
+- **Content**: A required text area to paste or type in the module content you wish to import.  
     *(Tooltip: “Enter The Module Content To Import”)*
-  - **Import** button: Click to import the content into the module.  
-  - **Cancel** button: Discard changes and close the modal.
+- **Import** button: Click to import the content into the module.  
+- **Cancel** button: Discard changes and close the modal.
 
 ---
 
@@ -142,16 +142,17 @@ Opens an **Export Content** modal where:
 
   ![Export Content Modal](./assets/content-editor-export-content.png)
 
-  - **Content**: A read-only text area displaying the current module data available for export.  
+- **Content**: A read-only text area displaying the current module data available for export.  
     *(Tooltip: “The Exported Module Content”)*
-  - **Export** button: Click to export the module data to your chosen location.  
-  - **Cancel** button: Close the modal without exporting.
+- **Export** button: Click to export the module data to your chosen location.  
+- **Cancel** button: Close the modal without exporting.
 
 ---
 
 ## Move Modules
 
-Use the **Move Modules** actions to reposition modules dynamically within a page. You can move a module up or down in its current pane, place it at the top or bottom, or use **Move to >** to send it to a different pane.
+Use the **Move Modules** actions to reposition modules dynamically within a page.
+You can move a module up or down in its current pane, place it at the top or bottom, or use **Move to >** to send it to a different pane.
 
 > **Note:** Use [Manage Settings](#manage-settings) to assign modules to other pages or panes.
 
@@ -173,30 +174,30 @@ If the page layout includes multiple panes (e.g., three center rows, a top row, 
 
 ![Move to Pane Options](./assets/content-editor-module-options-move-to-pane.png)
 
-The **Move to Pane** feature is adaptable to different themes, and the available panes vary depending on the layout provided by the theme. In the example shown in the image, you'll see a variety of pane options that a more complex theme might offer, giving administrators greater flexibility in organizing modules. 
+The **Move to Pane** feature is adaptable to different themes, and the available panes vary depending on the layout provided by the theme. In the example shown in the image, you'll see a variety of pane options that a more complex theme might offer, giving administrators greater flexibility in organizing modules.
 
 For instance, the default Oqtane theme includes not only standard rows and columns but also numerous additional panes, which allow for a wide range of layout possibilities. While simpler themes may only display a few basic options, the default theme might provide over 20 panes, including:
 
 - **Full-Width Panes**: These panes span the entire width of the page. Examples include:
-    - **Top Full Width Pane**: A full-width pane at the top of the page.
-    - **Bottom Full Width Pane**: A full-width pane at the bottom of the page.
+  - **Top Full Width Pane**: A full-width pane at the top of the page.
+  - **Bottom Full Width Pane**: A full-width pane at the bottom of the page.
 
 - **100% Width Panes**: These also span the full width, but are distinct from other full-width panes in terms of placement:
-    - **Top 100% Pane**: Positioned below the top full-width pane, occupying the full page width.
-    - **Bottom 100% Pane**: Positioned above the bottom full-width pane, also spanning the entire page width.
+  - **Top 100% Pane**: Positioned below the top full-width pane, occupying the full page width.
+  - **Bottom 100% Pane**: Positioned above the bottom full-width pane, also spanning the entire page width.
 
 - **50%/50% Split Panes**: Divide the page into two equal sections:
-    - **Left 50% Pane** and **Right 50% Pane**.
+  - **Left 50% Pane** and **Right 50% Pane**.
 
 - **33%/33%/33% Split Panes**: For a balanced three-column layout:
-    - **Left 33% Pane**, **Center 33% Pane**, and **Right 33% Pane**.
+  - **Left 33% Pane**, **Center 33% Pane**, and **Right 33% Pane**.
 
 - **25%/25%/25%/25% Split Panes**: For a four-column layout:
-    - **Left Outer 25% Pane**, **Left Inner 25% Pane**, **Right Inner 25% Pane**, and **Right Outer 25% Pane**.
+  - **Left Outer 25% Pane**, **Left Inner 25% Pane**, **Right Inner 25% Pane**, and **Right Outer 25% Pane**.
 
 - **Asymmetrical Ratios**: Options like:
-    - **Left 66% Pane** and **Right 33% Pane**.
-    - **Left 33% Pane** and **Right 66% Pane**.
+  - **Left 66% Pane** and **Right 33% Pane**.
+  - **Left 33% Pane** and **Right 66% Pane**.
 
 - **Footer Pane**: An additional pane often reserved for footer content.
 

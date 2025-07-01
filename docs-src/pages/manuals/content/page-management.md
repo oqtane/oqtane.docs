@@ -4,13 +4,15 @@ uid: Manuals.Content.PageManagement
 
 # Control Panel Page Management
 
-The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages. This feature shares many capabilities with the admin dashboard's [Page Management feature](../site/page-management.md), but is limited to changing the page you are currently managing.
+The **Page Management** feature allows you to manipulate the page you are currently on by providing options for adding, editing, deleting, and publishing pages.
+This feature shares many capabilities with the admin dashboard's [Page Management feature](../site/page-management.md), but is limited to changing the page you are currently managing.
 
 ![Control Panel Page Management](./assets/control-panel-page-management.png)
 
 ## Add
 
-The **Add** feature allows you to create a new page on your website. When you select this option, a page management window will appear, enabling you to specify the following settings:
+The **Add** feature allows you to create a new page on your website.
+When you select this option, a page management window will appear, enabling you to specify the following settings:
 
 ![Page Management Add Button](./assets/control-panel-page-management-add-button.png)
 
@@ -122,8 +124,6 @@ The **Publish** feature enables you to make a page public if it was previously m
 To toggle the publish status, click the **Publish** button, which will switch between publishing and unpublishing the page.
 
 ![Control Panel Delete Button](./assets/control-panel-page-management-publish-button.png)
-
----
 
 ---
 
