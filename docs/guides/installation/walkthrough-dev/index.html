@@ -97,6 +97,9 @@ It shows both how to get it running in Visual Studio, as well as installing the 
 <li><a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">SQL Server</a></li>
 </ul>
 <p>If you need guidance on installing any of these prerequisites, refer to the links above.</p>
+<h2 id="video">Video</h2>
+<p>Most of what you see here is also available in a video format.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dOD0gjvlGoc?si=fxP5GrDqebslRKbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2 id="1-install-oqtane">1. Install Oqtane</h2>
 <p>These slides start by running</p>
 <pre><code class="lang-bash">git clone -b master https://github.com/oqtane/oqtane.framework.git
@@ -122,6 +125,11 @@ It shows both how to get it running in Visual Studio, as well as installing the 
   <img src="../../../pages/guides/installation/walkthrough-dev/assets/293%20Oqtane%20Logged%20In.jpg">
 </div>
 <h2 id="2-install-the-cms-extension-module-2sxc">2. Install the CMS Extension Module 2sxc</h2>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>.net 8 introduced a HotReload feature which causes trouble in development.
+Make sure you <a href="https://docs.2sxc.org/abyss/platforms/oqtane/install-issue-hot-reload.html">disable it using these instructions</a>.</p>
+</div>
 <p>These slides show how to install the 2sxc module, which is a powerful content management system (CMS) for Oqtane.</p>
 <div gallery="gallery02">
   <img src="../../../pages/guides/installation/walkthrough-dev/assets/311%20Go%20to%20Modules%20-%20Open%20Menu.jpg">

@@ -13,6 +13,12 @@ This assumes that you have the following software installed on your machine:
 
 If you need guidance on installing any of these prerequisites, refer to the links above.
 
+## Video
+
+Most of what you see here is also available in a video format.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dOD0gjvlGoc?si=fxP5GrDqebslRKbr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 1. Install Oqtane
 
 These slides start by running
@@ -43,6 +49,10 @@ to get the latest build, then
 </div>
 
 ## 2. Install the CMS Extension Module 2sxc
+
+> [!IMPORTANT]
+> .net 8 introduced a HotReload feature which causes trouble in development.
+> Make sure you [disable it using these instructions](https://docs.2sxc.org/abyss/platforms/oqtane/install-issue-hot-reload.html).
 
 These slides show how to install the 2sxc module, which is a powerful content management system (CMS) for Oqtane.
 
