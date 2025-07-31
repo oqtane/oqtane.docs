@@ -19,7 +19,9 @@ Additionally, you can download new themes from the marketplace or upload custom 
 
 ---
 
-## Accessing the Theme Management Feature
+## Control Panel Walkthrough
+
+###  Accessing the Theme Management Feature
 
 To access **Theme Management** in the Oqtane admin dashboard, follow these steps:
 

@@ -2,11 +2,9 @@
 
 ![URL Mappings Feature](assets/url-mappings.png)
 
-This document describes the URL Mappings module, settings, and configuration for administrators to manage URL redirections effectively across their Oqtane site.
-
 ## Overview
 
-The **URL Mappings** feature allows administrators to define mappings from one URL to another, enabling effective redirection strategies. This feature is useful for managing broken links, ensuring users are directed to the correct resources.
+The **URL Mappings** feature allows administrators to define mappings from one URL to another, enabling effective redirection strategies. This feature is useful for managing broken links, ensuring users are directed to the correct resources. This document describes the URL Mappings module, settings, and configuration for administrators to manage URL redirections effectively across their Oqtane site.
 
 ---
 

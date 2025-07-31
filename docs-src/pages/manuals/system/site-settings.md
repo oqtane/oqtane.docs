@@ -6,6 +6,12 @@
 
 The **Site Settings** feature in Oqtane allows both Admin and Host users to configure site-specific options. While Admin users have access to a standard set of settings, Host users are provided with additional, advanced configuration options. This guide will summarize both types of settings and provide links to further details.
 
+---
+
+## Control Panel Walkthrough
+
+### Accessing the Site Settings Feature
+
 To access **Site Settings** in the Oqtane admin dashboard:
 
 1. **Open the Control Panel**: Click the **Control Panel** icon to access additional settings.

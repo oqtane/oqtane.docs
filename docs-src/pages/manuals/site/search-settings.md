@@ -1,18 +1,34 @@
-# Search Manual
+# Search
 
 ![Search Settings](assets/search-settings.png)
 
-This document describes the Search module, settings, and configuration for administrators to set up effective search functionality across their Oqtane site.
-
 ## Overview
 
-The **Search** feature allows users to locate relevant content quickly across the site. Through scheduled indexing, the Search service keeps the content index updated. The following sections cover search settings, scheduling, and customization options for the administrator.
+The **Search** feature in Oqtane allows users to quickly locate content across the site. Through scheduled indexing and configurable settings, site administrators can fine-tune what content is included in search results. This guide explains how to access, configure, and maintain search capabilities through the control panel and host settings.
+
+---
+
+## Control Panel Walkthrough
+
+### Accessing the Search Settings Feature
+
+1. Click the **Control Panel** icon to access additional settings.
+
+   ![Control Panel Icon](assets/control-panel-button.png)
+
+2. In the control panel, click the **Admin Dashboard** button.
+
+   ![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
+
+3. In the admin dashboard, select the **Search Settings** icon.
+
+   ![Admin Dashboard Search Settings](assets/admin-dashboard-search-settings.png)
 
 ---
 
 ## Search Settings
 
-Administrators can configure the Search module through **Host > Search Settings**. Below are explanations for each setting:
+Administrators can configure the search behavior under **Host > Search Settings**. Below is a breakdown of each available setting:
 
 | **Setting**                | **Description**                                                                                                                                                                |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -26,11 +42,28 @@ Administrators can configure the Search module through **Host > Search Settings*
 
 ---
 
-## Search Components
+## Reindexing the Site
 
-### Search.resx File
+After updating your search settings or changing significant site content, you should manually reindex the site to refresh the search index.
 
-The `.resx` file includes localization data for search terms and placeholders in the search UI. Examples include:
+### Using the Reindex Button
+
+The **Reindex** button initiates a full scan and update of the site's searchable content.
+
+![Search Reindex Button](assets/search-settings-reindex-button.png)
+
+#### Steps:
+1. Navigate to the **Search Settings** page as shown in the walkthrough.
+2. Click the **Reindex** button.
+3. Wait for the process to complete (duration depends on content volume).
+
+You will receive a notification when reindexing is complete.
+
+---
+
+## Localization (Search.resx File)
+
+The `Search.resx` file supports localization of search UI elements. You can customize search-related labels using this resource file.
 
 ```xml
 <data name="Search" xml:space="preserve">
@@ -39,69 +72,3 @@ The `.resx` file includes localization data for search terms and placeholders in
 <data name="SearchPlaceHolder" xml:space="preserve">
     <value>Search</value>
 </data>
-```
----
-
-# Configuring Search in Oqtane
-
-This guide provides a step-by-step walkthrough for configuring the search functionality in Oqtane.
-
----
-
-## 1. Accessing the Search Feature in the Default Theme
-
-To get started, locate the search feature in the navigation bar of the default theme.
-
-![Search Feature in Navigation](assets/search-navigation-menu.png)
-
----
-
-## 2. Opening the Control Panel
-
-Next, click the control panel icon to access additional settings.
-
-![Control Panel Icon](assets/control-panel-button.png)
-
----
-
-## 3. Navigating to the Admin Dashboard
-
-In the control panel, select the button to open the admin dashboard, where you can manage various site settings.
-
-![Open Admin Dashboard](assets/control-panel-admin-dashboard-button.png)
-
----
-
-## 4. Accessing Search Settings
-
-Finally, in the admin dashboard, click on the search settings icon to configure your search options.
-
-![Admin Dashboard Search Settings](assets/admin-dashboard-search-settings.png)
-
----
-
-## Configuring Search Settings
-
-Once in the search settings, you can adjust various parameters to customize how the search operates on your site.
-
-![Admininstration Search Settings](assets/search-settings.png)
-
-## Using the Reindex Button
-
-After configuring your search settings, you may need to reindex your content to ensure that the latest changes take effect. 
-
-### Reindex Button Description
-
-The **Reindex** button initiates the process of scanning your site's content and updating the search index accordingly. This is essential after making changes to your site's content, structure, or search settings.
-
-![Search Reindex Button](assets/search-settings-reindex-button.png)
-
-### How to Use the Reindex Button
-
-1. Navigate to the search settings page as described in the previous sections.
-2. Locate the **Reindex** button on the settings page.
-3. Click the **Reindex** button to start the indexing process.
-
-**Note:** Depending on the amount of content on your site, the reindexing process may take some time. You will receive a notification once the process is complete.
-
----

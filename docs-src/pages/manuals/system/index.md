@@ -1,5 +1,5 @@
-# Host Management
-
+# System Management (Host)
+ 
 ## Introduction
 
 The **Host Dashboard** in Oqtane provides hosts with an extensive set of tools to oversee, configure, and support the entire Oqtane instance. Host users possess the highest level of permissions, allowing them to manage global settings, monitor system performance, and maintain the instance across all sites. 
