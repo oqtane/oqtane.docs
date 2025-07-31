@@ -2,6 +2,8 @@
   href: index.md
 
 - name: Development Getting Started
+- name: Visual Walkthrough
+  href: ./walkthrough-dev/index.md
 - name: Visual Studio, IIS Express, SQL Express LocalDb
   href: ./development.md
 - name: VS Code, IIS Express, SQL Express LocalDb

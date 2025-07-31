@@ -12,7 +12,8 @@ The **Page Management** feature using the [Control Panel](control-panel.md) as s
 
 ## Add
 
-The **Add** feature allows you to create a new page on your website. When you select this option, a page management window will appear, enabling you to specify the following settings:
+The **Add** feature allows you to create a new page on your website.
+When you select this option, a page management window will appear, enabling you to specify the following settings:
 
 ![Page Management Add Button](./assets/control-panel-page-management-add-button.png)
 
@@ -124,8 +125,6 @@ The **Publish** feature enables you to make a page public if it was previously m
 To toggle the publish status, click the **Publish** button, which will switch between publishing and unpublishing the page.
 
 ![Control Panel Delete Button](./assets/control-panel-page-management-publish-button.png)
-
----
 
 ---
 

@@ -10,6 +10,7 @@ which can be accessed via the `Host` user **Admin Dashboard's** [Module Manageme
 ## Accessing Module Management
 
 To access the Module Management feature in the Control Panel:
+
 1. **Log in to Oqtane** with an account assigned to the Administrators role.
 2. **Click the Control Panel Icon**: Once logged in, click the Control Panel icon to open the Control Panel menu.
 3. **Select Module Management**: Click on the **Module Management** option in the Control Panel.
@@ -61,14 +62,15 @@ When a module is selected, its description will appear in a purple box, providin
 
 ## Working with Modules on Pages
 
-Once a module is added to a page, manage it directly in-page using the **Content Editor**. For detailed workflows, jump to the relevant section in the [Content Editor documentation](../content/content-editor.md):
+Once a module is added to a page, manage it directly in-page using the **Content Editor**.
+For detailed workflows, jump to the relevant section in the [Content Editor documentation](./content-editor.md):
 
-- [Manage Settings](../content/content-editor.md#manage-settings)
-- [Permissions](../content/content-editor.md#permissions-tab)
-- [Module Settings](../content/content-editor.md#module-settings)
-- [Container Settings](../content/content-editor.md#container-settings-tab)
-- [Import/Export](../content/content-editor.md#other-options)
-- [Move Modules](../content/content-editor.md#other-options)
+- [Manage Settings](./content-editor.md#manage-settings)
+- [Permissions](./content-editor.md#permissions-tab)
+- [Module Settings](./content-editor.md#module-settings)
+- [Container Settings](./content-editor.md#container-settings-tab)
+- [Import/Export](./content-editor.md#import-content)
+- [Move Modules](./content-editor.md#move-modules)
 
 ### Key Tasks
 
