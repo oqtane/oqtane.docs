@@ -10,7 +10,7 @@ Security roles operate similarly to permission-based systems: first, you create 
 
 ---
 
-## Control Panel Walk-through
+## Control Panel Walkthrough
 
 ### Accessing the Role Management Feature
 

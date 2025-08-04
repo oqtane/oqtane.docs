@@ -2,11 +2,9 @@
 
 ![Language Management Feature](assets/language-management.png)
 
-This document describes the Language Management module, settings, and configuration for administrators to manage language resources effectively across their Oqtane site.
-
 ## Overview
 
-The **Language Management** feature allows administrators to manage translations for their site, ensuring that the site content is available in multiple languages, enhancing accessibility and user experience.
+The **Language Management** feature allows administrators to manage translations for their site, ensuring that the site content is available in multiple languages, enhancing accessibility and user experience.  This document describes the Language Management module, settings, and configuration for administrators to manage language resources effectively across their Oqtane site.
 
 ---
 

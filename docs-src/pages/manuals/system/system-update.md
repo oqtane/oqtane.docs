@@ -10,7 +10,9 @@ When updating, you can select a NuGet file from your local system, upload it to 
 
 ---
 
-## Accessing the System Update Feature
+## Control Panel Walkthrough
+
+### Accessing the System Update Feature
 
 To access the **System Update** feature, follow these steps:
 

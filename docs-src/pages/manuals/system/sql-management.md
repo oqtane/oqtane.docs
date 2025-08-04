@@ -8,6 +8,10 @@ The SQL Management feature provides direct access to the database through the Oq
 
 By using the SQL console, you can run SQL queries directly from the Oqtane application. The results of any executed SQL statements will be displayed below the execute button, providing immediate feedback. This feature is particularly useful for administrators who need to interact with the database quickly.
 
+---
+
+## Control Panel Walkthrough
+
 ### Accessing the SQL Management Feature
 
 1. **Open the Control Panel**: Click the **Control Panel** icon to access additional settings.

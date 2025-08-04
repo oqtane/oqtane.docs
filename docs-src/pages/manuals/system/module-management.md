@@ -12,7 +12,9 @@ Within the list of modules, you'll find options to **Edit** modules, which displ
 
 ---
 
-## Accessing the Module Management Feature
+## Control Panel Walkthrough
+
+### Accessing the Module Management Feature
 
 1. **Open the Control Panel**: Click the **control panel icon** to access additional settings.
 

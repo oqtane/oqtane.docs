@@ -8,7 +8,10 @@ The **Scheduled Jobs** feature in Oqtane allows you to manage recurring, schedul
 
 ---
 
-## Accessing the Scheduled Jobs Feature
+
+## Control Panel Walkthrough
+
+### Accessing the Scheduled Jobs Feature
 
 1. **Open the Control Panel**: Click the **control panel icon** to access additional settings.
 
