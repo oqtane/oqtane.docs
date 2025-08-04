@@ -89,6 +89,32 @@
 
 <p><img src="../../pages/manuals/system/assets/system-info.png" alt="System Info"></p>
 <h2 id="overview">Overview</h2>
+<p>The <strong>System Info</strong> feature in Oqtane provides a centralized view into your environment’s health, configuration, and diagnostics. From framework versions to runtime memory usage, this tool helps administrators monitor the hosting infrastructure and fine-tune performance or debugging settings.</p>
+<p>Key features include:</p>
+<ul>
+<li><strong>System Environment Details</strong> – Check .NET versions, server OS, memory use, and more.</li>
+<li><strong>Runtime Configuration Options</strong> – Toggle diagnostics, error visibility, caching, and logging levels.</li>
+<li><strong>Developer Tools Access</strong> – Launch Swagger UI and inspect API endpoints.</li>
+<li><strong>System Log Viewer</strong> – Monitor and clear real-time event logs for troubleshooting.</li>
+<li><strong>Application Restart</strong> – Instantly restart the app to apply changes or clear server-side state.</li>
+</ul>
+<hr>
+<h2 id="control-panel-walkthrough">Control Panel Walkthrough</h2>
+<h3 id="accessing-the-system-info-feature">Accessing the System Info Feature</h3>
+<ol>
+<li><p>Click the <strong>Control Panel</strong> icon to access additional settings.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, click the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../pages/manuals/system/assets/control-panel-admin-dashboard-button.png" alt="Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, select the <strong>System Info</strong> icon.</p>
+<p><img src="../../pages/manuals/system/assets/admin-dashboard-system-info.png" alt="System Info Icon"></p>
+</li>
+</ol>
+<hr>
+<h2 id="info-tab-system-environment">Info Tab (System Environment)</h2>
+<p><img src="../../pages/manuals/system/assets/system-info.png" alt="System Info Tab"></p>
 <p>The <strong>Info</strong> tab displays critical environment and framework details for your Oqtane installation.</p>
 <ul>
 <li><strong>Framework Version</strong>: The current Oqtane framework version.<br>
@@ -116,10 +142,10 @@
 <li><strong>Installation ID</strong>: A unique identifier for this Oqtane installation.<br>
 <em>(Tooltip: &quot;The Unique Identifier For Your Installation&quot;)</em></li>
 </ul>
-<p><strong>Restart Application</strong>: Restarts the application domain to apply configuration changes or clear state.<br>
-<img src="../../pages/manuals/system/assets/system-info-restart-application-button.png" alt="Restart Application Button"></p>
+<p><strong>Restart Application</strong>: Restarts the application domain to apply configuration changes or clear state.</p>
+<p><img src="../../pages/manuals/system/assets/system-info-restart-application-button.png" alt="Restart Application Button"></p>
 <hr>
-<h2 id="options">Options</h2>
+<h2 id="options-tab-runtime-configuration">Options Tab (Runtime Configuration)</h2>
 <p><img src="../../pages/manuals/system/assets/system-info-options.png" alt="Options Tab"></p>
 <p>The <strong>Options</strong> tab lets you configure runtime behaviors and diagnostics:</p>
 <ul>
@@ -140,23 +166,25 @@
 </ul>
 <p>After adjusting options, click <strong>Save</strong> or <strong>Restart Application</strong>. You can also quickly launch the API tools:</p>
 <ul>
-<li>Swagger UI: Opens the interactive Swagger documentation for exploring and testing the server API.
-<img src="../../pages/manuals/system/assets/system-info-options-access-swagger-api-button.png" alt="Swagger UI Button"></li>
-<li>API Endpoints: Displays a detailed list of all registered API routes, methods, and controller actions in your Oqtane installation.
-<img src="../../pages/manuals/system/assets/system-info-options-api-endpoints-button.png" alt="API Endpoints Button"></li>
+<li><p><strong>Swagger UI</strong>: Opens the interactive Swagger documentation for exploring and testing the server API.</p>
+<p><img src="../../pages/manuals/system/assets/system-info-options-access-swagger-api-button.png" alt="Swagger UI Button"></p>
+</li>
+<li><p><strong>API Endpoints</strong>: Displays a detailed list of all registered API routes, methods, and controller actions in your Oqtane installation.</p>
+<p><img src="../../pages/manuals/system/assets/system-info-options-api-endpoints-button.png" alt="API Endpoints Button"></p>
+</li>
 </ul>
 <hr>
-<h2 id="log">Log</h2>
+<h2 id="log-tab-system-log">Log Tab (System Log)</h2>
 <p><img src="../../pages/manuals/system/assets/system-info-log.png" alt="Log Tab"></p>
 <p>The <strong>Log</strong> tab shows today’s system log entries for diagnostics:</p>
 <ul>
 <li><strong>Log</strong>: A read-only textarea displaying real-time system events.<br>
 <em>(Tooltip: &quot;System log information for current day&quot;)</em></li>
 </ul>
-<p><strong>Clear</strong>: Purges the log content.<br>
-<img src="../../pages/manuals/system/assets/system-info-log-clear-button.png" alt="Clear Log Button"></p>
-<p>After clearing, confirm the action:<br>
-<img src="../../pages/manuals/system/assets/system-info-log-clear-confirmation-message.png" alt="Clear Confirmation"></p>
+<p><strong>Clear</strong>: Purges the log content.</p>
+<p><img src="../../pages/manuals/system/assets/system-info-log-clear-button.png" alt="Clear Log Button"></p>
+<p>After clearing, confirm the action:</p>
+<p><img src="../../pages/manuals/system/assets/system-info-log-clear-confirmation-message.png" alt="Clear Confirmation"></p>
 
 </article>
 

@@ -18,7 +18,11 @@
           "relative_path": "api/Oqtane.Components.App.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Components.App",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/Oqtane.Components._Imports.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Components._Imports",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/Oqtane.Components.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Components",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/Oqtane.Controllers.AliasController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.AliasController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/Oqtane.Controllers.CookieConsentController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.CookieConsentController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/Oqtane.Controllers.DatabaseController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.DatabaseController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/Oqtane.Controllers.EndpointController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.EndpointController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/Oqtane.Controllers.FileController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.FileController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/Oqtane.Controllers.FolderController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.FolderController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/Oqtane.Controllers.InstallationController.ClientAssembly.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.InstallationController.ClientAssembly",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/Oqtane.Controllers.InstallationController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.InstallationController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/Oqtane.Controllers.JobController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.JobController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/Oqtane.Controllers.JobLogController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.JobLogController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/Oqtane.Controllers.LanguageController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.LanguageController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/Oqtane.Controllers.LocalizationController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.LocalizationController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/Oqtane.Controllers.LogController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.LogController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/Oqtane.Controllers.ModuleController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.ModuleController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/Oqtane.Controllers.ModuleControllerBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.ModuleControllerBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -198,7 +270,11 @@
           "relative_path": "api/Oqtane.Controllers.ModuleDefinitionController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.ModuleDefinitionController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -208,7 +284,11 @@
           "relative_path": "api/Oqtane.Controllers.NotificationController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.NotificationController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -218,7 +298,11 @@
           "relative_path": "api/Oqtane.Controllers.OutputCacheController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.OutputCacheController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -228,7 +312,11 @@
           "relative_path": "api/Oqtane.Controllers.PackageController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.PackageController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -238,7 +326,11 @@
           "relative_path": "api/Oqtane.Controllers.PageController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.PageController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -248,7 +340,11 @@
           "relative_path": "api/Oqtane.Controllers.PageModuleController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.PageModuleController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -258,7 +354,11 @@
           "relative_path": "api/Oqtane.Controllers.ProfileController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.ProfileController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -268,7 +368,11 @@
           "relative_path": "api/Oqtane.Controllers.RoleController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.RoleController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -278,7 +382,11 @@
           "relative_path": "api/Oqtane.Controllers.SearchResultsController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SearchResultsController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -288,7 +396,11 @@
           "relative_path": "api/Oqtane.Controllers.SettingController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SettingController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -298,7 +410,11 @@
           "relative_path": "api/Oqtane.Controllers.SiteController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SiteController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -308,7 +424,11 @@
           "relative_path": "api/Oqtane.Controllers.SiteTemplateController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SiteTemplateController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -318,7 +438,11 @@
           "relative_path": "api/Oqtane.Controllers.SqlController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SqlController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -328,7 +452,11 @@
           "relative_path": "api/Oqtane.Controllers.SyncController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SyncController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -338,7 +466,11 @@
           "relative_path": "api/Oqtane.Controllers.SystemController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.SystemController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -348,7 +480,11 @@
           "relative_path": "api/Oqtane.Controllers.TenantController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.TenantController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -358,7 +494,11 @@
           "relative_path": "api/Oqtane.Controllers.ThemeController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.ThemeController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -368,7 +508,11 @@
           "relative_path": "api/Oqtane.Controllers.UrlMappingController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.UrlMappingController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -378,7 +522,11 @@
           "relative_path": "api/Oqtane.Controllers.UserController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.UserController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -388,7 +536,11 @@
           "relative_path": "api/Oqtane.Controllers.UserRoleController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.UserRoleController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -398,7 +550,11 @@
           "relative_path": "api/Oqtane.Controllers.VisitorController.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.VisitorController",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -408,7 +564,11 @@
           "relative_path": "api/Oqtane.Controllers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -418,7 +578,11 @@
           "relative_path": "api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Documentation.InternalApi_DoNotUse_MayChangeWithoutNotice.yml\" sourcestartlinenumber=\"1\">This attribute serves as metadata for other things to mark them as internal APIs.\nUse this on stuff you want to document publicly, but mark as internal so people are warned</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -428,7 +592,11 @@
           "relative_path": "api/Oqtane.Documentation.PrivateApi.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Documentation.PrivateApi",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Documentation.PrivateApi.yml\" sourcestartlinenumber=\"1\">This attribute marks classes, methods, etc. as private APIs\nSo they should <em sourcefile=\"api-generated/api/Oqtane.Documentation.PrivateApi.yml\" sourcestartlinenumber=\"2\">not</em> be publicly documented.\nBy default, all APIs are private, so you only need this attribute on children of classes marked with <code sourcefile=\"api-generated/api/Oqtane.Documentation.PrivateApi.yml\" sourcestartlinenumber=\"3\">[PublicApi]</code>.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -438,7 +606,11 @@
           "relative_path": "api/Oqtane.Documentation.PublicApi.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Documentation.PublicApi",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Documentation.PublicApi.yml\" sourcestartlinenumber=\"1\">This attribute marks classes, properties etc. as public APIs.\nAny API / code with this attribute will be published in the docs.\nYou can apply it to anything, but usually you will only need it on classes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -448,7 +620,11 @@
           "relative_path": "api/Oqtane.Documentation.WorkInProgressApi.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Documentation.WorkInProgressApi",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Documentation.WorkInProgressApi.yml\" sourcestartlinenumber=\"1\">This attribute marks APIs to be publicly documented with a clear warning that it's work in progress.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -458,7 +634,11 @@
           "relative_path": "api/Oqtane.Documentation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Documentation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -468,7 +648,11 @@
           "relative_path": "api/Oqtane.Enums.LogFunction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Enums.LogFunction",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -478,7 +662,11 @@
           "relative_path": "api/Oqtane.Enums.MigrationType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Enums.MigrationType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -488,7 +676,11 @@
           "relative_path": "api/Oqtane.Enums.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Enums",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -498,7 +690,11 @@
           "relative_path": "api/Oqtane.Extensions.ApplicationBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.ApplicationBuilderExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -508,7 +704,11 @@
           "relative_path": "api/Oqtane.Extensions.CacheExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.CacheExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -518,7 +718,11 @@
           "relative_path": "api/Oqtane.Extensions.ClaimsPrincipalExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.ClaimsPrincipalExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -528,7 +732,11 @@
           "relative_path": "api/Oqtane.Extensions.DbContextOptionsBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.DbContextOptionsBuilderExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -538,7 +746,11 @@
           "relative_path": "api/Oqtane.Extensions.DictionaryExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.DictionaryExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -548,7 +760,11 @@
           "relative_path": "api/Oqtane.Extensions.HttpContextExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.HttpContextExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -558,7 +774,11 @@
           "relative_path": "api/Oqtane.Extensions.MimeUtilities.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.MimeUtilities",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -568,7 +788,11 @@
           "relative_path": "api/Oqtane.Extensions.OqtaneSiteAuthenticationBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.OqtaneSiteAuthenticationBuilderExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -578,7 +802,11 @@
           "relative_path": "api/Oqtane.Extensions.OqtaneSiteIdentityBuilderExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.OqtaneSiteIdentityBuilderExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -588,7 +816,11 @@
           "relative_path": "api/Oqtane.Extensions.PermissionExtension.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.PermissionExtension",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -598,7 +830,11 @@
           "relative_path": "api/Oqtane.Extensions.QueryableExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.QueryableExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -608,7 +844,11 @@
           "relative_path": "api/Oqtane.Extensions.StringExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions.StringExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -618,7 +858,11 @@
           "relative_path": "api/Oqtane.Extensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Extensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -628,7 +872,11 @@
           "relative_path": "api/Oqtane.IconResources.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.IconResources",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.IconResources.yml\" sourcestartlinenumber=\"1\">Dummy class used to collect shared resource strings for this application</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -638,7 +886,11 @@
           "relative_path": "api/Oqtane.Infrastructure.AliasAccessor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.AliasAccessor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -648,7 +900,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ConfigManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ConfigManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -658,7 +914,11 @@
           "relative_path": "api/Oqtane.Infrastructure.DatabaseManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.DatabaseManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -668,7 +928,11 @@
           "relative_path": "api/Oqtane.Infrastructure.EventDistributorHostedService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.EventDistributorHostedService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -678,7 +942,11 @@
           "relative_path": "api/Oqtane.Infrastructure.EventSubscribers.CacheInvalidationEventSubscriber.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.EventSubscribers.CacheInvalidationEventSubscriber",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -688,7 +956,11 @@
           "relative_path": "api/Oqtane.Infrastructure.EventSubscribers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.EventSubscribers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -698,7 +970,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ExampleSiteMigration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ExampleSiteMigration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -708,7 +984,11 @@
           "relative_path": "api/Oqtane.Infrastructure.FileLogger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.FileLogger",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -718,7 +998,11 @@
           "relative_path": "api/Oqtane.Infrastructure.FileLoggerProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.FileLoggerProvider",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Infrastructure.FileLoggerProvider.yml\" sourcestartlinenumber=\"1\">FileLogger should only be used in scenarios where a database is not available or tenant/site cannot be determined (ie. during startup)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -728,7 +1012,11 @@
           "relative_path": "api/Oqtane.Infrastructure.HostedServiceBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.HostedServiceBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -738,7 +1026,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IAliasAccessor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IAliasAccessor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -748,7 +1040,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IConfigManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IConfigManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -758,7 +1054,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IDatabaseManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IDatabaseManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -768,7 +1068,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IEventSubscriber.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IEventSubscriber",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -778,7 +1082,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IHostResources.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IHostResources",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -788,7 +1096,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IInstallable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IInstallable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -798,7 +1110,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IInstallationManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IInstallationManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -808,7 +1124,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ILocalizationManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ILocalizationManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -818,7 +1138,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ILogManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ILogManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -828,7 +1152,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IServerStartup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IServerStartup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -838,7 +1166,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IServerStateManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IServerStateManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -848,7 +1180,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ISiteMigration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ISiteMigration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -858,7 +1194,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ISiteNamedOptions-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ISiteNamedOptions<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -868,7 +1208,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ISiteOptions-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ISiteOptions<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -878,7 +1222,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ISiteTemplate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ISiteTemplate",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -888,7 +1236,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ISyncManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ISyncManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -898,7 +1250,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ITenantManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ITenantManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1264,11 @@
           "relative_path": "api/Oqtane.Infrastructure.IUpgradeManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.IUpgradeManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -918,7 +1278,11 @@
           "relative_path": "api/Oqtane.Infrastructure.InstallationManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.InstallationManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -928,7 +1292,11 @@
           "relative_path": "api/Oqtane.Infrastructure.Interfaces.ITokenReplace.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.Interfaces.ITokenReplace",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -938,7 +1306,11 @@
           "relative_path": "api/Oqtane.Infrastructure.Interfaces.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.Interfaces",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -948,7 +1320,11 @@
           "relative_path": "api/Oqtane.Infrastructure.LocalizationManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.LocalizationManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -958,7 +1334,11 @@
           "relative_path": "api/Oqtane.Infrastructure.LocalizationOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.LocalizationOptions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -968,7 +1348,11 @@
           "relative_path": "api/Oqtane.Infrastructure.LogManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.LogManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -978,7 +1362,11 @@
           "relative_path": "api/Oqtane.Infrastructure.NotificationJob.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.NotificationJob",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -988,7 +1376,11 @@
           "relative_path": "api/Oqtane.Infrastructure.PurgeJob.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.PurgeJob",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -998,7 +1390,11 @@
           "relative_path": "api/Oqtane.Infrastructure.RightToLeftCulture.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.RightToLeftCulture",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1008,7 +1404,11 @@
           "relative_path": "api/Oqtane.Infrastructure.RightToLeftCultureCalendar.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.RightToLeftCultureCalendar",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1018,7 +1418,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SearchIndexJob.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SearchIndexJob",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1028,7 +1432,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ServerState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ServerState",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1038,7 +1446,11 @@
           "relative_path": "api/Oqtane.Infrastructure.ServerStateManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ServerStateManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1048,7 +1460,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SiteMigrationAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SiteMigrationAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1058,7 +1474,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SiteNamedOptions-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SiteNamedOptions<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1068,7 +1488,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SiteOptions-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SiteOptions<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1078,7 +1502,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SiteOptionsCache-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SiteOptionsCache<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1088,7 +1516,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SiteOptionsFactory-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SiteOptionsFactory<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1098,7 +1530,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SiteOptionsManager-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SiteOptionsManager<TOptions>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1108,7 +1544,11 @@
           "relative_path": "api/Oqtane.Infrastructure.SyncManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.SyncManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1118,7 +1558,11 @@
           "relative_path": "api/Oqtane.Infrastructure.TenantManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.TenantManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1572,11 @@
           "relative_path": "api/Oqtane.Infrastructure.TokenReplace.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.TokenReplace",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1138,7 +1586,11 @@
           "relative_path": "api/Oqtane.Infrastructure.UpgradeManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.UpgradeManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1148,7 +1600,11 @@
           "relative_path": "api/Oqtane.Infrastructure.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1158,7 +1614,11 @@
           "relative_path": "api/Oqtane.Interfaces.IDatabaseConfigControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Interfaces.IDatabaseConfigControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1168,7 +1628,11 @@
           "relative_path": "api/Oqtane.Interfaces.ISearchable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Interfaces.ISearchable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1178,7 +1642,11 @@
           "relative_path": "api/Oqtane.Interfaces.ISettingsControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Interfaces.ISettingsControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1188,7 +1656,11 @@
           "relative_path": "api/Oqtane.Interfaces.ITextEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Interfaces.ITextEditor",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Interfaces.ITextEditor.yml\" sourcestartlinenumber=\"1\">Text editor interface.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1198,7 +1670,11 @@
           "relative_path": "api/Oqtane.Interfaces.ITokenSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Interfaces.ITokenSource",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1208,7 +1684,11 @@
           "relative_path": "api/Oqtane.Interfaces.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Interfaces",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1218,7 +1698,11 @@
           "relative_path": "api/Oqtane.Managers.IUserManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Managers.IUserManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1228,7 +1712,11 @@
           "relative_path": "api/Oqtane.Managers.UserManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Managers.UserManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1238,7 +1726,11 @@
           "relative_path": "api/Oqtane.Managers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Managers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1248,7 +1740,11 @@
           "relative_path": "api/Oqtane.Models.Alias.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Alias",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Alias.yml\" sourcestartlinenumber=\"1\">An Alias maps a url like <code sourcefile=\"api-generated/api/Oqtane.Models.Alias.yml\" sourcestartlinenumber=\"1\">oqtane.my</code> or <code sourcefile=\"api-generated/api/Oqtane.Models.Alias.yml\" sourcestartlinenumber=\"1\">oqtane.my/products</code> to a <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Oqtane.Models.Tenant\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1258,7 +1754,11 @@
           "relative_path": "api/Oqtane.Models.Culture.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Culture",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Culture.yml\" sourcestartlinenumber=\"1\">Culture information describing a Culture</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1268,7 +1768,11 @@
           "relative_path": "api/Oqtane.Models.Database.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Database",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Database.yml\" sourcestartlinenumber=\"1\">Information about a Database used in the current Oqtane installation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1278,7 +1782,11 @@
           "relative_path": "api/Oqtane.Models.ExternalLoginProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.ExternalLoginProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1288,7 +1796,11 @@
           "relative_path": "api/Oqtane.Models.File.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.File",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.File.yml\" sourcestartlinenumber=\"1\">Describes a File in Oqtane</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1298,7 +1810,11 @@
           "relative_path": "api/Oqtane.Models.Folder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Folder",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Folder.yml\" sourcestartlinenumber=\"1\">Describes a Folder in Oqtane</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1308,7 +1824,11 @@
           "relative_path": "api/Oqtane.Models.IAuditable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.IAuditable",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.IAuditable.yml\" sourcestartlinenumber=\"1\">Basic create/edit information - used in many objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1318,7 +1838,11 @@
           "relative_path": "api/Oqtane.Models.IDeletable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.IDeletable",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.IDeletable.yml\" sourcestartlinenumber=\"1\">Audit information for things than can be deleted.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1328,7 +1852,11 @@
           "relative_path": "api/Oqtane.Models.Installation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Installation",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Installation.yml\" sourcestartlinenumber=\"1\">Internal message used internally during installation.</p>\n<p sourcefile=\"api-generated/api/Oqtane.Models.Installation.yml\" sourcestartlinenumber=\"3\">Each part of the installation will return the status / message when installing.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1338,7 +1866,11 @@
           "relative_path": "api/Oqtane.Models.Job.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Job",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Job.yml\" sourcestartlinenumber=\"1\">Definition of a Job / Task which is run on the server.\nWhen Jobs run, they create a <xref href=\"Oqtane.Models.JobLog\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1348,7 +1880,11 @@
           "relative_path": "api/Oqtane.Models.JobLog.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.JobLog",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.JobLog.yml\" sourcestartlinenumber=\"1\">Log / Journal of <xref href=\"Oqtane.Models.JobLog.Job\" data-throw-if-not-resolved=\"false\"></xref>s executed.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1358,7 +1894,11 @@
           "relative_path": "api/Oqtane.Models.Language.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Language",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Language.yml\" sourcestartlinenumber=\"1\">Language Information for <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref>s\nTODO: todoc - unclear how this is different from <xref href=\"Oqtane.Models.Culture\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1368,7 +1908,11 @@
           "relative_path": "api/Oqtane.Models.Log.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Log",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Log.yml\" sourcestartlinenumber=\"1\">A log entry in the events log.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1378,7 +1922,11 @@
           "relative_path": "api/Oqtane.Models.MigrationHistoryTable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.MigrationHistoryTable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1388,7 +1936,11 @@
           "relative_path": "api/Oqtane.Models.ModelBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.ModelBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1398,7 +1950,11 @@
           "relative_path": "api/Oqtane.Models.Module.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Module",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Module.yml\" sourcestartlinenumber=\"1\">Describes a Module <em sourcefile=\"api-generated/api/Oqtane.Models.Module.yml\" sourcestartlinenumber=\"1\">Instance</em> which will be shown on a page. This is different from a <xref href=\"Oqtane.Models.Module.ModuleDefinition\" data-throw-if-not-resolved=\"false\"></xref> which describes a Module.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1408,7 +1964,11 @@
           "relative_path": "api/Oqtane.Models.ModuleContent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.ModuleContent",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.ModuleContent.yml\" sourcestartlinenumber=\"1\">Generic Model for Module-Contents to enable Import/Export of the Module-Data</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1418,7 +1978,11 @@
           "relative_path": "api/Oqtane.Models.ModuleDefinition.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.ModuleDefinition",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.ModuleDefinition.yml\" sourcestartlinenumber=\"1\">Describes a Module type (Definition) in Oqtane.\nThe available Modules are determined at StartUp.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1428,7 +1992,11 @@
           "relative_path": "api/Oqtane.Models.Notification.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Notification",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Notification.yml\" sourcestartlinenumber=\"1\">Notification for a User - usually meant to be sent as an E-Mail.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1438,7 +2006,11 @@
           "relative_path": "api/Oqtane.Models.Package.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Package",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Package.yml\" sourcestartlinenumber=\"1\">A software Package for installation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1448,7 +2020,11 @@
           "relative_path": "api/Oqtane.Models.Page.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Page",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Page.yml\" sourcestartlinenumber=\"1\">Describes a Page in Oqtane</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1458,7 +2034,11 @@
           "relative_path": "api/Oqtane.Models.PageModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.PageModule",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.PageModule.yml\" sourcestartlinenumber=\"1\">Information about a <xref href=\"Oqtane.Models.PageModule.Module\" data-throw-if-not-resolved=\"false\"></xref> instance on a <xref href=\"Oqtane.Models.PageModule.Page\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1468,7 +2048,11 @@
           "relative_path": "api/Oqtane.Models.PageTemplate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.PageTemplate",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1478,7 +2062,11 @@
           "relative_path": "api/Oqtane.Models.PageTemplateModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.PageTemplateModule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1488,7 +2076,11 @@
           "relative_path": "api/Oqtane.Models.Permission.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Permission",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Permission.yml\" sourcestartlinenumber=\"1\">Permission information for anything in Oqtane.\nThings in Oqtane are identified as Entities, so anything that can be identified can be described here.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1498,7 +2090,11 @@
           "relative_path": "api/Oqtane.Models.Profile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Profile",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Profile.yml\" sourcestartlinenumber=\"1\">A single Profile Property information of a <xref href=\"Oqtane.Models.User\" data-throw-if-not-resolved=\"false\"></xref>.<br>\nSo a user will have many of these to fully describe his Profile.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1508,7 +2104,11 @@
           "relative_path": "api/Oqtane.Models.RequestCulture.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.RequestCulture",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.RequestCulture.yml\" sourcestartlinenumber=\"1\">Culture information describing a Culture</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1518,7 +2118,11 @@
           "relative_path": "api/Oqtane.Models.Resource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Resource",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Resource.yml\" sourcestartlinenumber=\"1\">Resource Objects describe a JavaScript or CSS file which is needed by the Module to work.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1528,7 +2132,11 @@
           "relative_path": "api/Oqtane.Models.Result.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Result",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1538,7 +2146,11 @@
           "relative_path": "api/Oqtane.Models.Role.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Role",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Role.yml\" sourcestartlinenumber=\"1\">Describes a Security Role in Oqtane.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1548,7 +2160,11 @@
           "relative_path": "api/Oqtane.Models.Route.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Route",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Route.yml\" sourcestartlinenumber=\"1\">A route is comprised of multiple components ( some optional depending on context )\n{scheme}://{hostname}/{aliaspath}/{pagepath}/*/{moduleid}/{action}/!/{urlparameters}?{query}#{fragment}</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1558,7 +2174,11 @@
           "relative_path": "api/Oqtane.Models.Script.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Script",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Script.yml\" sourcestartlinenumber=\"1\">Script inherits from Resource and offers constructors with parameters specific to Scripts</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1568,7 +2188,11 @@
           "relative_path": "api/Oqtane.Models.SearchContent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchContent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1578,7 +2202,11 @@
           "relative_path": "api/Oqtane.Models.SearchContentProperty.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchContentProperty",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1588,7 +2216,11 @@
           "relative_path": "api/Oqtane.Models.SearchContentWord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchContentWord",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1598,7 +2230,11 @@
           "relative_path": "api/Oqtane.Models.SearchQuery.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchQuery",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1608,7 +2244,11 @@
           "relative_path": "api/Oqtane.Models.SearchResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchResult",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1618,7 +2258,11 @@
           "relative_path": "api/Oqtane.Models.SearchResults.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchResults",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1628,7 +2272,11 @@
           "relative_path": "api/Oqtane.Models.SearchWord.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SearchWord",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1638,7 +2286,11 @@
           "relative_path": "api/Oqtane.Models.Setting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Setting",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Setting.yml\" sourcestartlinenumber=\"1\">A setting for any kind of object like <xref href=\"Oqtane.Models.Tenant\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Oqtane.Models.Page\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"Oqtane.Models.Module\" data-throw-if-not-resolved=\"false\"></xref> etc.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1648,7 +2300,11 @@
           "relative_path": "api/Oqtane.Models.Site.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Site",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Site.yml\" sourcestartlinenumber=\"1\">Describes a Site in a <xref href=\"Oqtane.Models.Tenant\" data-throw-if-not-resolved=\"false\"></xref> in an Oqtane installation.\nSites can have multiple <xref href=\"Oqtane.Models.Alias\" data-throw-if-not-resolved=\"false\"></xref>es.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1658,7 +2314,11 @@
           "relative_path": "api/Oqtane.Models.SiteTemplate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SiteTemplate",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1668,7 +2328,11 @@
           "relative_path": "api/Oqtane.Models.Sitemap.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Sitemap",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Sitemap.yml\" sourcestartlinenumber=\"1\">Describes a Sitemap</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1678,7 +2342,11 @@
           "relative_path": "api/Oqtane.Models.SqlQuery.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SqlQuery",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1688,7 +2356,11 @@
           "relative_path": "api/Oqtane.Models.Stylesheet.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Stylesheet",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Stylesheet.yml\" sourcestartlinenumber=\"1\">Stylesheet inherits from Resource and offers constructors with parameters specific to Stylesheets</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1698,7 +2370,11 @@
           "relative_path": "api/Oqtane.Models.Sync.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Sync",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1708,7 +2384,11 @@
           "relative_path": "api/Oqtane.Models.SyncEvent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.SyncEvent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1718,7 +2398,11 @@
           "relative_path": "api/Oqtane.Models.Template.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Template",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Template.yml\" sourcestartlinenumber=\"1\">model for defining metadata for a Module or Theme template</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1728,7 +2412,11 @@
           "relative_path": "api/Oqtane.Models.Tenant.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Tenant",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Tenant.yml\" sourcestartlinenumber=\"1\">Describes a Tenant in Oqtane.\nTenants can contain multiple <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref>s and have all their data in a separate Database.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1738,7 +2426,11 @@
           "relative_path": "api/Oqtane.Models.Theme.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Theme",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Theme.yml\" sourcestartlinenumber=\"1\">Information about a Theme in Oqtane.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1748,7 +2440,11 @@
           "relative_path": "api/Oqtane.Models.ThemeControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.ThemeControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1758,7 +2454,11 @@
           "relative_path": "api/Oqtane.Models.UrlMapping.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.UrlMapping",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.UrlMapping.yml\" sourcestartlinenumber=\"1\">Describes a UrlMapping in Oqtane.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1768,7 +2468,11 @@
           "relative_path": "api/Oqtane.Models.User.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.User",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.User.yml\" sourcestartlinenumber=\"1\">Describes a User in Oqtane.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1778,7 +2482,11 @@
           "relative_path": "api/Oqtane.Models.UserRole.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.UserRole",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.UserRole.yml\" sourcestartlinenumber=\"1\">Assigns a <xref href=\"Oqtane.Models.UserRole.Role\" data-throw-if-not-resolved=\"false\"></xref> to a <xref href=\"Oqtane.Models.UserRole.User\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1788,7 +2496,11 @@
           "relative_path": "api/Oqtane.Models.UserValidateResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.UserValidateResult",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1798,7 +2510,11 @@
           "relative_path": "api/Oqtane.Models.Visitor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.Visitor",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.Visitor.yml\" sourcestartlinenumber=\"1\">Describes a Visitor in Oqtane.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1808,7 +2524,11 @@
           "relative_path": "api/Oqtane.Models.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1818,7 +2538,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.ActionDialog.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.ActionDialog",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1828,7 +2552,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.ActionLink.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.ActionLink",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1838,7 +2566,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.AuditInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.AuditInfo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1848,7 +2580,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.AutoComplete.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.AutoComplete",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1858,7 +2594,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.FileManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.FileManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1868,7 +2608,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.InputList.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.InputList",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1878,7 +2622,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.Label.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.Label",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1888,7 +2636,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.LocalizableComponent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.LocalizableComponent",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1898,7 +2650,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.ModuleMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.ModuleMessage",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1908,7 +2664,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.Pager-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.Pager<TableItem>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1918,7 +2678,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.PermissionGrid.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.PermissionGrid",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1928,7 +2692,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.QuillEditorInterop.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.QuillEditorInterop",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1938,7 +2706,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.QuillJSTextEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.QuillJSTextEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1948,7 +2720,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.RichTextEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.RichTextEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1958,7 +2734,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.Section.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.Section",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1968,7 +2748,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.TabPanel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.TabPanel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1978,7 +2762,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.TabStrip.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.TabStrip",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1988,7 +2776,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.TextAreaTextEditor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.TextAreaTextEditor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1998,7 +2790,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.TriStateCheckBox.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.TriStateCheckBox",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2008,7 +2804,11 @@
           "relative_path": "api/Oqtane.Modules.Controls.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2018,7 +2818,11 @@
           "relative_path": "api/Oqtane.Modules.IClientService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.IClientService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Modules.IClientService.yml\" sourcestartlinenumber=\"1\">Empty interface used to decorate client module services for auto registration as scoped</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2028,7 +2832,11 @@
           "relative_path": "api/Oqtane.Modules.IModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.IModule",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2038,7 +2846,11 @@
           "relative_path": "api/Oqtane.Modules.IModuleControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.IModuleControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2048,7 +2860,11 @@
           "relative_path": "api/Oqtane.Modules.IPortable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.IPortable",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2058,7 +2874,11 @@
           "relative_path": "api/Oqtane.Modules.IService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.IService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Modules.IService.yml\" sourcestartlinenumber=\"1\">Empty interface used to decorate module services for auto registration as scoped</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2068,7 +2888,11 @@
           "relative_path": "api/Oqtane.Modules.ISitemap.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.ISitemap",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2078,7 +2902,11 @@
           "relative_path": "api/Oqtane.Modules.ITransientService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.ITransientService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Modules.ITransientService.yml\" sourcestartlinenumber=\"1\">Empty interface used to decorate module services for auto registration as a transient</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2088,7 +2916,11 @@
           "relative_path": "api/Oqtane.Modules.MessageType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.MessageType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2098,7 +2930,11 @@
           "relative_path": "api/Oqtane.Modules.MigratableModuleBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.MigratableModuleBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2108,7 +2944,11 @@
           "relative_path": "api/Oqtane.Modules.ModuleBase.Logger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.ModuleBase.Logger",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2118,7 +2958,11 @@
           "relative_path": "api/Oqtane.Modules.ModuleBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.ModuleBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2128,7 +2972,11 @@
           "relative_path": "api/Oqtane.Modules.ModuleControlBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.ModuleControlBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2138,7 +2986,11 @@
           "relative_path": "api/Oqtane.Modules.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2148,7 +3000,11 @@
           "relative_path": "api/Oqtane.Pages.ExternalModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.ExternalModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2158,7 +3014,11 @@
           "relative_path": "api/Oqtane.Pages.FilesModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.FilesModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2168,7 +3028,11 @@
           "relative_path": "api/Oqtane.Pages.ImpersonateModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.ImpersonateModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2178,7 +3042,11 @@
           "relative_path": "api/Oqtane.Pages.LoginModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.LoginModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2188,7 +3056,11 @@
           "relative_path": "api/Oqtane.Pages.LogoutModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.LogoutModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2198,7 +3070,11 @@
           "relative_path": "api/Oqtane.Pages.SitemapModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.SitemapModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2208,7 +3084,11 @@
           "relative_path": "api/Oqtane.Pages.StringWriterWithEncoding.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.StringWriterWithEncoding",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2218,7 +3098,11 @@
           "relative_path": "api/Oqtane.Pages.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2228,7 +3112,11 @@
           "relative_path": "api/Oqtane.Providers.DatabaseSearchProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Providers.DatabaseSearchProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2238,7 +3126,11 @@
           "relative_path": "api/Oqtane.Providers.IdentityAuthenticationStateProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Providers.IdentityAuthenticationStateProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2248,7 +3140,11 @@
           "relative_path": "api/Oqtane.Providers.IdentityRevalidatingAuthenticationStateProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Providers.IdentityRevalidatingAuthenticationStateProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2258,7 +3154,11 @@
           "relative_path": "api/Oqtane.Providers.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Providers",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2268,7 +3168,11 @@
           "relative_path": "api/Oqtane.Repository.AliasRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.AliasRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2278,7 +3182,11 @@
           "relative_path": "api/Oqtane.Repository.DBContextBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.DBContextBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2288,7 +3196,11 @@
           "relative_path": "api/Oqtane.Repository.DBContextDependencies.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.DBContextDependencies",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2298,7 +3210,11 @@
           "relative_path": "api/Oqtane.Repository.DbContextUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.DbContextUtils",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2308,7 +3224,11 @@
           "relative_path": "api/Oqtane.Repository.FileRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.FileRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2318,7 +3238,11 @@
           "relative_path": "api/Oqtane.Repository.FolderRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.FolderRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2328,7 +3252,11 @@
           "relative_path": "api/Oqtane.Repository.IAliasRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IAliasRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2338,7 +3266,11 @@
           "relative_path": "api/Oqtane.Repository.IDBContextDependencies.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IDBContextDependencies",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2348,7 +3280,11 @@
           "relative_path": "api/Oqtane.Repository.IFileRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IFileRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2358,7 +3294,11 @@
           "relative_path": "api/Oqtane.Repository.IFolderRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IFolderRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2368,7 +3308,11 @@
           "relative_path": "api/Oqtane.Repository.IJobLogRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IJobLogRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2378,7 +3322,11 @@
           "relative_path": "api/Oqtane.Repository.IJobRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IJobRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2388,7 +3336,11 @@
           "relative_path": "api/Oqtane.Repository.ILanguageRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ILanguageRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2398,7 +3350,11 @@
           "relative_path": "api/Oqtane.Repository.ILogRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ILogRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2408,7 +3364,11 @@
           "relative_path": "api/Oqtane.Repository.IModuleDefinitionRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IModuleDefinitionRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2418,7 +3378,11 @@
           "relative_path": "api/Oqtane.Repository.IModuleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IModuleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2428,7 +3392,11 @@
           "relative_path": "api/Oqtane.Repository.INotificationRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.INotificationRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2438,7 +3406,11 @@
           "relative_path": "api/Oqtane.Repository.IPageModuleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IPageModuleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2448,7 +3420,11 @@
           "relative_path": "api/Oqtane.Repository.IPageRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IPageRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2458,7 +3434,11 @@
           "relative_path": "api/Oqtane.Repository.IPermissionRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IPermissionRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2468,7 +3448,11 @@
           "relative_path": "api/Oqtane.Repository.IProfileRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IProfileRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2478,7 +3462,11 @@
           "relative_path": "api/Oqtane.Repository.IRoleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IRoleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2488,7 +3476,11 @@
           "relative_path": "api/Oqtane.Repository.ISearchContentRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ISearchContentRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2498,7 +3490,11 @@
           "relative_path": "api/Oqtane.Repository.ISettingRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ISettingRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2508,7 +3504,11 @@
           "relative_path": "api/Oqtane.Repository.ISiteRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ISiteRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2518,7 +3518,11 @@
           "relative_path": "api/Oqtane.Repository.ISiteTemplateRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ISiteTemplateRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2528,7 +3532,11 @@
           "relative_path": "api/Oqtane.Repository.ISqlRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ISqlRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2538,7 +3546,11 @@
           "relative_path": "api/Oqtane.Repository.ITenantRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ITenantRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2548,7 +3560,11 @@
           "relative_path": "api/Oqtane.Repository.ITenantResolver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ITenantResolver",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2558,7 +3574,11 @@
           "relative_path": "api/Oqtane.Repository.IThemeRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IThemeRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2568,7 +3588,11 @@
           "relative_path": "api/Oqtane.Repository.IUrlMappingRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IUrlMappingRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2578,7 +3602,11 @@
           "relative_path": "api/Oqtane.Repository.IUserRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IUserRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2588,7 +3616,11 @@
           "relative_path": "api/Oqtane.Repository.IUserRoleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IUserRoleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2598,7 +3630,11 @@
           "relative_path": "api/Oqtane.Repository.IVisitorRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IVisitorRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2608,7 +3644,11 @@
           "relative_path": "api/Oqtane.Repository.InstallationContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.InstallationContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2618,7 +3658,11 @@
           "relative_path": "api/Oqtane.Repository.JobLogRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.JobLogRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2628,7 +3672,11 @@
           "relative_path": "api/Oqtane.Repository.JobRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.JobRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2638,7 +3686,11 @@
           "relative_path": "api/Oqtane.Repository.LanguageRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.LanguageRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2648,7 +3700,11 @@
           "relative_path": "api/Oqtane.Repository.LogRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.LogRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2658,7 +3714,11 @@
           "relative_path": "api/Oqtane.Repository.MasterDBContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.MasterDBContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2668,7 +3728,11 @@
           "relative_path": "api/Oqtane.Repository.ModuleDefinitionRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ModuleDefinitionRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2678,7 +3742,11 @@
           "relative_path": "api/Oqtane.Repository.ModuleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ModuleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2688,7 +3756,11 @@
           "relative_path": "api/Oqtane.Repository.NotificationRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.NotificationRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2698,7 +3770,11 @@
           "relative_path": "api/Oqtane.Repository.PageModuleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.PageModuleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2708,7 +3784,11 @@
           "relative_path": "api/Oqtane.Repository.PageRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.PageRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2718,7 +3798,11 @@
           "relative_path": "api/Oqtane.Repository.PermissionRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.PermissionRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2728,7 +3812,11 @@
           "relative_path": "api/Oqtane.Repository.ProfileRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ProfileRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2738,7 +3826,11 @@
           "relative_path": "api/Oqtane.Repository.RoleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.RoleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2748,7 +3840,11 @@
           "relative_path": "api/Oqtane.Repository.SearchContentRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.SearchContentRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2758,7 +3854,11 @@
           "relative_path": "api/Oqtane.Repository.SettingRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.SettingRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2768,7 +3868,11 @@
           "relative_path": "api/Oqtane.Repository.SiteRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.SiteRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2778,7 +3882,11 @@
           "relative_path": "api/Oqtane.Repository.SiteTemplateRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.SiteTemplateRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2788,7 +3896,11 @@
           "relative_path": "api/Oqtane.Repository.SqlRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.SqlRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2798,7 +3910,11 @@
           "relative_path": "api/Oqtane.Repository.TenantDBContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.TenantDBContext",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2808,7 +3924,11 @@
           "relative_path": "api/Oqtane.Repository.TenantRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.TenantRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2818,7 +3938,11 @@
           "relative_path": "api/Oqtane.Repository.TenantResolver.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.TenantResolver",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2828,7 +3952,11 @@
           "relative_path": "api/Oqtane.Repository.ThemeRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.ThemeRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2838,7 +3966,11 @@
           "relative_path": "api/Oqtane.Repository.UrlMappingRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.UrlMappingRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2848,7 +3980,11 @@
           "relative_path": "api/Oqtane.Repository.UserRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.UserRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2858,7 +3994,11 @@
           "relative_path": "api/Oqtane.Repository.UserRoleRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.UserRoleRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2868,7 +4008,11 @@
           "relative_path": "api/Oqtane.Repository.VisitorRepository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.VisitorRepository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2878,7 +4022,11 @@
           "relative_path": "api/Oqtane.Repository.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2888,7 +4036,11 @@
           "relative_path": "api/Oqtane.Security.AuthorizationPolicyProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.AuthorizationPolicyProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2898,7 +4050,11 @@
           "relative_path": "api/Oqtane.Security.AutoValidateAntiforgeryTokenAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.AutoValidateAntiforgeryTokenAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2908,7 +4064,11 @@
           "relative_path": "api/Oqtane.Security.AutoValidateAntiforgeryTokenFilter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.AutoValidateAntiforgeryTokenFilter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2918,7 +4078,11 @@
           "relative_path": "api/Oqtane.Security.ClaimsPrincipalFactory-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.ClaimsPrincipalFactory<TUser>",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2928,7 +4092,11 @@
           "relative_path": "api/Oqtane.Security.IJwtManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.IJwtManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2938,7 +4106,11 @@
           "relative_path": "api/Oqtane.Security.IUserPermissions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.IUserPermissions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2948,7 +4120,11 @@
           "relative_path": "api/Oqtane.Security.JwtManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.JwtManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2958,7 +4134,11 @@
           "relative_path": "api/Oqtane.Security.PermissionHandler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.PermissionHandler",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2968,7 +4148,11 @@
           "relative_path": "api/Oqtane.Security.PermissionRequirement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.PermissionRequirement",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2978,7 +4162,11 @@
           "relative_path": "api/Oqtane.Security.PrincipalValidator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.PrincipalValidator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2988,7 +4176,11 @@
           "relative_path": "api/Oqtane.Security.UserPermissions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.UserPermissions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2998,7 +4190,11 @@
           "relative_path": "api/Oqtane.Security.UserSecurity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security.UserSecurity",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3008,7 +4204,11 @@
           "relative_path": "api/Oqtane.Security.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Security",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3018,7 +4218,11 @@
           "relative_path": "api/Oqtane.Services.IAliasService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IAliasService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IAliasService.yml\" sourcestartlinenumber=\"1\">Service to retrieve and store <xref href=\"Oqtane.Models.Alias\" data-throw-if-not-resolved=\"false\"></xref> information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3028,7 +4232,11 @@
           "relative_path": "api/Oqtane.Services.IClientStartup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IClientStartup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3038,7 +4246,11 @@
           "relative_path": "api/Oqtane.Services.ICookieConsentService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ICookieConsentService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ICookieConsentService.yml\" sourcestartlinenumber=\"1\">Service to retrieve cookie consent information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3048,7 +4260,11 @@
           "relative_path": "api/Oqtane.Services.IDatabaseService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IDatabaseService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IDatabaseService.yml\" sourcestartlinenumber=\"1\">Service to retrieve <xref href=\"Oqtane.Models.Database\" data-throw-if-not-resolved=\"false\"></xref> information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3058,7 +4274,11 @@
           "relative_path": "api/Oqtane.Services.IFileService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IFileService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IFileService.yml\" sourcestartlinenumber=\"1\">Service to get / create / upload / download files.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3068,7 +4288,11 @@
           "relative_path": "api/Oqtane.Services.IFolderService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IFolderService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IFolderService.yml\" sourcestartlinenumber=\"1\">Service to get / create / modify <xref href=\"Oqtane.Models.Folder\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3078,7 +4302,11 @@
           "relative_path": "api/Oqtane.Services.IImageService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IImageService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3088,7 +4316,11 @@
           "relative_path": "api/Oqtane.Services.IInstallationService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IInstallationService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IInstallationService.yml\" sourcestartlinenumber=\"1\">Service to manage (install master database / upgrade version / etc.) the installation</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3098,7 +4330,11 @@
           "relative_path": "api/Oqtane.Services.IJobLogService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IJobLogService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IJobLogService.yml\" sourcestartlinenumber=\"1\">Service to read the job schedule log</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3108,7 +4344,11 @@
           "relative_path": "api/Oqtane.Services.IJobService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IJobService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IJobService.yml\" sourcestartlinenumber=\"1\">Service to manage jobs (<xref href=\"Oqtane.Models.Job\" data-throw-if-not-resolved=\"false\"></xref>)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3118,7 +4358,11 @@
           "relative_path": "api/Oqtane.Services.ILanguageService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ILanguageService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ILanguageService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.Language\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3128,7 +4372,11 @@
           "relative_path": "api/Oqtane.Services.ILocalizationCookieService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ILocalizationCookieService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ILocalizationCookieService.yml\" sourcestartlinenumber=\"1\">Service to set localization cookie</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3138,7 +4386,11 @@
           "relative_path": "api/Oqtane.Services.ILocalizationService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ILocalizationService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ILocalizationService.yml\" sourcestartlinenumber=\"1\">Service to retrieve localizations (<xref href=\"Oqtane.Models.Culture\" data-throw-if-not-resolved=\"false\"></xref>)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3148,7 +4400,11 @@
           "relative_path": "api/Oqtane.Services.ILogService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ILogService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ILogService.yml\" sourcestartlinenumber=\"1\">Service to retrieve and store <xref href=\"Oqtane.Services.ILogService.Log(System.Nullable%7bSystem.Int32%7d%2cSystem.Nullable%7bSystem.Int32%7d%2cSystem.Nullable%7bSystem.Int32%7d%2cSystem.String%2cSystem.String%2cOqtane.Enums.LogFunction%2cOqtane.Shared.LogLevel%2cSystem.Exception%2cSystem.String%2cSystem.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3158,7 +4414,11 @@
           "relative_path": "api/Oqtane.Services.IModuleDefinitionService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IModuleDefinitionService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IModuleDefinitionService.yml\" sourcestartlinenumber=\"1\">Service to manage a <xref href=\"Oqtane.Models.ModuleDefinition\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3168,7 +4428,11 @@
           "relative_path": "api/Oqtane.Services.IModuleService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IModuleService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IModuleService.yml\" sourcestartlinenumber=\"1\">Service to retrieve and store modules (<xref href=\"Oqtane.Models.Module\" data-throw-if-not-resolved=\"false\"></xref>)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3178,7 +4442,11 @@
           "relative_path": "api/Oqtane.Services.INotificationService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.INotificationService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.INotificationService.yml\" sourcestartlinenumber=\"1\">Service to store and retrieve notifications (<xref href=\"Oqtane.Models.Notification\" data-throw-if-not-resolved=\"false\"></xref>)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3188,7 +4456,11 @@
           "relative_path": "api/Oqtane.Services.IOutputCacheService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IOutputCacheService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IOutputCacheService.yml\" sourcestartlinenumber=\"1\">Service to manage cache</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3198,7 +4470,11 @@
           "relative_path": "api/Oqtane.Services.IPackageService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IPackageService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IPackageService.yml\" sourcestartlinenumber=\"1\">Service to manage packages (<xref href=\"Oqtane.Models.Package\" data-throw-if-not-resolved=\"false\"></xref>)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3208,7 +4484,11 @@
           "relative_path": "api/Oqtane.Services.IPageModuleService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IPageModuleService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IPageModuleService.yml\" sourcestartlinenumber=\"1\">Service to store and retrieve a <xref href=\"Oqtane.Models.PageModule\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3218,7 +4498,11 @@
           "relative_path": "api/Oqtane.Services.IPageService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IPageService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IPageService.yml\" sourcestartlinenumber=\"1\">Services to store and retrieve a <xref href=\"Oqtane.Models.Page\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3228,7 +4512,11 @@
           "relative_path": "api/Oqtane.Services.IProfileService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IProfileService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IProfileService.yml\" sourcestartlinenumber=\"1\">Service to store and retrieve <xref href=\"Oqtane.Models.Profile\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3238,7 +4526,11 @@
           "relative_path": "api/Oqtane.Services.IRoleService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IRoleService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IRoleService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.Role\" data-throw-if-not-resolved=\"false\"></xref>s on a <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3248,7 +4540,11 @@
           "relative_path": "api/Oqtane.Services.ISearchProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISearchProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3258,7 +4554,11 @@
           "relative_path": "api/Oqtane.Services.ISearchService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISearchService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3268,7 +4568,11 @@
           "relative_path": "api/Oqtane.Services.ISettingService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISettingService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ISettingService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.Setting\" data-throw-if-not-resolved=\"false\"></xref>s</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3278,7 +4582,11 @@
           "relative_path": "api/Oqtane.Services.ISiteService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISiteService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ISiteService.yml\" sourcestartlinenumber=\"1\">Service to store and retrieve <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3288,7 +4596,11 @@
           "relative_path": "api/Oqtane.Services.ISiteTemplateService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISiteTemplateService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ISiteTemplateService.yml\" sourcestartlinenumber=\"1\">Service to retrieve <xref href=\"Oqtane.Models.SiteTemplate\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3298,7 +4610,11 @@
           "relative_path": "api/Oqtane.Services.ISqlService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISqlService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ISqlService.yml\" sourcestartlinenumber=\"1\">Service to execute a <xref href=\"Oqtane.Models.SqlQuery\" data-throw-if-not-resolved=\"false\"></xref> against the backend database</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3308,7 +4624,11 @@
           "relative_path": "api/Oqtane.Services.ISyncService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISyncService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ISyncService.yml\" sourcestartlinenumber=\"1\">Service to retrieve <xref href=\"Oqtane.Models.Sync\" data-throw-if-not-resolved=\"false\"></xref> information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3318,7 +4638,11 @@
           "relative_path": "api/Oqtane.Services.ISystemService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ISystemService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ISystemService.yml\" sourcestartlinenumber=\"1\">Service to retrieve and update system information.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3328,7 +4652,11 @@
           "relative_path": "api/Oqtane.Services.ITenantService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ITenantService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ITenantService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.Tenant\" data-throw-if-not-resolved=\"false\"></xref>s on the Oqtane installation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3338,7 +4666,11 @@
           "relative_path": "api/Oqtane.Services.IThemeService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IThemeService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IThemeService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.Theme\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3348,7 +4680,11 @@
           "relative_path": "api/Oqtane.Services.IUrlMappingService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IUrlMappingService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IUrlMappingService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.UrlMapping\" data-throw-if-not-resolved=\"false\"></xref>s on a <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3358,7 +4694,11 @@
           "relative_path": "api/Oqtane.Services.IUserRoleService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IUserRoleService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IUserRoleService.yml\" sourcestartlinenumber=\"1\">Manage <xref href=\"Oqtane.Models.Role\" data-throw-if-not-resolved=\"false\"></xref>s assigned to a specific <xref href=\"Oqtane.Models.User\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3368,7 +4708,11 @@
           "relative_path": "api/Oqtane.Services.IUserService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IUserService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IUserService.yml\" sourcestartlinenumber=\"1\">Manage (get / update) user information</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3378,7 +4722,11 @@
           "relative_path": "api/Oqtane.Services.IVisitorService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IVisitorService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.IVisitorService.yml\" sourcestartlinenumber=\"1\">Service to manage <xref href=\"Oqtane.Models.Visitor\" data-throw-if-not-resolved=\"false\"></xref>s on a <xref href=\"Oqtane.Models.Site\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3388,7 +4736,11 @@
           "relative_path": "api/Oqtane.Services.ImageService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ImageService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3398,7 +4750,11 @@
           "relative_path": "api/Oqtane.Services.RemoteServiceBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.RemoteServiceBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3408,7 +4764,11 @@
           "relative_path": "api/Oqtane.Services.SearchService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.SearchService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3418,7 +4778,11 @@
           "relative_path": "api/Oqtane.Services.ServiceBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ServiceBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3428,7 +4792,11 @@
           "relative_path": "api/Oqtane.Services.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3438,7 +4806,11 @@
           "relative_path": "api/Oqtane.Shared.AuthenticationProviderTypes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.AuthenticationProviderTypes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3448,7 +4820,11 @@
           "relative_path": "api/Oqtane.Shared.Constants.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.Constants",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3458,7 +4834,11 @@
           "relative_path": "api/Oqtane.Shared.ControllerRoutes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ControllerRoutes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3468,7 +4848,11 @@
           "relative_path": "api/Oqtane.Shared.CookieRequestCultureProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.CookieRequestCultureProvider",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3478,7 +4862,11 @@
           "relative_path": "api/Oqtane.Shared.EntityNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.EntityNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3488,7 +4876,11 @@
           "relative_path": "api/Oqtane.Shared.ExternalLoginProviders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ExternalLoginProviders",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3498,7 +4890,11 @@
           "relative_path": "api/Oqtane.Shared.ExternalLoginStatus.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ExternalLoginStatus",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3508,7 +4904,11 @@
           "relative_path": "api/Oqtane.Shared.FolderTypes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.FolderTypes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3518,7 +4918,11 @@
           "relative_path": "api/Oqtane.Shared.Icons.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.Icons",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3528,7 +4932,11 @@
           "relative_path": "api/Oqtane.Shared.InstallConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.InstallConfig",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3538,7 +4946,11 @@
           "relative_path": "api/Oqtane.Shared.LogLevel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.LogLevel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3548,7 +4960,11 @@
           "relative_path": "api/Oqtane.Shared.OqtaneIgnoreAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.OqtaneIgnoreAttribute",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3558,7 +4974,11 @@
           "relative_path": "api/Oqtane.Shared.PaneNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.PaneNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3568,7 +4988,11 @@
           "relative_path": "api/Oqtane.Shared.PermissionNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.PermissionNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3578,7 +5002,11 @@
           "relative_path": "api/Oqtane.Shared.PolicyNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.PolicyNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3588,7 +5016,11 @@
           "relative_path": "api/Oqtane.Shared.PropertyDictionary.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.PropertyDictionary",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3598,7 +5030,11 @@
           "relative_path": "api/Oqtane.Shared.RenderModes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.RenderModes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3608,7 +5044,11 @@
           "relative_path": "api/Oqtane.Shared.ResourceDeclaration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ResourceDeclaration",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3618,7 +5058,11 @@
           "relative_path": "api/Oqtane.Shared.ResourceLevel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ResourceLevel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3628,7 +5072,11 @@
           "relative_path": "api/Oqtane.Shared.ResourceLoadBehavior.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ResourceLoadBehavior",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3638,7 +5086,11 @@
           "relative_path": "api/Oqtane.Shared.ResourceLocation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ResourceLocation",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3648,7 +5100,11 @@
           "relative_path": "api/Oqtane.Shared.ResourceType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ResourceType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3658,7 +5114,11 @@
           "relative_path": "api/Oqtane.Shared.RoleNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.RoleNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3668,7 +5128,11 @@
           "relative_path": "api/Oqtane.Shared.Runtime.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.Runtime",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3678,7 +5142,11 @@
           "relative_path": "api/Oqtane.Shared.Runtimes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.Runtimes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3688,7 +5156,11 @@
           "relative_path": "api/Oqtane.Shared.SearchSortField.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SearchSortField",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3698,7 +5170,11 @@
           "relative_path": "api/Oqtane.Shared.SearchSortOrder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SearchSortOrder",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3708,7 +5184,11 @@
           "relative_path": "api/Oqtane.Shared.SearchUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SearchUtils",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3718,7 +5198,11 @@
           "relative_path": "api/Oqtane.Shared.SecurityAccessLevel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SecurityAccessLevel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3728,7 +5212,11 @@
           "relative_path": "api/Oqtane.Shared.ServiceActivator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.ServiceActivator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3738,7 +5226,11 @@
           "relative_path": "api/Oqtane.Shared.SettingKeys.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SettingKeys",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3748,7 +5240,11 @@
           "relative_path": "api/Oqtane.Shared.SiteState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SiteState",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3758,7 +5254,11 @@
           "relative_path": "api/Oqtane.Shared.SyncEventActions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.SyncEventActions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3768,7 +5268,11 @@
           "relative_path": "api/Oqtane.Shared.TenantNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.TenantNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3778,7 +5282,11 @@
           "relative_path": "api/Oqtane.Shared.UserNames.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.UserNames",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3788,7 +5296,11 @@
           "relative_path": "api/Oqtane.Shared.Utilities.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared.Utilities",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3798,7 +5310,11 @@
           "relative_path": "api/Oqtane.Shared.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Shared",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3808,7 +5324,11 @@
           "relative_path": "api/Oqtane.SharedResources.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.SharedResources",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.SharedResources.yml\" sourcestartlinenumber=\"1\">Dummy class used to collect shared resource strings for this application</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3818,7 +5338,11 @@
           "relative_path": "api/Oqtane.Startup.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Startup",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3828,7 +5352,11 @@
           "relative_path": "api/Oqtane.Themes.AdminContainer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.AdminContainer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3838,7 +5366,11 @@
           "relative_path": "api/Oqtane.Themes.ContainerBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.ContainerBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3848,7 +5380,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.Breadcrumbs.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.Breadcrumbs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3858,7 +5394,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ControlPanel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ControlPanel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3868,7 +5408,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ControlPanelInteractive.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ControlPanelInteractive",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3878,7 +5422,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.LanguageSwitcher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.LanguageSwitcher",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3888,7 +5436,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.Login.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.Login",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3898,7 +5450,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.LoginBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.LoginBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3908,7 +5464,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.Logo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.Logo",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3918,7 +5478,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.Menu.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.Menu",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3928,7 +5492,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.MenuBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.MenuBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3938,7 +5506,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.MenuHorizontal.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.MenuHorizontal",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3948,7 +5520,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.MenuItemsBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.MenuItemsBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3958,7 +5534,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.MenuItemsHorizontal.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.MenuItemsHorizontal",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3968,7 +5548,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.MenuItemsVertical.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.MenuItemsVertical",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3978,7 +5562,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.MenuVertical.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.MenuVertical",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3988,7 +5576,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ModuleActions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3998,7 +5590,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsBase.ActionViewModel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ModuleActionsBase.ActionViewModel",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4008,7 +5604,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ModuleActionsBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4018,7 +5618,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ModuleActionsInteractive.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ModuleActionsInteractive",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4028,7 +5632,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.ModuleTitle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.ModuleTitle",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4038,7 +5646,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.Search.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.Search",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4048,7 +5660,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.UserProfile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls.UserProfile",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4058,7 +5674,11 @@
           "relative_path": "api/Oqtane.Themes.Controls.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.Controls",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4068,7 +5688,11 @@
           "relative_path": "api/Oqtane.Themes.DefaultContainer.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.DefaultContainer",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4078,7 +5702,11 @@
           "relative_path": "api/Oqtane.Themes.IContainerControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.IContainerControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4088,7 +5716,11 @@
           "relative_path": "api/Oqtane.Themes.ILayoutControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.ILayoutControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4098,7 +5730,11 @@
           "relative_path": "api/Oqtane.Themes.ITheme.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.ITheme",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4108,7 +5744,11 @@
           "relative_path": "api/Oqtane.Themes.IThemeControl.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.IThemeControl",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4118,7 +5758,11 @@
           "relative_path": "api/Oqtane.Themes.LayoutBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.LayoutBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4128,7 +5772,11 @@
           "relative_path": "api/Oqtane.Themes.ThemeBase.Logger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.ThemeBase.Logger",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4138,7 +5786,11 @@
           "relative_path": "api/Oqtane.Themes.ThemeBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.ThemeBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4148,7 +5800,11 @@
           "relative_path": "api/Oqtane.Themes.ThemeControlBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes.ThemeControlBase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4158,7 +5814,11 @@
           "relative_path": "api/Oqtane.Themes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Themes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4168,7 +5828,11 @@
           "relative_path": "api/Oqtane.UI.ContainerBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.ContainerBuilder",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4178,7 +5842,11 @@
           "relative_path": "api/Oqtane.UI.Head.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.Head",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4188,7 +5856,11 @@
           "relative_path": "api/Oqtane.UI.InteractiveRenderMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.InteractiveRenderMode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4198,7 +5870,11 @@
           "relative_path": "api/Oqtane.UI.Interop.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.Interop",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4208,7 +5884,11 @@
           "relative_path": "api/Oqtane.UI.ModuleInstance.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.ModuleInstance",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4218,7 +5898,11 @@
           "relative_path": "api/Oqtane.UI.PageState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.PageState",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4228,7 +5912,11 @@
           "relative_path": "api/Oqtane.UI.Pane.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.Pane",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4238,7 +5926,11 @@
           "relative_path": "api/Oqtane.UI.RenderModeBoundary.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.RenderModeBoundary",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4248,7 +5940,11 @@
           "relative_path": "api/Oqtane.UI.Routes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.Routes",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4258,7 +5954,11 @@
           "relative_path": "api/Oqtane.UI.SiteRouter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.SiteRouter",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4268,7 +5968,11 @@
           "relative_path": "api/Oqtane.UI.ThemeBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI.ThemeBuilder",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4278,7 +5982,11 @@
           "relative_path": "api/Oqtane.UI.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.UI",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -4288,7 +5996,11 @@
           "relative_path": "api/Oqtane.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane",
+      "Summary": null
     },
     {
       "type": "Toc",

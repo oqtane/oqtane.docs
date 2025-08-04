@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Search Manual | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
+      <title>Search | Oqtane Docs - APIs and more for the Modular Blazor Application Framework </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Search Manual | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
+      <meta name="title" content="Search | Oqtane Docs - APIs and more for the Modular Blazor Application Framework ">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -85,15 +85,28 @@
         </div>
 
         <article data-uid="">
-<h1 id="search-manual">Search Manual</h1>
+<h1 id="search">Search</h1>
 
 <p><img src="../../pages/manuals/site/assets/search-settings.png" alt="Search Settings"></p>
-<p>This document describes the Search module, settings, and configuration for administrators to set up effective search functionality across their Oqtane site.</p>
 <h2 id="overview">Overview</h2>
-<p>The <strong>Search</strong> feature allows users to locate relevant content quickly across the site. Through scheduled indexing, the Search service keeps the content index updated. The following sections cover search settings, scheduling, and customization options for the administrator.</p>
+<p>The <strong>Search</strong> feature in Oqtane allows users to quickly locate content across the site. Through scheduled indexing and configurable settings, site administrators can fine-tune what content is included in search results. This guide explains how to access, configure, and maintain search capabilities through the control panel and host settings.</p>
+<hr>
+<h2 id="control-panel-walkthrough">Control Panel Walkthrough</h2>
+<h3 id="accessing-the-search-settings-feature">Accessing the Search Settings Feature</h3>
+<ol>
+<li><p>Click the <strong>Control Panel</strong> icon to access additional settings.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
+</li>
+<li><p>In the control panel, click the <strong>Admin Dashboard</strong> button.</p>
+<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
+</li>
+<li><p>In the admin dashboard, select the <strong>Search Settings</strong> icon.</p>
+<p><img src="../../pages/manuals/site/assets/admin-dashboard-search-settings.png" alt="Admin Dashboard Search Settings"></p>
+</li>
+</ol>
 <hr>
 <h2 id="search-settings">Search Settings</h2>
-<p>Administrators can configure the Search module through <strong>Host &gt; Search Settings</strong>. Below are explanations for each setting:</p>
+<p>Administrators can configure the search behavior under <strong>Host &gt; Search Settings</strong>. Below is a breakdown of each available setting:</p>
 <table>
 <thead>
 <tr>
@@ -133,9 +146,21 @@
 </tbody>
 </table>
 <hr>
-<h2 id="search-components">Search Components</h2>
-<h3 id="searchresx-file">Search.resx File</h3>
-<p>The <code>.resx</code> file includes localization data for search terms and placeholders in the search UI. Examples include:</p>
+<h2 id="reindexing-the-site">Reindexing the Site</h2>
+<p>After updating your search settings or changing significant site content, you should manually reindex the site to refresh the search index.</p>
+<h3 id="using-the-reindex-button">Using the Reindex Button</h3>
+<p>The <strong>Reindex</strong> button initiates a full scan and update of the site's searchable content.</p>
+<p><img src="../../pages/manuals/site/assets/search-settings-reindex-button.png" alt="Search Reindex Button"></p>
+<h4 id="steps">Steps:</h4>
+<ol>
+<li>Navigate to the <strong>Search Settings</strong> page as shown in the walkthrough.</li>
+<li>Click the <strong>Reindex</strong> button.</li>
+<li>Wait for the process to complete (duration depends on content volume).</li>
+</ol>
+<p>You will receive a notification when reindexing is complete.</p>
+<hr>
+<h2 id="localization-searchresx-file">Localization (Search.resx File)</h2>
+<p>The <code>Search.resx</code> file supports localization of search UI elements. You can customize search-related labels using this resource file.</p>
 <pre><code class="lang-xml">&lt;data name=&quot;Search&quot; xml:space=&quot;preserve&quot;&gt;
     &lt;value&gt;Search&lt;/value&gt;
 &lt;/data&gt;
@@ -143,42 +168,6 @@
     &lt;value&gt;Search&lt;/value&gt;
 &lt;/data&gt;
 </code></pre>
-<hr>
-<h1 id="configuring-search-in-oqtane">Configuring Search in Oqtane</h1>
-<p>This guide provides a step-by-step walkthrough for configuring the search functionality in Oqtane.</p>
-<hr>
-<h2 id="1-accessing-the-search-feature-in-the-default-theme">1. Accessing the Search Feature in the Default Theme</h2>
-<p>To get started, locate the search feature in the navigation bar of the default theme.</p>
-<p><img src="../../pages/manuals/site/assets/search-navigation-menu.png" alt="Search Feature in Navigation"></p>
-<hr>
-<h2 id="2-opening-the-control-panel">2. Opening the Control Panel</h2>
-<p>Next, click the control panel icon to access additional settings.</p>
-<p><img src="../../pages/manuals/site/assets/control-panel-button.png" alt="Control Panel Icon"></p>
-<hr>
-<h2 id="3-navigating-to-the-admin-dashboard">3. Navigating to the Admin Dashboard</h2>
-<p>In the control panel, select the button to open the admin dashboard, where you can manage various site settings.</p>
-<p><img src="../../pages/manuals/site/assets/control-panel-admin-dashboard-button.png" alt="Open Admin Dashboard"></p>
-<hr>
-<h2 id="4-accessing-search-settings">4. Accessing Search Settings</h2>
-<p>Finally, in the admin dashboard, click on the search settings icon to configure your search options.</p>
-<p><img src="../../pages/manuals/site/assets/admin-dashboard-search-settings.png" alt="Admin Dashboard Search Settings"></p>
-<hr>
-<h2 id="configuring-search-settings">Configuring Search Settings</h2>
-<p>Once in the search settings, you can adjust various parameters to customize how the search operates on your site.</p>
-<p><img src="../../pages/manuals/site/assets/search-settings.png" alt="Admininstration Search Settings"></p>
-<h2 id="using-the-reindex-button">Using the Reindex Button</h2>
-<p>After configuring your search settings, you may need to reindex your content to ensure that the latest changes take effect.</p>
-<h3 id="reindex-button-description">Reindex Button Description</h3>
-<p>The <strong>Reindex</strong> button initiates the process of scanning your site's content and updating the search index accordingly. This is essential after making changes to your site's content, structure, or search settings.</p>
-<p><img src="../../pages/manuals/site/assets/search-settings-reindex-button.png" alt="Search Reindex Button"></p>
-<h3 id="how-to-use-the-reindex-button">How to Use the Reindex Button</h3>
-<ol>
-<li>Navigate to the search settings page as described in the previous sections.</li>
-<li>Locate the <strong>Reindex</strong> button on the settings page.</li>
-<li>Click the <strong>Reindex</strong> button to start the indexing process.</li>
-</ol>
-<p><strong>Note:</strong> Depending on the amount of content on your site, the reindexing process may take some time. You will receive a notification once the process is complete.</p>
-<hr>
 
 </article>
 
