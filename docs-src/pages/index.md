@@ -1,4 +1,4 @@
-# Oqtane Documentation 6.1.2
+# Oqtane Documentation 6.2
 
 > Oqtane is _the_ **Modular Application Framework for Blazor**
 >
