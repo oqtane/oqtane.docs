@@ -8,7 +8,7 @@ $ErrorActionPreference = 'Stop'
 
 $scriptRoot = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 $docsSrc = Resolve-Path (Join-Path $scriptRoot "..")
-$repoRoot = Resolve-Path (Join-Path $docsSrc "..\..")
+$repoRoot = Resolve-Path (Join-Path $docsSrc ".." "..")
 $frameworkRoot = Join-Path $repoRoot "oqtane.framework"
 if (-not (Test-Path $frameworkRoot)) {
     throw "Expected oqtane.framework sibling folder at '$frameworkRoot'."
