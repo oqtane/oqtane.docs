@@ -25,6 +25,12 @@
       "filter": "filterConfig.yml",
       "properties": {
         // "TargetFramework": "net9.0"
+        // "SkipCompilerExecution": "false", 
+        // "EnableDefaultRazorComponentItems": "true", // include Blazor components in the API docs
+        // "RazorGenerateOutputFileExtension": ".razor.cs", // ensure Razor components are treated as C# files
+        // "EmbedRazorGenerateSources": "true" // ensure Razor components are treated as C# files
+        // "UseRazorSourceGenerator": "true", // ensure Razor components are treated as C# files
+        // "GenerateRazorMetadata": "true" // ensure Razor components are treated as C# files
       },
       "namespaceLayout": "nested", // make APIs use a tree
     }
