@@ -96,5 +96,25 @@
         "reveal": "always"
       }
     },
+        {
+      "label": "docfx: serve",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/docfx-support/run.ps1",
+        ";",
+        "docfx",
+        "serve",
+        "../docs"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
   ]
 }
