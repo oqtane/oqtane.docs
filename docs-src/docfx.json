@@ -12,6 +12,7 @@
             "**/obj/**",
             "**/bin/**",
             "_site/**",
+            "Oqtane.Application/**",
             "Oqtane.Test",
             "Oqtane.Database.*",
             "Oqtane.Maui/**",
