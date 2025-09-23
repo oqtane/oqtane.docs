@@ -9,7 +9,7 @@
     "webpack-dev": "webpack --watch --mode development -c ./templates/shared-global/webpack.config.js",
     "docfx-metadata": "pwsh ./docfx-support/run.ps1 docfx metadata",
     "docfx-build": "pwsh -NoProfile -Command \"& { docfx build }\"",
-    "docfx-serve": "pwsh -NoProfile -Command \"& { ./docfx-support/run.ps1 docfx metadata; docfx serve ../docs --hostname localhost --port 8080 }\""
+    "docfx-serve": "pwsh -NoProfile -Command \"& { ./docfx-support/run.ps1 docfx metadata && docfx serve ../docs --hostname localhost --port 8080 }\""
   },
   "author": "",
   "license": "ISC",
