@@ -14,12 +14,12 @@ if (-not (Test-Path $frameworkRoot)) {
     throw "Expected oqtane.framework sibling folder at '$frameworkRoot'."
 }
 
-$stubSource = Join-Path $scriptRoot "stubs\RadzenTextEditorStub.cs"
+$stubSource = Join-Path $scriptRoot "stubs" "RadzenTextEditor.placeholder.cs"
 if (-not (Test-Path $stubSource)) {
     throw "Stub source '$stubSource' not found."
 }
 
-$stubDestination = Join-Path (Join-Path (Join-Path (Join-Path (Join-Path $frameworkRoot 'Oqtane.Client') 'Modules') 'Controls') 'TextEditors\Radzen\RadzenTextEditor.DocfxStub.cs')
+$stubDestination = Join-Path $frameworkRoot "Oqtane.Client" "Modules" "Controls" "TextEditors" "Radzen" "RadzenTextEditor.DocfxStub.cs"
 $hadExistingStub = Test-Path $stubDestination
 
 try {

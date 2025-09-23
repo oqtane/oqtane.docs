@@ -11,20 +11,34 @@
         "runOn": "folderOpen"
       }
     },
-    {
-      "label": "docfx: build docs (skip building API, faster for documentation)",
-      "type": "shell",
-      "command": "docfx build",
-      "group": "build",
-      "presentation": {
-        "reveal": "always"
-      }
-    },
+    // {
+    //   "label": "build",
+    //   "command": "dotnet",
+    //   "type": "shell",
+    //   "args": [
+    //     "build",
+    //     // Ask dotnet build to generate full paths for file names.
+    //     "/property:GenerateFullPaths=true",
+    //     // Do not generate summary otherwise it leads to duplicate errors in Problems panel
+    //     "/consoleloggerparameters:NoSummary"
+    //   ],
+    //   "group": "build",
+    //   "presentation": {
+    //     "reveal": "silent"
+    //   },
+    //   "problemMatcher": "$msCompile"
+    // }
     {
       "label": "build",
-      "command": "dotnet",
       "type": "shell",
+      "command": "pwsh",
       "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/docfx-support/run.ps1",
+        "dotnet",
         "build",
         // Ask dotnet build to generate full paths for file names.
         "/property:GenerateFullPaths=true",
@@ -36,6 +50,51 @@
         "reveal": "silent"
       },
       "problemMatcher": "$msCompile"
-    }
+    },
+    // {
+    //   "label": "docfx: build docs (skip building API, faster for documentation)",
+    //   "type": "shell",
+    //   "command": "docfx build",
+    //   "group": "build",
+    //   "presentation": {
+    //     "reveal": "always"
+    //   }
+    // },
+    {
+      "label": "docfx: build docs (skip building API, faster for documentation) with stub generation",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/docfx-support/run.ps1",
+        "docfx",
+        "build"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "docfx: metadata",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/docfx-support/run.ps1",
+        "docfx",
+        "metadata"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
   ]
 }
