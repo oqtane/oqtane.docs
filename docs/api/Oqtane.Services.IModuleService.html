@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Services_IModuleService" data-uid="Oqtane.Services.IModuleService" class="text-break">
-Interface IModuleService  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Interface IModuleService  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,7 +125,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_AddModuleAsync_Oqtane_Models_Module_" data-uid="Oqtane.Services.IModuleService.AddModuleAsync(Oqtane.Models.Module)">
   AddModuleAsync(Module)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a new module</p>
@@ -162,7 +162,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_DeleteModuleAsync_System_Int32_" data-uid="Oqtane.Services.IModuleService.DeleteModuleAsync(System.Int32)">
   DeleteModuleAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deletes a module</p>
@@ -199,7 +199,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_ExportModuleAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IModuleService.ExportModuleAsync(System.Int32,System.Int32)">
   ExportModuleAsync(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Exports a given module</p>
@@ -221,7 +221,51 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Task</span>&lt;<span class="xref">string</span>&gt;</dt>
-    <dd><p>module in JSON</p>
+    <dd><p>module content in JSON format</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Services_IModuleService_ExportModuleAsync_" data-uid="Oqtane.Services.IModuleService.ExportModuleAsync*"></a>
+
+  <h3 id="Oqtane_Services_IModuleService_ExportModuleAsync_System_Int32_System_Int32_System_Int32_System_String_" data-uid="Oqtane.Services.IModuleService.ExportModuleAsync(System.Int32,System.Int32,System.Int32,System.String)">
+  ExportModuleAsync(int, int, int, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Exports a given module</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; ExportModuleAsync(int moduleId, int pageId, int folderId, string filename)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>moduleId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>pageId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>folderId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>filename</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">int</span>&gt;</dt>
+    <dd><p>file id</p>
 </dd>
   </dl>
 
@@ -239,7 +283,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_GetModuleAsync_System_Int32_" data-uid="Oqtane.Services.IModuleService.GetModuleAsync(System.Int32)">
   GetModuleAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a specific module</p>
@@ -276,7 +320,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_GetModulesAsync_System_Int32_" data-uid="Oqtane.Services.IModuleService.GetModulesAsync(System.Int32)">
   GetModulesAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of modules for the given site</p>
@@ -313,7 +357,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_ImportModuleAsync_System_Int32_System_Int32_System_String_" data-uid="Oqtane.Services.IModuleService.ImportModuleAsync(System.Int32,System.Int32,System.String)">
   ImportModuleAsync(int, int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Imports a module</p>
@@ -355,7 +399,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 
   <h3 id="Oqtane_Services_IModuleService_UpdateModuleAsync_Oqtane_Models_Module_" data-uid="Oqtane.Services.IModuleService.UpdateModuleAsync(Oqtane.Models.Module)">
   UpdateModuleAsync(Module)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Updates an existing module</p>
@@ -392,7 +436,7 @@ Interface IModuleService  <a class="header-action link-secondary" title="View so
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/Interfaces/IModuleService.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ModuleService.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

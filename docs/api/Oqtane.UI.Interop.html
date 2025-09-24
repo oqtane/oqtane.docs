@@ -1302,8 +1302,8 @@ Class Interop  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Oqtane_UI_Interop_UploadFiles_" data-uid="Oqtane.UI.Interop.UploadFiles*"></a>
 
-  <h3 id="Oqtane_UI_Interop_UploadFiles_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Threading_CancellationToken_" data-uid="Oqtane.UI.Interop.UploadFiles(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)">
-  UploadFiles(string, string, string, string, string, int, CancellationToken)
+  <h3 id="Oqtane_UI_Interop_UploadFiles_System_String_System_String_System_String_System_String_System_String_System_Int32_System_Boolean_System_Threading_CancellationToken_" data-uid="Oqtane.UI.Interop.UploadFiles(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Threading.CancellationToken)">
+  UploadFiles(string, string, string, string, string, int, bool, CancellationToken)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/UI/Interop.cs/#L231"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -1311,7 +1311,7 @@ Class Interop  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueTask&lt;bool&gt; UploadFiles(string posturl, string folder, string id, string antiforgerytoken, string jwt, int chunksize, CancellationToken cancellationToken = default)</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueTask&lt;bool&gt; UploadFiles(string posturl, string folder, string id, string antiforgerytoken, string jwt, int chunksize, bool anonymizeuploadfilenames, CancellationToken cancellationToken = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1327,6 +1327,8 @@ Class Interop  <a class="header-action link-secondary" title="View source" href=
     <dt><code>jwt</code> <span class="xref">string</span></dt>
     <dd></dd>
     <dt><code>chunksize</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>anonymizeuploadfilenames</code> <span class="xref">bool</span></dt>
     <dd></dd>
     <dt><code>cancellationToken</code> <span class="xref">CancellationToken</span></dt>
     <dd></dd>

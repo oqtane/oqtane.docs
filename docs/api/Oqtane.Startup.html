@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Startup" data-uid="Oqtane.Startup" class="text-break">
-Class Startup  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L30"><i class="bi bi-code-slash"></i></a>
+Class Startup  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -129,64 +129,27 @@ Class Startup  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Oqtane_Startup__ctor_" data-uid="Oqtane.Startup.#ctor*"></a>
 
-  <h3 id="Oqtane_Startup__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ILocalizationManager_" data-uid="Oqtane.Startup.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ILocalizationManager)">
-  Startup(IWebHostEnvironment, ILocalizationManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Startup__ctor_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_" data-uid="Oqtane.Startup.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+  Startup(IWebHostEnvironment)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Startup(IWebHostEnvironment env, ILocalizationManager localizationManager)</code></pre>
+    <pre><code class="lang-csharp hljs">public Startup(IWebHostEnvironment environment)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>env</code> <span class="xref">IWebHostEnvironment</span></dt>
-    <dd></dd>
-    <dt><code>localizationManager</code> <a class="xref" href="Oqtane.Infrastructure.ILocalizationManager.html">ILocalizationManager</a></dt>
+    <dt><code>environment</code> <span class="xref">IWebHostEnvironment</span></dt>
     <dd></dd>
   </dl>
 
 
 
 
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="Oqtane_Startup_Configuration_" data-uid="Oqtane.Startup.Configuration*"></a>
-
-  <h3 id="Oqtane_Startup_Configuration" data-uid="Oqtane.Startup.Configuration">
-  Configuration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L37"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IConfigurationRoot Configuration { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">IConfigurationRoot</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -201,31 +164,31 @@ Class Startup  <a class="header-action link-secondary" title="View source" href=
 
   <a id="Oqtane_Startup_Configure_" data-uid="Oqtane.Startup.Configure*"></a>
 
-  <h3 id="Oqtane_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ISyncManager_Microsoft_AspNetCore_Cors_Infrastructure_ICorsService_Microsoft_AspNetCore_Cors_Infrastructure_ICorsPolicyProvider_Microsoft_Extensions_Logging_ILogger_Oqtane_Startup__" data-uid="Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ISyncManager,Microsoft.AspNetCore.Cors.Infrastructure.ICorsService,Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider,Microsoft.Extensions.Logging.ILogger{Oqtane.Startup})">
-  Configure(IApplicationBuilder, IWebHostEnvironment, ISyncManager, ICorsService, ICorsPolicyProvider, ILogger&lt;Startup&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Cors_Infrastructure_ICorsService_Microsoft_AspNetCore_Cors_Infrastructure_ICorsPolicyProvider_Oqtane_Infrastructure_ISyncManager_" data-uid="Oqtane.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Cors.Infrastructure.ICorsService,Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider,Oqtane.Infrastructure.ISyncManager)">
+  Configure(IApplicationBuilder, IConfigurationRoot, IWebHostEnvironment, ICorsService, ICorsPolicyProvider, ISyncManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ISyncManager sync, ICorsService corsService, ICorsPolicyProvider corsPolicyProvider, ILogger&lt;Startup&gt; logger)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Configure(IApplicationBuilder app, IConfigurationRoot configuration, IWebHostEnvironment environment, ICorsService corsService, ICorsPolicyProvider corsPolicyProvider, ISyncManager sync)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>app</code> <span class="xref">IApplicationBuilder</span></dt>
     <dd></dd>
-    <dt><code>env</code> <span class="xref">IWebHostEnvironment</span></dt>
+    <dt><code>configuration</code> <span class="xref">IConfigurationRoot</span></dt>
     <dd></dd>
-    <dt><code>sync</code> <a class="xref" href="Oqtane.Infrastructure.ISyncManager.html">ISyncManager</a></dt>
+    <dt><code>environment</code> <span class="xref">IWebHostEnvironment</span></dt>
     <dd></dd>
     <dt><code>corsService</code> <span class="xref">ICorsService</span></dt>
     <dd></dd>
     <dt><code>corsPolicyProvider</code> <span class="xref">ICorsPolicyProvider</span></dt>
     <dd></dd>
-    <dt><code>logger</code> <span class="xref">ILogger</span>&lt;<a class="xref" href="Oqtane.Startup.html">Startup</a>&gt;</dt>
+    <dt><code>sync</code> <a class="xref" href="Oqtane.Infrastructure.ISyncManager.html">ISyncManager</a></dt>
     <dd></dd>
   </dl>
 
@@ -244,7 +207,7 @@ Class Startup  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="Oqtane_Startup_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="Oqtane.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
   ConfigureServices(IServiceCollection)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -275,7 +238,7 @@ Class Startup  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Startup.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

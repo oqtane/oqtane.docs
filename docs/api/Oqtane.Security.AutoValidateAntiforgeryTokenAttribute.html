@@ -193,27 +193,27 @@ ascending numeric value of the <span class="xref">Microsoft.AspNetCore.Mvc.Filte
 
   <h4 class="section" id="Oqtane_Security_AutoValidateAntiforgeryTokenAttribute_Order_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>
-        Filters are executed in an ordering determined by an ascending sort of the <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> property.
-        </p>
+Filters are executed in an ordering determined by an ascending sort of the <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> property.
+</p>
 <p>
-        Asynchronous filters, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter</span>, surround the execution of subsequent
-        filters of the same filter kind. An asynchronous filter with a lower numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>
-        value will have its filter method, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)</span>,
-        executed before that of a filter with a higher value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>.
-        </p>
+Asynchronous filters, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter</span>, surround the execution of subsequent
+filters of the same filter kind. An asynchronous filter with a lower numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>
+value will have its filter method, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter.OnActionExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ActionExecutionDelegate)</span>,
+executed before that of a filter with a higher value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>.
+</p>
 <p>
-        Synchronous filters, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter</span>, have a before-method, such as
-        <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)</span>, and an after-method, such as
-        <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)</span>. A synchronous filter with a lower numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>
-        value will have its before-method executed before that of a filter with a higher value of
-        <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>. During the after-stage of the filter, a synchronous filter with a lower
-        numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> value will have its after-method executed after that of a filter with a higher
-        value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>.
-        </p>
+Synchronous filters, such as <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter</span>, have a before-method, such as
+<span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)</span>, and an after-method, such as
+<span class="xref">Microsoft.AspNetCore.Mvc.Filters.IActionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)</span>. A synchronous filter with a lower numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>
+value will have its before-method executed before that of a filter with a higher value of
+<span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>. During the after-stage of the filter, a synchronous filter with a lower
+numeric <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span> value will have its after-method executed after that of a filter with a higher
+value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>.
+</p>
 <p>
-        If two filters have the same numeric value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>, then their relative execution order
-        is determined by the filter scope.
-        </p>
+If two filters have the same numeric value of <span class="xref">Microsoft.AspNetCore.Mvc.Filters.IOrderedFilter.Order</span>, then their relative execution order
+is determined by the filter scope.
+</p>
 </div>
 
 

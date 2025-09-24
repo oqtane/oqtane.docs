@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Extensions_ApplicationBuilderExtensions" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions" class="text-break">
-Class ApplicationBuilderExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class ApplicationBuilderExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -131,7 +131,7 @@ Class ApplicationBuilderExtensions  <a class="header-action link-secondary" titl
 
   <h3 id="Oqtane_Extensions_ApplicationBuilderExtensions_ConfigureOqtaneAssemblies_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.ConfigureOqtaneAssemblies(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
   ConfigureOqtaneAssemblies(IApplicationBuilder, IWebHostEnvironment)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -169,7 +169,7 @@ Class ApplicationBuilderExtensions  <a class="header-action link-secondary" titl
 
   <h3 id="Oqtane_Extensions_ApplicationBuilderExtensions_UseExceptionMiddleWare_Microsoft_AspNetCore_Builder_IApplicationBuilder_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseExceptionMiddleWare(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
   UseExceptionMiddleWare(IApplicationBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -205,7 +205,7 @@ Class ApplicationBuilderExtensions  <a class="header-action link-secondary" titl
 
   <h3 id="Oqtane_Extensions_ApplicationBuilderExtensions_UseJwtAuthorization_Microsoft_AspNetCore_Builder_IApplicationBuilder_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseJwtAuthorization(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
   UseJwtAuthorization(IApplicationBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L144"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -237,11 +237,57 @@ Class ApplicationBuilderExtensions  <a class="header-action link-secondary" titl
 
 
 
+  <a id="Oqtane_Extensions_ApplicationBuilderExtensions_UseOqtane_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseOqtane*"></a>
+
+  <h3 id="Oqtane_Extensions_ApplicationBuilderExtensions_UseOqtane_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_Extensions_Configuration_IConfigurationRoot_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Cors_Infrastructure_ICorsService_Microsoft_AspNetCore_Cors_Infrastructure_ICorsPolicyProvider_Oqtane_Infrastructure_ISyncManager_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseOqtane(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfigurationRoot,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Cors.Infrastructure.ICorsService,Microsoft.AspNetCore.Cors.Infrastructure.ICorsPolicyProvider,Oqtane.Infrastructure.ISyncManager)">
+  UseOqtane(IApplicationBuilder, IConfigurationRoot, IWebHostEnvironment, ICorsService, ICorsPolicyProvider, ISyncManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IApplicationBuilder UseOqtane(this IApplicationBuilder app, IConfigurationRoot configuration, IWebHostEnvironment environment, ICorsService corsService, ICorsPolicyProvider corsPolicyProvider, ISyncManager sync)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>app</code> <span class="xref">IApplicationBuilder</span></dt>
+    <dd></dd>
+    <dt><code>configuration</code> <span class="xref">IConfigurationRoot</span></dt>
+    <dd></dd>
+    <dt><code>environment</code> <span class="xref">IWebHostEnvironment</span></dt>
+    <dd></dd>
+    <dt><code>corsService</code> <span class="xref">ICorsService</span></dt>
+    <dd></dd>
+    <dt><code>corsPolicyProvider</code> <span class="xref">ICorsPolicyProvider</span></dt>
+    <dd></dd>
+    <dt><code>sync</code> <a class="xref" href="Oqtane.Infrastructure.ISyncManager.html">ISyncManager</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IApplicationBuilder</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Extensions_ApplicationBuilderExtensions_UseOqtaneLocalization_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseOqtaneLocalization*"></a>
 
   <h3 id="Oqtane_Extensions_ApplicationBuilderExtensions_UseOqtaneLocalization_Microsoft_AspNetCore_Builder_IApplicationBuilder_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseOqtaneLocalization(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
   UseOqtaneLocalization(IApplicationBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -277,7 +323,7 @@ Class ApplicationBuilderExtensions  <a class="header-action link-secondary" titl
 
   <h3 id="Oqtane_Extensions_ApplicationBuilderExtensions_UseTenantResolution_Microsoft_AspNetCore_Builder_IApplicationBuilder_" data-uid="Oqtane.Extensions.ApplicationBuilderExtensions.UseTenantResolution(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
   UseTenantResolution(IApplicationBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L141"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -313,7 +359,7 @@ Class ApplicationBuilderExtensions  <a class="header-action link-secondary" titl
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Extensions/ApplicationBuilderExtensions.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
 

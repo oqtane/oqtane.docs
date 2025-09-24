@@ -1258,6 +1258,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Infrastructure.ITokenReplace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Infrastructure.ITokenReplace.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Infrastructure.ITokenReplace",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Infrastructure.IUpgradeManager.yml",
       "output": {
         ".html": {
@@ -2448,6 +2462,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Models.TimeZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.TimeZone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.TimeZone",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Models.UrlMapping.yml",
       "output": {
         ".html": {
@@ -2710,6 +2738,76 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Oqtane.Modules.Controls.QuillJSTextEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Modules.Controls.QuillJSTextEditorInterop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.QuillJSTextEditorInterop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.QuillJSTextEditorInterop",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Modules.Controls.RadzenEditorDefinitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.RadzenEditorDefinitions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.RadzenEditorDefinitions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Modules.Controls.RadzenEditorSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.RadzenEditorSetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.RadzenEditorSetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Modules.Controls.RadzenTextEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.RadzenTextEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.RadzenTextEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Modules.Controls.RadzenTextEditorInterop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.Controls.RadzenTextEditorInterop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.Controls.RadzenTextEditorInterop",
       "Summary": null
     },
     {
@@ -4520,6 +4618,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Services.IRadzenEditorSettingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.IRadzenEditorSettingService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IRadzenEditorSettingService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Services.IRoleService.yml",
       "output": {
         ".html": {
@@ -4674,6 +4786,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Services.ITimeZoneService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.ITimeZoneService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.ITimeZoneService",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ITimeZoneService.yml\" sourcestartlinenumber=\"1\">Service to retrieve <xref href=\"System.TimeZone\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Services.IUrlMappingService.yml",
       "output": {
         ".html": {
@@ -4740,6 +4866,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Oqtane.Services.ImageService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Services.RadzenEditorSettingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.RadzenEditorSettingService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.RadzenEditorSettingService",
       "Summary": null
     },
     {
@@ -5819,6 +5959,20 @@
       "IsMRef": true,
       "Title": "Oqtane.Themes",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.TimeZoneResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.TimeZoneResources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.TimeZoneResources",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.TimeZoneResources.yml\" sourcestartlinenumber=\"1\">Dummy class used to collect shared resource strings for this application</p>\n"
     },
     {
       "type": "ManagedReference",
