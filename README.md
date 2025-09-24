@@ -6,6 +6,10 @@ It's published on [docs.oqtane.org](https://docs.oqtane.org).
 
 ## Setup, Build & Publish
 
+First, open the workspace in the `docs-src` folder.
+
+DocFx tasks are define in `docs-src/.vscode/tasks.json` and can be run from the Command Palette (`Ctrl+Shift+P`).
+
 To set everything up, follow the instructions on <https://docs.oqtane.org/dev/docs/index.html/>.
 
 For further discussions, feedback, or questions, head over to [GitHub Discussions](https://github.com/oqtane/oqtane.docs/discussions).
