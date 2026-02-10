@@ -2,7 +2,7 @@
 
 > Oqtane is _the_ **Modular Application Framework for Blazor**
 >
-> Modern, Flexible, and Open Source - running on .net 9 - and soon .net 10!
+> Modern, Flexible, and Open Source - running on .net 10!
 
 ## Documentation Contents
 
