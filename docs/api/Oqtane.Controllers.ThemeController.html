@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Controllers_ThemeController" data-uid="Oqtane.Controllers.ThemeController" class="text-break">
-Class ThemeController  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L22"><i class="bi bi-code-slash"></i></a>
+Class ThemeController  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -132,16 +132,16 @@ public class ThemeController : Controller</code></pre>
 
   <a id="Oqtane_Controllers_ThemeController__ctor_" data-uid="Oqtane.Controllers.ThemeController.#ctor*"></a>
 
-  <h3 id="Oqtane_Controllers_ThemeController__ctor_Oqtane_Repository_IThemeRepository_Oqtane_Infrastructure_IInstallationManager_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ITenantManager_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_System_IServiceProvider_" data-uid="Oqtane.Controllers.ThemeController.#ctor(Oqtane.Repository.IThemeRepository,Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ITenantManager,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager,System.IServiceProvider)">
-  ThemeController(IThemeRepository, IInstallationManager, IWebHostEnvironment, ITenantManager, ISyncManager, ILogManager, IServiceProvider)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_ThemeController__ctor_Oqtane_Repository_IThemeRepository_Oqtane_Infrastructure_IInstallationManager_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Oqtane_Infrastructure_ITenantManager_Oqtane_Security_IUserPermissions_Oqtane_Infrastructure_ISyncManager_Oqtane_Infrastructure_ILogManager_System_IServiceProvider_" data-uid="Oqtane.Controllers.ThemeController.#ctor(Oqtane.Repository.IThemeRepository,Oqtane.Infrastructure.IInstallationManager,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Oqtane.Infrastructure.ITenantManager,Oqtane.Security.IUserPermissions,Oqtane.Infrastructure.ISyncManager,Oqtane.Infrastructure.ILogManager,System.IServiceProvider)">
+  ThemeController(IThemeRepository, IInstallationManager, IWebHostEnvironment, ITenantManager, IUserPermissions, ISyncManager, ILogManager, IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ThemeController(IThemeRepository themes, IInstallationManager installationManager, IWebHostEnvironment environment, ITenantManager tenantManager, ISyncManager syncManager, ILogManager logger, IServiceProvider serviceProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public ThemeController(IThemeRepository themes, IInstallationManager installationManager, IWebHostEnvironment environment, ITenantManager tenantManager, IUserPermissions userPermissions, ISyncManager syncManager, ILogManager logger, IServiceProvider serviceProvider)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -153,6 +153,8 @@ public class ThemeController : Controller</code></pre>
     <dt><code>environment</code> <span class="xref">IWebHostEnvironment</span></dt>
     <dd></dd>
     <dt><code>tenantManager</code> <a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></dt>
+    <dd></dd>
+    <dt><code>userPermissions</code> <a class="xref" href="Oqtane.Security.IUserPermissions.html">IUserPermissions</a></dt>
     <dd></dd>
     <dt><code>syncManager</code> <a class="xref" href="Oqtane.Infrastructure.ISyncManager.html">ISyncManager</a></dt>
     <dd></dd>
@@ -179,59 +181,28 @@ public class ThemeController : Controller</code></pre>
 
   <a id="Oqtane_Controllers_ThemeController_Delete_" data-uid="Oqtane.Controllers.ThemeController.Delete*"></a>
 
-  <h3 id="Oqtane_Controllers_ThemeController_Delete_System_String_" data-uid="Oqtane.Controllers.ThemeController.Delete(System.String)">
-  Delete(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Controllers_ThemeController_Delete_System_Int32_System_Int32_" data-uid="Oqtane.Controllers.ThemeController.Delete(System.Int32,System.Int32)">
+  Delete(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpDelete(&quot;{themename}&quot;)]
+    <pre><code class="lang-csharp hljs">[HttpDelete(&quot;{id}&quot;)]
 [Authorize(Roles = &quot;Host Users&quot;)]
-public void Delete(string themename)</code></pre>
+public void Delete(int id, int siteid)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>themename</code> <span class="xref">string</span></dt>
+    <dt><code>id</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>siteid</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Oqtane_Controllers_ThemeController_Get_" data-uid="Oqtane.Controllers.ThemeController.Get*"></a>
-
-  <h3 id="Oqtane_Controllers_ThemeController_Get" data-uid="Oqtane.Controllers.ThemeController.Get">
-  Get()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L47"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[HttpGet]
-[Authorize(Roles = &quot;Registered Users&quot;)]
-public IEnumerable&lt;Theme&gt; Get()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Oqtane.Models.Theme.html">Theme</a>&gt;</dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -247,7 +218,7 @@ public IEnumerable&lt;Theme&gt; Get()</code></pre>
 
   <h3 id="Oqtane_Controllers_ThemeController_Get_System_Int32_System_String_" data-uid="Oqtane.Controllers.ThemeController.Get(System.Int32,System.String)">
   Get(int, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -282,11 +253,49 @@ public Theme Get(int id, string siteid)</code></pre>
 
 
 
+  <a id="Oqtane_Controllers_ThemeController_Get_" data-uid="Oqtane.Controllers.ThemeController.Get*"></a>
+
+  <h3 id="Oqtane_Controllers_ThemeController_Get_System_String_" data-uid="Oqtane.Controllers.ThemeController.Get(System.String)">
+  Get(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet]
+[Authorize(Roles = &quot;Registered Users&quot;)]
+public IEnumerable&lt;Theme&gt; Get(string siteid)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>siteid</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IEnumerable</span>&lt;<a class="xref" href="Oqtane.Models.Theme.html">Theme</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Controllers_ThemeController_GetTemplates_" data-uid="Oqtane.Controllers.ThemeController.GetTemplates*"></a>
 
   <h3 id="Oqtane_Controllers_ThemeController_GetTemplates" data-uid="Oqtane.Controllers.ThemeController.GetTemplates">
   GetTemplates()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -319,7 +328,7 @@ public List&lt;Template&gt; GetTemplates()</code></pre>
 
   <h3 id="Oqtane_Controllers_ThemeController_Post_Oqtane_Models_Theme_" data-uid="Oqtane.Controllers.ThemeController.Post(Oqtane.Models.Theme)">
   Post(Theme)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -357,7 +366,7 @@ public Theme Post(Theme theme)</code></pre>
 
   <h3 id="Oqtane_Controllers_ThemeController_Put_System_Int32_Oqtane_Models_Theme_" data-uid="Oqtane.Controllers.ThemeController.Put(System.Int32,Oqtane.Models.Theme)">
   Put(int, Theme)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -392,7 +401,7 @@ public void Put(int id, Theme theme)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L22" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Controllers/ThemeController.cs/#L25" class="edit-link">Edit this page</a>
         </div>
 
 

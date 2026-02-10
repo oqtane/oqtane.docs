@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Repository_TenantDBContext" data-uid="Oqtane.Repository.TenantDBContext" class="text-break">
-Class TenantDBContext  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class TenantDBContext  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TenantDBContext : DBContextBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class TenantDBContext : IdentityUserContext&lt;IdentityUser&gt;</code></pre>
   </div>
 
 
@@ -112,35 +112,16 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">DbContext</span></div>
+      <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>, <span class="xref">string</span>, <span class="xref">IdentityUserClaim</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserLogin</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserToken</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserPasskey</span>&lt;<span class="xref">string</span>&gt;&gt;</div>
       <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>, <span class="xref">string</span>, <span class="xref">IdentityUserClaim</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserLogin</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserToken</span>&lt;<span class="xref">string</span>&gt;&gt;</div>
       <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>, <span class="xref">string</span>&gt;</div>
       <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>&gt;</div>
-      <div><a class="xref" href="Oqtane.Repository.DBContextBase.html">DBContextBase</a></div>
       <div><span class="xref">TenantDBContext</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_ActiveDatabase">DBContextBase.ActiveDatabase</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_">DBContextBase.OnConfiguring(DbContextOptionsBuilder)</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_">DBContextBase.OnModelCreating(ModelBuilder)</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_SaveChanges">DBContextBase.SaveChanges()</a>
-    </div>
-    <div>
-      <a class="xref" href="Oqtane.Repository.DBContextBase.html#Oqtane_Repository_DBContextBase_SaveChangesAsync_System_Threading_CancellationToken_">DBContextBase.SaveChangesAsync(CancellationToken)</a>
-    </div>
-  </dd></dl>
 
 
 
@@ -153,20 +134,22 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <a id="Oqtane_Repository_TenantDBContext__ctor_" data-uid="Oqtane.Repository.TenantDBContext.#ctor*"></a>
 
-  <h3 id="Oqtane_Repository_TenantDBContext__ctor_Oqtane_Repository_IDBContextDependencies_" data-uid="Oqtane.Repository.TenantDBContext.#ctor(Oqtane.Repository.IDBContextDependencies)">
-  TenantDBContext(IDBContextDependencies)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Repository_TenantDBContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_Oqtane_Repository_TenantDBContext__Oqtane_Repository_IDBContextDependencies_" data-uid="Oqtane.Repository.TenantDBContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Oqtane.Repository.TenantDBContext},Oqtane.Repository.IDBContextDependencies)">
+  TenantDBContext(DbContextOptions&lt;TenantDBContext&gt;, IDBContextDependencies)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TenantDBContext(IDBContextDependencies DBContextDependencies)</code></pre>
+    <pre><code class="lang-csharp hljs">public TenantDBContext(DbContextOptions&lt;TenantDBContext&gt; options, IDBContextDependencies DBContextDependencies)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
+    <dt><code>options</code> <span class="xref">DbContextOptions</span>&lt;<a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a>&gt;</dt>
+    <dd></dd>
     <dt><code>DBContextDependencies</code> <a class="xref" href="Oqtane.Repository.IDBContextDependencies.html">IDBContextDependencies</a></dt>
     <dd></dd>
   </dl>
@@ -186,11 +169,42 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="Oqtane_Repository_TenantDBContext_ActiveDatabase_" data-uid="Oqtane.Repository.TenantDBContext.ActiveDatabase*"></a>
+
+  <h3 id="Oqtane_Repository_TenantDBContext_ActiveDatabase" data-uid="Oqtane.Repository.TenantDBContext.ActiveDatabase">
+  ActiveDatabase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDatabase ActiveDatabase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IDatabase</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Repository_TenantDBContext_File_" data-uid="Oqtane.Repository.TenantDBContext.File*"></a>
 
   <h3 id="Oqtane_Repository_TenantDBContext_File" data-uid="Oqtane.Repository.TenantDBContext.File">
   File
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -221,7 +235,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Folder" data-uid="Oqtane.Repository.TenantDBContext.Folder">
   Folder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -252,7 +266,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Language" data-uid="Oqtane.Repository.TenantDBContext.Language">
   Language
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -283,7 +297,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Log" data-uid="Oqtane.Repository.TenantDBContext.Log">
   Log
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -310,11 +324,42 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="Oqtane_Repository_TenantDBContext_MigrationHistory_" data-uid="Oqtane.Repository.TenantDBContext.MigrationHistory*"></a>
+
+  <h3 id="Oqtane_Repository_TenantDBContext_MigrationHistory" data-uid="Oqtane.Repository.TenantDBContext.MigrationHistory">
+  MigrationHistory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual DbSet&lt;MigrationHistory&gt; MigrationHistory { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DbSet</span>&lt;<a class="xref" href="Oqtane.Models.MigrationHistory.html">MigrationHistory</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Oqtane_Repository_TenantDBContext_Module_" data-uid="Oqtane.Repository.TenantDBContext.Module*"></a>
 
   <h3 id="Oqtane_Repository_TenantDBContext_Module" data-uid="Oqtane.Repository.TenantDBContext.Module">
   Module
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -345,7 +390,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Notification" data-uid="Oqtane.Repository.TenantDBContext.Notification">
   Notification
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -376,7 +421,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Page" data-uid="Oqtane.Repository.TenantDBContext.Page">
   Page
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -407,7 +452,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_PageModule" data-uid="Oqtane.Repository.TenantDBContext.PageModule">
   PageModule
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -438,7 +483,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Permission" data-uid="Oqtane.Repository.TenantDBContext.Permission">
   Permission
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -469,7 +514,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Profile" data-uid="Oqtane.Repository.TenantDBContext.Profile">
   Profile
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L120"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -500,7 +545,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Role" data-uid="Oqtane.Repository.TenantDBContext.Role">
   Role
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L121"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -531,7 +576,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_SearchContent" data-uid="Oqtane.Repository.TenantDBContext.SearchContent">
   SearchContent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L132"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -562,7 +607,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_SearchContentProperty" data-uid="Oqtane.Repository.TenantDBContext.SearchContentProperty">
   SearchContentProperty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -593,7 +638,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_SearchContentWord" data-uid="Oqtane.Repository.TenantDBContext.SearchContentWord">
   SearchContentWord
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -624,7 +669,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_SearchWord" data-uid="Oqtane.Repository.TenantDBContext.SearchWord">
   SearchWord
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -655,7 +700,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Setting" data-uid="Oqtane.Repository.TenantDBContext.Setting">
   Setting
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -686,7 +731,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Site" data-uid="Oqtane.Repository.TenantDBContext.Site">
   Site
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -717,7 +762,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_UrlMapping" data-uid="Oqtane.Repository.TenantDBContext.UrlMapping">
   UrlMapping
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -748,7 +793,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_User" data-uid="Oqtane.Repository.TenantDBContext.User">
   User
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -779,7 +824,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_UserRole" data-uid="Oqtane.Repository.TenantDBContext.UserRole">
   UserRole
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L122"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -810,7 +855,7 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_TenantDBContext_Visitor" data-uid="Oqtane.Repository.TenantDBContext.Visitor">
   Visitor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -837,11 +882,228 @@ Class TenantDBContext  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Oqtane_Repository_TenantDBContext_OnConfiguring_" data-uid="Oqtane.Repository.TenantDBContext.OnConfiguring*"></a>
+
+  <h3 id="Oqtane_Repository_TenantDBContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_" data-uid="Oqtane.Repository.TenantDBContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+  OnConfiguring(DbContextOptionsBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Override this method to configure the database (and other options) to be used for this context.
+This method is called for each instance of the context that is created.
+The base implementation does nothing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>optionsBuilder</code> <span class="xref">DbContextOptionsBuilder</span></dt>
+    <dd><p>A builder used to create or modify options for this context. Databases (and other extensions)
+typically define extension methods on this object that allow you to configure the context.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Oqtane_Repository_TenantDBContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+    In situations where an instance of <span class="xref">Microsoft.EntityFrameworkCore.DbContextOptions</span> may or may not have been passed
+    to the constructor, you can use <span class="xref">Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.IsConfigured</span> to determine if
+    the options have already been set, and skip some or all of the logic in
+    <span class="xref">Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)</span>.
+</p>
+<p>
+    See <a href="https://aka.ms/efcore-docs-dbcontext">DbContext lifetime, configuration, and initialization</a>
+    for more information and examples.
+</p>
+</div>
+
+
+
+
+  <a id="Oqtane_Repository_TenantDBContext_OnModelCreating_" data-uid="Oqtane.Repository.TenantDBContext.OnModelCreating*"></a>
+
+  <h3 id="Oqtane_Repository_TenantDBContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="Oqtane.Repository.TenantDBContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+  OnModelCreating(ModelBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configures the schema needed for the identity framework.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(ModelBuilder builder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>builder</code> <span class="xref">ModelBuilder</span></dt>
+    <dd><p>The builder being used to construct the model for this context.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Repository_TenantDBContext_SaveChanges_" data-uid="Oqtane.Repository.TenantDBContext.SaveChanges*"></a>
+
+  <h3 id="Oqtane_Repository_TenantDBContext_SaveChanges" data-uid="Oqtane.Repository.TenantDBContext.SaveChanges">
+  SaveChanges()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Saves all changes made in this context to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int SaveChanges()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">int</span></dt>
+    <dd><p>The number of state entries written to the database.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Oqtane_Repository_TenantDBContext_SaveChanges_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+    This method will automatically call <span class="xref">Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()</span>
+    to discover any changes to entity instances before saving to the underlying database. This can be disabled via
+    <span class="xref">Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.AutoDetectChangesEnabled</span>.
+</p>
+<p>
+    Entity Framework Core does not support multiple parallel operations being run on the same DbContext instance. This
+    includes both parallel execution of async queries and any explicit concurrent use from multiple threads.
+    Therefore, always await async calls immediately, or use separate DbContext instances for operations that execute
+    in parallel. See <a href="https://aka.ms/efcore-docs-threading">Avoiding DbContext threading issues</a> for more information
+    and examples.
+</p>
+<p>
+    See <a href="https://aka.ms/efcore-docs-saving-data">Saving data in EF Core</a> for more information and examples.
+</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DbUpdateException</span></dt>
+    <dd><p>An error is encountered while saving to the database.</p>
+</dd>
+    <dt><span class="xref">DbUpdateConcurrencyException</span></dt>
+    <dd><p>A concurrency violation is encountered while saving to the database.
+A concurrency violation occurs when an unexpected number of rows are affected during save.
+This is usually because the data in the database has been modified since it was loaded into memory.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Oqtane_Repository_TenantDBContext_SaveChangesAsync_" data-uid="Oqtane.Repository.TenantDBContext.SaveChangesAsync*"></a>
+
+  <h3 id="Oqtane_Repository_TenantDBContext_SaveChangesAsync_System_Threading_CancellationToken_" data-uid="Oqtane.Repository.TenantDBContext.SaveChangesAsync(System.Threading.CancellationToken)">
+  SaveChangesAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Saves all changes made in this context to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;int&gt; SaveChangesAsync(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <span class="xref">CancellationToken</span></dt>
+    <dd><p>A <span class="xref">System.Threading.CancellationToken</span> to observe while waiting for the task to complete.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">int</span>&gt;</dt>
+    <dd><p>A task that represents the asynchronous save operation. The task result contains the
+number of state entries written to the database.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Oqtane_Repository_TenantDBContext_SaveChangesAsync_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+    This method will automatically call <span class="xref">Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.DetectChanges()</span>
+    to discover any changes to entity instances before saving to the underlying database. This can be disabled via
+    <span class="xref">Microsoft.EntityFrameworkCore.ChangeTracking.ChangeTracker.AutoDetectChangesEnabled</span>.
+</p>
+<p>
+    Entity Framework Core does not support multiple parallel operations being run on the same DbContext instance. This
+    includes both parallel execution of async queries and any explicit concurrent use from multiple threads.
+    Therefore, always await async calls immediately, or use separate DbContext instances for operations that execute
+    in parallel. See <a href="https://aka.ms/efcore-docs-threading">Avoiding DbContext threading issues</a> for more
+    information and examples.
+</p>
+<p>
+    See <a href="https://aka.ms/efcore-docs-saving-data">Saving data in EF Core</a> for more information and examples.
+</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DbUpdateException</span></dt>
+    <dd><p>An error is encountered while saving to the database.</p>
+</dd>
+    <dt><span class="xref">DbUpdateConcurrencyException</span></dt>
+    <dd><p>A concurrency violation is encountered while saving to the database.
+A concurrency violation occurs when an unexpected number of rows are affected during save.
+This is usually because the data in the database has been modified since it was loaded into memory.</p>
+</dd>
+    <dt><span class="xref">OperationCanceledException</span></dt>
+    <dd><p>If the <span class="xref">System.Threading.CancellationToken</span> is canceled.</p>
+</dd>
+  </dl>
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/TenantDBContext.cs/#L25" class="edit-link">Edit this page</a>
         </div>
 
 

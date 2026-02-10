@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Repository_DBContextBase" data-uid="Oqtane.Repository.DBContextBase" class="text-break">
-Class DBContextBase  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L22"><i class="bi bi-code-slash"></i></a>
+Class DBContextBase  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class DBContextBase  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DBContextBase : IdentityUserContext&lt;IdentityUser&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class DBContextBase : DbContext</code></pre>
   </div>
 
 
@@ -112,20 +112,11 @@ Class DBContextBase  <a class="header-action link-secondary" title="View source"
     <dd>
       <div><span class="xref">object</span></div>
       <div><span class="xref">DbContext</span></div>
-      <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>, <span class="xref">string</span>, <span class="xref">IdentityUserClaim</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserLogin</span>&lt;<span class="xref">string</span>&gt;, <span class="xref">IdentityUserToken</span>&lt;<span class="xref">string</span>&gt;&gt;</div>
-      <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>, <span class="xref">string</span>&gt;</div>
-      <div><span class="xref">IdentityUserContext</span>&lt;<span class="xref">IdentityUser</span>&gt;</div>
       <div><span class="xref">DBContextBase</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Oqtane.Repository.TenantDBContext.html">TenantDBContext</a></div>
-    </dd>
-  </dl>
 
 
 
@@ -141,7 +132,7 @@ Class DBContextBase  <a class="header-action link-secondary" title="View source"
 
   <h3 id="Oqtane_Repository_DBContextBase__ctor_Oqtane_Infrastructure_ITenantManager_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Oqtane.Repository.DBContextBase.#ctor(Oqtane.Infrastructure.ITenantManager,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
   DBContextBase(ITenantManager, IHttpContextAccessor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -175,7 +166,7 @@ public DBContextBase(ITenantManager tenantManager, IHttpContextAccessor httpCont
 
   <h3 id="Oqtane_Repository_DBContextBase__ctor_Oqtane_Repository_IDBContextDependencies_" data-uid="Oqtane.Repository.DBContextBase.#ctor(Oqtane.Repository.IDBContextDependencies)">
   DBContextBase(IDBContextDependencies)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -210,7 +201,7 @@ public DBContextBase(ITenantManager tenantManager, IHttpContextAccessor httpCont
 
   <h3 id="Oqtane_Repository_DBContextBase_ActiveDatabase" data-uid="Oqtane.Repository.DBContextBase.ActiveDatabase">
   ActiveDatabase
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -245,7 +236,7 @@ public DBContextBase(ITenantManager tenantManager, IHttpContextAccessor httpCont
 
   <h3 id="Oqtane_Repository_DBContextBase_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_" data-uid="Oqtane.Repository.DBContextBase.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
   OnConfiguring(DbContextOptionsBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Override this method to configure the database (and other options) to be used for this context.
@@ -293,10 +284,12 @@ typically define extension methods on this object that allow you to configure th
 
   <h3 id="Oqtane_Repository_DBContextBase_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="Oqtane.Repository.DBContextBase.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
   OnModelCreating(ModelBuilder)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Configures the schema needed for the identity framework.</p>
+  <div class="markdown level1 summary"><p>Override this method to further configure the model that was discovered by convention from the entity types
+exposed in <span class="xref">Microsoft.EntityFrameworkCore.DbSet&lt;TEntity&gt;</span> properties on your derived context. The resulting model may be cached
+and re-used for subsequent instances of your derived context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -307,8 +300,7 @@ typically define extension methods on this object that allow you to configure th
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>builder</code> <span class="xref">ModelBuilder</span></dt>
-    <dd><p>The builder being used to construct the model for this context.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -318,6 +310,16 @@ typically define extension methods on this object that allow you to configure th
 
 
 
+  <h4 class="section" id="Oqtane_Repository_DBContextBase_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+    If a model is explicitly set on the options for this context (via <span class="xref">Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.UseModel(Microsoft.EntityFrameworkCore.Metadata.IModel)</span>)
+    then this method will not be run. However, it will still run when creating a compiled model.
+</p>
+<p>
+    See <a href="https://aka.ms/efcore-docs-modeling">Modeling entity types and relationships</a> for more information and
+    examples.
+</p>
+</div>
 
 
 
@@ -326,7 +328,7 @@ typically define extension methods on this object that allow you to configure th
 
   <h3 id="Oqtane_Repository_DBContextBase_SaveChanges" data-uid="Oqtane.Repository.DBContextBase.SaveChanges">
   SaveChanges()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Saves all changes made in this context to the database.</p>
@@ -387,7 +389,7 @@ This is usually because the data in the database has been modified since it was 
 
   <h3 id="Oqtane_Repository_DBContextBase_SaveChangesAsync_System_Threading_CancellationToken_" data-uid="Oqtane.Repository.DBContextBase.SaveChangesAsync(System.Threading.CancellationToken)">
   SaveChangesAsync(CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Saves all changes made in this context to the database.</p>
@@ -458,7 +460,7 @@ This is usually because the data in the database has been modified since it was 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L22" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/Context/DBContextBase.cs/#L21" class="edit-link">Edit this page</a>
         </div>
 
 

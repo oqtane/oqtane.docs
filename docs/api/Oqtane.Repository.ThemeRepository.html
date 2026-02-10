@@ -135,16 +135,16 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
 
   <a id="Oqtane_Repository_ThemeRepository__ctor_" data-uid="Oqtane.Repository.ThemeRepository.#ctor*"></a>
 
-  <h3 id="Oqtane_Repository_ThemeRepository__ctor_Oqtane_Repository_MasterDBContext_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Infrastructure_ITenantManager_Oqtane_Repository_ISettingRepository_Oqtane_Infrastructure_IServerStateManager_" data-uid="Oqtane.Repository.ThemeRepository.#ctor(Oqtane.Repository.MasterDBContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,Oqtane.Infrastructure.ITenantManager,Oqtane.Repository.ISettingRepository,Oqtane.Infrastructure.IServerStateManager)">
-  ThemeRepository(MasterDBContext, IMemoryCache, ITenantManager, ISettingRepository, IServerStateManager)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Repository_ThemeRepository__ctor_Oqtane_Repository_MasterDBContext_Microsoft_Extensions_Caching_Memory_IMemoryCache_Oqtane_Repository_IPermissionRepository_Oqtane_Infrastructure_ITenantManager_Oqtane_Repository_ISettingRepository_Oqtane_Infrastructure_IServerStateManager_" data-uid="Oqtane.Repository.ThemeRepository.#ctor(Oqtane.Repository.MasterDBContext,Microsoft.Extensions.Caching.Memory.IMemoryCache,Oqtane.Repository.IPermissionRepository,Oqtane.Infrastructure.ITenantManager,Oqtane.Repository.ISettingRepository,Oqtane.Infrastructure.IServerStateManager)">
+  ThemeRepository(MasterDBContext, IMemoryCache, IPermissionRepository, ITenantManager, ISettingRepository, IServerStateManager)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ThemeRepository(MasterDBContext context, IMemoryCache cache, ITenantManager tenants, ISettingRepository settings, IServerStateManager serverState)</code></pre>
+    <pre><code class="lang-csharp hljs">public ThemeRepository(MasterDBContext context, IMemoryCache cache, IPermissionRepository permissions, ITenantManager tenants, ISettingRepository settings, IServerStateManager serverState)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -152,6 +152,8 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
     <dt><code>context</code> <a class="xref" href="Oqtane.Repository.MasterDBContext.html">MasterDBContext</a></dt>
     <dd></dd>
     <dt><code>cache</code> <span class="xref">IMemoryCache</span></dt>
+    <dd></dd>
+    <dt><code>permissions</code> <a class="xref" href="Oqtane.Repository.IPermissionRepository.html">IPermissionRepository</a></dt>
     <dd></dd>
     <dt><code>tenants</code> <a class="xref" href="Oqtane.Infrastructure.ITenantManager.html">ITenantManager</a></dt>
     <dd></dd>
@@ -180,7 +182,7 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_ThemeRepository_DeleteTheme_System_Int32_" data-uid="Oqtane.Repository.ThemeRepository.DeleteTheme(System.Int32)">
   DeleteTheme(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -211,7 +213,7 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_ThemeRepository_FilterThemes_System_Collections_Generic_List_Oqtane_Models_Theme__" data-uid="Oqtane.Repository.ThemeRepository.FilterThemes(System.Collections.Generic.List{Oqtane.Models.Theme})">
   FilterThemes(List&lt;Theme&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -247,7 +249,7 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_ThemeRepository_GetTheme_System_Int32_System_Int32_" data-uid="Oqtane.Repository.ThemeRepository.GetTheme(System.Int32,System.Int32)">
   GetTheme(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -283,18 +285,23 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
 
   <a id="Oqtane_Repository_ThemeRepository_GetThemes_" data-uid="Oqtane.Repository.ThemeRepository.GetThemes*"></a>
 
-  <h3 id="Oqtane_Repository_ThemeRepository_GetThemes" data-uid="Oqtane.Repository.ThemeRepository.GetThemes">
-  GetThemes()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Repository_ThemeRepository_GetThemes_System_Int32_" data-uid="Oqtane.Repository.ThemeRepository.GetThemes(System.Int32)">
+  GetThemes(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Theme&gt; GetThemes()</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Theme&gt; GetThemes(int siteId)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -316,7 +323,7 @@ Class ThemeRepository  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="Oqtane_Repository_ThemeRepository_UpdateTheme_Oqtane_Models_Theme_" data-uid="Oqtane.Repository.ThemeRepository.UpdateTheme(Oqtane.Models.Theme)">
   UpdateTheme(Theme)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Repository/ThemeRepository.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

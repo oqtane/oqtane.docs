@@ -89,7 +89,7 @@
 
 
   <h1 id="Oqtane_Services_IUserService" data-uid="Oqtane.Services.IUserService" class="text-break">
-Interface IUserService  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Interface IUserService  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -121,11 +121,61 @@ Interface IUserService  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
+  <a id="Oqtane_Services_IUserService_AddLoginAsync_" data-uid="Oqtane.Services.IUserService.AddLoginAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_AddLoginAsync_Oqtane_Models_User_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Services.IUserService.AddLoginAsync(Oqtane.Models.User,System.String,System.String,System.String,System.String)">
+  AddLoginAsync(User, string, string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Link an external login with a local user account</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;User&gt; AddLoginAsync(User user, string token, string type, string key, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
+    <dd><p>The <a class="xref" href="Oqtane.Models.User.html">User</a> we're verifying</p>
+</dd>
+    <dt><code>token</code> <span class="xref">string</span></dt>
+    <dd><p>A Hash value in the URL which verifies this user got the e-mail (containing this token)</p>
+</dd>
+    <dt><code>type</code> <span class="xref">string</span></dt>
+    <dd><p>External Login provider type</p>
+</dd>
+    <dt><code>key</code> <span class="xref">string</span></dt>
+    <dd><p>External Login provider key</p>
+</dd>
+    <dt><code>name</code> <span class="xref">string</span></dt>
+    <dd><p>External Login provider display name</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Services_IUserService_AddUserAsync_" data-uid="Oqtane.Services.IUserService.AddUserAsync*"></a>
 
   <h3 id="Oqtane_Services_IUserService_AddUserAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.AddUserAsync(Oqtane.Models.User)">
   AddUserAsync(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Save a user to the Database.
@@ -159,11 +209,91 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
 
 
+  <a id="Oqtane_Services_IUserService_DeleteLoginAsync_" data-uid="Oqtane.Services.IUserService.DeleteLoginAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_DeleteLoginAsync_System_Int32_System_String_System_String_" data-uid="Oqtane.Services.IUserService.DeleteLoginAsync(System.Int32,System.String,System.String)">
+  DeleteLoginAsync(int, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a user login</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteLoginAsync(int userId, string provider, string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>provider</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Services_IUserService_DeletePasskeyAsync_" data-uid="Oqtane.Services.IUserService.DeletePasskeyAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_DeletePasskeyAsync_System_Int32_System_Byte___" data-uid="Oqtane.Services.IUserService.DeletePasskeyAsync(System.Int32,System.Byte[])">
+  DeletePasskeyAsync(int, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a user passkey</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeletePasskeyAsync(int userId, byte[] credentialId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>credentialId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Services_IUserService_DeleteUserAsync_" data-uid="Oqtane.Services.IUserService.DeleteUserAsync*"></a>
 
   <h3 id="Oqtane_Services_IUserService_DeleteUserAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IUserService.DeleteUserAsync(System.Int32,System.Int32)">
   DeleteUserAsync(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Delete / remove a user in the database</p>
@@ -202,28 +332,139 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <a id="Oqtane_Services_IUserService_ForgotPasswordAsync_" data-uid="Oqtane.Services.IUserService.ForgotPasswordAsync*"></a>
 
-  <h3 id="Oqtane_Services_IUserService_ForgotPasswordAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.ForgotPasswordAsync(Oqtane.Models.User)">
-  ForgotPasswordAsync(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Services_IUserService_ForgotPasswordAsync_System_String_" data-uid="Oqtane.Services.IUserService.ForgotPasswordAsync(System.String)">
+  ForgotPasswordAsync(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Trigger a forgot-password e-mail for this <a class="xref" href="Oqtane.Models.User.html">User</a>.</p>
+  <div class="markdown level1 summary"><p>Trigger a forgot-password e-mail.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task ForgotPasswordAsync(User user)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ForgotPasswordAsync(string username)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
+    <dt><code>username</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">Task</span></dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Services_IUserService_ForgotUsernameAsync_" data-uid="Oqtane.Services.IUserService.ForgotUsernameAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_ForgotUsernameAsync_System_String_" data-uid="Oqtane.Services.IUserService.ForgotUsernameAsync(System.String)">
+  ForgotUsernameAsync(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Trigger a username reminder e-mail.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ForgotUsernameAsync(string email)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Services_IUserService_GetLoginsAsync_" data-uid="Oqtane.Services.IUserService.GetLoginsAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_GetLoginsAsync_System_Int32_" data-uid="Oqtane.Services.IUserService.GetLoginsAsync(System.Int32)">
+  GetLoginsAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get logins for a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;UserLogin&gt;&gt; GetLoginsAsync(int userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Oqtane.Models.UserLogin.html">UserLogin</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Services_IUserService_GetPasskeysAsync_" data-uid="Oqtane.Services.IUserService.GetPasskeysAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_GetPasskeysAsync_System_Int32_" data-uid="Oqtane.Services.IUserService.GetPasskeysAsync(System.Int32)">
+  GetPasskeysAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get passkeys for a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;UserPasskey&gt;&gt; GetPasskeysAsync(int userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Oqtane.Models.UserPasskey.html">UserPasskey</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -241,7 +482,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_GetPasswordRequirementsAsync_System_Int32_" data-uid="Oqtane.Services.IUserService.GetPasswordRequirementsAsync(System.Int32)">
   GetPasswordRequirementsAsync(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L162"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get password requirements for site</p>
@@ -279,7 +520,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_GetPersonalAccessTokenAsync" data-uid="Oqtane.Services.IUserService.GetPersonalAccessTokenAsync">
   GetPersonalAccessTokenAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L155"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get personal access token for current user (administrators only)</p>
@@ -311,7 +552,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_GetTokenAsync" data-uid="Oqtane.Services.IUserService.GetTokenAsync">
   GetTokenAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get token for current user</p>
@@ -343,7 +584,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_GetUserAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IUserService.GetUserAsync(System.Int32,System.Int32)">
   GetUserAsync(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get a <a class="xref" href="Oqtane.Models.User.html">User</a> of a specific site</p>
@@ -384,7 +625,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_GetUserAsync_System_String_System_Int32_" data-uid="Oqtane.Services.IUserService.GetUserAsync(System.String,System.Int32)">
   GetUserAsync(string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get a <a class="xref" href="Oqtane.Models.User.html">User</a> of a specific site</p>
@@ -425,7 +666,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_GetUserAsync_System_String_System_String_System_Int32_" data-uid="Oqtane.Services.IUserService.GetUserAsync(System.String,System.String,System.Int32)">
   GetUserAsync(string, string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get a <a class="xref" href="Oqtane.Models.User.html">User</a> of a specific site</p>
@@ -469,7 +710,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_ImportUsersAsync_System_Int32_System_Int32_System_Boolean_" data-uid="Oqtane.Services.IUserService.ImportUsersAsync(System.Int32,System.Int32,System.Boolean)">
   ImportUsersAsync(int, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Bulk import of users</p>
@@ -509,61 +750,11 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
 
 
-  <a id="Oqtane_Services_IUserService_LinkUserAsync_" data-uid="Oqtane.Services.IUserService.LinkUserAsync*"></a>
-
-  <h3 id="Oqtane_Services_IUserService_LinkUserAsync_Oqtane_Models_User_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Services.IUserService.LinkUserAsync(Oqtane.Models.User,System.String,System.String,System.String,System.String)">
-  LinkUserAsync(User, string, string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L158"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Link an external login with a local user account</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;User&gt; LinkUserAsync(User user, string token, string type, string key, string name)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
-    <dd><p>The <a class="xref" href="Oqtane.Models.User.html">User</a> we're verifying</p>
-</dd>
-    <dt><code>token</code> <span class="xref">string</span></dt>
-    <dd><p>A Hash value in the URL which verifies this user got the e-mail (containing this token)</p>
-</dd>
-    <dt><code>type</code> <span class="xref">string</span></dt>
-    <dd><p>External Login provider type</p>
-</dd>
-    <dt><code>key</code> <span class="xref">string</span></dt>
-    <dd><p>External Login provider key</p>
-</dd>
-    <dt><code>name</code> <span class="xref">string</span></dt>
-    <dd><p>External Login provider display name</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="Oqtane_Services_IUserService_LoginUserAsync_" data-uid="Oqtane.Services.IUserService.LoginUserAsync*"></a>
 
   <h3 id="Oqtane_Services_IUserService_LoginUserAsync_Oqtane_Models_User_System_Boolean_System_Boolean_" data-uid="Oqtane.Services.IUserService.LoginUserAsync(Oqtane.Models.User,System.Boolean,System.Boolean)">
   LoginUserAsync(User, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Will login the specified <a class="xref" href="Oqtane.Models.User.html">User</a>.</p>
@@ -608,7 +799,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_LogoutUserAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.LogoutUserAsync(Oqtane.Models.User)">
   LogoutUserAsync(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Logout a <a class="xref" href="Oqtane.Models.User.html">User</a></p>
@@ -645,7 +836,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_LogoutUserEverywhereAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.LogoutUserEverywhereAsync(Oqtane.Models.User)">
   LogoutUserEverywhereAsync(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Logout a <a class="xref" href="Oqtane.Models.User.html">User</a></p>
@@ -682,7 +873,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_ResetPasswordAsync_Oqtane_Models_User_System_String_" data-uid="Oqtane.Services.IUserService.ResetPasswordAsync(Oqtane.Models.User,System.String)">
   ResetPasswordAsync(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset the password of this <a class="xref" href="Oqtane.Models.User.html">User</a></p>
@@ -717,11 +908,87 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
 
 
+  <a id="Oqtane_Services_IUserService_SendLoginLinkAsync_" data-uid="Oqtane.Services.IUserService.SendLoginLinkAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_SendLoginLinkAsync_System_String_System_String_" data-uid="Oqtane.Services.IUserService.SendLoginLinkAsync(System.String,System.String)">
+  SendLoginLinkAsync(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Send a login link</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; SendLoginLinkAsync(string email, string returnurl)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>returnurl</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Services_IUserService_UpdatePasskeyAsync_" data-uid="Oqtane.Services.IUserService.UpdatePasskeyAsync*"></a>
+
+  <h3 id="Oqtane_Services_IUserService_UpdatePasskeyAsync_Oqtane_Models_UserPasskey_" data-uid="Oqtane.Services.IUserService.UpdatePasskeyAsync(Oqtane.Models.UserPasskey)">
+  UpdatePasskeyAsync(UserPasskey)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update a user passkey</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;UserPasskey&gt; UpdatePasskeyAsync(UserPasskey passkey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>passkey</code> <a class="xref" href="Oqtane.Models.UserPasskey.html">UserPasskey</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.UserPasskey.html">UserPasskey</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Services_IUserService_UpdateUserAsync_" data-uid="Oqtane.Services.IUserService.UpdateUserAsync*"></a>
 
   <h3 id="Oqtane_Services_IUserService_UpdateUserAsync_Oqtane_Models_User_" data-uid="Oqtane.Services.IUserService.UpdateUserAsync(Oqtane.Models.User)">
   UpdateUserAsync(User)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update an existing user in the database.</p>
@@ -758,7 +1025,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_ValidatePasswordAsync_System_String_" data-uid="Oqtane.Services.IUserService.ValidatePasswordAsync(System.String)">
   ValidatePasswordAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate a users password against the password policy</p>
@@ -795,7 +1062,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_ValidateUserAsync_System_String_System_String_System_String_" data-uid="Oqtane.Services.IUserService.ValidateUserAsync(System.String,System.String,System.String)">
   ValidateUserAsync(string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Validate identity user info.</p>
@@ -836,7 +1103,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_VerifyEmailAsync_Oqtane_Models_User_System_String_" data-uid="Oqtane.Services.IUserService.VerifyEmailAsync(Oqtane.Models.User,System.String)">
   VerifyEmailAsync(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update e-mail verification status of a user.</p>
@@ -877,7 +1144,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 
   <h3 id="Oqtane_Services_IUserService_VerifyTwoFactorAsync_Oqtane_Models_User_System_String_" data-uid="Oqtane.Services.IUserService.VerifyTwoFactorAsync(Oqtane.Models.User,System.String)">
   VerifyTwoFactorAsync(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Verify the two factor verification code <a class="xref" href="Oqtane.Models.User.html">User</a></p>
@@ -916,7 +1183,7 @@ The <a class="xref" href="Oqtane.Models.User.html">User</a> object contains all 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/UserService.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

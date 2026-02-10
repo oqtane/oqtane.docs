@@ -236,6 +236,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Controllers.MigrationHistoryController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Controllers.MigrationHistoryController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Controllers.MigrationHistoryController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Controllers.ModuleController.yml",
       "output": {
         ".html": {
@@ -1930,6 +1944,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Models.MigrationHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.MigrationHistory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.MigrationHistory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Models.MigrationHistoryTable.yml",
       "output": {
         ".html": {
@@ -2504,6 +2532,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Models.UserLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.UserLogin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.UserLogin",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.UserLogin.yml\" sourcestartlinenumber=\"1\">Passkey properties</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Models.UserPasskey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Models.UserPasskey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Models.UserPasskey",
+      "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Models.UserPasskey.yml\" sourcestartlinenumber=\"1\">Passkey properties</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Models.UserRole.yml",
       "output": {
         ".html": {
@@ -3008,6 +3064,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Modules.MessageStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Modules.MessageStyle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Modules.MessageStyle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Modules.MessageType.yml",
       "output": {
         ".html": {
@@ -3134,6 +3204,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Pages.LoginLinkModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Pages.LoginLinkModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.LoginLinkModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Pages.LoginModel.yml",
       "output": {
         ".html": {
@@ -3158,6 +3242,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Oqtane.Pages.LogoutModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Pages.PasskeyModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Pages.PasskeyModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Pages.PasskeyModel",
       "Summary": null
     },
     {
@@ -3452,6 +3550,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Oqtane.Repository.ILogRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Repository.IMigrationHistoryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Repository.IMigrationHistoryRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.IMigrationHistoryRepository",
       "Summary": null
     },
     {
@@ -3816,6 +3928,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Oqtane.Repository.MasterDBContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Repository.MigrationHistoryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Repository.MigrationHistoryRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Repository.MigrationHistoryRepository",
       "Summary": null
     },
     {
@@ -4310,6 +4436,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Server.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Server.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Server.Program",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Server.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Server",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api-generated/api/Oqtane.Services.IAliasService.yml",
       "output": {
         ".html": {
@@ -4503,6 +4657,20 @@
       "IsMRef": true,
       "Title": "Oqtane.Services.ILogService",
       "Summary": "<p sourcefile=\"api-generated/api/Oqtane.Services.ILogService.yml\" sourcestartlinenumber=\"1\">Service to retrieve and store <xref href=\"Oqtane.Services.ILogService.Log(System.Nullable%7bSystem.Int32%7d%2cSystem.Nullable%7bSystem.Int32%7d%2cSystem.Nullable%7bSystem.Int32%7d%2cSystem.String%2cSystem.String%2cOqtane.Enums.LogFunction%2cOqtane.Shared.LogLevel%2cSystem.Exception%2cSystem.String%2cSystem.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> entries</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-generated/api/Oqtane.Services.IMigrationHistoryService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Oqtane.Services.IMigrationHistoryService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Oqtane.Services.IMigrationHistoryService",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

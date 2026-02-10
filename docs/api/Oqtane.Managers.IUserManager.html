@@ -120,6 +120,50 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
+  <a id="Oqtane_Managers_IUserManager_AddLogin_" data-uid="Oqtane.Managers.IUserManager.AddLogin*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_AddLogin_Oqtane_Models_User_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Managers.IUserManager.AddLogin(Oqtane.Models.User,System.String,System.String,System.String,System.String)">
+  AddLogin(User, string, string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;User&gt; AddLogin(User user, string token, string type, string key, string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
+    <dd></dd>
+    <dt><code>token</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>type</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>name</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="Oqtane_Managers_IUserManager_AddUser_" data-uid="Oqtane.Managers.IUserManager.AddUser*"></a>
 
   <h3 id="Oqtane_Managers_IUserManager_AddUser_Oqtane_Models_User_" data-uid="Oqtane.Managers.IUserManager.AddUser(Oqtane.Models.User)">
@@ -143,6 +187,84 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_DeleteLogin_" data-uid="Oqtane.Managers.IUserManager.DeleteLogin*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_DeleteLogin_System_Int32_System_String_System_String_" data-uid="Oqtane.Managers.IUserManager.DeleteLogin(System.Int32,System.String,System.String)">
+  DeleteLogin(int, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteLogin(int userId, string provider, string key)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>provider</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>key</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_DeletePasskey_" data-uid="Oqtane.Managers.IUserManager.DeletePasskey*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_DeletePasskey_System_Int32_System_Byte___" data-uid="Oqtane.Managers.IUserManager.DeletePasskey(System.Int32,System.Byte[])">
+  DeletePasskey(int, byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeletePasskey(int userId, byte[] credentialId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>credentialId</code> <span class="xref">byte</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -196,8 +318,8 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
 
   <a id="Oqtane_Managers_IUserManager_ForgotPassword_" data-uid="Oqtane.Managers.IUserManager.ForgotPassword*"></a>
 
-  <h3 id="Oqtane_Managers_IUserManager_ForgotPassword_Oqtane_Models_User_" data-uid="Oqtane.Managers.IUserManager.ForgotPassword(Oqtane.Models.User)">
-  ForgotPassword(User)
+  <h3 id="Oqtane_Managers_IUserManager_ForgotPassword_System_String_" data-uid="Oqtane.Managers.IUserManager.ForgotPassword(System.String)">
+  ForgotPassword(string)
   <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -205,18 +327,130 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task ForgotPassword(User user)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ForgotPassword(string username)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
+    <dt><code>username</code> <span class="xref">string</span></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">Task</span></dt>
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_ForgotUsername_" data-uid="Oqtane.Managers.IUserManager.ForgotUsername*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_ForgotUsername_System_String_" data-uid="Oqtane.Managers.IUserManager.ForgotUsername(System.String)">
+  ForgotUsername(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; ForgotUsername(string email)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_GetLogins_" data-uid="Oqtane.Managers.IUserManager.GetLogins*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_GetLogins_System_Int32_System_Int32_" data-uid="Oqtane.Managers.IUserManager.GetLogins(System.Int32,System.Int32)">
+  GetLogins(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;UserLogin&gt;&gt; GetLogins(int userId, int siteId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Oqtane.Models.UserLogin.html">UserLogin</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_GetPasskeys_" data-uid="Oqtane.Managers.IUserManager.GetPasskeys*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_GetPasskeys_System_Int32_System_Int32_" data-uid="Oqtane.Managers.IUserManager.GetPasskeys(System.Int32,System.Int32)">
+  GetPasskeys(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;UserPasskey&gt;&gt; GetPasskeys(int userId, int siteId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="Oqtane.Models.UserPasskey.html">UserPasskey</a>&gt;&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -386,50 +620,6 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
 
 
 
-  <a id="Oqtane_Managers_IUserManager_LinkExternalAccount_" data-uid="Oqtane.Managers.IUserManager.LinkExternalAccount*"></a>
-
-  <h3 id="Oqtane_Managers_IUserManager_LinkExternalAccount_Oqtane_Models_User_System_String_System_String_System_String_System_String_" data-uid="Oqtane.Managers.IUserManager.LinkExternalAccount(Oqtane.Models.User,System.String,System.String,System.String,System.String)">
-  LinkExternalAccount(User, string, string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;User&gt; LinkExternalAccount(User user, string token, string type, string key, string name)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>user</code> <a class="xref" href="Oqtane.Models.User.html">User</a></dt>
-    <dd></dd>
-    <dt><code>token</code> <span class="xref">string</span></dt>
-    <dd></dd>
-    <dt><code>type</code> <span class="xref">string</span></dt>
-    <dd></dd>
-    <dt><code>key</code> <span class="xref">string</span></dt>
-    <dd></dd>
-    <dt><code>name</code> <span class="xref">string</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="Oqtane_Managers_IUserManager_LoginUser_" data-uid="Oqtane.Managers.IUserManager.LoginUser*"></a>
 
   <h3 id="Oqtane_Managers_IUserManager_LoginUser_Oqtane_Models_User_System_Boolean_System_Boolean_" data-uid="Oqtane.Managers.IUserManager.LoginUser(Oqtane.Models.User,System.Boolean,System.Boolean)">
@@ -510,7 +700,7 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Oqtane_Managers_IUserManager_ResetPassword_Oqtane_Models_User_System_String_" data-uid="Oqtane.Managers.IUserManager.ResetPassword(Oqtane.Models.User,System.String)">
   ResetPassword(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -531,6 +721,80 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Task</span>&lt;<a class="xref" href="Oqtane.Models.User.html">User</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_SendLoginLink_" data-uid="Oqtane.Managers.IUserManager.SendLoginLink*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_SendLoginLink_System_String_System_String_" data-uid="Oqtane.Managers.IUserManager.SendLoginLink(System.String,System.String)">
+  SendLoginLink(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; SendLoginLink(string email, string returnurl)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>email</code> <span class="xref">string</span></dt>
+    <dd></dd>
+    <dt><code>returnurl</code> <span class="xref">string</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span>&lt;<span class="xref">bool</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Oqtane_Managers_IUserManager_UpdatePasskey_" data-uid="Oqtane.Managers.IUserManager.UpdatePasskey*"></a>
+
+  <h3 id="Oqtane_Managers_IUserManager_UpdatePasskey_Oqtane_Models_UserPasskey_" data-uid="Oqtane.Managers.IUserManager.UpdatePasskey(Oqtane.Models.UserPasskey)">
+  UpdatePasskey(UserPasskey)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdatePasskey(UserPasskey passkey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>passkey</code> <a class="xref" href="Oqtane.Models.UserPasskey.html">UserPasskey</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Task</span></dt>
     <dd></dd>
   </dl>
 
@@ -698,7 +962,7 @@ Interface IUserManager  <a class="header-action link-secondary" title="View sour
 
   <h3 id="Oqtane_Managers_IUserManager_VerifyTwoFactor_Oqtane_Models_User_System_String_" data-uid="Oqtane.Managers.IUserManager.VerifyTwoFactor(Oqtane.Models.User,System.String)">
   VerifyTwoFactor(User, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Server/Managers/UserManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

@@ -125,7 +125,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_CreateThemeAsync_Oqtane_Models_Theme_" data-uid="Oqtane.Services.IThemeService.CreateThemeAsync(Oqtane.Models.Theme)">
   CreateThemeAsync(Theme)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates a new theme</p>
@@ -160,9 +160,9 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <a id="Oqtane_Services_IThemeService_DeleteThemeAsync_" data-uid="Oqtane.Services.IThemeService.DeleteThemeAsync*"></a>
 
-  <h3 id="Oqtane_Services_IThemeService_DeleteThemeAsync_System_String_" data-uid="Oqtane.Services.IThemeService.DeleteThemeAsync(System.String)">
-  DeleteThemeAsync(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Services_IThemeService_DeleteThemeAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IThemeService.DeleteThemeAsync(System.Int32,System.Int32)">
+  DeleteThemeAsync(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Deletes a theme</p>
@@ -170,12 +170,14 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task DeleteThemeAsync(string themeName)</code></pre>
+    <pre><code class="lang-csharp hljs">Task DeleteThemeAsync(int themeId, int siteId)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>themeName</code> <span class="xref">string</span></dt>
+    <dt><code>themeId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
     <dd></dd>
   </dl>
 
@@ -199,7 +201,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetContainerControls_System_Collections_Generic_List_Oqtane_Models_Theme__System_String_" data-uid="Oqtane.Services.IThemeService.GetContainerControls(System.Collections.Generic.List{Oqtane.Models.Theme},System.String)">
   GetContainerControls(List&lt;Theme&gt;, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of containers (<a class="xref" href="Oqtane.Models.ThemeControl.html">ThemeControl</a>) for a theme containing a specific theme control type</p>
@@ -238,7 +240,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetLayoutControls_System_Collections_Generic_List_Oqtane_Models_Theme__System_String_" data-uid="Oqtane.Services.IThemeService.GetLayoutControls(System.Collections.Generic.List{Oqtane.Models.Theme},System.String)">
   GetLayoutControls(List&lt;Theme&gt;, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of layouts (<a class="xref" href="Oqtane.Models.ThemeControl.html">ThemeControl</a>) from the given themes with a matching theme name</p>
@@ -277,7 +279,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetTheme_System_Collections_Generic_List_Oqtane_Models_Theme__System_String_" data-uid="Oqtane.Services.IThemeService.GetTheme(System.Collections.Generic.List{Oqtane.Models.Theme},System.String)">
   GetTheme(List&lt;Theme&gt;, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a theme <a class="xref" href="Oqtane.Models.ThemeControl.html">ThemeControl</a>s containing a specific theme control type</p>
@@ -316,7 +318,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetThemeAsync_System_Int32_System_Int32_" data-uid="Oqtane.Services.IThemeService.GetThemeAsync(System.Int32,System.Int32)">
   GetThemeAsync(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a specific theme</p>
@@ -355,7 +357,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetThemeControls_System_Collections_Generic_List_Oqtane_Models_Theme__" data-uid="Oqtane.Services.IThemeService.GetThemeControls(System.Collections.Generic.List{Oqtane.Models.Theme})">
   GetThemeControls(List&lt;Theme&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of <a class="xref" href="Oqtane.Models.ThemeControl.html">ThemeControl</a>s from the given themes</p>
@@ -392,7 +394,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetThemeControls_System_Collections_Generic_List_Oqtane_Models_Theme__System_String_" data-uid="Oqtane.Services.IThemeService.GetThemeControls(System.Collections.Generic.List{Oqtane.Models.Theme},System.String)">
   GetThemeControls(List&lt;Theme&gt;, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of <a class="xref" href="Oqtane.Models.ThemeControl.html">ThemeControl</a>s for a theme containing a specific theme control type</p>
@@ -431,7 +433,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_GetThemeTemplatesAsync" data-uid="Oqtane.Services.IThemeService.GetThemeTemplatesAsync">
   GetThemeTemplatesAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of theme templates (<a class="xref" href="Oqtane.Models.Template.html">Template</a>)</p>
@@ -461,9 +463,9 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <a id="Oqtane_Services_IThemeService_GetThemesAsync_" data-uid="Oqtane.Services.IThemeService.GetThemesAsync*"></a>
 
-  <h3 id="Oqtane_Services_IThemeService_GetThemesAsync" data-uid="Oqtane.Services.IThemeService.GetThemesAsync">
-  GetThemesAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Oqtane_Services_IThemeService_GetThemesAsync_System_Int32_" data-uid="Oqtane.Services.IThemeService.GetThemesAsync(System.Int32)">
+  GetThemesAsync(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a list of available themes</p>
@@ -471,9 +473,14 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;List&lt;Theme&gt;&gt; GetThemesAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;Theme&gt;&gt; GetThemesAsync(int siteId)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>siteId</code> <span class="xref">int</span></dt>
+    <dd></dd>
+  </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
@@ -495,7 +502,7 @@ Interface IThemeService  <a class="header-action link-secondary" title="View sou
 
   <h3 id="Oqtane_Services_IThemeService_UpdateThemeAsync_Oqtane_Models_Theme_" data-uid="Oqtane.Services.IThemeService.UpdateThemeAsync(Oqtane.Models.Theme)">
   UpdateThemeAsync(Theme)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/2sic-forks/oqtane.framework/blob/master/Oqtane.Client/Services/ThemeService.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Updates a existing theme</p>
