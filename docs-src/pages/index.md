@@ -1,4 +1,4 @@
-# Oqtane Documentation 6.2
+# Oqtane Documentation 10.00.04
 
 > Oqtane is _the_ **Modular Application Framework for Blazor**
 >
@@ -24,4 +24,4 @@ Happy documenting!
 
 ---
 
-Last generated: 2025-09-24 for Oqtane 6.2.0
+Last generated: 2026-02-10 for Oqtane 10.00.04
