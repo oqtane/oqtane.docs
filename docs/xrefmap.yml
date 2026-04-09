@@ -1,6 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Dev.AI.Index
+  name: Oqtane Development with AI Playbook
+  href: dev/ai/index.html
 - uid: Dev.Extensions.BestPractice.SeparateSolutions.Index
   name: 'Oqtane Dev Best Practices: Separate Solutions for Each Extension'
   href: dev/extensions/best-practices/create-solutions-for-each-extension.html
